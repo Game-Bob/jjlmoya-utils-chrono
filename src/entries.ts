@@ -12,6 +12,8 @@ export { powerReserveEstimator } from './tool/power-reserve-estimator/entry';
 export type { PowerReserveEstimatorUI, PowerReserveEstimatorLocaleContent } from './tool/power-reserve-estimator/entry';
 export { beatRateConverter } from './tool/beat-rate-converter/entry';
 export type { BeatRateConverterUI, BeatRateConverterLocaleContent } from './tool/beat-rate-converter/entry';
+export { waterResistanceConverter } from './tool/water-resistance-converter/entry';
+export type { WaterResistanceConverterUI, WaterResistanceConverterLocaleContent } from './tool/water-resistance-converter/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -21,6 +23,7 @@ import { watchSavingsPlanner } from './tool/watch-savings-planner/entry';
 import { crownReferenceGuide } from './tool/crown-reference-guide/entry';
 import { powerReserveEstimator } from './tool/power-reserve-estimator/entry';
 import { beatRateConverter } from './tool/beat-rate-converter/entry';
+import { waterResistanceConverter } from './tool/water-resistance-converter/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter];
 

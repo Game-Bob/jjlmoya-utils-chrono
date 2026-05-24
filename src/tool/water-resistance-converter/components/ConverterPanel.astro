@@ -1,0 +1,113 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="converter-panel">
+  <div class="panel-section">
+    <div class="section-label">{labels.depthLabel || "Water Resistance"}</div>
+    <div class="input-unit-group">
+      <input type="number" class="depth-input" id="depth-input" min="0" max="10000" value="30" placeholder="30" />
+      <select class="unit-select" id="unit-select">
+        <option value="m">{labels.unitMeters || "Meters (m)"}</option>
+        <option value="ft">{labels.unitFeet || "Feet (ft)"}</option>
+        <option value="atm">{labels.unitATM || "Atmospheres (ATM)"}</option>
+        <option value="bar">{labels.unitBar || "Bar (bar)"}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="conversions-card" id="conversions-card">
+    <div class="conversions-header">{labels.convertedValues || "Equivalent Ratings"}</div>
+    <div class="conversions-grid">
+      <div class="conv-item">
+        <span class="conv-label">{labels.unitMeters || "Meters"}</span>
+        <span class="conv-value" id="conv-m">30 m</span>
+      </div>
+      <div class="conv-item">
+        <span class="conv-label">{labels.unitFeet || "Feet"}</span>
+        <span class="conv-value" id="conv-ft">100 ft</span>
+      </div>
+      <div class="conv-item">
+        <span class="conv-label">{labels.unitATM || "ATM"}</span>
+        <span class="conv-value" id="conv-atm">3 ATM</span>
+      </div>
+      <div class="conv-item">
+        <span class="conv-label">{labels.unitBar || "Bar"}</span>
+        <span class="conv-value" id="conv-bar">3 bar</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rating-badge" id="rating-badge">
+    <div class="rating-label">{labels.ratingLabel || "Rating"}</div>
+    <div class="rating-name" id="rating-name">{labels.handWash || "Splash Resistant"}</div>
+  </div>
+
+  <div class="usage-cards" id="usage-cards">
+    <div class="usage-card" data-rating="handwash">
+      <div class="usage-icon">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="usage-title">{labels.handWash || "Splash Resistant"}</div>
+        <div class="usage-desc">{labels.handWashDesc || "Hand washing, rain, splashes. Not for swimming."}</div>
+      </div>
+    </div>
+    <div class="usage-card" data-rating="shower">
+      <div class="usage-icon">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="usage-title">{labels.showerSwim || "Shower & Light Swim"}</div>
+        <div class="usage-desc">{labels.showerSwimDesc || "Showering, light swimming. Not for diving."}</div>
+      </div>
+    </div>
+    <div class="usage-card" data-rating="snorkel">
+      <div class="usage-icon">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="usage-title">{labels.snorkeling || "Swimming & Snorkeling"}</div>
+        <div class="usage-desc">{labels.snorkelingDesc || "Pool swimming, snorkeling, water sports."}</div>
+      </div>
+    </div>
+    <div class="usage-card" data-rating="scuba">
+      <div class="usage-icon">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="usage-title">{labels.scubaDiving || "Recreational Scuba"}</div>
+        <div class="usage-desc">{labels.scubaDivingDesc || "Scuba diving, snorkeling, water sports."}</div>
+      </div>
+    </div>
+    <div class="usage-card" data-rating="deep">
+      <div class="usage-icon">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="usage-title">{labels.deepDiving || "Deep Diving"}</div>
+        <div class="usage-desc">{labels.deepDivingDesc || "Deep recreational diving, saturation."}</div>
+      </div>
+    </div>
+    <div class="usage-card" data-rating="extreme">
+      <div class="usage-icon">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="usage-title">{labels.saturationDiving || "Saturation Diving"}</div>
+        <div class="usage-desc">{labels.saturationDivingDesc || "Professional saturation diving. Extreme depths."}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tip-row">
+    <svg class="tip-icon" viewBox="0 0 24 24" width="16" height="16">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+    </svg>
+    <span class="tip-text">{labels.tipContent || "Water resistance degrades over time. Gaskets and seals should be tested yearly and replaced every 3\u20135 years."}</span>
+  </div>
+</div>

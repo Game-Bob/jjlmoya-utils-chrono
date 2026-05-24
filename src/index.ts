@@ -7,6 +7,7 @@ export { watchSavingsPlanner, WATCH_SAVINGS_PLANNER_TOOL } from './tool/watch-sa
 export { crownReferenceGuide, CROWN_REFERENCE_GUIDE_TOOL } from './tool/crown-reference-guide';
 export { powerReserveEstimator, POWER_RESERVE_ESTIMATOR_TOOL } from './tool/power-reserve-estimator';
 export { beatRateConverter, BEAT_RATE_CONVERTER_TOOL } from './tool/beat-rate-converter';
+export { waterResistanceConverter, WATER_RESISTANCE_CONVERTER_TOOL } from './tool/water-resistance-converter';
 
 export type {
   KnownLocale,
