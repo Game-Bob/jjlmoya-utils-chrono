@@ -1,21 +1,27 @@
-import type { ChronoCategoryEntry } from '../types';
-import { watchAccuracyTracker } from '../tool/watch-accuracy-tracker/entry';
-import { wristPresenceCalculator } from '../tool/wrist-presence-calculator/entry';
-import { demagnetizingTimer } from '../tool/demagnetizing-timer/entry';
-import { crownReferenceGuide } from '../tool/crown-reference-guide/entry';
-import { powerReserveEstimator } from '../tool/power-reserve-estimator/entry';
-import { beatRateConverter } from '../tool/beat-rate-converter/entry';
+import type { ChronoToolEntry, ToolLocaleContent } from '../../types';
 
-export const chronoCategory: ChronoCategoryEntry = {
-  icon: 'mdi:clock-outline',
-  tools: [
-    watchAccuracyTracker,
-    wristPresenceCalculator,
-    demagnetizingTimer,
-    crownReferenceGuide,
-    powerReserveEstimator,
-    beatRateConverter,
-  ],
+export type BeatRateConverterUI = {
+  title: string;
+  vphLabel: string;
+  selectMovement: string;
+  customMovement: string;
+  customVph: string;
+  resultsTitle: string;
+  frequency: string;
+  ticksPerSec: string;
+  lostTickImpact: string;
+  lostTickExplainer: string;
+  step1: string;
+  step2: string;
+  tipTitle: string;
+  tipContent: string;
+};
+
+export type BeatRateConverterLocaleContent = ToolLocaleContent<BeatRateConverterUI>;
+
+export const beatRateConverter: ChronoToolEntry<BeatRateConverterUI> = {
+  id: 'beat-rate-converter',
+  icons: { bg: 'mdi:tune-variant', fg: 'mdi:sine-wave' },
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),
     en: () => import('./i18n/en').then((m) => m.content),
@@ -34,5 +40,3 @@ export const chronoCategory: ChronoCategoryEntry = {
     zh: () => import('./i18n/zh').then((m) => m.content),
   },
 };
-
-

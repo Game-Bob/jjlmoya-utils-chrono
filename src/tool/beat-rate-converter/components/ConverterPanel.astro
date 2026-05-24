@@ -1,0 +1,87 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="converter-panel">
+  <div class="panel-section">
+    <div class="section-label">{labels.vphLabel || "Movement"}</div>
+    <select class="movement-select" id="movement-select">
+      <option value="28800" data-vph="28800">ETA 2824-2 / SW200 — 28,800 vph</option>
+      <option value="28800" data-vph="28800">ETA 2892-A2 / SW300 — 28,800 vph</option>
+      <option value="28800" data-vph="28800">Valjoux 7750 / SW500 — 28,800 vph</option>
+      <option value="21600" data-vph="21600">Miyota 8215 / 8315 — 21,600 vph</option>
+      <option value="28800" data-vph="28800">Miyota 9015 — 28,800 vph</option>
+      <option value="21600" data-vph="21600">Seiko NH35 / 4R35 — 21,600 vph</option>
+      <option value="21600" data-vph="21600">Seiko 6R35 — 21,600 vph</option>
+      <option value="18000" data-vph="18000">Unitas 6497 / 6498 — 18,000 vph</option>
+      <option value="28800" data-vph="28800">Rolex 3135 — 28,800 vph</option>
+      <option value="28800" data-vph="28800">Rolex 3235 — 28,800 vph</option>
+      <option value="25200" data-vph="25200">Omega 8500 / 8900 — 25,200 vph</option>
+      <option value="36000" data-vph="36000">Zenith El Primero 400 — 36,000 vph</option>
+      <option value="custom">{labels.customMovement || "Custom"}</option>
+    </select>
+  </div>
+
+  <div class="panel-section" id="custom-section" style="display: none;">
+    <div class="section-label">{labels.customVph || "Vibrations per hour"}</div>
+    <div class="stepper-wrap">
+      <button type="button" class="stepper-btn" data-step="1200">−1200</button>
+      <input type="number" class="stepper-input" id="vph-input" min="3600" max="360000" value="28800" />
+      <button type="button" class="stepper-btn" data-step="1200">+1200</button>
+    </div>
+  </div>
+
+  <div class="result-card" id="result-card">
+    <div class="result-grid">
+      <div class="result-item">
+        <span class="result-value" id="freq-value">4.000</span>
+        <span class="result-unit">Hz</span>
+        <span class="result-label">{labels.frequency || "Frequency"}</span>
+      </div>
+      <div class="result-divider"></div>
+      <div class="result-item">
+        <span class="result-value" id="tps-value">8</span>
+        <span class="result-unit">/s</span>
+        <span class="result-label">{labels.ticksPerSec || "Ticks per second"}</span>
+      </div>
+    </div>
+
+    <div class="impact-card">
+      <div class="impact-header">
+        <svg viewBox="0 0 24 24" width="16" height="16">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="currentColor" />
+        </svg>
+        <span>{labels.lostTickImpact || "If it loses 1 tick per hour"}</span>
+      </div>
+      <div class="impact-result">
+        <span class="impact-value" id="impact-value">3</span>
+        <span class="impact-unit">s/d</span>
+      </div>
+      <p class="impact-note" id="impact-note">
+        {labels.lostTickExplainer || "One missed tick per hour means ~3 seconds lost per day at 28,800 vph."}
+      </p>
+    </div>
+  </div>
+
+  <div class="steps-section">
+    <div class="step-row">
+      <div class="step-marker">1</div>
+      <span class="step-text">{labels.step1 || "Select your movement or enter a custom VPH."}</span>
+    </div>
+    <div class="step-row">
+      <div class="step-marker">2</div>
+      <span class="step-text">{labels.step2 || "Read the Hz frequency, ticks per second, and the impact of a lost tick."}</span>
+    </div>
+  </div>
+
+  <div class="tip-row">
+    <svg class="tip-icon" viewBox="0 0 24 24" width="16" height="16">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+    </svg>
+    <span class="tip-text">{labels.tipContent || "Higher beat rates (36,000 vph) give smoother hand sweep and better precision, but also more wear on the escapement."}</span>
+  </div>
+</div>

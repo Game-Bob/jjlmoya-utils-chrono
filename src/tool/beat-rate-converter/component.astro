@@ -1,0 +1,15 @@
+---
+import ConverterPanel from './components/ConverterPanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <ConverterPanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>
