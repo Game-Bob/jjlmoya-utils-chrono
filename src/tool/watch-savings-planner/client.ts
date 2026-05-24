@@ -28,8 +28,26 @@ const monthlyDisplay = document.getElementById('monthly-display') as HTMLElement
 const template = document.getElementById('goal-card-template') as HTMLTemplateElement;
 
 const STORAGE_KEY = 'watch-savings-goals';
-const CURRENCY = '$';
+const TIMESTAMP_KEY = 'watch-savings-timestamp';
+const CURRENCY_CODE = ui.currency || 'USD';
+const FMT = (n: number) => n.toLocaleString(undefined, { style: 'currency', currency: CURRENCY_CODE, minimumFractionDigits: 0, maximumFractionDigits: 0 });
 const confettiColors = ['#6366f1', '#22c55e', '#f59e0b', '#ef4444', '#3b82f6', '#ec4899'];
+
+function autoSimulate() {
+  const last = parseInt(localStorage.getItem(TIMESTAMP_KEY) || '0', 10);
+  const now = Date.now();
+  if (!last || goals.length === 0) { localStorage.setItem(TIMESTAMP_KEY, String(now)); return; }
+  const msPerMonth = 30.44 * 24 * 60 * 60 * 1000;
+  const monthsPassed = Math.floor((now - last) / msPerMonth);
+  if (monthsPassed < 1) return;
+  for (const g of goals) {
+    if (g.saved < g.price) {
+      g.saved = Math.min(g.saved + g.monthly * monthsPassed, g.price);
+    }
+  }
+  localStorage.setItem(TIMESTAMP_KEY, String(now));
+  saveGoals();
+}
 
 function loadGoals() {
   try {
@@ -45,12 +63,12 @@ function saveGoals() {
 }
 
 function fmt(amount: number): string {
-  if (amount >= 1000) return `${CURRENCY}${(amount / 1000).toFixed(1)}k`;
-  return `${CURRENCY}${Math.round(amount)}`;
+  if (amount >= 1000) return FMT(amount);
+  return FMT(amount);
 }
 
 function fmtFull(amount: number): string {
-  return `${CURRENCY}${amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
+  return FMT(amount);
 }
 
 function calcMonths(g: Goal): number {
@@ -61,11 +79,11 @@ function calcMonths(g: Goal): number {
 }
 
 function calcDate(months: number): string {
-  if (months === 0) return 'Now!';
+  if (months === 0) return ui.now || 'Now';
   if (!isFinite(months)) return '\u2014';
   const d = new Date();
   d.setMonth(d.getMonth() + months);
-  return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  return d.toLocaleDateString(undefined, { month: 'short', year: 'numeric' });
 }
 
 function updateSummary() {
@@ -101,7 +119,7 @@ function renderGoalCard(goal: Goal) {
   setCardText(clone, '.goal-price', fmtFull(goal.price));
   setCardText(clone, '.goal-saved', fmtFull(Math.min(goal.saved, goal.price)));
   setCardText(clone, '.goal-monthly', fmtFull(goal.monthly));
-  setCardText(clone, '.goal-date', achieved ? 'Now!' : calcDate(calcMonths(goal)));
+  setCardText(clone, '.goal-date', achieved ? (ui.now || 'Now') : calcDate(calcMonths(goal)));
 
   (clone.querySelector('.goal-ring-fill') as SVGElement).setAttribute('stroke-dashoffset', String(326.73 * (1 - percent / 100)));
   setCardText(clone, '.goal-percent', `${percent}%`);
@@ -143,77 +161,24 @@ function checkAchievements() {
   }
 }
 
-const particles: Array<{ x: number; y: number; vx: number; vy: number; color: string; life: number; maxLife: number; size: number }> = [];
-let confettiFrame: number | null = null;
-
 function celebrate() {
   const rect = goalsList.getBoundingClientRect();
-  const cx = rect.left + rect.width / 2;
-  const cy = rect.top + rect.height / 2;
-
+  const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
+  const parts = [];
   for (let i = 0; i < 60; i++) {
-    const angle = Math.random() * Math.PI * 2;
-    const speed = Math.random() * 8 + 4;
-    particles.push({
-      x: cx, y: cy,
-      vx: Math.cos(angle) * speed,
-      vy: Math.sin(angle) * speed - 3,
-      color: confettiColors[Math.floor(Math.random() * confettiColors.length)],
-      life: 0,
-      maxLife: Math.random() * 80 + 60,
-      size: Math.random() * 6 + 3,
-    });
+    const a = Math.random() * Math.PI * 2, s = Math.random() * 8 + 4;
+    parts.push({ x: cx, y: cy, vx: Math.cos(a) * s, vy: Math.sin(a) * s - 3, color: confettiColors[Math.floor(Math.random() * confettiColors.length)], life: 0, maxLife: Math.random() * 80 + 60, size: Math.random() * 6 + 3 });
   }
-
-  if (confettiFrame) cancelAnimationFrame(confettiFrame);
-  animateConfetti();
-}
-
-function drawParticles(ctx: CanvasRenderingContext2D) {
-  for (const p of particles) {
-    p.x += p.vx;
-    p.y += p.vy;
-    p.vy += 0.15;
-    p.life++;
-    const a = 1 - p.life / p.maxLife;
-    if (a <= 0) continue;
-    ctx.save();
-    ctx.globalAlpha = a;
-    ctx.fillStyle = p.color;
-    ctx.translate(p.x, p.y);
-    ctx.rotate(p.life * 0.1);
-    ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
-    ctx.restore();
-  }
-}
-
-function animateConfetti() {
   const canvas = document.createElement('canvas');
-  canvas.style.position = 'fixed';
-  canvas.style.inset = '0';
-  canvas.style.width = '100%';
-  canvas.style.height = '100%';
-  canvas.style.pointerEvents = 'none';
-  canvas.style.zIndex = '9999';
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  Object.assign(canvas.style, { position: 'fixed', inset: '0', width: '100%', height: '100%', pointerEvents: 'none', zIndex: '9999' });
+  canvas.width = innerWidth; canvas.height = innerHeight;
   document.body.appendChild(canvas);
-
   const ctx = canvas.getContext('2d')!;
-
-  function frame() {
+  (function frame() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawParticles(ctx);
-    const alive = particles.some((p) => p.life < p.maxLife);
-    if (alive) {
-      confettiFrame = requestAnimationFrame(frame);
-    } else {
-      canvas.remove();
-      confettiFrame = null;
-    }
-  }
-
-  frame();
+    for (const p of parts) { p.x += p.vx; p.y += p.vy; p.vy += 0.15; p.life++; const a = 1 - p.life / p.maxLife; if (a <= 0) continue; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = p.color; ctx.translate(p.x, p.y); ctx.rotate(p.life * 0.1); ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6); ctx.restore(); }
+    if (parts.some(p => p.life < p.maxLife)) requestAnimationFrame(frame); else canvas.remove();
+  })();
 }
 
 function deleteGoal(id: string) {
@@ -241,7 +206,7 @@ function openForm(goal?: Goal) {
   priceInput.value = String(d.price);
   savedInput.value = String(d.saved);
   monthlySlider.value = String(d.monthly);
-  monthlyDisplay.textContent = `${CURRENCY}${monthlySlider.value}`;
+  monthlyDisplay.textContent = FMT(parseInt(monthlySlider.value, 10));
   formSubmit.textContent = editingId ? ui.saveGoal || 'Save' : ui.addButton || 'Add Goal';
   form.style.display = 'block';
   triggerBtn.style.display = 'none';
@@ -264,7 +229,7 @@ function getFormValues() {
 }
 
 monthlySlider.addEventListener('input', () => {
-  monthlyDisplay.textContent = `${CURRENCY}${monthlySlider.value}`;
+  monthlyDisplay.textContent = FMT(parseInt(monthlySlider.value, 10));
 });
 
 triggerBtn.addEventListener('click', () => openForm());
@@ -290,4 +255,17 @@ formSubmit.addEventListener('click', () => {
   updateSummary();
 });
 
-loadGoals(); renderGoals(); updateSummary();
+const simBtn = document.getElementById('sim-month-btn') as HTMLButtonElement;
+if (simBtn) {
+  simBtn.addEventListener('click', () => {
+    for (const g of goals) {
+      if (g.saved < g.price) g.saved = Math.min(g.saved + g.monthly, g.price);
+    }
+    localStorage.setItem(TIMESTAMP_KEY, String(Date.now()));
+    saveGoals();
+    renderGoals();
+    updateSummary();
+  });
+}
+
+loadGoals(); autoSimulate(); renderGoals(); updateSummary();

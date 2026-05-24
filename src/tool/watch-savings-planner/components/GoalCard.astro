@@ -11,7 +11,7 @@ const { labels } = Astro.props;
     <div class="goal-header">
       <div class="goal-name-wrap">
         <span class="goal-name"></span>
-        <span class="goal-achieved-badge" style="display: none;">{labels.achieved || "Achieved"}!</span>
+        <span class="goal-achieved-badge" style="display: none;">{labels.achieved || "Achieved!"}</span>
       </div>
       <button type="button" class="goal-delete" title={labels.deleteGoal || "Delete"}>
         <svg viewBox="0 0 24 24" width="18" height="18">

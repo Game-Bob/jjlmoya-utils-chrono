@@ -33,6 +33,8 @@ export type WatchSavingsPlannerUI = {
   monthlyContribution: string;
   targetDate: string;
   adjustMonthly: string;
+  simMonth: string;
+  now: string;
 };
 
 export type WatchSavingsPlannerLocaleContent = ToolLocaleContent<WatchSavingsPlannerUI>;

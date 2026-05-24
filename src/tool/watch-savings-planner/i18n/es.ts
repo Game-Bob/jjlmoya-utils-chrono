@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     deleteGoal: 'Eliminar',
     editGoal: 'Editar',
     saveGoal: 'Guardar',
-    currency: '$',
+    currency: 'EUR',
     summaryTitle: 'Resumen',
     goalAchieved: '\u00a1Logrado!',
     goalProgress: 'Progreso',

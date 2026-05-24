@@ -74,6 +74,28 @@
   background: rgba(99, 102, 241, 0.04);
 }
 
+.sim-month-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border-base);
+  border-radius: 2rem;
+  background: var(--bg-page);
+  color: var(--text-dimmed);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-end;
+}
+
+.sim-month-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .add-goal-form {
   background: var(--bg-page);
   border: 1px solid var(--border-base);

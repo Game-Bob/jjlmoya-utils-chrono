@@ -1,5 +1,6 @@
 ---
 import AddGoalForm from './components/AddGoalForm.astro';
+import GoalCard from './components/GoalCard.astro';
 
 interface Props {
   ui: Record<string, string>;
@@ -11,7 +12,7 @@ const { ui } = Astro.props;
 <div class="tool-main-card" data-ui={JSON.stringify(ui)}>
   <div class="savings-summary" id="savings-summary">
     <div class="summary-stat">
-      <span class="summary-value" id="total-saved">$0</span>
+      <span class="summary-value" id="total-saved">0</span>
       <span class="summary-label">{ui.totalSaved || "Total Saved"}</span>
     </div>
     <div class="summary-stat">
@@ -21,6 +22,11 @@ const { ui } = Astro.props;
   </div>
 
   <AddGoalForm labels={ui} />
+  <GoalCard labels={ui} />
+  <button type="button" class="sim-month-btn" id="sim-month-btn">
+    <svg viewBox="0 0 24 24" width="14" height="14"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z" fill="currentColor"/></svg>
+    {ui.simMonth || "+1 month"}
+  </button>
   <div class="goals-list" id="goals-list"></div>
 </div>
 
