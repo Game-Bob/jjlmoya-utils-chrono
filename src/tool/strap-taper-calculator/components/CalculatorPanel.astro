@@ -1,0 +1,114 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="calculator-panel">
+  <div class="panel-section">
+    <div class="section-label">{labels.caseLabel || "Watch Dimensions"}</div>
+    <div class="input-row">
+      <div class="input-group">
+        <label class="input-label" for="case-input">{labels.caseInput || "Case diameter (mm)"}</label>
+        <div class="stepper-wrap">
+          <button type="button" class="stepper-btn" data-target="case-input" data-step="-1">−</button>
+          <input type="number" class="stepper-input" id="case-input" min="20" max="60" value="40" />
+          <button type="button" class="stepper-btn" data-target="case-input" data-step="1">+</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <label class="input-label" for="lug-input">{labels.lugInput || "Lug width (mm)"}</label>
+        <div class="stepper-wrap">
+          <button type="button" class="stepper-btn" data-target="lug-input" data-step="-1">−</button>
+          <input type="number" class="stepper-input" id="lug-input" min="10" max="30" value="20" />
+          <button type="button" class="stepper-btn" data-target="lug-input" data-step="1">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-section">
+    <div class="section-label">{labels.taperLabel || "Taper Style"}</div>
+    <div class="taper-chips" id="taper-chips">
+      <button type="button" class="taper-chip active" data-taper="straight">
+        <span class="taper-chip-label">{labels.straight || "Straight"}</span>
+        <span class="taper-chip-sub"></span>
+      </button>
+      <button type="button" class="taper-chip" data-taper="classic">
+        <span class="taper-chip-label">{labels.classic || "Classic"}</span>
+        <span class="taper-chip-sub"></span>
+      </button>
+      <button type="button" class="taper-chip" data-taper="aggressive">
+        <span class="taper-chip-label">{labels.aggressive || "Aggressive"}</span>
+        <span class="taper-chip-sub"></span>
+      </button>
+      <button type="button" class="taper-chip" data-taper="custom">
+        <span class="taper-chip-label">{labels.customTaper || "Custom"}</span>
+        <span class="taper-chip-sub"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="panel-section" id="custom-section" style="display: none;">
+    <label class="input-label" for="buckle-input">{labels.buckleWidth || "Buckle width (mm)"}</label>
+    <div class="stepper-wrap">
+      <button type="button" class="stepper-btn" data-target="buckle-input" data-step="-1">−</button>
+      <input type="number" class="stepper-input" id="buckle-input" min="6" max="30" value="16" />
+      <button type="button" class="stepper-btn" data-target="buckle-input" data-step="1">+</button>
+    </div>
+  </div>
+
+  <div class="strap-visual" id="strap-visual">
+    <svg viewBox="0 0 200 120" width="200" height="120">
+      <defs>
+        <linearGradient id="strap-gradient" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.8" />
+          <stop offset="100%" stop-color="var(--accent)" stop-opacity="0.4" />
+        </linearGradient>
+      </defs>
+      <polygon id="strap-shape" fill="url(#strap-gradient)" rx="3" />
+      <line id="strap-center" x1="100" y1="5" x2="100" y2="115" stroke="var(--border-base)" stroke-width="1" stroke-dasharray="3,3" opacity="0.4" />
+      <text id="label-lug" x="100" y="15" text-anchor="middle" fill="var(--text-base)" font-size="9" font-weight="700" opacity="0.7">20 mm</text>
+      <text id="label-buckle" x="100" y="112" text-anchor="middle" fill="var(--text-base)" font-size="9" font-weight="700" opacity="0.7">16 mm</text>
+    </svg>
+  </div>
+
+  <div class="result-card" id="result-card">
+    <div class="result-header">{labels.resultsTitle || "Proportions"}</div>
+    <div class="result-grid">
+      <div class="result-item">
+        <span class="result-value" id="result-lug">20</span>
+        <span class="result-unit">mm</span>
+        <span class="result-label">{labels.lugWidth || "Lug width"}</span>
+      </div>
+      <div class="result-item">
+        <span class="result-value" id="result-buckle">16</span>
+        <span class="result-unit">mm</span>
+        <span class="result-label">{labels.buckleWidthResult || "Buckle width"}</span>
+      </div>
+      <div class="result-item">
+        <span class="result-value" id="result-taper">4</span>
+        <span class="result-unit">mm</span>
+        <span class="result-label">{labels.taperAmount || "Taper"}</span>
+      </div>
+      <div class="result-item">
+        <span class="result-value" id="result-ratio">0.80</span>
+        <span class="result-unit">&mdash;</span>
+        <span class="result-label">{labels.taperRatio || "Ratio"}</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-label">{labels.proportionScore || "Proportion"}</span>
+      <span class="score-badge" id="score-badge">Excellent</span>
+    </div>
+  </div>
+
+  <div class="tip-row">
+    <svg class="tip-icon" viewBox="0 0 24 24" width="16" height="16">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+    </svg>
+    <span class="tip-text">{labels.noteContent || "A classic taper of 4 mm (e.g., 20 to 16 mm) suits dress watches. Divers and tool watches often look better with a straight or 2 mm taper for a robust feel."}</span>
+  </div>
+</div>

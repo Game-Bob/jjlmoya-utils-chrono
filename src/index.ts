@@ -8,6 +8,7 @@ export { crownReferenceGuide, CROWN_REFERENCE_GUIDE_TOOL } from './tool/crown-re
 export { powerReserveEstimator, POWER_RESERVE_ESTIMATOR_TOOL } from './tool/power-reserve-estimator';
 export { beatRateConverter, BEAT_RATE_CONVERTER_TOOL } from './tool/beat-rate-converter';
 export { waterResistanceConverter, WATER_RESISTANCE_CONVERTER_TOOL } from './tool/water-resistance-converter';
+export { strapTaperCalculator, STRAP_TAPER_CALCULATOR_TOOL } from './tool/strap-taper-calculator';
 
 export type {
   KnownLocale,

@@ -1,0 +1,15 @@
+---
+import CalculatorPanel from './components/CalculatorPanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <CalculatorPanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>

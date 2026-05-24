@@ -6,6 +6,7 @@ import { crownReferenceGuide } from '../tool/crown-reference-guide/entry';
 import { powerReserveEstimator } from '../tool/power-reserve-estimator/entry';
 import { beatRateConverter } from '../tool/beat-rate-converter/entry';
 import { waterResistanceConverter } from '../tool/water-resistance-converter/entry';
+import { strapTaperCalculator } from '../tool/strap-taper-calculator/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -17,6 +18,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     powerReserveEstimator,
     beatRateConverter,
     waterResistanceConverter,
+    strapTaperCalculator,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),
