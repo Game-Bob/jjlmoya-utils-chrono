@@ -1,0 +1,8 @@
+---
+import { SEORenderer } from '@jjlmoya/utils-shared';
+import { chronoCategory } from './index';
+
+const categoryContent = await chronoCategory.i18n.es?.();
+---
+
+{categoryContent && <SEORenderer content={{ locale: 'es', sections: categoryContent.seo }} />}

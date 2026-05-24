@@ -1,0 +1,66 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="log-history-section">
+  <div class="history-header">
+    <h4>{labels.historyTitle || "Measurement History"}</h4>
+    <div class="header-actions-row">
+      <button type="button" id="export-csv-btn" class="btn btn-primary btn-sm">
+        <Icon name="mdi:download-outline" width="16" height="16" />
+        Export CSV
+      </button>
+      <button type="button" id="clear-logs-btn" class="btn btn-danger btn-sm">
+        <Icon name="mdi:history" width="16" height="16" />
+        Clear All
+      </button>
+    </div>
+  </div>
+
+  <div class="chart-card-wrapper" id="chart-wrapper" style="display: none;">
+    <canvas id="drift-trend-chart"></canvas>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-box">
+      <span class="stat-label">{labels.avgRate || "Average Daily Rate"}</span>
+      <span id="avg-rate-val" class="stat-value">--</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">{labels.consistency || "Precision Status"}</span>
+      <span id="precision-status-val" class="stat-value">--</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">{labels.totalLogs || "Total Logs"}</span>
+      <span id="total-logs-val" class="stat-value">0</span>
+    </div>
+  </div>
+
+  <div id="avg-rate-explanation-box" class="explanation-box" style="display: none;">
+  </div>
+
+  <div class="table-wrapper">
+    <table class="history-table" id="logs-table">
+      <thead>
+        <tr>
+          <th>{labels.tableDate || "Date & Time"}</th>
+          <th>{labels.tableOffset || "Offset"}</th>
+          <th>{labels.tableRate || "Daily Rate"}</th>
+          <th>{labels.tableActions || "Actions"}</th>
+        </tr>
+      </thead>
+      <tbody id="logs-tbody">
+      </tbody>
+    </table>
+  </div>
+
+  <div id="no-logs-msg" class="no-logs-msg">
+    <p>{labels.noLogs || "No logs recorded for this watch yet. Add at least two logs to calculate accuracy."}</p>
+  </div>
+</div>

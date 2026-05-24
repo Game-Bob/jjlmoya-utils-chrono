@@ -46,7 +46,7 @@ export type LocaleLoader<T> = () => Promise<T>;
 
 export type LocaleMap<T> = Partial<Record<KnownLocale, LocaleLoader<T>>>;
 
-export interface EducationToolEntry<TUI extends Record<string, string> = Record<string, string>> {
+export interface ChronoToolEntry<TUI extends Record<string, string> = Record<string, string>> {
   id: string;
   icons: {
     bg: string;
@@ -55,14 +55,14 @@ export interface EducationToolEntry<TUI extends Record<string, string> = Record<
   i18n: LocaleMap<ToolLocaleContent<TUI>>;
 }
 
-export interface EducationCategoryEntry {
+export interface ChronoCategoryEntry {
   icon: string;
-  tools: EducationToolEntry[];
+  tools: ChronoToolEntry[];
   i18n: LocaleMap<CategoryLocaleContent>;
 }
 
 export interface ToolDefinition {
-  entry: EducationToolEntry;
+  entry: ChronoToolEntry;
   Component: unknown;
   SEOComponent: unknown;
   BibliographyComponent: unknown;

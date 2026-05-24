@@ -1,0 +1,126 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="drift-predictor-section">
+  <div class="predictor-grid">
+    <div class="input-section">
+      <label class="control-label" for="drift-rate-input">
+        {labels.dailyRateInput || "Daily Rate Deviation (seconds/day)"}
+      </label>
+      <div class="input-with-unit">
+        <input
+          type="number"
+          id="drift-rate-input"
+          class="form-control"
+          placeholder={labels.dailyRatePlaceholder || "e.g. +4.5 or -3"}
+          step="any"
+          value="0"
+        />
+        <span class="unit-badge">{labels.secondsPerDay || "s/d"}</span>
+      </div>
+      <div class="presets-container">
+        <button type="button" class="preset-btn" data-value="2.0">{labels.presetRolex || "Rolex (+2 s/d)"}</button>
+        <button type="button" class="preset-btn" data-value="4.0">{labels.presetCosc || "COSC (+4 s/d)"}</button>
+        <button type="button" class="preset-btn" data-value="15.0">{labels.presetStdMech || "Standard (+15 s/d)"}</button>
+        <button type="button" class="preset-btn" data-value="0.5">{labels.presetQuartz || "Quartz (+0.5 s/d)"}</button>
+      </div>
+    </div>
+
+    <div class="projections-section">
+      <h4>{labels.driftHeading || "Projections"}</h4>
+      <div class="projection-table-wrapper">
+        <table class="projection-table">
+          <thead>
+            <tr>
+              <th>{labels.period || "Period"}</th>
+              <th>{labels.accumulatedDrift || "Projected Drift"}</th>
+            </tr>
+          </thead>
+          <tbody id="projection-tbody">
+            <tr data-days="1">
+              <td>{labels.day || "1 Day"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+            <tr data-days="7">
+              <td>{labels.week || "1 Week"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+            <tr data-days="30">
+              <td>{labels.month || "1 Month"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+            <tr data-days="90">
+              <td>{labels.months3 || "3 Months"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+            <tr data-days="180">
+              <td>{labels.months6 || "6 Months"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+            <tr data-days="365">
+              <td>{labels.year || "1 Year"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+            <tr data-days="1825">
+              <td>{labels.years5 || "5 Years"}</td>
+              <td class="drift-val" data-val="0">0.0s</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="standards-section">
+    <h4>{labels.watchStandardTitle || "Standards Certification"}</h4>
+    <div class="standards-grid">
+      <div class="standard-card" id-std="rolex" data-min="-2" data-max="2">
+        <div class="std-header">
+          <span class="std-name">{labels.stdRolex || "Rolex Superlative"}</span>
+          <span class="std-status"></span>
+        </div>
+        <span class="std-tolerance">{labels.toleranceRolex || "±2 s/d"}</span>
+      </div>
+      <div class="standard-card" id-std="cosc" data-min="-4" data-max="6">
+        <div class="std-header">
+          <span class="std-name">{labels.stdCosc || "COSC Chronometer"}</span>
+          <span class="std-status"></span>
+        </div>
+        <span class="std-tolerance">{labels.toleranceCosc || "-4 / +6 s/d"}</span>
+      </div>
+      <div class="standard-card" id-std="metas" data-min="0" data-max="5">
+        <div class="std-header">
+          <span class="std-name">{labels.stdMetas || "METAS Master"}</span>
+          <span class="std-status"></span>
+        </div>
+        <span class="std-tolerance">{labels.toleranceMetas || "0 / +5 s/d"}</span>
+      </div>
+      <div class="standard-card" id-std="standard-mech" data-min="-15" data-max="25">
+        <div class="std-header">
+          <span class="std-name">{labels.stdStdMech || "Standard Mechanical"}</span>
+          <span class="std-status"></span>
+        </div>
+        <span class="std-tolerance">{labels.toleranceStdMech || "±15 s/d"}</span>
+      </div>
+      <div class="standard-card" id-std="quartz" data-min="-0.5" data-max="0.5">
+        <div class="std-header">
+          <span class="std-name">{labels.stdQuartz || "Standard Quartz"}</span>
+          <span class="std-status"></span>
+        </div>
+        <span class="std-tolerance">{labels.toleranceQuartz || "±0.5 s/d"}</span>
+      </div>
+      <div class="standard-card" id-std="haq" data-min="-0.027" data-max="0.027">
+        <div class="std-header">
+          <span class="std-name">{labels.stdHaq || "High-Precision Quartz"}</span>
+          <span class="std-status"></span>
+        </div>
+        <span class="std-tolerance">{labels.toleranceHaq || "±10 s/year"}</span>
+      </div>
+    </div>
+  </div>
+</div>

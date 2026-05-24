@@ -1,11 +1,11 @@
-export { educationCategory } from './category';
+export { chronoCategory } from './category';
 
 export type {
   KnownLocale,
   ToolLocaleContent,
   CategoryLocaleContent,
   LocaleMap,
-  EducationToolEntry,
-  EducationCategoryEntry,
+  ChronoToolEntry,
+  ChronoCategoryEntry,
 } from './types';
 

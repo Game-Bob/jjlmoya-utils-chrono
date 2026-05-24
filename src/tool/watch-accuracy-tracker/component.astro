@@ -1,0 +1,35 @@
+---
+import DriftPredictor from './components/DriftPredictor.astro';
+import AccuracyTracker from './components/AccuracyTracker.astro';
+import LogHistory from './components/LogHistory.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <div class="tabs-header">
+    <button type="button" class="tab-btn active" data-tab="drift-tab">
+      {ui.driftCalculatorTab || "Drift Predictor"}
+    </button>
+    <button type="button" class="tab-btn" data-tab="tracker-tab">
+      {ui.trackerTab || "Rate Logger"}
+    </button>
+  </div>
+
+  <div class="tab-content active" id="drift-tab">
+    <DriftPredictor labels={ui} />
+  </div>
+
+  <div class="tab-content" id="tracker-tab">
+    <div class="tracker-layout">
+      <AccuracyTracker labels={ui} />
+      <LogHistory labels={ui} />
+    </div>
+  </div>
+</div>
+
+<script src="./client.ts"></script>

@@ -1,0 +1,96 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="accuracy-tracker-section">
+  <div class="watch-selection-panel">
+    <div class="select-group">
+      <label class="control-label" for="watch-selector">
+        {labels.selectWatch || "Select Watch"}
+      </label>
+      <div class="watch-row-controls">
+        <select id="watch-selector" class="form-control">
+          <option value="">-- {labels.selectWatch || "Select Watch"} --</option>
+        </select>
+        <button type="button" id="delete-watch-btn" class="btn btn-danger" title={labels.deleteWatch || "Delete Watch"}>
+          <Icon name="mdi:trash-can-outline" width="18" height="18" />
+        </button>
+      </div>
+    </div>
+
+    <div class="add-watch-group">
+      <div class="input-with-button">
+        <input
+          type="text"
+          id="new-watch-name"
+          class="form-control"
+          placeholder={labels.watchPlaceholder || "e.g. Seiko SKX007"}
+        />
+        <button type="button" id="add-watch-btn" class="btn btn-primary">
+          <Icon name="mdi:plus" width="18" height="18" />
+          {labels.addWatch || "Add"}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="log-form-section" class="log-form-section disabled-form">
+    <h4>{labels.addLog || "Log New Measurement"}</h4>
+    <div class="form-grid">
+      <div class="input-group">
+        <label class="control-label" for="offset-input">
+          {labels.offsetLabel || "Offset (seconds)"}
+        </label>
+        <input
+          type="number"
+          id="offset-input"
+          class="form-control"
+          placeholder={labels.offsetPlaceholder || "0"}
+          step="any"
+        />
+      </div>
+
+      <div class="input-group">
+        <label class="control-label" for="position-selector">
+          {labels.positionLabel || "Rest Position"}
+        </label>
+        <select id="position-selector" class="form-control">
+          <option value="">-- None --</option>
+          <option value="DU">Dial Up (DU)</option>
+          <option value="DD">Dial Down (DD)</option>
+          <option value="CU">Crown Up (CU)</option>
+          <option value="CD">Crown Down (CD)</option>
+          <option value="CL">Crown Left (CL)</option>
+          <option value="CR">Crown Right (CR)</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <div class="label-row">
+          <label class="control-label" for="measurement-date">
+            {labels.dateLabel || "Measurement Time"}
+          </label>
+          <button type="button" id="use-current-time-btn" class="btn-text">
+            {labels.useCurrentTime || "Use Current Time"}
+          </button>
+        </div>
+        <input
+          type="datetime-local"
+          id="measurement-date"
+          class="form-control"
+        />
+      </div>
+    </div>
+
+    <button type="button" id="save-log-btn" class="btn btn-success btn-full">
+      <Icon name="mdi:content-save-outline" width="18" height="18" />
+      {labels.saveLog || "Save Log"}
+    </button>
+  </div>
+</div>

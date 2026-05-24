@@ -1,12 +1,7 @@
-export { educationCategory } from './category';
-export const educationCategorySEO = () => import('./category/EducationCategorySEO.astro').then((m) => m.default);
+export { chronoCategory } from './category';
+export const chronoCategorySEO = () => import('./category/ChronoCategorySEO.astro').then((m) => m.default);
 
-export { weightedGradeCalculator, WEIGHTED_GRADE_CALCULATOR_TOOL } from './tool/weighted-grade-calculator';
-export { citationGenerator, CITATION_GENERATOR_TOOL } from './tool/citation-generator';
-export { pomodoroFlow, POMODORO_FLOW_TOOL } from './tool/pomodoro-flow';
-export { internationalGradeConverter, INTERNATIONAL_GRADE_CONVERTER_TOOL } from './tool/international-grade-converter';
-export { examCountdownSessionPredictor, EXAM_COUNTDOWN_SESSION_PREDICTOR_TOOL } from './tool/exam-countdown-session-predictor';
-
+export { watchAccuracyTracker, WATCH_ACCURACY_TRACKER_TOOL } from './tool/watch-accuracy-tracker';
 
 export type {
   KnownLocale,
@@ -17,8 +12,8 @@ export type {
   CategoryLocaleContent,
   LocaleLoader,
   LocaleMap,
-  EducationToolEntry,
-  EducationCategoryEntry,
+  ChronoToolEntry,
+  ChronoCategoryEntry,
   ToolDefinition,
 } from './types';
 
