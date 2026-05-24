@@ -21,12 +21,12 @@ function round(v: number): number {
 }
 
 function getRating(m: number): { name: string; active: string } {
-  if (m < 20) return { name: 'Splash Resistant', active: 'handwash' };
-  if (m < 70) return { name: 'Shower & Light Swim', active: 'shower' };
-  if (m < 150) return { name: 'Swimming & Snorkeling', active: 'snorkel' };
-  if (m < 250) return { name: 'Recreational Scuba', active: 'scuba' };
-  if (m < 500) return { name: 'Deep Diving', active: 'deep' };
-  return { name: 'Saturation Diving', active: 'extreme' };
+  if (m < 30) return { name: 'Not Water Resistant', active: 'none' };
+  if (m < 50) return { name: 'Splash Resistant', active: 'handwash' };
+  if (m < 100) return { name: 'Shower & Surface Swim', active: 'shower' };
+  if (m < 200) return { name: 'Swimming & Snorkeling', active: 'snorkel' };
+  if (m < 500) return { name: 'Recreational Scuba', active: 'scuba' };
+  return { name: 'Deep / Saturation Diving', active: 'extreme' };
 }
 
 function update() {
