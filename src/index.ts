@@ -2,6 +2,7 @@ export { chronoCategory } from './category';
 export const chronoCategorySEO = () => import('./category/ChronoCategorySEO.astro').then((m) => m.default);
 
 export { watchAccuracyTracker, WATCH_ACCURACY_TRACKER_TOOL } from './tool/watch-accuracy-tracker';
+export { demagnetizingTimer, DEMAGNETIZING_TIMER_TOOL } from './tool/demagnetizing-timer';
 
 export type {
   KnownLocale,

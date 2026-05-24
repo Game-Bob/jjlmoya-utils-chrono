@@ -1,0 +1,15 @@
+---
+import TimerPanel from './components/TimerPanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <TimerPanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>
