@@ -4,6 +4,7 @@ export const chronoCategorySEO = () => import('./category/ChronoCategorySEO.astr
 export { watchAccuracyTracker, WATCH_ACCURACY_TRACKER_TOOL } from './tool/watch-accuracy-tracker';
 export { demagnetizingTimer, DEMAGNETIZING_TIMER_TOOL } from './tool/demagnetizing-timer';
 export { watchSavingsPlanner, WATCH_SAVINGS_PLANNER_TOOL } from './tool/watch-savings-planner';
+export { crownReferenceGuide, CROWN_REFERENCE_GUIDE_TOOL } from './tool/crown-reference-guide';
 
 export type {
   KnownLocale,

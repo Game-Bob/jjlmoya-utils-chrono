@@ -1,0 +1,59 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="position-panel" id="position-panel">
+  <div class="panel-header">
+    <div class="position-indicator" id="position-indicator">
+      <span class="position-badge" id="position-badge">0</span>
+      <span class="position-name" id="position-name">{labels.position0Title || "Resting"}</span>
+    </div>
+    <div class="position-controls">
+      <button type="button" class="pull-btn" id="pull-btn" title={labels.pullHint || "Pull crown"}>
+        <svg viewBox="0 0 24 24" width="22" height="22">
+          <path d="M12 5.83L15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z" fill="currentColor" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <div class="panel-section">
+      <p class="panel-desc" id="panel-desc">{labels.position0Desc || "Crown is pushed in. Watch runs normally."}</p>
+      <p class="panel-detail" id="panel-detail">{labels.position0Detail || "No winding or setting functions are engaged."}</p>
+    </div>
+
+    <div class="panel-attributes" id="panel-attributes">
+      <div class="attribute-row" id="attr-winding">
+        <span class="attr-icon">
+          <svg viewBox="0 0 24 24" width="16" height="16">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm6 10c0 3.31-2.69 6-6 6s-6-2.69-6-6 2.69-6 6-6 6 2.69 6 6z" fill="currentColor" />
+            <circle cx="12" cy="12" r="2" fill="currentColor" />
+          </svg>
+        </span>
+        <span class="attr-label">{labels.windingLabel || "Winding"}:</span>
+        <span class="attr-value" id="attr-winding-value">&mdash;</span>
+      </div>
+      <div class="attribute-row" id="attr-hack">
+        <span class="attr-icon">
+          <svg viewBox="0 0 24 24" width="16" height="16">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="currentColor" />
+          </svg>
+        </span>
+        <span class="attr-label">{labels.hackLabel || "Hack"}:</span>
+        <span class="attr-value" id="attr-hack-value">&mdash;</span>
+      </div>
+    </div>
+
+    <div class="panel-note" id="panel-note" style="display: none;">
+      <svg viewBox="0 0 24 24" width="16" height="16">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+      </svg>
+      <span id="panel-note-text"></span>
+    </div>
+  </div>
+</div>
