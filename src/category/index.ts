@@ -3,6 +3,7 @@ import { watchAccuracyTracker } from '../tool/watch-accuracy-tracker/entry';
 import { wristPresenceCalculator } from '../tool/wrist-presence-calculator/entry';
 import { demagnetizingTimer } from '../tool/demagnetizing-timer/entry';
 import { crownReferenceGuide } from '../tool/crown-reference-guide/entry';
+import { powerReserveEstimator } from '../tool/power-reserve-estimator/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -11,6 +12,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     wristPresenceCalculator,
     demagnetizingTimer,
     crownReferenceGuide,
+    powerReserveEstimator,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

@@ -1,0 +1,15 @@
+---
+import EstimatorPanel from './components/EstimatorPanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <EstimatorPanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>
