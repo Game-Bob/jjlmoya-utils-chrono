@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Ganggenauigkeit & Gangabweichung von Uhren Berechnen',
   description: 'Protokollieren und berechnen Sie die tägliche Gangabweichung Ihrer mechanischen Uhren oder Quarzuhren, um deren Präzision und Konstanz zu analysieren.',
   ui: {
-    faqTitle: 'Häufig gestellte Fragen (FAQ)',
-    bibliographyTitle: 'Literatur & Ressourcen',
     title: 'Uhrenpräzisionsrechner',
     selectWatch: 'Uhr auswählen oder hinzufügen',
     watchPlaceholder: 'z. B. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Die Schwerkraft zieht die Unruh und die Spiralfeder unterschiedlich stark an, je nachdem, ob die Uhr flach liegt (Zifferblatt oben/unten) oder seitlich steht (Krone oben/unten). Diese Lagenabweichungen führen zu leichten Veränderungen der Amplitude und damit der Ganggeschwindigkeit.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Offizielle Standards des Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Regulierung und Genauigkeit mechanischer Uhrwerke',
-      url: 'https://de.wikipedia.org/wiki/Mechanische_Uhr',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Startwert aufzeichnen',

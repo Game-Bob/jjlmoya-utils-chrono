@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Klocka Precision & Gångavvikelse Kalkylator',
   description: 'Logga och beräkna den dagliga tidsskillnaden för dina mekaniska klockor eller kvartsklockor för att analysera precision och stabilitet.',
   ui: {
-    faqTitle: 'Vanliga Frågor',
-    bibliographyTitle: 'Källor & Resurser',
     title: 'Klockprecision',
     selectWatch: 'Välj eller lägg till en klocka',
     watchPlaceholder: 't.ex. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Gravitationskraften drar i balanshjulet och balansspiralen olika beroende på om klockan ligger plant (urtavla uppåt/nedåt) eller står på sidan (krona uppåt/nedåt). Detta orsakar små förändringar i amplituden och därmed gånghastigheten.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Officiella standarder för Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Reglering och funktion hos mekaniska urverk',
-      url: 'https://sv.wikipedia.org/wiki/Mekaniskt_ur',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Registrera startvärde',

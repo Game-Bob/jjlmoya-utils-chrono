@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: '手表精度追踪与记录器',
   description: '记录并计算您的机械表或石英表每日误差（日差），以分析其精度和稳定性。',
   ui: {
-    faqTitle: '常见问题',
-    bibliographyTitle: '参考文献与资源',
     title: '手表精度追踪器',
     selectWatch: '选择或添加手表',
     watchPlaceholder: '例如：精工 SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: '当地表正面朝上、朝下、表冠朝上或朝下时，重力对摆轮和游丝的牵引力是不同的。这种方位差会导致手表摆幅和走时快慢产生细微的变化。',
     },
   ],
-  bibliography: [
-    {
-      name: '瑞士官方天文台检测机构 (COSC) 标准',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: '深入了解机械表的调校与精度 (维基百科)',
-      url: 'https://en.wikipedia.org/wiki/Mechanical_watch',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: '记录初始状态',

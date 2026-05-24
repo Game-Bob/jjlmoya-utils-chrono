@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Saat Hassasiyeti ve Günlük Sapma Hesaplama',
   description: 'Mekanik veya kuvars saatlerinizin hassasiyetini ve kararlılığını analiz etmek için günlük zaman sapmasını kaydedin ve hesaplayın.',
   ui: {
-    faqTitle: 'Sıkça Sorulan Sorular',
-    bibliographyTitle: 'Kaynakça ve Kaynaklar',
     title: 'Saat Hassasiyeti',
     selectWatch: 'Bir saat seçin veya ekleyin',
     watchPlaceholder: 'örn. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Yerçekimi kuvveti, saatin duruş şekline (kadran yukarıda/aşağıda veya kurma kolu yukarıda/aşağıda) bağlı olarak balans çarkını ve balans yayını farklı şekillerde çeker. Bu durum genlikte ve çalışma hızında küçük değişikliklere neden olur.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Contrôle Officiel Suisse des Chronomètres (COSC) Resmi Standartları',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Mekanik Saatlerin Çalışması ve Ayarlanması',
-      url: 'https://tr.wikipedia.org/wiki/Mekanik_saat',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Başlangıç Değerini Kaydedin',

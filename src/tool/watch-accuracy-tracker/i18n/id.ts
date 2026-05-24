@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Pelacak & Pencatat Akurasi Jam Tangan',
   description: 'Catat dan hitung deviasi harian jam tangan mekanis atau kuarsa Anda untuk menganalisis presisi dan konsistensinya.',
   ui: {
-    faqTitle: 'Pertanyaan yang Sering Diajukan',
-    bibliographyTitle: 'Daftar Pustaka & Referensi',
     title: 'Pelacak Akurasi Jam Tangan',
     selectWatch: 'Pilih atau Tambah Jam Tangan',
     watchPlaceholder: 'mis. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Gravitasi menarik balance wheel dan hairspring secara berbeda saat jam tangan menghadap ke atas, menghadap ke bawah, crown di atas, atau crown di bawah. Variasi posisi ini menyebabkan sedikit perbedaan pada amplitudo dan akurasi harian.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Standar Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Memahami Regulasi dan Akurasi Jam Tangan Mekanis',
-      url: 'https://en.wikipedia.org/wiki/Mechanical_watch',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Catat Kondisi Awal',

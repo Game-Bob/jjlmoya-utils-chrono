@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Calcolatore di Precisione di Marcia e Scarto dell\'Orologio',
   description: 'Registra e calcola la deviazione giornaliera dei tuoi orologi meccanici o al quarzo per analizzarne la precisione e la costanza.',
   ui: {
-    faqTitle: 'Domande Frequenti',
-    bibliographyTitle: 'Bibliografia & Risorse',
     title: 'Precisione dell\'Orologio',
     selectWatch: 'Seleziona o aggiungi un orologio',
     watchPlaceholder: 'es. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'La gravità terrestre esercita una forza sul bilanciere e sulla spirale in modo differente se il quadrante è rivolto verso l\'alto, verso il basso o se la corona è poggiata sul fianco. Questa variazione posizionale causa leggere differenze nell\'ampiezza e nella marcia dell\'orologio.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Standard Ufficiali del Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Regolazione e Scarto negli Orologi Meccanici',
-      url: 'https://it.wikipedia.org/wiki/Orologio_meccanico',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Registrare lo Stato Iniziale',

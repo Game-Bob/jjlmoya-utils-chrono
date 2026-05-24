@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Calculadora de Precisão de Marcha e Desvio de Relógio',
   description: 'Registe e calcule o desvio diário dos seus relógios mecânicos ou de quartzo para analisar a sua precisão e consistência.',
   ui: {
-    faqTitle: 'Perguntas Frequentes',
-    bibliographyTitle: 'Bibliografia & Recursos',
     title: 'Precisão do Relógio',
     selectWatch: 'Selecionar ou adicionar um relógio',
     watchPlaceholder: 'ex. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'A gravidade exerce força sobre o balanço e a espiral de modo diferente conforme o mostrador está virado para cima, para baixo ou se a coroa descansa de lado. Esta variação posicional causa ligeiras diferenças na amplitude e na marcha do relógio.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Padrões Oficiais do Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Regulação e Funcionamento de Relógios Mecânicos',
-      url: 'https://pt.wikipedia.org/wiki/Rel%C3%B3gio_mec%C3%A2nico',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Registar Estado Inicial',

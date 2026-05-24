@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Calculadora de Precisión de Marcha y Desviación del Reloj',
   description: 'Registra y calcula la desviación diaria de tus relojes mecánicos o de cuarzo para analizar su precisión y constancia.',
   ui: {
-    faqTitle: 'Preguntas Frecuentes',
-    bibliographyTitle: 'Bibliografía y Recursos',
     title: 'Precisión del Reloj',
     selectWatch: 'Seleccionar o añadir un reloj',
     watchPlaceholder: 'ej. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'La gravedad de la Tierra ejerce fuerza sobre el volante y la espiral de forma distinta si la esfera está arriba, abajo o si la corona descansa hacia un lado. Esta variación posicional provoca ligeras diferencias en la amplitud de oscilación y la tasa de marcha.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Estándares Oficiales del Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Regulación y Precisión en Relojes Mecánicos',
-      url: 'https://es.wikipedia.org/wiki/Reloj_mec%C3%A1nico',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Registrar Estado Inicial',

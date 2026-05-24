@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Kalkulator Dokładności i Odchyłki Dobowej Zegarka',
   description: 'Rejestruj i obliczaj dobową odchyłkę chodu swoich zegarków mechanicznych lub kwarcowych, aby analizować ich precyzję i spójność.',
   ui: {
-    faqTitle: 'Często Zadawane Pytania',
-    bibliographyTitle: 'Bibliografia i Źródła',
     title: 'Dokładność Zegarka',
     selectWatch: 'Wybierz lub dodaj zegarek',
     watchPlaceholder: 'np. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Grawitacja ziemska działa na balans i włos w inny sposób zależnie od tego, czy zegarek leży płasko (tarczą do góry/do dołu), czy stoi pionowo (koronką w dół/w górę). Różnice te wpływają na amplitudę wahań i prędkość chodu mechanizmu.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Oficjalne Standardy Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Regulacja i precyzja działania zegarków mechanicznych',
-      url: 'https://pl.wikipedia.org/wiki/Zegarek_mechaniczny',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Zarejestruj stan początkowy',

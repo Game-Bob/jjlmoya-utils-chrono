@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: '시계 오차 측정기 및 기록기',
   description: '기계식 또는 쿼츠 시계의 일오차를 기록하고 계산하여 정밀도와 일관성을 분석합니다.',
   ui: {
-    faqTitle: '자주 묻는 질문',
-    bibliographyTitle: '참고 문헌 및 리소스',
     title: '시계 오차 측정기',
     selectWatch: '시계 선택 또는 추가',
     watchPlaceholder: '예: 세이코 SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: '시계가 하늘을 향하는지, 바닥을 향하는지, 용두가 위나 아래로 향하는지에 따라 밸런스 휠과 헤어스프링에 작용하는 중력의 영향이 달라집니다. 이 자세차로 인해 진동각과 오차에 미세한 변화가 생깁니다.',
     },
   ],
-  bibliography: [
-    {
-      name: '스위스 크로노미터 공식 검정기관 (COSC) 표준',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: '기계식 시계의 조정 및 정밀도 이해 (Wikipedia)',
-      url: 'https://en.wikipedia.org/wiki/Mechanical_watch',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: '초기 상태 기록',

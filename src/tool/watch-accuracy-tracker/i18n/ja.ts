@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: '腕時計精度トラッカー＆ロガー',
   description: '機械式またはクォーツ式腕時計の日差（歩度）のズレを記録・計算し、精度と安定性を分析します。',
   ui: {
-    faqTitle: 'よくある質問',
-    bibliographyTitle: '参考文献とリソース',
     title: '腕時計精度トラッカー',
     selectWatch: '腕時計を選択または追加',
     watchPlaceholder: '例：セイコー SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: '時計が文字盤上、文字盤下、リューズ上、リューズ下のいずれの状態にあるかによって、テンプやヒゲゼンマイにかかる重力の方向が変化します。この姿勢差が振り角や歩度にわずかな影響を与えます。',
     },
   ],
-  bibliography: [
-    {
-      name: 'スイス公認クロノメーター検定協会（COSC）規格',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: '機械式時計の調整と精度について（Wikipedia）',
-      url: 'https://en.wikipedia.org/wiki/Mechanical_watch',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: '初期状態の記録',

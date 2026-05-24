@@ -1,0 +1,68 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="results-wrapper">
+  <div class="results-section">
+    <div class="section-header">
+      <h3>{labels.fitAnalysisTitle || "Wrist Fit Assessment"}</h3>
+    </div>
+
+    <div class="metrics-summary-grid">
+      <div class="metric-box">
+        <span class="metric-lbl">{labels.caseWristRatioLabel || "Case-to-Wrist Ratio"}</span>
+        <span class="metric-val" id="ratio-value">4.25</span>
+        <span class="verdict-badge verdict-golden" id="ratio-verdict-badge">Golden Fit</span>
+      </div>
+
+      <div class="metric-box">
+        <span class="metric-lbl">{labels.wristCoverageLabel || "Wrist Lug Coverage"}</span>
+        <span class="metric-val" id="coverage-value">92%</span>
+        <span class="verdict-badge coverage-bold" id="coverage-verdict-badge">Bold Coverage</span>
+      </div>
+    </div>
+
+    <div class="verdict-box" id="verdict-description">
+      <strong>Rolex Superlative Fit:</strong> Loading recommendation...
+    </div>
+  </div>
+
+  <div class="recommendations-section">
+    <div class="section-header">
+      <h3>{labels.idealSizesTitle || "Ideal Sizing Guidelines"}</h3>
+    </div>
+
+    <div class="recommendations-table-wrapper">
+      <table class="recommendations-table">
+        <thead>
+          <tr>
+            <th>{labels.sweetSpotTitle || "Fit Style"}</th>
+            <th>{labels.caseDiameterLabel || "Case Diameter"}</th>
+            <th>{labels.lugToLugLabel || "Max Lug-to-Lug"}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rec-target">{labels.minClassicLabel || "Vintage / Classic Fit"}</td>
+            <td class="rec-value" id="rec-classic-case">34.0 mm</td>
+            <td class="rec-value" id="rec-classic-lug">51.0 mm</td>
+          </tr>
+          <tr>
+            <td class="rec-target">{labels.sweetSpotLabel || "Aesthetic Sweet Spot"}</td>
+            <td class="rec-value" id="rec-sweet-case">37.8 mm</td>
+            <td class="rec-value" id="rec-sweet-lug">51.0 mm</td>
+          </tr>
+          <tr>
+            <td class="rec-target">{labels.maxBoldLabel || "Modern / Bold Fit"}</td>
+            <td class="rec-value" id="rec-bold-case">42.5 mm</td>
+            <td class="rec-value" id="rec-bold-lug">51.0 mm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

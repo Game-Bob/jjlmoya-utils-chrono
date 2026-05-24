@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Calculateur d\'Écart de Marche et Précision de Montre',
   description: 'Enregistrez et calculez la dérive quotidienne de vos montres mécaniques ou à quartz pour analyser leur précision et leur régularité.',
   ui: {
-    faqTitle: 'Foire Aux Questions',
-    bibliographyTitle: 'Bibliographie & Ressources',
     title: 'Précision de la Montre',
     selectWatch: 'Sélectionner ou ajouter une montre',
     watchPlaceholder: 'ex. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'La gravité terrestre influe directement sur le balancier et le spiral selon que le cadran est orienté vers le haut, le bas, ou que la couronne est orientée sur le côté. Cette variation de position crée des frottements différents qui font varier l\'amplitude et la marche de la montre.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Normes Officielles du Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Régulation et Fonctionnement des Montres Mécaniques',
-      url: 'https://fr.wikipedia.org/wiki/Montre_m%C3%A9canique',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Enregistrer l\'état initial',

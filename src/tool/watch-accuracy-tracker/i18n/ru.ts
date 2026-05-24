@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Калькулятор Точности Хода и Погрешности Часов',
   description: 'Записывайте и рассчитывайте суточную погрешность хода ваших механических или кварцевых часов для анализа их точности и стабильности.',
   ui: {
-    faqTitle: 'Часто Задаваемые Вопросы',
-    bibliographyTitle: 'Источники и Ресурсы',
     title: 'Точность Хода Часов',
     selectWatch: 'Выбрать или добавить часы',
     watchPlaceholder: 'например, Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Земное притяжение воздействует на баланс и спираль по-разному, когда циферблат направлен вверх, вниз или когда часы лежат на боку. Различие в силе трения деталей в разных положениях приводит к небольшим изменениям амплитуды колебаний баланса и скорости хода.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Официальные стандарты Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Регулировка и точность работы механических часов',
-      url: 'https://ru.wikipedia.org/wiki/Механические_часы',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Записать начальное состояние',

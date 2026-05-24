@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Watch Accuracy Tracker & Logger',
   description: 'Log and calculate the daily rate deviation of your mechanical or quartz watches to analyze precision and consistency.',
   ui: {
-    faqTitle: 'Frequently Asked Questions',
-    bibliographyTitle: 'Bibliography & Resources',
     title: 'Watch Accuracy Tracker',
     selectWatch: 'Select or Add a Watch',
     watchPlaceholder: 'e.g. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'Gravity pulls on the balance wheel and hairspring differently when the watch is face up, face down, crown up, or crown down. This positional variation causes slight differences in amplitude and rate.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Contrôle Officiel Suisse des Chronomètres (COSC) Standards',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Understanding Mechanical Watch Regulation and Accuracy',
-      url: 'https://en.wikipedia.org/wiki/Mechanical_watch',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Record Initial State',

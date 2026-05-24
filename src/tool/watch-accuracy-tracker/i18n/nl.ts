@@ -1,3 +1,4 @@
+import { bibliography } from '../bibliography';
 import type { ToolLocaleContent } from '../../../types';
 
 export const content: ToolLocaleContent = {
@@ -5,8 +6,6 @@ export const content: ToolLocaleContent = {
   title: 'Horloge Nauwkeurigheid & Gangafwijking Berekenen',
   description: 'Registreer en bereken de dagelijkse gangafwijking van uw mechanische of quartzhorloges om de precisie en consistentie te analyseren.',
   ui: {
-    faqTitle: 'Veelgestelde Vragen',
-    bibliographyTitle: 'Bibliografie & Bronnen',
     title: 'Horloge Nauwkeurigheid',
     selectWatch: 'Selecteer of voeg een horloge toe',
     watchPlaceholder: 'bijv. Seiko SKX007',
@@ -96,16 +95,7 @@ export const content: ToolLocaleContent = {
       answer: 'De zwaartekracht trekt op verschillende manieren aan het balanswiel en de spiraalveer, afhankelijk van of het horloge plat ligt (wijzerplaat omhoog/omlaag) of rechtop staat (kroon omhoog/omlaag). Dit veroorzaakt lichte variaties in de amplitude en dus in de loopsnelheid.',
     },
   ],
-  bibliography: [
-    {
-      name: 'Officiële Standaarden van het Contrôle Officiel Suisse des Chronomètres (COSC)',
-      url: 'https://www.cosc.swiss/en',
-    },
-    {
-      name: 'Regulatie en Nauwkeurigheid van Mechanische Uurwerken',
-      url: 'https://nl.wikipedia.org/wiki/Horloge',
-    },
-  ],
+  bibliography,
   howTo: [
     {
       name: 'Startwaarde vastleggen',

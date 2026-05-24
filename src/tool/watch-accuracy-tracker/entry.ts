@@ -1,8 +1,6 @@
 import type { ChronoToolEntry, ToolLocaleContent } from '../../types';
 
 export type WatchAccuracyTrackerUI = {
-  faqTitle: string;
-  bibliographyTitle: string;
   title: string;
   selectWatch: string;
   watchPlaceholder: string;
