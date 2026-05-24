@@ -1,23 +1,23 @@
 import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horology';
-const title = 'Horology Tools & Accuracy Calculators';
-const description = 'Monitor and calculate the accuracy, precision, and daily deviation rate of mechanical or quartz timepieces using online horology utilities.';
+const title = 'Horology Tools & Reference Guides';
+const description = 'Professional-grade horology utilities for watch enthusiasts — track accuracy, demagnetize movements, calculate wrist presence, and explore crown position references for popular calibers.';
 
 export const content: CategoryLocaleContent = {
   slug,
   title,
   description,
   seo: [
-    { type: 'title', text: 'Timepiece Regulation and Precision Tracking', level: 2 },
-    { type: 'paragraph', html: 'To maintain the longevity and accuracy of mechanical timepieces, tracking their daily rate deviation is essential. This suite provides watch collectors and horologists with professional-grade analysis tools to monitor watch rate stability without expensive timegrapher equipment.' },
-    { type: 'title', text: 'Daily Rate Deviation & Cumulative Drift', level: 2 },
-    { type: 'paragraph', html: 'Using an atomic time source as reference, you can record the difference in seconds between your watch and reference time to calculate real-world drift. Additionally, you can project how a specific daily deviation rate will compound into seconds, minutes, and hours over weeks, months, or years.' },
+    { type: 'title', text: 'Essential Tools for Watch Enthusiasts', level: 2 },
+    { type: 'paragraph', html: 'Whether you are regulating a mechanical movement, demagnetizing a recently magnetized watch, tracking how often you wear a timepiece, or learning the crown positions of your favorite caliber, this suite puts professional-grade horology tools at your fingertips — no expensive equipment required.' },
+    { type: 'title', text: 'Accuracy, Demagnetization & Crown References', level: 2 },
+    { type: 'paragraph', html: 'From tracking daily rate deviation against atomic time to safely demagnetizing a movement with precise timing, from knowing exactly when you last wore a watch to understanding every crown position on an ETA or Miyota caliber — these tools cover the day-to-day needs of any collector or enthusiast.' },
     { type: 'stats', items: [
-      { label: 'Precision', value: 'Microsecond', icon: 'mdi:clock-fast' },
-      { label: 'Calculators', value: 'Projective', icon: 'mdi:calculator-variant' },
-      { label: 'Standards', value: 'COSC/ISO', icon: 'mdi:certificate' },
-      { label: 'Data Privacy', value: 'Local Storage', icon: 'mdi:shield-check' },
+      { label: 'Tools', value: '4', icon: 'mdi:tools' },
+      { label: 'Calibers', value: '8+', icon: 'mdi:engine' },
+      { label: 'Languages', value: '15', icon: 'mdi:translate' },
+      { label: 'Data Privacy', value: 'Local', icon: 'mdi:shield-check' },
     ] },
   ],
 };
