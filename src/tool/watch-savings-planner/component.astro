@@ -1,0 +1,27 @@
+---
+import AddGoalForm from './components/AddGoalForm.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <div class="savings-summary" id="savings-summary">
+    <div class="summary-stat">
+      <span class="summary-value" id="total-saved">$0</span>
+      <span class="summary-label">{ui.totalSaved || "Total Saved"}</span>
+    </div>
+    <div class="summary-stat">
+      <span class="summary-value" id="total-goals">0</span>
+      <span class="summary-label">{ui.totalGoals || "Goals"}</span>
+    </div>
+  </div>
+
+  <AddGoalForm labels={ui} />
+  <div class="goals-list" id="goals-list"></div>
+</div>
+
+<script src="./client.ts"></script>

@@ -4,11 +4,14 @@ export { wristPresenceCalculator } from './tool/wrist-presence-calculator/entry'
 export type { WristPresenceCalculatorUI, WristPresenceCalculatorLocaleContent } from './tool/wrist-presence-calculator/entry';
 export { demagnetizingTimer } from './tool/demagnetizing-timer/entry';
 export type { DemagnetizingTimerUI, DemagnetizingTimerLocaleContent } from './tool/demagnetizing-timer/entry';
+export { watchSavingsPlanner } from './tool/watch-savings-planner/entry';
+export type { WatchSavingsPlannerUI, WatchSavingsPlannerLocaleContent } from './tool/watch-savings-planner/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
 import { wristPresenceCalculator } from './tool/wrist-presence-calculator/entry';
 import { demagnetizingTimer } from './tool/demagnetizing-timer/entry';
+import { watchSavingsPlanner } from './tool/watch-savings-planner/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner];
 
