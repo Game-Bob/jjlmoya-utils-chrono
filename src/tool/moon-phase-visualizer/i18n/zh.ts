@@ -37,13 +37,13 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       type: 'glossary', items: [
         { term: '新月', definition: '月球运行到地球与太阳之间，被照亮的半球背对我们。照亮率 0%。月相周期的起点。' },
-        { term: '蛾眉月', definition: '照亮率 1–49%。右侧出现一道细弯月（北半球）。月球正向上弦月阶段移动。' },
+        { term: '蛾眉月', definition: '照亮率 1-49%。右侧出现一道细弯月（北半球）。月球正向上弦月阶段移动。' },
         { term: '上弦月', definition: '照亮率 50%。可见面的一半被照亮。月球完成其周期的四分之一。' },
-        { term: '盈凸月', definition: '照亮率 51–99%。超过一半被照亮。月球正向着满月阶段变化。' },
+        { term: '盈凸月', definition: '照亮率 51-99%。超过一半被照亮。月球正向着满月阶段变化。' },
         { term: '满月', definition: '照亮率 100%。整个可见面被照亮。月相周期的高峰。' },
-        { term: '亏凸月', definition: '照亮率 99–51%。被照亮的部分从右侧开始缩小。' },
+        { term: '亏凸月', definition: '照亮率 99-51%。被照亮的部分从右侧开始缩小。' },
         { term: '下弦月', definition: '照亮率 50%。左半部分被照亮。周期完成四分之三。' },
-        { term: '残月', definition: '照亮率 49–1%。左侧一道细弯月，之后周期重新从新月开始。' },
+        { term: '残月', definition: '照亮率 49-1%。左侧一道细弯月，之后周期重新从新月开始。' },
       ]
     },
     { type: 'title', text: '如何调校月相表', level: 3 },

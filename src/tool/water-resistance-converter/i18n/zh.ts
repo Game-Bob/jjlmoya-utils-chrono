@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: '手表防水换算工具–ATM、巴、英尺',
+  title: '手表防水换算工具: ATM、巴、英尺',
   description: '在米、英尺、ATM和巴之间换算手表的防水等级。了解每个等级在日常佩戴、游泳和潜水中的实际含义。',
   ui: {
     title: '防水换算工具',

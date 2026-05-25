@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9 — Quale Scegliere?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Verde Classico', icon: 'mdi:lightbulb-on', description: 'La formulazione originale Super-LumiNova. Illumina in verde con luminosità media. Una scelta classica e sicura che funziona con qualsiasi stile di orologio.', points: ['Luminosità media, visibilità 4–6 h', 'Bagliore verde, tonalità calda', 'Formulazione più economica', 'Comune negli orologi entry-level'], highlight: false },
-        { title: 'C3 Super Verde', icon: 'mdi:lightning-bolt', description: 'Il lume verde più luminoso disponibile. Usato negli orologi subacquei professionisti dove la leggibilità sott\'acqua è fondamentale. Massimo bagliore con minima carica.', points: ['Luminosità altissima, visibilità 8–12 h', 'Giallo-verde alla luce del giorno', 'Preferito da Seiko, Citizen, Omega', 'Ideale per leggibilità al buio'], highlight: true },
+        { title: 'C1 Verde Classico', icon: 'mdi:lightbulb-on', description: 'La formulazione originale Super-LumiNova. Illumina in verde con luminosità media. Una scelta classica e sicura che funziona con qualsiasi stile di orologio.', points: ['Luminosità media, visibilità 4-6 h', 'Bagliore verde, tonalità calda', 'Formulazione più economica', 'Comune negli orologi entry-level'], highlight: false },
+        { title: 'C3 Super Verde', icon: 'mdi:lightning-bolt', description: 'Il lume verde più luminoso disponibile. Usato negli orologi subacquei professionisti dove la leggibilità sott\'acqua è fondamentale. Massimo bagliore con minima carica.', points: ['Luminosità altissima, visibilità 8-12 h', 'Giallo-verde alla luce del giorno', 'Preferito da Seiko, Citizen, Omega', 'Ideale per leggibilità al buio'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Bianco Ghiaccio', icon: 'mdi:snowflake', description: 'Illumina in bianco-blu invece che verde. Leggermente meno brillante del C3 ma apprezzato per il suo aspetto pulito e moderno. Popolare negli sportivi di lusso.', points: ['Luminosità alta, visibilità 6–10 h', 'Bagliore bianco-blu, tonalità neutra', 'Look pulito e moderno alla luce del giorno', 'Usato da Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage Stile Radio', icon: 'mdi:fire', description: 'Tonalità beige/crema calda che imita il lume al radio degli anni \'60. Volutamente più spento per autenticità estetica. Il bagliore è caldo, sottile e invecchia splendidamente.', points: ['Luminosità bassa, visibilità 2–4 h', 'Dal crema caldo all\'ambra spenta', 'Aspetto invecchiato senza radioattività', 'Popolare nelle riedizioni heritage'], highlight: false },
+        { title: 'BGW9 Bianco Ghiaccio', icon: 'mdi:snowflake', description: 'Illumina in bianco-blu invece che verde. Leggermente meno brillante del C3 ma apprezzato per il suo aspetto pulito e moderno. Popolare negli sportivi di lusso.', points: ['Luminosità alta, visibilità 6-10 h', 'Bagliore bianco-blu, tonalità neutra', 'Look pulito e moderno alla luce del giorno', 'Usato da Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage Stile Radio', icon: 'mdi:fire', description: 'Tonalità beige/crema calda che imita il lume al radio degli anni \'60. Volutamente più spento per autenticità estetica. Il bagliore è caldo, sottile e invecchia splendidamente.', points: ['Luminosità bassa, visibilità 2-4 h', 'Dal crema caldo all\'ambra spenta', 'Aspetto invecchiato senza radioattività', 'Popolare nelle riedizioni heritage'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'La Luminosità Non è Tutto', icon: 'mdi:palette', html: 'Il lume più brillante (C3) non è sempre la scelta migliore. Il <strong>BGW9</strong> sacrifica una piccola differenza di luminosità per un look più neutro e moderno che molti collezionisti preferiscono. Il <strong>lume vintage</strong> privilegia l\'estetica d\'epoca rispetto alle prestazioni. Scegli in base a ciò che conta di più per te: <strong>massimo bagliore, estetica moderna o autenticità heritage.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Un pigmento fotoluminescente a base di alluminato di stronzio. Assorbe la luce UV e visibile e la riemette sotto forma di bagliore. Non radioattivo e sicuro. Sviluppato originariamente da Nemoto & Co. nel 1993.' },
-        { term: 'Tempo di Carica', definition: 'La durata dell\'esposizione alla luce necessaria per saturare il pigmento. Una carica completa richiede 10–30 minuti sotto luce solare diretta o UV. Più carica = bagliore più lungo e luminoso.' },
-        { term: 'Durata del Bagliore', definition: 'Per quanto tempo il lume rimane visibile dopo la carica. Il Super-LumiNova di qualità brilla visibilmente per 6–12 ore. Il periodo più luminoso sono i primi 30 minuti dopo la carica.' },
+        { term: 'Tempo di Carica', definition: 'La durata dell\'esposizione alla luce necessaria per saturare il pigmento. Una carica completa richiede 10-30 minuti sotto luce solare diretta o UV. Più carica = bagliore più lungo e luminoso.' },
+        { term: 'Durata del Bagliore', definition: 'Per quanto tempo il lume rimane visibile dopo la carica. Il Super-LumiNova di qualità brilla visibilmente per 6-12 ore. Il periodo più luminoso sono i primi 30 minuti dopo la carica.' },
         { term: 'Grado del Pigmento', definition: 'La qualità dei cristalli di alluminato di stronzio. I pigmenti di grado superiore (C3, BGW9) usano cristalli più grandi e uniformi per un bagliore più luminoso e duraturo. I gradi inferiori (LumiNova) usano cristalli più piccoli e sono più spenti.' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'Quanto dura il lume?',
-      answer: 'Dopo una carica completa sotto luce intensa, il Super-LumiNova di qualità brilla visibilmente per 6–12 ore. Il periodo più luminoso sono i primi 30 minuti.',
+      answer: 'Dopo una carica completa sotto luce intensa, il Super-LumiNova di qualità brilla visibilmente per 6-12 ore. Il periodo più luminoso sono i primi 30 minuti.',
     },
   ],
   bibliography,

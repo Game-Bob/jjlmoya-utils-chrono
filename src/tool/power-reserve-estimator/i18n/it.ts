@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Quanto carica un giro di corona l\'orologio?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Dipende dal movimento. La maggior parte dei calibri automatici raggiunge la carica completa in 30–40 giri, quindi ogni giro aggiunge circa il 2,5–3,3% della riserva totale. I movimenti a carica manuale come l\'Unitas 6498 necessitano di circa 35 giri per una carica completa.',
+            'text': 'Dipende dal movimento. La maggior parte dei calibri automatici raggiunge la carica completa in 30-40 giri, quindi ogni giro aggiunge circa il 2,5-3,3% della riserva totale. I movimenti a carica manuale come l\'Unitas 6498 necessitano di circa 35 giri per una carica completa.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Indossare l\'orologio lo carica quanto la carica manuale?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Indossarlo carica più lentamente e in modo variabile. In un lavoro d\'ufficio, puoi caricare il 4–6% all\'ora tramite il rotore. Durante movimento attivo può raggiungere l\'8–10% all\'ora. La carica a mano è più veloce e prevedibile.',
+            'text': 'Indossarlo carica più lentamente e in modo variabile. In un lavoro d\'ufficio, puoi caricare il 4-6% all\'ora tramite il rotore. Durante movimento attivo può raggiungere l\'8-10% all\'ora. La carica a mano è più veloce e prevedibile.',
           },
         },
         {

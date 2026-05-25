@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Wie viel lädt eine Kronenumdrehung die Uhr?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Das hängt vom Werk ab. Die meisten Automatikkaliber erreichen nach 30–40 Umdrehungen den Vollaufzug, sodass jede Umdrehung etwa 2,5–3,3 % der Gesamtreserve ausmacht. Handaufzugswerke wie das Unitas 6498 benötigen ebenfalls etwa 35 Umdrehungen für einen Vollaufzug.',
+            'text': 'Das hängt vom Werk ab. Die meisten Automatikkaliber erreichen nach 30-40 Umdrehungen den Vollaufzug, sodass jede Umdrehung etwa 2,5-3,3 % der Gesamtreserve ausmacht. Handaufzugswerke wie das Unitas 6498 benötigen ebenfalls etwa 35 Umdrehungen für einen Vollaufzug.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Lädt das Tragen der Uhr genauso stark wie der Aufzug?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Das Tragen lädt langsamer und variabler. Bei Büroarbeit laden Sie etwa 4–6 % pro Stunde über den Rotor. Bei aktiver Bewegung kann es 8–10 % pro Stunde erreichen. Das Aufziehen von Hand ist schneller und zuverlässiger.',
+            'text': 'Das Tragen lädt langsamer und variabler. Bei Büroarbeit laden Sie etwa 4-6 % pro Stunde über den Rotor. Bei aktiver Bewegung kann es 8-10 % pro Stunde erreichen. Das Aufziehen von Hand ist schneller und zuverlässiger.',
           },
         },
         {

@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Plaats het horloge op het ontmagnetiseerplatform.',
     step2: 'Druk op Start en houd de ontmagnetiseerknop ingedrukt voor de ingestelde duur.',
     step3: 'Laat de knop los en beweeg het horloge langzaam weg.',
-    step4: 'Herhaal 2–3 keer indien nodig, draai het horloge elke keer.',
+    step4: 'Herhaal 2-3 keer indien nodig, draai het horloge elke keer.',
     tipTitle: 'Tip',
     tipContent: 'Houd het horloge minstens 1 meter verwijderd van de ingeschakelde ontmagnetiseerder om her-magnetisatie te voorkomen.',
   },

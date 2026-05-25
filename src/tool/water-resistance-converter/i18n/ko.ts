@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: '시계 방수 변환기–미터, ATM, Bar, 피트',
+  title: '시계 방수 변환기: 미터, ATM, Bar, 피트',
   description: '시계 방수 등급을 미터, 피트, ATM, Bar 간에 변환합니다. 일상 사용, 수영, 다이빙에서 각 등급이 실제로 의미하는 바를 확인하세요.',
   ui: {
     title: '방수 변환기',

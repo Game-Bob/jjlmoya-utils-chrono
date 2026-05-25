@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Placera klockan på avmagnetiseringsplattformen.',
     step2: 'Tryck på Starta och håll avmagnetiseringsknappen intryckt under den inställda tiden.',
     step3: 'Släpp knappen och flytta långsamt bort klockan.',
-    step4: 'Upprepa 2–3 gånger om det behövs, vrid klockan varje gång.',
+    step4: 'Upprepa 2-3 gånger om det behövs, vrid klockan varje gång.',
     tipTitle: 'Tips',
     tipContent: 'Håll klockan minst 1 meter från den påslagna avmagnetiseraren för att undvika återmagnetisering.',
   },

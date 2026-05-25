@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'su-direnci-donusturucu',
-  title: 'Saat Su Direnci Dönüştürücü–tre, ATM, Bar & Fit',
+  title: 'Saat Su Direnci Donusturucu: Metre, ATM, Bar ve Fit',
   description: 'Saat su direnci değerlerini metre, fit, ATM ve bar arasında dönüştürün. Günlük kullanım, yüzme ve dalışta her değerin aslında ne anlama geldiğini görün.',
   ui: {
     title: 'Su Direnci Dönüştürücü',

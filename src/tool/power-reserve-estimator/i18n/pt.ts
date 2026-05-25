@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Quanto uma volta da coroa carrega o relógio?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Depende do calibre. A maioria dos calibres automáticos atinge a carga total em 30–40 voltas, então cada volta adiciona cerca de 2,5–3,3% da reserva total. Movimentos de corda manual como o Unitas 6498 também precisam de cerca de 35 voltas para uma carga completa.',
+            'text': 'Depende do calibre. A maioria dos calibres automáticos atinge a carga total em 30-40 voltas, então cada volta adiciona cerca de 2,5-3,3% da reserva total. Movimentos de corda manual como o Unitas 6498 também precisam de cerca de 35 voltas para uma carga completa.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Usar o relógio carrega tanto quanto dar corda?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Usar carrega mais lentamente e de forma variável. No escritório, você pode carregar 4–6% por hora pelo rotor. Durante movimento ativo pode chegar a 8–10% por hora. Dar corda manualmente é mais rápido e previsível.',
+            'text': 'Usar carrega mais lentamente e de forma variável. No escritório, você pode carregar 4-6% por hora pelo rotor. Durante movimento ativo pode chegar a 8-10% por hora. Dar corda manualmente é mais rápido e previsível.',
           },
         },
         {

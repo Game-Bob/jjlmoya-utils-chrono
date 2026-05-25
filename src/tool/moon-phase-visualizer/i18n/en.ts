@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'moon-phase-visualizer',
-  title: 'Moon Phase Visualizer–nar Calendar & Watch Complication Tool',
+  title: 'Moon Phase Visualizer: Lunar Calendar and Watch Complication Tool',
   description: 'Visualize the current moon phase, illumination, age, and upcoming full and new moons. Perfect for setting your moon phase watch complication.',
   ui: {
     title: 'Moon Phase Visualizer',
@@ -31,19 +31,19 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'day',
   },
   seo: [
-    { type: 'title', text: 'Moon Phase Visualizer-nar Phase Tool & Watch Setting Guide', level: 2 },
+    { type: 'title', text: 'Moon Phase Visualizer: Moon Phase Tool and Watch Setting Guide', level: 2 },
     { type: 'paragraph', html: 'The Moon Phase Visualizer shows the <strong>current lunar phase</strong> with a realistic rendering of the moon. See <strong>illumination percentage, moon age, days until next full moon, and next new moon</strong>. Designed for watch enthusiasts who need to set their moon phase complication accurately-also works as a general lunar calendar for any date past or future.' },
     { type: 'title', text: 'Moon Phase Glossary', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'New Moon', definition: 'The moon is between Earth and the sun. The illuminated side faces away from us. 0% illumination. The start of the lunar cycle.' },
-        { term: 'Waxing Crescent', definition: '1–49% illumination. A thin crescent appears on the right side (Northern Hemisphere). The moon is moving toward first quarter.' },
+        { term: 'Waxing Crescent', definition: '1-49% illumination. A thin crescent appears on the right side (Northern Hemisphere). The moon is moving toward first quarter.' },
         { term: 'First Quarter', definition: '50% illumination. Half of the visible surface is lit. The moon has completed one quarter of its cycle.' },
-        { term: 'Waxing Gibbous', definition: '51–99% illumination. More than half is lit. The moon is building toward full.' },
+        { term: 'Waxing Gibbous', definition: '51-99% illumination. More than half is lit. The moon is building toward full.' },
         { term: 'Full Moon', definition: '100% illumination. The entire visible surface is lit. The peak of the lunar cycle.' },
-        { term: 'Waning Gibbous', definition: '99–51% illumination. The lit area begins to shrink from the right side.' },
+        { term: 'Waning Gibbous', definition: '99-51% illumination. The lit area begins to shrink from the right side.' },
         { term: 'Last Quarter', definition: '50% illumination. The left half is lit. Three quarters of the cycle complete.' },
-        { term: 'Waning Crescent', definition: '49–1% illumination. A thin crescent on the left before the cycle resets to new moon.' },
+        { term: 'Waning Crescent', definition: '49-1% illumination. A thin crescent on the left before the cycle resets to new moon.' },
       ]
     },
     { type: 'title', text: 'How to Set a Moon Phase Watch', level: 3 },

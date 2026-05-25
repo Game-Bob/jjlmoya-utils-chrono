@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Combien un tour de couronne charge-t-il la montre ?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Cela dépend du calibre. La plupart des calibres automatiques atteignent le plein remontage en 30–40 tours, donc chaque tour ajoute environ 2,5–3,3 % de la réserve totale. Les mouvements à remontage manuel comme l\'Unitas 6498 nécessitent également environ 35 tours pour un plein remontage.',
+            'text': 'Cela dépend du calibre. La plupart des calibres automatiques atteignent le plein remontage en 30-40 tours, donc chaque tour ajoute environ 2,5-3,3 % de la réserve totale. Les mouvements à remontage manuel comme l\'Unitas 6498 nécessitent également environ 35 tours pour un plein remontage.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Porter la montre la charge-t-il autant que le remontage ?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Le port charge plus lentement et de manière variable. Au bureau, vous pouvez charger 4–6 % par heure via le rotor. En mouvement actif, cela peut atteindre 8–10 % par heure. Le remontage manuel est plus rapide et plus prévisible.',
+            'text': 'Le port charge plus lentement et de manière variable. Au bureau, vous pouvez charger 4-6 % par heure via le rotor. En mouvement actif, cela peut atteindre 8-10 % par heure. Le remontage manuel est plus rapide et plus prévisible.',
           },
         },
         {

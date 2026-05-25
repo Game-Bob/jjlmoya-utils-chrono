@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9: ¿cuál elegir?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Verde Clásico', icon: 'mdi:lightbulb-on', description: 'La formulación original de Super-LumiNova. Brilla en verde con brillo medio. Una elección clásica y segura que funciona con cualquier estilo de reloj.', points: ['Brillo medio, visibilidad 4–6 h', 'Brillo verde, tono cálido', 'La formulación más económica', 'Común en relojes de gama básica'], highlight: false },
-        { title: 'C3 Super Verde', icon: 'mdi:lightning-bolt', description: 'El lume verde más brillante disponible. Se usa en relojes de buceo profesionales donde la legibilidad bajo el agua es crítica. Máximo brillo con mínima carga.', points: ['Máximo brillo, visibilidad 8–12 h', 'Amarillo-verde a la luz del día', 'Preferido por Seiko, Citizen, Omega', 'Ideal para leer en poca luz'], highlight: true },
+        { title: 'C1 Verde Clásico', icon: 'mdi:lightbulb-on', description: 'La formulación original de Super-LumiNova. Brilla en verde con brillo medio. Una elección clásica y segura que funciona con cualquier estilo de reloj.', points: ['Brillo medio, visibilidad 4-6 h', 'Brillo verde, tono cálido', 'La formulación más económica', 'Común en relojes de gama básica'], highlight: false },
+        { title: 'C3 Super Verde', icon: 'mdi:lightning-bolt', description: 'El lume verde más brillante disponible. Se usa en relojes de buceo profesionales donde la legibilidad bajo el agua es crítica. Máximo brillo con mínima carga.', points: ['Máximo brillo, visibilidad 8-12 h', 'Amarillo-verde a la luz del día', 'Preferido por Seiko, Citizen, Omega', 'Ideal para leer en poca luz'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Azul Hielo', icon: 'mdi:snowflake', description: 'Brilla en azul-blancuzco en lugar de verde. Ligeramente menos brillante que el C3, pero preferido por su estética limpia y moderna. Popular en relojes deportivos de lujo.', points: ['Brillo alto, visibilidad 6–10 h', 'Brillo azul-blancuzco, tono neutro', 'Look limpio y moderno a la luz del día', 'Usado por Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage Estilo Radio', icon: 'mdi:fire', description: 'Tono beige/crema cálido que imita el lume de radio de los años 60. Intencionadamente más tenue por autenticidad estética. El brillo es cálido, sutil y envejece con elegancia.', points: ['Brillo bajo, visibilidad 2–4 h', 'Crema cálido a ámbar tenue', 'Aspecto envejecido sin radiactividad', 'Popular en reediciones heritage'], highlight: false },
+        { title: 'BGW9 Azul Hielo', icon: 'mdi:snowflake', description: 'Brilla en azul-blancuzco en lugar de verde. Ligeramente menos brillante que el C3, pero preferido por su estética limpia y moderna. Popular en relojes deportivos de lujo.', points: ['Brillo alto, visibilidad 6-10 h', 'Brillo azul-blancuzco, tono neutro', 'Look limpio y moderno a la luz del día', 'Usado por Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage Estilo Radio', icon: 'mdi:fire', description: 'Tono beige/crema cálido que imita el lume de radio de los años 60. Intencionadamente más tenue por autenticidad estética. El brillo es cálido, sutil y envejece con elegancia.', points: ['Brillo bajo, visibilidad 2-4 h', 'Crema cálido a ámbar tenue', 'Aspecto envejecido sin radiactividad', 'Popular en reediciones heritage'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'El Brillo No Lo Es Todo', icon: 'mdi:palette', html: 'El lume más brillante (C3) no siempre es la mejor opción. El <strong>BGW9</strong> sacrifica un poco de brillo por un aspecto más neutro y moderno que muchos coleccionistas prefieren. El <strong>lume vintage</strong> prioriza la estética de época sobre el rendimiento. Elige según lo que más te importe: <strong>máximo brillo, estética moderna o autenticidad heritage.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Pigmento fotoluminiscente a base de aluminato de estroncio. Absorbe luz UV y visible y la reemite en forma de brillo. No radiactivo y seguro. Desarrollado originalmente por Nemoto & Co. en 1993.' },
-        { term: 'Tiempo de Carga', definition: 'El tiempo de exposición a la luz necesario para saturar el pigmento de lume. Una carga completa tarda 10–30 minutos bajo luz solar directa o UV. A más carga, más brillo y duración.' },
-        { term: 'Duración del Brillo', definition: 'Cuánto tiempo sigue siendo visible el lume después de cargarlo. Un Super-LumiNova de calidad brilla visiblemente durante 6–12 horas. El periodo más brillante es la primera media hora tras la carga.' },
+        { term: 'Tiempo de Carga', definition: 'El tiempo de exposición a la luz necesario para saturar el pigmento de lume. Una carga completa tarda 10-30 minutos bajo luz solar directa o UV. A más carga, más brillo y duración.' },
+        { term: 'Duración del Brillo', definition: 'Cuánto tiempo sigue siendo visible el lume después de cargarlo. Un Super-LumiNova de calidad brilla visiblemente durante 6-12 horas. El periodo más brillante es la primera media hora tras la carga.' },
         { term: 'Grado del Pigmento', definition: 'La calidad de los cristales de aluminato de estroncio. Los pigmentos de mayor calidad (C3, BGW9) usan cristales más grandes y uniformes para un brillo más intenso y prolongado. Los grados inferiores (LumiNova) usan cristales más pequeños y son más tenues.' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: '¿Cuánto dura el lume?',
-      answer: 'Tras una carga completa bajo luz brillante, el Super-LumiNova de calidad brilla visiblemente durante 6–12 horas. El periodo más brillante son los primeros 30 minutos.',
+      answer: 'Tras una carga completa bajo luz brillante, el Super-LumiNova de calidad brilla visiblemente durante 6-12 horas. El periodo más brillante son los primeros 30 minutos.',
     },
   ],
   bibliography,

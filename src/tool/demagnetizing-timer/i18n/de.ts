@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Legen Sie die Uhr auf die Entmagnetisierer-Plattform.',
     step2: 'Drücken Sie Start und halten Sie die Entmagnetisierer-Taste für die eingestellte Dauer gedrückt.',
     step3: 'Lassen Sie die Taste los und bewegen Sie die Uhr langsam weg.',
-    step4: 'Wiederholen Sie den Vorgang 2–3 Mal und drehen Sie die Uhr dabei jeweils.',
+    step4: 'Wiederholen Sie den Vorgang 2-3 Mal und drehen Sie die Uhr dabei jeweils.',
     tipTitle: 'Tipp',
     tipContent: 'Halten Sie die Uhr mindestens 1 Meter vom Entmagnetisierer entfernt, wenn er eingeschaltet ist, um eine erneute Magnetisierung zu vermeiden.',
   },
@@ -38,7 +38,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     { type: 'title', text: 'Wie ein Entmagnetisierer funktioniert', level: 3 },
     { type: 'paragraph', html: 'Ein Entmagnetisierer ist im Wesentlichen eine Drahtspule, die bei Bestromung ein starkes magnetisches Wechselfeld erzeugt. Wird eine magnetisierte Uhr in dieses Feld gelegt, kippen ihre internen magnetischen Domänen schnell hin und her. Wird das Feld abrupt abgeschaltet (durch Loslassen der Taste), setzen sich die Domänen in einem zufälligen Muster fest und heben die Nettomagnetisierung effektiv auf.' },
     { type: 'title', text: 'Anzeichen, dass Ihre Uhr entmagnetisiert werden muss', level: 3 },
-    { type: 'paragraph', html: 'Häufige Symptome einer magnetisierten Uhr sind: tägliches Vorlaufen um mehrere Minuten, inkonsistenter Gang in verschiedenen Positionen, ein hörbar schnelleres Tickgeräusch und in extremen Fällen ein völliger Stillstand. Wenn Ihre Automatikuhr plötzlich schnell läuft, ist oft eine Magnetisierung die Ursache – und die Entmagnetisierung eine einfache Lösung.' },
+    { type: 'paragraph', html: 'Häufige Symptome einer magnetisierten Uhr sind: tägliches Vorlaufen um mehrere Minuten, inkonsistenter Gang in verschiedenen Positionen, ein hörbar schnelleres Tickgeräusch und in extremen Fällen ein völliger Stillstand. Wenn Ihre Automatikuhr plötzlich schnell läuft, ist oft eine Magnetisierung die Ursache - und die Entmagnetisierung eine einfache Lösung.' },
   ],
   faq: [
     {

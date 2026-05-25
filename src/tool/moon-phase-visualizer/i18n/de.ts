@@ -4,10 +4,10 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'mondphasen-visualizer',
-  title: 'Mondphasen–Visualizer – Lunarer Kalender & Uhren–Komplikations–Tool',
+  title: 'Mondphasen Visualizer: Lunarer Kalender und Uhren Komplikationen Tool',
   description: 'Visualisiere die aktuelle Mondphase, Beleuchtung, Alter und bevorstehende Voll- und Neumonde. Perfekt zum Einstellen deiner Mondphasen-Komplikation.',
   ui: {
-    title: 'Mondphasen–Visualizer',
+    title: 'Mondphasen Visualizer',
     selectDate: 'Datum auswählen',
     today: 'Heute',
     moonPhase: 'Mondphase',
@@ -31,19 +31,19 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'Tag',
   },
   seo: [
-    { type: 'title', text: 'Mondphasen-Visualizer – Mondphasen-Tool & Uhren-Einstellanleitung', level: 2 },
-    { type: 'paragraph', html: 'Der Mondphasen-Visualizer zeigt die <strong>aktuelle Mondphase</strong> mit einer realistischen Darstellung des Mondes. Sieh dir <strong>Beleuchtungsprozentsatz, Mondalter, Tage bis zum nächsten Vollmond und nächsten Neumond</strong> an. Entwickelt für Uhrenliebhaber, die ihre Mondphasen-Komplikation präzise einstellen müssen – funktioniert auch als allgemeiner Lunarkalender für jedes beliebige Datum in der Vergangenheit oder Zukunft.' },
+    { type: 'title', text: 'Mondphasen Visualizer: Mondphasen Tool und Uhren Einstellanleitung', level: 2 },
+    { type: 'paragraph', html: 'Der Mondphasen-Visualizer zeigt die <strong>aktuelle Mondphase</strong> mit einer realistischen Darstellung des Mondes. Sieh dir <strong>Beleuchtungsprozentsatz, Mondalter, Tage bis zum nächsten Vollmond und nächsten Neumond</strong> an. Entwickelt für Uhrenliebhaber, die ihre Mondphasen-Komplikation präzise einstellen müssen - funktioniert auch als allgemeiner Lunarkalender für jedes beliebige Datum in der Vergangenheit oder Zukunft.' },
     { type: 'title', text: 'Mondphasen-Glossar', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Neumond', definition: 'Der Mond befindet sich zwischen Erde und Sonne. Die beleuchtete Seite ist von uns abgewandt. 0 % Beleuchtung. Der Beginn des Mondzyklus.' },
-        { term: 'Zunehmende Sichel', definition: '1–49 % Beleuchtung. Eine dünne Sichel erscheint auf der rechten Seite (Nordhalbkugel). Der Mond bewegt sich auf das erste Viertel zu.' },
+        { term: 'Zunehmende Sichel', definition: '1-49 % Beleuchtung. Eine dünne Sichel erscheint auf der rechten Seite (Nordhalbkugel). Der Mond bewegt sich auf das erste Viertel zu.' },
         { term: 'Erstes Viertel', definition: '50 % Beleuchtung. Die Hälfte der sichtbaren Oberfläche ist beleuchtet. Der Mond hat ein Viertel seines Zyklus absolviert.' },
-        { term: 'Zunehmender Mond', definition: '51–99 % Beleuchtung. Mehr als die Hälfte ist beleuchtet. Der Mond nähert sich dem Vollmond.' },
+        { term: 'Zunehmender Mond', definition: '51-99 % Beleuchtung. Mehr als die Hälfte ist beleuchtet. Der Mond nähert sich dem Vollmond.' },
         { term: 'Vollmond', definition: '100 % Beleuchtung. Die gesamte sichtbare Oberfläche ist beleuchtet. Der Höhepunkt des Mondzyklus.' },
-        { term: 'Abnehmender Mond', definition: '99–51 % Beleuchtung. Der beleuchtete Bereich beginnt von der rechten Seite zu schrumpfen.' },
+        { term: 'Abnehmender Mond', definition: '99-51 % Beleuchtung. Der beleuchtete Bereich beginnt von der rechten Seite zu schrumpfen.' },
         { term: 'Letztes Viertel', definition: '50 % Beleuchtung. Die linke Hälfte ist beleuchtet. Drei Viertel des Zyklus sind abgeschlossen.' },
-        { term: 'Abnehmende Sichel', definition: '49–1 % Beleuchtung. Eine dünne Sichel auf der linken Seite, bevor der Zyklus zum Neumond zurückkehrt.' },
+        { term: 'Abnehmende Sichel', definition: '49-1 % Beleuchtung. Eine dünne Sichel auf der linken Seite, bevor der Zyklus zum Neumond zurückkehrt.' },
       ]
     },
     { type: 'title', text: 'So stellst du eine Mondphasenuhr ein', level: 3 },
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Hohe Präzision', 'Getriebezug', '~1 Tag pro 100+ Jahre', '100+ Jahre', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Die Mondscheibe lesen', html: 'Bei den meisten Mondphasenuhren zeigt die Mondscheibe <strong>zwei Monde</strong> gegenüberliegend. Jeder Vollmond richtet sich an der mittig oberen Öffnung aus. Nach einem vollständigen Zyklus (29,5 Tage) nimmt der zweite Mond seinen Platz ein. Deshalb funktioniert ein 59-Zahnrad: Es absolviert eine vollständige Umdrehung in 59 Tagen – genau zwei Mondzyklen.' },
+    { type: 'tip', title: 'Die Mondscheibe lesen', html: 'Bei den meisten Mondphasenuhren zeigt die Mondscheibe <strong>zwei Monde</strong> gegenüberliegend. Jeder Vollmond richtet sich an der mittig oberen Öffnung aus. Nach einem vollständigen Zyklus (29,5 Tage) nimmt der zweite Mond seinen Platz ein. Deshalb funktioniert ein 59-Zahnrad: Es absolviert eine vollständige Umdrehung in 59 Tagen - genau zwei Mondzyklen.' },
     {
       type: 'summary', title: 'Kurzübersicht', items: [
         'Der Mondzyklus (Synodischer Monat) beträgt exakt 29,53058867 Tage. Das Tool verwendet diesen Wert für maximale Genauigkeit.',
@@ -144,7 +144,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',
-      'name': 'Mondphasen-Visualizer',
+      'name': 'Mondphasen Visualizer',
       'operatingSystem': 'All',
       'applicationCategory': 'UtilitiesApplication',
       'browserRequirements': 'Erfordert HTML5 und JavaScript.',

@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'watch-size-comparator',
-  title: '시계 사이즈 비교기 – 손목 핏을 시각적으로 확인하세요',
+  title: '시계 사이즈 비교기: 손목 핏을 시각적으로 확인하세요',
   description: '시계 케이스 사이즈를 시각적으로 비교해보세요. 직경, 러그 투 러그, 손목 둘레를 입력하면 구매 전에 착용감을 확인할 수 있습니다.',
   ui: {
     title: '시계 사이즈 비교기',
@@ -42,7 +42,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: '치수를 입력하고 시계를 추가하면 손목에 어떻게 맞는지 확인할 수 있어요.',
   },
   seo: [
-    { type: 'title', text: '시계 사이즈 비교기 – 손목 핏을 시각적으로 확인하세요', level: 2 },
+    { type: 'title', text: '시계 사이즈 비교기: 손목 핏을 시각적으로 확인하세요', level: 2 },
     { type: 'paragraph', html: '<strong>42mm 시계</strong>가 <strong>17cm 손목</strong>에 맞을지 궁금하신가요? 48mm 러그 투 러그는 삐져나오지 않을까요? 시계 사이즈 비교기가 시각적인 답을 알려드립니다. 케이스 직경, 러그 투 러그, 두께, 손목 둘레를 입력하면 시계를 실물 크기로 그리고 <span style="color:#22c55e">초록색(최적)</span>부터 <span style="color:#ef4444">빨간색(너무 큼)</span>까지 색상으로 착용감을 표시해요. <strong>미터법과 야드파운드법</strong>을 모두 지원합니다.' },
     { type: 'title', text: '시계 사이즈 용어 설명', level: 3 },
     {
@@ -57,13 +57,13 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     { type: 'title', text: '내 손목에는 몇 mm 시계가 어울릴까?', level: 3 },
     {
       type: 'table', headers: ['손목 둘레', '평평한 너비(약)', '적정 케이스 직경', '최대 러그 투 러그', '추천 용도'], rows: [
-        ['14–15 cm (5.5–5.9 in)', '38–42 mm', '30–34 mm', '38–42 mm', '빈티지 & 드레스 워치'],
-        ['15–16 cm (5.9–6.3 in)', '40–44 mm', '34–36 mm', '40–44 mm', '작은 클래식 시계'],
-        ['16–17 cm (6.3–6.7 in)', '42–46 mm', '36–39 mm', '42–46 mm', '데일리 활용도 높은 사이즈'],
-        ['17–18 cm (6.7–7.1 in)', '44–48 mm', '38–42 mm', '44–48 mm', '대부분 브랜드의 표준'],
-        ['18–19 cm (7.1–7.5 in)', '46–50 mm', '40–44 mm', '46–50 mm', '다이버 워치 & GMT'],
-        ['19–20 cm (7.5–7.9 in)', '48–52 mm', '42–46 mm', '48–52 mm', '툴 & 파일럿 워치'],
-        ['20–21 cm (7.9–8.3 in)', '50–54 mm', '44–48 mm', '50–54 mm', '오버사이즈 & 플리거 워치'],
+        ['14-15 cm (5.5-5.9 in)', '38-42 mm', '30-34 mm', '38-42 mm', '빈티지 & 드레스 워치'],
+        ['15-16 cm (5.9-6.3 in)', '40-44 mm', '34-36 mm', '40-44 mm', '작은 클래식 시계'],
+        ['16-17 cm (6.3-6.7 in)', '42-46 mm', '36-39 mm', '42-46 mm', '데일리 활용도 높은 사이즈'],
+        ['17-18 cm (6.7-7.1 in)', '44-48 mm', '38-42 mm', '44-48 mm', '대부분 브랜드의 표준'],
+        ['18-19 cm (7.1-7.5 in)', '46-50 mm', '40-44 mm', '46-50 mm', '다이버 워치 & GMT'],
+        ['19-20 cm (7.5-7.9 in)', '48-52 mm', '42-46 mm', '48-52 mm', '툴 & 파일럿 워치'],
+        ['20-21 cm (7.9-8.3 in)', '50-54 mm', '44-48 mm', '50-54 mm', '오버사이즈 & 플리거 워치'],
       ]
     },
 
@@ -134,7 +134,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': 'How do I measure my wrist for a watch?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Use a flexible tape measure around the wrist bone. Average is 17–19cm for men, 14–16cm for women.',
+            'text': 'Use a flexible tape measure around the wrist bone. Average is 17-19cm for men, 14-16cm for women.',
           },
         },
         {
@@ -150,7 +150,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': 'What size watch fits a 17cm wrist?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'A 17cm wrist fits 36–42mm diameter with 44–50mm lug-to-lug. Sweet spot is 38–40mm with 46–48mm L2L.',
+            'text': 'A 17cm wrist fits 36-42mm diameter with 44-50mm lug-to-lug. Sweet spot is 38-40mm with 46-48mm L2L.',
           },
         },
       ],

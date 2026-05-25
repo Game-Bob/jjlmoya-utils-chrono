@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'manfasvisualiserare',
-  title: 'Månfasvisualiserare – kalender– & klockkomplikationsverktyg',
+  title: 'Manfasvisualiserare: kalender och klockkomplikationsverktyg',
   description: 'Visualisera aktuell månfas, belysning, ålder samt kommande full- och nymånar. Perfekt för att ställa in din månfaskomplikation.',
   ui: {
     title: 'Månfasvisualiserare',
@@ -31,19 +31,19 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'dag',
   },
   seo: [
-    { type: 'title', text: 'Månfasvisualiserare – månfasverktyg & klockinställningsguide', level: 2 },
-    { type: 'paragraph', html: 'Månfasvisualiseraren visar <strong>den aktuella månfasen</strong> med en realistisk rendering av månen. Se <strong>belysningsprocent, månens ålder, dagar till nästa fullmåne och nästa nymåne</strong>. Utformad för klockentusiaster som behöver ställa in sin månfaskomplikation korrekt – fungerar även som en allmän månkalender för valfritt datum i dåtid eller framtid.' },
-    { type: 'title', text: 'Ordlista – månfaser', level: 3 },
+    { type: 'title', text: 'Manfasvisualiserare: manfasverktyg och klockinstallningsguide', level: 2 },
+    { type: 'paragraph', html: 'Månfasvisualiseraren visar <strong>den aktuella månfasen</strong> med en realistisk rendering av månen. Se <strong>belysningsprocent, månens ålder, dagar till nästa fullmåne och nästa nymåne</strong>. Utformad för klockentusiaster som behöver ställa in sin månfaskomplikation korrekt - fungerar även som en allmän månkalender för valfritt datum i dåtid eller framtid.' },
+    { type: 'title', text: 'Ordlista - månfaser', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Nymåne', definition: 'Månen befinner sig mellan jorden och solen. Den belysta sidan är vänd bort från oss. 0 % belysning. Början av måncykeln.' },
-        { term: 'Tilltagande skära', definition: '1–49 % belysning. En tunn skära syns på höger sida (norra halvklotet). Månen rör sig mot första kvartilet.' },
+        { term: 'Tilltagande skära', definition: '1-49 % belysning. En tunn skära syns på höger sida (norra halvklotet). Månen rör sig mot första kvartilet.' },
         { term: 'Första kvartilet', definition: '50 % belysning. Halva den synliga ytan är upplyst. Månen har genomfört en fjärdedel av sin cykel.' },
-        { term: 'Tilltagande halvmåne', definition: '51–99 % belysning. Mer än halva ytan är upplyst. Månen bygger upp mot fullmåne.' },
+        { term: 'Tilltagande halvmåne', definition: '51-99 % belysning. Mer än halva ytan är upplyst. Månen bygger upp mot fullmåne.' },
         { term: 'Fullmåne', definition: '100 % belysning. Hela den synliga ytan är upplyst. Måncykelns höjdpunkt.' },
-        { term: 'Avtagande halvmåne', definition: '99–51 % belysning. Den upplysta ytan börjar krympa från höger sida.' },
+        { term: 'Avtagande halvmåne', definition: '99-51 % belysning. Den upplysta ytan börjar krympa från höger sida.' },
         { term: 'Sista kvartilet', definition: '50 % belysning. Vänstra halvan är upplyst. Tre fjärdedelar av cykeln avklarad.' },
-        { term: 'Avtagande skära', definition: '49–1 % belysning. En tunn skära på vänster sida innan cykeln återställs till nymåne.' },
+        { term: 'Avtagande skära', definition: '49-1 % belysning. En tunn skära på vänster sida innan cykeln återställs till nymåne.' },
       ]
     },
     { type: 'title', text: 'Så ställer du in en månfasklocka', level: 3 },
@@ -57,7 +57,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         'För hög precision använder vissa klockor (Patek Philippe, A. Lange & Söhne) hjul som är korrekta inom en dag per 100+ år.',
       ]
     },
-    { type: 'diagnostic', variant: 'warning', title: 'Ställ aldrig in under datumväxling', icon: 'mdi:alert', html: 'Ställ inte in månfasen (eller datumet) mellan cirka <strong>kl. 21 och 03</strong>. Under detta fönster är klockans datumväxlingsmekanism fysiskt i ingrepp med datumhjulet. Att tvinga kronan kan skada kuggar. Måste du ställa in under denna period – förflytta först visarna förbi kl. 03, ställ sedan in månfasen.' },
+    { type: 'diagnostic', variant: 'warning', title: 'Ställ aldrig in under datumväxling', icon: 'mdi:alert', html: 'Ställ inte in månfasen (eller datumet) mellan cirka <strong>kl. 21 och 03</strong>. Under detta fönster är klockans datumväxlingsmekanism fysiskt i ingrepp med datumhjulet. Att tvinga kronan kan skada kuggar. Måste du ställa in under denna period - förflytta först visarna förbi kl. 03, ställ sedan in månfasen.' },
     { type: 'title', text: 'Mekanisk vs högprecision månfas', level: 3 },
     {
       type: 'table', headers: ['Typ', 'Kugghjul', 'Felmarginal', 'En dags fel efter', 'Exempelklockor'], rows: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Högprecision', 'Kuggväxel', '~1 dag per 100+ år', '100+ år', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Att läsa månskivan', html: 'På de flesta månfasklockor visar månskivan <strong>två månar</strong> mittemot varandra. Varje fullmåne är i linje med öppningen i mitten upptill. Efter en full cykel (29,5 dagar) tar den andra månen dess plats. Det är därför ett 59-kuggs hjul fungerar: det gör ett helt varv på 59 dagar – exakt två måncykler.' },
+    { type: 'tip', title: 'Att läsa månskivan', html: 'På de flesta månfasklockor visar månskivan <strong>två månar</strong> mittemot varandra. Varje fullmåne är i linje med öppningen i mitten upptill. Efter en full cykel (29,5 dagar) tar den andra månen dess plats. Det är därför ett 59-kuggs hjul fungerar: det gör ett helt varv på 59 dagar - exakt två måncykler.' },
     {
       type: 'summary', title: 'Snabbreferens', items: [
         'Måncykeln (synodisk) är exakt 29,53058867 dagar. Verktyget använder detta värde för maximal noggrannhet.',

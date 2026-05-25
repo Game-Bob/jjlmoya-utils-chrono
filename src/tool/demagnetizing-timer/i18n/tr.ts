@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Saati demanyetizatör platformuna yerleştirin.',
     step2: 'Başlat\'a basın ve demanyetizatör düğmesini ayarlanan süre boyunca basılı tutun.',
     step3: 'Düğmeyi bırakın ve saati yavaşça uzaklaştırın.',
-    step4: 'Gerekirse 2–3 kez tekrarlayın, her seferinde saati döndürün.',
+    step4: 'Gerekirse 2-3 kez tekrarlayın, her seferinde saati döndürün.',
     tipTitle: 'İpucu',
     tipContent: 'Yeniden mıknatıslanmayı önlemek için saati, güç açıkken demanyetizatörden en az 1 metre uzakta tutun.',
   },

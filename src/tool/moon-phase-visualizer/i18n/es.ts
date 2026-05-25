@@ -37,13 +37,13 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       type: 'glossary', items: [
         { term: 'Luna Nueva', definition: 'La luna está entre la Tierra y el sol. El lado iluminado mira hacia el lado opuesto. Iluminación al 0 %. Comienza el ciclo lunar.' },
-        { term: 'Creciente', definition: 'Iluminación del 1–49 %. Aparece un delgado creciente en el lado derecho (hemisferio norte). La luna avanza hacia el cuarto creciente.' },
+        { term: 'Creciente', definition: 'Iluminación del 1-49 %. Aparece un delgado creciente en el lado derecho (hemisferio norte). La luna avanza hacia el cuarto creciente.' },
         { term: 'Cuarto Creciente', definition: 'Iluminación al 50 %. La mitad de la superficie visible está iluminada. La luna ha completado un cuarto de su ciclo.' },
-        { term: 'Gibosa Creciente', definition: 'Iluminación del 51–99 %. Más de la mitad está iluminada. La luna se acerca al plenilunio.' },
+        { term: 'Gibosa Creciente', definition: 'Iluminación del 51-99 %. Más de la mitad está iluminada. La luna se acerca al plenilunio.' },
         { term: 'Luna Llena', definition: 'Iluminación al 100 %. Toda la superficie visible está iluminada. El punto culminante del ciclo lunar.' },
-        { term: 'Gibosa Menguante', definition: 'Iluminación del 99–51 %. El área iluminada empieza a reducirse por el lado derecho.' },
+        { term: 'Gibosa Menguante', definition: 'Iluminación del 99-51 %. El área iluminada empieza a reducirse por el lado derecho.' },
         { term: 'Cuarto Menguante', definition: 'Iluminación al 50 %. La mitad izquierda está iluminada. Tres cuartos del ciclo completados.' },
-        { term: 'Menguante', definition: 'Iluminación del 49–1 %. Un delgado creciente en el lado izquierdo antes de que el ciclo se reinicie con luna nueva.' },
+        { term: 'Menguante', definition: 'Iluminación del 49-1 %. Un delgado creciente en el lado izquierdo antes de que el ciclo se reinicie con luna nueva.' },
       ]
     },
     { type: 'title', text: 'Cómo Ajustar un Reloj de Fase Lunar', level: 3 },

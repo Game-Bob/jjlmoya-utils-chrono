@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'konwerter-wodoszczelnosci',
-  title: 'Konwerter Wodoszczelności Zegarków–Metry, ATM, Bar & Stopy',
+  title: 'Konwerter Wodoszczelnosci Zegarkow: Metry, ATM, Bar i Stopy',
   description: 'Przelicz klasy wodoszczelności zegarków między metrami, stopami, ATM i bar. Sprawdź, co każda klasa oznacza w codziennym użytkowaniu, podczas pływania i nurkowania.',
   ui: {
     title: 'Konwerter Wodoszczelności',

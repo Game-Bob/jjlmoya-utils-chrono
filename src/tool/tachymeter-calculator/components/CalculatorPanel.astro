@@ -1,0 +1,121 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="tach-panel">
+  <div class="panel-section">
+    <div class="section-label">{labels.presetLabel || "Preset"}</div>
+    <select class="preset-select" id="preset-select">
+      <option value="car">Car (36s per km)</option>
+      <option value="bike">Cycling (90s per km)</option>
+      <option value="run">Running (240s per km)</option>
+      <option value="walk">Walking (480s per km)</option>
+      <option value="f1">F1 Pit Stop (2.5s)</option>
+      <option value="plane">Private Jet (12s per km)</option>
+      <option value="train">Bullet Train (10s per km)</option>
+      <option value="custom">{labels.customPreset || "Custom"}</option>
+    </select>
+  </div>
+
+  <div class="panel-section" id="custom-section" style="display: none;">
+    <div class="section-label">{labels.timeLabel || "Elapsed Time"}</div>
+    <div class="stepper-wrap">
+      <button type="button" class="stepper-btn" data-step="1">−1</button>
+      <input
+        type="number"
+        class="stepper-input"
+        id="time-input"
+        min="1"
+        max="600"
+        step="0.1"
+        value="36"
+      />
+      <button type="button" class="stepper-btn" data-step="1">+1</button>
+    </div>
+  </div>
+
+  <div class="tach-visual" id="tach-visual">
+    <svg class="tach-svg" viewBox="0 0 220 220" id="tach-svg">
+      <defs>
+        <linearGradient id="bezel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="var(--text-base)" stop-opacity="0.12" />
+          <stop offset="100%" stop-color="var(--text-base)" stop-opacity="0.04" />
+        </linearGradient>
+        <radialGradient id="dial-grad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="var(--bg-surface)" stop-opacity="1" />
+          <stop offset="100%" stop-color="var(--bg-page)" stop-opacity="0.6" />
+        </radialGradient>
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="2.5" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        <filter id="glow-strong">
+          <feGaussianBlur stdDeviation="4" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+
+      <circle class="tach-bezel-bg" cx="110" cy="110" r="106" />
+      <circle class="tach-bezel-outer" cx="110" cy="110" r="103" />
+      <circle class="tach-bezel-inner" cx="110" cy="110" r="76" />
+
+      <g id="tach-ticks"></g>
+      <path class="tach-sweep" id="tach-sweep" />
+      <g id="tach-highlight"></g>
+
+      <circle class="tach-dial" cx="110" cy="110" r="74" />
+
+      <g class="tach-hand-group" id="tach-hand-group">
+        <line class="tach-hand" id="tach-hand" x1="110" y1="110" x2="110" y2="30" />
+        <line class="tach-hand-tail" x1="110" y1="110" x2="110" y2="118" />
+      </g>
+
+      <circle class="tach-pip" cx="110" cy="110" r="4" />
+      <circle class="tach-pip-ring" cx="110" cy="110" r="7" />
+
+      <text class="tach-time-label" id="tach-time-label" x="110" y="106" text-anchor="middle">36.0s</text>
+      <text class="tach-speed-label" id="tach-speed-label" x="110" y="134" text-anchor="middle">100</text>
+      <text class="tach-unit-label" x="110" y="149" text-anchor="middle">km/h</text>
+    </svg>
+  </div>
+
+  <div class="tach-readout" id="tach-readout">
+    <div class="readout-block">
+      <span class="readout-value" id="speed-value">100</span>
+      <span class="readout-unit">km/h</span>
+    </div>
+    <div class="readout-divider"></div>
+    <div class="readout-block">
+      <span class="readout-label">{labels.bezelReading || "Bezel"}</span>
+      <span class="readout-bezel" id="bezel-value">100</span>
+    </div>
+  </div>
+
+  <div class="steps-section">
+    <div class="step-row">
+      <div class="step-marker">1</div>
+      <span class="step-text">{labels.exampleStep1 || "Start the chronograph when the object passes the starting point."}</span>
+    </div>
+    <div class="step-row">
+      <div class="step-marker">2</div>
+      <span class="step-text">{labels.exampleStep2 || "Stop it after 1 km. The tachymeter scale shows the speed."}</span>
+    </div>
+  </div>
+
+  <div class="tip-row">
+    <svg class="tip-icon" viewBox="0 0 24 24" width="16" height="16">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"></path>
+    </svg>
+    <span class="tip-text">{labels.tipContent || "At 36 seconds the bezel reads 100. Faster times (shorter elapsed) point to higher speeds on the tachymeter scale."}</span>
+  </div>
+</div>

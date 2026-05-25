@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'konverter-ketahanan-air',
-  title: 'Konverter Ketahanan Air Jam Tangan–Meter, ATM, Bar & Kaki',
+  title: 'Konverter Ketahanan Air Jam Tangan: Meter, ATM, Bar dan Kaki',
   description: 'Konversikan peringkat ketahanan air jam tangan antara meter, kaki, ATM, dan bar. Lihat arti sebenarnya dari setiap peringkat untuk pemakaian sehari-hari, berenang, dan menyelam.',
   ui: {
     title: 'Konverter Ketahanan Air',

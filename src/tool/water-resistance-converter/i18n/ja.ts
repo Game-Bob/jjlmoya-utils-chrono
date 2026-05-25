@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: '時計の防水変換ツール–メートル、ATM、バー、フィート',
+  title: '時計の防水変換ツール: メートル、ATM、バー、フィート',
   description: '時計の防水性能をメートル、フィート、ATM、バーの間で変換します。各性能が日常使い、水泳、ダイビングで実際に何を意味するかを確認しましょう。',
   ui: {
     title: '防水変換ツール',

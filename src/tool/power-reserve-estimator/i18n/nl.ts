@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Hoeveel laadt één kroondraai het horloge?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Dat hangt af van het uurwerk. De meeste automatische kalibers bereiken een volle winding in 30–40 draaien, dus elke draai voegt ongeveer 2,5–3,3% van de totale reserve toe. Handopwinduurwerken zoals de Unitas 6498 hebben ook ongeveer 35 draaien nodig voor een volle winding.',
+            'text': 'Dat hangt af van het uurwerk. De meeste automatische kalibers bereiken een volle winding in 30-40 draaien, dus elke draai voegt ongeveer 2,5-3,3% van de totale reserve toe. Handopwinduurwerken zoals de Unitas 6498 hebben ook ongeveer 35 draaien nodig voor een volle winding.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Laadt het dragen van het horloge evenveel als opwinden?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Dragen laadt langzamer en wisselender. Op kantoor laadt u ongeveer 4–6% per uur via de rotor. Bij actieve beweging kan het 8–10% per uur bereiken. Handmatig opwinden is sneller en voorspelbaarder.',
+            'text': 'Dragen laadt langzamer en wisselender. Op kantoor laadt u ongeveer 4-6% per uur via de rotor. Bij actieve beweging kan het 8-10% per uur bereiken. Handmatig opwinden is sneller en voorspelbaarder.',
           },
         },
         {

@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Place the watch on the demagnetizer platform.',
     step2: 'Press Start and hold the demagnetizer button for the set duration.',
     step3: 'Release the button and slowly move the watch away.',
-    step4: 'Repeat 2–3 times if needed, rotating the watch each time.',
+    step4: 'Repeat 2-3 times if needed, rotating the watch each time.',
     tipTitle: 'Tip',
     tipContent: 'Keep the watch at least 1 meter away from the demagnetizer when powered on to avoid re-magnetization.',
   },

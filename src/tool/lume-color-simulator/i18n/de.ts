@@ -4,10 +4,10 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'leuchtfarben-simulator',
-  title: 'Leuchtfarben–Simulator – Zifferblatt–Leuchten visualisieren',
+  title: 'Leuchtfarben Simulator: Zifferblatt Leuchten visualisieren',
   description: 'Verschaffe dir einen visuellen Eindruck verschiedener Leuchtfarben in Echtzeit. Vergleiche C1, C3, BGW9, LumiNova und mehr bei unterschiedlicher Umgebungshelligkeit.',
   ui: {
-    title: 'Leuchtfarben–Simulator',
+    title: 'Leuchtfarben Simulator',
     lumeType: 'Leuchttyp',
     brightness: 'Umgebungshelligkeit',
     dark: 'Dunkel',
@@ -37,8 +37,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'Die Leuchtkraft hängt von der Pigmentqualität und der aufgenommenen Lichtmenge ab. BGW9 leuchtet blau-weiß und ist am hellsten, während Vintage-Leuchten einen warmen, gedimmten Schein abgeben.',
   },
   seo: [
-    { type: 'title', text: 'Uhren-Leuchtfarben-Simulator – Echtzeit-Leuchtkraft-Visualisierung', level: 2 },
-    { type: 'paragraph', html: 'Die Leuchtfarbe ist eine der persönlichsten Entscheidungen beim Uhrensammeln. Bevorzugst du das klassische grüne Leuchten von <strong>C1 Super-LumiNova</strong> oder das eisige Blau von <strong>BGW9</strong>? Dieser Simulator zeigt dir, wie jeder Leuchttyp bei verschiedenen Helligkeitsstufen aussieht – von vollem Tageslicht bis zur tiefsten Dunkelheit, mit exakten <strong>HEX- und RGB-Werten</strong> für jeden Farbton.' },
+    { type: 'title', text: 'Uhren-Leuchtfarben-Simulator - Echtzeit-Leuchtkraft-Visualisierung', level: 2 },
+    { type: 'paragraph', html: 'Die Leuchtfarbe ist eine der persönlichsten Entscheidungen beim Uhrensammeln. Bevorzugst du das klassische grüne Leuchten von <strong>C1 Super-LumiNova</strong> oder das eisige Blau von <strong>BGW9</strong>? Dieser Simulator zeigt dir, wie jeder Leuchttyp bei verschiedenen Helligkeitsstufen aussieht - von vollem Tageslicht bis zur tiefsten Dunkelheit, mit exakten <strong>HEX- und RGB-Werten</strong> für jeden Farbton.' },
     { type: 'title', text: 'Super-LumiNova-Typen im Vergleich', level: 3 },
     {
       type: 'table', headers: ['Typ', 'Tagesfarbe', 'Leuchtfarbe', 'Helligkeit', 'Geeignet für'], rows: [
@@ -52,17 +52,17 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Grün', 'Hellgrün', 'Grün', 'Hell', 'Militärische Uhren'],
       ]
     },
-    { type: 'title', text: 'C1 vs. C3 vs. BGW9 – Welchen solltest du wählen?', level: 3 },
+    { type: 'title', text: 'C1 vs. C3 vs. BGW9 - Welchen solltest du wählen?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Klassisches Grün', icon: 'mdi:lightbulb-on', description: 'Die ursprüngliche Super-LumiNova-Formulierung. Leuchtet grün mit mittlerer Helligkeit. Eine sichere, klassische Wahl, die zu jedem Uhrenstil passt.', points: ['Mittlere Helligkeit, 4–6 h sichtbar', 'Grünes Leuchten, warmer Ton', 'Günstigste Formulierung', 'Häufig in Einsteigeruhren'], highlight: false },
-        { title: 'C3 Super–Grün', icon: 'mdi:lightning-bolt', description: 'Das hellste grüne Leuchtmittel. Wird in professionellen Taucheruhren verwendet, bei denen die Ablesbarkeit unter Wasser entscheidend ist. Maximale Leuchtkraft bei minimaler Aufladung.', points: ['Höchste Helligkeit, 8–12 h sichtbar', 'Gelbgrün bei Tageslicht', 'Bevorzugt von Seiko, Citizen, Omega', 'Am besten für Lesbarkeit bei wenig Licht'], highlight: true },
+        { title: 'C1 Klassisches Grün', icon: 'mdi:lightbulb-on', description: 'Die ursprüngliche Super-LumiNova-Formulierung. Leuchtet grün mit mittlerer Helligkeit. Eine sichere, klassische Wahl, die zu jedem Uhrenstil passt.', points: ['Mittlere Helligkeit, 4-6 h sichtbar', 'Grünes Leuchten, warmer Ton', 'Günstigste Formulierung', 'Häufig in Einsteigeruhren'], highlight: false },
+        { title: 'C3 Super Gruen', icon: 'mdi:lightning-bolt', description: 'Das hellste grüne Leuchtmittel. Wird in professionellen Taucheruhren verwendet, bei denen die Ablesbarkeit unter Wasser entscheidend ist. Maximale Leuchtkraft bei minimaler Aufladung.', points: ['Höchste Helligkeit, 8-12 h sichtbar', 'Gelbgrün bei Tageslicht', 'Bevorzugt von Seiko, Citizen, Omega', 'Am besten für Lesbarkeit bei wenig Licht'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Eisblau', icon: 'mdi:snowflake', description: 'Leuchtet blau-weiß statt grün. Etwas weniger hell als C3, aber wegen seiner klaren, modernen Ästhetik geschätzt. Beliebt in luxuriösen Sportuhren.', points: ['Hohe Helligkeit, 6–10 h sichtbar', 'Blau-weißes Leuchten, neutraler Ton', 'Klare, moderne Optik bei Tageslicht', 'Verwendet von Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage–Radium–Stil', icon: 'mdi:fire', description: 'Warmer Beige-/Cremeton, der an das Radium-Leuchten der 1960er Jahre erinnert. Absichtlich gedimmter für die authentische Optik. Das Leuchten ist warm, dezent und altert wunderschön.', points: ['Niedrige Helligkeit, 2–4 h sichtbar', 'Warmes Creme bis gedämpftes Bernstein', 'Gealtertes Aussehen ohne Radioaktivität', 'Beliebt in Heritage-Neuauflagen'], highlight: false },
+        { title: 'BGW9 Eisblau', icon: 'mdi:snowflake', description: 'Leuchtet blau-weiß statt grün. Etwas weniger hell als C3, aber wegen seiner klaren, modernen Ästhetik geschätzt. Beliebt in luxuriösen Sportuhren.', points: ['Hohe Helligkeit, 6-10 h sichtbar', 'Blau-weißes Leuchten, neutraler Ton', 'Klare, moderne Optik bei Tageslicht', 'Verwendet von Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage Radium Stil', icon: 'mdi:fire', description: 'Warmer Beige-/Cremeton, der an das Radium-Leuchten der 1960er Jahre erinnert. Absichtlich gedimmter für die authentische Optik. Das Leuchten ist warm, dezent und altert wunderschön.', points: ['Niedrige Helligkeit, 2-4 h sichtbar', 'Warmes Creme bis gedämpftes Bernstein', 'Gealtertes Aussehen ohne Radioaktivität', 'Beliebt in Heritage-Neuauflagen'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'Helligkeit ist nicht alles', icon: 'mdi:palette', html: 'Das hellste Leuchtmittel (C3) ist nicht immer die beste Wahl. <strong>BGW9</strong> tauscht einen kleinen Helligkeitsunterschied gegen einen neutraleren, moderneren Look, den viele Sammler bevorzugen. <strong>Vintage-Leuchten</strong> stellen die epochengerechte Optik über die Leistung. Entscheide dich danach, was dir am wichtigsten ist: <strong>maximale Leuchtkraft, moderne Ästhetik oder Heritage-Authentizität.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Ein photolumineszierendes Pigment auf Strontiumaluminat-Basis. Es absorbiert UV- und sichtbares Licht und gibt es als Leuchten wieder. Nicht radioaktiv und unbedenklich. Ursprünglich 1993 von Nemoto & Co. entwickelt.' },
-        { term: 'Aufladezeit', definition: 'Die Dauer der Lichteinwirkung, die nötig ist, um das Leuchtpigment zu sättigen. Eine vollständige Aufladung dauert 10–30 Minuten unter direktem Sonnenlicht oder UV. Längere Aufladung = längeres und helleres Leuchten.' },
-        { term: 'Leuchtdauer', definition: 'Wie lange das Leuchten nach dem Aufladen sichtbar bleibt. Hochwertiges Super-LumiNova leuchtet 6–12 Stunden sichtbar. Die hellste Phase sind die ersten 30 Minuten nach dem Aufladen.' },
+        { term: 'Aufladezeit', definition: 'Die Dauer der Lichteinwirkung, die nötig ist, um das Leuchtpigment zu sättigen. Eine vollständige Aufladung dauert 10-30 Minuten unter direktem Sonnenlicht oder UV. Längere Aufladung = längeres und helleres Leuchten.' },
+        { term: 'Leuchtdauer', definition: 'Wie lange das Leuchten nach dem Aufladen sichtbar bleibt. Hochwertiges Super-LumiNova leuchtet 6-12 Stunden sichtbar. Die hellste Phase sind die ersten 30 Minuten nach dem Aufladen.' },
         { term: 'Pigmentqualität', definition: 'Die Qualität der Strontiumaluminat-Kristalle. Hochwertigere Pigmente (C3, BGW9) verwenden größere, gleichmäßigere Kristalle für ein helleres und längeres Leuchten. Niedrigere Qualitätsstufen (LumiNova) verwenden kleinere Kristalle und sind dunkler.' },
       ]
     },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'Für einen modernen Luxus-Look: BGW9 ist der aktuelle Favorit unter den High-End-Uhrenmarken.',
         'Für Vintage-/Heritage-Bauten: Verwende Vintage oder Orange für epochengerechte Wärme.',
         'C1 ist der Allrounder: gute Helligkeit, klassisches Grün, erschwinglich.',
-        'Die Leuchtfarbe bei Tageslicht unterscheidet sich deutlich von der Leuchtfarbe – nutze den Simulator, um beide zu vergleichen.',
+        'Die Leuchtfarbe bei Tageslicht unterscheidet sich deutlich von der Leuchtfarbe - nutze den Simulator, um beide zu vergleichen.',
       ]
     },
   ],
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'Wie lange hält Leuchtfarbe?',
-      answer: 'Nach vollständiger Aufladung unter hellem Licht leuchtet hochwertiges Super-LumiNova 6–12 Stunden sichtbar. Die hellste Phase sind die ersten 30 Minuten.',
+      answer: 'Nach vollständiger Aufladung unter hellem Licht leuchtet hochwertiges Super-LumiNova 6-12 Stunden sichtbar. Die hellste Phase sind die ersten 30 Minuten.',
     },
   ],
   bibliography,

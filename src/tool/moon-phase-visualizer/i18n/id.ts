@@ -37,13 +37,13 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       type: 'glossary', items: [
         { term: 'Bulan Baru', definition: 'Bulan berada di antara Bumi dan matahari. Sisi yang diterangi menghadap menjauh dari kita. Iluminasi 0%. Awal siklus lunar.' },
-        { term: 'Sabit Muda', definition: 'Iluminasi 1–49%. Sabit tipis muncul di sisi kanan (Belahan Bumi Utara). Bulan bergerak menuju kuartal pertama.' },
+        { term: 'Sabit Muda', definition: 'Iluminasi 1-49%. Sabit tipis muncul di sisi kanan (Belahan Bumi Utara). Bulan bergerak menuju kuartal pertama.' },
         { term: 'Kuartal Pertama', definition: 'Iluminasi 50%. Setengah permukaan yang terlihat tersinari. Bulan telah menyelesaikan seperempat siklusnya.' },
-        { term: 'Cembung Muda', definition: 'Iluminasi 51–99%. Lebih dari setengahnya tersinari. Bulan sedang menuju purnama.' },
+        { term: 'Cembung Muda', definition: 'Iluminasi 51-99%. Lebih dari setengahnya tersinari. Bulan sedang menuju purnama.' },
         { term: 'Bulan Purnama', definition: 'Iluminasi 100%. Seluruh permukaan yang terlihat tersinari. Puncak siklus lunar.' },
-        { term: 'Cembung Tua', definition: 'Iluminasi 99–51%. Area yang tersinari mulai menyusut dari sisi kanan.' },
+        { term: 'Cembung Tua', definition: 'Iluminasi 99-51%. Area yang tersinari mulai menyusut dari sisi kanan.' },
         { term: 'Kuartal Terakhir', definition: 'Iluminasi 50%. Setengah kiri tersinari. Tiga perempat siklus selesai.' },
-        { term: 'Sabit Tua', definition: 'Iluminasi 49–1%. Sabit tipis di sisi kiri sebelum siklus kembali ke bulan baru.' },
+        { term: 'Sabit Tua', definition: 'Iluminasi 49-1%. Sabit tipis di sisi kiri sebelum siklus kembali ke bulan baru.' },
       ]
     },
     { type: 'title', text: 'Cara Menyetel Arloji Fase Bulan', level: 3 },

@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: 'Watch Water Resistance Converter–Meters, ATM, Bar & Feet',
+  title: 'Watch Water Resistance Converter: Meters, ATM, Bar and Feet',
   description: 'Convert watch water resistance ratings between meters, feet, ATM, and bar. See what each rating actually means for daily wear, swimming, and diving.',
   ui: {
     title: 'Water Resistance Converter',

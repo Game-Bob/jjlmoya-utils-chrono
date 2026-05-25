@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'wizualizator-faz-ksiezyca',
-  title: 'Wizualizator faz Księżyca – kalendarz księżycowy i ustawianie komplikacji w zegarku',
+  title: 'Wizualizator faz Ksiezyca: kalendarz ksiezycowy i ustawianie komplikacji w zegarku',
   description: 'Wizualizuj bieżącą fazę Księżyca, oświetlenie, wiek oraz nadchodzące pełnie i nowie. Idealne do ustawiania komplikacji fazy Księżyca w zegarku.',
   ui: {
     title: 'Wizualizator faz Księżyca',
@@ -31,19 +31,19 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'dzień',
   },
   seo: [
-    { type: 'title', text: 'Wizualizator faz Księżyca – narzędzie księżycowe i ustawianie zegarka', level: 2 },
-    { type: 'paragraph', html: 'Wizualizator faz Księżyca pokazuje <strong>bieżącą fazę Księżyca</strong> z realistyczną grafiką. Zobaczysz <strong>procent oświetlenia, wiek Księżyca, dni do następnej pełni i nowiu</strong>. Stworzony dla miłośników zegarków, którzy muszą precyzyjnie ustawić komplikację fazy Księżyca – działa również jako ogólny kalendarz księżycowy dla dowolnej daty w przeszłości lub przyszłości.' },
+    { type: 'title', text: 'Wizualizator faz Ksiezyca: narzedzie ksiezycowe i ustawianie zegarka', level: 2 },
+    { type: 'paragraph', html: 'Wizualizator faz Księżyca pokazuje <strong>bieżącą fazę Księżyca</strong> z realistyczną grafiką. Zobaczysz <strong>procent oświetlenia, wiek Księżyca, dni do następnej pełni i nowiu</strong>. Stworzony dla miłośników zegarków, którzy muszą precyzyjnie ustawić komplikację fazy Księżyca - działa również jako ogólny kalendarz księżycowy dla dowolnej daty w przeszłości lub przyszłości.' },
     { type: 'title', text: 'Słowniczek faz Księżyca', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Nów', definition: 'Księżyc znajduje się między Ziemią a Słońcem. Oświetlona strona jest odwrócona od nas. 0% oświetlenia. Początek cyklu księżycowego.' },
-        { term: 'Sierp przybywający', definition: '1–49% oświetlenia. Cienki sierp pojawia się po prawej stronie (półkula północna). Księżyc zbliża się do pierwszej kwadry.' },
+        { term: 'Sierp przybywający', definition: '1-49% oświetlenia. Cienki sierp pojawia się po prawej stronie (półkula północna). Księżyc zbliża się do pierwszej kwadry.' },
         { term: 'Pierwsza kwadra', definition: '50% oświetlenia. Połowa widocznej powierzchni jest oświetlona. Księżyc zakończył jedną czwartą swojego cyklu.' },
-        { term: 'Księżyc przybywający', definition: '51–99% oświetlenia. Oświetlona jest więcej niż połowa. Księżyc zmierza w kierunku pełni.' },
+        { term: 'Księżyc przybywający', definition: '51-99% oświetlenia. Oświetlona jest więcej niż połowa. Księżyc zmierza w kierunku pełni.' },
         { term: 'Pełnia', definition: '100% oświetlenia. Cała widoczna powierzchnia jest oświetlona. Szczyt cyklu księżycowego.' },
-        { term: 'Księżyc ubywający', definition: '99–51% oświetlenia. Oświetlony obszar zaczyna się zmniejszać od prawej strony.' },
+        { term: 'Księżyc ubywający', definition: '99-51% oświetlenia. Oświetlony obszar zaczyna się zmniejszać od prawej strony.' },
         { term: 'Ostatnia kwadra', definition: '50% oświetlenia. Oświetlona jest lewa połowa. Trzy czwarte cyklu za nami.' },
-        { term: 'Sierp ubywający', definition: '49–1% oświetlenia. Cienki sierp po lewej stronie przed resetem cyklu do nowiu.' },
+        { term: 'Sierp ubywający', definition: '49-1% oświetlenia. Cienki sierp po lewej stronie przed resetem cyklu do nowiu.' },
       ]
     },
     { type: 'title', text: 'Jak ustawić fazę Księżyca w zegarku', level: 3 },
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Wysoka precyzja', 'Złożony mechanizm', '~1 dzień na 100+ lat', '100+ lat', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Odczyt tarczy księżycowej', html: 'W większości zegarków z fazą Księżyca tarcza księżycowa pokazuje <strong>dwa księżyce</strong> naprzeciw siebie. Każda pełnia pokrywa się ze środkiem górnego okienka. Po jednym pełnym cyklu (29,5 dnia) drugi księżyc zajmuje jego miejsce. Dlatego koło 59-zębowe działa: wykonuje jeden pełny obrót w 59 dni – dokładnie dwa cykle księżycowe.' },
+    { type: 'tip', title: 'Odczyt tarczy księżycowej', html: 'W większości zegarków z fazą Księżyca tarcza księżycowa pokazuje <strong>dwa księżyce</strong> naprzeciw siebie. Każda pełnia pokrywa się ze środkiem górnego okienka. Po jednym pełnym cyklu (29,5 dnia) drugi księżyc zajmuje jego miejsce. Dlatego koło 59-zębowe działa: wykonuje jeden pełny obrót w 59 dni - dokładnie dwa cykle księżycowe.' },
     {
       type: 'summary', title: 'Szybkie zestawienie', items: [
         'Cykl księżycowy (synodyczny) trwa dokładnie 29,53058867 dnia. Narzędzie używa tej wartości dla maksymalnej dokładności.',
@@ -95,7 +95,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   howTo: [
     {
       name: 'Wybierz datę',
-      text: 'Użyj selektora daty, aby wybrać dowolną datę – w przeszłości lub przyszłości – i zobaczyć fazę Księżyca.',
+      text: 'Użyj selektora daty, aby wybrać dowolną datę - w przeszłości lub przyszłości - i zobaczyć fazę Księżyca.',
     },
     {
       name: 'Odczytaj dane fazy',

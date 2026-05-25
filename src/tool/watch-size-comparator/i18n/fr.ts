@@ -47,23 +47,23 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     { type: 'title', text: 'Glossaire des Tailles de Montre', level: 3 },
     {
       type: 'glossary', items: [
-        { term: 'Diamètre du boîtier', definition: 'La largeur du boîtier mesurée en travers du cadran, excluant la couronne. Plage typique&nbsp;: 34–46 mm. La mesure la plus couramment citée, mais pas le seul facteur d\'ajustement.' },
+        { term: 'Diamètre du boîtier', definition: 'La largeur du boîtier mesurée en travers du cadran, excluant la couronne. Plage typique&nbsp;: 34-46 mm. La mesure la plus couramment citée, mais pas le seul facteur d\'ajustement.' },
         { term: 'Corne-à-Corne (CàC)', definition: 'La distance entre les cornes supérieure et inférieure où s\'attache le bracelet. Cela détermine si la montre dépasse du poignet. Une montre de 40 mm avec une CàC de 50 mm porte plus grand qu\'une 42 mm avec une CàC de 46 mm.' },
-        { term: 'Largeur plate du poignet', definition: 'La largeur de la surface supérieure de votre poignet, par opposition à sa circonférence. Approximativement circonférence du poignet / π moins 2–4 cm. C\'est la dimension sur laquelle repose réellement votre montre.' },
-        { term: 'Rapport boîtier-poignet', definition: 'Diamètre du boîtier divisé par la largeur du poignet. Un rapport de 0,6–0,75 (60–75 %) est considéré comme l\'ajustement proportionné classique.' },
+        { term: 'Largeur plate du poignet', definition: 'La largeur de la surface supérieure de votre poignet, par opposition à sa circonférence. Approximativement circonférence du poignet / π moins 2-4 cm. C\'est la dimension sur laquelle repose réellement votre montre.' },
+        { term: 'Rapport boîtier-poignet', definition: 'Diamètre du boîtier divisé par la largeur du poignet. Un rapport de 0,6-0,75 (60-75 %) est considéré comme l\'ajustement proportionné classique.' },
       ]
     },
 
     { type: 'title', text: 'Quelle Taille de Montre pour Mon Poignet&nbsp;?', level: 3 },
     {
       type: 'table', headers: ['Tour de poignet', 'Largeur plate (approx.)', 'Diamètre idéal', 'Corne-à-Corne max', 'Idéal pour'], rows: [
-        ['14–15 cm (5,5–5,9 in)', '38–42 mm', '30–34 mm', '38–42 mm', 'Montres vintage & habillées'],
-        ['15–16 cm (5,9–6,3 in)', '40–44 mm', '34–36 mm', '40–44 mm', 'Petites montres classiques'],
-        ['16–17 cm (6,3–6,7 in)', '42–46 mm', '36–39 mm', '42–46 mm', 'Taille polyvalente quotidienne'],
-        ['17–18 cm (6,7–7,1 in)', '44–48 mm', '38–42 mm', '44–48 mm', 'Le point idéal pour la plupart des marques'],
-        ['18–19 cm (7,1–7,5 in)', '46–50 mm', '40–44 mm', '46–50 mm', 'Montres de plongée & GMT'],
-        ['19–20 cm (7,5–7,9 in)', '48–52 mm', '42–46 mm', '48–52 mm', 'Montres outils & pilotes'],
-        ['20–21 cm (7,9–8,3 in)', '50–54 mm', '44–48 mm', '50–54 mm', 'Montres oversized & flieger'],
+        ['14-15 cm (5,5-5,9 in)', '38-42 mm', '30-34 mm', '38-42 mm', 'Montres vintage & habillées'],
+        ['15-16 cm (5,9-6,3 in)', '40-44 mm', '34-36 mm', '40-44 mm', 'Petites montres classiques'],
+        ['16-17 cm (6,3-6,7 in)', '42-46 mm', '36-39 mm', '42-46 mm', 'Taille polyvalente quotidienne'],
+        ['17-18 cm (6,7-7,1 in)', '44-48 mm', '38-42 mm', '44-48 mm', 'Le point idéal pour la plupart des marques'],
+        ['18-19 cm (7,1-7,5 in)', '46-50 mm', '40-44 mm', '46-50 mm', 'Montres de plongée & GMT'],
+        ['19-20 cm (7,5-7,9 in)', '48-52 mm', '42-46 mm', '48-52 mm', 'Montres outils & pilotes'],
+        ['20-21 cm (7,9-8,3 in)', '50-54 mm', '44-48 mm', '50-54 mm', 'Montres oversized & flieger'],
       ]
     },
 
@@ -72,12 +72,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
       type: 'list', items: [
         'Enroulez un mètre ruban flexible autour de votre poignet juste derrière l\'os du poignet (styloïde cubitale). Il doit être ajusté mais pas serré.',
         'Si vous n\'avez pas de mètre, utilisez une ficelle ou un câble, marquez le chevauchement, puis mesurez-le contre une règle.',
-        'Notez la mesure en centimètres ou en pouces. Les poignets masculins moyens mesurent 17–19 cm (6,7–7,5 in) ; les poignets féminins moyens 14–16 cm (5,5–6,3 in).',
-        'Pour estimer la largeur plate de votre poignet, soustrayez 2–4 cm de la circonférence ou utilisez la fonction d\'estimation automatique de l\'outil.',
+        'Notez la mesure en centimètres ou en pouces. Les poignets masculins moyens mesurent 17-19 cm (6,7-7,5 in) ; les poignets féminins moyens 14-16 cm (5,5-6,3 in).',
+        'Pour estimer la largeur plate de votre poignet, soustrayez 2-4 cm de la circonférence ou utilisez la fonction d\'estimation automatique de l\'outil.',
       ]
     },
 
-    { type: 'diagnostic', variant: 'info', title: 'La Corne–à–Corne est la Véritable Limite', icon: 'mdi:ruler', html: 'La plupart des gens se concentrent sur le <strong>diamètre du boîtier</strong>, mais c\'est la <strong>corne-à-corne</strong> qui détermine si une montre vous va. Une montre avec une CàC de 48 mm sur un poignet plat de 55 mm (17 cm de tour) occupe 87 % de la largeur du poignet. Au-delà de 65 %, les cornes commencent à approcher du bord du poignet. <strong>Vérifiez toujours la CàC en premier.</strong>' },
+    { type: 'diagnostic', variant: 'info', title: 'La Corne a Corne est la Veritable Limite', icon: 'mdi:ruler', html: 'La plupart des gens se concentrent sur le <strong>diamètre du boîtier</strong>, mais c\'est la <strong>corne-à-corne</strong> qui détermine si une montre vous va. Une montre avec une CàC de 48 mm sur un poignet plat de 55 mm (17 cm de tour) occupe 87 % de la largeur du poignet. Au-delà de 65 %, les cornes commencent à approcher du bord du poignet. <strong>Vérifiez toujours la CàC en premier.</strong>' },
 
     { type: 'tip', title: 'cm ou Pouces&nbsp;? Utilisez Ce Que Vous Connaissez', html: 'L\'outil prend désormais en charge les unités métriques et impériales. Mesurez votre poignet dans le système que vous utilisez au quotidien. Les dimensions des boîtiers de montres sont <strong>toujours en millimètres</strong> (même aux États-Unis), donc les diamètres et la CàC restent en mm — seule la mesure du poignet change. Cela correspond au fonctionnement de l\'industrie horlogère.' },
 
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
       type: 'summary', title: 'Checklist Rapide Avant d\'Acheter', items: [
         'Mesurez votre tour de poignet et saisissez-le dans l\'outil.',
         'Consultez la corne-à-corne de la montre — pas seulement le diamètre du boîtier.',
-        'La montre devrait occuper 60–75 % de la largeur plate de votre poignet pour un ajustement classique.',
+        'La montre devrait occuper 60-75 % de la largeur plate de votre poignet pour un ajustement classique.',
         'Si les cornes dépassent des bords de votre poignet, la montre semblera trop grande quel que soit le diamètre.',
         'Utilisez l\'outil pour comparer plusieurs montres côte à côte avant de prendre une décision d\'achat.',
       ]
@@ -94,7 +94,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   faq: [
     {
       question: 'Comment mesurer mon poignet pour une montre&nbsp;?',
-      answer: 'Utilisez un mètre ruban flexible autour de l\'os du poignet. Vous pouvez aussi enrouler une ficelle, marquer le chevauchement et le mesurer avec une règle. La moyenne est de 17–19 cm pour les hommes, 14–16 cm pour les femmes.',
+      answer: 'Utilisez un mètre ruban flexible autour de l\'os du poignet. Vous pouvez aussi enrouler une ficelle, marquer le chevauchement et le mesurer avec une règle. La moyenne est de 17-19 cm pour les hommes, 14-16 cm pour les femmes.',
     },
     {
       question: 'Qu\'est-ce que la corne-à-corne et pourquoi est-ce important&nbsp;?',
@@ -102,7 +102,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       question: 'Quelle taille de montre pour un poignet de 17 cm&nbsp;?',
-      answer: 'Un poignet de 17 cm (≈55 mm de largeur plate) accueille confortablement des montres de 36–42 mm de diamètre avec une corne-à-corne de 44–50 mm. Le point idéal est 38–40 mm avec une CàC de 46–48 mm.',
+      answer: 'Un poignet de 17 cm (≈55 mm de largeur plate) accueille confortablement des montres de 36-42 mm de diamètre avec une corne-à-corne de 44-50 mm. Le point idéal est 38-40 mm avec une CàC de 46-48 mm.',
     },
   ],
   bibliography,
@@ -134,7 +134,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': 'Comment mesurer mon poignet pour une montre&nbsp;?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Utilisez un mètre ruban flexible autour de l\'os du poignet. La moyenne est de 17–19 cm pour les hommes, 14–16 cm pour les femmes.',
+            'text': 'Utilisez un mètre ruban flexible autour de l\'os du poignet. La moyenne est de 17-19 cm pour les hommes, 14-16 cm pour les femmes.',
           },
         },
         {
@@ -150,7 +150,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': 'Quelle taille de montre pour un poignet de 17 cm&nbsp;?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Un poignet de 17 cm accueille des montres de 36–42 mm de diamètre avec une corne-à-corne de 44–50 mm. Le point idéal est 38–40 mm avec une CàC de 46–48 mm.',
+            'text': 'Un poignet de 17 cm accueille des montres de 36-42 mm de diamètre avec une corne-à-corne de 44-50 mm. Le point idéal est 38-40 mm avec une CàC de 46-48 mm.',
           },
         },
       ],

@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Umieść zegarek na platformie odmagnesowacza.',
     step2: 'Naciśnij Start i przytrzymaj przycisk odmagnesowacza przez ustawiony czas.',
     step3: 'Puść przycisk i powoli odsuń zegarek.',
-    step4: 'Powtórz 2–3 razy, jeśli potrzeba, obracając za każdym razem zegarek.',
+    step4: 'Powtórz 2-3 razy, jeśli potrzeba, obracając za każdym razem zegarek.',
     tipTitle: 'Wskazówka',
     tipContent: 'Trzymaj zegarek co najmniej 1 metr od włączonego odmagnesowacza, aby uniknąć ponownego namagnesowania.',
   },

@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Tempatkan jam tangan di atas platform demagnetizer.',
     step2: 'Tekan Mulai dan tahan tombol demagnetizer selama durasi yang ditentukan.',
     step3: 'Lepaskan tombol dan perlahan jauhkan jam tangan.',
-    step4: 'Ulangi 2–3 kali jika perlu, putar jam tangan setiap kali.',
+    step4: 'Ulangi 2-3 kali jika perlu, putar jam tangan setiap kali.',
     tipTitle: 'Tips',
     tipContent: 'Jaga jarak jam tangan minimal 1 meter dari demagnetizer saat menyala untuk menghindari magnetisasi ulang.',
   },

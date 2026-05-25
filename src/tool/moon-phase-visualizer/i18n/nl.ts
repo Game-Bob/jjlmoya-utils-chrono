@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'maanfase-visualisator',
-  title: 'Moon Phase Visualizer–maankalender & horlogecomplicatie tool',
+  title: 'Moon Phase Visualizer: maankalender en horlogecomplicatie tool',
   description: 'Visualiseer de huidige maanfase, verlichting, ouderdom en aankomende volle en nieuwe manen. Perfect voor het instellen van uw maanfase horlogecomplicatie.',
   ui: {
     title: 'Moon Phase Visualizer',
@@ -31,19 +31,19 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'dag',
   },
   seo: [
-    { type: 'title', text: 'Moon Phase Visualizer-maanfase tool & horloge instelgids', level: 2 },
+    { type: 'title', text: 'Moon Phase Visualizer: maanfase tool en horloge instelgids', level: 2 },
     { type: 'paragraph', html: 'De Moon Phase Visualizer toont de <strong>huidige maanfase</strong> met een realistische weergave van de maan. Zie <strong>verlichtingspercentage, maanouderdom, dagen tot volgende volle maan en volgende nieuwe maan</strong>. Ontworpen voor horlogeliefhebbers die hun maanfasecomplicatie nauwkeurig moeten instellen—werkt ook als algemene maankalender voor elke datum in het verleden of de toekomst.' },
     { type: 'title', text: 'Maanfase woordenlijst', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Nieuwe maan', definition: 'De maan staat tussen de aarde en de zon. De verlichte zijde is van ons afgekeerd. 0% verlichting. Het begin van de maancyclus.' },
-        { term: 'Jonge maansikkel', definition: '1–49% verlichting. Een dunne sikkel verschijnt aan de rechterkant (noordelijk halfrond). De maan beweegt naar het eerste kwartier.' },
+        { term: 'Jonge maansikkel', definition: '1-49% verlichting. Een dunne sikkel verschijnt aan de rechterkant (noordelijk halfrond). De maan beweegt naar het eerste kwartier.' },
         { term: 'Eerste kwartier', definition: '50% verlichting. De helft van het zichtbare oppervlak is verlicht. De maan heeft een kwart van haar cyclus voltooid.' },
-        { term: 'Wasende maan', definition: '51–99% verlichting. Meer dan de helft is verlicht. De maan bouwt naar volle maan.' },
+        { term: 'Wasende maan', definition: '51-99% verlichting. Meer dan de helft is verlicht. De maan bouwt naar volle maan.' },
         { term: 'Volle maan', definition: '100% verlichting. Het hele zichtbare oppervlak is verlicht. Het hoogtepunt van de maancyclus.' },
-        { term: 'Afnemende maan', definition: '99–51% verlichting. Het verlichte gebied begint te krimpen vanaf de rechterkant.' },
+        { term: 'Afnemende maan', definition: '99-51% verlichting. Het verlichte gebied begint te krimpen vanaf de rechterkant.' },
         { term: 'Laatste kwartier', definition: '50% verlichting. De linkerhelft is verlicht. Driekwart van de cyclus voltooid.' },
-        { term: 'Oude maansikkel', definition: '49–1% verlichting. Een dunne sikkel aan de linkerkant voordat de cyclus terugkeert naar nieuwe maan.' },
+        { term: 'Oude maansikkel', definition: '49-1% verlichting. Een dunne sikkel aan de linkerkant voordat de cyclus terugkeert naar nieuwe maan.' },
       ]
     },
     { type: 'title', text: 'Hoe stelt u een maanfasehorloge in', level: 3 },

@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'moon-phase-visualizer',
-  title: '문 페이즈 비주얼라이저 – 음력 달력 & 시계 컴플리케이션 도구',
+  title: '문 페이즈 비주얼라이저: 음력 달력 및 시계 컴플리케이션 도구',
   description: '현재 달의 위상, 조명률, 월령, 그리고 다가오는 보름달과 초승달을 시각화하세요. 문 페이즈 시계 컴플리케이션 설정에 완벽한 도구입니다.',
   ui: {
     title: '문 페이즈 비주얼라이저',
@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: '일',
   },
   seo: [
-    { type: 'title', text: '문 페이즈 비주얼라이저 – 달 위상 도구 & 시계 설정 가이드', level: 2 },
+    { type: 'title', text: '문 페이즈 비주얼라이저: 달 위상 도구 및 시계 설정 가이드', level: 2 },
     { type: 'paragraph', html: '문 페이즈 비주얼라이저는 <strong>현재 달의 위상</strong>을 사실적인 렌더링으로 보여줍니다. <strong>조명률, 월령, 다음 보름달까지 남은 일수, 다음 초승달</strong>을 확인할 수 있습니다. 문 페이즈 컴플리케이션을 정확하게 설정해야 하는 시계 애호가를 위해 설계되었으며, 과거나 미래의 모든 날짜에 대한 일반 음력 달력으로도 사용할 수 있습니다.' },
     { type: 'title', text: '달 위상 용어 설명', level: 3 },
     {

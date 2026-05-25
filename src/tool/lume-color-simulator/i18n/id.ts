@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9—Mana yang Harus Dipilih?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Hijau Klasik', icon: 'mdi:lightbulb-on', description: 'Formulasi Super-LumiNova asli. Bersinar hijau dengan kecerahan sedang. Pilihan klasik yang aman dan cocok dengan gaya arloji apa pun.', points: ['Kecerahan sedang, visibilitas 4–6 jam', 'Cahaya hijau, nada hangat', 'Formulasi paling terjangkau', 'Umum di arloji kelas pemula'], highlight: false },
-        { title: 'C3 Super Hijau', icon: 'mdi:lightning-bolt', description: 'Lume hijau paling terang yang tersedia. Digunakan di arloji selam profesional yang mengutamakan keterbacaan di bawah air. Cahaya maksimal dari pengisian minimal.', points: ['Kecerahan tertinggi, visibilitas 8–12 jam', 'Kuning-hijau di siang hari', 'Disukai Seiko, Citizen, Omega', 'Terbaik untuk keterbacaan minim cahaya'], highlight: true },
+        { title: 'C1 Hijau Klasik', icon: 'mdi:lightbulb-on', description: 'Formulasi Super-LumiNova asli. Bersinar hijau dengan kecerahan sedang. Pilihan klasik yang aman dan cocok dengan gaya arloji apa pun.', points: ['Kecerahan sedang, visibilitas 4-6 jam', 'Cahaya hijau, nada hangat', 'Formulasi paling terjangkau', 'Umum di arloji kelas pemula'], highlight: false },
+        { title: 'C3 Super Hijau', icon: 'mdi:lightning-bolt', description: 'Lume hijau paling terang yang tersedia. Digunakan di arloji selam profesional yang mengutamakan keterbacaan di bawah air. Cahaya maksimal dari pengisian minimal.', points: ['Kecerahan tertinggi, visibilitas 8-12 jam', 'Kuning-hijau di siang hari', 'Disukai Seiko, Citizen, Omega', 'Terbaik untuk keterbacaan minim cahaya'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Biru Es', icon: 'mdi:snowflake', description: 'Bersinar biru-putih, bukan hijau. Sedikit kurang terang dibanding C3 namun lebih disukai karena estetikanya yang bersih dan modern. Populer di arloji olahraga mewah.', points: ['Kecerahan tinggi, visibilitas 6–10 jam', 'Cahaya biru-putih, nada netral', 'Tampilan bersih dan modern di siang hari', 'Digunakan oleh Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage Gaya Radium', icon: 'mdi:fire', description: 'Nada krem kecoklatan hangat yang meniru lume radium tahun 1960-an. Sengaja dibuat lebih redup demi keaslian estetika. Cahayanya hangat, halus, dan menua dengan indah.', points: ['Kecerahan rendah, visibilitas 2–4 jam', 'Krem hangat hingga amber redup', 'Tampilan tua tanpa radioaktivitas', 'Populer di reissue heritage'], highlight: false },
+        { title: 'BGW9 Biru Es', icon: 'mdi:snowflake', description: 'Bersinar biru-putih, bukan hijau. Sedikit kurang terang dibanding C3 namun lebih disukai karena estetikanya yang bersih dan modern. Populer di arloji olahraga mewah.', points: ['Kecerahan tinggi, visibilitas 6-10 jam', 'Cahaya biru-putih, nada netral', 'Tampilan bersih dan modern di siang hari', 'Digunakan oleh Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage Gaya Radium', icon: 'mdi:fire', description: 'Nada krem kecoklatan hangat yang meniru lume radium tahun 1960-an. Sengaja dibuat lebih redup demi keaslian estetika. Cahayanya hangat, halus, dan menua dengan indah.', points: ['Kecerahan rendah, visibilitas 2-4 jam', 'Krem hangat hingga amber redup', 'Tampilan tua tanpa radioaktivitas', 'Populer di reissue heritage'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'Kecerahan Bukan Segalanya', icon: 'mdi:palette', html: 'Lume paling terang (C3) tidak selalu yang terbaik. <strong>BGW9</strong> mengorbankan sedikit perbedaan kecerahan demi tampilan yang lebih netral dan modern yang disukai banyak kolektor. <strong>Lume vintage</strong> mengutamakan estetika period-correct di atas performa. Pilih berdasarkan yang paling penting bagi Anda: <strong>cahaya maksimal, estetika modern, atau keaslian heritage.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Pigmen fotoluminesen berbasis strontium aluminat. Menyerap sinar UV dan cahaya tampak lalu memancarkannya kembali sebagai cahaya. Tidak radioaktif dan aman. Dikembangkan oleh Nemoto & Co. pada tahun 1993.' },
-        { term: 'Waktu Pengisian', definition: 'Durasi paparan cahaya yang diperlukan untuk menjenuhkan pigmen lume. Pengisian penuh membutuhkan 10–30 menit di bawah sinar matahari langsung atau UV. Semakin lama pengisian = semakin panjang dan terang cahayanya.' },
-        { term: 'Durasi Cahaya', definition: 'Berapa lama lume tetap terlihat setelah diisi. Super-LumiNova berkualitas bersinar terlihat selama 6–12 jam. Periode paling terang adalah 30 menit pertama setelah pengisian.' },
+        { term: 'Waktu Pengisian', definition: 'Durasi paparan cahaya yang diperlukan untuk menjenuhkan pigmen lume. Pengisian penuh membutuhkan 10-30 menit di bawah sinar matahari langsung atau UV. Semakin lama pengisian = semakin panjang dan terang cahayanya.' },
+        { term: 'Durasi Cahaya', definition: 'Berapa lama lume tetap terlihat setelah diisi. Super-LumiNova berkualitas bersinar terlihat selama 6-12 jam. Periode paling terang adalah 30 menit pertama setelah pengisian.' },
         { term: 'Kelas Pigmen', definition: 'Kualitas kristal strontium aluminat. Pigmen kelas lebih tinggi (C3, BGW9) menggunakan kristal yang lebih besar dan seragam untuk cahaya yang lebih terang dan tahan lama. Kelas lebih rendah (LumiNova) menggunakan kristal lebih kecil dan lebih redup.' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'Berapa lama lume bertahan?',
-      answer: 'Setelah pengisian penuh di bawah cahaya terang, Super-LumiNova berkualitas bersinar terlihat selama 6–12 jam. Periode paling terang adalah 30 menit pertama.',
+      answer: 'Setelah pengisian penuh di bawah cahaya terang, Super-LumiNova berkualitas bersinar terlihat selama 6-12 jam. Periode paling terang adalah 30 menit pertama.',
     },
   ],
   bibliography,

@@ -47,23 +47,23 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     { type: 'title', text: 'Glossário de Tamanhos de Relógio', level: 3 },
     {
       type: 'glossary', items: [
-        { term: 'Diâmetro da Caixa', definition: 'A largura da caixa do relógio medida no mostrador, excluindo a coroa. Variação típica: 34–46mm. É a medida mais citada, mas não é o único fator de ajuste.' },
+        { term: 'Diâmetro da Caixa', definition: 'A largura da caixa do relógio medida no mostrador, excluindo a coroa. Variação típica: 34-46mm. É a medida mais citada, mas não é o único fator de ajuste.' },
         { term: 'Distância entre Asas (L2L)', definition: 'A distância entre as asas superior e inferior onde a pulseira é fixada. É o que determina se o relógio ultrapassa o pulso. Um relógio de 40mm com L2L de 50mm veste maior que um de 42mm com L2L de 46mm.' },
-        { term: 'Largura Plana do Pulso', definition: 'A largura da superfície superior do pulso, em oposição à circunferência. Aproximadamente circunferência do pulso / π menos 2–4cm. É a dimensão na qual o relógio realmente se apoia.' },
-        { term: 'Proporção Caixa-Pulso', definition: 'Diâmetro da caixa dividido pela largura do pulso. Uma proporção de 0,6–0,75 (60–75%) é considerada o ajuste proporcional clássico.' },
+        { term: 'Largura Plana do Pulso', definition: 'A largura da superfície superior do pulso, em oposição à circunferência. Aproximadamente circunferência do pulso / π menos 2-4cm. É a dimensão na qual o relógio realmente se apoia.' },
+        { term: 'Proporção Caixa-Pulso', definition: 'Diâmetro da caixa dividido pela largura do pulso. Uma proporção de 0,6-0,75 (60-75%) é considerada o ajuste proporcional clássico.' },
       ]
     },
 
     { type: 'title', text: 'Qual Tamanho de Relógio Serve no Meu Pulso?', level: 3 },
     {
       type: 'table', headers: ['Circunferência do Pulso', 'Largura Plana (aprox.)', 'Diâmetro Ideal da Caixa', 'L2L Máximo', 'Melhor Para'], rows: [
-        ['14–15 cm (5,5–5,9 pol)', '38–42 mm', '30–34 mm', '38–42 mm', 'Relógios vintage e sociais'],
-        ['15–16 cm (5,9–6,3 pol)', '40–44 mm', '34–36 mm', '40–44 mm', 'Relógios clássicos pequenos'],
-        ['16–17 cm (6,3–6,7 pol)', '42–46 mm', '36–39 mm', '42–46 mm', 'Tamanho versátil do dia a dia'],
-        ['17–18 cm (6,7–7,1 pol)', '44–48 mm', '38–42 mm', '44–48 mm', 'Ponto ideal para a maioria das marcas'],
-        ['18–19 cm (7,1–7,5 pol)', '46–50 mm', '40–44 mm', '46–50 mm', 'Relógios de mergulho e GMT'],
-        ['19–20 cm (7,5–7,9 pol)', '48–52 mm', '42–46 mm', '48–52 mm', 'Relógios ferramenta e de piloto'],
-        ['20–21 cm (7,9–8,3 pol)', '50–54 mm', '44–48 mm', '50–54 mm', 'Relógios oversized e flieger'],
+        ['14-15 cm (5,5-5,9 pol)', '38-42 mm', '30-34 mm', '38-42 mm', 'Relógios vintage e sociais'],
+        ['15-16 cm (5,9-6,3 pol)', '40-44 mm', '34-36 mm', '40-44 mm', 'Relógios clássicos pequenos'],
+        ['16-17 cm (6,3-6,7 pol)', '42-46 mm', '36-39 mm', '42-46 mm', 'Tamanho versátil do dia a dia'],
+        ['17-18 cm (6,7-7,1 pol)', '44-48 mm', '38-42 mm', '44-48 mm', 'Ponto ideal para a maioria das marcas'],
+        ['18-19 cm (7,1-7,5 pol)', '46-50 mm', '40-44 mm', '46-50 mm', 'Relógios de mergulho e GMT'],
+        ['19-20 cm (7,5-7,9 pol)', '48-52 mm', '42-46 mm', '48-52 mm', 'Relógios ferramenta e de piloto'],
+        ['20-21 cm (7,9-8,3 pol)', '50-54 mm', '44-48 mm', '50-54 mm', 'Relógios oversized e flieger'],
       ]
     },
 
@@ -72,8 +72,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
       type: 'list', items: [
         'Enrole uma fita métrica flexível ao redor do pulso, logo atrás do osso (processo estiloide ulnar). Deve ficar justa, mas não apertada.',
         'Se não tiver uma fita, use um barbante ou um cabo, marque a sobreposição e meça com uma régua.',
-        'Anote a medida em centímetros ou polegadas. A média masculina é 17–19cm (6,7–7,5 pol); a feminina é 14–16cm (5,5–6,3 pol).',
-        'Para estimar a largura plana do pulso, subtraia 2–4cm da circunferência ou use o recurso de estimativa automática da ferramenta.',
+        'Anote a medida em centímetros ou polegadas. A média masculina é 17-19cm (6,7-7,5 pol); a feminina é 14-16cm (5,5-6,3 pol).',
+        'Para estimar a largura plana do pulso, subtraia 2-4cm da circunferência ou use o recurso de estimativa automática da ferramenta.',
       ]
     },
 
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
       type: 'summary', title: 'Checklist Rápido Antes de Comprar', items: [
         'Meça a circunferência do seu pulso e insira na ferramenta.',
         'Consulte a distância entre asas do relógio — não apenas o diâmetro da caixa.',
-        'O relógio deve ocupar 60–75% da largura plana do pulso para um ajuste clássico.',
+        'O relógio deve ocupar 60-75% da largura plana do pulso para um ajuste clássico.',
         'Se as asas ultrapassarem as bordas do pulso, o relógio parecerá grande demais, independentemente do diâmetro.',
         'Use a ferramenta para comparar vários relógios lado a lado antes de decidir a compra.',
       ]
@@ -94,7 +94,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   faq: [
     {
       question: 'Como medir o pulso para um relógio?',
-      answer: 'Use uma fita métrica flexível ao redor do osso do pulso. Ou enrole um barbante, marque a sobreposição e meça com uma régua. A média é 17–19cm para homens e 14–16cm para mulheres.',
+      answer: 'Use uma fita métrica flexível ao redor do osso do pulso. Ou enrole um barbante, marque a sobreposição e meça com uma régua. A média é 17-19cm para homens e 14-16cm para mulheres.',
     },
     {
       question: 'O que é distância entre asas e por que é importante?',
@@ -102,7 +102,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       question: 'Qual tamanho de relógio serve num pulso de 17cm?',
-      answer: 'Um pulso de 17cm (≈55mm de largura plana) aceita confortavelmente relógios com 36–42mm de diâmetro e 44–50mm de L2L. O ponto ideal é 38–40mm com 46–48mm de L2L.',
+      answer: 'Um pulso de 17cm (≈55mm de largura plana) aceita confortavelmente relógios com 36-42mm de diâmetro e 44-50mm de L2L. O ponto ideal é 38-40mm com 46-48mm de L2L.',
     },
   ],
   bibliography,
@@ -134,7 +134,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': 'Como medir o pulso para um relógio?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Use uma fita métrica flexível ao redor do osso do pulso. A média é 17–19cm para homens e 14–16cm para mulheres.',
+            'text': 'Use uma fita métrica flexível ao redor do osso do pulso. A média é 17-19cm para homens e 14-16cm para mulheres.',
           },
         },
         {
@@ -150,7 +150,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': 'Qual tamanho de relógio serve num pulso de 17cm?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Um pulso de 17cm aceita 36–42mm de diâmetro com 44–50mm de L2L. O ponto ideal é 38–40mm com 46–48mm de L2L.',
+            'text': 'Um pulso de 17cm aceita 36-42mm de diâmetro com 44-50mm de L2L. O ponto ideal é 38-40mm com 46-48mm de L2L.',
           },
         },
       ],

@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'lume-kleuren-simulator',
-  title: 'Lume Color Simulator–horloge lume visualisator',
+  title: 'Lume Color Simulator: horloge lume visualisator',
   description: 'Visualiseer verschillende lume-kleuren in realtime. Vergelijk C1, C3, BGW9, LumiNova en meer bij verschillende omgevingshelderheden.',
   ui: {
     title: 'Lume Color Simulator',
@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9—welke moet u kiezen?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Klassiek Groen', icon: 'mdi:lightbulb-on', description: 'De originele Super-LumiNova-formulering. Gloeit groen met gemiddelde helderheid. Een veilige, klassieke keuze die bij elke horlogestijl past.', points: ['Medium helderheid, 4–6u zichtbaar', 'Groene gloed, warme tint', 'Meest betaalbare formulering', 'Gebruikelijk in instapmodellen'], highlight: false },
-        { title: 'C3 Supergroen', icon: 'mdi:lightning-bolt', description: 'De helderste groene lume beschikbaar. Gebruikt in professionele duikhorloges waar leesbaarheid onder water cruciaal is. Maximale gloed met minimale lading.', points: ['Hoogste helderheid, 8–12u zichtbaar', 'Geelgroen bij daglicht', 'Verkoren door Seiko, Citizen, Omega', 'Beste voor leesbaarheid bij weinig licht'], highlight: true },
+        { title: 'C1 Klassiek Groen', icon: 'mdi:lightbulb-on', description: 'De originele Super-LumiNova-formulering. Gloeit groen met gemiddelde helderheid. Een veilige, klassieke keuze die bij elke horlogestijl past.', points: ['Medium helderheid, 4-6u zichtbaar', 'Groene gloed, warme tint', 'Meest betaalbare formulering', 'Gebruikelijk in instapmodellen'], highlight: false },
+        { title: 'C3 Supergroen', icon: 'mdi:lightning-bolt', description: 'De helderste groene lume beschikbaar. Gebruikt in professionele duikhorloges waar leesbaarheid onder water cruciaal is. Maximale gloed met minimale lading.', points: ['Hoogste helderheid, 8-12u zichtbaar', 'Geelgroen bij daglicht', 'Verkoren door Seiko, Citizen, Omega', 'Beste voor leesbaarheid bij weinig licht'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 IJsblauw', icon: 'mdi:snowflake', description: 'Gloeit blauwwit in plaats van groen. Iets minder helder dan C3 maar favoriet vanwege de strakke, moderne uitstraling. Populair in luxe sporthorloges.', points: ['Hoge helderheid, 6–10u zichtbaar', 'Blauwwitte gloed, neutrale tint', 'Strakke, moderne look bij daglicht', 'Gebruikt door Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage radiumstijl', icon: 'mdi:fire', description: 'Warme beige/creme tint die de radium lume uit de jaren \'60 nabootst. Opzettelijk gedimd voor esthetische authenticiteit. De gloed is warm, subtiel en veroudert prachtig.', points: ['Lage helderheid, 2–4u zichtbaar', 'Warm creme tot gedimd amber', 'Verouderd uiterlijk zonder radioactiviteit', 'Populair in heritage heruitgaven'], highlight: false },
+        { title: 'BGW9 IJsblauw', icon: 'mdi:snowflake', description: 'Gloeit blauwwit in plaats van groen. Iets minder helder dan C3 maar favoriet vanwege de strakke, moderne uitstraling. Populair in luxe sporthorloges.', points: ['Hoge helderheid, 6-10u zichtbaar', 'Blauwwitte gloed, neutrale tint', 'Strakke, moderne look bij daglicht', 'Gebruikt door Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage radiumstijl', icon: 'mdi:fire', description: 'Warme beige/creme tint die de radium lume uit de jaren \'60 nabootst. Opzettelijk gedimd voor esthetische authenticiteit. De gloed is warm, subtiel en veroudert prachtig.', points: ['Lage helderheid, 2-4u zichtbaar', 'Warm creme tot gedimd amber', 'Verouderd uiterlijk zonder radioactiviteit', 'Populair in heritage heruitgaven'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'Helderheid is niet alles', icon: 'mdi:palette', html: 'De helderste lume (C3) is niet altijd de beste keuze. <strong>BGW9</strong> ruilt een klein verschil in helderheid in voor een neutralere, modernere look waar veel verzamelaars de voorkeur aan geven. <strong>Vintage lume</strong> geeft prioriteit aan periodegetrouwe esthetiek boven prestaties. Kies op basis van wat voor u het belangrijkst is: <strong>maximale gloed, moderne esthetiek of heritage authenticiteit.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Een fotoluminescent pigment op basis van strontiumaluminaat. Het absorbeert UV- en zichtbaar licht en zendt het opnieuw uit als gloed. Niet-radioactief en veilig. Oorspronkelijk ontwikkeld door Nemoto & Co. in 1993.' },
-        { term: 'Laadtijd', definition: 'De duur van blootstelling aan licht die nodig is om het lumepigment te verzadigen. Een volledige lading duurt 10–30 minuten onder direct zonlicht of UV. Langere lading = langere en helderdere gloed.' },
-        { term: 'Gloeiduur', definition: 'Hoe lang de lume zichtbaar blijft na het laden. Kwalitatieve Super-LumiNova gloeit zichtbaar gedurende 6–12 uur. De helderste periode is de eerste 30 minuten na het laden.' },
+        { term: 'Laadtijd', definition: 'De duur van blootstelling aan licht die nodig is om het lumepigment te verzadigen. Een volledige lading duurt 10-30 minuten onder direct zonlicht of UV. Langere lading = langere en helderdere gloed.' },
+        { term: 'Gloeiduur', definition: 'Hoe lang de lume zichtbaar blijft na het laden. Kwalitatieve Super-LumiNova gloeit zichtbaar gedurende 6-12 uur. De helderste periode is de eerste 30 minuten na het laden.' },
         { term: 'Pigmentkwaliteit', definition: 'De kwaliteit van de strontiumaluminaatkristallen. Hogere kwaliteit pigmenten (C3, BGW9) gebruiken grotere, meer uniforme kristallen voor een helderdere en langere gloed. Lagere kwaliteiten (LumiNova) gebruiken kleinere kristallen en zijn zwakker.' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'Hoe lang blijft lume zichtbaar?',
-      answer: 'Na een volledige lading onder helder licht, gloeit kwalitatieve Super-LumiNova zichtbaar gedurende 6–12 uur. De helderste periode is de eerste 30 minuten.',
+      answer: 'Na een volledige lading onder helder licht, gloeit kwalitatieve Super-LumiNova zichtbaar gedurende 6-12 uur. De helderste periode is de eerste 30 minuten.',
     },
   ],
   bibliography,

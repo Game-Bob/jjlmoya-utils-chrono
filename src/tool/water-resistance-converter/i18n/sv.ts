@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'vattenbestandighet-omvandlare',
-  title: 'Klocka Vattenbeständighet Omvandlare–Meter, ATM, Bar & Fot',
+  title: 'Klocka Vattenbestandighet Omvandlare: Meter, ATM, Bar och Fot',
   description: 'Omvandla klockors vattenbeständighetsklasser mellan meter, fot, ATM och bar. Se vad varje klass faktiskt innebär för vardagligt bruk, simning och dykning.',
   ui: {
     title: 'Vattenbeständighet Omvandlare',

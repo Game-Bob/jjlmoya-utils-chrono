@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<BeatRateConverterUI> = {
   slug: 'beat-rate-converter',
-  title: 'Watch Beat Rate Converter–H to Hz & s/d Calculator',
+  title: 'Watch Beat Rate Converter: H to Hz & s/d Calculator',
   description: 'Convert vibrations per hour (VPH) to Hertz, ticks per second, and calculate the daily rate impact of a single lost tick. Works with ETA, Sellita, Miyota, Seiko, Rolex, Omega, and Zenith calibers.',
   ui: {
     title: 'Beat Rate Converter',

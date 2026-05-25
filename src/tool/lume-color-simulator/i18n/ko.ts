@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'lume-color-simulator',
-  title: '루미 컬러 시뮬레이터 – 시계 발광색 시각화 도구',
+  title: '루미 컬러 시뮬레이터: 시계 발광색 시각화 도구',
   description: '다양한 루미 컬러를 실시간으로 확인하세요. C1, C3, BGW9, 루미노바 등 여러 종류를 주변 밝기 레벨별로 비교해볼 수 있습니다.',
   ui: {
     title: '루미 컬러 시뮬레이터',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: '루미의 밝기는 안료 품질과 흡수한 빛의 양에 따라 달라집니다. BGW9는 청백색으로 빛나며 가장 밝고, 빈티지 루미는 따뜻하고 은은하게 빛납니다.',
   },
   seo: [
-    { type: 'title', text: '시계 루미 컬러 시뮬레이터 – 실시간 발광색 비교', level: 2 },
+    { type: 'title', text: '시계 루미 컬러 시뮬레이터 - 실시간 발광색 비교', level: 2 },
     { type: 'paragraph', html: '루미는 시계 수집에서 가장 개인적인 선택 중 하나입니다. <strong>C1 슈퍼-루미노바</strong>의 클래식한 녹색 발광이 좋으신가요, 아니면 <strong>BGW9</strong>의 시원한 청백색이 더 끌리시나요? 이 시뮬레이터는 각 루미 종류가 밝은 햇빛부터 완전한 암흑까지 다양한 밝기 레벨에서 어떻게 보이는지 보여주고, 각 색상의 정확한 <strong>HEX 및 RGB 값</strong>도 함께 제공합니다.' },
     { type: 'title', text: '슈퍼-루미노바 종류 비교', level: 3 },
     {
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['그린', '밝은 녹색', '녹색', '높음', '밀리터리 스타일 시계'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9 – 어떤 것을 선택해야 할까?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9 - 어떤 것을 선택해야 할까?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 클래식 그린', icon: 'mdi:lightbulb-on', description: '최초의 슈퍼-루미노바 포뮬레이션입니다. 중간 밝기의 녹색으로 빛납니다. 어떤 시계 스타일에도 무난하게 어울리는 클래식한 선택이에요.', points: ['중간 밝기, 4~6시간 가시성', '녹색 발광, 따뜻한 톤', '가장 저렴한 포뮬레이션', '보급형 시계에 흔히 사용'], highlight: false },

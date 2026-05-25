@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Coloque o relógio na plataforma do desmagnetizador.',
     step2: 'Pressione Iniciar e segure o botão do desmagnetizador pela duração definida.',
     step3: 'Solte o botão e afaste lentamente o relógio.',
-    step4: 'Repita 2–3 vezes se necessário, girando o relógio a cada vez.',
+    step4: 'Repita 2-3 vezes se necessário, girando o relógio a cada vez.',
     tipTitle: 'Dica',
     tipContent: 'Mantenha o relógio a pelo menos 1 metro de distância do desmagnetizador ligado para evitar remagnetização.',
   },

@@ -37,13 +37,13 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       type: 'glossary', items: [
         { term: 'Luna Nuova', definition: 'La luna si trova tra la Terra e il sole. Il lato illuminato è rivolto lontano da noi. Illuminazione 0%. Inizio del ciclo lunare.' },
-        { term: 'Luna Crescente', definition: 'Illuminazione 1–49%. Un sottile spicchio appare sul lato destro (emisfero nord). La luna si sta muovendo verso il primo quarto.' },
+        { term: 'Luna Crescente', definition: 'Illuminazione 1-49%. Un sottile spicchio appare sul lato destro (emisfero nord). La luna si sta muovendo verso il primo quarto.' },
         { term: 'Primo Quarto', definition: 'Illuminazione 50%. Metà della superficie visibile è illuminata. La luna ha completato un quarto del suo ciclo.' },
-        { term: 'Gibbosa Crescente', definition: 'Illuminazione 51–99%. Più della metà è illuminata. La luna si avvicina al plenilunio.' },
+        { term: 'Gibbosa Crescente', definition: 'Illuminazione 51-99%. Più della metà è illuminata. La luna si avvicina al plenilunio.' },
         { term: 'Luna Piena', definition: 'Illuminazione 100%. L\'intera superficie visibile è illuminata. L\'apice del ciclo lunare.' },
-        { term: 'Gibbosa Calante', definition: 'Illuminazione 99–51%. L\'area illuminata inizia a ridursi dal lato destro.' },
+        { term: 'Gibbosa Calante', definition: 'Illuminazione 99-51%. L\'area illuminata inizia a ridursi dal lato destro.' },
         { term: 'Ultimo Quarto', definition: 'Illuminazione 50%. La metà sinistra è illuminata. Tre quarti del ciclo completati.' },
-        { term: 'Luna Calante', definition: 'Illuminazione 49–1%. Un sottile spicchio sulla sinistra prima che il ciclo torni alla luna nuova.' },
+        { term: 'Luna Calante', definition: 'Illuminazione 49-1%. Un sottile spicchio sulla sinistra prima che il ciclo torni alla luna nuova.' },
       ]
     },
     { type: 'title', text: 'Come Impostare un Orologio con Fase Lunare', level: 3 },

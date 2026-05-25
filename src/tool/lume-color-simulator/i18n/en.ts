@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'lume-color-simulator',
-  title: 'Lume Color Simulator–Watch Lume Visualizer',
+  title: 'Lume Color Simulator: Watch Lume Visualizer',
   description: 'Visualize different lume colors in real time. Compare C1, C3, BGW9, LumiNova, and more across ambient brightness levels.',
   ui: {
     title: 'Lume Color Simulator',
@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9-Which Should You Choose?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Classic Green', icon: 'mdi:lightbulb-on', description: 'The original Super-LumiNova formulation. Glows green with medium brightness. A safe, classic choice that works with any watch style.', points: ['Medium brightness, 4–6h visibility', 'Green glow, warm tone', 'Most affordable formulation', 'Common in entry-level watches'], highlight: false },
-        { title: 'C3 Super Green', icon: 'mdi:lightning-bolt', description: 'The brightest green lume available. Used in professional dive watches where legibility underwater is critical. Maximum glow from minimum charge.', points: ['Highest brightness, 8–12h visibility', 'Yellow-green in daylight', 'Preferred by Seiko, Citizen, Omega', 'Best for low-light readability'], highlight: true },
+        { title: 'C1 Classic Green', icon: 'mdi:lightbulb-on', description: 'The original Super-LumiNova formulation. Glows green with medium brightness. A safe, classic choice that works with any watch style.', points: ['Medium brightness, 4-6h visibility', 'Green glow, warm tone', 'Most affordable formulation', 'Common in entry-level watches'], highlight: false },
+        { title: 'C3 Super Green', icon: 'mdi:lightning-bolt', description: 'The brightest green lume available. Used in professional dive watches where legibility underwater is critical. Maximum glow from minimum charge.', points: ['Highest brightness, 8-12h visibility', 'Yellow-green in daylight', 'Preferred by Seiko, Citizen, Omega', 'Best for low-light readability'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Ice Blue', icon: 'mdi:snowflake', description: 'Glows blue-white instead of green. Slightly less bright than C3 but preferred for its clean, modern aesthetic. Popular in luxury sports watches.', points: ['High brightness, 6–10h visibility', 'Blue-white glow, neutral tone', 'Clean, modern look in daylight', 'Used by Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage Radium–Style', icon: 'mdi:fire', description: 'Warm beige/cream tone that mimics 1960s radium lume. Intentionally dimmer for aesthetic authenticity. The glow is warm, subtle, and ages beautifully.', points: ['Low brightness, 2–4h visibility', 'Warm cream to dim amber', 'Aged appearance without radioactivity', 'Popular in heritage reissues'], highlight: false },
+        { title: 'BGW9 Ice Blue', icon: 'mdi:snowflake', description: 'Glows blue-white instead of green. Slightly less bright than C3 but preferred for its clean, modern aesthetic. Popular in luxury sports watches.', points: ['High brightness, 6-10h visibility', 'Blue-white glow, neutral tone', 'Clean, modern look in daylight', 'Used by Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage Radium Style', icon: 'mdi:fire', description: 'Warm beige/cream tone that mimics 1960s radium lume. Intentionally dimmer for aesthetic authenticity. The glow is warm, subtle, and ages beautifully.', points: ['Low brightness, 2-4h visibility', 'Warm cream to dim amber', 'Aged appearance without radioactivity', 'Popular in heritage reissues'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'Brightness Is Not Everything', icon: 'mdi:palette', html: 'The brightest lume (C3) is not always the best choice. <strong>BGW9</strong> trades a small brightness difference for a more neutral, modern look that many collectors prefer. <strong>Vintage lume</strong> prioritises period-correct aesthetics over performance. Choose based on what matters most to you: <strong>maximum glow, modern aesthetics, or heritage authenticity.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'A strontium aluminate-based photoluminescent pigment. It absorbs UV and visible light and re-emits it as a glow. Non-radioactive and safe. Originally developed by Nemoto & Co. in 1993.' },
-        { term: 'Charge Time', definition: 'The duration of light exposure needed to saturate the lume pigment. A full charge takes 10–30 minutes under direct sunlight or UV. Longer charge = longer and brighter glow.' },
-        { term: 'Glow Duration', definition: 'How long the lume remains visible after charging. Quality Super-LumiNova glows visibly for 6–12 hours. The brightest period is the first 30 minutes after charging.' },
+        { term: 'Charge Time', definition: 'The duration of light exposure needed to saturate the lume pigment. A full charge takes 10-30 minutes under direct sunlight or UV. Longer charge = longer and brighter glow.' },
+        { term: 'Glow Duration', definition: 'How long the lume remains visible after charging. Quality Super-LumiNova glows visibly for 6-12 hours. The brightest period is the first 30 minutes after charging.' },
         { term: 'Pigment Grade', definition: 'The quality of the strontium aluminate crystals. Higher-grade pigments (C3, BGW9) use larger, more uniform crystals for brighter and longer glow. Lower grades (LumiNova) use smaller crystals and are dimmer.' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'How long does lume last?',
-      answer: 'After a full charge under bright light, quality Super-LumiNova glows visibly for 6–12 hours. The brightest period is the first 30 minutes.',
+      answer: 'After a full charge under bright light, quality Super-LumiNova glows visibly for 6-12 hours. The brightest period is the first 30 minutes.',
     },
   ],
   bibliography,

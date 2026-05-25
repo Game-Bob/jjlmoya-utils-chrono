@@ -37,13 +37,13 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       type: 'glossary', items: [
         { term: 'Nouvelle Lune', definition: 'La lune est entre la Terre et le soleil. La face illuminée nous tourne le dos. 0 % d\'illumination. Le début du cycle lunaire.' },
-        { term: 'Premier Croissant', definition: '1–49 % d\'illumination. Un fin croissant apparaît sur le côté droit (hémisphère Nord). La lune se dirige vers le premier quartier.' },
+        { term: 'Premier Croissant', definition: '1-49 % d\'illumination. Un fin croissant apparaît sur le côté droit (hémisphère Nord). La lune se dirige vers le premier quartier.' },
         { term: 'Premier Quartier', definition: '50 % d\'illumination. La moitié de la surface visible est éclairée. La lune a parcouru un quart de son cycle.' },
-        { term: 'Gibbeuse Croissante', definition: '51–99 % d\'illumination. Plus de la moitié est éclairée. La lune se prépare vers la pleine lune.' },
+        { term: 'Gibbeuse Croissante', definition: '51-99 % d\'illumination. Plus de la moitié est éclairée. La lune se prépare vers la pleine lune.' },
         { term: 'Pleine Lune', definition: '100 % d\'illumination. Toute la surface visible est éclairée. Le sommet du cycle lunaire.' },
-        { term: 'Gibbeuse Décroissante', definition: '99–51 % d\'illumination. La zone éclairée commence à rétrécir par la droite.' },
+        { term: 'Gibbeuse Décroissante', definition: '99-51 % d\'illumination. La zone éclairée commence à rétrécir par la droite.' },
         { term: 'Dernier Quartier', definition: '50 % d\'illumination. La moitié gauche est éclairée. Trois quarts du cycle sont achevés.' },
-        { term: 'Dernier Croissant', definition: '49–1 % d\'illumination. Un fin croissant sur la gauche avant que le cycle ne revienne à la nouvelle lune.' },
+        { term: 'Dernier Croissant', definition: '49-1 % d\'illumination. Un fin croissant sur la gauche avant que le cycle ne revienne à la nouvelle lune.' },
       ]
     },
     { type: 'title', text: 'Comment Régler une Montre à Phases de Lune', level: 3 },

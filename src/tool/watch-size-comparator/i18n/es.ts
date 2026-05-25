@@ -47,23 +47,23 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     { type: 'title', text: 'Glosario de Tamaños de Reloj', level: 3 },
     {
       type: 'glossary', items: [
-        { term: 'Diámetro de Caja', definition: 'La anchura de la caja del reloj medida a través de la esfera, excluyendo la corona. Rango típico: 34–46 mm. Es la medida más mencionada, pero no el único factor de ajuste.' },
+        { term: 'Diámetro de Caja', definition: 'La anchura de la caja del reloj medida a través de la esfera, excluyendo la corona. Rango típico: 34-46 mm. Es la medida más mencionada, pero no el único factor de ajuste.' },
         { term: 'Ancho entre Asas (L2L)', definition: 'La distancia entre las asas superior e inferior donde se engancha la correa. Determina si el reloj sobresale de tu muñeca. Un reloj de 40 mm con 50 mm L2L se ve más grande que uno de 42 mm con 46 mm L2L.' },
-        { term: 'Anchura Plana de Muñeca', definition: 'La anchura de la superficie superior de tu muñeca, a diferencia de su perímetro. Aproximadamente: perímetro de muñeca / π menos 2–4 cm. Es la dimensión sobre la que realmente se asienta el reloj.' },
-        { term: 'Relación Caja-Muñeca', definition: 'Diámetro de caja dividido por anchura de muñeca. Una relación de 0.6–0.75 (60–75 %) se considera el ajuste proporcional clásico.' },
+        { term: 'Anchura Plana de Muñeca', definition: 'La anchura de la superficie superior de tu muñeca, a diferencia de su perímetro. Aproximadamente: perímetro de muñeca / π menos 2-4 cm. Es la dimensión sobre la que realmente se asienta el reloj.' },
+        { term: 'Relación Caja-Muñeca', definition: 'Diámetro de caja dividido por anchura de muñeca. Una relación de 0.6-0.75 (60-75 %) se considera el ajuste proporcional clásico.' },
       ]
     },
 
     { type: 'title', text: '¿Qué Tamaño de Reloj se Adapta a Mi Muñeca?', level: 3 },
     {
       type: 'table', headers: ['Perímetro de Muñeca', 'Anchura Plana (aprox.)', 'Diámetro Ideal de Caja', 'Ancho Asas Máximo', 'Ideal Para'], rows: [
-        ['14–15 cm (5.5–5.9 in)', '38–42 mm', '30–34 mm', '38–42 mm', 'Relojes vintage y de vestir'],
-        ['15–16 cm (5.9–6.3 in)', '40–44 mm', '34–36 mm', '40–44 mm', 'Relojes clásicos pequeños'],
-        ['16–17 cm (6.3–6.7 in)', '42–46 mm', '36–39 mm', '42–46 mm', 'Talla versátil de uso diario'],
-        ['17–18 cm (6.7–7.1 in)', '44–48 mm', '38–42 mm', '44–48 mm', 'Punto óptimo para la mayoría de marcas'],
-        ['18–19 cm (7.1–7.5 in)', '46–50 mm', '40–44 mm', '46–50 mm', 'Relojes de buceo y GMT'],
-        ['19–20 cm (7.5–7.9 in)', '48–52 mm', '42–46 mm', '48–52 mm', 'Relojes herramienta y piloto'],
-        ['20–21 cm (7.9–8.3 in)', '50–54 mm', '44–48 mm', '50–54 mm', 'Relojes sobredimensionados y flieger'],
+        ['14-15 cm (5.5-5.9 in)', '38-42 mm', '30-34 mm', '38-42 mm', 'Relojes vintage y de vestir'],
+        ['15-16 cm (5.9-6.3 in)', '40-44 mm', '34-36 mm', '40-44 mm', 'Relojes clásicos pequeños'],
+        ['16-17 cm (6.3-6.7 in)', '42-46 mm', '36-39 mm', '42-46 mm', 'Talla versátil de uso diario'],
+        ['17-18 cm (6.7-7.1 in)', '44-48 mm', '38-42 mm', '44-48 mm', 'Punto óptimo para la mayoría de marcas'],
+        ['18-19 cm (7.1-7.5 in)', '46-50 mm', '40-44 mm', '46-50 mm', 'Relojes de buceo y GMT'],
+        ['19-20 cm (7.5-7.9 in)', '48-52 mm', '42-46 mm', '48-52 mm', 'Relojes herramienta y piloto'],
+        ['20-21 cm (7.9-8.3 in)', '50-54 mm', '44-48 mm', '50-54 mm', 'Relojes sobredimensionados y flieger'],
       ]
     },
 
@@ -72,8 +72,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
       type: 'list', items: [
         'Envuelve una cinta métrica flexible alrededor de tu muñeca justo detrás del hueso (estiloides cubital). Debe quedar ajustada, no apretada.',
         'Si no tienes cinta, usa un cordel o un cable, marca la superposición y luego mide con una regla.',
-        'Anota la medida en centímetros o pulgadas. La media en muñecas masculinas es 17–19 cm (6.7–7.5 in); en femeninas, 14–16 cm (5.5–6.3 in).',
-        'Para estimar la anchura plana de tu muñeca, resta 2–4 cm del perímetro o usa la estimación automática de la herramienta.',
+        'Anota la medida en centímetros o pulgadas. La media en muñecas masculinas es 17-19 cm (6.7-7.5 in); en femeninas, 14-16 cm (5.5-6.3 in).',
+        'Para estimar la anchura plana de tu muñeca, resta 2-4 cm del perímetro o usa la estimación automática de la herramienta.',
       ]
     },
 
@@ -94,7 +94,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   faq: [
     {
       question: '¿Cómo mido mi muñeca para un reloj?',
-      answer: 'Usa una cinta métrica flexible alrededor del hueso de la muñeca. Otra opción: enrolla un cordel, marca la superposición y mide con una regla. La media es 17–19 cm en hombres y 14–16 cm en mujeres.',
+      answer: 'Usa una cinta métrica flexible alrededor del hueso de la muñeca. Otra opción: enrolla un cordel, marca la superposición y mide con una regla. La media es 17-19 cm en hombres y 14-16 cm en mujeres.',
     },
     {
       question: '¿Qué es el ancho entre asas y por qué importa?',
@@ -102,7 +102,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       question: '¿Qué tamaño de reloj le queda a una muñeca de 17 cm?',
-      answer: 'Una muñeca de 17 cm (≈55 mm planos) admite cómodamente relojes de 36–42 mm de diámetro y 44–50 mm L2L. El punto óptimo es 38–40 mm con 46–48 mm L2L.',
+      answer: 'Una muñeca de 17 cm (≈55 mm planos) admite cómodamente relojes de 36-42 mm de diámetro y 44-50 mm L2L. El punto óptimo es 38-40 mm con 46-48 mm L2L.',
     },
   ],
   bibliography,
@@ -134,7 +134,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': '¿Cómo mido mi muñeca para un reloj?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Usa una cinta métrica flexible alrededor del hueso de la muñeca. La media es 17–19 cm para hombres y 14–16 cm para mujeres.',
+            'text': 'Usa una cinta métrica flexible alrededor del hueso de la muñeca. La media es 17-19 cm para hombres y 14-16 cm para mujeres.',
           },
         },
         {
@@ -150,7 +150,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
           'name': '¿Qué tamaño de reloj le queda a una muñeca de 17 cm?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Una muñeca de 17 cm admite relojes de 36–42 mm de diámetro con 44–50 mm L2L. El punto óptimo es 38–40 mm con 46–48 mm L2L.',
+            'text': 'Una muñeca de 17 cm admite relojes de 36-42 mm de diámetro con 44-50 mm L2L. El punto óptimo es 38-40 mm con 46-48 mm L2L.',
           },
         },
       ],

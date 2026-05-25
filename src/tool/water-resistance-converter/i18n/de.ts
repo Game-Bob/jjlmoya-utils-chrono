@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'wasserdichtigkeit-umrechner',
-  title: 'Uhren Wasserdichtigkeit Umrechner–Meter, ATM, Bar & Feet',
+  title: 'Uhren Wasserdichtigkeit Umrechner: Meter, ATM, Bar und Feet',
   description: 'Rechnen Sie Wasserdichtigkeitsangaben von Uhren zwischen Metern, Feet, ATM und Bar um. Erfahren Sie, was jede Angabe für den Alltag, beim Schwimmen und Tauchen bedeutet.',
   ui: {
     title: 'Wasserdichtigkeit Umrechner',

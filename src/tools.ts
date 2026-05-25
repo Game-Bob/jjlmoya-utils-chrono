@@ -12,6 +12,7 @@ import { STRAP_TAPER_CALCULATOR_TOOL } from './tool/strap-taper-calculator';
 import { WATCH_SIZE_COMPARATOR_TOOL } from './tool/watch-size-comparator';
 import { LUME_COLOR_SIMULATOR_TOOL } from './tool/lume-color-simulator';
 import { MOON_PHASE_VISUALIZER_TOOL } from './tool/moon-phase-visualizer';
+import { TACHYMETER_CALCULATOR_TOOL } from './tool/tachymeter-calculator';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -26,6 +27,7 @@ export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_SIZE_COMPARATOR_TOOL,
   LUME_COLOR_SIMULATOR_TOOL,
   MOON_PHASE_VISUALIZER_TOOL,
+  TACHYMETER_CALCULATOR_TOOL,
 ];
 
 

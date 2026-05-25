@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'konverter-vodonepronitsaemosti',
-  title: 'Конвертер водонепроницаемости часов–Метры, ATM, Bar & Футы',
+  title: 'Конвертер водонепроницаемости часов: Метры, ATM, Bar и Футы',
   description: 'Конвертируйте классы водонепроницаемости часов между метрами, футами, ATM и bar. Узнайте, что на самом деле означает каждый класс для повседневного ношения, плавания и дайвинга.',
   ui: {
     title: 'Конвертер водонепроницаемости',

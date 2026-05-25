@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'luminesans-renk-simulatoru',
-  title: 'Lüminesans Renk Simülatörü–Saat Lume Görselleştirici',
+  title: 'Lüminesans Renk Simülatörü: Saat Lume Görselleştirici',
   description: 'Farklı lüminesans renklerini gerçek zamanlı olarak görselleştirin. C1, C3, BGW9, LumiNova ve daha fazlasını ortam parlaklık seviyelerinde karşılaştırın.',
   ui: {
     title: 'Lüminesans Renk Simülatörü',
@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9-Hangisini Seçmelisiniz?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Klasik Yeşil', icon: 'mdi:lightbulb-on', description: 'Orijinal Super-LumiNova formülasyonu. Orta parlaklıkta yeşil ışıma yapar. Her saat stiline uyan güvenli, klasik bir seçim.', points: ['Orta parlaklık, 4–6 saat görünürlük', 'Yeşil ışıma, sıcak ton', 'En uygun fiyatlı formülasyon', 'Giriş seviyesi saatlerde yaygın'], highlight: false },
-        { title: 'C3 Süper Yeşil', icon: 'mdi:lightning-bolt', description: 'Mevcut en parlak yeşil lüminesans. Sualtında okunabilirliğin kritik olduğu profesyonel dalış saatlerinde kullanılır. Minimum şarjla maksimum ışıma.', points: ['En yüksek parlaklık, 8–12 saat görünürlük', 'Gün ışığında sarı-yeşil', 'Seiko, Citizen, Omega tarafından tercih edilir', 'Düşük ışıkta okunabilirlik için en iyisi'], highlight: true },
+        { title: 'C1 Klasik Yeşil', icon: 'mdi:lightbulb-on', description: 'Orijinal Super-LumiNova formülasyonu. Orta parlaklıkta yeşil ışıma yapar. Her saat stiline uyan güvenli, klasik bir seçim.', points: ['Orta parlaklık, 4-6 saat görünürlük', 'Yeşil ışıma, sıcak ton', 'En uygun fiyatlı formülasyon', 'Giriş seviyesi saatlerde yaygın'], highlight: false },
+        { title: 'C3 Süper Yeşil', icon: 'mdi:lightning-bolt', description: 'Mevcut en parlak yeşil lüminesans. Sualtında okunabilirliğin kritik olduğu profesyonel dalış saatlerinde kullanılır. Minimum şarjla maksimum ışıma.', points: ['En yüksek parlaklık, 8-12 saat görünürlük', 'Gün ışığında sarı-yeşil', 'Seiko, Citizen, Omega tarafından tercih edilir', 'Düşük ışıkta okunabilirlik için en iyisi'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Buz Mavisi', icon: 'mdi:snowflake', description: 'Yeşil yerine mavi-beyaz ışıma yapar. C3\'ten biraz daha az parlak olsa da temiz, modern estetiği nedeniyle tercih edilir. Lüks spor saatlerde popülerdir.', points: ['Yüksek parlaklık, 6–10 saat görünürlük', 'Mavi-beyaz ışıma, nötr ton', 'Gün ışığında temiz, modern görünüm', 'Tudor, Grand Seiko, Omega tarafından kullanılır'], highlight: true },
-        { title: 'Vintage Radium Tarzı', icon: 'mdi:fire', description: '1960\'ların radyum lüminesansını taklit eden sıcak bej/krem tonu. Estetik özgünlük için kasıtlı olarak daha loştur. Işıma sıcak, hafif ve zamanla güzelleşir.', points: ['Düşük parlaklık, 2–4 saat görünürlük', 'Sıcak kremden loş kehribara', 'Radyoaktivite içermeyen eskitilmiş görünüm', 'Klasik yeniden basımlarda popüler'], highlight: false },
+        { title: 'BGW9 Buz Mavisi', icon: 'mdi:snowflake', description: 'Yeşil yerine mavi-beyaz ışıma yapar. C3\'ten biraz daha az parlak olsa da temiz, modern estetiği nedeniyle tercih edilir. Lüks spor saatlerde popülerdir.', points: ['Yüksek parlaklık, 6-10 saat görünürlük', 'Mavi-beyaz ışıma, nötr ton', 'Gün ışığında temiz, modern görünüm', 'Tudor, Grand Seiko, Omega tarafından kullanılır'], highlight: true },
+        { title: 'Vintage Radium Tarzı', icon: 'mdi:fire', description: '1960\'ların radyum lüminesansını taklit eden sıcak bej/krem tonu. Estetik özgünlük için kasıtlı olarak daha loştur. Işıma sıcak, hafif ve zamanla güzelleşir.', points: ['Düşük parlaklık, 2-4 saat görünürlük', 'Sıcak kremden loş kehribara', 'Radyoaktivite içermeyen eskitilmiş görünüm', 'Klasik yeniden basımlarda popüler'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'Parlaklık Her Şey Değildir', icon: 'mdi:palette', html: 'En parlak lüminesans (C3) her zaman en iyi seçim değildir. <strong>BGW9</strong>, küçük bir parlaklık farkını birçok koleksiyoncunun tercih ettiği daha nötr ve modern bir görünümle takas eder. <strong>Vintage lüminesans</strong>, performans yerine döneme uygun estetiği önceliklendirir. Seçiminizi sizin için en önemli olana göre yapın: <strong>maksimum ışıma, modern estetik veya klasik özgünlük.</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Stronsiyum aluminat bazlı fotolüminesan bir pigmenttir. UV ve görünür ışığı emer ve ışıma olarak yeniden yayar. Radyoaktif değildir ve güvenlidir. İlk olarak 1993\'te Nemoto & Co. tarafından geliştirilmiştir.' },
-        { term: 'Şarj Süresi', definition: 'Lüminesans pigmentini doyurmak için gereken ışık maruziyeti süresidir. Tam şarj, doğrudan güneş ışığı veya UV altında 10–30 dakika sürer. Daha uzun şarj = daha uzun ve daha parlak ışıma.' },
-        { term: 'Işıma Süresi', definition: 'Şarjdan sonra lüminesansın görünür kaldığı süredir. Kaliteli Super-LumiNova 6–12 saat boyunca görünür şekilde ışıma yapar. En parlak dönem, şarjdan sonraki ilk 30 dakikadır.' },
+        { term: 'Şarj Süresi', definition: 'Lüminesans pigmentini doyurmak için gereken ışık maruziyeti süresidir. Tam şarj, doğrudan güneş ışığı veya UV altında 10-30 dakika sürer. Daha uzun şarj = daha uzun ve daha parlak ışıma.' },
+        { term: 'Işıma Süresi', definition: 'Şarjdan sonra lüminesansın görünür kaldığı süredir. Kaliteli Super-LumiNova 6-12 saat boyunca görünür şekilde ışıma yapar. En parlak dönem, şarjdan sonraki ilk 30 dakikadır.' },
         { term: 'Pigment Kalitesi', definition: 'Stronsiyum aluminat kristallerinin kalitesidir. Üstün pigmentler (C3, BGW9) daha parlak ve daha uzun süreli ışıma için daha büyük ve daha homojen kristaller kullanır. Alt seviye pigmentler (LumiNova) daha küçük kristaller kullanır ve daha loştur.' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'Lüminesans ne kadar süre dayanır?',
-      answer: 'Parlak ışık altında tam şarj sonrası, kaliteli Super-LumiNova 6–12 saat görünür şekilde ışıma yapar. En parlak dönem ilk 30 dakikadır.',
+      answer: 'Parlak ışık altında tam şarj sonrası, kaliteli Super-LumiNova 6-12 saat görünür şekilde ışıma yapar. En parlak dönem ilk 30 dakikadır.',
     },
   ],
   bibliography,

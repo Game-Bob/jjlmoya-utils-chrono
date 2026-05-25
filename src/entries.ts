@@ -22,6 +22,8 @@ export { lumeColorSimulator } from './tool/lume-color-simulator/entry';
 export type { LumeColorSimulatorUI, LumeColorSimulatorLocaleContent } from './tool/lume-color-simulator/entry';
 export { moonPhaseVisualizer } from './tool/moon-phase-visualizer/entry';
 export type { MoonPhaseVisualizerUI, MoonPhaseVisualizerLocaleContent } from './tool/moon-phase-visualizer/entry';
+export { tachymeterCalculator } from './tool/tachymeter-calculator/entry';
+export type { TachymeterCalculatorUI, TachymeterCalculatorLocaleContent } from './tool/tachymeter-calculator/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -36,6 +38,7 @@ import { strapTaperCalculator } from './tool/strap-taper-calculator/entry';
 import { watchSizeComparator } from './tool/watch-size-comparator/entry';
 import { lumeColorSimulator } from './tool/lume-color-simulator/entry';
 import { moonPhaseVisualizer } from './tool/moon-phase-visualizer/entry';
+import { tachymeterCalculator } from './tool/tachymeter-calculator/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator];
 

@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': '¿Cuánto carga una vuelta de corona el reloj?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Depende del calibre. La mayoría de los calibres automáticos alcanzan la carga completa en 30–40 vueltas, por lo que cada vuelta añade entre un 2,5 y un 3,3 % de la reserva total. Los movimientos de cuerda manual como el Unitas 6498 también necesitan unas 35 vueltas para una carga completa.',
+            'text': 'Depende del calibre. La mayoría de los calibres automáticos alcanzan la carga completa en 30-40 vueltas, por lo que cada vuelta añade entre un 2,5 y un 3,3 % de la reserva total. Los movimientos de cuerda manual como el Unitas 6498 también necesitan unas 35 vueltas para una carga completa.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': '¿Usar el reloj lo carga tanto como darle cuerda?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Usarlo carga más lento y de forma variable. En un trabajo de oficina, puede cargar un 4–6 % por hora mediante el rotor. Durante movimiento activo puede alcanzar el 8–10 % por hora. La cuerda manual es más rápida y predecible.',
+            'text': 'Usarlo carga más lento y de forma variable. En un trabajo de oficina, puede cargar un 4-6 % por hora mediante el rotor. Durante movimiento activo puede alcanzar el 8-10 % por hora. La cuerda manual es más rápida y predecible.',
           },
         },
         {

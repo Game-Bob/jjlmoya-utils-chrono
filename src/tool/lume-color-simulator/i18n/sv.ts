@@ -4,10 +4,10 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'lume-fargsimulator',
-  title: 'Lume–färgsimulator – visualisera klockors självlysande färger',
+  title: 'Lume färgsimulator: visualisera klockors självlysande färger',
   description: 'Visualisera olika lume-färger i realtid. Jämför C1, C3, BGW9, LumiNova med mera i olika ljusstyrkor.',
   ui: {
-    title: 'Lume–färgsimulator',
+    title: 'Lume färgsimulator',
     lumeType: 'Lume-typ',
     brightness: 'Omgivande ljusstyrka',
     dark: 'Mörkt',
@@ -37,51 +37,51 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'Lume-ljusstyrkan beror på pigmentkvaliteten och hur mycket ljus det absorberat. BGW9 lyser blåvitt och är starkast, medan vintage-lume har ett varmt, svagt sken.',
   },
   seo: [
-    { type: 'title', text: 'Klockors lume-färgsimulator – visualisera glöd i realtid', level: 2 },
-    { type: 'paragraph', html: 'Lume är ett av de mest personliga valen inom klockintresse. Föredrar du det klassiska gröna skenet från <strong>C1 Super-LumiNova</strong> eller det isblå från <strong>BGW9</strong>? Denna simulator visar hur varje lume-typ ser ut i olika ljusförhållanden – från fullt dagsljus till becksvart – med exakta <strong>HEX- och RGB-värden</strong> för varje nyans.' },
+    { type: 'title', text: 'Klockors lume-färgsimulator - visualisera glöd i realtid', level: 2 },
+    { type: 'paragraph', html: 'Lume är ett av de mest personliga valen inom klockintresse. Föredrar du det klassiska gröna skenet från <strong>C1 Super-LumiNova</strong> eller det isblå från <strong>BGW9</strong>? Denna simulator visar hur varje lume-typ ser ut i olika ljusförhållanden - från fullt dagsljus till becksvart - med exakta <strong>HEX- och RGB-värden</strong> för varje nyans.' },
     { type: 'title', text: 'Super-LumiNova-typer jämförda', level: 3 },
     {
       type: 'table', headers: ['Typ', 'Dagsljusfärg', 'Glödfärg', 'Ljusstyrka', 'Bäst för'], rows: [
         ['C1', 'Ljusgrön', 'Grön', 'Medel', 'Dressklockor, originalestetik'],
         ['C3', 'Gulgrön', 'Klart grön', 'Högst', 'Dykarklockor, verktygsklockor'],
         ['BGW9', 'Vitaktig', 'Isblå', 'Hög', 'Moderna sportklockor, ren look'],
-        ['LumiNova', 'Varm beige', 'Varmvit', 'Låg–medel', 'Budgetvänlig lume'],
+        ['LumiNova', 'Varm beige', 'Varmvit', 'Låg-medel', 'Budgetvänlig lume'],
         ['Vintage', 'Creme / solbränd', 'Varmt svag', 'Låg', 'Heritage-inspirerade klockor'],
         ['Orange', 'Orange', 'Orange', 'Medel', 'Dykaraccenter, retro-dykare'],
         ['Blå', 'Ljusblå', 'Blå', 'Medel', 'Designurtavlor, modeklockor'],
         ['Grön', 'Klart grön', 'Grön', 'Hög', 'Militärinspirerade klockor'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9 – vilken ska du välja?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9 - vilken ska du välja?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 Klassisk grön', icon: 'mdi:lightbulb-on', description: 'Den ursprungliga Super-LumiNova-formuleringen. Lyser grönt med medelstark ljusstyrka. Ett säkert, klassiskt val som passar alla klockstilar.', points: ['Medelstark, synlig i 4–6 h', 'Grönt sken, varm ton', 'Mest prisvärd formulering', 'Vanlig i instegsklockor'], highlight: false },
-        { title: 'C3 Supergrön', icon: 'mdi:lightning-bolt', description: 'Den starkaste gröna lume som finns. Används i professionella dykarklockor där läsbarhet under vatten är avgörande. Maximalt sken med minimal laddning.', points: ['Högst ljusstyrka, synlig i 8–12 h', 'Gulgrön i dagsljus', 'Föredras av Seiko, Citizen, Omega', 'Bäst för läsbarhet i svagt ljus'], highlight: true },
+        { title: 'C1 Klassisk grön', icon: 'mdi:lightbulb-on', description: 'Den ursprungliga Super-LumiNova-formuleringen. Lyser grönt med medelstark ljusstyrka. Ett säkert, klassiskt val som passar alla klockstilar.', points: ['Medelstark, synlig i 4-6 h', 'Grönt sken, varm ton', 'Mest prisvärd formulering', 'Vanlig i instegsklockor'], highlight: false },
+        { title: 'C3 Supergrön', icon: 'mdi:lightning-bolt', description: 'Den starkaste gröna lume som finns. Används i professionella dykarklockor där läsbarhet under vatten är avgörande. Maximalt sken med minimal laddning.', points: ['Högst ljusstyrka, synlig i 8-12 h', 'Gulgrön i dagsljus', 'Föredras av Seiko, Citizen, Omega', 'Bäst för läsbarhet i svagt ljus'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 Isblå', icon: 'mdi:snowflake', description: 'Lyser blåvitt istället för grönt. Något svagare än C3 men omtyckt för sin rena, moderna estetik. Populär i lyxiga sportklockor.', points: ['Hög ljusstyrka, synlig i 6–10 h', 'Blåvitt sken, neutral ton', 'Ren, modern look i dagsljus', 'Används av Tudor, Grand Seiko, Omega'], highlight: true },
-        { title: 'Vintage radium–stil', icon: 'mdi:fire', description: 'Varm beige/creme-ton som efterliknar 1960-talets radium-lume. Avsiktligt svagare för autentisk känsla. Glöden är varm, subtil och åldras vackert.', points: ['Låg ljusstyrka, synlig i 2–4 h', 'Varm creme till svagt bärnsten', 'Åldrat utseende utan radioaktivitet', 'Populär i heritage-återutgåvor'], highlight: false },
+        { title: 'BGW9 Isblå', icon: 'mdi:snowflake', description: 'Lyser blåvitt istället för grönt. Något svagare än C3 men omtyckt för sin rena, moderna estetik. Populär i lyxiga sportklockor.', points: ['Hög ljusstyrka, synlig i 6-10 h', 'Blåvitt sken, neutral ton', 'Ren, modern look i dagsljus', 'Används av Tudor, Grand Seiko, Omega'], highlight: true },
+        { title: 'Vintage radium stil', icon: 'mdi:fire', description: 'Varm beige/creme-ton som efterliknar 1960-talets radium-lume. Avsiktligt svagare för autentisk känsla. Glöden är varm, subtil och åldras vackert.', points: ['Låg ljusstyrka, synlig i 2-4 h', 'Varm creme till svagt bärnsten', 'Åldrat utseende utan radioaktivitet', 'Populär i heritage-återutgåvor'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: 'Ljusstyrka är inte allt', icon: 'mdi:palette', html: 'Den starkaste lume (C3) är inte alltid det bästa valet. <strong>BGW9</strong> byter en liten skillnad i ljusstyrka mot en mer neutral, modern look som många samlare föredrar. <strong>Vintage-lume</strong> prioriterar tidsenlig estetik framför prestanda. Välj baserat på vad som betyder mest för dig: <strong>maximalt sken, modern estetik eller historisk autenticitet.</strong>' },
-    { type: 'title', text: 'Hur lume fungerar – vetenskapen bakom glöden', level: 3 },
+    { type: 'title', text: 'Hur lume fungerar - vetenskapen bakom glöden', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: 'Ett strontiumaluminatbaserat fotoluminescerande pigment. Absorberar UV- och synligt ljus och återutsänder det som ett sken. Icke-radioaktivt och ofarligt. Ursprungligen utvecklat av Nemoto & Co 1993.' },
-        { term: 'Laddningstid', definition: 'Den tid ljusexponering behövs för att mätta lumepigmentet. Full laddning tar 10–30 minuter i direkt solljus eller UV. Längre laddning = längre och starkare sken.' },
-        { term: 'Glödtid', definition: 'Hur länge lume förblir synlig efter laddning. Kvalitets-Super-LumiNova lyser synligt i 6–12 timmar. Den starkaste perioden är de första 30 minuterna efter laddning.' },
+        { term: 'Laddningstid', definition: 'Den tid ljusexponering behövs för att mätta lumepigmentet. Full laddning tar 10-30 minuter i direkt solljus eller UV. Längre laddning = längre och starkare sken.' },
+        { term: 'Glödtid', definition: 'Hur länge lume förblir synlig efter laddning. Kvalitets-Super-LumiNova lyser synligt i 6-12 timmar. Den starkaste perioden är de första 30 minuterna efter laddning.' },
         { term: 'Pigmentkvalitet', definition: 'Kvaliteten på strontiumaluminatkristallerna. Högre kvalitet (C3, BGW9) använder större, mer enhetliga kristaller för starkare och längre sken. Lägre kvalitet (LumiNova) använder mindre kristaller och är svagare.' },
       ]
     },
     {
-      type: 'summary', title: 'Snabbguide för lume–val', items: [
+      type: 'summary', title: 'Snabbguide för lume val', items: [
         'För maximal läsbarhet i mörker: välj C3 (starkast grön) eller BGW9 (starkast blåvit).',
         'För en modern lyxlook: BGW9 är den nuvarande favoriten bland högklassiga klockmärken.',
         'För vintage- och heritage-byggen: använd Vintage eller Orange för tidsenlig värme.',
         'C1 är allround: bra ljusstyrka, klassiskt grön, prisvärd.',
-        'Lumens färg i dagsljus skiljer sig markant från glödfärgen – använd simulatorn för att jämföra båda.',
+        'Lumens färg i dagsljus skiljer sig markant från glödfärgen - använd simulatorn för att jämföra båda.',
       ]
     },
   ],
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: 'Hur länge håller lume?',
-      answer: 'Efter full laddning under starkt ljus lyser kvalitets-Super-LumiNova synligt i 6–12 timmar. Den starkaste perioden är de första 30 minuterna.',
+      answer: 'Efter full laddning under starkt ljus lyser kvalitets-Super-LumiNova synligt i 6-12 timmar. Den starkaste perioden är de första 30 minuterna.',
     },
   ],
   bibliography,

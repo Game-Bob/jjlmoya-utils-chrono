@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'convertidor-resistencia-agua',
-  title: 'Convertidor de Resistencia al Agua de Relojes–Metros, ATM, Bar & Pies',
+  title: 'Convertidor de Resistencia al Agua de Relojes: Metros, ATM, Bar y Pies',
   description: 'Convierta las clasificaciones de resistencia al agua de relojes entre metros, pies, ATM y bar. Descubra lo que realmente significa cada clasificación para el uso diario, la natación y el buceo.',
   ui: {
     title: 'Convertidor de Resistencia al Agua',

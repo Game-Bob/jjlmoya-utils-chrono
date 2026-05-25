@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Berapa banyak satu putaran mahkota mengisi arloji?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Tergantung pada mesinnya. Sebagian besar kaliber otomatis mencapai pengisian penuh dalam 30–40 putaran, jadi setiap putaran menambah sekitar 2,5–3,3% dari total cadangan. Mesin manual seperti Unitas 6498 juga membutuhkan sekitar 35 putaran untuk pengisian penuh.',
+            'text': 'Tergantung pada mesinnya. Sebagian besar kaliber otomatis mencapai pengisian penuh dalam 30-40 putaran, jadi setiap putaran menambah sekitar 2,5-3,3% dari total cadangan. Mesin manual seperti Unitas 6498 juga membutuhkan sekitar 35 putaran untuk pengisian penuh.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Apakah memakai arloji mengisinya sama seperti memutar?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Memakai mengisi lebih lambat dan bervariasi. Di pekerjaan meja, Anda mungkin mengisi 4–6% per jam melalui rotor. Saat bergerak aktif, bisa mencapai 8–10% per jam. Memutar dengan tangan lebih cepat dan lebih dapat diprediksi.',
+            'text': 'Memakai mengisi lebih lambat dan bervariasi. Di pekerjaan meja, Anda mungkin mengisi 4-6% per jam melalui rotor. Saat bergerak aktif, bisa mencapai 8-10% per jam. Memutar dengan tangan lebih cepat dan lebih dapat diprediksi.',
           },
         },
         {

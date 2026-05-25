@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'waterbestendigheid-omzetter',
-  title: 'Horloge Waterbestendigheid Omzetter–Meters, ATM, Bar & Voet',
+  title: 'Horloge Waterbestendigheid Omzetter: Meters, ATM, Bar en Voet',
   description: 'Converteer waterbestendigheidsclassificaties van horloges tussen meters, voet, ATM en bar. Ontdek wat elke classificatie werkelijk betekent voor dagelijks gebruik, zwemmen en duiken.',
   ui: {
     title: 'Waterbestendigheid Omzetter',

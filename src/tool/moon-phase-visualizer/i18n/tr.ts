@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'ay-evresi-gorsellestirici',
-  title: 'Ay Evresi Görselleştirici–Ay Takvimi & Saat Komplikasyon Aracı',
+  title: 'Ay Evresi Gorsellestirici: Ay Takvimi ve Saat Komplikasyon Araci',
   description: 'Anlık ay evresini, aydınlanma yüzdesini, ay yaşını ve yaklaşan dolunay ile yeni ay tarihlerini görselleştirin. Saatinizin ay evresi komplikasyonunu ayarlamak için mükemmel bir araç.',
   ui: {
     title: 'Ay Evresi Görselleştirici',
@@ -31,19 +31,19 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'gün',
   },
   seo: [
-    { type: 'title', text: 'Ay Evresi Görselleştirici-Ay Takvimi & Saat Ayar Kılavuzu', level: 2 },
+    { type: 'title', text: 'Ay Evresi Gorsellestirici: Ay Takvimi ve Saat Ayar Kilavuzu', level: 2 },
     { type: 'paragraph', html: 'Ay Evresi Görselleştirici, ayın gerçekçi bir görüntüsüyle <strong>anlık ay evresini</strong> gösterir. <strong>Aydınlanma yüzdesi, ay yaşı, sonraki dolunaya ve yeni aya kalan günleri</strong> görüntüleyin. Saat tutkunları için ay evresi komplikasyonunu doğru şekilde ayarlamak amacıyla tasarlanmıştır-aynı zamanda geçmiş veya gelecek herhangi bir tarih için genel bir ay takvimi olarak da çalışır.' },
     { type: 'title', text: 'Ay Evresi Sözlüğü', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Yeni Ay', definition: 'Ay, Dünya ile Güneş arasındadır. Aydınlık yüzü bizden uzağa bakar. %0 aydınlanma. Ay döngüsünün başlangıcı.' },
-        { term: 'Hilal (Büyüyen)', definition: '%1–49 aydınlanma. Sağ tarafta (Kuzey Yarımküre) ince bir hilal belirir. Ay ilk dördüne doğru ilerlemektedir.' },
+        { term: 'Hilal (Büyüyen)', definition: '%1-49 aydınlanma. Sağ tarafta (Kuzey Yarımküre) ince bir hilal belirir. Ay ilk dördüne doğru ilerlemektedir.' },
         { term: 'İlk Dördün', definition: '%50 aydınlanma. Görünür yüzeyin yarısı aydınlıktır. Ay döngüsünün dörtte birini tamamlamıştır.' },
-        { term: 'Şişkin Ay (Büyüyen)', definition: '%51–99 aydınlanma. Yarısından fazlası aydınlıktır. Ay dolunaya doğru ilerlemektedir.' },
+        { term: 'Şişkin Ay (Büyüyen)', definition: '%51-99 aydınlanma. Yarısından fazlası aydınlıktır. Ay dolunaya doğru ilerlemektedir.' },
         { term: 'Dolunay', definition: '%100 aydınlanma. Görünür yüzeyin tamamı aydınlıktır. Ay döngüsünün zirvesi.' },
-        { term: 'Şişkin Ay (Küçülen)', definition: '%99–51 aydınlanma. Aydınlık alan sağ taraftan küçülmeye başlar.' },
+        { term: 'Şişkin Ay (Küçülen)', definition: '%99-51 aydınlanma. Aydınlık alan sağ taraftan küçülmeye başlar.' },
         { term: 'Son Dördün', definition: '%50 aydınlanma. Sol yarısı aydındır. Döngünün dörtte üçü tamamlanmıştır.' },
-        { term: 'Hilal (Küçülen)', definition: '%49–1 aydınlanma. Döngü yeni aya sıfırlanmadan önce solda ince bir hilal.' },
+        { term: 'Hilal (Küçülen)', definition: '%49-1 aydınlanma. Döngü yeni aya sıfırlanmadan önce solda ince bir hilal.' },
       ]
     },
     { type: 'title', text: 'Ay Evreli Saat Nasıl Ayarlanır?', level: 3 },

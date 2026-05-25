@@ -55,14 +55,14 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     { type: 'title', text: 'C1 vs C3 vs BGW9 — 该如何选择？', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'C1 经典绿色', icon: 'mdi:lightbulb-on', description: 'Super-LumiNova 最早期的配方。发出中等亮度的绿色荧光。安全经典，适合任何手表风格。', points: ['中等亮度，可见 4–6 小时', '绿色发光，暖色调', '最经济的配方', '常见于入门级手表'], highlight: false },
-        { title: 'C3 超级绿', icon: 'mdi:lightning-bolt', description: '市面上最亮的绿色夜光。专业潜水表在水下读时至关重要的选择。极短充电时间即可达到最大亮度。', points: ['最高亮度，可见 8–12 小时', '日光下呈黄绿色', '精工、西铁城、欧米茄首选', '弱光环境下最易读'], highlight: true },
+        { title: 'C1 经典绿色', icon: 'mdi:lightbulb-on', description: 'Super-LumiNova 最早期的配方。发出中等亮度的绿色荧光。安全经典，适合任何手表风格。', points: ['中等亮度，可见 4-6 小时', '绿色发光，暖色调', '最经济的配方', '常见于入门级手表'], highlight: false },
+        { title: 'C3 超级绿', icon: 'mdi:lightning-bolt', description: '市面上最亮的绿色夜光。专业潜水表在水下读时至关重要的选择。极短充电时间即可达到最大亮度。', points: ['最高亮度，可见 8-12 小时', '日光下呈黄绿色', '精工、西铁城、欧米茄首选', '弱光环境下最易读'], highlight: true },
       ]
     },
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'BGW9 冰蓝色', icon: 'mdi:snowflake', description: '发出蓝白色而非绿色光芒。亮度略低于 C3，但因干净现代的视觉效果备受青睐。常见于豪华运动表。', points: ['高亮度，可见 6–10 小时', '蓝白色发光，中性色调', '日光下呈现干净现代的质感', '帝舵、冠蓝狮、欧米茄使用'], highlight: true },
-        { title: '复古镭式夜光', icon: 'mdi:fire', description: '暖米色/奶油色调，模仿 1960 年代镭夜光的效果。刻意降低亮度以还原真实复古质感。发光温暖、柔和，随时间愈加迷人。', points: ['低亮度，可见 2–4 小时', '暖奶油色到暗琥珀色', '复古外观，不含放射性物质', '复古复刻款中常见'], highlight: false },
+        { title: 'BGW9 冰蓝色', icon: 'mdi:snowflake', description: '发出蓝白色而非绿色光芒。亮度略低于 C3，但因干净现代的视觉效果备受青睐。常见于豪华运动表。', points: ['高亮度，可见 6-10 小时', '蓝白色发光，中性色调', '日光下呈现干净现代的质感', '帝舵、冠蓝狮、欧米茄使用'], highlight: true },
+        { title: '复古镭式夜光', icon: 'mdi:fire', description: '暖米色/奶油色调，模仿 1960 年代镭夜光的效果。刻意降低亮度以还原真实复古质感。发光温暖、柔和，随时间愈加迷人。', points: ['低亮度，可见 2-4 小时', '暖奶油色到暗琥珀色', '复古外观，不含放射性物质', '复古复刻款中常见'], highlight: false },
       ]
     },
     { type: 'diagnostic', variant: 'info', title: '亮度并非一切', icon: 'mdi:palette', html: '最亮的夜光（C3）未必总是最佳选择。<strong>BGW9</strong> 用微小的亮度差距换来了更中性、更现代的外观，深受许多收藏家喜爱。<strong>复古夜光</strong> 则优先考虑时代准确的复古美学而非性能。根据你最看重什么来做选择：<strong>最大亮度、现代美学、还是复古真实感。</strong>' },
@@ -70,8 +70,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     {
       type: 'glossary', items: [
         { term: 'Super-LumiNova', definition: '一种基于铝酸锶的光致发光颜料。吸收紫外线和可见光后重新发出荧光。无放射性，安全可靠。由 Nemoto & Co. 于 1993 年研发。' },
-        { term: '充电时间', definition: '使夜光颜料达到饱和所需的光照时长。在阳光或紫外线下充分充电需要 10–30 分钟。充电越久，发光越亮、越持久。' },
-        { term: '发光持续时间', definition: '充电后夜光保持可见的时间。优质 Super-LumiNova 可持续发光 6–12 小时。充电后的前 30 分钟亮度最高。' },
+        { term: '充电时间', definition: '使夜光颜料达到饱和所需的光照时长。在阳光或紫外线下充分充电需要 10-30 分钟。充电越久，发光越亮、越持久。' },
+        { term: '发光持续时间', definition: '充电后夜光保持可见的时间。优质 Super-LumiNova 可持续发光 6-12 小时。充电后的前 30 分钟亮度最高。' },
         { term: '颜料等级', definition: '铝酸锶晶体的品质。高等级颜料（C3、BGW9）使用更大、更均匀的晶体，亮度和持续时间更优。低等级（LumiNova）使用更小的晶体，亮度较暗。' },
       ]
     },
@@ -100,7 +100,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     },
     {
       question: '夜光能持续多久？',
-      answer: '在强光下充分充电后，优质 Super-LumiNova 可持续发光 6–12 小时。充电后的前 30 分钟亮度最高。',
+      answer: '在强光下充分充电后，优质 Super-LumiNova 可持续发光 6-12 小时。充电后的前 30 分钟亮度最高。',
     },
   ],
   bibliography,

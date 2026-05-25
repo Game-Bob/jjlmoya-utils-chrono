@@ -37,13 +37,13 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       type: 'glossary', items: [
         { term: 'Lua Nova', definition: 'A lua está entre a Terra e o sol. O lado iluminado está voltado para longe de nós. 0% de iluminação. O início do ciclo lunar.' },
-        { term: 'Lua Crescente', definition: '1–49% de iluminação. Um fino crescente aparece no lado direito (Hemisfério Norte). A lua está caminhando para o quarto crescente.' },
+        { term: 'Lua Crescente', definition: '1-49% de iluminação. Um fino crescente aparece no lado direito (Hemisfério Norte). A lua está caminhando para o quarto crescente.' },
         { term: 'Quarto Crescente', definition: '50% de iluminação. Metade da superfície visível está iluminada. A lua completou um quarto do seu ciclo.' },
-        { term: 'Gibosa Crescente', definition: '51–99% de iluminação. Mais da metade está iluminada. A lua está se aproximando da lua cheia.' },
+        { term: 'Gibosa Crescente', definition: '51-99% de iluminação. Mais da metade está iluminada. A lua está se aproximando da lua cheia.' },
         { term: 'Lua Cheia', definition: '100% de iluminação. Toda a superfície visível está iluminada. O auge do ciclo lunar.' },
-        { term: 'Gibosa Minguante', definition: '99–51% de iluminação. A área iluminada começa a diminuir pelo lado direito.' },
+        { term: 'Gibosa Minguante', definition: '99-51% de iluminação. A área iluminada começa a diminuir pelo lado direito.' },
         { term: 'Quarto Minguante', definition: '50% de iluminação. A metade esquerda está iluminada. Três quartos do ciclo completados.' },
-        { term: 'Lua Minguante', definition: '49–1% de iluminação. Um fino crescente no lado esquerdo antes do ciclo reiniciar na lua nova.' },
+        { term: 'Lua Minguante', definition: '49-1% de iluminação. Um fino crescente no lado esquerdo antes do ciclo reiniciar na lua nova.' },
       ]
     },
     { type: 'title', text: 'Como Acertar um Relógio com Fases da Lua', level: 3 },

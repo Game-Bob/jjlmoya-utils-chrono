@@ -48,14 +48,14 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     { type: 'title', text: 'Why a Savings Plan Matters for Watch Collectors', level: 3 },
     { type: 'paragraph', html: 'Watch collecting is a patient game. Prices for sought-after models climb steadily, and impulse purchases often lead to regret. A structured savings approach keeps you disciplined, prevents financial strain, and makes the final purchase feel earned. Plus, tracking your progress day by day builds anticipation and makes the unboxing even sweeter.' },
     { type: 'title', text: 'How to Set Realistic Watch Savings Goals', level: 3 },
-    { type: 'paragraph', html: 'Start with the total price including taxes and shipping. Then divide by how much you can comfortably set aside each month. A good rule of thumb is to dedicate no more than <strong>10–15% of disposable income</strong> to watch savings. If the timeline feels too long, consider breaking it into smaller milestones-or exploring more affordable alternatives in the same style family.' },
+    { type: 'paragraph', html: 'Start with the total price including taxes and shipping. Then divide by how much you can comfortably set aside each month. A good rule of thumb is to dedicate no more than <strong>10-15% of disposable income</strong> to watch savings. If the timeline feels too long, consider breaking it into smaller milestones-or exploring more affordable alternatives in the same style family.' },
     { type: 'title', text: 'The Psychology of Goal Tracking', level: 3 },
     { type: 'paragraph', html: 'Visual progress tracking triggers dopamine release, the same neurochemical that makes collecting so rewarding. Each time you log a new contribution and watch the progress ring fill, you reinforce the habit. This is why small, regular savings often work better than sporadic large deposits-the ritual itself becomes part of the collecting experience.' },
   ],
   faq: [
     {
       question: 'How much should I save each month for a watch?',
-      answer: 'Aim for 10–15% of your disposable monthly income. The key is consistency-even $100 a month adds up to $1,200 a year. Adjust the amount based on your timeline: shorter goals need larger monthly contributions.',
+      answer: 'Aim for 10-15% of your disposable monthly income. The key is consistency-even $100 a month adds up to $1,200 a year. Adjust the amount based on your timeline: shorter goals need larger monthly contributions.',
     },
     {
       question: 'Should I save for one watch at a time or multiple?',
@@ -95,7 +95,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
           'name': 'How much should I save each month for a watch?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Aim for 10–15% of your disposable monthly income. The key is consistency-even $100 a month adds up to $1,200 a year.',
+            'text': 'Aim for 10-15% of your disposable monthly income. The key is consistency-even $100 a month adds up to $1,200 a year.',
           },
         },
         {

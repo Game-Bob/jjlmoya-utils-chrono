@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     step1: 'Posiziona l\'orologio sulla piattaforma dello smagnetizzatore.',
     step2: 'Premi Avvia e tieni premuto il pulsante dello smagnetizzatore per la durata impostata.',
     step3: 'Rilascia il pulsante e allontana lentamente l\'orologio.',
-    step4: 'Ripeti 2–3 volte se necessario, ruotando l\'orologio ogni volta.',
+    step4: 'Ripeti 2-3 volte se necessario, ruotando l\'orologio ogni volta.',
     tipTitle: 'Consiglio',
     tipContent: 'Tieni l\'orologio ad almeno 1 metro di distanza dallo smagnetizzatore acceso per evitare una nuova magnetizzazione.',
   },
