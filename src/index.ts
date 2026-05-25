@@ -9,6 +9,9 @@ export { powerReserveEstimator, POWER_RESERVE_ESTIMATOR_TOOL } from './tool/powe
 export { beatRateConverter, BEAT_RATE_CONVERTER_TOOL } from './tool/beat-rate-converter';
 export { waterResistanceConverter, WATER_RESISTANCE_CONVERTER_TOOL } from './tool/water-resistance-converter';
 export { strapTaperCalculator, STRAP_TAPER_CALCULATOR_TOOL } from './tool/strap-taper-calculator';
+export { watchSizeComparator, WATCH_SIZE_COMPARATOR_TOOL } from './tool/watch-size-comparator';
+export { lumeColorSimulator, LUME_COLOR_SIMULATOR_TOOL } from './tool/lume-color-simulator';
+export { moonPhaseVisualizer, MOON_PHASE_VISUALIZER_TOOL } from './tool/moon-phase-visualizer';
 
 export type {
   KnownLocale,

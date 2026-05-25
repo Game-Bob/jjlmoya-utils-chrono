@@ -37,10 +37,10 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     step3: 'Read the proportions and visual representation.',
   },
   seo: [
-    { type: 'title', text: 'Watch Strap Taper Calculator — Proportions, Buckle Width & Visual Guide', level: 2 },
+    { type: 'title', text: 'Watch Strap Taper Calculator-Proportions, Buckle Width & Visual Guide', level: 2 },
     { type: 'paragraph', html: 'A well proportioned strap makes or breaks a watch. Too much taper on a diver makes it look fragile. No taper on a dress watch makes it look clunky. This calculator helps you find the ideal <strong>strap taper ratio</strong> based on your case diameter and lug width.' },
     { type: 'title', text: 'What Is Strap Taper?', level: 3 },
-    { type: 'paragraph', html: 'Strap taper is the reduction in width from the lug end to the buckle end of a watch strap. A classic dress watch might taper from 20 mm at the lugs to 16 mm at the buckle — a 4 mm taper. A dive watch might stay at 20 mm straight through for a more tool-like appearance.' },
+    { type: 'paragraph', html: 'Strap taper is the reduction in width from the lug end to the buckle end of a watch strap. A classic dress watch might taper from 20 mm at the lugs to 16 mm at the buckle-a 4 mm taper. A dive watch might stay at 20 mm straight through for a more tool-like appearance.' },
     { type: 'title', text: 'The Golden Ratio for Strap Proportions', level: 3 },
     { type: 'paragraph', html: 'Watch enthusiasts generally agree that a lug width between 45% and 55% of the case diameter looks best. For the taper, a buckle width that is 75% to 85% of the lug width creates a balanced, elegant silhouette. Ratios outside this range can make the watch look top heavy or fragile.' },
     { type: 'title', text: 'Taper by Watch Style', level: 3 },

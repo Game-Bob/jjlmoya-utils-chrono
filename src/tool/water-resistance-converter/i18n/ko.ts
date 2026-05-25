@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: '시계 방수 변환기 — 미터, ATM, Bar, 피트',
+  title: '시계 방수 변환기–미터, ATM, Bar, 피트',
   description: '시계 방수 등급을 미터, 피트, ATM, Bar 간에 변환합니다. 일상 사용, 수영, 다이빙에서 각 등급이 실제로 의미하는 바를 확인하세요.',
   ui: {
     title: '방수 변환기',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: '방수 성능은 시간이 지남에 따라 저하됩니다. 개스킷과 실링은 매년 점검하고 3\u20135년마다 교체해야 합니다.',
   },
   seo: [
-    { type: 'title', text: '시계 방수 변환기 — 미터, ATM, Bar, 피트 이해하기', level: 2 },
+    { type: 'title', text: '시계 방수 변환기-미터, ATM, Bar, 피트 이해하기', level: 2 },
     { type: 'paragraph', html: '30미터 방수 등급이 30미터까지 잠수할 수 있다는 의미는 아닙니다. 물방울과 가벼운 비를 견딜 수 있다는 뜻입니다. 이 변환기는 <strong>미터, 피트, 기압(ATM), Bar</strong> 간을 변환하고 각 등급이 실제로 허용하는 활동을 알려줍니다.' },
     { type: 'title', text: '방수 등급에 대한 진실', level: 3 },
-    { type: 'paragraph', html: '시계 방수 성능은 실험실에서 정적 수압으로 테스트됩니다. 실제 환경 — 팔 움직임, 다이빙, 온도 변화 — 에서는 훨씬 더 높은 동적 압력이 발생합니다. 30m / 3 ATM 시계는 생활 방수만 가능합니다. 수영을 위해서는 최소 100m / 10 ATM이 필요합니다. 스쿠버 다이빙을 위해서는 200m / 20 ATM이 표준 기준입니다.' },
+    { type: 'paragraph', html: '시계 방수 성능은 실험실에서 정적 수압으로 테스트됩니다. 실제 환경-팔 움직임, 다이빙, 온도 변화-에서는 훨씬 더 높은 동적 압력이 발생합니다. 30m / 3 ATM 시계는 생활 방수만 가능합니다. 수영을 위해서는 최소 100m / 10 ATM이 필요합니다. 스쿠버 다이빙을 위해서는 200m / 20 ATM이 표준 기준입니다.' },
     { type: 'title', text: '방수 성능이 시간이 지나면서 저하되는 이유', level: 3 },
     { type: 'paragraph', html: '시계를 밀봉하는 고무 개스킷과 O링은 시간이 지나면서 건조해지고, 균열이 생기고, 압축됩니다. 열, 자외선, 화학 물질이 이 과정을 가속화합니다. 한때 100m 방수였던 시계도 5년간 관리 없이 방치하면 생활 방수 수준으로 저하될 수 있습니다. 실링은 매년 점검하고 3~5년마다 교체하세요.' },
-    { type: 'title', text: 'ISO 6425 — 다이버 시계 표준', level: 3 },
+    { type: 'title', text: 'ISO 6425-다이버 시계 표준', level: 3 },
     { type: 'paragraph', html: '시계가 "다이버 시계"로 불리려면 ISO 6425 표준을 충족해야 합니다: 최소 100m 방수, 단방향 베젤, 야광 표시, 나사식 크라운. 이 표준을 충족하는 시계는 정격 수심보다 25% 높은 압력에서 테스트됩니다. 200m ISO 인증 시계는 250m에서 테스트됩니다.' },
   ],
   faq: [
     {
       question: '30미터 방수 시계로 수영할 수 있나요?',
-      answer: '아니요. 30m / 3 ATM 등급은 생활 방수만 의미합니다 — 손 씻기, 비, 땀. 수영은 정적 테스트 압력을 초과하는 동적 압력을 만듭니다. 수영을 위해서는 최소 100m / 10 ATM을 선택하세요.',
+      answer: '아니요. 30m / 3 ATM 등급은 생활 방수만 의미합니다-손 씻기, 비, 땀. 수영은 정적 테스트 압력을 초과하는 동적 압력을 만듭니다. 수영을 위해서는 최소 100m / 10 ATM을 선택하세요.',
     },
     {
       question: 'ATM, Bar, 미터의 차이점은 무엇인가요?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': '30미터 방수 시계로 수영할 수 있나요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': '아니요. 30m / 3 ATM 등급은 생활 방수만 의미합니다 — 손 씻기, 비, 땀. 수영을 위해서는 최소 100m / 10 ATM을 선택하세요.',
+            'text': '아니요. 30m / 3 ATM 등급은 생활 방수만 의미합니다-손 씻기, 비, 땀. 수영을 위해서는 최소 100m / 10 ATM을 선택하세요.',
           },
         },
         {

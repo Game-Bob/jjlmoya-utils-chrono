@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'waterbestendigheid-omzetter',
-  title: 'Horloge Waterbestendigheid Omzetter — Meters, ATM, Bar & Voet',
+  title: 'Horloge Waterbestendigheid Omzetter–Meters, ATM, Bar & Voet',
   description: 'Converteer waterbestendigheidsclassificaties van horloges tussen meters, voet, ATM en bar. Ontdek wat elke classificatie werkelijk betekent voor dagelijks gebruik, zwemmen en duiken.',
   ui: {
     title: 'Waterbestendigheid Omzetter',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'Waterbestendigheid neemt in de loop van de tijd af. Pakkingen en afdichtingen moeten jaarlijks worden getest en elke 3\u20135 jaar worden vervangen.',
   },
   seo: [
-    { type: 'title', text: 'Horloge Waterbestendigheid Omzetter — Meters, ATM, Bar & Voet ontcijferd', level: 2 },
+    { type: 'title', text: 'Horloge Waterbestendigheid Omzetter-Meters, ATM, Bar & Voet ontcijferd', level: 2 },
     { type: 'paragraph', html: 'Een waterbestendigheidsclassificatie van 30 meter betekent niet dat u tot 30 meter kunt duiken. Het betekent dat het horloge spatwater en lichte regen aankan. Deze omzetter vertaalt tussen <strong>meters, voet, atmosferen (ATM) en bar</strong>, en vertelt u wat elke classificatie werkelijk toestaat.' },
     { type: 'title', text: 'De Waarheid over Waterbestendigheidsclassificaties', level: 3 },
-    { type: 'paragraph', html: 'Horlogewaterbestendigheid wordt getest onder statische druk in een laboratorium. In de praktijk — armbewegingen, duiken, temperatuurveranderingen — ontstaat dynamische druk die veel hoger is. Een 30m / 3 ATM horloge is alleen spatwaterdicht. Voor zwemmen heeft u minstens 100m / 10 ATM nodig. Voor scubaduiken is 200m / 20 ATM het standaard beginpunt.' },
+    { type: 'paragraph', html: 'Horlogewaterbestendigheid wordt getest onder statische druk in een laboratorium. In de praktijk-armbewegingen, duiken, temperatuurveranderingen-ontstaat dynamische druk die veel hoger is. Een 30m / 3 ATM horloge is alleen spatwaterdicht. Voor zwemmen heeft u minstens 100m / 10 ATM nodig. Voor scubaduiken is 200m / 20 ATM het standaard beginpunt.' },
     { type: 'title', text: 'Waarom Waterbestendigheid na Verloop van Tijd Afneemt', level: 3 },
     { type: 'paragraph', html: 'De rubberen pakkingen en O-ringen die uw horloge afdichten, drogen uit, barsten en comprimeren na verloop van tijd. Hitte, UV-licht en chemicaliën versnellen dit proces. Een horloge dat ooit waterbestendig was tot 100m, kan na 5 jaar zonder onderhoud slechts spatwaterdicht zijn. Laat uw afdichtingen jaarlijks testen en elke 3 tot 5 jaar vervangen.' },
-    { type: 'title', text: 'ISO 6425 — De Norm voor Duikerhorloges', level: 3 },
+    { type: 'title', text: 'ISO 6425-De Norm voor Duikerhorloges', level: 3 },
     { type: 'paragraph', html: 'Om een "duikershorloge" genoemd te worden, moet een horloge voldoen aan ISO 6425 normen: minstens 100m waterbestendigheid, een unidirectionele ring, lichtgevende markeringen en een schroefkroon. Horloges die aan deze norm voldoen, worden 25% boven hun nominale diepte getest. Een ISO gecertificeerd 200m horloge wordt getest op 250m.' },
   ],
   faq: [
     {
       question: 'Kan ik zwemmen met een 30 meter waterbestendig horloge?',
-      answer: 'Nee. Een 30m / 3 ATM classificatie betekent alleen spatwaterdichtheid — handen wassen, regen en zweet. Zwemmen creëert dynamische druk die de statische testdruk overschrijdt. Kies voor zwemmen minstens 100m / 10 ATM.',
+      answer: 'Nee. Een 30m / 3 ATM classificatie betekent alleen spatwaterdichtheid-handen wassen, regen en zweet. Zwemmen creëert dynamische druk die de statische testdruk overschrijdt. Kies voor zwemmen minstens 100m / 10 ATM.',
     },
     {
       question: 'Wat is het verschil tussen ATM, bar en meters?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': 'Kan ik zwemmen met een 30 meter waterbestendig horloge?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Nee. Een 30m / 3 ATM classificatie betekent alleen spatwaterdichtheid — handen wassen, regen en zweet. Kies voor zwemmen minstens 100m / 10 ATM.',
+            'text': 'Nee. Een 30m / 3 ATM classificatie betekent alleen spatwaterdichtheid-handen wassen, regen en zweet. Kies voor zwemmen minstens 100m / 10 ATM.',
           },
         },
         {

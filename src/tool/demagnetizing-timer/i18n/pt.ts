@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Mantenha o relógio a pelo menos 1 metro de distância do desmagnetizador ligado para evitar remagnetização.',
   },
   seo: [
-    { type: 'title', text: 'Temporizador de Desmagnetização — Tempo Preciso para Desmagnetização Caseira', level: 2 },
+    { type: 'title', text: 'Temporizador de Desmagnetização-mpo Preciso para Desmagnetização Caseira', level: 2 },
     { type: 'paragraph', html: 'Desmagnetizar um relógio exige um tempo exato de pressionamento do botão. A maioria dos desmagnetizadores caseiros funciona gerando um campo magnético alternado decrescente, e o pulso ideal dura entre <strong>1 e 3 segundos</strong>. Segurar por pouco tempo e o campo não neutraliza a magnetização; segurar por muito tempo e você corre o risco de saturar o movimento.' },
     { type: 'title', text: 'Por que o tempo é importante na desmagnetização', level: 3 },
     { type: 'paragraph', html: 'Ao pressionar o botão do desmagnetizador, um campo magnético alternado é criado dentro da bobina. O campo oscila na frequência da rede (50/60 Hz) e decai quando você solta. O objetivo é expor o relógio a este campo decrescente <strong>pelo tempo certo</strong> para randomizar os domínios magnéticos da mola espiral e outros componentes de aço. Um pulso de 1 a 3 segundos é o ponto ideal para a maioria dos movimentos.' },

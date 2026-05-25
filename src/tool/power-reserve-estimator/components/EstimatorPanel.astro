@@ -10,16 +10,16 @@ const { labels } = Astro.props;
   <div class="panel-section">
     <div class="section-label">{labels.movementLabel || "Movement"}</div>
     <select class="movement-select" id="movement-select">
-      <option value="eta-2824">ETA 2824-2 / SW200 — 38h</option>
-      <option value="eta-2892">ETA 2892-A2 / SW300 — 42h</option>
-      <option value="valjoux-7750">Valjoux 7750 / SW500 — 48h</option>
-      <option value="miyota-8215">Miyota 8215 — 40h</option>
-      <option value="miyota-9015">Miyota 9015 — 42h</option>
-      <option value="seiko-nh35">Seiko NH35 / 4R35 — 41h</option>
-      <option value="seiko-6r35">Seiko 6R35 — 70h</option>
-      <option value="unitas-6498">Unitas 6497 / 6498 — 46h</option>
-      <option value="rolex-3135">Rolex 3135 — 48h</option>
-      <option value="rolex-3235">Rolex 3235 — 70h</option>
+      <option value="eta-2824">ETA 2824-2 / SW200-38h</option>
+      <option value="eta-2892">ETA 2892-A2 / SW300-42h</option>
+      <option value="valjoux-7750">Valjoux 7750 / SW500-48h</option>
+      <option value="miyota-8215">Miyota 8215-40h</option>
+      <option value="miyota-9015">Miyota 9015-42h</option>
+      <option value="seiko-nh35">Seiko NH35 / 4R35-41h</option>
+      <option value="seiko-6r35">Seiko 6R35-70h</option>
+      <option value="unitas-6498">Unitas 6497 / 6498-46h</option>
+      <option value="rolex-3135">Rolex 3135-48h</option>
+      <option value="rolex-3235">Rolex 3235-70h</option>
       <option value="custom">{labels.customMovement || "Custom"}</option>
     </select>
   </div>
@@ -28,55 +28,145 @@ const { labels } = Astro.props;
     <div class="section-label">{labels.customMovement || "Custom"}</div>
     <div class="input-row">
       <div class="input-group">
-        <label class="input-label" for="custom-reserve">{labels.powerReserveHours || "Reserve (h)"}</label>
+        <label class="input-label" for="custom-reserve"
+          >{labels.powerReserveHours || "Reserve (h)"}</label
+        >
         <div class="stepper-wrap">
-          <button type="button" class="stepper-btn" data-target="custom-reserve" data-dir="-1">−</button>
-          <input type="number" class="stepper-input" id="custom-reserve" min="1" max="336" value="38" />
-          <button type="button" class="stepper-btn" data-target="custom-reserve" data-dir="1">+</button>
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="custom-reserve"
+            data-dir="-1">−</button
+          >
+          <input
+            type="number"
+            class="stepper-input"
+            id="custom-reserve"
+            min="1"
+            max="336"
+            value="38"
+          />
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="custom-reserve"
+            data-dir="1">+</button
+          >
         </div>
       </div>
       <div class="input-group">
-        <label class="input-label" for="custom-turns">{labels.fullWindTurns || "Turns to full"}</label>
+        <label class="input-label" for="custom-turns"
+          >{labels.fullWindTurns || "Turns to full"}</label
+        >
         <div class="stepper-wrap">
-          <button type="button" class="stepper-btn" data-target="custom-turns" data-dir="-1">−</button>
-          <input type="number" class="stepper-input" id="custom-turns" min="1" max="100" value="40" />
-          <button type="button" class="stepper-btn" data-target="custom-turns" data-dir="1">+</button>
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="custom-turns"
+            data-dir="-1">−</button
+          >
+          <input
+            type="number"
+            class="stepper-input"
+            id="custom-turns"
+            min="1"
+            max="100"
+            value="40"
+          />
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="custom-turns"
+            data-dir="1">+</button
+          >
         </div>
       </div>
     </div>
   </div>
 
   <div class="panel-section">
-    <div class="section-label">{labels.turnsLabel || "Crown Turns"} <span class="label-sub">+</span></div>
+    <div class="section-label">
+      {labels.turnsLabel || "Crown Turns"}
+      <span class="label-sub">+</span>
+    </div>
     <div class="input-row">
       <div class="input-group">
-        <label class="input-label" for="turns-input">{labels.turnsInput || "Turns"}</label>
+        <label class="input-label" for="turns-input"
+          >{labels.turnsInput || "Turns"}</label
+        >
         <div class="stepper-wrap">
-          <button type="button" class="stepper-btn" data-target="turns-input" data-dir="-5">−5</button>
-          <input type="number" class="stepper-input" id="turns-input" min="0" max="100" value="0" />
-          <button type="button" class="stepper-btn" data-target="turns-input" data-dir="5">+5</button>
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="turns-input"
+            data-dir="-5">−5</button
+          >
+          <input
+            type="number"
+            class="stepper-input"
+            id="turns-input"
+            min="0"
+            max="100"
+            value="0"
+          />
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="turns-input"
+            data-dir="5">+5</button
+          >
         </div>
       </div>
     </div>
   </div>
 
   <div class="panel-section">
-    <div class="section-label">{labels.hoursLabel || "Wear Time"} <span class="label-sub">+</span></div>
+    <div class="section-label">
+      {labels.hoursLabel || "Wear Time"}
+      <span class="label-sub">+</span>
+    </div>
     <div class="input-row">
       <div class="input-group">
-        <label class="input-label" for="hours-input">{labels.hoursInput || "Hours"}</label>
+        <label class="input-label" for="hours-input"
+          >{labels.hoursInput || "Hours"}</label
+        >
         <div class="stepper-wrap">
-          <button type="button" class="stepper-btn" data-target="hours-input" data-dir="-1">−</button>
-          <input type="number" class="stepper-input" id="hours-input" min="0" max="24" value="0" />
-          <button type="button" class="stepper-btn" data-target="hours-input" data-dir="1">+</button>
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="hours-input"
+            data-dir="-1">−</button
+          >
+          <input
+            type="number"
+            class="stepper-input"
+            id="hours-input"
+            min="0"
+            max="24"
+            value="0"
+          />
+          <button
+            type="button"
+            class="stepper-btn"
+            data-target="hours-input"
+            data-dir="1">+</button
+          >
         </div>
       </div>
       <div class="input-group">
-        <label class="input-label" for="activity-select">{labels.activityLabel || "Activity"}</label>
+        <label class="input-label" for="activity-select"
+          >{labels.activityLabel || "Activity"}</label
+        >
         <div class="chip-group">
-          <button type="button" class="chip active" data-activity="low">{labels.activityLow || "Low"}</button>
-          <button type="button" class="chip" data-activity="medium">{labels.activityMedium || "Medium"}</button>
-          <button type="button" class="chip" data-activity="high">{labels.activityHigh || "High"}</button>
+          <button type="button" class="chip active" data-activity="low"
+            >{labels.activityLow || "Low"}</button
+          >
+          <button type="button" class="chip" data-activity="medium"
+            >{labels.activityMedium || "Medium"}</button
+          >
+          <button type="button" class="chip" data-activity="high"
+            >{labels.activityHigh || "High"}</button
+          >
         </div>
       </div>
     </div>
@@ -84,7 +174,9 @@ const { labels } = Astro.props;
 
   <button type="button" class="calc-btn" id="calc-btn">
     <svg viewBox="0 0 24 24" width="16" height="16">
-      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+      <path
+        d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+        fill="currentColor"></path>
     </svg>
     {labels.calculate || "Calculate"}
   </button>
@@ -92,7 +184,9 @@ const { labels } = Astro.props;
   <div class="result-card" id="result-card" style="display: none">
     <div class="result-header">
       <svg viewBox="0 0 24 24" width="18" height="18">
-        <path d="M13 2.05v2.02c3.95.49 7 3.85 7 7.93 0 4.42-3.58 8-8 8s-8-3.58-8-8c0-4.08 3.05-7.44 7-7.93V2.05C5.05 2.58 2 6.13 2 11c0 5.52 4.48 10 10 10s10-4.48 10-10c0-4.87-3.05-8.42-7-8.95zM12 6v5l4.28 2.54.72-1.21-3.5-2.08V6H12z" fill="currentColor" />
+        <path
+          d="M13 2.05v2.02c3.95.49 7 3.85 7 7.93 0 4.42-3.58 8-8 8s-8-3.58-8-8c0-4.08 3.05-7.44 7-7.93V2.05C5.05 2.58 2 6.13 2 11c0 5.52 4.48 10 10 10s10-4.48 10-10c0-4.87-3.05-8.42-7-8.95zM12 6v5l4.28 2.54.72-1.21-3.5-2.08V6H12z"
+          fill="currentColor"></path>
       </svg>
       <span>{labels.resultLabel || "Estimated Reserve"}</span>
     </div>
@@ -129,22 +223,35 @@ const { labels } = Astro.props;
   <div class="steps-section">
     <div class="step-row">
       <div class="step-marker">1</div>
-      <span class="step-text">{labels.step1 || "Select your movement from the dropdown."}</span>
+      <span class="step-text"
+        >{labels.step1 || "Select your movement from the dropdown."}</span
+      >
     </div>
     <div class="step-row">
       <div class="step-marker">2</div>
-      <span class="step-text">{labels.step2 || "Enter crown turns and hours worn."}</span>
+      <span class="step-text"
+        >{labels.step2 || "Enter crown turns and hours worn."}</span
+      >
     </div>
     <div class="step-row">
       <div class="step-marker">3</div>
-      <span class="step-text">{labels.step3 || "Press Calculate to see your reserve."}</span>
+      <span class="step-text"
+        >{labels.step3 || "Press Calculate to see your reserve."}</span
+      >
     </div>
   </div>
 
   <div class="tip-row">
     <svg class="tip-icon" viewBox="0 0 24 24" width="16" height="16">
-      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+        fill="currentColor"></path>
     </svg>
-    <span class="tip-text">{labels.tipContent || "Manual-wind movements only charge when you turn the crown. Automatic movements also charge while worn."}</span>
+    <span class="tip-text"
+      >{
+        labels.tipContent ||
+          "Manual-wind movements only charge when you turn the crown. Automatic movements also charge while worn."
+      }</span
+    >
   </div>
 </div>

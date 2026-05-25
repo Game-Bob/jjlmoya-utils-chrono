@@ -1,0 +1,121 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="comparator-panel">
+  <div class="panel-section">
+    <div class="section-label">{labels.yourWatches || "Your Watches"}</div>
+    <div class="watch-input-row">
+      <input
+        type="text"
+        id="watch-name-input"
+        placeholder={labels.watchNamePlaceholder || "e.g. Rolex Submariner"}
+      />
+      <button type="button" class="btn-add" id="add-watch-btn"
+        >{labels.addWatch || "Add Watch"}</button
+      >
+    </div>
+  </div>
+
+  <div class="dims-grid" id="dims-grid">
+    <div class="dim-field">
+      <label for="input-diameter"
+        >{labels.caseDiameter || "Case Diameter"}</label
+      >
+      <div class="input-with-unit">
+        <input
+          type="number"
+          id="input-diameter"
+          min="20"
+          max="60"
+          value="40"
+          step="0.5"
+        />
+        <span class="dim-unit" id="unit-diameter">mm</span>
+      </div>
+    </div>
+    <div class="dim-field">
+      <label for="input-l2l">{labels.lugToLug || "Lug-to-Lug"}</label>
+      <div class="input-with-unit">
+        <input
+          type="number"
+          id="input-l2l"
+          min="30"
+          max="80"
+          value="48"
+          step="0.5"
+        />
+        <span class="dim-unit" id="unit-l2l">mm</span>
+      </div>
+    </div>
+    <div class="dim-field">
+      <label for="input-thickness">{labels.thickness || "Thickness"}</label>
+      <div class="input-with-unit">
+        <input
+          type="number"
+          id="input-thickness"
+          min="5"
+          max="25"
+          value="12"
+          step="0.5"
+        />
+        <span class="dim-unit" id="unit-thickness">mm</span>
+      </div>
+    </div>
+    <div class="dim-field">
+      <label for="input-wrist">{labels.wristSize || "Wrist Size"}</label>
+      <div class="wrist-row">
+        <input
+          type="number"
+          id="input-wrist"
+          min="12"
+          max="25"
+          value="17"
+          step="0.5"
+        />
+        <div class="unit-toggle">
+          <button type="button" class="unit-btn active" id="btn-unit-cm">{labels.unitCm || "CM"}</button>
+          <button type="button" class="unit-btn" id="btn-unit-in">{labels.unitInches || "IN"}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="visualizer-wrapper">
+    <canvas id="size-canvas" width="480" height="260"></canvas>
+  </div>
+
+  <div class="legend-row">
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#22c55e"></span>
+      {labels.excellentFit || "Excellent Fit"}
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#86efac"></span>
+      {labels.goodFit || "Good Fit"}
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#facc15"></span>
+      {labels.borderlineFit || "Borderline"}
+    </span>
+    <span class="legend-item">
+      <span class="legend-swatch" style="background:#ef4444"></span>
+      {labels.largeFit || "Too Large"}
+    </span>
+  </div>
+
+  <div class="info-box" id="fit-info">
+    <strong>{labels.fitsWell || "Fits well"}</strong>-{
+      labels.excellentDesc ||
+        "Case diameter is proportional to your wrist. Lug-to-lug stays within your wrist width."
+    }
+  </div>
+
+  <div class="watch-list" id="watch-list">
+    <div class="empty-state">{labels.addWatch || "Add a watch"} ↑</div>
+  </div>
+</div>

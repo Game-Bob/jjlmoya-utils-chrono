@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Notera',
   },
   seo: [
-    { type: 'title', text: 'Guide för Kronans Positioner — Så Vindar Du, Ställer Datum & Tid Korrekt', level: 2 },
-    { type: 'paragraph', html: 'Kronan är det enda fysiska gränssnittet mellan dig och ditt urverk. Att använda den fel — vinda baklänges, ställa datum vid midnatt eller dra för hårt — kan skada mekanismen. Den här guiden bryter ner varje kronposition för <strong>ETA, Sellita, Miyota, Seiko och Unitas</strong>-kalibrar så att du aldrig behöver gissa.' },
+    { type: 'title', text: 'Guide för Kronans Positioner-Så Vindar Du, Ställer Datum & Tid Korrekt', level: 2 },
+    { type: 'paragraph', html: 'Kronan är det enda fysiska gränssnittet mellan dig och ditt urverk. Att använda den fel-vinda baklänges, ställa datum vid midnatt eller dra för hårt-kan skada mekanismen. Den här guiden bryter ner varje kronposition för <strong>ETA, Sellita, Miyota, Seiko och Unitas</strong>-kalibrar så att du aldrig behöver gissa.' },
     { type: 'title', text: 'Kronans Positioner i Ett Ögonkast', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Position 0 (Vila)', definition: 'Kronan intryckt eller nedskruvad. Klockan går normalt. Inga funktioner aktiva. Återvänd alltid hit efter inställning.' },
-      { term: 'Position 1 (Uppvridning)', definition: 'Första utdraget eller uppskruvat läge. Vrid medsols för att dra upp fjädern. De flesta automatiska verk drar också upp via rotorn.' },
-      { term: 'Position 2 (Snabbinställning av datum)', definition: 'Andra utdraget. Vrid medsols för att ställa fram datumet. Undvik användning mellan 21:00\u20133:00 när datummekanismen är aktiverad.' },
-      { term: 'Position 3 (Tidsinställning)', definition: 'Tredje utdraget. Hackande sekundstopp för exakt justering. Rotera fritt för att ställa in tiden. Finns på de flesta moderna automatiska verk.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Position 0 (Vila)', definition: 'Kronan intryckt eller nedskruvad. Klockan går normalt. Inga funktioner aktiva. Återvänd alltid hit efter inställning.' },
+        { term: 'Position 1 (Uppvridning)', definition: 'Första utdraget eller uppskruvat läge. Vrid medsols för att dra upp fjädern. De flesta automatiska verk drar också upp via rotorn.' },
+        { term: 'Position 2 (Snabbinställning av datum)', definition: 'Andra utdraget. Vrid medsols för att ställa fram datumet. Undvik användning mellan 21:00\u20133:00 när datummekanismen är aktiverad.' },
+        { term: 'Position 3 (Tidsinställning)', definition: 'Tredje utdraget. Hackande sekundstopp för exakt justering. Rotera fritt för att ställa in tiden. Finns på de flesta moderna automatiska verk.' },
+      ]
+    },
 
     { type: 'title', text: 'Urverksjämförelse: Kronans Funktioner', level: 3 },
-    { type: 'table', headers: ['Urverk', 'Positioner', 'Hack', 'Snabbinst.', 'Vindriktn.'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
-      ['Miyota 8215', '2 (0,1,3)', 'Nej', 'Ingen', 'M'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'Nej', 'Ingen', 'M'],
-    ] },
+    {
+      type: 'table', headers: ['Urverk', 'Positioner', 'Hack', 'Snabbinst.', 'Vindriktn.'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
+        ['Miyota 8215', '2 (0,1,3)', 'Nej', 'Ingen', 'M'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Ja', 'Datum (M)', 'M'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'Nej', 'Ingen', 'M'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Vanliga Kronmisstag', icon: 'mdi:alert', badge: 'GÖR INTE', html: 'Snabbställ aldrig datumet mellan <strong>21:00 och 3:00</strong> medan datumhjulet är aktiverat. Detta kan skada kuggar och kräva en fullständig service av urverket. Om du måste ändra datum under detta fönster, först då fram tiden förbi 3:00, ställ in datumet och justera sedan tillbaka till rätt tid.' },
 
     { type: 'tip', title: 'Nedskruvade Kronor', html: 'Dyk- och sportklockor har ofta nedskruvade kronor för vattentäthet. <strong>Skruva alltid upp före utdragning</strong>. Vrid motsols tills kronan poppar ut, dra sedan till önskad position. Efter inställning, tryck in och vrid sedan medsols med lätt tryck tills den sitter fast. <strong>Dra inte åt för hårt.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Standardkrona', icon: 'mdi:crown', description: 'Tryck-drag-krona som finns på de flesta klänningsklockor och vardagsautomater. 2\u20134 positioner. Vattentäthet vanligtvis 30\u2013100 m.', points: ['Omedelbar åtkomst, ingen uppskruvning', 'Begränsad vattentäthet', 'Vanlig på ETA, Miyota, Seiko'] },
-      { title: 'Nedskruvad Krona', icon: 'mdi:lock', description: 'Gängad krona som skruvas in i boettens rör. Standard på dyk- och verktygsklockor. Vattentäthet 200 m+.', points: ['Överlägsen vattentäthet', 'Måste skruvas upp före användning', 'Vanlig på Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Standardkrona', icon: 'mdi:crown', description: 'Tryck-drag-krona som finns på de flesta klänningsklockor och vardagsautomater. 2\u20134 positioner. Vattentäthet vanligtvis 30\u2013100 m.', points: ['Omedelbar åtkomst, ingen uppskruvning', 'Begränsad vattentäthet', 'Vanlig på ETA, Miyota, Seiko'] },
+        { title: 'Nedskruvad Krona', icon: 'mdi:lock', description: 'Gängad krona som skruvas in i boettens rör. Standard på dyk- och verktygsklockor. Vattentäthet 200 m+.', points: ['Överlägsen vattentäthet', 'Måste skruvas upp före användning', 'Vanlig på Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Snabbreferens', items: [
-      'Vind alltid medsols — baklängesvridning aktiverar glidkopplingen men vindar inte.',
-      'Om din klocka har en nedskruvad krona, skruva upp den innan du drar till någon position.',
-      'Undvik snabbinställning av datum mellan 21:00 och 3:00. Ställ fram tiden förbi 3:00 först om det behövs.',
-      'Handuppdragna urverk (t.ex. Unitas 6498) har färre positioner. Vind fullt innan du ställer in tiden.',
-      'Icke-hackande urverk (t.ex. Miyota 8215) kräver en annan teknik: vrid förbi måltiden och sedan långsamt tillbaka.',
-    ] },
+    {
+      type: 'summary', title: 'Snabbreferens', items: [
+        'Vind alltid medsols-baklängesvridning aktiverar glidkopplingen men vindar inte.',
+        'Om din klocka har en nedskruvad krona, skruva upp den innan du drar till någon position.',
+        'Undvik snabbinställning av datum mellan 21:00 och 3:00. Ställ fram tiden förbi 3:00 först om det behövs.',
+        'Handuppdragna urverk (t.ex. Unitas 6498) har färre positioner. Vind fullt innan du ställer in tiden.',
+        'Icke-hackande urverk (t.ex. Miyota 8215) kräver en annan teknik: vrid förbi måltiden och sedan långsamt tillbaka.',
+      ]
+    },
   ],
   faq: [
     {
@@ -99,7 +107,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Hur vet jag hur många varv som krävs för att dra upp min klocka helt?',
-      answer: 'De flesta automatiska urverk kräver 30\u201340 fulla kronvarv från stillastående. Handuppdragna urverk varierar: Unitas 6498 behöver cirka 30\u201335 varv, medan Seiko 6R35 med sin 70-timmarsreserv behöver 50\u201360 varv. Stanna när du känner fast motstånd — att tvinga förbi det kan skada fjädern.',
+      answer: 'De flesta automatiska urverk kräver 30\u201340 fulla kronvarv från stillastående. Handuppdragna urverk varierar: Unitas 6498 behöver cirka 30\u201335 varv, medan Seiko 6R35 med sin 70-timmarsreserv behöver 50\u201360 varv. Stanna när du känner fast motstånd-att tvinga förbi det kan skada fjädern.',
     },
   ],
   bibliography,

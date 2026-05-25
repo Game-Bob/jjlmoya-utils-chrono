@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: 'Watch Water Resistance Converter — Meters, ATM, Bar & Feet',
+  title: 'Watch Water Resistance Converter–Meters, ATM, Bar & Feet',
   description: 'Convert watch water resistance ratings between meters, feet, ATM, and bar. See what each rating actually means for daily wear, swimming, and diving.',
   ui: {
     title: 'Water Resistance Converter',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'Water resistance degrades over time. Gaskets and seals should be tested yearly and replaced every 3\u20135 years.',
   },
   seo: [
-    { type: 'title', text: 'Watch Water Resistance Converter — Decoding Meters, ATM, Bar & Feet', level: 2 },
+    { type: 'title', text: 'Watch Water Resistance Converter-Decoding Meters, ATM, Bar & Feet', level: 2 },
     { type: 'paragraph', html: 'A 30-meter water resistance rating does not mean you can dive to 30 meters. It means the watch can handle splashes and light rain. This converter translates between <strong>meters, feet, atmospheres (ATM), and bars</strong>, and tells you what each rating actually allows.' },
     { type: 'title', text: 'The Truth About Water Resistance Ratings', level: 3 },
-    { type: 'paragraph', html: 'Watch water resistance is tested under static pressure in a lab. Real-world conditions — moving your arm, diving, temperature changes — create dynamic pressure that is much higher. A 30m / 3 ATM watch is only splash resistant. For swimming, you need at least 100m / 10 ATM. For scuba diving, 200m / 20 ATM is the standard entry point.' },
+    { type: 'paragraph', html: 'Watch water resistance is tested under static pressure in a lab. Real-world conditions-moving your arm, diving, temperature changes-create dynamic pressure that is much higher. A 30m / 3 ATM watch is only splash resistant. For swimming, you need at least 100m / 10 ATM. For scuba diving, 200m / 20 ATM is the standard entry point.' },
     { type: 'title', text: 'Why Water Resistance Degrades Over Time', level: 3 },
     { type: 'paragraph', html: 'The rubber gaskets and O-rings that seal your watch dry out, crack, and compress over time. Heat, UV light, and chemicals accelerate this process. A watch that was once water resistant to 100m may only be splash resistant after 5 years without service. Have your seals tested annually and replaced every 3 to 5 years.' },
-    { type: 'title', text: 'ISO 6425 — The Diver Watch Standard', level: 3 },
+    { type: 'title', text: 'ISO 6425-The Diver Watch Standard', level: 3 },
     { type: 'paragraph', html: 'For a watch to be called a "diver\'s watch," it must meet ISO 6425 standards: at least 100m water resistance, a unidirectional bezel, luminous markings, and a screw-down crown. Watches that meet this standard are tested 25% above their rated depth. A 200m ISO-rated watch is tested at 250m.' },
   ],
   faq: [
     {
       question: 'Can I swim with a 30-meter water resistant watch?',
-      answer: 'No. A 30m / 3 ATM rating means splash resistance only — hand washing, rain, and sweat. Swimming creates dynamic pressure that exceeds the static test pressure. For swimming, choose at least 100m / 10 ATM.',
+      answer: 'No. A 30m / 3 ATM rating means splash resistance only-hand washing, rain, and sweat. Swimming creates dynamic pressure that exceeds the static test pressure. For swimming, choose at least 100m / 10 ATM.',
     },
     {
       question: 'What is the difference between ATM, bar, and meters?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': 'Can I swim with a 30-meter water resistant watch?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'No. A 30m / 3 ATM rating means splash resistance only — hand washing, rain, and sweat. For swimming, choose at least 100m / 10 ATM.',
+            'text': 'No. A 30m / 3 ATM rating means splash resistance only-hand washing, rain, and sweat. For swimming, choose at least 100m / 10 ATM.',
           },
         },
         {

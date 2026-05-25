@@ -2,11 +2,11 @@ import type { BibliographyEntry } from '../../types';
 
 export const bibliography: BibliographyEntry[] = [
   {
-    name: 'Crown (watch) — Wikipedia',
+    name: 'Crown (watch)-Wikipedia',
     url: 'https://en.wikipedia.org/wiki/Crown_(watch)',
   },
   {
-    name: 'How to Set a Mechanical Watch — Winding, Date & Time Guide',
+    name: 'How to Set a Mechanical Watch-Winding, Date & Time Guide',
     url: 'https://www.watchfinder.com/watch-setting-guide',
   },
   {
@@ -14,7 +14,7 @@ export const bibliography: BibliographyEntry[] = [
     url: 'https://www.divewatch.com/crown-types',
   },
   {
-    name: 'Watch Movement Database — Caliber Specifications',
+    name: 'Watch Movement Database-Caliber Specifications',
     url: 'https://www.caliberdatabase.com',
   },
 ];

@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Remarque',
   },
   seo: [
-    { type: 'title', text: 'Guide des Positions de la Couronne — Remonter, Régler la Date et l\'Heure Correctement', level: 2 },
-    { type: 'paragraph', html: 'La couronne est la seule interface physique entre vous et le mouvement de votre montre. L\'utiliser incorrectement — remonter en sens inverse, régler la date à minuit ou tirer trop fort — peut endommager le mécanisme. Ce guide détaille chaque position de couronne pour les calibres <strong>ETA, Sellita, Miyota, Seiko et Unitas</strong> afin que vous n\'ayez jamais à deviner.' },
+    { type: 'title', text: 'Guide des Positions de la Couronne-Remonter, Régler la Date et l\'Heure Correctement', level: 2 },
+    { type: 'paragraph', html: 'La couronne est la seule interface physique entre vous et le mouvement de votre montre. L\'utiliser incorrectement-remonter en sens inverse, régler la date à minuit ou tirer trop fort-peut endommager le mécanisme. Ce guide détaille chaque position de couronne pour les calibres <strong>ETA, Sellita, Miyota, Seiko et Unitas</strong> afin que vous n\'ayez jamais à deviner.' },
     { type: 'title', text: 'Aperçu des Positions de Couronne', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Position 0 (Repos)', definition: 'Couronne enfoncée ou vissée. La montre fonctionne normalement. Aucune fonction activée. Revenez toujours ici après le réglage.' },
-      { term: 'Position 1 (Remontage)', definition: 'Première traction ou état dévissé. Tournez dans le sens horaire pour remonter le ressort moteur. La plupart des automatiques remontent également via le rotor.' },
-      { term: 'Position 2 (Réglage Rapide de la Date)', definition: 'Deuxième traction. Tournez dans le sens horaire pour avancer la date. Évitez d\'utiliser entre 21 h\u20133 h du matin lorsque le mécanisme de date est engagé.' },
-      { term: 'Position 3 (Réglage de l\'Heure)', definition: 'Troisième traction. La trotteuse s\'arrête pour un alignement précis. Tournez librement pour régler l\'heure. Présente sur la plupart des automatiques modernes.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Position 0 (Repos)', definition: 'Couronne enfoncée ou vissée. La montre fonctionne normalement. Aucune fonction activée. Revenez toujours ici après le réglage.' },
+        { term: 'Position 1 (Remontage)', definition: 'Première traction ou état dévissé. Tournez dans le sens horaire pour remonter le ressort moteur. La plupart des automatiques remontent également via le rotor.' },
+        { term: 'Position 2 (Réglage Rapide de la Date)', definition: 'Deuxième traction. Tournez dans le sens horaire pour avancer la date. Évitez d\'utiliser entre 21 h\u20133 h du matin lorsque le mécanisme de date est engagé.' },
+        { term: 'Position 3 (Réglage de l\'Heure)', definition: 'Troisième traction. La trotteuse s\'arrête pour un alignement précis. Tournez librement pour régler l\'heure. Présente sur la plupart des automatiques modernes.' },
+      ]
+    },
 
     { type: 'title', text: 'Comparaison des Mouvements : Fonctions de la Couronne', level: 3 },
-    { type: 'table', headers: ['Mouvement', 'Positions', 'Arrêt', 'Réglage Rap.', 'Sens Rem.'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
-      ['Miyota 8215', '2 (0,1,3)', 'Non', 'Aucun', 'H'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'Non', 'Aucun', 'H'],
-    ] },
+    {
+      type: 'table', headers: ['Mouvement', 'Positions', 'Arrêt', 'Réglage Rap.', 'Sens Rem.'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
+        ['Miyota 8215', '2 (0,1,3)', 'Non', 'Aucun', 'H'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Oui', 'Date (H)', 'H'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'Non', 'Aucun', 'H'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Erreurs Courantes avec la Couronne', icon: 'mdi:alert', badge: 'À NE PAS FAIRE', html: 'Ne réglez jamais la date rapidement entre <strong>21 h et 3 h du matin</strong> lorsque la roue de date est engagée. Cela peut briser des dents et nécessiter une révision complète du mouvement. Si vous devez changer la date pendant cette fenêtre, avancez d\'abord l\'heure au-delà de 3 h, réglez la date, puis revenez à l\'heure correcte.' },
 
     { type: 'tip', title: 'Couronnes Vissées', html: 'Les montres de plongée et les montres sportives ont souvent des couronnes vissées pour l\'étanchéité. <strong>Toujours dévisser avant de tirer</strong>. Tournez dans le sens antihoraire jusqu\'à ce que la couronne sorte, puis tirez jusqu\'à la position souhaitée. Après le réglage, enfoncez, puis tournez dans le sens horaire en exerçant une légère pression jusqu\'à ce que ce soit bien ajusté. <strong>Ne serrez pas trop.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Couronne Standard', icon: 'mdi:crown', description: 'Couronne à pousser-tirer présente sur la plupart des montres habillées et automatiques quotidiennes. 2\u20134 positions. Étanchéité typiquement de 30\u2013100 m.', points: ['Accès immédiat, pas de dévissage', 'Étanchéité limitée', 'Courante sur ETA, Miyota, Seiko'] },
-      { title: 'Couronne Vissée', icon: 'mdi:lock', description: 'Couronne filetée qui se visse dans le tube du boîtier. Standard sur les montres de plongée et les montres-outils. Étanchéité 200 m+.', points: ['Étanchéité supérieure', 'Doit être dévissée avant utilisation', 'Courante sur Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Couronne Standard', icon: 'mdi:crown', description: 'Couronne à pousser-tirer présente sur la plupart des montres habillées et automatiques quotidiennes. 2\u20134 positions. Étanchéité typiquement de 30\u2013100 m.', points: ['Accès immédiat, pas de dévissage', 'Étanchéité limitée', 'Courante sur ETA, Miyota, Seiko'] },
+        { title: 'Couronne Vissée', icon: 'mdi:lock', description: 'Couronne filetée qui se visse dans le tube du boîtier. Standard sur les montres de plongée et les montres-outils. Étanchéité 200 m+.', points: ['Étanchéité supérieure', 'Doit être dévissée avant utilisation', 'Courante sur Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Référence Rapide', items: [
-      'Remontez toujours dans le sens horaire — le remontage inverse actionne l\'embrayage à friction mais ne remonte pas.',
-      'Si votre montre a une couronne vissée, dévissez-la avant de tirer sur quelque position que ce soit.',
-      'Évitez le réglage rapide de la date entre 21 h et 3 h. Avancez d\'abord l\'heure au-delà de 3 h si nécessaire.',
-      'Les mouvements à remontage manuel (ex. Unitas 6498) ont moins de positions. Remontez complètement avant de régler l\'heure.',
-      'Les mouvements sans arrêt du balancier (ex. Miyota 8215) nécessitent une technique différente : tournez au-delà de la minute cible, puis lentement en arrière.',
-    ] },
+    {
+      type: 'summary', title: 'Référence Rapide', items: [
+        'Remontez toujours dans le sens horaire-le remontage inverse actionne l\'embrayage à friction mais ne remonte pas.',
+        'Si votre montre a une couronne vissée, dévissez-la avant de tirer sur quelque position que ce soit.',
+        'Évitez le réglage rapide de la date entre 21 h et 3 h. Avancez d\'abord l\'heure au-delà de 3 h si nécessaire.',
+        'Les mouvements à remontage manuel (ex. Unitas 6498) ont moins de positions. Remontez complètement avant de régler l\'heure.',
+        'Les mouvements sans arrêt du balancier (ex. Miyota 8215) nécessitent une technique différente : tournez au-delà de la minute cible, puis lentement en arrière.',
+      ]
+    },
   ],
   faq: [
     {
@@ -99,7 +107,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Combien de tours faut-il pour remonter complètement ma montre ?',
-      answer: 'La plupart des mouvements automatiques nécessitent 30\u201340 tours complets de couronne depuis l\'arrêt. Les mouvements à remontage manuel varient : l\'Unitas 6498 nécessite environ 30\u201335 tours, tandis que le Seiko 6R35 avec sa réserve de 70 heures en nécessite 50\u201360. Arrêtez-vous lorsque vous sentez une résistance ferme — forcer au-delà peut endommager le ressort moteur.',
+      answer: 'La plupart des mouvements automatiques nécessitent 30\u201340 tours complets de couronne depuis l\'arrêt. Les mouvements à remontage manuel varient : l\'Unitas 6498 nécessite environ 30\u201335 tours, tandis que le Seiko 6R35 avec sa réserve de 70 heures en nécessite 50\u201360. Arrêtez-vous lorsque vous sentez une résistance ferme-forcer au-delà peut endommager le ressort moteur.',
     },
   ],
   bibliography,

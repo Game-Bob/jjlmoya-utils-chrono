@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Keep the watch at least 1 meter away from the demagnetizer when powered on to avoid re-magnetization.',
   },
   seo: [
-    { type: 'title', text: 'Watch Demagnetizing Timer — Precise Pulse Timing for DIY Demagnetization', level: 2 },
+    { type: 'title', text: 'Watch Demagnetizing Timer-ecise Pulse Timing for DIY Demagnetization', level: 2 },
     { type: 'paragraph', html: 'Demagnetizing a watch requires exact button-press timing. Most DIY demagnetizers work by generating a decaying alternating magnetic field, and the ideal pulse lasts between <strong>1 and 3 seconds</strong>. Hold it too short and the field won\'t neutralize the magnetization; hold it too long and you risk saturating the movement.' },
     { type: 'title', text: 'Why Timing Matters for Watch Demagnetization', level: 3 },
     { type: 'paragraph', html: 'When you press the button on a demagnetizer, an alternating magnetic field is created inside the coil. The field oscillates at mains frequency (50/60 Hz) and decays when you release. The goal is to subject the watch to this decaying field for <strong>just long enough</strong> to randomize the magnetic domains in the hairspring and other steel components. A 1-to-3-second pulse is the sweet spot for most movements.' },

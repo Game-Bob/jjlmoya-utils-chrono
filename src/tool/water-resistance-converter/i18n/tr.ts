@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'su-direnci-donusturucu',
-  title: 'Saat Su Direnci Dönüştürücü — Metre, ATM, Bar & Fit',
+  title: 'Saat Su Direnci Dönüştürücü–tre, ATM, Bar & Fit',
   description: 'Saat su direnci değerlerini metre, fit, ATM ve bar arasında dönüştürün. Günlük kullanım, yüzme ve dalışta her değerin aslında ne anlama geldiğini görün.',
   ui: {
     title: 'Su Direnci Dönüştürücü',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'Su direnci zamanla azalır. Contalar yıllık olarak test edilmeli ve her 3\u20135 yılda bir değiştirilmelidir.',
   },
   seo: [
-    { type: 'title', text: 'Saat Su Direnci Dönüştürücü — Metre, ATM, Bar & Fit değerlerini anlama', level: 2 },
+    { type: 'title', text: 'Saat Su Direnci Dönüştürücü-tre, ATM, Bar & Fit değerlerini anlama', level: 2 },
     { type: 'paragraph', html: '30 metrelik su direnci değeri, 30 metreye dalabileceğiniz anlamına gelmez. Saatin su sıçramalarına ve hafif yağmura dayanabileceği anlamına gelir. Bu dönüştürücü <strong>metre, fit, atmosfer (ATM) ve bar</strong> arasında çeviri yapar ve her değerin aslında neye izin verdiğini söyler.' },
     { type: 'title', text: 'Su Direnci Değerleri Hakkında Gerçekler', level: 3 },
-    { type: 'paragraph', html: 'Saat su direnci laboratuvar ortamında statik basınç altında test edilir. Gerçek dünya koşulları — kol hareketi, dalış, sıcaklık değişimleri — çok daha yüksek dinamik basınç oluşturur. 30m / 3 ATM bir saat yalnızca sıçramaya dayanıklıdır. Yüzmek için en az 100m / 10 ATM gerekir. Tüplü dalış için 200m / 20 ATM standart giriş seviyesidir.' },
+    { type: 'paragraph', html: 'Saat su direnci laboratuvar ortamında statik basınç altında test edilir. Gerçek dünya koşulları-l hareketi, dalış, sıcaklık değişimleri-ç-daha yüksek dinamik basınç oluşturur. 30m / 3 ATM bir saat yalnızca sıçramaya dayanıklıdır. Yüzmek için en az 100m / 10 ATM gerekir. Tüplü dalış için 200m / 20 ATM standart giriş seviyesidir.' },
     { type: 'title', text: 'Su Direnci Zamanla Neden Azalır', level: 3 },
     { type: 'paragraph', html: 'Saatinizi sızdırmaz hale getiren lastik contalar ve O-ringler zamanla kurur, çatlar ve sıkışır. Isı, UV ışığı ve kimyasallar bu süreci hızlandırır. Eskiden 100m su geçirmez olan bir saat, 5 yıl bakım yapılmadığında yalnızca sıçramaya dayanıklı hale gelebilir. Contalarınızı yıllık olarak test ettirin ve her 3 ila 5 yılda bir değiştirin.' },
-    { type: 'title', text: 'ISO 6425 — Dalgıç Saati Standardı', level: 3 },
+    { type: 'title', text: 'ISO 6425-lgıç Saati Standardı', level: 3 },
     { type: 'paragraph', html: 'Bir saatin "dalgıç saati" olarak adlandırılması için ISO 6425 standartlarını karşılaması gerekir: en az 100m su direnci, tek yönlü döner bezel, fosforlu işaretler ve vidalı kurma kolu. Bu standardı karşılayan saatler, belirtilen derinliğin %25 üzerinde test edilir. 200m ISO sertifikalı bir saat 250mde test edilir.' },
   ],
   faq: [
     {
       question: '30 metre su geçirmez bir saatle yüzebilir miyim?',
-      answer: 'Hayır. 30m / 3 ATM değeri yalnızca sıçrama direnci anlamına gelir — el yıkama, yağmur ve ter. Yüzme, statik test basıncını aşan dinamik basınç oluşturur. Yüzmek için en az 100m / 10 ATM seçin.',
+      answer: 'Hayır. 30m / 3 ATM değeri yalnızca sıçrama direnci anlamına gelir- yıkama, yağmur ve ter. Yüzme, statik test basıncını aşan dinamik basınç oluşturur. Yüzmek için en az 100m / 10 ATM seçin.',
     },
     {
       question: 'ATM, bar ve metre arasındaki fark nedir?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': '30 metre su geçirmez bir saatle yüzebilir miyim?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Hayır. 30m / 3 ATM değeri yalnızca sıçrama direnci anlamına gelir — el yıkama, yağmur ve ter. Yüzmek için en az 100m / 10 ATM seçin.',
+            'text': 'Hayır. 30m / 3 ATM değeri yalnızca sıçrama direnci anlamına gelir- yıkama, yağmur ve ter. Yüzmek için en az 100m / 10 ATM seçin.',
           },
         },
         {

@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Håll klockan minst 1 meter från den påslagna avmagnetiseraren för att undvika återmagnetisering.',
   },
   seo: [
-    { type: 'title', text: 'Avmagnetiseringstimer för Klockor — Exakt Pulstid för DIY', level: 2 },
+    { type: 'title', text: 'Avmagnetiseringstimer för Klockor-akt Pulstid för DIY', level: 2 },
     { type: 'paragraph', html: 'Avmagnetisering av en klocka kräver exakt timing av knapptryckningen. De flesta DIY-avmagnetiserare fungerar genom att generera ett avtagande växlande magnetfält, och den ideala pulsen varar mellan <strong>1 och 3 sekunder</strong>. För kort och fältet neutraliserar inte magnetiseringen; för lång och du riskerar att mätta verket.' },
     { type: 'title', text: 'Varför timing är viktigt vid avmagnetisering av klockor', level: 3 },
     { type: 'paragraph', html: 'När du trycker på knappen på en avmagnetiserare skapas ett växlande magnetfält inuti spolen. Fältet oscillerar med nätfrekvensen (50/60 Hz) och avtar när du släpper. Målet är att utsätta klockan för detta avtagande fält <strong>precis tillräckligt länge</strong> för att randomisera de magnetiska domänerna i spiralfjädern och andra stålkomponenter. En puls på 1 till 3 sekunder är den optimala tiden för de flesta verk.' },

@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Note',
   },
   seo: [
-    { type: 'title', text: 'Watch Crown Positions Guide — How to Wind, Set Date & Time Correctly', level: 2 },
-    { type: 'paragraph', html: 'The crown is the only physical interface between you and your watch movement. Using it wrong — winding backward, setting the date at midnight, or pulling too hard — can damage the mechanism. This guide breaks down every crown position for <strong>ETA, Sellita, Miyota, Seiko, and Unitas</strong> calibers so you never have to guess.' },
+    { type: 'title', text: 'Watch Crown Positions Guide-How to Wind, Set Date & Time Correctly', level: 2 },
+    { type: 'paragraph', html: 'The crown is the only physical interface between you and your watch movement. Using it wrong-winding backward, setting the date at midnight, or pulling too hard-can damage the mechanism. This guide breaks down every crown position for <strong>ETA, Sellita, Miyota, Seiko, and Unitas</strong> calibers so you never have to guess.' },
     { type: 'title', text: 'Crown Positions at a Glance', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Position 0 (Resting)', definition: 'Crown pushed in or screwed down. Watch runs normally. No functions engaged. Always return here after setting.' },
-      { term: 'Position 1 (Winding)', definition: 'First pull or unscrewed state. Turn clockwise to wind the mainspring. Most automatics also wind via rotor.' },
-      { term: 'Position 2 (Date Quick-Set)', definition: 'Second pull. Turn clockwise to advance the date. Avoid using between 9pm\u20133am when the date mechanism is engaged.' },
-      { term: 'Position 3 (Time Setting)', definition: 'Third pull. Hacking seconds stop for precise alignment. Rotate freely to set time. Present on most modern automatics.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Position 0 (Resting)', definition: 'Crown pushed in or screwed down. Watch runs normally. No functions engaged. Always return here after setting.' },
+        { term: 'Position 1 (Winding)', definition: 'First pull or unscrewed state. Turn clockwise to wind the mainspring. Most automatics also wind via rotor.' },
+        { term: 'Position 2 (Date Quick-Set)', definition: 'Second pull. Turn clockwise to advance the date. Avoid using between 9pm\u20133am when the date mechanism is engaged.' },
+        { term: 'Position 3 (Time Setting)', definition: 'Third pull. Hacking seconds stop for precise alignment. Rotate freely to set time. Present on most modern automatics.' },
+      ]
+    },
 
     { type: 'title', text: 'Movement Comparison: Crown Features', level: 3 },
-    { type: 'table', headers: ['Movement', 'Positions', 'Hack', 'Quick-Set', 'Wind Dir.'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
-      ['Miyota 8215', '2 (0,1,3)', 'No', 'None', 'CW'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'No', 'None', 'CW'],
-    ] },
+    {
+      type: 'table', headers: ['Movement', 'Positions', 'Hack', 'Quick-Set', 'Wind Dir.'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
+        ['Miyota 8215', '2 (0,1,3)', 'No', 'None', 'CW'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Yes', 'Date (CW)', 'CW'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'No', 'None', 'CW'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Common Crown Mistakes', icon: 'mdi:alert', badge: 'DO NOT', html: 'Never quick-set the date between <strong>9pm and 3am</strong> while the date wheel is engaged. This can strip teeth and require a full movement service. If you must change the date during this window, first advance the time past 3am, set the date, then adjust back to the correct time.' },
 
-          { type: 'tip', title: 'Screw Down Crowns', html: 'Dive watches and sports watches often have screw-down crowns for water resistance. <strong>Always unscrew before pulling</strong>. Turn counter-clockwise until the crown pops out, then pull to your desired position. After setting, push in, then turn clockwise while applying light pressure until snug. <strong>Do not overtighten.</strong>' },
+    { type: 'tip', title: 'Screw Down Crowns', html: 'Dive watches and sports watches often have screw-down crowns for water resistance. <strong>Always unscrew before pulling</strong>. Turn counter-clockwise until the crown pops out, then pull to your desired position. After setting, push in, then turn clockwise while applying light pressure until snug. <strong>Do not overtighten.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Standard Crown', icon: 'mdi:crown', description: 'Push-pull crown found on most dress watches and everyday automatics. 2\u20134 positions. Water resistance typically 30\u2013100m.', points: ['Instant access, no unscrewing', 'Limited water resistance', 'Common on ETA, Miyota, Seiko'] },
-      { title: 'Screw Down Crown', icon: 'mdi:lock', description: 'Threaded crown that screws into the case tube. Standard on dive watches and tool watches. Water resistance 200m+.', points: ['Superior water resistance', 'Must unscrew before use', 'Common on Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Standard Crown', icon: 'mdi:crown', description: 'Push-pull crown found on most dress watches and everyday automatics. 2\u20134 positions. Water resistance typically 30\u2013100m.', points: ['Instant access, no unscrewing', 'Limited water resistance', 'Common on ETA, Miyota, Seiko'] },
+        { title: 'Screw Down Crown', icon: 'mdi:lock', description: 'Threaded crown that screws into the case tube. Standard on dive watches and tool watches. Water resistance 200m+.', points: ['Superior water resistance', 'Must unscrew before use', 'Common on Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Quick Reference', items: [
-      'Always wind clockwise — reverse winding engages the slipping clutch but does not wind.',
-      'If your watch has a screw-down crown, unscrew it before pulling to any position.',
-      'Avoid date quick-set between 9pm and 3am. Advance the time past 3am first if needed.',
-      'Hand-wound movements (e.g., Unitas 6498) have fewer positions. Wind fully before setting time.',
-      'Non-hacking movements (e.g., Miyota 8215) require a different technique: rotate past the target minute, then slowly back.',
-    ] },
+    {
+      type: 'summary', title: 'Quick Reference', items: [
+        'Always wind clockwise-reverse winding engages the slipping clutch but does not wind.',
+        'If your watch has a screw-down crown, unscrew it before pulling to any position.',
+        'Avoid date quick-set between 9pm and 3am. Advance the time past 3am first if needed.',
+        'Hand-wound movements (e.g., Unitas 6498) have fewer positions. Wind fully before setting time.',
+        'Non-hacking movements (e.g., Miyota 8215) require a different technique: rotate past the target minute, then slowly back.',
+      ]
+    },
   ],
   faq: [
     {

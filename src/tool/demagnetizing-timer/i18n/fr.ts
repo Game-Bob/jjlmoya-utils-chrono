@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Gardez la montre à au moins 1 mètre du démagnétiseur lorsqu\'il est allumé pour éviter une re-magnétisation.',
   },
   seo: [
-    { type: 'title', text: 'Minuteur de Démagnétisation de Montre — Chronométrage Précis pour le DIY', level: 2 },
+    { type: 'title', text: 'Minuteur de Démagnétisation de Montre-ronométrage Précis pour le DIY', level: 2 },
     { type: 'paragraph', html: 'Démagnétiser une montre nécessite un timing précis du bouton. La plupart des démagnétiseurs DIY fonctionnent en générant un champ magnétique alternatif décroissant, et l\'impulsion idéale dure entre <strong>1 et 3 secondes</strong>. Trop courte et le champ ne neutralise pas la magnétisation ; trop longue et vous risquez de saturer le mouvement.' },
     { type: 'title', text: 'Pourquoi le timing est crucial pour la démagnétisation', level: 3 },
     { type: 'paragraph', html: 'Lorsque vous appuyez sur le bouton du démagnétiseur, un champ magnétique alternatif est créé à l\'intérieur de la bobine. Le champ oscille à la fréquence du secteur (50/60 Hz) et s\'atténue lorsque vous relâchez. L\'objectif est d\'exposer la montre à ce champ décroissant <strong>juste assez longtemps</strong> pour randomiser les domaines magnétiques du spiral et des autres composants en acier. Une impulsion de 1 à 3 secondes est le point idéal pour la plupart des mouvements.' },

@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: '消磁器通电时，请将手表保持至少1米距离，避免再次磁化。',
   },
   seo: [
-    { type: 'title', text: '手表消磁定时器 — DIY消磁的精确脉冲计时', level: 2 },
+    { type: 'title', text: '手表消磁定时器-Y消磁的精确脉冲计时', level: 2 },
     { type: 'paragraph', html: '消磁手表需要精确的按键时机。大多数DIY消磁器通过产生衰减的交流磁场来工作，理想的脉冲持续时间为<strong>1到3秒</strong>。时间太短，磁场无法中和磁化；时间太长，则有可能使机芯饱和。' },
     { type: 'title', text: '为什么消磁时的时机很重要', level: 3 },
     { type: 'paragraph', html: '按下消磁器按钮时，线圈内部会产生一个交流磁场。磁场以电源频率（50/60赫兹）振荡，松开按钮时逐渐衰减。目标是让手表<strong>恰好足够长时间</strong>暴露于这个衰减磁场中，以使游丝和其他钢制部件中的磁畴随机化。1到3秒的脉冲对大多数机芯来说是最佳选择。' },

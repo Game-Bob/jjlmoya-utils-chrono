@@ -1,4 +1,4 @@
-# Prompts — Français (fr)
+# Prompts-ançais (fr)
 
 ## Traduction
 

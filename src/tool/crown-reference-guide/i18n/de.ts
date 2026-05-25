@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Hinweis',
   },
   seo: [
-    { type: 'title', text: 'Uhren-Kronenpositionen-Leitfaden — So Aufziehen, Datum & Uhrzeit richtig einstellen', level: 2 },
-    { type: 'paragraph', html: 'Die Krone ist die einzige physische Schnittstelle zwischen Ihnen und Ihrem Uhrwerk. Sie falsch zu bedienen — rückwärts aufziehen, das Datum um Mitternacht einstellen oder zu stark ziehen — kann das Werk beschädigen. Dieser Leitfaden erklärt jede Kronenposition für <strong>ETA, Sellita, Miyota, Seiko und Unitas</strong>-Kaliber, sodass Sie nie raten müssen.' },
+    { type: 'title', text: 'Uhren-Kronenpositionen-Leitfaden-So Aufziehen, Datum & Uhrzeit richtig einstellen', level: 2 },
+    { type: 'paragraph', html: 'Die Krone ist die einzige physische Schnittstelle zwischen Ihnen und Ihrem Uhrwerk. Sie falsch zu bedienen-rückwärts aufziehen, das Datum um Mitternacht einstellen oder zu stark ziehen-kann das Werk beschädigen. Dieser Leitfaden erklärt jede Kronenposition für <strong>ETA, Sellita, Miyota, Seiko und Unitas</strong>-Kaliber, sodass Sie nie raten müssen.' },
     { type: 'title', text: 'Kronenpositionen auf einen Blick', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Position 0 (Ruhestellung)', definition: 'Krone eingedrückt oder eingeschraubt. Uhr läuft normal. Keine Funktionen aktiv. Nach dem Einstellen immer hierher zurückkehren.' },
-      { term: 'Position 1 (Aufzug)', definition: 'Erster Zug oder herausgeschraubter Zustand. Im Uhrzeigersinn drehen, um die Zugfeder zu spannen. Die meisten Automatikuhren spannen auch über den Rotor.' },
-      { term: 'Position 2 (Datums-Schnellverstellung)', definition: 'Zweiter Zug. Im Uhrzeigersinn drehen, um das Datum vorzustellen. Nicht zwischen 21\u20133 Uhr verwenden, wenn der Datumsmechanismus aktiv ist.' },
-      { term: 'Position 3 (Zeiteinstellung)', definition: 'Dritter Zug. Sekundenstopp für präzise Ausrichtung. Zum Einstellen der Uhrzeit frei drehen. Bei den meisten modernen Automatikuhren vorhanden.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Position 0 (Ruhestellung)', definition: 'Krone eingedrückt oder eingeschraubt. Uhr läuft normal. Keine Funktionen aktiv. Nach dem Einstellen immer hierher zurückkehren.' },
+        { term: 'Position 1 (Aufzug)', definition: 'Erster Zug oder herausgeschraubter Zustand. Im Uhrzeigersinn drehen, um die Zugfeder zu spannen. Die meisten Automatikuhren spannen auch über den Rotor.' },
+        { term: 'Position 2 (Datums-Schnellverstellung)', definition: 'Zweiter Zug. Im Uhrzeigersinn drehen, um das Datum vorzustellen. Nicht zwischen 21\u20133 Uhr verwenden, wenn der Datumsmechanismus aktiv ist.' },
+        { term: 'Position 3 (Zeiteinstellung)', definition: 'Dritter Zug. Sekundenstopp für präzise Ausrichtung. Zum Einstellen der Uhrzeit frei drehen. Bei den meisten modernen Automatikuhren vorhanden.' },
+      ]
+    },
 
     { type: 'title', text: 'Uhrwerksvergleich: Kronenfunktionen', level: 3 },
-    { type: 'table', headers: ['Uhrwerk', 'Positionen', 'Sekundenstopp', 'Schnellverst.', 'Aufzugsricht.'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
-      ['Miyota 8215', '2 (0,1,3)', 'Nein', 'Keine', 'UZS'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'Nein', 'Keine', 'UZS'],
-    ] },
+    {
+      type: 'table', headers: ['Uhrwerk', 'Positionen', 'Sekundenstopp', 'Schnellverst.', 'Aufzugsricht.'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
+        ['Miyota 8215', '2 (0,1,3)', 'Nein', 'Keine', 'UZS'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Ja', 'Datum (UZS)', 'UZS'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'Nein', 'Keine', 'UZS'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Häufige Kronenfehler', icon: 'mdi:alert', badge: 'NICHT', html: 'Stellen Sie das Datum niemals per Schnellverstellung zwischen <strong>21 und 3 Uhr</strong> ein, während das Datumsrad eingerückt ist. Dies kann Zähne ausreißen und eine vollständige Werksüberholung erforderlich machen. Wenn Sie das Datum in diesem Zeitfenster ändern müssen, stellen Sie zuerst die Zeit über 3 Uhr hinaus, stellen Sie das Datum ein und korrigieren Sie dann die Uhrzeit.' },
 
     { type: 'tip', title: 'Schraubkronen', html: 'Taucher- und Sportuhren haben oft Schraubkronen für Wasserdichtigkeit. <strong>Vor dem Ziehen immer herausdrehen</strong>. Gegen den Uhrzeigersinn drehen, bis die Krone herausspringt, dann in die gewünschte Position ziehen. Nach dem Einstellen hineindrücken, dann im Uhrzeigersinn mit leichtem Druck festziehen. <strong>Nicht überdrehen.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Standardkrone', icon: 'mdi:crown', description: 'Zug-Druck-Krone, bei den meisten Alltags- und Automatikuhren zu finden. 2\u20134 Positionen. Wasserdichtigkeit typischerweise 30\u2013100 m.', points: ['Sofortzugriff, kein Herausdrehen', 'Begrenzte Wasserdichtigkeit', 'Üblich bei ETA, Miyota, Seiko'] },
-      { title: 'Schraubkrone', icon: 'mdi:lock', description: 'Gewindekrone, die in das Gehäuserohr geschraubt wird. Standard bei Taucher- und Werkzeughren. Wasserdichtigkeit 200 m+.', points: ['Hervorragende Wasserdichtigkeit', 'Muss vor Gebrauch herausgeschraubt werden', 'Üblich bei Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Standardkrone', icon: 'mdi:crown', description: 'Zug-Druck-Krone, bei den meisten Alltags- und Automatikuhren zu finden. 2\u20134 Positionen. Wasserdichtigkeit typischerweise 30\u2013100 m.', points: ['Sofortzugriff, kein Herausdrehen', 'Begrenzte Wasserdichtigkeit', 'Üblich bei ETA, Miyota, Seiko'] },
+        { title: 'Schraubkrone', icon: 'mdi:lock', description: 'Gewindekrone, die in das Gehäuserohr geschraubt wird. Standard bei Taucher- und Werkzeughren. Wasserdichtigkeit 200 m+.', points: ['Hervorragende Wasserdichtigkeit', 'Muss vor Gebrauch herausgeschraubt werden', 'Üblich bei Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Kurzübersicht', items: [
-      'Immer im Uhrzeigersinn aufziehen — Rückwärtsaufzug betätigt die Rutschkupplung, spannt aber nicht.',
-      'Wenn Ihre Uhr eine Schraubkrone hat, diese vor dem Ziehen herausdrehen.',
-      'Datums-Schnellverstellung zwischen 21 und 3 Uhr vermeiden. Falls nötig, zuerst die Zeit über 3 Uhr hinaus stellen.',
-      'Handaufzugswerke (z. B. Unitas 6498) haben weniger Positionen. Vor dem Einstellen vollständig aufziehen.',
-      'Bei Werken ohne Sekundenstopp (z. B. Miyota 8215) eine andere Technik anwenden: über die Zielminute hinaus drehen, dann langsam zurück.',
-    ] },
+    {
+      type: 'summary', title: 'Kurzübersicht', items: [
+        'Immer im Uhrzeigersinn aufziehen-Rückwärtsaufzug betätigt die Rutschkupplung, spannt aber nicht.',
+        'Wenn Ihre Uhr eine Schraubkrone hat, diese vor dem Ziehen herausdrehen.',
+        'Datums-Schnellverstellung zwischen 21 und 3 Uhr vermeiden. Falls nötig, zuerst die Zeit über 3 Uhr hinaus stellen.',
+        'Handaufzugswerke (z. B. Unitas 6498) haben weniger Positionen. Vor dem Einstellen vollständig aufziehen.',
+        'Bei Werken ohne Sekundenstopp (z. B. Miyota 8215) eine andere Technik anwenden: über die Zielminute hinaus drehen, dann langsam zurück.',
+      ]
+    },
   ],
   faq: [
     {

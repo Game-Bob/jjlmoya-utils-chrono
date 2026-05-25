@@ -1,0 +1,17 @@
+---
+import LumePanel from './components/LumePanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<link href="./lume-color-simulator.css" rel="stylesheet" />
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <LumePanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>

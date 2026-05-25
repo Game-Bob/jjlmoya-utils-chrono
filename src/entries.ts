@@ -16,6 +16,12 @@ export { waterResistanceConverter } from './tool/water-resistance-converter/entr
 export type { WaterResistanceConverterUI, WaterResistanceConverterLocaleContent } from './tool/water-resistance-converter/entry';
 export { strapTaperCalculator } from './tool/strap-taper-calculator/entry';
 export type { StrapTaperCalculatorUI, StrapTaperCalculatorLocaleContent } from './tool/strap-taper-calculator/entry';
+export { watchSizeComparator } from './tool/watch-size-comparator/entry';
+export type { WatchSizeComparatorUI, WatchSizeComparatorLocaleContent } from './tool/watch-size-comparator/entry';
+export { lumeColorSimulator } from './tool/lume-color-simulator/entry';
+export type { LumeColorSimulatorUI, LumeColorSimulatorLocaleContent } from './tool/lume-color-simulator/entry';
+export { moonPhaseVisualizer } from './tool/moon-phase-visualizer/entry';
+export type { MoonPhaseVisualizerUI, MoonPhaseVisualizerLocaleContent } from './tool/moon-phase-visualizer/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -27,6 +33,9 @@ import { powerReserveEstimator } from './tool/power-reserve-estimator/entry';
 import { beatRateConverter } from './tool/beat-rate-converter/entry';
 import { waterResistanceConverter } from './tool/water-resistance-converter/entry';
 import { strapTaperCalculator } from './tool/strap-taper-calculator/entry';
+import { watchSizeComparator } from './tool/watch-size-comparator/entry';
+import { lumeColorSimulator } from './tool/lume-color-simulator/entry';
+import { moonPhaseVisualizer } from './tool/moon-phase-visualizer/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer];
 

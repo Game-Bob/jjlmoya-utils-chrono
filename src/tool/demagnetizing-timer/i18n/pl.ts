@@ -31,8 +31,8 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Trzymaj zegarek co najmniej 1 metr od włączonego odmagnesowacza, aby uniknąć ponownego namagnesowania.',
   },
   seo: [
-    { type: 'title', text: 'Timer do Odmagnesowywania Zegarków — Precyzyjny Czas Impulsu dla DIY', level: 2 },
-    { type: 'paragraph', html: 'Odmagnesowanie zegarka wymaga dokładnego czasu naciśnięcia przycisku. Większość domowych odmagnesowaczy działa poprzez generowanie zanikającego zmiennego pola magnetycznego, a idealny impuls trwa od <strong>1 do 3 sekund</strong>. Zbyt krótko — pole nie zneutralizuje namagnesowania; zbyt długo — ryzykujesz nasycenie mechanizmu.' },
+    { type: 'title', text: 'Timer do Odmagnesowywania Zegarków-ecyzyjny Czas Impulsu dla DIY', level: 2 },
+    { type: 'paragraph', html: 'Odmagnesowanie zegarka wymaga dokładnego czasu naciśnięcia przycisku. Większość domowych odmagnesowaczy działa poprzez generowanie zanikającego zmiennego pola magnetycznego, a idealny impuls trwa od <strong>1 do 3 sekund</strong>. Zbyt krótko-le nie zneutralizuje namagnesowania; zbyt długo-r-kujesz nasycenie mechanizmu.' },
     { type: 'title', text: 'Dlaczego czas ma znaczenie przy odmagnesowywaniu', level: 3 },
     { type: 'paragraph', html: 'Po naciśnięciu przycisku odmagnesowacza wewnątrz cewki tworzy się zmienne pole magnetyczne. Pole oscyluje z częstotliwością sieciową (50/60 Hz) i zanika po puszczeniu przycisku. Celem jest wystawienie zegarka na to zanikające pole <strong>wystarczająco długo</strong>, aby zrandomizować domeny magnetyczne w sprężynie włosowej i innych stalowych elementach. Impuls od 1 do 3 sekund to optymalny czas dla większości mechanizmów.' },
     { type: 'title', text: 'Jak działa odmagnesowacz', level: 3 },

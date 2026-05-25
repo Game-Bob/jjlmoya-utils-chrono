@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'conversor-resistencia-agua',
-  title: 'Conversor de Resistência à Água de Relógios — Metros, ATM, Bar & Pés',
+  title: 'Conversor de Resistência à Água de Relógios–Metros, ATM, Bar & Pés',
   description: 'Converta classificações de resistência à água de relógios entre metros, pés, ATM e bar. Veja o que cada classificação realmente significa para uso diário, natação e mergulho.',
   ui: {
     title: 'Conversor de Resistência à Água',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'A resistência à água degrada-se ao longo do tempo. Juntas e vedações devem ser testadas anualmente e substituídas a cada 3\u20135 anos.',
   },
   seo: [
-    { type: 'title', text: 'Conversor de Resistência à Água de Relógios — Decifrando Metros, ATM, Bar & Pés', level: 2 },
+    { type: 'title', text: 'Conversor de Resistência à Água de Relógios-Decifrando Metros, ATM, Bar & Pés', level: 2 },
     { type: 'paragraph', html: 'Uma classificação de resistência à água de 30 metros não significa que você pode mergulhar a 30 metros. Significa que o relógio suporta respingos e chuva leve. Este conversor traduz entre <strong>metros, pés, atmosferas (ATM) e bares</strong>, e informa o que cada classificação realmente permite.' },
     { type: 'title', text: 'A Verdade Sobre as Classificações de Resistência à Água', level: 3 },
-    { type: 'paragraph', html: 'A resistência à água dos relógios é testada sob pressão estática em laboratório. As condições reais — mover o braço, mergulhar, mudanças de temperatura — criam pressão dinâmica muito mais elevada. Um relógio de 30m / 3 ATM é apenas resistente a respingos. Para nadar, precisa de pelo menos 100m / 10 ATM. Para mergulho autônomo, 200m / 20 ATM é o ponto de entrada padrão.' },
+    { type: 'paragraph', html: 'A resistência à água dos relógios é testada sob pressão estática em laboratório. As condições reais-mover o braço, mergulhar, mudanças de temperatura-criam pressão dinâmica muito mais elevada. Um relógio de 30m / 3 ATM é apenas resistente a respingos. Para nadar, precisa de pelo menos 100m / 10 ATM. Para mergulho autônomo, 200m / 20 ATM é o ponto de entrada padrão.' },
     { type: 'title', text: 'Porque a Resistência à Água se Degrada com o Tempo', level: 3 },
     { type: 'paragraph', html: 'As juntas de borracha e anéis O que vedam o seu relógio secam, racham e comprimem com o tempo. Calor, luz UV e produtos químicos aceleram este processo. Um relógio que antes era resistente à água até 100m pode tornar-se apenas resistente a respingos após 5 anos sem manutenção. Mande testar as vedações anualmente e substitua-as a cada 3 a 5 anos.' },
-    { type: 'title', text: 'ISO 6425 — O Padrão para Relógios de Mergulho', level: 3 },
+    { type: 'title', text: 'ISO 6425-O Padrão para Relógios de Mergulho', level: 3 },
     { type: 'paragraph', html: 'Para um relógio ser chamado de "relógio de mergulho," deve cumprir a norma ISO 6425: pelo menos 100m de resistência à água, um bisel unidirecional, marcações luminosas e coroa de rosca. Os relógios que cumprem esta norma são testados 25% acima da profundidade nominal. Um relógio com certificação ISO de 200m é testado a 250m.' },
   ],
   faq: [
     {
       question: 'Posso nadar com um relógio resistente à água de 30 metros?',
-      answer: 'Não. Uma classificação de 30m / 3 ATM significa apenas resistência a respingos — lavar as mãos, chuva e suor. A natação cria pressão dinâmica que excede a pressão de teste estática. Para nadar, escolha pelo menos 100m / 10 ATM.',
+      answer: 'Não. Uma classificação de 30m / 3 ATM significa apenas resistência a respingos-lavar as mãos, chuva e suor. A natação cria pressão dinâmica que excede a pressão de teste estática. Para nadar, escolha pelo menos 100m / 10 ATM.',
     },
     {
       question: 'Qual é a diferença entre ATM, bar e metros?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': 'Posso nadar com um relógio resistente à água de 30 metros?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Não. Uma classificação de 30m / 3 ATM significa apenas resistência a respingos — lavar as mãos, chuva e suor. Para nadar, escolha pelo menos 100m / 10 ATM.',
+            'text': 'Não. Uma classificação de 30m / 3 ATM significa apenas resistência a respingos-lavar as mãos, chuva e suor. Para nadar, escolha pelo menos 100m / 10 ATM.',
           },
         },
         {

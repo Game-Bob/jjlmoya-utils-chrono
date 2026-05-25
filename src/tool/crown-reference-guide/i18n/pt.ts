@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Nota',
   },
   seo: [
-    { type: 'title', text: 'Guia de Posições da Coroa — Como Dar Corda, Ajustar Data e Hora Corretamente', level: 2 },
-    { type: 'paragraph', html: 'A coroa é a única interface física entre si e o movimento do seu relógio. Usá-la incorretamente — dar corda ao contrário, ajustar a data à meia-noite ou puxar com demasiada força — pode danificar o mecanismo. Este guia explica cada posição da coroa para os calibres <strong>ETA, Sellita, Miyota, Seiko e Unitas</strong> para que nunca tenha de adivinhar.' },
+    { type: 'title', text: 'Guia de Posições da Coroa-mo Dar Corda, Ajustar Data e Hora Corretamente', level: 2 },
+    { type: 'paragraph', html: 'A coroa é a única interface física entre si e o movimento do seu relógio. Usá-la incorretamente-r corda ao contrário, ajustar a data à meia-noite ou puxar com demasiada força-p- danificar o mecanismo. Este guia explica cada posição da coroa para os calibres <strong>ETA, Sellita, Miyota, Seiko e Unitas</strong> para que nunca tenha de adivinhar.' },
     { type: 'title', text: 'Posições da Coroa de Relance', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Posição 0 (Repouso)', definition: 'Coroa pressionada ou enroscada. O relógio funciona normalmente. Nenhuma função ativa. Volte sempre aqui após o ajuste.' },
-      { term: 'Posição 1 (Corda)', definition: 'Primeiro puxão ou estado desenroscado. Gire no sentido horário para dar corda à mola principal. A maioria dos automáticos também dá corda através do rotor.' },
-      { term: 'Posição 2 (Ajuste Rápido da Data)', definition: 'Segundo puxão. Gire no sentido horário para avançar a data. Evite usar entre as 21h\u20133h quando o mecanismo da data está engatado.' },
-      { term: 'Posição 3 (Ajuste da Hora)', definition: 'Terceiro puxão. Os segundos param (hacking) para alinhamento preciso. Rode livremente para acertar as horas. Presente na maioria dos automáticos modernos.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Posição 0 (Repouso)', definition: 'Coroa pressionada ou enroscada. O relógio funciona normalmente. Nenhuma função ativa. Volte sempre aqui após o ajuste.' },
+        { term: 'Posição 1 (Corda)', definition: 'Primeiro puxão ou estado desenroscado. Gire no sentido horário para dar corda à mola principal. A maioria dos automáticos também dá corda através do rotor.' },
+        { term: 'Posição 2 (Ajuste Rápido da Data)', definition: 'Segundo puxão. Gire no sentido horário para avançar a data. Evite usar entre as 21h\u20133h quando o mecanismo da data está engatado.' },
+        { term: 'Posição 3 (Ajuste da Hora)', definition: 'Terceiro puxão. Os segundos param (hacking) para alinhamento preciso. Rode livremente para acertar as horas. Presente na maioria dos automáticos modernos.' },
+      ]
+    },
 
     { type: 'title', text: 'Comparação de Movimentos: Funcionalidades da Coroa', level: 3 },
-    { type: 'table', headers: ['Movimento', 'Posições', 'Hack', 'Adj. Rápido', 'Dir. Corda'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
-      ['Miyota 8215', '2 (0,1,3)', 'Não', 'Nenhum', 'H'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'Não', 'Nenhum', 'H'],
-    ] },
+    {
+      type: 'table', headers: ['Movimento', 'Posições', 'Hack', 'Adj. Rápido', 'Dir. Corda'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
+        ['Miyota 8215', '2 (0,1,3)', 'Não', 'Nenhum', 'H'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Sim', 'Data (H)', 'H'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'Não', 'Nenhum', 'H'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Erros Comuns com a Coroa', icon: 'mdi:alert', badge: 'NÃO FAÇA', html: 'Nunca ajuste a data rapidamente entre as <strong>21h e as 3h</strong> enquanto a roda da data está engatada. Isto pode danificar os dentes e exigir uma revisão completa do movimento. Se precisar de mudar a data durante esta janela, primeiro avance as horas para depois das 3h, ajuste a data e depois volte à hora correta.' },
 
     { type: 'tip', title: 'Coroas de Enroscar', html: 'Os relógios de mergulho e desportivos têm frequentemente coroas de enroscar para resistência à água. <strong>Desenrosque sempre antes de puxar</strong>. Rode no sentido anti-horário até a coroa saltar, depois puxe para a posição desejada. Após ajustar, empurre e depois rode no sentido horário com pressão ligeira até ficar firme. <strong>Não aperte demais.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Coroa Padrão', icon: 'mdi:crown', description: 'Coroa de pressão encontrada na maioria dos relógios de vestir e automáticos do dia a dia. 2\u20134 posições. Resistência à água tipicamente 30\u2013100 m.', points: ['Acesso imediato, sem desenroscar', 'Resistência à água limitada', 'Comum em ETA, Miyota, Seiko'] },
-      { title: 'Coroa de Enroscar', icon: 'mdi:lock', description: 'Coroa roscada que enrosca no tubo da caixa. Padrão em relógios de mergulho e ferramenta. Resistência à água 200 m+.', points: ['Resistência à água superior', 'Deve desenroscar antes de usar', 'Comum em Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Coroa Padrão', icon: 'mdi:crown', description: 'Coroa de pressão encontrada na maioria dos relógios de vestir e automáticos do dia a dia. 2\u20134 posições. Resistência à água tipicamente 30\u2013100 m.', points: ['Acesso imediato, sem desenroscar', 'Resistência à água limitada', 'Comum em ETA, Miyota, Seiko'] },
+        { title: 'Coroa de Enroscar', icon: 'mdi:lock', description: 'Coroa roscada que enrosca no tubo da caixa. Padrão em relógios de mergulho e ferramenta. Resistência à água 200 m+.', points: ['Resistência à água superior', 'Deve desenroscar antes de usar', 'Comum em Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Referência Rápida', items: [
-      'Dê sempre corda no sentido horário — rodar ao contrário aciona a embraiagem deslizante mas não dá corda.',
-      'Se o seu relógio tiver coroa de enroscar, desenrosque-a antes de puxar para qualquer posição.',
-      'Evite o ajuste rápido da data entre as 21h e as 3h. Avance as horas para depois das 3h primeiro, se necessário.',
-      'Movimentos de corda manual (ex.: Unitas 6498) têm menos posições. Dê corda completamente antes de ajustar as horas.',
-      'Movimentos sem hacking (ex.: Miyota 8215) requerem uma técnica diferente: rode para além do minuto pretendido e volte lentamente.',
-    ] },
+    {
+      type: 'summary', title: 'Referência Rápida', items: [
+        'Dê sempre corda no sentido horário-dar ao contrário aciona a embraiagem deslizante mas não dá corda.',
+        'Se o seu relógio tiver coroa de enroscar, desenrosque-a antes de puxar para qualquer posição.',
+        'Evite o ajuste rápido da data entre as 21h e as 3h. Avance as horas para depois das 3h primeiro, se necessário.',
+        'Movimentos de corda manual (ex.: Unitas 6498) têm menos posições. Dê corda completamente antes de ajustar as horas.',
+        'Movimentos sem hacking (ex.: Miyota 8215) requerem uma técnica diferente: rode para além do minuto pretendido e volte lentamente.',
+      ]
+    },
   ],
   faq: [
     {
@@ -99,7 +107,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Como sei quantas voltas são necessárias para dar corda total ao meu relógio?',
-      answer: 'A maioria dos movimentos automáticos requer 30\u201340 rotações completas da coroa a partir de uma paragem total. Movimentos de corda manual variam: o Unitas 6498 precisa de cerca de 30\u201335 voltas, enquanto o Seiko 6R35 com a sua reserva de 70 horas precisa de 50\u201360 voltas. Pare quando sentir resistência firme — forçar além disso pode danificar a mola principal.',
+      answer: 'A maioria dos movimentos automáticos requer 30\u201340 rotações completas da coroa a partir de uma paragem total. Movimentos de corda manual variam: o Unitas 6498 precisa de cerca de 30\u201335 voltas, enquanto o Seiko 6R35 com a sua reserva de 70 horas precisa de 50\u201360 voltas. Pare quando sentir resistência firme-rçar além disso pode danificar a mola principal.',
     },
   ],
   bibliography,

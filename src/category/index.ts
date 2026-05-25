@@ -7,6 +7,9 @@ import { powerReserveEstimator } from '../tool/power-reserve-estimator/entry';
 import { beatRateConverter } from '../tool/beat-rate-converter/entry';
 import { waterResistanceConverter } from '../tool/water-resistance-converter/entry';
 import { strapTaperCalculator } from '../tool/strap-taper-calculator/entry';
+import { watchSizeComparator } from '../tool/watch-size-comparator/entry';
+import { lumeColorSimulator } from '../tool/lume-color-simulator/entry';
+import { moonPhaseVisualizer } from '../tool/moon-phase-visualizer/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -19,6 +22,9 @@ export const chronoCategory: ChronoCategoryEntry = {
     beatRateConverter,
     waterResistanceConverter,
     strapTaperCalculator,
+    watchSizeComparator,
+    lumeColorSimulator,
+    moonPhaseVisualizer,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

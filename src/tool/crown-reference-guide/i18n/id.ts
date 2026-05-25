@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Catatan',
   },
   seo: [
-    { type: 'title', text: 'Panduan Posisi Mahkota Jam — Cara Menggulung, Mengatur Tanggal & Waktu dengan Benar', level: 2 },
-    { type: 'paragraph', html: 'Mahkota adalah satu-satunya antarmuka fisik antara Anda dan mesin jam Anda. Menggunakannya dengan salah — menggulung ke belakang, mengatur tanggal di tengah malam, atau menarik terlalu keras — dapat merusak mekanisme. Panduan ini menguraikan setiap posisi mahkota untuk kaliber <strong>ETA, Sellita, Miyota, Seiko, dan Unitas</strong> sehingga Anda tidak perlu menebak-nebak.' },
+    { type: 'title', text: 'Panduan Posisi Mahkota Jam-ra Menggulung, Mengatur Tanggal & Waktu dengan Benar', level: 2 },
+    { type: 'paragraph', html: 'Mahkota adalah satu-satunya antarmuka fisik antara Anda dan mesin jam Anda. Menggunakannya dengan salah-nggulung ke belakang, mengatur tanggal di tengah malam, atau menarik terlalu keras-d-t merusak mekanisme. Panduan ini menguraikan setiap posisi mahkota untuk kaliber <strong>ETA, Sellita, Miyota, Seiko, dan Unitas</strong> sehingga Anda tidak perlu menebak-nebak.' },
     { type: 'title', text: 'Sekilas Posisi Mahkota', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Posisi 0 (Diam)', definition: 'Mahkota ditekan masuk atau dikencangkan. Jam berjalan normal. Tidak ada fungsi yang aktif. Selalu kembali ke sini setelah pengaturan.' },
-      { term: 'Posisi 1 (Gulungan)', definition: 'Tarik pertama atau kondisi terbuka. Putar searah jarum jam untuk menggulung pegas utama. Sebagian besar jam otomatis juga menggulung melalui rotor.' },
-      { term: 'Posisi 2 (Pengaturan Tanggal Cepat)', definition: 'Tarik kedua. Putar searah jarum jam untuk memajukan tanggal. Hindari penggunaan antara jam 9 malam\u20133 pagi saat mekanisme tanggal aktif.' },
-      { term: 'Posisi 3 (Pengaturan Waktu)', definition: 'Tarik ketiga. Jarum detik berhenti untuk penyelarasan yang presisi. Putar bebas untuk mengatur waktu. Ada di sebagian besar jam otomatis modern.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Posisi 0 (Diam)', definition: 'Mahkota ditekan masuk atau dikencangkan. Jam berjalan normal. Tidak ada fungsi yang aktif. Selalu kembali ke sini setelah pengaturan.' },
+        { term: 'Posisi 1 (Gulungan)', definition: 'Tarik pertama atau kondisi terbuka. Putar searah jarum jam untuk menggulung pegas utama. Sebagian besar jam otomatis juga menggulung melalui rotor.' },
+        { term: 'Posisi 2 (Pengaturan Tanggal Cepat)', definition: 'Tarik kedua. Putar searah jarum jam untuk memajukan tanggal. Hindari penggunaan antara jam 9 malam\u20133 pagi saat mekanisme tanggal aktif.' },
+        { term: 'Posisi 3 (Pengaturan Waktu)', definition: 'Tarik ketiga. Jarum detik berhenti untuk penyelarasan yang presisi. Putar bebas untuk mengatur waktu. Ada di sebagian besar jam otomatis modern.' },
+      ]
+    },
 
     { type: 'title', text: 'Perbandingan Mesin: Fitur Mahkota', level: 3 },
-    { type: 'table', headers: ['Mesin', 'Posisi', 'Henti', 'Pengat. Cepat', 'Arah Gul.'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
-      ['Miyota 8215', '2 (0,1,3)', 'Tidak', 'Tidak ada', 'SJJ'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'Tidak', 'Tidak ada', 'SJJ'],
-    ] },
+    {
+      type: 'table', headers: ['Mesin', 'Posisi', 'Henti', 'Pengat. Cepat', 'Arah Gul.'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
+        ['Miyota 8215', '2 (0,1,3)', 'Tidak', 'Tidak ada', 'SJJ'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Ya', 'Tanggal (SJJ)', 'SJJ'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'Tidak', 'Tidak ada', 'SJJ'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Kesalahan Umum Mahkota', icon: 'mdi:alert', badge: 'JANGAN', html: 'Jangan pernah mengatur tanggal cepat antara <strong>jam 9 malam dan 3 pagi</strong> saat roda tanggal sedang aktif. Ini dapat merusak gigi dan memerlukan servis mesin secara menyeluruh. Jika Anda harus mengubah tanggal selama waktu ini, pertama majukan waktu melewati jam 3 pagi, atur tanggal, lalu sesuaikan kembali ke waktu yang benar.' },
 
     { type: 'tip', title: 'Mahkota Sekrup', html: 'Jam tangan selam dan jam olahraga sering memiliki mahkota sekrup untuk ketahanan air. <strong>Selalu buka sekrup sebelum menarik</strong>. Putar berlawanan arah jarum jam hingga mahkota muncul, lalu tarik ke posisi yang diinginkan. Setelah pengaturan, tekan masuk, lalu putar searah jarum jam sambil memberikan tekanan ringan hingga pas. <strong>Jangan terlalu kencang.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Mahkota Standar', icon: 'mdi:crown', description: 'Mahkota tarik-tekan yang ditemukan di sebagian besar jam tangan dress dan otomatis sehari-hari. 2\u20134 posisi. Ketahanan air biasanya 30\u2013100 m.', points: ['Akses instan, tanpa membuka sekrup', 'Ketahanan air terbatas', 'Umum pada ETA, Miyota, Seiko'] },
-      { title: 'Mahkota Sekrup', icon: 'mdi:lock', description: 'Mahkota berulir yang disekrup ke dalam tabung casing. Standar pada jam selam dan jam alat. Ketahanan air 200 m+.', points: ['Ketahanan air unggul', 'Harus dibuka sekrupnya sebelum digunakan', 'Umum pada Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Mahkota Standar', icon: 'mdi:crown', description: 'Mahkota tarik-tekan yang ditemukan di sebagian besar jam tangan dress dan otomatis sehari-hari. 2\u20134 posisi. Ketahanan air biasanya 30\u2013100 m.', points: ['Akses instan, tanpa membuka sekrup', 'Ketahanan air terbatas', 'Umum pada ETA, Miyota, Seiko'] },
+        { title: 'Mahkota Sekrup', icon: 'mdi:lock', description: 'Mahkota berulir yang disekrup ke dalam tabung casing. Standar pada jam selam dan jam alat. Ketahanan air 200 m+.', points: ['Ketahanan air unggul', 'Harus dibuka sekrupnya sebelum digunakan', 'Umum pada Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Referensi Cepat', items: [
-      'Selalu gulung searah jarum jam — putaran mundur mengaktifkan kopling selip tetapi tidak menggulung.',
-      'Jika jam Anda memiliki mahkota sekrup, buka sekrupnya sebelum menarik ke posisi apa pun.',
-      'Hindari pengaturan tanggal cepat antara jam 9 malam dan 3 pagi. Majukan waktu melewati jam 3 pagi terlebih dahulu jika perlu.',
-      'Mesin gulung manual (mis. Unitas 6498) memiliki lebih sedikit posisi. Gulung sepenuhnya sebelum mengatur waktu.',
-      'Mesin tanpa henti (mis. Miyota 8215) memerlukan teknik berbeda: putar melewati menit target, lalu perlahan mundur.',
-    ] },
+    {
+      type: 'summary', title: 'Referensi Cepat', items: [
+        'Selalu gulung searah jarum jam-taran mundur mengaktifkan kopling selip tetapi tidak menggulung.',
+        'Jika jam Anda memiliki mahkota sekrup, buka sekrupnya sebelum menarik ke posisi apa pun.',
+        'Hindari pengaturan tanggal cepat antara jam 9 malam dan 3 pagi. Majukan waktu melewati jam 3 pagi terlebih dahulu jika perlu.',
+        'Mesin gulung manual (mis. Unitas 6498) memiliki lebih sedikit posisi. Gulung sepenuhnya sebelum mengatur waktu.',
+        'Mesin tanpa henti (mis. Miyota 8215) memerlukan teknik berbeda: putar melewati menit target, lalu perlahan mundur.',
+      ]
+    },
   ],
   faq: [
     {
@@ -99,7 +107,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Bagaimana cara mengetahui berapa kali putaran untuk menggulung penuh jam tangan saya?',
-      answer: 'Sebagian besar mesin otomatis memerlukan 30\u201340 putaran penuh mahkota dari posisi mati. Mesin gulung manual bervariasi: Unitas 6498 membutuhkan sekitar 30\u201335 putaran, sedangkan Seiko 6R35 dengan cadangan daya 70 jam membutuhkan 50\u201360 putaran. Berhentilah saat Anda merasakan hambatan yang kuat — memaksa melewatinya dapat merusak pegas utama.',
+      answer: 'Sebagian besar mesin otomatis memerlukan 30\u201340 putaran penuh mahkota dari posisi mati. Mesin gulung manual bervariasi: Unitas 6498 membutuhkan sekitar 30\u201335 putaran, sedangkan Seiko 6R35 dengan cadangan daya 70 jam membutuhkan 50\u201360 putaran. Berhentilah saat Anda merasakan hambatan yang kuat-maksa melewatinya dapat merusak pegas utama.',
     },
   ],
   bibliography,

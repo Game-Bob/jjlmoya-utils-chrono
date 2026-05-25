@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Nota',
   },
   seo: [
-    { type: 'title', text: 'Guida alle Posizioni della Corona — Come Caricare, Regolare Data e Ora Correttamente', level: 2 },
-    { type: 'paragraph', html: 'La corona è l\'unica interfaccia fisica tra te e il movimento del tuo orologio. Usarla male — caricare al contrario, regolare la data a mezzanotte o tirare troppo forte — può danneggiare il meccanismo. Questa guida analizza ogni posizione della corona per i calibri <strong>ETA, Sellita, Miyota, Seiko e Unitas</strong> in modo che tu non debba mai indovinare.' },
+    { type: 'title', text: 'Guida alle Posizioni della Corona-Come Caricare, Regolare Data e Ora Correttamente', level: 2 },
+    { type: 'paragraph', html: 'La corona è l\'unica interfaccia fisica tra te e il movimento del tuo orologio. Usarla male-caricare al contrario, regolare la data a mezzanotte o tirare troppo forte-può danneggiare il meccanismo. Questa guida analizza ogni posizione della corona per i calibri <strong>ETA, Sellita, Miyota, Seiko e Unitas</strong> in modo che tu non debba mai indovinare.' },
     { type: 'title', text: 'Posizioni della Corona a Colpo d\'Occhio', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Posizione 0 (Riposo)', definition: 'Corona premuta o avvitata. L\'orologio funziona normalmente. Nessuna funzione attivata. Tornare sempre qui dopo la regolazione.' },
-      { term: 'Posizione 1 (Carica)', definition: 'Prima estrazione o stato svitato. Ruotare in senso orario per caricare la molla principale. La maggior parte degli automatici carica anche tramite il rotore.' },
-      { term: 'Posizione 2 (Regolazione Rapida della Data)', definition: 'Seconda estrazione. Ruotare in senso orario per avanzare la data. Evitare l\'uso tra le 21:00\u20133:00 quando il meccanismo della data è inserito.' },
-      { term: 'Posizione 3 (Regolazione dell\'Ora)', definition: 'Terza estrazione. La lancetta dei secondi si ferma per un allineamento preciso. Ruotare liberamente per impostare l\'ora. Presente sulla maggior parte degli automatici moderni.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Posizione 0 (Riposo)', definition: 'Corona premuta o avvitata. L\'orologio funziona normalmente. Nessuna funzione attivata. Tornare sempre qui dopo la regolazione.' },
+        { term: 'Posizione 1 (Carica)', definition: 'Prima estrazione o stato svitato. Ruotare in senso orario per caricare la molla principale. La maggior parte degli automatici carica anche tramite il rotore.' },
+        { term: 'Posizione 2 (Regolazione Rapida della Data)', definition: 'Seconda estrazione. Ruotare in senso orario per avanzare la data. Evitare l\'uso tra le 21:00\u20133:00 quando il meccanismo della data è inserito.' },
+        { term: 'Posizione 3 (Regolazione dell\'Ora)', definition: 'Terza estrazione. La lancetta dei secondi si ferma per un allineamento preciso. Ruotare liberamente per impostare l\'ora. Presente sulla maggior parte degli automatici moderni.' },
+      ]
+    },
 
     { type: 'title', text: 'Confronto dei Movimenti: Funzioni della Corona', level: 3 },
-    { type: 'table', headers: ['Movimento', 'Posizioni', 'Stop', 'Reg. Rapida', 'Dir. Carica'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
-      ['Miyota 8215', '2 (0,1,3)', 'No', 'Nessuna', 'O'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'No', 'Nessuna', 'O'],
-    ] },
+    {
+      type: 'table', headers: ['Movimento', 'Posizioni', 'Stop', 'Reg. Rapida', 'Dir. Carica'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
+        ['Miyota 8215', '2 (0,1,3)', 'No', 'Nessuna', 'O'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Sì', 'Data (O)', 'O'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'No', 'Nessuna', 'O'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Errori Comuni con la Corona', icon: 'mdi:alert', badge: 'DA NON FARE', html: 'Non regolare mai rapidamente la data tra le <strong>21:00 e le 3:00</strong> mentre la ruota della data è inserita. Questo può rompere i denti e richiedere una revisione completa del movimento. Se devi cambiare la data durante questa finestra, prima porta l\'ora oltre le 3:00, regola la data, poi torna all\'ora corretta.' },
 
     { type: 'tip', title: 'Corone A Vite', html: 'Gli orologi subacquei e sportivi hanno spesso corone a vite per la tenuta stagna. <strong>Svitare sempre prima di tirare</strong>. Ruotare in senso antiorario finché la corona non scatta, poi tirare alla posizione desiderata. Dopo la regolazione, premere verso l\'interno, quindi ruotare in senso orario esercitando una leggera pressione fino a quando non è salda. <strong>Non stringere eccessivamente.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Corona Standard', icon: 'mdi:crown', description: 'Corona a pressione presente sulla maggior parte degli orologi eleganti e automatici da tutti i giorni. 2\u20134 posizioni. Tenuta stagna tipicamente 30\u2013100 m.', points: ['Accesso immediato, nessuna svitatura', 'Tenuta stagna limitata', 'Comune su ETA, Miyota, Seiko'] },
-      { title: 'Corona A Vite', icon: 'mdi:lock', description: 'Corona filettata che si avvita nel tubo della cassa. Standard sugli orologi subacquei e da strumento. Tenuta stagna 200 m+.', points: ['Tenuta stagna superiore', 'Deve essere svitata prima dell\'uso', 'Comune su Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Corona Standard', icon: 'mdi:crown', description: 'Corona a pressione presente sulla maggior parte degli orologi eleganti e automatici da tutti i giorni. 2\u20134 posizioni. Tenuta stagna tipicamente 30\u2013100 m.', points: ['Accesso immediato, nessuna svitatura', 'Tenuta stagna limitata', 'Comune su ETA, Miyota, Seiko'] },
+        { title: 'Corona A Vite', icon: 'mdi:lock', description: 'Corona filettata che si avvita nel tubo della cassa. Standard sugli orologi subacquei e da strumento. Tenuta stagna 200 m+.', points: ['Tenuta stagna superiore', 'Deve essere svitata prima dell\'uso', 'Comune su Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Riferimento Rapido', items: [
-      'Caricare sempre in senso orario — la carica inversa aziona la frizione a slittamento ma non carica.',
-      'Se il tuo orologio ha una corona a vite, svitala prima di tirare in qualsiasi posizione.',
-      'Evita la regolazione rapida della data tra le 21:00 e le 3:00. Porta prima l\'ora oltre le 3:00 se necessario.',
-      'I movimenti a carica manuale (es. Unitas 6498) hanno meno posizioni. Caricare completamente prima di regolare l\'ora.',
-      'I movimenti senza stop al secondi (es. Miyota 8215) richiedono una tecnica diversa: ruotare oltre il minuto target, poi lentamente indietro.',
-    ] },
+    {
+      type: 'summary', title: 'Riferimento Rapido', items: [
+        'Caricare sempre in senso orario-la carica inversa aziona la frizione a slittamento ma non carica.',
+        'Se il tuo orologio ha una corona a vite, svitala prima di tirare in qualsiasi posizione.',
+        'Evita la regolazione rapida della data tra le 21:00 e le 3:00. Porta prima l\'ora oltre le 3:00 se necessario.',
+        'I movimenti a carica manuale (es. Unitas 6498) hanno meno posizioni. Caricare completamente prima di regolare l\'ora.',
+        'I movimenti senza stop al secondi (es. Miyota 8215) richiedono una tecnica diversa: ruotare oltre il minuto target, poi lentamente indietro.',
+      ]
+    },
   ],
   faq: [
     {
@@ -99,7 +107,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Quanti giri servono per caricare completamente il mio orologio?',
-      answer: 'La maggior parte dei movimenti automatici richiede 30\u201340 rotazioni complete della corona da fermo. I movimenti a carica manuale variano: l\'Unitas 6498 necessita di circa 30\u201335 giri, mentre il Seiko 6R35 con la sua riserva di carica di 70 ore ne richiede 50\u201360. Fermati quando senti una resistenza decisa — forzare oltre può danneggiare la molla principale.',
+      answer: 'La maggior parte dei movimenti automatici richiede 30\u201340 rotazioni complete della corona da fermo. I movimenti a carica manuale variano: l\'Unitas 6498 necessita di circa 30\u201335 giri, mentre il Seiko 6R35 con la sua riserva di carica di 70 ore ne richiede 50\u201360. Fermati quando senti una resistenza decisa-forzare oltre può danneggiare la molla principale.',
     },
   ],
   bibliography,

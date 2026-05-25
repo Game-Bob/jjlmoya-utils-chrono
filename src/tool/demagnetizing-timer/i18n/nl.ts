@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Houd het horloge minstens 1 meter verwijderd van de ingeschakelde ontmagnetiseerder om her-magnetisatie te voorkomen.',
   },
   seo: [
-    { type: 'title', text: 'Horloge Ontmagnetisering Timer — Precieze Puls Timing voor DIY', level: 2 },
+    { type: 'title', text: 'Horloge Ontmagnetisering Timer-ecieze Puls Timing voor DIY', level: 2 },
     { type: 'paragraph', html: 'Het ontmagnetiseren van een horloge vereist exacte timing van de knopdruk. De meeste DIY-ontmagnetiseerders werken door een afnemend wisselend magnetisch veld te genereren, en de ideale puls duurt tussen <strong>1 en 3 seconden</strong>. Te kort en het veld neutraliseert de magnetisatie niet; te lang en u riskeert verzadiging van het uurwerk.' },
     { type: 'title', text: 'Waarom timing belangrijk is bij horloge-ontmagnetisering', level: 3 },
     { type: 'paragraph', html: 'Wanneer u op de knop van een ontmagnetiseerder drukt, ontstaat er een wisselend magnetisch veld in de spoel. Het veld oscilleert op de netfrequentie (50/60 Hz) en neemt af wanneer u loslaat. Het doel is om het horloge <strong>net lang genoeg</strong> aan dit afnemende veld bloot te stellen om de magnetische domeinen in de haarveer en andere stalen componenten te randomiseren. Een puls van 1 tot 3 seconden is de sweet spot voor de meeste uurwerken.' },

@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Tieni l\'orologio ad almeno 1 metro di distanza dallo smagnetizzatore acceso per evitare una nuova magnetizzazione.',
   },
   seo: [
-    { type: 'title', text: 'Timer per Smagnetizzazione Orologi — Tempismo Preciso per la Smagnetizzazione Fai-da-Té', level: 2 },
+    { type: 'title', text: 'Timer per Smagnetizzazione Orologi-mpismo Preciso per la Smagnetizzazione Fai-da-Té', level: 2 },
     { type: 'paragraph', html: 'Smagnetizzare un orologio richiede un tempismo esatto nella pressione del pulsante. La maggior parte degli smagnetizzatori fai-da-te funziona generando un campo magnetico alternato decrescente, e l\'impulso ideale dura tra <strong>1 e 3 secondi</strong>. Se lo tieni troppo poco, il campo non neutralizza la magnetizzazione; se lo tieni troppo a lungo, rischi di saturare il movimento.' },
     { type: 'title', text: 'Perché il tempismo è importante per la smagnetizzazione', level: 3 },
     { type: 'paragraph', html: 'Quando premi il pulsante dello smagnetizzatore, all\'interno della bobina si crea un campo magnetico alternato. Il campo oscilla alla frequenza di rete (50/60 Hz) e decade quando rilasci. L\'obiettivo è esporre l\'orologio a questo campo decrescente <strong>per il tempo giusto</strong> per randomizzare i domini magnetici dello spirale e degli altri componenti in acciaio. Un impulso da 1 a 3 secondi è il punto ottimale per la maggior parte dei movimenti.' },

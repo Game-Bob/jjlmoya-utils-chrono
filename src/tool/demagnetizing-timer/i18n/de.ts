@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Halten Sie die Uhr mindestens 1 Meter vom Entmagnetisierer entfernt, wenn er eingeschaltet ist, um eine erneute Magnetisierung zu vermeiden.',
   },
   seo: [
-    { type: 'title', text: 'Uhren-Entmagnetisierungs-Timer — Präzises Timing für die DIY-Entmagnetisierung', level: 2 },
+    { type: 'title', text: 'Uhren-Entmagnetisierungs-Timer-äzises Timing für die DIY-Entmagnetisierung', level: 2 },
     { type: 'paragraph', html: 'Die Entmagnetisierung einer Uhr erfordert präzises Timing beim Tastendruck. Die meisten DIY-Entmagnetisierer erzeugen ein abklingendes magnetisches Wechselfeld, und der ideale Puls dauert zwischen <strong>1 und 3 Sekunden</strong>. Zu kurz und das Feld neutralisiert die Magnetisierung nicht; zu lang und Sie riskieren eine Sättigung des Werks.' },
     { type: 'title', text: 'Warum das Timing bei der Uhren-Entmagnetisierung entscheidend ist', level: 3 },
     { type: 'paragraph', html: 'Wenn Sie die Taste am Entmagnetisierer drücken, entsteht im Inneren der Spule ein magnetisches Wechselfeld. Das Feld oszilliert mit der Netzfrequenz (50/60 Hz) und klingt beim Loslassen ab. Ziel ist es, die Uhr <strong>gerade lange genug</strong> diesem abklingenden Feld auszusetzen, um die magnetischen Domänen in der Spirale und anderen Stahlkomponenten zu randomisieren. Ein Puls von 1 bis 3 Sekunden ist für die meisten Werke ideal.' },

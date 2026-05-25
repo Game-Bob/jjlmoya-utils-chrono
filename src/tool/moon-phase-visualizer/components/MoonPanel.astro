@@ -1,0 +1,63 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="moon-panel">
+  <div class="panel-section">
+    <div class="section-label">{labels.selectDate || "Select Date"}</div>
+    <div class="date-row">
+      <input type="date" id="moon-date-input" />
+      <button type="button" class="btn-today" id="btn-today">{labels.today || "Today"}</button>
+    </div>
+  </div>
+
+  <div class="moon-canvas-wrapper">
+    <canvas id="moon-canvas" width="400" height="220"></canvas>
+  </div>
+
+  <div class="phase-badge" id="phase-badge">
+    <svg viewBox="0 0 24 24" width="14" height="14"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="currentColor"/></svg>
+    <span id="phase-name">{labels.fullMoon || "Full Moon"}</span>
+  </div>
+
+  <div class="phase-info" id="phase-info">
+    <div class="phase-info-card">
+      <span class="phase-info-label">{labels.moonPhase || "Phase"}</span>
+      <span class="phase-info-value accent" id="info-phase">Full Moon</span>
+    </div>
+    <div class="phase-info-card">
+      <span class="phase-info-label">{labels.illumination || "Illumination"}</span>
+      <span class="phase-info-value" id="info-illumination">100%</span>
+    </div>
+    <div class="phase-info-card">
+      <span class="phase-info-label">{labels.moonAge || "Moon Age"}</span>
+      <span class="phase-info-value" id="info-age">14.8 days</span>
+    </div>
+    <div class="phase-info-card">
+      <span class="phase-info-label">{labels.days || "Cycle Progress"}</span>
+      <span class="phase-info-value" id="info-progress">50%</span>
+    </div>
+  </div>
+
+  <div class="upcoming-section">
+    <div class="upcoming-row">
+      <span class="upcoming-label">{labels.nextFullMoon || "Next Full Moon"}</span>
+      <span class="upcoming-date" id="next-full">--</span>
+    </div>
+    <div class="upcoming-row">
+      <span class="upcoming-label">{labels.nextNewMoon || "Next New Moon"}</span>
+      <span class="upcoming-date" id="next-new">--</span>
+    </div>
+  </div>
+
+  <div class="tip-row">
+    <svg class="tip-icon" viewBox="0 0 24 24" width="16" height="16">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor" />
+    </svg>
+    <span class="tip-text">{labels.tipContent || "A moon phase complication on a watch tracks the 29.53-day lunar cycle. Most mechanical moon phases are accurate to within one day every 2 years, while some high-end watches achieve百年 accuracy."}</span>
+  </div>
+</div>

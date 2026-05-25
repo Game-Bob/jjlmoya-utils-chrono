@@ -1,4 +1,4 @@
-# Prompts — 日本語 (ja)
+# Prompts-語 (ja)
 
 ## 翻訳
 

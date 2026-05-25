@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Nota',
   },
   seo: [
-    { type: 'title', text: 'Guía de Posiciones de la Corona — Cómo Dar Cuerda, Ajustar Fecha y Hora Correctamente', level: 2 },
+    { type: 'title', text: 'Guía de Posiciones de la Corona-Cómo Dar Cuerda, Ajustar Fecha y Hora Correctamente', level: 2 },
     { type: 'paragraph', html: 'La corona es la única interfaz física entre usted y el movimiento de su reloj. Usarla mal —dar cuerda hacia atrás, ajustar la fecha a medianoche o tirar demasiado fuerte— puede dañar el mecanismo. Esta guía desglosa cada posición de la corona para los calibres <strong>ETA, Sellita, Miyota, Seiko y Unitas</strong> para que nunca tenga que adivinar.' },
     { type: 'title', text: 'Posiciones de la Corona de un Vistazo', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Posición 0 (Reposo)', definition: 'Corona presionada o enroscada. El reloj funciona con normalidad. Ninguna función activada. Vuelva siempre aquí después de ajustar.' },
-      { term: 'Posición 1 (Cuerda)', definition: 'Primera extracción o estado desenroscado. Gire en sentido horario para dar cuerda al muelle real. La mayoría de los automáticos también dan cuerda mediante el rotor.' },
-      { term: 'Posición 2 (Ajuste Rápido de Fecha)', definition: 'Segunda extracción. Gire en sentido horario para avanzar la fecha. Evite usar entre las 9 p. m.\u20133 a. m. cuando el mecanismo de fecha está activo.' },
-      { term: 'Posición 3 (Ajuste de Hora)', definition: 'Tercera extracción. El segundero se detiene para alineación precisa. Gire libremente para ajustar la hora. Presente en la mayoría de los automáticos modernos.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Posición 0 (Reposo)', definition: 'Corona presionada o enroscada. El reloj funciona con normalidad. Ninguna función activada. Vuelva siempre aquí después de ajustar.' },
+        { term: 'Posición 1 (Cuerda)', definition: 'Primera extracción o estado desenroscado. Gire en sentido horario para dar cuerda al muelle real. La mayoría de los automáticos también dan cuerda mediante el rotor.' },
+        { term: 'Posición 2 (Ajuste Rápido de Fecha)', definition: 'Segunda extracción. Gire en sentido horario para avanzar la fecha. Evite usar entre las 9 p. m.\u20133 a. m. cuando el mecanismo de fecha está activo.' },
+        { term: 'Posición 3 (Ajuste de Hora)', definition: 'Tercera extracción. El segundero se detiene para alineación precisa. Gire libremente para ajustar la hora. Presente en la mayoría de los automáticos modernos.' },
+      ]
+    },
 
     { type: 'title', text: 'Comparación de Movimientos: Funciones de Corona', level: 3 },
-    { type: 'table', headers: ['Movimiento', 'Posiciones', 'Paro Seg.', 'Ajuste Ráp.', 'Dir. Cuerda'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
-      ['Miyota 8215', '2 (0,1,3)', 'No', 'Ninguno', 'H'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'No', 'Ninguno', 'H'],
-    ] },
+    {
+      type: 'table', headers: ['Movimiento', 'Posiciones', 'Paro Seg.', 'Ajuste Ráp.', 'Dir. Cuerda'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
+        ['Miyota 8215', '2 (0,1,3)', 'No', 'Ninguno', 'H'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Sí', 'Fecha (H)', 'H'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'No', 'Ninguno', 'H'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Errores Comunes con la Corona', icon: 'mdi:alert', badge: 'NO HACER', html: 'Nunca ajuste la fecha rápidamente entre las <strong>9 p. m. y las 3 a. m.</strong> mientras la rueda de fecha está enganchada. Esto puede romper dientes y requerir un servicio completo del movimiento. Si debe cambiar la fecha durante esta ventana, primero adelante la hora más allá de las 3 a. m., ajuste la fecha y luego regrese a la hora correcta.' },
 
     { type: 'tip', title: 'Coronas Enroscables', html: 'Los relojes de buceo y deportivos suelen tener coronas enroscables para resistencia al agua. <strong>Siempre desenrosque antes de tirar</strong>. Gire en sentido antihorario hasta que la corona salte, luego tire a la posición deseada. Después de ajustar, presione hacia adentro, luego gire en sentido horario aplicando presión ligera hasta que ajuste. <strong>No apriete demasiado.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Corona Estándar', icon: 'mdi:crown', description: 'Corona de presión y tracción presente en la mayoría de los relojes de vestir y automáticos de uso diario. 2\u20134 posiciones. Resistencia al agua típicamente de 30\u2013100 m.', points: ['Acceso inmediato, sin desenroscar', 'Resistencia al agua limitada', 'Común en ETA, Miyota, Seiko'] },
-      { title: 'Corona Enroscable', icon: 'mdi:lock', description: 'Corona roscada que se enrosca en el tubo de la caja. Estándar en relojes de buceo y herramientas. Resistencia al agua de 200 m+.', points: ['Resistencia al agua superior', 'Debe desenroscarse antes de usar', 'Común en Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Corona Estándar', icon: 'mdi:crown', description: 'Corona de presión y tracción presente en la mayoría de los relojes de vestir y automáticos de uso diario. 2\u20134 posiciones. Resistencia al agua típicamente de 30\u2013100 m.', points: ['Acceso inmediato, sin desenroscar', 'Resistencia al agua limitada', 'Común en ETA, Miyota, Seiko'] },
+        { title: 'Corona Enroscable', icon: 'mdi:lock', description: 'Corona roscada que se enrosca en el tubo de la caja. Estándar en relojes de buceo y herramientas. Resistencia al agua de 200 m+.', points: ['Resistencia al agua superior', 'Debe desenroscarse antes de usar', 'Común en Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Referencia Rápida', items: [
-      'Siempre dé cuerda en sentido horario — la cuerda inversa activa el embrague deslizante pero no da cuerda.',
-      'Si su reloj tiene corona enroscable, desenrósquela antes de tirar a cualquier posición.',
-      'Evite el ajuste rápido de fecha entre las 9 p. m. y las 3 a. m. Adelante la hora más allá de las 3 a. m. primero si es necesario.',
-      'Los movimientos de cuerda manual (p. ej., Unitas 6498) tienen menos posiciones. Dé cuerda completamente antes de ajustar la hora.',
-      'Los movimientos sin paro de segundero (p. ej., Miyota 8215) requieren una técnica diferente: gire más allá del minuto objetivo, luego lentamente hacia atrás.',
-    ] },
+    {
+      type: 'summary', title: 'Referencia Rápida', items: [
+        'Siempre dé cuerda en sentido horario-la cuerda inversa activa el embrague deslizante pero no da cuerda.',
+        'Si su reloj tiene corona enroscable, desenrósquela antes de tirar a cualquier posición.',
+        'Evite el ajuste rápido de fecha entre las 9 p. m. y las 3 a. m. Adelante la hora más allá de las 3 a. m. primero si es necesario.',
+        'Los movimientos de cuerda manual (p. ej., Unitas 6498) tienen menos posiciones. Dé cuerda completamente antes de ajustar la hora.',
+        'Los movimientos sin paro de segundero (p. ej., Miyota 8215) requieren una técnica diferente: gire más allá del minuto objetivo, luego lentamente hacia atrás.',
+      ]
+    },
   ],
   faq: [
     {

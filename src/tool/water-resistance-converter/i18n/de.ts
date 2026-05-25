@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'wasserdichtigkeit-umrechner',
-  title: 'Uhren Wasserdichtigkeit Umrechner — Meter, ATM, Bar & Feet',
+  title: 'Uhren Wasserdichtigkeit Umrechner–Meter, ATM, Bar & Feet',
   description: 'Rechnen Sie Wasserdichtigkeitsangaben von Uhren zwischen Metern, Feet, ATM und Bar um. Erfahren Sie, was jede Angabe für den Alltag, beim Schwimmen und Tauchen bedeutet.',
   ui: {
     title: 'Wasserdichtigkeit Umrechner',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'Wasserdichtigkeit lässt mit der Zeit nach. Dichtungen sollten jährlich geprüft und alle 3\u20135 Jahre ersetzt werden.',
   },
   seo: [
-    { type: 'title', text: 'Uhren Wasserdichtigkeit Umrechner — Meter, ATM, Bar & Feet verstehen', level: 2 },
+    { type: 'title', text: 'Uhren Wasserdichtigkeit Umrechner-Meter, ATM, Bar & Feet verstehen', level: 2 },
     { type: 'paragraph', html: 'Eine Wasserdichtigkeitsangabe von 30 Metern bedeutet nicht, dass Sie 30 Meter tief tauchen können. Sie bedeutet, dass die Uhr Spritzer und leichten Regen aushält. Dieser Umrechner übersetzt zwischen <strong>Metern, Feet, Atmosphären (ATM) und Bar</strong> und zeigt Ihnen, was jede Angabe tatsächlich erlaubt.' },
     { type: 'title', text: 'Die Wahrheit über Wasserdichtigkeitsangaben', level: 3 },
     { type: 'paragraph', html: 'Die Wasserdichtigkeit von Uhren wird unter statischem Druck im Labor geprüft. Im echten Alltag erzeugen Armbewegungen, Tauchen und Temperaturwechsel einen weit höheren dynamischen Druck. Eine 30m / 3 ATM Uhr ist nur spritzwassergeschützt. Zum Schwimmen brauchen Sie mindestens 100m / 10 ATM. Für Sporttauchen sind 200m / 20 ATM der Standardeinstieg.' },
     { type: 'title', text: 'Warum Wasserdichtigkeit mit der Zeit nachlässt', level: 3 },
     { type: 'paragraph', html: 'Die Gummidichtungen und O-Ringe, die Ihre Uhr abdichten, trocknen aus, werden rissig und verlieren mit der Zeit an Elastizität. Hitze, UV-Licht und Chemikalien beschleunigen diesen Prozess. Eine Uhr, die einst bis 100m wasserdicht war, kann nach 5 Jahren ohne Wartung nur noch spritzwassergeschützt sein. Lassen Sie Ihre Dichtungen jährlich prüfen und alle 3 bis 5 Jahre ersetzen.' },
-    { type: 'title', text: 'ISO 6425 — Der Standard für Taucheruhren', level: 3 },
+    { type: 'title', text: 'ISO 6425-Der Standard für Taucheruhren', level: 3 },
     { type: 'paragraph', html: 'Damit eine Uhr als "Taucheruhr" bezeichnet werden darf, muss sie die ISO 6425 Norm erfüllen: mindestens 100m Wasserdichtigkeit, eine einseitig drehbare Lünette, leuchtende Markierungen und eine verschraubte Krone. Uhren, die diesen Standard erfüllen, werden 25% über der angegebenen Tiefe geprüft. Eine ISO geprüfte 200m Uhr wird bei 250m getestet.' },
   ],
   faq: [
     {
       question: 'Kann ich mit einer 30 Meter wasserdichten Uhr schwimmen?',
-      answer: 'Nein. Eine 30m / 3 ATM Angabe bedeutet nur Spritzwasserschutz — Händewaschen, Regen und Schweiß. Beim Schwimmen entsteht dynamischer Druck, der den statischen Prüfdruck übersteigt. Fürs Schwimmen wählen Sie mindestens 100m / 10 ATM.',
+      answer: 'Nein. Eine 30m / 3 ATM Angabe bedeutet nur Spritzwasserschutz-Händewaschen, Regen und Schweiß. Beim Schwimmen entsteht dynamischer Druck, der den statischen Prüfdruck übersteigt. Fürs Schwimmen wählen Sie mindestens 100m / 10 ATM.',
     },
     {
       question: 'Was ist der Unterschied zwischen ATM, Bar und Metern?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': 'Kann ich mit einer 30 Meter wasserdichten Uhr schwimmen?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Nein. Eine 30m / 3 ATM Angabe bedeutet nur Spritzwasserschutz — Händewaschen, Regen und Schweiß. Fürs Schwimmen wählen Sie mindestens 100m / 10 ATM.',
+            'text': 'Nein. Eine 30m / 3 ATM Angabe bedeutet nur Spritzwasserschutz-Händewaschen, Regen und Schweiß. Fürs Schwimmen wählen Sie mindestens 100m / 10 ATM.',
           },
         },
         {

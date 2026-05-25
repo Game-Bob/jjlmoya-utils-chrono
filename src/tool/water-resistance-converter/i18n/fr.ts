@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'convertisseur-resistance-eau',
-  title: 'Convertisseur d\'Étanchéité de Montres — Mètres, ATM, Bar & Pieds',
+  title: 'Convertisseur d\'Étanchéité de Montres-Mètres, ATM, Bar & Pieds',
   description: 'Convertissez les indices d\'étanchéité des montres entre mètres, pieds, ATM et bar. Découvrez ce que chaque indice signifie réellement pour un usage quotidien, la natation et la plongée.',
   ui: {
     title: 'Convertisseur d\'Étanchéité',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'L\'étanchéité se dégrade avec le temps. Les joints doivent être vérifiés chaque année et remplacés tous les 3\u20135 ans.',
   },
   seo: [
-    { type: 'title', text: 'Convertisseur d\'Étanchéité de Montres — Décoder les Mètres, ATM, Bar & Pieds', level: 2 },
+    { type: 'title', text: 'Convertisseur d\'Étanchéité de Montres-Décoder les Mètres, ATM, Bar & Pieds', level: 2 },
     { type: 'paragraph', html: 'Un indice d\'étanchéité de 30 mètres ne signifie pas que vous pouvez plonger à 30 mètres. Cela signifie que la montresupport les éclaboussures et la pluie légère. Ce convertisseur traduit entre <strong>mètres, pieds, atmosphères (ATM) et bars</strong>, et vous indique ce que chaque indice autorise réellement.' },
     { type: 'title', text: 'La Vérité sur les Indices d\'Étanchéité', level: 3 },
-    { type: 'paragraph', html: 'L\'étanchéité des montres est testée sous pression statique en laboratoire. Les conditions réelles — bouger le bras, plonger, changements de température — créent une pression dynamique bien plus élevée. Une montre 30m / 3 ATM est seulement résistante aux éclaboussures. Pour nager, vous avez besoin d\'au moins 100m / 10 ATM. Pour la plongée sous-marine, 200m / 20 ATM est le seuil d\'entrée standard.' },
+    { type: 'paragraph', html: 'L\'étanchéité des montres est testée sous pression statique en laboratoire. Les conditions réelles-bouger le bras, plonger, changements de température-créent une pression dynamique bien plus élevée. Une montre 30m / 3 ATM est seulement résistante aux éclaboussures. Pour nager, vous avez besoin d\'au moins 100m / 10 ATM. Pour la plongée sous-marine, 200m / 20 ATM est le seuil d\'entrée standard.' },
     { type: 'title', text: 'Pourquoi l\'Étanchéité se Détériore avec le Temps', level: 3 },
     { type: 'paragraph', html: 'Les joints en caoutchouc et les joints toriques qui scellent votre montresèchent, se fissurent et se compriment avec le temps. La chaleur, la lumière UV et les produits chimiques accélèrent ce processus. Une montre qui était autrefois étanche à 100m peut n\'être plus que résistante aux éclaboussures après 5 ans sans entretien. Faites vérifier vos joints chaque année et remplacez-les tous les 3 à 5 ans.' },
-    { type: 'title', text: 'ISO 6425 — La Norme pour les Montres de Plongée', level: 3 },
+    { type: 'title', text: 'ISO 6425-La Norme pour les Montres de Plongée', level: 3 },
     { type: 'paragraph', html: 'Pour qu\'une montre soit appelée "montre de plongée", elle doit répondre à la norme ISO 6425 : au moins 100m d\'étanchéité, une lunette unidirectionnelle, des marquages luminescents et une couronne vissée. Les montres conformes à cette norme sont testées 25% au-dessus de leur profondeur nominale. Une montre certifiée ISO de 200m est testée à 250m.' },
   ],
   faq: [
     {
       question: 'Puis-je nager avec une montre étanche à 30 mètres ?',
-      answer: 'Non. Un indice de 30m / 3 ATM signifie uniquement une résistance aux éclaboussures — lavage des mains, pluie et transpiration. La natation crée une pression dynamique qui dépasse la pression d\'essai statique. Pour nager, choisissez au moins 100m / 10 ATM.',
+      answer: 'Non. Un indice de 30m / 3 ATM signifie uniquement une résistance aux éclaboussures-lavage des mains, pluie et transpiration. La natation crée une pression dynamique qui dépasse la pression d\'essai statique. Pour nager, choisissez au moins 100m / 10 ATM.',
     },
     {
       question: 'Quelle est la différence entre ATM, bar et mètres ?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': 'Puis-je nager avec une montre étanche à 30 mètres ?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Non. Un indice de 30m / 3 ATM signifie uniquement une résistance aux éclaboussures — lavage des mains, pluie et transpiration. Pour nager, choisissez au moins 100m / 10 ATM.',
+            'text': 'Non. Un indice de 30m / 3 ATM signifie uniquement une résistance aux éclaboussures-lavage des mains, pluie et transpiration. Pour nager, choisissez au moins 100m / 10 ATM.',
           },
         },
         {

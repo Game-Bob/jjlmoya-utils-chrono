@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<BeatRateConverterUI> = {
   slug: 'beat-rate-converter',
-  title: 'Watch Beat Rate Converter — VPH to Hz & s/d Calculator',
+  title: 'Watch Beat Rate Converter–H to Hz & s/d Calculator',
   description: 'Convert vibrations per hour (VPH) to Hertz, ticks per second, and calculate the daily rate impact of a single lost tick. Works with ETA, Sellita, Miyota, Seiko, Rolex, Omega, and Zenith calibers.',
   ui: {
     title: 'Beat Rate Converter',
@@ -23,10 +23,10 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
     tipContent: 'Higher beat rates (36,000 vph) give smoother hand sweep and better precision, but also more wear on the escapement.',
   },
   seo: [
-    { type: 'title', text: 'Watch Beat Rate Converter — VPH to Hz & Seconds per Day', level: 2 },
-    { type: 'paragraph', html: 'Every mechanical watch beats at a specific rate — the number of vibrations its balance wheel makes per hour. That number determines how smooth the seconds hand sweeps and how precise the watch can be. This converter translates <strong>VPH to Hz and ticks per second</strong>, and shows you the real-world impact of a single lost tick.' },
+    { type: 'title', text: 'Watch Beat Rate Converter-H to Hz & Seconds per Day', level: 2 },
+    { type: 'paragraph', html: 'Every mechanical watch beats at a specific rate-e number of vibrations its balance wheel makes per hour. That number determines how smooth the seconds hand sweeps and how precise the watch can be. This converter translates <strong>VPH to Hz and ticks per second</strong>, and shows you the real-world impact of a single lost tick.' },
     { type: 'title', text: 'What Is a Beat Rate?', level: 3 },
-    { type: 'paragraph', html: 'The beat rate, measured in vibrations per hour (vph), is the frequency at which a watch\'s balance wheel oscillates. A common rate is 28,800 vph — that\'s 4 Hz, or 8 ticks per second. Higher beat rates like 36,000 vph (5 Hz) produce a smoother sweeping motion and can theoretically improve accuracy by reducing the effect of positional errors.' },
+    { type: 'paragraph', html: 'The beat rate, measured in vibrations per hour (vph), is the frequency at which a watch\'s balance wheel oscillates. A common rate is 28,800 vph-at\'s 4 Hz, or 8 ticks per second. Higher beat rates like 36,000 vph (5 Hz) produce a smoother sweeping motion and can theoretically improve accuracy by reducing the effect of positional errors.' },
     { type: 'title', text: 'Why a Lost Tick Matters', level: 3 },
     { type: 'paragraph', html: 'If a watch\'s escapement fails to deliver one tick due to friction, magnetism, or wear, that lost tick translates directly into lost time. At 28,800 vph, a single missed tick per hour adds up to about <strong>3 seconds per day</strong>. At 18,000 vph, the same error costs nearly 5 seconds per day. This tool helps you understand the math behind regulation.' },
     { type: 'title', text: 'Common Beat Rates', level: 3 },
@@ -47,7 +47,7 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
     },
     {
       question: 'Can a watch recover from a lost tick?',
-      answer: 'No. Once a tick is missed, the time is permanently lost. The watch doesn\'t "catch up." This is why escapement health — clean pallet stones, proper lubrication, and correct beat error — directly impacts daily rate.',
+      answer: 'No. Once a tick is missed, the time is permanently lost. The watch doesn\'t "catch up." This is why escapement health-ean pallet stones, proper lubrication, and correct beat error-d-ctly impacts daily rate.',
     },
   ],
   bibliography,

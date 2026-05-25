@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Yeniden mıknatıslanmayı önlemek için saati, güç açıkken demanyetizatörden en az 1 metre uzakta tutun.',
   },
   seo: [
-    { type: 'title', text: 'Saat Demanyetizasyon Zamanlayıcısı — DIY için Hassas Darbe Zamanlaması', level: 2 },
+    { type: 'title', text: 'Saat Demanyetizasyon Zamanlayıcısı-Y için Hassas Darbe Zamanlaması', level: 2 },
     { type: 'paragraph', html: 'Bir saati demanyetize etmek, hassas düğme basma zamanlaması gerektirir. Çoğu DIY demanyetizatör, azalan bir alternatif manyetik alan oluşturarak çalışır ve ideal darbe <strong>1 ila 3 saniye</strong> arasında sürer. Çok kısa basarsanız alan manyetizasyonu nötralize edemez; çok uzun basarsanız mekanizmayı doyurma riskiniz vardır.' },
     { type: 'title', text: 'Saat Demanyetizasyonunda Zamanlamanın Önemi', level: 3 },
     { type: 'paragraph', html: 'Demanyetizatördeki düğmeye bastığınızda, bobinin içinde alternatif bir manyetik alan oluşur. Alan şebeke frekansında (50/60 Hz) salınır ve bıraktığınızda söner. Amaç, saati bu sönen alana <strong>tam yeterli süre</strong> maruz bırakarak yay ve diğer çelik bileşenlerdeki manyetik alanları rastgele hale getirmektir. 1 ila 3 saniyelik bir darbe çoğu mekanizma için ideal noktadır.' },

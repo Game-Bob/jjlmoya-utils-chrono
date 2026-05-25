@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     tipContent: 'Jaga jarak jam tangan minimal 1 meter dari demagnetizer saat menyala untuk menghindari magnetisasi ulang.',
   },
   seo: [
-    { type: 'title', text: 'Timer Demagnetisasi Jam Tangan — Waktu Pulsa Presisi untuk Demagnetisasi DIY', level: 2 },
+    { type: 'title', text: 'Timer Demagnetisasi Jam Tangan-ktu Pulsa Presisi untuk Demagnetisasi DIY', level: 2 },
     { type: 'paragraph', html: 'Mendemagnetisasi jam tangan memerlukan waktu tekan tombol yang tepat. Sebagian besar demagnetizer DIY bekerja dengan menghasilkan medan magnet bolak-balik yang meluruh, dan pulsa ideal berlangsung antara <strong>1 dan 3 detik</strong>. Terlalu pendek dan medan tidak akan menetralkan magnetisasi; terlalu lama dan Anda berisiko menjenuhkan pergerakan.' },
     { type: 'title', text: 'Mengapa Waktu Penting untuk Demagnetisasi Jam Tangan', level: 3 },
     { type: 'paragraph', html: 'Saat Anda menekan tombol pada demagnetizer, medan magnet bolak-balik tercipta di dalam kumparan. Medan berosilasi pada frekuensi listrik (50/60 Hz) dan meluruh saat Anda melepaskan. Tujuannya adalah untuk menjadarkan jam tangan pada medan yang meluruh ini <strong>cukup lama</strong> untuk mengacak domain magnetik pada hairspring dan komponen baja lainnya. Pulsa 1 hingga 3 detik adalah titik optimal untuk sebagian besar pergerakan.' },

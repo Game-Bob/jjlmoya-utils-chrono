@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'convertidor-resistencia-agua',
-  title: 'Convertidor de Resistencia al Agua de Relojes — Metros, ATM, Bar & Pies',
+  title: 'Convertidor de Resistencia al Agua de Relojes–Metros, ATM, Bar & Pies',
   description: 'Convierta las clasificaciones de resistencia al agua de relojes entre metros, pies, ATM y bar. Descubra lo que realmente significa cada clasificación para el uso diario, la natación y el buceo.',
   ui: {
     title: 'Convertidor de Resistencia al Agua',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'La resistencia al agua se degrada con el tiempo. Las juntas y sellos deben revisarse anualmente y reemplazarse cada 3\u20135 años.',
   },
   seo: [
-    { type: 'title', text: 'Convertidor de Resistencia al Agua de Relojes — Metros, ATM, Bar y Pies descifrados', level: 2 },
+    { type: 'title', text: 'Convertidor de Resistencia al Agua de Relojes-Metros, ATM, Bar y Pies descifrados', level: 2 },
     { type: 'paragraph', html: 'Una clasificación de resistencia al agua de 30 metros no significa que pueda bucear a 30 metros. Significa que el reloj soporta salpicaduras y lluvia ligera. Este convertidor traduce entre <strong>metros, pies, atmósferas (ATM) y bares</strong>, y le indica qué permite realmente cada clasificación.' },
     { type: 'title', text: 'La Verdad Sobre las Clasificaciones de Resistencia al Agua', level: 3 },
-    { type: 'paragraph', html: 'La resistencia al agua de los relojes se prueba bajo presión estática en un laboratorio. Las condiciones reales — mover el brazo, bucear, cambios de temperatura — generan una presión dinámica mucho mayor. Un reloj de 30m / 3 ATM solo es resistente a salpicaduras. Para nadar, necesita al menos 100m / 10 ATM. Para buceo con tanque, 200m / 20 ATM es el punto de entrada estándar.' },
+    { type: 'paragraph', html: 'La resistencia al agua de los relojes se prueba bajo presión estática en un laboratorio. Las condiciones reales-mover el brazo, bucear, cambios de temperatura-generan una presión dinámica mucho mayor. Un reloj de 30m / 3 ATM solo es resistente a salpicaduras. Para nadar, necesita al menos 100m / 10 ATM. Para buceo con tanque, 200m / 20 ATM es el punto de entrada estándar.' },
     { type: 'title', text: 'Por Qué la Resistencia al Agua se Degrada con el Tiempo', level: 3 },
     { type: 'paragraph', html: 'Las juntas de goma y los anillos O que sellan su reloj se secan, agrietan y comprimen con el tiempo. El calor, la luz UV y los productos químicos aceleran este proceso. Un reloj que alguna vez fue resistente al agua hasta 100m puede ser solo resistente a salpicaduras después de 5 años sin mantenimiento. Haga revisar sus sellos anualmente y reemplácelos cada 3 a 5 años.' },
-    { type: 'title', text: 'ISO 6425 — El Estándar de Relojes de Buceo', level: 3 },
+    { type: 'title', text: 'ISO 6425-El Estándar de Relojes de Buceo', level: 3 },
     { type: 'paragraph', html: 'Para que un reloj se llame "reloj de buceo", debe cumplir con la norma ISO 6425: al menos 100m de resistencia al agua, un bisel unidireccional, marcas luminiscentes y una corona de rosca. Los relojes que cumplen este estándar se prueban al 25% por encima de su profundidad nominal. Un reloj con certificación ISO de 200m se prueba a 250m.' },
   ],
   faq: [
     {
       question: '¿Puedo nadar con un reloj resistente al agua de 30 metros?',
-      answer: 'No. Una clasificación de 30m / 3 ATM significa solo resistencia a salpicaduras — lavado de manos, lluvia y sudor. Nadar genera presión dinámica que supera la presión de prueba estática. Para nadar, elija al menos 100m / 10 ATM.',
+      answer: 'No. Una clasificación de 30m / 3 ATM significa solo resistencia a salpicaduras-lavado de manos, lluvia y sudor. Nadar genera presión dinámica que supera la presión de prueba estática. Para nadar, elija al menos 100m / 10 ATM.',
     },
     {
       question: '¿Cuál es la diferencia entre ATM, bar y metros?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': '¿Puedo nadar con un reloj resistente al agua de 30 metros?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'No. Una clasificación de 30m / 3 ATM significa solo resistencia a salpicaduras — lavado de manos, lluvia y sudor. Para nadar, elija al menos 100m / 10 ATM.',
+            'text': 'No. Una clasificación de 30m / 3 ATM significa solo resistencia a salpicaduras-lavado de manos, lluvia y sudor. Para nadar, elija al menos 100m / 10 ATM.',
           },
         },
         {

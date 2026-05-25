@@ -1,0 +1,175 @@
+import type { ToolLocaleContent } from '../../../types';
+import type { MoonPhaseVisualizerUI } from '../entry';
+import { bibliography } from '../bibliography';
+
+export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
+  slug: 'moon-phase-visualizer',
+  title: '문 페이즈 비주얼라이저 – 음력 달력 & 시계 컴플리케이션 도구',
+  description: '현재 달의 위상, 조명률, 월령, 그리고 다가오는 보름달과 초승달을 시각화하세요. 문 페이즈 시계 컴플리케이션 설정에 완벽한 도구입니다.',
+  ui: {
+    title: '문 페이즈 비주얼라이저',
+    selectDate: '날짜 선택',
+    today: '오늘',
+    moonPhase: '달의 위상',
+    illumination: '조명률',
+    moonAge: '월령',
+    daysUntilFull: '보름달까지 남은 일수',
+    daysUntilNew: '초승달까지 남은 일수',
+    newMoon: '초승달',
+    waxingCrescent: '상현 초승달',
+    firstQuarter: '상현',
+    waxingGibbous: '상현 볼록달',
+    fullMoon: '보름달',
+    waningGibbous: '하현 볼록달',
+    lastQuarter: '하현',
+    waningCrescent: '하현 초승달',
+    nextFullMoon: '다음 보름달',
+    nextNewMoon: '다음 초승달',
+    tipTitle: '팁',
+    tipContent: '문 페이즈 시계를 설정하려면 먼저 이 도구로 오늘의 달 위상을 확인한 후, 용두를 돌려 달 디스크가 일치할 때까지 맞추세요. 대부분의 기계식 문 페이즈는 2년에 약 하루의 오차 범위 내에서 정확합니다.',
+    days: '사이클 진행도',
+    day: '일',
+  },
+  seo: [
+    { type: 'title', text: '문 페이즈 비주얼라이저 – 달 위상 도구 & 시계 설정 가이드', level: 2 },
+    { type: 'paragraph', html: '문 페이즈 비주얼라이저는 <strong>현재 달의 위상</strong>을 사실적인 렌더링으로 보여줍니다. <strong>조명률, 월령, 다음 보름달까지 남은 일수, 다음 초승달</strong>을 확인할 수 있습니다. 문 페이즈 컴플리케이션을 정확하게 설정해야 하는 시계 애호가를 위해 설계되었으며, 과거나 미래의 모든 날짜에 대한 일반 음력 달력으로도 사용할 수 있습니다.' },
+    { type: 'title', text: '달 위상 용어 설명', level: 3 },
+    {
+      type: 'glossary', items: [
+        { term: '초승달', definition: '달이 지구와 태양 사이에 위치합니다. 조명을 받은 면이 지구 반대쪽을 향합니다. 조명률 0%. 음력 주기의 시작입니다.' },
+        { term: '상현 초승달', definition: '조명률 1~49%. 북반구 기준 오른쪽에 얇은 초승달 모양이 나타납니다. 달이 상현을 향해 움직이는 중입니다.' },
+        { term: '상현', definition: '조명률 50%. 보이는 표면의 절반이 밝습니다. 달이 주기의 4분의 1을 완료했습니다.' },
+        { term: '상현 볼록달', definition: '조명률 51~99%. 절반 이상이 밝습니다. 달이 보름을 향해 차오르고 있습니다.' },
+        { term: '보름달', definition: '조명률 100%. 보이는 표면 전체가 밝습니다. 음력 주기의 정점입니다.' },
+        { term: '하현 볼록달', definition: '조명률 99~51%. 밝은 영역이 오른쪽부터 줄어들기 시작합니다.' },
+        { term: '하현', definition: '조명률 50%. 왼쪽 절반이 밝습니다. 주기의 4분의 3이 완료되었습니다.' },
+        { term: '하현 초승달', definition: '조명률 49~1%. 왼쪽에 얇은 초승달이 보이다가 초승달로 주기가 리셋됩니다.' },
+      ]
+    },
+    { type: 'title', text: '문 페이즈 시계 설정 방법', level: 3 },
+    {
+      type: 'list', items: [
+        '이 도구로 오늘의 정확한 달 위상을 확인하세요. 위상 이름과 시각적 모양을 기억해두세요.',
+        '시계의 용두를 문 페이즈 설정 위치(보통 2단 또는 3단)로 빼세요.',
+        '달 디스크가 도구와 같은 위상을 보일 때까지 용두를 돌리세요. 보름달 표시는 보통 디스크의 중앙 상단에 있습니다.',
+        '오후 9시에서 오전 3시 사이에는 문 페이즈를 설정하지 마세요. 이 시간대는 날짜 변경 기어가 맞물려 있어 손상될 수 있습니다.',
+        '대부분의 기계식 문 페이즈 시계는 두 달 주기(59일)를 근사하는 59톱니 기어를 사용합니다. 즉, 약 2년마다 하루의 오차가 발생합니다.',
+        '고정밀 시계(파텍 필립, A. 랑게 & 죄네)는 100년 이상에 하루 이내의 오차를 가진 기어를 사용합니다.',
+      ]
+    },
+    { type: 'diagnostic', variant: 'warning', title: '날짜 변경 시간대에는 절대 설정하지 마세요', icon: 'mdi:alert', html: '오후 <strong>9시에서 오전 3시</strong> 사이에는 문 페이즈(또는 날짜)를 설정하지 마세요. 이 시간대는 시계의 날짜 변경 기어가 날짜 바퀴에 물려 있습니다. 용두를 억지로 돌리면 기어 이빨이 손상될 수 있습니다. 부득이하게 이 시간대에 설정해야 한다면 먼저 시곗바늘을 오전 3시 이후로 돌린 다음 문 페이즈를 설정하세요.' },
+    { type: 'title', text: '기계식 vs 고정밀 문 페이즈', level: 3 },
+    {
+      type: 'table', headers: ['종류', '톱니 기어', '오차 누적', '하루 오차 발생 시점', '예시 시계'], rows: [
+        ['표준 / 보급형', '59톱니', '약 2년마다 ~1일', '약 2.5년', '세이코, 오리엔트, 해밀턴, 티쏘'],
+        ['중급', '135톱니', '약 10년마다 ~1일', '약 10년', '오메가, 튜더, IWC, 브라이틀링'],
+        ['고정밀', '기어 트레인', '100년+마다 ~1일', '100년+', '파텍 필립, A. 랑게 & 죄네'],
+      ]
+    },
+    { type: 'tip', title: '문 디스크 읽는 법', html: '대부분의 문 페이즈 시계에서 달 디스크는 서로 반대편에 <strong>두 개의 달</strong>이 그려져 있습니다. 각 보름달은 중앙 상단 창에 정렬됩니다. 한 주기(29.5일)가 지나면 두 번째 달이 그 자리를 차지합니다. 이것이 59톱니 기어가 작동하는 이유입니다. 정확히 두 달 주기인 59일 만에 한 바퀴 회전하기 때문입니다.' },
+    {
+      type: 'summary', title: '빠른 참고 사항', items: [
+        '음력(삭망월) 주기는 정확히 29.53058867일입니다. 이 도구는 이 값을 사용하여 최대 정확도를 제공합니다.',
+        '8가지 위상이 끝없이 반복됩니다: 초승달 → 상현 초승달 → 상현 → 상현 볼록달 → 보름달 → 하현 볼록달 → 하현 → 하현 초승달.',
+        '문 페이즈 시계 설정: 이 도구에서 오늘의 위상을 찾은 다음, 시계 디스크에 맞추세요.',
+        '오후 9시에서 오전 3시 사이에는 절대 용두를 억지로 돌리지 마세요. 먼저 시각을 오전 3시 이후로 넘기세요.',
+        '표준 59톱니 문 페이즈는 약 2.5년마다 하루 정도 오차가 발생합니다. 디스크를 한 칸 돌려 보정해야 합니다.',
+      ]
+    },
+  ],
+  faq: [
+    {
+      question: '시계에서 문 페이즈를 어떻게 설정하나요?',
+      answer: '이 도구로 오늘의 달 위상을 확인하세요. 용두(보통 2단)를 돌려 달 디스크가 일치하는 위상을 가리키도록 맞추세요. 오후 9시에서 오전 3시 사이에는 날짜 기어가 작동 중이므로 설정하지 마세요.',
+    },
+    {
+      question: '기계식 문 페이즈 시계는 얼마나 정확한가요?',
+      answer: '대부분은 59톱니 기어를 사용하여 약 2년마다 하루 정도의 오차가 있습니다. 파텍 필립, A. 랑게 & 죄네 같은 하이엔드 시계는 100년 이상에 하루 이내의 정밀도를 달성합니다.',
+    },
+    {
+      question: '삭망월과 항성월의 차이는 무엇인가요?',
+      answer: '항성월(27.3일)은 별을 기준으로 한 달의 공전 주기입니다. 삭망월(29.53일)은 같은 위상이 다시 돌아오는 간격으로, 문 페이즈 시계가 추적하는 주기입니다.',
+    },
+  ],
+  bibliography,
+  howTo: [
+    {
+      name: '날짜 선택하기',
+      text: '날짜 선택기를 사용해 과거나 미래의 날짜를 고르고 해당 달의 위상을 확인하세요.',
+    },
+    {
+      name: '위상 데이터 확인하기',
+      text: '카드에 위상 이름, 조명률, 월령, 사이클 진행도가 표시됩니다.',
+    },
+    {
+      name: '다가오는 이벤트 찾기',
+      text: '다음 보름달과 초승달 날짜가 자동으로 표시됩니다.',
+    },
+    {
+      name: '시계 설정하기',
+      text: '표시된 위상을 사용하여 문 페이즈 시계 컴플리케이션을 정확하게 설정하세요.',
+    },
+  ],
+  schemas: [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      'mainEntity': [
+        {
+          '@type': 'Question',
+          'name': 'How do I set a moon phase on my watch?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Find today\'s moon phase using this tool. Advance the crown until the moon disc shows the matching phase. Avoid setting between 9 PM and 3 AM.',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': 'How accurate are mechanical moon phase watches?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Most use a 59-tooth gear that is accurate to about one day every 2 years. High-end watches achieve accuracy within one day every 100+ years.',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': 'What is the difference between a synodic and sidereal month?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'The sidereal month (27.3 days) is the moon\'s orbit relative to the stars. The synodic month (29.53 days) is the time between identical phases and is what moon phase watches track.',
+          },
+        },
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      'name': 'Moon Phase Visualizer',
+      'operatingSystem': 'All',
+      'applicationCategory': 'UtilitiesApplication',
+      'browserRequirements': 'Requires HTML5. Requires JavaScript.',
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      'name': 'How to visualize moon phases',
+      'step': [
+        {
+          '@type': 'HowToStep',
+          'name': 'Select a date',
+          'text': 'Use the date picker to choose any date and see the moon phase.',
+        },
+        {
+          '@type': 'HowToStep',
+          'name': 'Read the phase data',
+          'text': 'The cards show phase name, illumination, moon age, and cycle progress.',
+        },
+        {
+          '@type': 'HowToStep',
+          'name': 'Set your watch',
+          'text': 'Use the displayed phase to set your moon phase watch complication.',
+        },
+      ],
+    },
+  ],
+};

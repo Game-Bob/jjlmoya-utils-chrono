@@ -1,4 +1,4 @@
-# Prompts — Svenska (sv)
+# Prompts-enska (sv)
 
 ## Översättning
 

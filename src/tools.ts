@@ -9,6 +9,9 @@ import { POWER_RESERVE_ESTIMATOR_TOOL } from './tool/power-reserve-estimator';
 import { BEAT_RATE_CONVERTER_TOOL } from './tool/beat-rate-converter';
 import { WATER_RESISTANCE_CONVERTER_TOOL } from './tool/water-resistance-converter';
 import { STRAP_TAPER_CALCULATOR_TOOL } from './tool/strap-taper-calculator';
+import { WATCH_SIZE_COMPARATOR_TOOL } from './tool/watch-size-comparator';
+import { LUME_COLOR_SIMULATOR_TOOL } from './tool/lume-color-simulator';
+import { MOON_PHASE_VISUALIZER_TOOL } from './tool/moon-phase-visualizer';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -20,6 +23,9 @@ export const ALL_TOOLS: ToolDefinition[] = [
   BEAT_RATE_CONVERTER_TOOL,
   WATER_RESISTANCE_CONVERTER_TOOL,
   STRAP_TAPER_CALCULATOR_TOOL,
+  WATCH_SIZE_COMPARATOR_TOOL,
+  LUME_COLOR_SIMULATOR_TOOL,
+  MOON_PHASE_VISUALIZER_TOOL,
 ];
 
 

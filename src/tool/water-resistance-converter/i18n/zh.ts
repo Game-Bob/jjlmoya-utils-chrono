@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'water-resistance-converter',
-  title: '手表防水换算工具 — 米、ATM、巴、英尺',
+  title: '手表防水换算工具–ATM、巴、英尺',
   description: '在米、英尺、ATM和巴之间换算手表的防水等级。了解每个等级在日常佩戴、游泳和潜水中的实际含义。',
   ui: {
     title: '防水换算工具',
@@ -33,13 +33,13 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: '防水性能会随时间下降。密封垫圈应每年检测，每3\u20135年更换一次。',
   },
   seo: [
-    { type: 'title', text: '手表防水换算工具 — 解读米、ATM、巴和英尺', level: 2 },
+    { type: 'title', text: '手表防水换算工具-米、ATM、巴和英尺', level: 2 },
     { type: 'paragraph', html: '30米防水等级并不意味着你可以潜到30米深度。它意味着手表能够承受水溅和轻微雨水。本换算工具可在<strong>米、英尺、大气压（ATM）和巴</strong>之间进行转换，并告诉你每个等级实际允许的活动范围。' },
     { type: 'title', text: '防水等级的真相', level: 3 },
     { type: 'paragraph', html: '手表防水性能是在实验室静态压力下测试的。实际使用条件——手臂摆动、潜水、温度变化——会产生更高的动态压力。30m / 3 ATM的手表仅防溅水。游泳至少需要100m / 10 ATM。水肺潜水则以200m / 20 ATM为标准入门要求。' },
     { type: 'title', text: '防水性能为何随时间下降', level: 3 },
     { type: 'paragraph', html: '密封手表的橡胶密封垫和O形圈会随着时间推移而干燥、开裂和压缩。热量、紫外线和化学物质会加速这一过程。曾经防水100m的手表，5年未经维护后可能仅剩防溅水能力。请每年检测密封件，每3至5年更换一次。' },
-    { type: 'title', text: 'ISO 6425 — 潜水表标准', level: 3 },
+    { type: 'title', text: 'ISO 6425-表标准', level: 3 },
     { type: 'paragraph', html: '手表要被称为"潜水表"，必须符合ISO 6425标准：至少100m防水、单向旋转表圈、夜光标记和旋入式表冠。符合该标准的手表需在额定深度125%的压力下测试。200m ISO认证手表在250m深度进行测试。' },
   ],
   faq: [

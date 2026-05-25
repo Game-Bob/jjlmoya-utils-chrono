@@ -1,4 +1,4 @@
-# Prompts — Bahasa Indonesia (id)
+# Prompts-hasa Indonesia (id)
 
 ## Terjemahan
 

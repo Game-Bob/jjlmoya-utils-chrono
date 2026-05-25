@@ -1,4 +1,4 @@
-# Prompts — 中文 (zh)
+# Prompts- (zh)
 
 ## 翻译
 

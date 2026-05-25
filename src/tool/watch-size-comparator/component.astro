@@ -1,0 +1,17 @@
+---
+import WatchForm from './components/WatchForm.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<link href="./watch-size-comparator.css" rel="stylesheet" />
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <WatchForm labels={ui} />
+</div>
+
+<script src="./client.ts"></script>

@@ -1,4 +1,4 @@
-# Prompts — Português (pt)
+# Prompts-rtuguês (pt)
 
 ## Tradução
 

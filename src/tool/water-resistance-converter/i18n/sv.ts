@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
   slug: 'vattenbestandighet-omvandlare',
-  title: 'Klocka Vattenbeständighet Omvandlare — Meter, ATM, Bar & Fot',
+  title: 'Klocka Vattenbeständighet Omvandlare–Meter, ATM, Bar & Fot',
   description: 'Omvandla klockors vattenbeständighetsklasser mellan meter, fot, ATM och bar. Se vad varje klass faktiskt innebär för vardagligt bruk, simning och dykning.',
   ui: {
     title: 'Vattenbeständighet Omvandlare',
@@ -33,19 +33,19 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     tipContent: 'Vattenbeständighet försämras med tiden. Packningar och tätningar bör testas årligen och bytas ut var 3\u20135 år.',
   },
   seo: [
-    { type: 'title', text: 'Klocka Vattenbeständighet Omvandlare — Avkoda Meter, ATM, Bar & Fot', level: 2 },
+    { type: 'title', text: 'Klocka Vattenbeständighet Omvandlare-Avkoda Meter, ATM, Bar & Fot', level: 2 },
     { type: 'paragraph', html: 'En vattenbeständighetsklass på 30 meter betyder inte att du kan dyka till 30 meter. Det betyder att klockan klarar stänk och lätt regn. Denna omvandlare översätter mellan <strong>meter, fot, atmosfärer (ATM) och bar</strong> och talar om vad varje klass faktiskt tillåter.' },
     { type: 'title', text: 'Sanningen Om Vattenbeständighetsklasser', level: 3 },
-    { type: 'paragraph', html: 'Klockors vattenbeständighet testas under statiskt tryck i ett laboratorium. Verkliga förhållanden — att röra armen, dyka, temperaturförändringar — skapar dynamiskt tryck som är mycket högre. En 30m / 3 ATM klocka är endast stänktålig. För simning behöver du minst 100m / 10 ATM. För sportdykning är 200m / 20 ATM standard ingångsnivån.' },
+    { type: 'paragraph', html: 'Klockors vattenbeständighet testas under statiskt tryck i ett laboratorium. Verkliga förhållanden-att röra armen, dyka, temperaturförändringar-skapar dynamiskt tryck som är mycket högre. En 30m / 3 ATM klocka är endast stänktålig. För simning behöver du minst 100m / 10 ATM. För sportdykning är 200m / 20 ATM standard ingångsnivån.' },
     { type: 'title', text: 'Varför Vattenbeständighet Försämras Över Tid', level: 3 },
     { type: 'paragraph', html: 'Gummipackningarna och O-ringarna som tätar din klocka torkar ut, spricker och komprimeras med tiden. Värme, UV-ljus och kemikalier accelererar denna process. En klocka som en gång var vattenbeständig till 100m kan efter 5 år utan service endast vara stänktålig. Låt dina tätningar testas årligen och bytas ut var 3 till 5 år.' },
-    { type: 'title', text: 'ISO 6425 — Standard för Dykarklockor', level: 3 },
+    { type: 'title', text: 'ISO 6425-Standard för Dykarklockor', level: 3 },
     { type: 'paragraph', html: 'För att en klocka ska kallas "dykarklocka" måste den uppfylla ISO 6425 standarder: minst 100m vattenbeständighet, en enkelriktad ring, självlysande markeringar och en skruvkrona. Klockor som uppfyller denna standard testas 25% över sitt klassade djup. En ISO certifierad 200m klocka testas vid 250m.' },
   ],
   faq: [
     {
       question: 'Kan jag simma med en 30 meter vattenbeständig klocka?',
-      answer: 'Nej. En 30m / 3 ATM klass innebär endast stänktålighet — handtvätt, regn och svett. Simning skapar dynamiskt tryck som överstiger det statiska testtrycket. För simning, välj minst 100m / 10 ATM.',
+      answer: 'Nej. En 30m / 3 ATM klass innebär endast stänktålighet-handtvätt, regn och svett. Simning skapar dynamiskt tryck som överstiger det statiska testtrycket. För simning, välj minst 100m / 10 ATM.',
     },
     {
       question: 'Vad är skillnaden mellan ATM, bar och meter?',
@@ -85,7 +85,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
           'name': 'Kan jag simma med en 30 meter vattenbeständig klocka?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Nej. En 30m / 3 ATM klass innebär endast stänktålighet — handtvätt, regn och svett. För simning, välj minst 100m / 10 ATM.',
+            'text': 'Nej. En 30m / 3 ATM klass innebär endast stänktålighet-handtvätt, regn och svett. För simning, välj minst 100m / 10 ATM.',
           },
         },
         {

@@ -1,4 +1,4 @@
-# Prompts — Deutsch (de)
+# Prompts-utsch (de)
 
 ## Übersetzung
 

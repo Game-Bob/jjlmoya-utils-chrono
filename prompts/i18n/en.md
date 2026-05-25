@@ -1,4 +1,4 @@
-# Prompts — English (en)
+# Prompts-glish (en)
 
 ## Translation
 

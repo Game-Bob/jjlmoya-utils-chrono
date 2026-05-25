@@ -41,44 +41,52 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     noteTitle: 'Opmerking',
   },
   seo: [
-    { type: 'title', text: 'Gids voor Kronestanden — Hoe Windt u Op, Stelt u Datum & Tijd Correct In', level: 2 },
-    { type: 'paragraph', html: 'De kroon is de enige fysieke interface tussen u en uw horloge-uurwerk. Verkeerd gebruik — terugwinden, de datum om middernacht instellen of te hard trekken — kan het mechanisme beschadigen. Deze gids legt elke kronenstand uit voor <strong>ETA, Sellita, Miyota, Seiko en Unitas</strong>-kalibers, zodat u nooit meer hoeft te gissen.' },
+    { type: 'title', text: 'Gids voor Kronestanden-Hoe Windt u Op, Stelt u Datum & Tijd Correct In', level: 2 },
+    { type: 'paragraph', html: 'De kroon is de enige fysieke interface tussen u en uw horloge-uurwerk. Verkeerd gebruik-terugwinden, de datum om middernacht instellen of te hard trekken-kan het mechanisme beschadigen. Deze gids legt elke kronenstand uit voor <strong>ETA, Sellita, Miyota, Seiko en Unitas</strong>-kalibers, zodat u nooit meer hoeft te gissen.' },
     { type: 'title', text: 'Kronestanden in één oogopslag', level: 3 },
-    { type: 'glossary', items: [
-      { term: 'Stand 0 (Ruststand)', definition: 'Kroon ingedrukt of vastgeschroefd. Horloge loopt normaal. Geen functies actief. Keer hier altijd terug na het instellen.' },
-      { term: 'Stand 1 (Opwinden)', definition: 'Eerste uittrekstand of losgedraaide toestand. Rechtsom draaien om de veer op te winden. De meeste automaten winden ook via de rotor.' },
-      { term: 'Stand 2 (Datum snelinstelling)', definition: 'Tweede uittrekstand. Rechtsom draaien om de datum vooruit te zetten. Vermijd gebruik tussen 21:00\u20133:00 uur wanneer het datummechanisme actief is.' },
-      { term: 'Stand 3 (Tijd instellen)', definition: 'Derde uittrekstand. Seconden stoppen met hacken voor nauwkeurige uitlijning. Vrij ronddraaien om de tijd in te stellen. Aanwezig op de meeste moderne automaten.' },
-    ] },
+    {
+      type: 'glossary', items: [
+        { term: 'Stand 0 (Ruststand)', definition: 'Kroon ingedrukt of vastgeschroefd. Horloge loopt normaal. Geen functies actief. Keer hier altijd terug na het instellen.' },
+        { term: 'Stand 1 (Opwinden)', definition: 'Eerste uittrekstand of losgedraaide toestand. Rechtsom draaien om de veer op te winden. De meeste automaten winden ook via de rotor.' },
+        { term: 'Stand 2 (Datum snelinstelling)', definition: 'Tweede uittrekstand. Rechtsom draaien om de datum vooruit te zetten. Vermijd gebruik tussen 21:00\u20133:00 uur wanneer het datummechanisme actief is.' },
+        { term: 'Stand 3 (Tijd instellen)', definition: 'Derde uittrekstand. Seconden stoppen met hacken voor nauwkeurige uitlijning. Vrij ronddraaien om de tijd in te stellen. Aanwezig op de meeste moderne automaten.' },
+      ]
+    },
 
     { type: 'title', text: 'Uurwerkvergelijking: Kronenfuncties', level: 3 },
-    { type: 'table', headers: ['Uurwerk', 'Standen', 'Hack', 'Snelinst.', 'Windingrich.'], rows: [
-      ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
-      ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
-      ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
-      ['Miyota 8215', '2 (0,1,3)', 'Nee', 'Geen', 'R'],
-      ['Miyota 9015', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
-      ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
-      ['Seiko 6R35', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
-      ['Unitas 6497/6498', '1 (0,1,3)', 'Nee', 'Geen', 'R'],
-    ] },
+    {
+      type: 'table', headers: ['Uurwerk', 'Standen', 'Hack', 'Snelinst.', 'Windingrich.'], rows: [
+        ['ETA 2824-2 / SW200', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
+        ['ETA 2892-A2 / SW300', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
+        ['Valjoux 7750 / SW500', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
+        ['Miyota 8215', '2 (0,1,3)', 'Nee', 'Geen', 'R'],
+        ['Miyota 9015', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
+        ['Seiko NH35 / 4R35', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
+        ['Seiko 6R35', '3 (0,1,2,3)', 'Ja', 'Datum (R)', 'R'],
+        ['Unitas 6497/6498', '1 (0,1,3)', 'Nee', 'Geen', 'R'],
+      ]
+    },
 
     { type: 'diagnostic', variant: 'warning', title: 'Veelgemaakte Kronenfouten', icon: 'mdi:alert', badge: 'NIET DOEN', html: 'Stel de datum nooit snel in tussen <strong>21:00 en 3:00 uur</strong> terwijl het datumwiel is ingeschakeld. Dit kan tanden beschadigen en een volledige onderhoudsbeurt vereisen. Als u de datum toch in dit tijdsvenster moet wijzigen, zet dan eerst de tijd vooruit na 3:00 uur, stel de datum in en draai dan terug naar de juiste tijd.' },
 
     { type: 'tip', title: 'Schroefkronen', html: 'Duikhorloges en sporthorloges hebben vaak schroefkronen voor waterdichtheid. <strong>Draai altijd eerst los voordat u trekt</strong>. Draai linksom tot de kroon uitklikt, trek dan naar de gewenste stand. Na het instellen induwen, dan rechtsom draaien met lichte druk tot deze vastzit. <strong>Niet te vast aandraaien.</strong>' },
 
-    { type: 'comparative', columns: 2, items: [
-      { title: 'Standaardkroon', icon: 'mdi:crown', description: 'Trekduwkroon zoals bij de meeste nette horloges en alledaagse automaten. 2\u20134 standen. Waterdichtheid doorgaans 30\u2013100 m.', points: ['Directe toegang, geen losdraaien', 'Beperkte waterdichtheid', 'Gebruikelijk bij ETA, Miyota, Seiko'] },
-      { title: 'Schroefkroon', icon: 'mdi:lock', description: 'Geschroefde kroon die in de kastbuis wordt gedraaid. Standaard op duikhorloges en gereedschapshorloges. Waterdichtheid 200 m+.', points: ['Superieure waterdichtheid', 'Moet losgedraaid worden voor gebruik', 'Gebruikelijk bij Rolex, Omega, Seiko Prospex'], highlight: true },
-    ] },
+    {
+      type: 'comparative', columns: 2, items: [
+        { title: 'Standaardkroon', icon: 'mdi:crown', description: 'Trekduwkroon zoals bij de meeste nette horloges en alledaagse automaten. 2\u20134 standen. Waterdichtheid doorgaans 30\u2013100 m.', points: ['Directe toegang, geen losdraaien', 'Beperkte waterdichtheid', 'Gebruikelijk bij ETA, Miyota, Seiko'] },
+        { title: 'Schroefkroon', icon: 'mdi:lock', description: 'Geschroefde kroon die in de kastbuis wordt gedraaid. Standaard op duikhorloges en gereedschapshorloges. Waterdichtheid 200 m+.', points: ['Superieure waterdichtheid', 'Moet losgedraaid worden voor gebruik', 'Gebruikelijk bij Rolex, Omega, Seiko Prospex'], highlight: true },
+      ]
+    },
 
-    { type: 'summary', title: 'Snelle Referentie', items: [
-      'Wind altijd rechtsom — terugwinden activeert de slipkoppeling maar windt niet op.',
-      'Als uw horloge een schroefkroon heeft, draai deze dan los voordat u naar een stand trekt.',
-      'Vermijd datum snelinstelling tussen 21:00 en 3:00 uur. Zet de tijd eerst vooruit na 3:00 uur indien nodig.',
-      'Handopwindbare uurwerken (bv. Unitas 6498) hebben minder standen. Wind volledig op voordat u de tijd instelt.',
-      'Niet-hackende uurwerken (bv. Miyota 8215) vereisen een andere techniek: draai voorbij de gewenste minuut en dan langzaam terug.',
-    ] },
+    {
+      type: 'summary', title: 'Snelle Referentie', items: [
+        'Wind altijd rechtsom-terugwinden activeert de slipkoppeling maar windt niet op.',
+        'Als uw horloge een schroefkroon heeft, draai deze dan los voordat u naar een stand trekt.',
+        'Vermijd datum snelinstelling tussen 21:00 en 3:00 uur. Zet de tijd eerst vooruit na 3:00 uur indien nodig.',
+        'Handopwindbare uurwerken (bv. Unitas 6498) hebben minder standen. Wind volledig op voordat u de tijd instelt.',
+        'Niet-hackende uurwerken (bv. Miyota 8215) vereisen een andere techniek: draai voorbij de gewenste minuut en dan langzaam terug.',
+      ]
+    },
   ],
   faq: [
     {
@@ -99,7 +107,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Hoe weet ik hoeveel omwentelingen nodig zijn om mijn horloge volledig op te winden?',
-      answer: 'De meeste automatische uurwerken hebben 30\u201340 volledige kroonomwentelingen nodig vanuit stilstand. Handopwindbare uurwerken variëren: de Unitas 6498 heeft ongeveer 30\u201335 omwentelingen nodig, terwijl de Seiko 6R35 met zijn 70-uursreserve 50\u201360 omwentelingen nodig heeft. Stop wanneer u duidelijke weerstand voelt — doorzetten kan de veer beschadigen.',
+      answer: 'De meeste automatische uurwerken hebben 30\u201340 volledige kroonomwentelingen nodig vanuit stilstand. Handopwindbare uurwerken variëren: de Unitas 6498 heeft ongeveer 30\u201335 omwentelingen nodig, terwijl de Seiko 6R35 met zijn 70-uursreserve 50\u201360 omwentelingen nodig heeft. Stop wanneer u duidelijke weerstand voelt-doorzetten kan de veer beschadigen.',
     },
   ],
   bibliography,
