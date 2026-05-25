@@ -1,0 +1,46 @@
+---
+import CalculatorInputs from './components/CalculatorInputs.astro';
+import Visualizer from './components/Visualizer.astro';
+import BespokeResults from './components/BespokeResults.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="str" data-ui={JSON.stringify(ui)}>
+  <header class="str-top">
+    <h2 class="str-h">{ui.title || "Strap Length Calculator"}</h2>
+  </header>
+
+  <div class="str-body">
+    <CalculatorInputs
+      wristLabel={ui.wristLabel || "Wrist circumference"}
+      wristPlaceholder={ui.wristPlaceholder || "e.g. 170"}
+      lugLabel={ui.lugLabel || "Watch lug-to-lug"}
+      lugPlaceholder={ui.lugPlaceholder || "e.g. 45"}
+      fitLabel={ui.fitLabel || "Preferred fit"}
+      fitTight={ui.fitTight || "Tight"}
+      fitRegular={ui.fitRegular || "Regular"}
+      fitLoose={ui.fitLoose || "Loose"}
+      unitLabel={ui.unitLabel || "Unit"}
+      millimeters={ui.millimeters || "mm"}
+      inches={ui.inches || "in"}
+    />
+
+    <Visualizer />
+
+    <BespokeResults
+      standardLabel={ui.standardLabel || "Standard retail size"}
+      bespokeLabel={ui.bespokeLabel || "Bespoke custom size"}
+      natoLabel={ui.natoLabel || "NATO strap length"}
+      longSide={ui.longSide || "Long side"}
+      shortSide={ui.shortSide || "Short side"}
+      totalLength={ui.totalLength || "Total length"}
+    />
+  </div>
+</div>
+
+<script src="./client.ts"></script>

@@ -1,0 +1,64 @@
+---
+interface Props {
+  wristLabel: string;
+  wristPlaceholder: string;
+  lugLabel: string;
+  lugPlaceholder: string;
+  fitLabel: string;
+  fitTight: string;
+  fitRegular: string;
+  fitLoose: string;
+  unitLabel: string;
+  millimeters: string;
+  inches: string;
+}
+
+const {
+  wristLabel,
+  wristPlaceholder,
+  lugLabel,
+  lugPlaceholder,
+  fitLabel,
+  fitTight,
+  fitRegular,
+  fitLoose,
+  unitLabel,
+  millimeters,
+  inches,
+} = Astro.props;
+---
+
+<div class="str-inputs">
+  <div class="str-field">
+    <label class="str-label" for="str-wrist">{wristLabel}</label>
+    <div class="str-input-wrapper">
+      <input class="str-input" id="str-wrist" type="number" min="100" max="300" step="1" value="170" placeholder={wristPlaceholder} />
+      <span class="str-input-unit" id="str-wrist-unit-label">{millimeters}</span>
+    </div>
+  </div>
+
+  <div class="str-field">
+    <label class="str-label" for="str-lug">{lugLabel}</label>
+    <div class="str-input-wrapper">
+      <input class="str-input" id="str-lug" type="number" min="20" max="70" step="1" value="45" placeholder={lugPlaceholder} />
+      <span class="str-input-unit">{millimeters}</span>
+    </div>
+  </div>
+
+  <div class="str-field">
+    <label class="str-label" for="str-fit">{fitLabel}</label>
+    <select class="str-input str-select" id="str-fit">
+      <option value="tight">{fitTight}</option>
+      <option value="regular" selected>{fitRegular}</option>
+      <option value="loose">{fitLoose}</option>
+    </select>
+  </div>
+
+  <div class="str-field">
+    <label class="str-label" for="str-unit">{unitLabel}</label>
+    <select class="str-input str-select" id="str-unit">
+      <option value="mm" selected>{millimeters}</option>
+      <option value="in">{inches}</option>
+    </select>
+  </div>
+</div>

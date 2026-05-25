@@ -14,6 +14,7 @@ import { LUME_COLOR_SIMULATOR_TOOL } from './tool/lume-color-simulator';
 import { MOON_PHASE_VISUALIZER_TOOL } from './tool/moon-phase-visualizer';
 import { TACHYMETER_CALCULATOR_TOOL } from './tool/tachymeter-calculator';
 import { SERVICE_INTERVAL_TRACKER_TOOL } from './tool/service-interval-tracker';
+import { STRAP_LENGTH_CALCULATOR_TOOL } from './tool/strap-length-calculator';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -30,6 +31,7 @@ export const ALL_TOOLS: ToolDefinition[] = [
   MOON_PHASE_VISUALIZER_TOOL,
   TACHYMETER_CALCULATOR_TOOL,
   SERVICE_INTERVAL_TRACKER_TOOL,
+  STRAP_LENGTH_CALCULATOR_TOOL,
 ];
 
 
