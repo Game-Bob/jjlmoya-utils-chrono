@@ -11,6 +11,7 @@ import { watchSizeComparator } from '../tool/watch-size-comparator/entry';
 import { lumeColorSimulator } from '../tool/lume-color-simulator/entry';
 import { moonPhaseVisualizer } from '../tool/moon-phase-visualizer/entry';
 import { tachymeterCalculator } from '../tool/tachymeter-calculator/entry';
+import { serviceIntervalTracker } from '../tool/service-interval-tracker/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -27,6 +28,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     lumeColorSimulator,
     moonPhaseVisualizer,
     tachymeterCalculator,
+    serviceIntervalTracker,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

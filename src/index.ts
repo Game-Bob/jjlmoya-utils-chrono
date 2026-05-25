@@ -13,6 +13,7 @@ export { watchSizeComparator, WATCH_SIZE_COMPARATOR_TOOL } from './tool/watch-si
 export { lumeColorSimulator, LUME_COLOR_SIMULATOR_TOOL } from './tool/lume-color-simulator';
 export { moonPhaseVisualizer, MOON_PHASE_VISUALIZER_TOOL } from './tool/moon-phase-visualizer';
 export { tachymeterCalculator, TACHYMETER_CALCULATOR_TOOL } from './tool/tachymeter-calculator';
+export { serviceIntervalTracker, SERVICE_INTERVAL_TRACKER_TOOL } from './tool/service-interval-tracker';
 
 export type {
   KnownLocale,

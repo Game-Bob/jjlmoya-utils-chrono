@@ -1,0 +1,26 @@
+---
+interface Props {
+  emptyTitle: string;
+  emptyDesc: string;
+  emptyAction: string;
+}
+const { emptyTitle, emptyDesc, emptyAction } = Astro.props;
+---
+<div class="svc-empty" id="svc-empty">
+  <div class="svc-empty-vis">
+    <div class="svc-empty-glow"></div>
+    <svg class="svc-empty-svg" viewBox="0 0 100 100" fill="none" stroke="currentColor">
+      <circle cx="50" cy="50" r="40" stroke-width="2" stroke-dasharray="6 4" opacity="0.3" />
+      <circle cx="50" cy="50" r="30" stroke-width="1.5" opacity="0.15" />
+      <path d="M50 20v6M50 74v6M20 50h6M74 50h6" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+      <path d="M50 50l12-16M50 50l-8 8" stroke-width="2.5" stroke-linecap="round" />
+      <circle cx="50" cy="50" r="3" fill="currentColor" />
+    </svg>
+  </div>
+  <p class="svc-empty-title">{emptyTitle}</p>
+  <p class="svc-empty-desc">{emptyDesc}</p>
+  <button class="svc-empty-btn" id="svc-empty-btn" type="button">
+    <svg viewBox="0 0 14 14" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 1v12M1 7h12"/></svg>
+    <span>{emptyAction}</span>
+  </button>
+</div>

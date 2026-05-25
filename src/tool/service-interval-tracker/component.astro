@@ -1,0 +1,50 @@
+---
+import DashboardHeader from './components/DashboardHeader.astro';
+import EmptyState from './components/EmptyState.astro';
+import AddEditModal from './components/AddEditModal.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="svc" data-ui={JSON.stringify(ui)}>
+  <div class="svc-header-row">
+    <DashboardHeader
+      title={ui.title || "Service Tracker"}
+      collectionHealthLabel={ui.collectionHealth || "Collection health"}
+    />
+    <button class="svc-add-btn-top" id="svc-add" type="button">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+      <span>{ui.addWatch || "Add Watch"}</span>
+    </button>
+  </div>
+
+  <div class="svc-body" id="svc-body">
+    <EmptyState
+      emptyTitle={ui.emptyTitle || "Your collection is empty"}
+      emptyDesc={ui.emptyDesc || "Track service intervals for your watches and never miss a maintenance again."}
+      emptyAction={ui.emptyAction || "Add your first watch"}
+    />
+    <div class="svc-roster" id="svc-roster"></div>
+  </div>
+
+  <AddEditModal
+    addWatch={ui.addWatch || "Add Watch"}
+    cancel={ui.cancel || "Cancel"}
+    save={ui.save || "Save"}
+    nameLabel={ui.nameLabel || "Watch name"}
+    namePlaceholder={ui.namePlaceholder || "e.g. Rolex Submariner"}
+    movementLabel={ui.movementLabel || "Movement type"}
+    movementAuto={ui.movementAuto || "Automatic"}
+    movementManual={ui.movementManual || "Manual"}
+    movementQuartz={ui.movementQuartz || "Quartz"}
+    movementKinetic={ui.movementKinetic || "Kinetic"}
+    dateLabel={ui.dateLabel || "Last service date"}
+    neverServiced={ui.neverServiced || "New or never serviced"}
+  />
+</div>
+
+<script src="./client.ts"></script>

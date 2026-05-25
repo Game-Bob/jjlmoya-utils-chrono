@@ -1,0 +1,14 @@
+---
+interface Props {
+  title: string;
+  collectionHealthLabel: string;
+}
+const { title, collectionHealthLabel } = Astro.props;
+---
+<div class="svc-dashboard-header">
+  <div class="svc-title-area">
+    <h2 class="svc-h">{title}</h2>
+    <p class="svc-subtitle">{collectionHealthLabel}</p>
+  </div>
+  <div class="svc-stats-summary" id="svc-summary"></div>
+</div>
