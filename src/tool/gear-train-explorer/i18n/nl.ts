@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Tandwieltrein Verkenner: Interactief Horlogerie Diagram';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'tandwieltreinverkenner',
+  slug: 'tandwiel-trein-verkenner',
   title,
   description: 'Verken het mechanische hart van een horloge met een geanimeerde tandwieltreinvisualisatie. Zie het veerhuis, het centrale wiel, het derde wiel, het vierde wiel, het echappement, de anker en het balanswiel in beweging.',
   ui: {

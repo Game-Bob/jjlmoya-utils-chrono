@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Dişli Takımı Kaşifi: Etkileşimli Saatçilik Diyagramı';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'dislitrenikesfi',
+  slug: 'disli-treni-kesfi',
   title,
   description: 'Animasyonlu bir dişli takımı görselleştirmesiyle bir saatin mekanik kalbini keşfedin. Ana yay kutusu, merkez tekerlek, üçüncü tekerlek, dördüncü tekerlek, eşapman tekerleği, palet çatalı ve balans tekerleğini hareket halinde görün.',
   ui: {

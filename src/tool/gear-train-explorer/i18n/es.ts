@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Explorador de Tren de Engranajes: Diagrama Interactivo de Relojería';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'exploradortrenengranajes',
+  slug: 'explorador-tren-engranajes',
   title,
   description: 'Explore el corazón mecánico de un reloj con una visualización animada del tren de engranajes. Vea el barril del muelle real, la rueda central, la tercera rueda, la cuarta rueda, la rueda de escape, la horquilla del áncora y el volante en movimiento.',
   ui: {

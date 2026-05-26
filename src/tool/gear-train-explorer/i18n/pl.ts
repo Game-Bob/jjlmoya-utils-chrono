@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Odkrywca Kół Zębatych: Interaktywny Diagram Zegarmistrzowski';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'odkrywcakolebate',
+  slug: 'odkrywca-kola-zebate',
   title,
   description: 'Poznaj mechaniczne serce zegarka dzięki animowanej wizualizacji mechanizmu zębatego. Zobacz bęben sprężyny, koło środkowe, trzecie koło, czwarte koło, koło wychwytowe, widełki kotwicowe i balans w ruchu.',
   ui: {

@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Räderwerk Erkunder: Interaktives Uhrmacherei Diagramm';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'getriebeerkunder',
+  slug: 'getriebe-erkunder',
   title,
   description: 'Erkunden Sie das mechanische Herz einer Uhr mit einer animierten Räderwerk-Visualisierung. Sehen Sie Federhauswalze, Minutenrad, Kleinbodenrad, Sekundenrad, Hemmungsrad, Anker und Unruh in Bewegung.',
   ui: {

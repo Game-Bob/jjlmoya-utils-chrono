@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Explorateur de Train d\'Engrenages: Diagramme Horloger Interactif';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'explorateurtrengrenages',
+  slug: 'explorateur-train-engrenages',
   title,
   description: 'Explorez le cœur mécanique d\'une montre avec une visualisation animée du train d\'engrenages. Voyez le barillet, la roue des minutes, la roue des heures, la roue des secondes, la roue d\'échappement, l\'ancre et le balancier en mouvement.',
   ui: {

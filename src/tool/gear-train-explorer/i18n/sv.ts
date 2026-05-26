@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Växeltrain Utforskare: Interaktivt Urmakeridiagram';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'vaxeltrainutforskare',
+  slug: 'vaxeltrain-utforskare',
   title,
   description: 'Utforska det mekaniska hjärtat av en klocka med en animerad visualisering av kugghjulsväxeln. Se fjäderhuset, centrumhjulet, tredje hjulet, fjärde hjulet, gånghjulet, ankaret och balanshjulet i rörelse.',
   ui: {

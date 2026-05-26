@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Исследователь зубчатой передачи: интерактивная схема часового механизма';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'issledovatelyzubchatoyperedachi',
+  slug: 'issledovatel-zubchatoy-peredachi',
   title,
   description: 'Исследуйте механическое сердце часов с помощью анимированной визуализации зубчатой передачи. Увидьте барабан, центральное колесо, третье колесо, четвертое колесо, спусковое колесо, анкерную вилку и баланс в движении.',
   ui: {

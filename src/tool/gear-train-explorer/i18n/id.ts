@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Penjelajah Roda Gigi: Diagram Horologi Interaktif';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'penjelajahrodagigi',
+  slug: 'penjelajah-roda-gigi',
   title,
   description: 'Jelajahi jantung mekanis jam tangan dengan visualisasi roda gigi animasi. Lihat barre l mainspring, roda tengah, roda ketiga, roda keempat, roda escapement, garpu palet, dan roda keseimbangan bergerak.',
   ui: {

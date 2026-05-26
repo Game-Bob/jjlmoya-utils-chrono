@@ -36,7 +36,7 @@ const howTo = [
 const title = 'Explorador do Trem de Engrenagens: Diagrama Interativo de Relojoaria';
 
 export const content: ToolLocaleContent<GearTrainExplorerUI> = {
-  slug: 'exploradortremengrenagens',
+  slug: 'explorador-trem-engrenagens',
   title,
   description: 'Explore o coração mecânico de um relógio com uma visualização animada do trem de engrenagens. Veja a barrica, a roda central, a terceira roda, a quarta roda, a roda de escape, a âncora e o volante em movimento.',
   ui: {
