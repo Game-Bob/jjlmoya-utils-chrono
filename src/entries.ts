@@ -32,6 +32,8 @@ export { telemeterCalculator } from './tool/telemeter-calculator/entry';
 export type { TelemeterCalculatorUI, TelemeterCalculatorLocaleContent } from './tool/telemeter-calculator/entry';
 export { siderealTimeTracker } from './tool/sidereal-time-tracker/entry';
 export type { SiderealTimeTrackerUI, SiderealTimeTrackerLocaleContent } from './tool/sidereal-time-tracker/entry';
+export { gearTrainExplorer } from './tool/gear-train-explorer/entry';
+export type { GearTrainExplorerUI, GearTrainExplorerLocaleContent } from './tool/gear-train-explorer/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -51,6 +53,7 @@ import { serviceIntervalTracker } from './tool/service-interval-tracker/entry';
 import { strapLengthCalculator } from './tool/strap-length-calculator/entry';
 import { telemeterCalculator } from './tool/telemeter-calculator/entry';
 import { siderealTimeTracker } from './tool/sidereal-time-tracker/entry';
+import { gearTrainExplorer } from './tool/gear-train-explorer/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer];
 

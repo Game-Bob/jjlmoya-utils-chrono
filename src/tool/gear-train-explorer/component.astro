@@ -1,0 +1,17 @@
+---
+import GearPanel from './components/GearPanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<link href="./gear-train-explorer.css" rel="stylesheet" />
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <GearPanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>

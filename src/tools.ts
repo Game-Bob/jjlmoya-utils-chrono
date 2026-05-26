@@ -17,6 +17,7 @@ import { SERVICE_INTERVAL_TRACKER_TOOL } from './tool/service-interval-tracker';
 import { STRAP_LENGTH_CALCULATOR_TOOL } from './tool/strap-length-calculator';
 import { TELEMETER_CALCULATOR_TOOL } from './tool/telemeter-calculator';
 import { SIDEREAL_TIME_TRACKER_TOOL } from './tool/sidereal-time-tracker';
+import { GEAR_TRAIN_EXPLORER_TOOL } from './tool/gear-train-explorer';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -36,6 +37,7 @@ export const ALL_TOOLS: ToolDefinition[] = [
   STRAP_LENGTH_CALCULATOR_TOOL,
   TELEMETER_CALCULATOR_TOOL,
   SIDEREAL_TIME_TRACKER_TOOL,
+  GEAR_TRAIN_EXPLORER_TOOL,
 ];
 
 
