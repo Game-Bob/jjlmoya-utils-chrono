@@ -17,6 +17,7 @@ import { telemeterCalculator } from '../tool/telemeter-calculator/entry';
 import { siderealTimeTracker } from '../tool/sidereal-time-tracker/entry';
 import { gearTrainExplorer } from '../tool/gear-train-explorer/entry';
 import { perpetualCalendar } from '../tool/perpetual-calendar/entry';
+import { tourbillonVisualizer } from '../tool/tourbillon-visualizer/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -39,6 +40,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     siderealTimeTracker,
     gearTrainExplorer,
     perpetualCalendar,
+    tourbillonVisualizer,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

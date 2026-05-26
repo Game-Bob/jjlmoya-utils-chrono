@@ -1,0 +1,66 @@
+---
+interface Props { labels: Record<string, string>; }
+const { labels } = Astro.props;
+---
+<div class="tourb-col">
+  <div class="tourb-canvas">
+    <canvas id="tourb-canvas" width="700" height="700"></canvas>
+  </div>
+  <div class="tourb-controls">
+    <div class="tourb-block">
+      <span class="tourb-lbl">{labels.typeLabel || 'Type'}</span>
+      <span class="tourb-btns">
+        <button class="tourb-btn active" data-opt="type" data-val="classic">{labels.typeClassic || 'Classic'}</button>
+        <button class="tourb-btn" data-opt="type" data-val="flying">{labels.typeFlying || 'Flying'}</button>
+        <button class="tourb-btn" data-opt="type" data-val="gyro">Gyro</button>
+      </span>
+    </div>
+    <div class="tourb-block">
+      <span class="tourb-lbl">{labels.beatRateLabel || 'Rate'}</span>
+      <span class="tourb-btns">
+        <button class="tourb-btn" data-opt="beat" data-val="18000" title="Slow majestic beat">18k</button>
+        <button class="tourb-btn active" data-opt="beat" data-val="28800" title="Standard modern beat">28.8k</button>
+        <button class="tourb-btn" data-opt="beat" data-val="36000" title="High frequency rapid beat">36k</button>
+      </span>
+    </div>
+    <div class="tourb-block">
+      <span class="tourb-lbl">{labels.speedLabel || 'Speed'}</span>
+      <span class="tourb-btns">
+        <button class="tourb-btn" data-opt="speed" data-val="0.5">Slow</button>
+        <button class="tourb-btn active" data-opt="speed" data-val="1">1x</button>
+        <button class="tourb-btn" data-opt="speed" data-val="2">2x</button>
+        <button class="tourb-btn" data-opt="speed" data-val="5">5x</button>
+        <button class="tourb-btn" data-opt="speed" data-val="0">||</button>
+      </span>
+    </div>
+    <div class="tourb-block">
+      <span class="tourb-lbl">View</span>
+      <span class="tourb-btns">
+        <button class="tourb-btn active" data-opt="view" data-val="full">Full</button>
+        <button class="tourb-btn" data-opt="view" data-val="zoom">Zoom</button>
+      </span>
+    </div>
+  </div>
+  <div class="tourb-data">
+    <div class="tourb-cell" data-highlight="cage">
+      <span class="tourb-cell-lbl">{labels.cageRotationLabel || 'Cage'}</span>
+      <span class="tourb-cell-val" id="cage-info">0&deg;</span>
+    </div>
+    <div class="tourb-cell" data-highlight="balance">
+      <span class="tourb-cell-lbl">{labels.balanceLabel || 'Balance'}</span>
+      <span class="tourb-cell-val" id="balance-info">0 Hz</span>
+    </div>
+    <div class="tourb-cell" data-highlight="escape">
+      <span class="tourb-cell-lbl">{labels.escapeLabel || 'Escape'}</span>
+      <span class="tourb-cell-val" id="escape-info">0 rpm</span>
+    </div>
+    <div class="tourb-cell" data-highlight="pallet">
+      <span class="tourb-cell-lbl">{labels.palletLabel || 'Pallet'}</span>
+      <span class="tourb-cell-val" id="pallet-info">0 bph</span>
+    </div>
+    <div class="tourb-cell" data-highlight="hairspring">
+      <span class="tourb-cell-lbl">Spring</span>
+      <span class="tourb-cell-val" id="spring-info">4 Hz</span>
+    </div>
+  </div>
+</div>

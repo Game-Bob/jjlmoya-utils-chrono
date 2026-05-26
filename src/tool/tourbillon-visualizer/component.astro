@@ -1,0 +1,126 @@
+---
+import TourbillonPanel from './components/TourbillonPanel.astro';
+interface Props { ui: Record<string, string>; }
+const { ui } = Astro.props;
+---
+<style is:global>
+  .tool-main-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 1.25rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    box-shadow: var(--shadow-base);
+  }
+  .tourb-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .tourb-canvas {
+    width: 100%;
+  }
+  canvas#tourb-canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    background: radial-gradient(ellipse at center, #1a1a2e 0%, #0f0f1a 100%);
+    border: 1px solid rgba(212,175,55,0.15);
+  }
+  .tourb-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    background: var(--bg-page);
+    border: 1px solid var(--border-base);
+    border-radius: 0.75rem;
+  }
+  .tourb-block {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid rgba(212,175,55,0.12);
+    border-radius: 0.4rem;
+    background: color-mix(in srgb, rgba(212,175,55,0.03), var(--bg-surface));
+  }
+  .tourb-lbl {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(212,175,55,0.8);
+    white-space: nowrap;
+  }
+  .tourb-btns {
+    display: inline-flex;
+    gap: 0.15rem;
+  }
+  .tourb-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border: 1px solid rgba(212,175,55,0.15);
+    border-radius: 0.3rem;
+    background: transparent;
+    color: var(--text-base);
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .tourb-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    opacity: 1;
+  }
+  .tourb-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    opacity: 1;
+    background: color-mix(in srgb, var(--accent) 10%, var(--bg-page));
+    box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 15%, transparent);
+  }
+  .tourb-cell-val {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .tourb-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0.6rem 0.75rem;
+    background: var(--bg-page);
+    border: 1px solid var(--border-base);
+    border-radius: 0.6rem;
+  }
+  .tourb-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    cursor: default;
+    transition: background 0.2s;
+  }
+  .tourb-cell:hover {
+    background: rgba(212,175,55,0.06);
+  }
+  .tourb-cell.highlight {
+    background: rgba(212,175,55,0.1);
+    box-shadow: 0 0 6px rgba(212,175,55,0.1);
+  }
+  .tourb-cell-lbl {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-base);
+    opacity: 0.3;
+  }
+</style>
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}><TourbillonPanel labels={ui} /></div>
+<script src="./client.ts"></script>
