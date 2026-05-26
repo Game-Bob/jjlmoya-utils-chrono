@@ -1,0 +1,18 @@
+---
+interface Props { labels: Record<string, string>; }
+const { labels } = Astro.props;
+---
+
+<div class="gmt-tool">
+  <div class="gmt-search-w">
+    <input
+      type="text"
+      class="gmt-search"
+      id="gmt-search"
+      placeholder={labels.searchPlaceholder || 'Search city or time zone...'}
+      autocomplete="off"
+    />
+    <div class="gmt-dropdown" id="gmt-dropdown"></div>
+  </div>
+  <div class="gmt-grid" id="gmt-grid"></div>
+</div>

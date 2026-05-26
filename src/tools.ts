@@ -20,6 +20,7 @@ import { SIDEREAL_TIME_TRACKER_TOOL } from './tool/sidereal-time-tracker';
 import { GEAR_TRAIN_EXPLORER_TOOL } from './tool/gear-train-explorer';
 import { PERPETUAL_CALENDAR_TOOL } from './tool/perpetual-calendar';
 import { TOURBILLON_VISUALIZER_TOOL } from './tool/tourbillon-visualizer';
+import { GMT_WORLD_TIMER_TOOL } from './tool/gmt-world-timer';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -42,6 +43,7 @@ export const ALL_TOOLS: ToolDefinition[] = [
   GEAR_TRAIN_EXPLORER_TOOL,
   PERPETUAL_CALENDAR_TOOL,
   TOURBILLON_VISUALIZER_TOOL,
+  GMT_WORLD_TIMER_TOOL,
 ];
 
 
