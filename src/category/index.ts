@@ -13,6 +13,7 @@ import { moonPhaseVisualizer } from '../tool/moon-phase-visualizer/entry';
 import { tachymeterCalculator } from '../tool/tachymeter-calculator/entry';
 import { serviceIntervalTracker } from '../tool/service-interval-tracker/entry';
 import { strapLengthCalculator } from '../tool/strap-length-calculator/entry';
+import { telemeterCalculator } from '../tool/telemeter-calculator/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -31,6 +32,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     tachymeterCalculator,
     serviceIntervalTracker,
     strapLengthCalculator,
+    telemeterCalculator,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

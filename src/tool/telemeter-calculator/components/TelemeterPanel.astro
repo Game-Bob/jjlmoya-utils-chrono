@@ -1,0 +1,224 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="tel-card">
+  <div class="tel-top">
+    <h3 class="tel-h">{labels.title}</h3>
+  </div>
+
+  <div class="tel-grid">
+    <div class="tel-visualizer-section">
+      <div class="tel-lightning-overlay" id="lightning-overlay"></div>
+      <div class="tel-ripple" id="sound-ripple"></div>
+
+      <div class="tel-watch-container">
+        <svg class="tel-svg-dial" viewBox="0 0 270 270" id="tel-svg">
+          <defs>
+            <linearGradient id="tel-case-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#9ca3af" />
+              <stop offset="50%" stop-color="#4b5563" />
+              <stop offset="100%" stop-color="#1f2937" />
+            </linearGradient>
+            <radialGradient id="tel-dial-grad" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#1e293b" />
+              <stop offset="70%" stop-color="#0f172a" />
+              <stop offset="100%" stop-color="#020617" />
+            </radialGradient>
+            <linearGradient id="tel-metal-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#f3f4f6" />
+              <stop offset="30%" stop-color="#d1d5db" />
+              <stop offset="70%" stop-color="#9ca3af" />
+              <stop offset="100%" stop-color="#4b5563" />
+            </linearGradient>
+            <linearGradient id="tel-metal-grad-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#9ca3af" />
+              <stop offset="100%" stop-color="#374151" />
+            </linearGradient>
+            <marker id="tel-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--accent)" />
+            </marker>
+            <marker id="tel-arrow-gray" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--text-base)" fill-opacity="0.4" />
+            </marker>
+          </defs>
+
+          <circle class="tel-case-bg" cx="135" cy="135" r="112" />
+          <circle class="tel-bezel-bg" cx="135" cy="135" r="102" />
+          <circle class="tel-bezel-inner" cx="135" cy="135" r="82" />
+          <circle class="tel-dial-face" cx="135" cy="135" r="80" />
+
+          <g id="pusher-start" class="tel-svg-pusher" transform="translate(135, 135) rotate(-33)">
+            <rect x="110" y="-5" width="12" height="10" fill="url(#tel-metal-grad-dark)" stroke="#374151" stroke-width="0.5" />
+            <rect x="122" y="-7" width="6" height="14" rx="1.5" fill="url(#tel-metal-grad)" stroke="#1f2937" stroke-width="0.5" />
+            <rect x="100" y="-20" width="35" height="40" fill="transparent" style="cursor: pointer;" />
+          </g>
+
+          <g id="pusher-reset" class="tel-svg-pusher" transform="translate(135, 135) rotate(33)">
+            <rect x="110" y="-5" width="12" height="10" fill="url(#tel-metal-grad-dark)" stroke="#374151" stroke-width="0.5" />
+            <rect x="122" y="-7" width="6" height="14" rx="1.5" fill="url(#tel-metal-grad)" stroke="#1f2937" stroke-width="0.5" />
+            <rect x="100" y="-20" width="35" height="40" fill="transparent" style="cursor: pointer;" />
+          </g>
+
+          <g class="tel-svg-crown" transform="translate(135, 135)">
+            <rect x="110" y="-6" width="8" height="12" fill="url(#tel-metal-grad-dark)" stroke="#374151" stroke-width="0.5" />
+            <rect x="118" y="-10" width="8" height="20" rx="1.5" fill="url(#tel-metal-grad)" stroke="#1f2937" stroke-width="0.5" />
+            <line x1="120" y1="-8" x2="120" y2="8" stroke="#4b5563" stroke-width="0.5" />
+            <line x1="122" y1="-8" x2="122" y2="8" stroke="#4b5563" stroke-width="0.5" />
+            <line x1="124" y1="-8" x2="124" y2="8" stroke="#4b5563" stroke-width="0.5" />
+          </g>
+
+          <text class="tel-dial-brand" x="135" y="105" text-anchor="middle">TELEMETER</text>
+          <text class="tel-dial-subbrand" x="135" y="114" text-anchor="middle">KM (OUTER) & MI (INNER)</text>
+
+          <g id="tel-ticks"></g>
+
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(17.5, 135, 135)">1k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(35, 135, 135)">2k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(52.4, 135, 135)">3k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(70, 135, 135)">4k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(87.4, 135, 135)">5k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(174.9, 135, 135)">10k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(262, 135, 135)">15k</text>
+          <text class="tel-bezel-label-km" x="135" y="44" transform="rotate(349.5, 135, 135)">20k</text>
+
+          <text class="tel-bezel-label-mi" x="135" y="60" transform="rotate(28.1, 135, 135)">1m</text>
+          <text class="tel-bezel-label-mi" x="135" y="60" transform="rotate(56.3, 135, 135)">2m</text>
+          <text class="tel-bezel-label-mi" x="135" y="60" transform="rotate(84.4, 135, 135)">3m</text>
+          <text class="tel-bezel-label-mi" x="135" y="60" transform="rotate(112.5, 135, 135)">4m</text>
+          <text class="tel-bezel-label-mi" x="135" y="60" transform="rotate(140.7, 135, 135)">5m</text>
+          <text class="tel-bezel-label-mi" x="135" y="60" transform="rotate(281.4, 135, 135)">10m</text>
+
+          <text class="tel-helper-text" x="175" y="16" text-anchor="middle">START/STOP</text>
+          <path d="M 180 20 Q 220 20 236 50" fill="none" stroke="var(--accent)" stroke-width="1.25" stroke-dasharray="2,2" marker-end="url(#tel-arrow)" />
+
+          <text class="tel-helper-text tel-helper-text-gray" x="175" y="258" text-anchor="middle">RESET</text>
+          <path d="M 180 254 Q 220 254 236 224" fill="none" stroke="var(--text-base)" stroke-opacity="0.4" stroke-width="1.25" stroke-dasharray="2,2" marker-end="url(#tel-arrow-gray)" />
+
+          <text class="tel-digital-time" id="dial-digital-time" x="135" y="170" text-anchor="middle">00.0s</text>
+          <text class="tel-ambient-indicator" id="dial-ambient-indicator" x="135" y="190" text-anchor="middle">20.0°C</text>
+
+          <g class="tel-seconds-hand-group" id="seconds-hand-group">
+            <line class="tel-seconds-hand" x1="135" y1="135" x2="135" y2="40" />
+            <line class="tel-seconds-hand-counterweight" x1="135" y1="135" x2="135" y2="148" />
+            <circle class="tel-hand-center" cx="135" cy="135" r="5" />
+            <circle class="tel-center-pin" cx="135" cy="135" r="2" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="tel-controls-section">
+      <div class="tel-trigger-dashboard">
+        <button type="button" class="tel-trigger-pad pad-flash" id="btn-flash">
+          <div class="pad-icon-wrap">
+            <svg class="pad-icon" viewBox="0 0 24 24" width="18" height="18">
+              <path d="M7 2v11h3v9l7-12h-4l4-8H7z" fill="currentColor"></path>
+            </svg>
+          </div>
+          <div class="pad-content">
+            <span class="pad-title">{labels.triggerFlash}</span>
+            <span class="pad-desc">See visual event</span>
+          </div>
+        </button>
+
+        <button type="button" class="tel-trigger-pad pad-sound" id="btn-sound" disabled>
+          <div class="pad-icon-wrap">
+            <svg class="pad-icon" viewBox="0 0 24 24" width="18" height="18">
+              <path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.07-.91 7-4.49 7-8.77s-2.93-7.86-7-8.77zm2.5 8.77c0-1.77-1-3.29-2.5-4.03v8.05c1.5-.73 2.5-2.25 2.5-4.02zM3 9v6h4l5 5V4L7 9H3z" fill="currentColor"></path>
+            </svg>
+          </div>
+          <div class="pad-content">
+            <span class="pad-title">{labels.triggerSound}</span>
+            <span class="pad-desc">Hear acoustic event</span>
+          </div>
+        </button>
+      </div>
+
+      <div class="tel-reset-bar">
+        <button type="button" class="tel-reset-btn" id="btn-reset" disabled>
+          <svg viewBox="0 0 24 24" width="14" height="14">
+            <path d="M17.65 6.35A7.958 7.958 0 0012 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0112 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z" fill="currentColor"></path>
+          </svg>
+          <span>{labels.reset}</span>
+        </button>
+      </div>
+
+      <div class="tel-setting-panel">
+        <div class="tel-field">
+          <div class="tel-label-row">
+            <span class="tel-label">{labels.unitSystem}</span>
+            <div class="tel-unit-chips">
+              <button type="button" class="tel-chip-btn active" data-unit="metric">{labels.metric}</button>
+              <button type="button" class="tel-chip-btn" data-unit="imperial">{labels.imperial}</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tel-field">
+          <div class="tel-label-row">
+            <span class="tel-label">{labels.temperature}</span>
+            <span class="tel-label-value" id="temp-display">20°C</span>
+          </div>
+          <div class="tel-slider-wrapper">
+            <input type="range" class="tel-slider" id="temp-slider" min="-20" max="50" value="20" step="1" />
+          </div>
+        </div>
+
+        <div class="tel-field">
+          <span class="tel-label">{labels.speedOfSound}</span>
+          <span class="tel-speed-badge" id="speed-display">343.3 m/s</span>
+        </div>
+      </div>
+
+      <div class="tel-results-panel">
+        <div class="tel-results-primary">
+          <span class="tel-label">{labels.distanceResult}</span>
+          <span class="tel-results-val" id="result-primary">0.00 km</span>
+          <span class="tel-results-subval" id="result-secondary">0 m</span>
+        </div>
+        <div class="tel-results-details">
+          <div class="tel-detail-item">
+            <span class="tel-detail-lbl">{labels.elapsedTime}</span>
+            <span class="tel-detail-val" id="result-time">0.00 s</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tel-steps-section">
+        <div class="tel-step-row">
+          <div class="tel-step-marker">1</div>
+          <span class="tel-step-text">{labels.step1}</span>
+        </div>
+        <div class="tel-step-row">
+          <div class="tel-step-marker">2</div>
+          <span class="tel-step-text">{labels.step2}</span>
+        </div>
+        <div class="tel-step-row">
+          <div class="tel-step-marker">3</div>
+          <span class="tel-step-text">{labels.step3}</span>
+        </div>
+      </div>
+
+      <div class="tel-tip-row">
+        <svg class="tel-tip-icon" viewBox="0 0 24 24" width="16" height="16">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"></path>
+        </svg>
+        <span class="tel-tip-text">{labels.tipContent}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tel-history-section">
+    <div class="tel-history-header">
+      <h4 class="tel-history-title">{labels.historyTitle}</h4>
+    </div>
+    <div class="tel-history-list" id="history-list">
+      <div class="tel-empty-history" id="empty-history">{labels.noHistory}</div>
+    </div>
+  </div>
+</div>
