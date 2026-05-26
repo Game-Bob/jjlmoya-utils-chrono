@@ -30,7 +30,7 @@ export type TourbillonLocaleContent = ToolLocaleContent<TourbillonUI>;
 
 export const tourbillonVisualizer: ChronoToolEntry<TourbillonUI> = {
   id: 'tourbillon-visualizer',
-  icons: { bg: 'mdi:rotate-orbit', fg: 'mdi:circle-ring' },
+  icons: { bg: 'mdi:rotate-orbit', fg: 'mdi:circle-outline' },
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),
     en: () => import('./i18n/en').then((m) => m.content),
