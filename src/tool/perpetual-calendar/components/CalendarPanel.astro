@@ -1,0 +1,49 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<div class="calendar-layout">
+  <div class="dial-section">
+    <canvas id="calendar-canvas" width="600" height="600"></canvas>
+    <div class="date-overlay" id="cal-date-header">
+      <span class="date-weekday" id="cal-weekday-header">Tuesday</span>
+      <span class="date-full" id="cal-date-full">May 26, 2026</span>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-group">
+      <div class="sidebar-label">{labels.dateLabel || 'Navigate'}</div>
+      <div class="sidebar-buttons">
+        <button data-action="day-prev" title="Day -1">&#9664;D</button>
+        <button data-action="day-next" title="Day +1">D&#9654;</button>
+        <button data-action="month-next" title="Month +1">M&#9654;</button>
+        <button data-action="year-next" title="Year +1">Y&#9654;</button>
+      </div>
+    </div>
+
+    <div class="sidebar-group">
+      <div class="sidebar-label">{labels.autoPlay || 'Auto'}</div>
+      <div class="sidebar-buttons">
+        <button class="play-btn" data-action="play" title="Auto advance">&#9654;</button>
+        <button data-action="reset" title="Reset to today">&#9673;</button>
+      </div>
+    </div>
+
+    <div class="sidebar-group">
+      <div class="sidebar-label">Info</div>
+      <div class="sidebar-info" id="cal-info">
+        <div class="sidebar-row"><span class="slbl">{labels.dateLabel || 'Date'}</span><span class="sval" id="cal-date">1</span></div>
+        <div class="sidebar-row"><span class="slbl">{labels.weekdayLabel || 'Day'}</span><span class="sval" id="cal-weekday">Mon</span></div>
+        <div class="sidebar-row"><span class="slbl">{labels.monthLabel || 'Month'}</span><span class="sval" id="cal-month">Jan</span></div>
+        <div class="sidebar-row"><span class="slbl">{labels.yearLabel || 'Year'}</span><span class="sval" id="cal-year">2024</span></div>
+        <div class="sidebar-row"><span class="slbl">{labels.leapYearLabel || 'Leap'}</span><span class="sval" id="cal-leap">No</span></div>
+        <div class="sidebar-row"><span class="slbl">{labels.moonPhaseLabel || 'Moon'}</span><span class="sval" id="cal-moon">New</span></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+---
+import CalendarPanel from './components/CalendarPanel.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<link href="./perpetual-calendar.css" rel="stylesheet" />
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <CalendarPanel labels={ui} />
+</div>
+
+<script src="./client.ts"></script>

@@ -16,6 +16,7 @@ import { strapLengthCalculator } from '../tool/strap-length-calculator/entry';
 import { telemeterCalculator } from '../tool/telemeter-calculator/entry';
 import { siderealTimeTracker } from '../tool/sidereal-time-tracker/entry';
 import { gearTrainExplorer } from '../tool/gear-train-explorer/entry';
+import { perpetualCalendar } from '../tool/perpetual-calendar/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -37,6 +38,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     telemeterCalculator,
     siderealTimeTracker,
     gearTrainExplorer,
+    perpetualCalendar,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

@@ -1,0 +1,85 @@
+import type { ToolLocaleContent } from '../../../types';
+import type { PerpetualCalendarUI } from '../entry';
+import { bibliography } from '../bibliography';
+import { buildSchemas } from '../helpers';
+
+const faq = [
+  {
+    question: '什么是手表的万年历？',
+    answer: '万年历是一种机械式手表复杂功能，可自动显示正确的日期、星期、月份和月相，同时考虑不同长度的月份和闰年。它被编程为精确到2100年（下一个不能被400整除的世纪年）。',
+  },
+  {
+    question: '万年历如何知道闰年？',
+    answer: '机械程序使用带有特殊设计凸轮的48个月（4年）齿轮，该凸轮考虑到2月29日。该机制知道能被100整除的年份不是闰年，除非它们也能被400整除。大多数万年历精确到2100年，届时将需要一天的修正。',
+  },
+  {
+    question: '万年历和年历有什么区别？',
+    answer: '年历每年需要一次手动校正（2月底），而万年历自动处理闰年并持续正确运行数十年。万年历在机械上要复杂得多。',
+  },
+];
+
+const howTo = [
+  {
+    name: '前进日期',
+    text: '使用D（日）、M（月）和Y（年）按钮向前推进日历。观察日期指针移动和月份窗口变化。',
+  },
+  {
+    name: '观察闰年过渡',
+    text: '在闰年（例如2024年）的2月中前进，查看从29日跳转到3月1日。尝试非闰年查看从28日跳转到3月1日。',
+  },
+  {
+    name: '使用自动播放',
+    text: '按播放键让日历自动前进。这将显示完整的月份长度周期和月相进展。',
+  },
+];
+
+const title = '万年历模拟器：交互式手表复杂功能';
+
+export const content: ToolLocaleContent<PerpetualCalendarUI> = {
+  slug: 'perpetual-calendar',
+  title,
+  description: '探索万年历手表复杂功能的机械天才。通过动画表盘可视化日期、星期、月份、闰年周期和月相。',
+  ui: {
+    title: '万年历模拟器',
+    dateLabel: '日期',
+    dayLabel: '日',
+    monthLabel: '月',
+    yearLabel: '年',
+    leapYearLabel: '闰年',
+    moonPhaseLabel: '月相',
+    weekdayLabel: '星期',
+    advanceDay: '前进一天',
+    advanceMonth: '前进一月',
+    advanceYear: '前进一年',
+    autoPlay: '自动',
+    resetBtn: '今天',
+    dayNames: '星期日,星期一,星期二,星期三,星期四,星期五,星期六',
+    monthNames: '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月',
+    tipTitle: '小贴士',
+    tipContent: '大多数万年历手表使用带有可变长度凹口的48个月程序轮。二月的凹口最短（平年28天，闰年29天），而30天和31天的月份拥有逐渐变长的凹口。',
+    step1: '一天天经过二月，观察机制如何处理月末过渡。',
+    step2: '观察月相指示器经过其29.5天周期的进展。',
+    step3: '比较闰年和平年的二月过渡，以理解4年周期。',
+  },
+  seo: [
+    { type: 'title', text: '万年历模拟器：交互式复杂功能', level: 2 },
+    { type: 'paragraph', html: '<strong>万年历</strong>是高级制表中最负盛名的复杂功能之一。此交互式模拟器可视化机械万年历如何跟踪日期、星期、月份、闰年和月相——数十年无需手动校正。探索48个月齿轮程序，查看二月过渡如何工作，并理解融入这些微机械杰作中的格里高利历逻辑。' },
+    { type: 'title', text: '万年历的工作原理', level: 3 },
+    { type: 'paragraph', html: '机械万年历使用带有不同深度凹口的<strong>程序轮</strong>来表示不同长度的月份。感应杆落入每个凹口；较深的凹口表示短月（28-29天），触发机制在正确的天数后跳转到下个月的第1天。<strong>48个月齿轮</strong>处理4年的闰年周期，为2月29日设有一个额外凹口。程序知道世纪年（例如2100年）除非能被400整除，否则跳过闰年。' },
+    { type: 'title', text: '比较：万年历 vs 年历', level: 3 },
+    {
+      type: 'table', headers: ['特点', '年历', '万年历'], rows: [
+        ['需要调整', '每年一次（3月1日）', '每世纪一次（2100年）'],
+        ['闰年处理', '手动', '自动（4年凸轮）'],
+        ['月份识别', '30日 vs 31日', '完整28/29/30/31'],
+        ['复杂度', '中等（约50个零件）', '非常高（200+个零件）'],
+        ['价格范围', '€3,000-15,000', '€20,000-500,000+'],
+      ]
+    },
+    { type: 'diagnostic', variant: 'info', title: '交互式日历模拟器', icon: 'mdi:calendar-month', badge: '钟表学', html: '此工具模拟万年历手表的日历机制。动画表盘显示日期指针、月份窗口、日子表盘、月相和闰年指示器。使用控制前进日、月或年，观察机械逻辑的运行。' },
+  ],
+  faq,
+  bibliography,
+  howTo,
+  schemas: buildSchemas(title, faq, howTo),
+};
