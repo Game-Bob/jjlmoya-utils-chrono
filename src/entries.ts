@@ -42,6 +42,8 @@ export { gmtWorldTimer } from './tool/gmt-world-timer/entry';
 export type { GMTWorldTimerUI, GMTWorldTimerLocaleContent } from './tool/gmt-world-timer/entry';
 export { quartzBatteryHealth } from './tool/quartz-battery-health/entry';
 export type { QuartzBatteryHealthUI, QuartzBatteryHealthLocaleContent } from './tool/quartz-battery-health/entry';
+export { mainspringFinder } from './tool/mainspring-finder/entry';
+export type { MainspringFinderUI, MainspringFinderLocaleContent } from './tool/mainspring-finder/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -66,6 +68,7 @@ import { perpetualCalendar } from './tool/perpetual-calendar/entry';
 import { tourbillonVisualizer } from './tool/tourbillon-visualizer/entry';
 import { gmtWorldTimer } from './tool/gmt-world-timer/entry';
 import { quartzBatteryHealth } from './tool/quartz-battery-health/entry';
+import { mainspringFinder } from './tool/mainspring-finder/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer, perpetualCalendar, tourbillonVisualizer, gmtWorldTimer, quartzBatteryHealth];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer, perpetualCalendar, tourbillonVisualizer, gmtWorldTimer, quartzBatteryHealth, mainspringFinder];
 

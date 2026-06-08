@@ -5,7 +5,7 @@ import { chronoCategory } from '../data';
 describe('Tool Validation Suite', () => {
   describe('Library Registration', () => {
     it('should have tools in ALL_TOOLS', () => {
-      expect(ALL_TOOLS.length).toBe(22);
+      expect(ALL_TOOLS.length).toBe(23);
     });
 
 

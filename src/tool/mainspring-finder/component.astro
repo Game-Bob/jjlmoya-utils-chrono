@@ -1,0 +1,73 @@
+---
+interface Props { ui: Record<string, string> }
+const { ui } = Astro.props;
+---
+
+<div class="msf" data-ui={JSON.stringify(ui)}>
+  <div class="msf-top">
+    <h2 class="msf-h">{ui.title || "Mainspring Finder"}</h2>
+    <div class="msf-u">
+      <button class="msf-u-btn msf-u-on" data-unit="mm" type="button">{ui.mm || "mm"}</button>
+      <button class="msf-u-btn" data-unit="in" type="button">{ui.inch || "in"}</button>
+    </div>
+  </div>
+
+  <div class="msf-grid">
+    <label class="msf-f">
+      <span class="msf-f-l">{ui.barrelLabel || "Barrel ID"}</span>
+      <input class="msf-f-i" id="msf-barrel" type="number" min="5" max="50" step="0.1" value="14" />
+    </label>
+    <label class="msf-f">
+      <span class="msf-f-l">{ui.arborLabel || "Arbor OD"}</span>
+      <input class="msf-f-i" id="msf-arbor" type="number" min="1" max="20" step="0.1" value="3.5" />
+    </label>
+    <label class="msf-f">
+      <span class="msf-f-l">{ui.heightLabel || "Height"}</span>
+      <input class="msf-f-i" id="msf-height" type="number" min="0.5" max="10" step="0.05" value="1.5" />
+    </label>
+    <label class="msf-f">
+      <span class="msf-f-l">{ui.turnsLabel || "Turns"}</span>
+      <input class="msf-f-i" id="msf-turns" type="number" min="3" max="15" step="1" value="6" />
+    </label>
+  </div>
+
+  <div class="msf-r" id="msf-result">
+    <div class="msf-r-grid">
+      <div class="msf-r-c">
+        <span class="msf-r-c-l">{ui.resultThickness || "Thickness"}</span>
+        <span class="msf-r-c-v" id="msf-thick">--</span>
+      </div>
+      <div class="msf-r-c">
+        <span class="msf-r-c-l">{ui.resultHeight || "Height"}</span>
+        <span class="msf-r-c-v" id="msf-h">--</span>
+      </div>
+      <div class="msf-r-c">
+        <span class="msf-r-c-l">{ui.resultLength || "Length"}</span>
+        <span class="msf-r-c-v" id="msf-len">--</span>
+      </div>
+    </div>
+    <div class="msf-r-bot">
+      <div class="msf-r-bot-i">
+        <span class="msf-r-bot-l">{ui.resultStrength || "Strength"}</span>
+        <span class="msf-badge" id="msf-strength">--</span>
+      </div>
+      <div class="msf-r-bot-i">
+        <span class="msf-r-bot-l">{ui.commercial || "Size"}</span>
+        <span class="msf-r-bot-v" id="msf-comm">--</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="msf-steps">
+    <div class="msf-step"><span class="msf-step-n">1</span><span>{ui.step1 || "Measure barrel ID, arbor OD, and height."}</span></div>
+    <div class="msf-step"><span class="msf-step-n">2</span><span>{ui.step2 || "Set winding turns (5-8 manual, 6-10 auto)."}</span></div>
+    <div class="msf-step"><span class="msf-step-n">3</span><span>{ui.step3 || "Toggle mm/in for your unit."}</span></div>
+  </div>
+
+  <div class="msf-tip">
+    <svg viewBox="0 0 24 24" width="14" height="14" style="flex-shrink:0;margin-top:0.05rem"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg>
+    <span>{ui.tipContent || "Always verify against manufacturer specs before ordering."}</span>
+  </div>
+</div>
+
+<script src="./client.ts"></script>

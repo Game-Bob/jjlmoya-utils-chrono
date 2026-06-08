@@ -16,6 +16,7 @@ export { tachymeterCalculator, TACHYMETER_CALCULATOR_TOOL } from './tool/tachyme
 export { serviceIntervalTracker, SERVICE_INTERVAL_TRACKER_TOOL } from './tool/service-interval-tracker';
 export { strapLengthCalculator, STRAP_LENGTH_CALCULATOR_TOOL } from './tool/strap-length-calculator';
 export { quartzBatteryHealth, QUARTZ_BATTERY_HEALTH_TOOL } from './tool/quartz-battery-health';
+export { mainspringFinder, MAINSPRING_FINDER_TOOL } from './tool/mainspring-finder';
 
 export type {
   KnownLocale,
