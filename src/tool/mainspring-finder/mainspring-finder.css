@@ -47,7 +47,7 @@
 
 .msf-u-on {
   background: var(--accent, #6366f1);
-  color: #fff;
+  color: var(--color-white, #fff);
 }
 
 .msf-grid {
@@ -106,7 +106,16 @@
   animation: msf-in 0.25s ease;
 }
 
-@keyframes msf-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes msf-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .msf-r-grid {
   display: grid;
@@ -172,13 +181,12 @@
   border-radius: 99px;
   font-size: 0.68rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-white, #fff);
 }
 
 .msf-r-bot-v {
   font-size: 0.78rem;
   font-weight: 700;
-  font-family: 'Courier New', monospace;
   font-variant-numeric: tabular-nums;
   opacity: 0.85;
 }
