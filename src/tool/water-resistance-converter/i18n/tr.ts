@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Derin / Satürasyon Dalışı',
     saturationDivingDesc: 'Profesyonel satürasyon dalışı. Aşırı derinlikler. Helyum kaçış vanası bağlamı.',
     tipTitle: 'İpucu',
-    tipContent: 'Su direnci zamanla azalır. Contalar yıllık olarak test edilmeli ve her 3\u20135 yılda bir değiştirilmelidir.',
+    tipContent: 'Su direnci zamanla azalır. Contalar yıllık olarak test edilmeli ve her 3-5 yılda bir değiştirilmelidir.',
   },
   seo: [
     { type: 'title', text: 'Saat Su Direnci Dönüştürücü-tre, ATM, Bar & Fit değerlerini anlama', level: 2 },

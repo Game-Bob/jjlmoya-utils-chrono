@@ -34,23 +34,23 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
     tipContent: 'Mesin manual hanya terisi saat Anda memutar mahkota. Mesin otomatis juga terisi saat Anda memakainya.',
   },
   seo: [
-    { type: 'title', text: 'Estimator Cadangan Daya Arloji \u2014 Berapa Sisa Cadangan Mesin Anda?', level: 2 },
+    { type: 'title', text: 'Estimator Cadangan Daya Arloji - Berapa Sisa Cadangan Mesin Anda?', level: 2 },
     { type: 'paragraph', html: 'Penasaran berapa banyak daya yang tersisa di arloji mekanik Anda? Baik Anda memutar mahkota pagi ini atau memakainya sepanjang hari, estimator ini memberi tahu perkiraan level pengisian dan jam tersisa untuk kaliber populer seperti <strong>ETA, Sellita, Miyota, Seiko, dan Rolex</strong>.' },
     { type: 'title', text: 'Bagaimana Cadangan Daya Bekerja pada Arloji Mekanik', level: 3 },
-    { type: 'paragraph', html: 'Cadangan daya adalah jumlah energi yang tersimpan di pegas utama. Saat Anda memutar mahkota, Anda mengencangkan pegas utama, menyimpan energi potensial. Rotor otomatis juga mengencangkan pegas utama saat Anda memakai arloji. Energi kemudian terkuras pada tingkat yang stabil \u2014 biasanya 2\u20133% per jam \u2014 hingga arloji berhenti.' },
+    { type: 'paragraph', html: 'Cadangan daya adalah jumlah energi yang tersimpan di pegas utama. Saat Anda memutar mahkota, Anda mengencangkan pegas utama, menyimpan energi potensial. Rotor otomatis juga mengencangkan pegas utama saat Anda memakai arloji. Energi kemudian terkuras pada tingkat yang stabil - biasanya 2-3% per jam - hingga arloji berhenti.' },
     { type: 'title', text: 'Putaran Mahkota vs. Pengisian Rotor', level: 3 },
-    { type: 'paragraph', html: 'Pengisian manual melalui mahkota adalah cara paling efisien untuk mengisi arloji \u2014 setiap putaran penuh menambah jumlah energi yang dapat diprediksi, biasanya sekitar 2,5% dari total cadangan. Memakai arloji mengisi lebih lambat dan tergantung pada tingkat aktivitas Anda: pekerja kantoran mungkin mengisi 4\u20136% per jam, sementara orang yang aktif mungkin mengisi 8\u201310%. Estimator ini menggunakan rata-rata konservatif.' },
+    { type: 'paragraph', html: 'Pengisian manual melalui mahkota adalah cara paling efisien untuk mengisi arloji - setiap putaran penuh menambah jumlah energi yang dapat diprediksi, biasanya sekitar 2,5% dari total cadangan. Memakai arloji mengisi lebih lambat dan tergantung pada tingkat aktivitas Anda: pekerja kantoran mungkin mengisi 4-6% per jam, sementara orang yang aktif mungkin mengisi 8-10%. Estimator ini menggunakan rata-rata konservatif.' },
     { type: 'title', text: 'Mengapa Perkiraan Cadangan Daya Penting', level: 3 },
     { type: 'paragraph', html: 'Mengetahui level pengisian arloji Anda membantu menghindari berhenti yang tidak terduga. Arloji yang mati di malam hari mungkin perlu lebih banyak putaran sebelum tidur, atau mungkin tidak cukup dipakai. Gunakan alat ini untuk memahami kebiasaan pengisian Anda dan menjaga arloji otomatis tetap berjalan.' },
   ],
   faq: [
     {
       question: 'Berapa banyak satu putaran mahkota mengisi arloji?',
-      answer: 'Tergantung pada mesinnya. Sebagian besar kaliber otomatis mencapai pengisian penuh dalam 30\u201340 putaran, jadi setiap putaran menambah sekitar 2,5\u20133,3% dari total cadangan. Mesin manual seperti Unitas 6498 juga membutuhkan sekitar 35 putaran untuk pengisian penuh.',
+      answer: 'Tergantung pada mesinnya. Sebagian besar kaliber otomatis mencapai pengisian penuh dalam 30-40 putaran, jadi setiap putaran menambah sekitar 2,5-3,3% dari total cadangan. Mesin manual seperti Unitas 6498 juga membutuhkan sekitar 35 putaran untuk pengisian penuh.',
     },
     {
       question: 'Apakah memakai arloji mengisinya sama seperti memutar?',
-      answer: 'Memakai mengisi lebih lambat dan bervariasi. Di pekerjaan meja, Anda mungkin mengisi 4\u20136% per jam melalui rotor. Saat bergerak aktif (jalan, olahraga), bisa mencapai 8\u201310% per jam. Memutar dengan tangan lebih cepat dan lebih dapat diprediksi.',
+      answer: 'Memakai mengisi lebih lambat dan bervariasi. Di pekerjaan meja, Anda mungkin mengisi 4-6% per jam melalui rotor. Saat bergerak aktif (jalan, olahraga), bisa mencapai 8-10% per jam. Memutar dengan tangan lebih cepat dan lebih dapat diprediksi.',
     },
     {
       question: 'Berapa banyak cadangan yang hilang per jam?',

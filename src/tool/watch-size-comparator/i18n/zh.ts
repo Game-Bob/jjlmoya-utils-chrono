@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'watch-size-comparator',
-  title: '手表尺寸对比器 — 腕上佩戴效果预览',
+  title: '手表尺寸对比器: 腕上佩戴效果预览',
   description: '直观对比不同手表的表壳尺寸。输入表径、表耳间距和手腕周长，买前先看佩戴效果。',
   ui: {
     title: '手表尺寸对比器',
@@ -42,8 +42,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: '输入尺寸并添加手表，查看佩戴效果。',
   },
   seo: [
-    { type: 'title', text: '手表尺寸对比器 — 腕上佩戴效果预览', level: 2 },
-    { type: 'paragraph', html: '想知道一块 <strong>42mm 的手表</strong>戴在 <strong>17cm 的手腕</strong>上效果如何？或者 48mm 的表耳间距会不会超出手腕？手表尺寸对比器给你直观的答案。输入表径、表耳间距、厚度和手腕尺寸，工具会按比例绘制手表，并用颜色标注佩戴效果——从 <span style="color:#22c55e">绿色（优秀）</span>到 <span style="color:#ef4444">红色（偏大）</span>。同时支持 <strong>公制与英制</strong> 单位。' },
+    { type: 'title', text: '手表尺寸对比器 - 腕上佩戴效果预览', level: 2 },
+    { type: 'paragraph', html: '想知道一块 <strong>42mm 的手表</strong>戴在 <strong>17cm 的手腕</strong>上效果如何？或者 48mm 的表耳间距会不会超出手腕？手表尺寸对比器给你直观的答案。输入表径、表耳间距、厚度和手腕尺寸，工具会按比例绘制手表，并用颜色标注佩戴效果-从 <span style="color:#22c55e">绿色（优秀）</span>到 <span style="color:#ef4444">红色（偏大）</span>。同时支持 <strong>公制与英制</strong> 单位。' },
     { type: 'title', text: '手表尺寸术语表', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,12 +79,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: '表耳间距才是真正的限制因素', icon: 'mdi:ruler', html: '大多数人只关注 <strong>表壳直径</strong>，但 <strong>表耳间距</strong> 才是决定手表是否适合你的关键。一块表耳间距 48mm 的手表戴在 55mm 平面宽度（17cm 周长）的手腕上，占据手腕宽度的 87%。超过 65% 时，表耳就开始接近手腕边缘。<strong>务必先看表耳间距。</strong>' },
 
-    { type: 'tip', title: '厘米还是英寸？用你习惯的单位就好', html: '本工具同时支持公制和英制。用你日常习惯的单位测量手腕即可。手表表壳尺寸 <strong>始终使用毫米</strong>（即使在美国也是如此），因此表径和表耳间距保持 mm 不变——只有手腕测量值可以切换。这与手表行业的实际做法一致。' },
+    { type: 'tip', title: '厘米还是英寸？用你习惯的单位就好', html: '本工具同时支持公制和英制。用你日常习惯的单位测量手腕即可。手表表壳尺寸 <strong>始终使用毫米</strong>（即使在美国也是如此），因此表径和表耳间距保持 mm 不变-只有手腕测量值可以切换。这与手表行业的实际做法一致。' },
 
     {
       type: 'summary', title: '购买前快速检查清单', items: [
         '测量手腕周长并输入工具中。',
-        '查看手表的表耳间距——不仅仅是表壳直径。',
+        '查看手表的表耳间距-不仅仅是表壳直径。',
         '手表应占据手腕平面宽度的 60-75%，以达到经典协调的佩戴效果。',
         '如果表耳超出你的手腕边缘，无论表径大小，手表都会感觉偏大。',
         '在购买前使用工具并排对比多块手表。',

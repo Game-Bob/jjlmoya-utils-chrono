@@ -53,7 +53,7 @@ export const content: ToolLocaleContent<StrapLengthCalculatorUI> = {
     },
     {
       type: 'title',
-      text: 'Comprendre les bracelets deux pièces : côté long vs. côté court',
+      text: 'Comprendre les bracelets deux pièces: côté long vs. côté court',
       level: 3,
     },
     {

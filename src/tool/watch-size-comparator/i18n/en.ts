@@ -43,7 +43,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   },
   seo: [
     { type: 'title', text: 'Watch Size Comparator: Visual Fit on Your Wrist', level: 2 },
-    { type: 'paragraph', html: 'Wondering if a <strong>42mm watch</strong> will fit your <strong>17cm wrist</strong>? Or whether that 48mm lug-to-lug will overhang? The Watch Size Comparator gives you a visual answer. Enter your case diameter, lug-to-lug, thickness, and wrist size—the tool draws the watch to scale and colors the fit from <span style="color:#22c55e">green (excellent)</span> to <span style="color:#ef4444">red (too large)</span>. Works in both <strong>metric and imperial</strong> units.' },
+    { type: 'paragraph', html: 'Wondering if a <strong>42mm watch</strong> will fit your <strong>17cm wrist</strong>? Or whether that 48mm lug-to-lug will overhang? The Watch Size Comparator gives you a visual answer. Enter your case diameter, lug-to-lug, thickness, and wrist size-the tool draws the watch to scale and colors the fit from <span style="color:#22c55e">green (excellent)</span> to <span style="color:#ef4444">red (too large)</span>. Works in both <strong>metric and imperial</strong> units.' },
     { type: 'title', text: 'Watch Size Glossary', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,12 +79,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'Lug to Lug Is the Real Fit Limit', icon: 'mdi:ruler', html: 'Most people focus on <strong>case diameter</strong>, but <strong>lug-to-lug</strong> is what determines if a watch fits your wrist. A watch with 48mm L2L on a 55mm flat wrist (17cm circumference) takes up 87% of the wrist width. Above 65% the lugs start to approach the edge of your wrist. <strong>Always check L2L first.</strong>' },
 
-    { type: 'tip', title: 'CM or Inches? Use What You Know', html: 'The tool now supports both metric and imperial. Measure your wrist in whatever system you use daily. Watch case dimensions are <strong>always in millimeters</strong> (even in the US), so diameters and L2L stay in mm—only the wrist measurement toggles. This matches how the watch industry works.' },
+    { type: 'tip', title: 'CM or Inches? Use What You Know', html: 'The tool now supports both metric and imperial. Measure your wrist in whatever system you use daily. Watch case dimensions are <strong>always in millimeters</strong> (even in the US), so diameters and L2L stay in mm-only the wrist measurement toggles. This matches how the watch industry works.' },
 
     {
       type: 'summary', title: 'Quick Fit Checklist Before You Buy', items: [
         'Measure your wrist circumference and enter it in the tool.',
-        'Look up the watch\'s lug-to-lug—not just the case diameter.',
+        'Look up the watch\'s lug-to-lug-not just the case diameter.',
         'The watch should take up 60-75% of your flat wrist width for a classic fit.',
         'If the lugs overhang your wrist edges, the watch will feel too large regardless of diameter.',
         'Use the tool to compare multiple watches side by side before making a purchase decision.',

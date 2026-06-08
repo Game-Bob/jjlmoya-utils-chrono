@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'moon-phase-visualizer',
-  title: 'ムーンフェイズビジュアライザー—月相カレンダー＆腕時計ムーンフェイズ設定ツール',
+  title: 'ムーンフェイズビジュアライザー 月相カレンダー＆腕時計ムーンフェイズ設定ツール',
   description: '現在の月相、照度、月齢、次の満月・新月をビジュアル表示。腕時計のムーンフェイズ複雑機構の設定に最適です。',
   ui: {
     title: 'ムーンフェイズビジュアライザー',
@@ -31,7 +31,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: '日',
   },
   seo: [
-    { type: 'title', text: 'ムーンフェイズビジュアライザー—月相確認ツール＆腕時計設定ガイド', level: 2 },
+    { type: 'title', text: 'ムーンフェイズビジュアライザー-月相確認ツール＆腕時計設定ガイド', level: 2 },
     { type: 'paragraph', html: 'ムーンフェイズビジュアライザーは、<strong>現在の月相</strong>をリアルな描画で表示します。<strong>照度、月齢、次の満月・新月までの日数</strong>も確認可能。ムーンフェイズ複雑機構を正確に設定したい腕時計愛好家に最適なツールです。過去や未来の任意の日付でも月相を確認できます。' },
     { type: 'title', text: '月相用語集', level: 3 },
     {

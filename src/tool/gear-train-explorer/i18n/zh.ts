@@ -64,13 +64,13 @@ export const content: ToolLocaleContent<GearTrainExplorerUI> = {
     step2: '悬停在任何齿轮或数据卡上以突出其在动力流中的位置。',
     step3: '调整动画速度以研究每个轮子如何通过齿轮系传递动力。',
     tipTitle: '小贴士',
-    tipContent: '齿轮系将发条的快速能量释放转化为受控的振荡。典型的发条盒每7-8小时旋转一次，而擒纵轮以32 rpm的速度旋转（在28,800 VPH时）——超过15,000:1的减速比。',
+    tipContent: '齿轮系将发条的快速能量释放转化为受控的振荡。典型的发条盒每7-8小时旋转一次，而擒纵轮以32 rpm的速度旋转（在28,800 VPH时）-超过15,000:1的减速比。',
   },
   seo: [
     { type: 'title', text: '交互式齿轮系探索者', level: 2 },
     { type: 'paragraph', html: '<strong>齿轮系</strong>是每个机械表的机械骨干。这个交互式工具可视化动力如何从发条盒通过中心轮、三轮、四轮和擒纵轮流向擒纵叉和摆轮。观看每个齿轮以成比例的速度旋转，并了解齿轮比如何决定计时。' },
     { type: 'title', text: '手表齿轮系的工作原理', level: 3 },
-    { type: 'paragraph', html: '手表的齿轮系由一系列<strong>轮子</strong>（大齿轮）和<strong>齿轴</strong>（小齿轮）组成，在传递动力的同时降低速度。<strong>发条盒</strong>容纳主发条并缓慢旋转，驱动每小时旋转一次（用于分针）的<strong>中心轮</strong>。<strong>三轮</strong>和<strong>四轮</strong>（秒轮）进一步提高旋转速度。最后，<strong>擒纵轮</strong>以受控的滴答声将动力释放给<strong>擒纵叉</strong>，擒纵叉交替锁定和解锁擒纵轮，向<strong>摆轮</strong>发送脉冲。摆轮以精确的频率振荡——通常为4 Hz（每小时28,800次振动）——调节手表的速率。' },
+    { type: 'paragraph', html: '手表的齿轮系由一系列<strong>轮子</strong>（大齿轮）和<strong>齿轴</strong>（小齿轮）组成，在传递动力的同时降低速度。<strong>发条盒</strong>容纳主发条并缓慢旋转，驱动每小时旋转一次（用于分针）的<strong>中心轮</strong>。<strong>三轮</strong>和<strong>四轮</strong>（秒轮）进一步提高旋转速度。最后，<strong>擒纵轮</strong>以受控的滴答声将动力释放给<strong>擒纵叉</strong>，擒纵叉交替锁定和解锁擒纵轮，向<strong>摆轮</strong>发送脉冲。摆轮以精确的频率振荡-通常为4 Hz（每小时28,800次振动）-调节手表的速率。' },
     { type: 'title', text: '齿轮比与动力传输', level: 3 },
     {
       type: 'table', headers: ['组件', '典型齿数', 'rpm (28,800 VPH)', '前级比率'], rows: [

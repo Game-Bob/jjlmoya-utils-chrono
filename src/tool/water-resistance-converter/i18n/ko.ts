@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: '포화 잠수',
     saturationDivingDesc: '전문 포화 잠수. 극한 수심. 헬륨 이스케이프 밸브 컨텍스트.',
     tipTitle: '팁',
-    tipContent: '방수 성능은 시간이 지남에 따라 저하됩니다. 개스킷과 실링은 매년 점검하고 3\u20135년마다 교체해야 합니다.',
+    tipContent: '방수 성능은 시간이 지남에 따라 저하됩니다. 개스킷과 실링은 매년 점검하고 3-5년마다 교체해야 합니다.',
   },
   seo: [
     { type: 'title', text: '시계 방수 변환기-미터, ATM, Bar, 피트 이해하기', level: 2 },

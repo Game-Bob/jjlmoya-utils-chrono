@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Najpierw odkręć koronkę',
     windingLabel: 'Nakręcanie',
     hackLabel: 'Hack',
-    dangerZoneLabel: 'Unikaj 21:00\u20133:00',
+    dangerZoneLabel: 'Unikaj 21:00-3:00',
     directionCW: 'Zgodnie z ruchem wskazówek',
     directionCCW: 'Przeciwnie do ruchu wskazówek',
     directionBoth: 'Dwukierunkowe',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Funkcje nakręcania i ustawiania nie są aktywne.',
     position1Title: 'Nakręcanie ręczne',
     position1Desc: 'Obróć koronkę zgodnie z ruchem wskazówek, aby nakręcić sprężynę główną. Poczujesz opór w miarę napinania sprężyny.',
-    position1Detail: 'Około 30\u201340 pełnych obrotów z całkowitego zatrzymania. Wirniki automatyczne również nakręcają podczas noszenia.',
+    position1Detail: 'Około 30-40 pełnych obrotów z całkowitego zatrzymania. Wirniki automatyczne również nakręcają podczas noszenia.',
     position2Title: 'Szybkie ustawianie daty',
     position2Desc: 'Obróć koronkę zgodnie z ruchem wskazówek, aby przestawić datę. Wskazówka godzinowa pozostaje zsynchronizowana z biegnącymi sekundami.',
     position2Detail: 'UNIKAJ szybkiego ustawiania daty między 21:00 a 3:00, gdy mechanizm zmiany daty jest załączony.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Pozycja 0 (Spoczynek)', definition: 'Koronka wciśnięta lub przykręcona. Zegarek chodzi normalnie. Żadne funkcje nie są aktywne. Zawsze wracaj tutaj po ustawianiu.' },
         { term: 'Pozycja 1 (Nakręcanie)', definition: 'Pierwsze pociągnięcie lub stan odkręcony. Obróć zgodnie z ruchem wskazówek, aby nakręcić sprężynę główną. Większość automatów nakręca się również przez wirnik.' },
-        { term: 'Pozycja 2 (Szybkie ustawianie daty)', definition: 'Drugie pociągnięcie. Obróć zgodnie z ruchem wskazówek, aby przestawić datę. Unikaj używania między 21:00\u20133:00, gdy mechanizm daty jest załączony.' },
+        { term: 'Pozycja 2 (Szybkie ustawianie daty)', definition: 'Drugie pociągnięcie. Obróć zgodnie z ruchem wskazówek, aby przestawić datę. Unikaj używania między 21:00-3:00, gdy mechanizm daty jest załączony.' },
         { term: 'Pozycja 3 (Ustawianie czasu)', definition: 'Trzecie pociągnięcie. Zatrzymanie sekundnika (hacking) dla precyzyjnego ustawienia. Swobodny obrót w celu ustawienia czasu. Obecna w większości nowoczesnych automatów.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Standardowa Koronka', icon: 'mdi:crown', description: 'Koronka typu push-pull, spotykana w większości zegarków wizytowych i codziennych automatów. 2\u20134 pozycje. Wodoszczelność zwykle 30\u2013100 m.', points: ['Natychmiastowy dostęp, bez odkręcania', 'Ograniczona wodoszczelność', 'Powszechna w ETA, Miyota, Seiko'] },
+        { title: 'Standardowa Koronka', icon: 'mdi:crown', description: 'Koronka typu push-pull, spotykana w większości zegarków wizytowych i codziennych automatów. 2-4 pozycje. Wodoszczelność zwykle 30-100 m.', points: ['Natychmiastowy dostęp, bez odkręcania', 'Ograniczona wodoszczelność', 'Powszechna w ETA, Miyota, Seiko'] },
         { title: 'Koronka Wkręcana', icon: 'mdi:lock', description: 'Koronka gwintowana wkręcana w tubę koperty. Standard w zegarkach nurkowych i narzędziowych. Wodoszczelność 200 m+.', points: ['Doskonała wodoszczelność', 'Wymaga odkręcenia przed użyciem', 'Powszechna w Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Dlaczego moja wskazówka sekundowa nie zatrzymuje się po pociągnięciu koronki?',
-      answer: 'Niektóre mechanizmy nie mają mechanizmu hackowania. Popularne kalibry bez hackowania to Miyota 8215, Unitas 6497/6498 i wiele vintageowych mechanizmów. Aby dokładnie ustawić czas w mechanizmie bez hackowania: obróć koronkę 5\u201310 minut za docelową minutę, a następnie powoli obracaj wstecz, aż wskazówka minutowa znajdzie się dokładnie na żądanym znaczniku.',
+      answer: 'Niektóre mechanizmy nie mają mechanizmu hackowania. Popularne kalibry bez hackowania to Miyota 8215, Unitas 6497/6498 i wiele vintageowych mechanizmów. Aby dokładnie ustawić czas w mechanizmie bez hackowania: obróć koronkę 5-10 minut za docelową minutę, a następnie powoli obracaj wstecz, aż wskazówka minutowa znajdzie się dokładnie na żądanym znaczniku.',
     },
     {
       question: 'Skąd mam wiedzieć, ile obrotów potrzeba, aby w pełni nakręcić zegarek?',
-      answer: 'Większość automatycznych mechanizmów wymaga 30\u201340 pełnych obrotów koronki z całkowitego zatrzymania. Mechanizmy ręczne różnią się: Unitas 6498 potrzebuje około 30\u201335 obrotów, podczas gdy Seiko 6R35 z rezerwą 70 godzin potrzebuje 50\u201360 obrotów. Zatrzymaj się, gdy poczujesz wyraźny opór-wymuszanie dalej może uszkodzić sprężynę główną.',
+      answer: 'Większość automatycznych mechanizmów wymaga 30-40 pełnych obrotów koronki z całkowitego zatrzymania. Mechanizmy ręczne różnią się: Unitas 6498 potrzebuje około 30-35 obrotów, podczas gdy Seiko 6R35 z rezerwą 70 godzin potrzebuje 50-60 obrotów. Zatrzymaj się, gdy poczujesz wyraźny opór-wymuszanie dalej może uszkodzić sprężynę główną.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Przejdź przez każdą pozycję',
-      text: 'Kliknij przyciski pozycji (0\u20133) lub użyj przycisku Pociągnij. Przeczytaj opis i zwróć uwagę na ostrzeżenie o strefie zagrożenia przy ustawianiu daty.',
+      text: 'Kliknij przyciski pozycji (0-3) lub użyj przycisku Pociągnij. Przeczytaj opis i zwróć uwagę na ostrzeżenie o strefie zagrożenia przy ustawianiu daty.',
     },
     {
       name: 'Zastosuj na swoim zegarku',
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Przejdź przez każdą pozycję',
-          'text': 'Kliknij przyciski pozycji (0\u20133) lub użyj przycisku Pociągnij. Przeczytaj opis i zwróć uwagę na ostrzeżenie o strefie zagrożenia przy ustawianiu daty.',
+          'text': 'Kliknij przyciski pozycji (0-3) lub użyj przycisku Pociągnij. Przeczytaj opis i zwróć uwagę na ostrzeżenie o strefie zagrożenia przy ustawianiu daty.',
         },
         {
           '@type': 'HowToStep',

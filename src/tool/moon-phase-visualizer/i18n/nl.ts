@@ -32,7 +32,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   },
   seo: [
     { type: 'title', text: 'Moon Phase Visualizer: maanfase tool en horloge instelgids', level: 2 },
-    { type: 'paragraph', html: 'De Moon Phase Visualizer toont de <strong>huidige maanfase</strong> met een realistische weergave van de maan. Zie <strong>verlichtingspercentage, maanouderdom, dagen tot volgende volle maan en volgende nieuwe maan</strong>. Ontworpen voor horlogeliefhebbers die hun maanfasecomplicatie nauwkeurig moeten instellen—werkt ook als algemene maankalender voor elke datum in het verleden of de toekomst.' },
+    { type: 'paragraph', html: 'De Moon Phase Visualizer toont de <strong>huidige maanfase</strong> met een realistische weergave van de maan. Zie <strong>verlichtingspercentage, maanouderdom, dagen tot volgende volle maan en volgende nieuwe maan</strong>. Ontworpen voor horlogeliefhebbers die hun maanfasecomplicatie nauwkeurig moeten instellen-werkt ook als algemene maankalender voor elke datum in het verleden of de toekomst.' },
     { type: 'title', text: 'Maanfase woordenlijst', level: 3 },
     {
       type: 'glossary', items: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Hoge precisie', 'Tandwieltrein', '~1 dag per 100+ jaar', '100+ jaar', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'De maanschijf lezen', html: 'Bij de meeste maanfasehorloges toont de maanschijf <strong>twee manen</strong> tegenover elkaar. Elke volle maan staat gelijk met de middenboven opening. Na één volledige cyclus (29,5 dagen) neemt de tweede maan zijn plaats in. Dit is waarom een 59-tands versnelling werkt: deze voltooit één volledige rotatie in 59 dagen—precies twee maancycli.' },
+    { type: 'tip', title: 'De maanschijf lezen', html: 'Bij de meeste maanfasehorloges toont de maanschijf <strong>twee manen</strong> tegenover elkaar. Elke volle maan staat gelijk met de middenboven opening. Na één volledige cyclus (29,5 dagen) neemt de tweede maan zijn plaats in. Dit is waarom een 59-tands versnelling werkt: deze voltooit één volledige rotatie in 59 dagen-precies twee maancycli.' },
     {
       type: 'summary', title: 'Snelle referentie', items: [
         'De maancyclus (synodisch) is exact 29,53058867 dagen. De tool gebruikt deze waarde voor maximale nauwkeurigheid.',

@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'comparador-de-tamanho-de-relogio',
-  title: 'Comparador de Tamanho de Relógio — Visualize o Ajuste no Pulso',
+  title: 'Comparador de Tamanho de Relógio: Visualize o Ajuste no Pulso',
   description: 'Compare tamanhos de caixa de relógio visualmente. Informe diâmetro, distância entre asas e tamanho do pulso para ver como um relógio fica antes de comprar.',
   ui: {
     title: 'Comparador de Tamanho de Relógio',
@@ -31,10 +31,10 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     nameRequired: 'Insira um nome para o relógio',
     watchTooLarge: 'Relógio ultrapassa os limites do pulso',
     l2lExceedsWrist: 'Distância entre asas excede a largura do pulso',
-    excellentDesc: 'Proporcional — asas ficam bem dentro do seu pulso.',
-    goodDesc: 'Bom ajuste — ultrapassa um pouco, mas ainda confortável.',
-    borderlineDesc: 'No limite — asas se aproximam da borda do pulso.',
-    largeDesc: 'Grande demais — asas provavelmente ultrapassam o pulso.',
+    excellentDesc: 'Proporcional - asas ficam bem dentro do seu pulso.',
+    goodDesc: 'Bom ajuste - ultrapassa um pouco, mas ainda confortável.',
+    borderlineDesc: 'No limite - asas se aproximam da borda do pulso.',
+    largeDesc: 'Grande demais - asas provavelmente ultrapassam o pulso.',
     fitsWell: 'Ajusta bem',
     slightlyLarge: 'Um pouco grande',
     tooLarge: 'Grande demais',
@@ -42,8 +42,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: 'Informe as dimensões e adicione um relógio para ver como ele se ajusta ao seu pulso.',
   },
   seo: [
-    { type: 'title', text: 'Comparador de Tamanho de Relógio — Visualize o Ajuste no Pulso', level: 2 },
-    { type: 'paragraph', html: 'Já se perguntou se um <strong>relógio de 42mm</strong> vai caber no seu <strong>pulso de 17cm</strong>? Ou se aquela distância entre asas de 48mm vai ultrapassar? O Comparador de Tamanho de Relógio te dá a resposta visual. Informe o diâmetro da caixa, distância entre asas, espessura e tamanho do pulso — a ferramenta desenha o relógio em escala e colore o ajuste de <span style="color:#22c55e">verde (excelente)</span> a <span style="color:#ef4444">vermelho (grande demais)</span>. Funciona em unidades <strong>métricas e imperiais</strong>.' },
+    { type: 'title', text: 'Comparador de Tamanho de Relógio - Visualize o Ajuste no Pulso', level: 2 },
+    { type: 'paragraph', html: 'Já se perguntou se um <strong>relógio de 42mm</strong> vai caber no seu <strong>pulso de 17cm</strong>? Ou se aquela distância entre asas de 48mm vai ultrapassar? O Comparador de Tamanho de Relógio te dá a resposta visual. Informe o diâmetro da caixa, distância entre asas, espessura e tamanho do pulso - a ferramenta desenha o relógio em escala e colore o ajuste de <span style="color:#22c55e">verde (excelente)</span> a <span style="color:#ef4444">vermelho (grande demais)</span>. Funciona em unidades <strong>métricas e imperiais</strong>.' },
     { type: 'title', text: 'Glossário de Tamanhos de Relógio', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,12 +79,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'A Distância entre Asas é o Verdadeiro Limitador', icon: 'mdi:ruler', html: 'A maioria das pessoas foca no <strong>diâmetro da caixa</strong>, mas a <strong>distância entre asas</strong> é o que realmente determina se um relógio cabe no pulso. Um relógio com L2L de 48mm em um pulso de 55mm de largura plana (17cm de circunferência) ocupa 87% da largura do pulso. Acima de 65% as asas começam a se aproximar da borda. <strong>Sempre verifique o L2L primeiro.</strong>' },
 
-    { type: 'tip', title: 'CM ou Polegadas? Use o Que Você Conhece', html: 'A ferramenta agora suporta unidades métricas e imperiais. Meça seu pulso no sistema que você usa no dia a dia. As dimensões da caixa do relógio são <strong>sempre em milímetros</strong> (mesmo nos EUA), então diâmetros e L2L ficam em mm — apenas a medida do pulso alterna. Isso reflete como a indústria relojoeira funciona.' },
+    { type: 'tip', title: 'CM ou Polegadas? Use o Que Você Conhece', html: 'A ferramenta agora suporta unidades métricas e imperiais. Meça seu pulso no sistema que você usa no dia a dia. As dimensões da caixa do relógio são <strong>sempre em milímetros</strong> (mesmo nos EUA), então diâmetros e L2L ficam em mm - apenas a medida do pulso alterna. Isso reflete como a indústria relojoeira funciona.' },
 
     {
       type: 'summary', title: 'Checklist Rápido Antes de Comprar', items: [
         'Meça a circunferência do seu pulso e insira na ferramenta.',
-        'Consulte a distância entre asas do relógio — não apenas o diâmetro da caixa.',
+        'Consulte a distância entre asas do relógio - não apenas o diâmetro da caixa.',
         'O relógio deve ocupar 60-75% da largura plana do pulso para um ajuste clássico.',
         'Se as asas ultrapassarem as bordas do pulso, o relógio parecerá grande demais, independentemente do diâmetro.',
         'Use a ferramenta para comparar vários relógios lado a lado antes de decidir a compra.',

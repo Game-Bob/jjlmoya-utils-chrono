@@ -117,7 +117,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       name: 'Añade y compara',
-      text: 'Haz clic en «Añadir Reloj» para guardarlo. Añade varios relojes y alterna entre ellos para comparar el ajuste.',
+      text: 'Haz clic en "Añadir Reloj" para guardarlo. Añade varios relojes y alterna entre ellos para comparar el ajuste.',
     },
     {
       name: 'Interpreta el color',

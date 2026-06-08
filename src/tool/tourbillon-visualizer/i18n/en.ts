@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'What is a tourbillon?',
-    answer: 'A tourbillon is a rotating cage that contains the escapement (balance wheel, pallet fork, and escape wheel) of a mechanical watch. It rotates continuously — typically once per minute — to average out positional errors caused by gravity, improving accuracy.',
+    answer: 'A tourbillon is a rotating cage that contains the escapement (balance wheel, pallet fork, and escape wheel) of a mechanical watch. It rotates continuously - typically once per minute - to average out positional errors caused by gravity, improving accuracy.',
   },
   {
     question: 'What is the difference between a classic and a flying tourbillon?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Art of the Rotating Escapement';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualizer',
   title,
-  description: 'Experience the mesmerizing art of the tourbillon — a rotating cage housing the escapement. Watch the balance wheel oscillate, the hairspring breathe, and the cage rotate in an elegant mechanical ballet.',
+  description: 'Experience the mesmerizing art of the tourbillon - a rotating cage housing the escapement. Watch the balance wheel oscillate, the hairspring breathe, and the cage rotate in an elegant mechanical ballet.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Type',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Animated Watch Escapement Art', level: 2 },
     { type: 'paragraph', html: 'The <strong>tourbillon</strong> is one of the most captivating complications in haute horlogerie. This interactive visualizer brings the rotating escapement to life with a detailed animated rendering of the balance wheel, hairspring, pallet fork, escape wheel, and the iconic rotating cage. Explore the mechanical poetry of Breguet\'s masterpiece.' },
     { type: 'title', text: 'How a Tourbillon Works', level: 3 },
-    { type: 'paragraph', html: 'A tourbillon houses the entire escapement — <strong>balance wheel, hairspring, pallet fork, and escape wheel</strong> — inside a rotating cage. The cage typically completes one rotation per minute, continuously changing the position of the escapement relative to gravity. This averages out positional timing errors, a concept that was revolutionary when Abraham-Louis Breguet patented it in 1801. The <strong>balance wheel</strong> oscillates at the watch\'s beat rate (typically 4 Hz / 28,800 vph), while the <strong>escape wheel</strong> advances one tooth per beat, creating the characteristic ticking motion.' },
+    { type: 'paragraph', html: 'A tourbillon houses the entire escapement - <strong>balance wheel, hairspring, pallet fork, and escape wheel</strong> - inside a rotating cage. The cage typically completes one rotation per minute, continuously changing the position of the escapement relative to gravity. This averages out positional timing errors, a concept that was revolutionary when Abraham-Louis Breguet patented it in 1801. The <strong>balance wheel</strong> oscillates at the watch\'s beat rate (typically 4 Hz / 28,800 vph), while the <strong>escape wheel</strong> advances one tooth per beat, creating the characteristic ticking motion.' },
     { type: 'title', text: 'Classic vs Flying Tourbillon', level: 3 },
     {
       type: 'table', headers: ['Feature', 'Classic Tourbillon', 'Flying Tourbillon'], rows: [

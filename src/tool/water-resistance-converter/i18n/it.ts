@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Immersione Profonda / Saturazione',
     saturationDivingDesc: 'Immersione di saturazione professionale. Profondità estreme. Contesto valvola di scarico elio.',
     tipTitle: 'Consiglio',
-    tipContent: 'La resistenza all\'acqua diminuisce nel tempo. Le guarnizioni devono essere controllate annualmente e sostituite ogni 3\u20135 anni.',
+    tipContent: 'La resistenza all\'acqua diminuisce nel tempo. Le guarnizioni devono essere controllate annualmente e sostituite ogni 3-5 anni.',
   },
   seo: [
     { type: 'title', text: 'Convertitore di Resistenza all\'Acqua per Orologi-Decodificare Metri, ATM, Bar & Piedi', level: 2 },

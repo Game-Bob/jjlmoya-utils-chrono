@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Svitare prima la corona',
     windingLabel: 'Carica',
     hackLabel: 'Stop al secondi',
-    dangerZoneLabel: 'Evitare 21\u20133',
+    dangerZoneLabel: 'Evitare 21-3',
     directionCW: 'Orario',
     directionCCW: 'Antiorario',
     directionBoth: 'Bidirezionale',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Nessuna funzione di carica o regolazione attivata.',
     position1Title: 'Carica Manuale',
     position1Desc: 'Ruotare la corona in senso orario per caricare la molla principale. Si avvertirà una resistenza crescente man mano che la molla si tende.',
-    position1Detail: 'Circa 30\u201340 rotazioni complete da fermo. I rotori automatici caricano anche durante l\'uso.',
+    position1Detail: 'Circa 30-40 rotazioni complete da fermo. I rotori automatici caricano anche durante l\'uso.',
     position2Title: 'Regolazione Rapida della Data',
     position2Desc: 'Ruotare la corona in senso orario per avanzare la data. La lancetta delle ore rimane sincronizzata con i secondi.',
     position2Detail: 'EVITARE la regolazione rapida della data tra le 21:00 e le 3:00 mentre il meccanismo di cambio data è inserito.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Posizione 0 (Riposo)', definition: 'Corona premuta o avvitata. L\'orologio funziona normalmente. Nessuna funzione attivata. Tornare sempre qui dopo la regolazione.' },
         { term: 'Posizione 1 (Carica)', definition: 'Prima estrazione o stato svitato. Ruotare in senso orario per caricare la molla principale. La maggior parte degli automatici carica anche tramite il rotore.' },
-        { term: 'Posizione 2 (Regolazione Rapida della Data)', definition: 'Seconda estrazione. Ruotare in senso orario per avanzare la data. Evitare l\'uso tra le 21:00\u20133:00 quando il meccanismo della data è inserito.' },
+        { term: 'Posizione 2 (Regolazione Rapida della Data)', definition: 'Seconda estrazione. Ruotare in senso orario per avanzare la data. Evitare l\'uso tra le 21:00-3:00 quando il meccanismo della data è inserito.' },
         { term: 'Posizione 3 (Regolazione dell\'Ora)', definition: 'Terza estrazione. La lancetta dei secondi si ferma per un allineamento preciso. Ruotare liberamente per impostare l\'ora. Presente sulla maggior parte degli automatici moderni.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Corona Standard', icon: 'mdi:crown', description: 'Corona a pressione presente sulla maggior parte degli orologi eleganti e automatici da tutti i giorni. 2\u20134 posizioni. Tenuta stagna tipicamente 30\u2013100 m.', points: ['Accesso immediato, nessuna svitatura', 'Tenuta stagna limitata', 'Comune su ETA, Miyota, Seiko'] },
+        { title: 'Corona Standard', icon: 'mdi:crown', description: 'Corona a pressione presente sulla maggior parte degli orologi eleganti e automatici da tutti i giorni. 2-4 posizioni. Tenuta stagna tipicamente 30-100 m.', points: ['Accesso immediato, nessuna svitatura', 'Tenuta stagna limitata', 'Comune su ETA, Miyota, Seiko'] },
         { title: 'Corona A Vite', icon: 'mdi:lock', description: 'Corona filettata che si avvita nel tubo della cassa. Standard sugli orologi subacquei e da strumento. Tenuta stagna 200 m+.', points: ['Tenuta stagna superiore', 'Deve essere svitata prima dell\'uso', 'Comune su Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Perché la lancetta dei secondi non si ferma quando tiro la corona?',
-      answer: 'Alcuni movimenti sono privi del meccanismo di stop al secondi. I calibri comuni senza stop includono il Miyota 8215, l\'Unitas 6497/6498 e molti movimenti vintage. Per regolare l\'ora con precisione su un movimento senza stop: ruota la corona di 5\u201310 minuti oltre il minuto target, poi gira lentamente indietro fino a quando la lancetta dei minuti cade esattamente sul segno desiderato.',
+      answer: 'Alcuni movimenti sono privi del meccanismo di stop al secondi. I calibri comuni senza stop includono il Miyota 8215, l\'Unitas 6497/6498 e molti movimenti vintage. Per regolare l\'ora con precisione su un movimento senza stop: ruota la corona di 5-10 minuti oltre il minuto target, poi gira lentamente indietro fino a quando la lancetta dei minuti cade esattamente sul segno desiderato.',
     },
     {
       question: 'Quanti giri servono per caricare completamente il mio orologio?',
-      answer: 'La maggior parte dei movimenti automatici richiede 30\u201340 rotazioni complete della corona da fermo. I movimenti a carica manuale variano: l\'Unitas 6498 necessita di circa 30\u201335 giri, mentre il Seiko 6R35 con la sua riserva di carica di 70 ore ne richiede 50\u201360. Fermati quando senti una resistenza decisa-forzare oltre può danneggiare la molla principale.',
+      answer: 'La maggior parte dei movimenti automatici richiede 30-40 rotazioni complete della corona da fermo. I movimenti a carica manuale variano: l\'Unitas 6498 necessita di circa 30-35 giri, mentre il Seiko 6R35 con la sua riserva di carica di 70 ore ne richiede 50-60. Fermati quando senti una resistenza decisa-forzare oltre può danneggiare la molla principale.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Scorri ogni posizione',
-      text: 'Clicca sui chip delle posizioni (0\u20133) o usa il pulsante Tira. Leggi la descrizione e nota l\'avviso della zona di pericolo per la regolazione della data.',
+      text: 'Clicca sui chip delle posizioni (0-3) o usa il pulsante Tira. Leggi la descrizione e nota l\'avviso della zona di pericolo per la regolazione della data.',
     },
     {
       name: 'Applica al tuo orologio',
@@ -171,7 +171,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
           'name': 'Quanti giri per caricare completamente il mio orologio?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'La maggior parte dei movimenti automatici richiede 30\u201340 rotazioni complete della corona. I movimenti a carica manuale variano. Fermati quando senti una resistenza decisa.',
+            'text': 'La maggior parte dei movimenti automatici richiede 30-40 rotazioni complete della corona. I movimenti a carica manuale variano. Fermati quando senti una resistenza decisa.',
           },
         },
       ],
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Scorri ogni posizione',
-          'text': 'Clicca sui chip delle posizioni (0\u20133) o usa il pulsante Tira. Leggi la descrizione e nota l\'avviso della zona di pericolo per la regolazione della data.',
+          'text': 'Clicca sui chip delle posizioni (0-3) o usa il pulsante Tira. Leggi la descrizione e nota l\'avviso della zona di pericolo per la regolazione della data.',
         },
         {
           '@type': 'HowToStep',

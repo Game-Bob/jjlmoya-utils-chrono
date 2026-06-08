@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Selam Dalam / Saturasi',
     saturationDivingDesc: 'Penyelaman saturasi profesional. Kedalaman ekstrem. Konteks katup pelepas helium.',
     tipTitle: 'Tips',
-    tipContent: 'Ketahanan air menurun seiring waktu. Gasket dan segel harus diuji setiap tahun dan diganti setiap 3\u20135 tahun.',
+    tipContent: 'Ketahanan air menurun seiring waktu. Gasket dan segel harus diuji setiap tahun dan diganti setiap 3-5 tahun.',
   },
   seo: [
     { type: 'title', text: 'Konverter Ketahanan Air Jam Tangan-Memahami Meter, ATM, Bar & Kaki', level: 2 },

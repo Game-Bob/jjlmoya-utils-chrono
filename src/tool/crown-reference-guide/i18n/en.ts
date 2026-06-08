@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Unscrew the crown first',
     windingLabel: 'Winding',
     hackLabel: 'Hack',
-    dangerZoneLabel: 'Avoid 9pm\u20133am',
+    dangerZoneLabel: 'Avoid 9pm-3am',
     directionCW: 'Clockwise',
     directionCCW: 'Counter-clockwise',
     directionBoth: 'Bidirectional',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'No winding or setting functions are engaged.',
     position1Title: 'Manual Winding',
     position1Desc: 'Turn the crown clockwise to wind the mainspring. You will feel resistance as the spring tightens.',
-    position1Detail: 'About 30\u201340 full rotations from a dead stop. Automatic rotors also wind while worn.',
+    position1Detail: 'About 30-40 full rotations from a dead stop. Automatic rotors also wind while worn.',
     position2Title: 'Date Quick-Set',
     position2Desc: 'Turn the crown clockwise to advance the date. The hour hand stays in sync with the running seconds.',
     position2Detail: 'AVOID quick-setting the date between 9pm and 3am while the date change mechanism is engaged.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Position 0 (Resting)', definition: 'Crown pushed in or screwed down. Watch runs normally. No functions engaged. Always return here after setting.' },
         { term: 'Position 1 (Winding)', definition: 'First pull or unscrewed state. Turn clockwise to wind the mainspring. Most automatics also wind via rotor.' },
-        { term: 'Position 2 (Date Quick-Set)', definition: 'Second pull. Turn clockwise to advance the date. Avoid using between 9pm\u20133am when the date mechanism is engaged.' },
+        { term: 'Position 2 (Date Quick-Set)', definition: 'Second pull. Turn clockwise to advance the date. Avoid using between 9pm-3am when the date mechanism is engaged.' },
         { term: 'Position 3 (Time Setting)', definition: 'Third pull. Hacking seconds stop for precise alignment. Rotate freely to set time. Present on most modern automatics.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Standard Crown', icon: 'mdi:crown', description: 'Push-pull crown found on most dress watches and everyday automatics. 2\u20134 positions. Water resistance typically 30\u2013100m.', points: ['Instant access, no unscrewing', 'Limited water resistance', 'Common on ETA, Miyota, Seiko'] },
+        { title: 'Standard Crown', icon: 'mdi:crown', description: 'Push-pull crown found on most dress watches and everyday automatics. 2-4 positions. Water resistance typically 30-100m.', points: ['Instant access, no unscrewing', 'Limited water resistance', 'Common on ETA, Miyota, Seiko'] },
         { title: 'Screw Down Crown', icon: 'mdi:lock', description: 'Threaded crown that screws into the case tube. Standard on dive watches and tool watches. Water resistance 200m+.', points: ['Superior water resistance', 'Must unscrew before use', 'Common on Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Why does my seconds hand not stop when I pull the crown?',
-      answer: 'Some movements lack a hacking mechanism. Common non-hacking calibers include the Miyota 8215, Unitas 6497/6498, and many vintage movements. To set time accurately on a non-hack movement: rotate the crown past your target minute by 5\u201310 minutes, then slowly turn backward until the minute hand lands exactly on the desired mark.',
+      answer: 'Some movements lack a hacking mechanism. Common non-hacking calibers include the Miyota 8215, Unitas 6497/6498, and many vintage movements. To set time accurately on a non-hack movement: rotate the crown past your target minute by 5-10 minutes, then slowly turn backward until the minute hand lands exactly on the desired mark.',
     },
     {
       question: 'How do I know how many turns to fully wind my watch?',
-      answer: 'Most automatic movements require 30\u201340 full crown rotations from a dead stop. Hand-wound movements vary: the Unitas 6498 needs about 30\u201335 turns, while the Seiko 6R35 with its 70-hour reserve needs 50\u201360 turns. Stop when you feel firm resistance \u2014 forcing past it can damage the mainspring.',
+      answer: 'Most automatic movements require 30-40 full crown rotations from a dead stop. Hand-wound movements vary: the Unitas 6498 needs about 30-35 turns, while the Seiko 6R35 with its 70-hour reserve needs 50-60 turns. Stop when you feel firm resistance - forcing past it can damage the mainspring.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Pull through each position',
-      text: 'Click the position chips (0\u20133) or use the Pull button. Read the description and note the danger zone warning for date setting.',
+      text: 'Click the position chips (0-3) or use the Pull button. Read the description and note the danger zone warning for date setting.',
     },
     {
       name: 'Apply to your watch',
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Pull through each position',
-          'text': 'Click the position chips (0\u20133) or use the Pull button. Read the description and note the danger zone warning for date setting.',
+          'text': 'Click the position chips (0-3) or use the Pull button. Read the description and note the danger zone warning for date setting.',
         },
         {
           '@type': 'HowToStep',

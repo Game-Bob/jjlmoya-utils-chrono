@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'visualizzatore-fase-lunare',
-  title: 'Moon Phase Visualizer — Calendario Lunare e Impostazione Complicazione Orologio',
+  title: 'Moon Phase Visualizer: Calendario Lunare e Impostazione Complicazione Orologio',
   description: 'Visualizza la fase lunare corrente, illuminazione, età e le prossime lune piene e nuove. Perfetto per regolare la complicazione della fase lunare del tuo orologio.',
   ui: {
     title: 'Moon Phase Visualizer',
@@ -31,8 +31,8 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'giorno',
   },
   seo: [
-    { type: 'title', text: 'Visualizzatore Fase Lunare — Calendario Lunare e Guida Impostazione Orologio', level: 2 },
-    { type: 'paragraph', html: 'Il Moon Phase Visualizer mostra la <strong>fase lunare corrente</strong> con un rendering realistico della luna. Consulta <strong>percentuale di illuminazione, età lunare, giorni alla prossima luna piena e alla prossima luna nuova</strong>. Progettato per gli appassionati di orologi che devono impostare con precisione la complicazione della fase lunare — funziona anche come calendario lunare generale per qualsiasi data passata o futura.' },
+    { type: 'title', text: 'Visualizzatore Fase Lunare - Calendario Lunare e Guida Impostazione Orologio', level: 2 },
+    { type: 'paragraph', html: 'Il Moon Phase Visualizer mostra la <strong>fase lunare corrente</strong> con un rendering realistico della luna. Consulta <strong>percentuale di illuminazione, età lunare, giorni alla prossima luna piena e alla prossima luna nuova</strong>. Progettato per gli appassionati di orologi che devono impostare con precisione la complicazione della fase lunare - funziona anche come calendario lunare generale per qualsiasi data passata o futura.' },
     { type: 'title', text: 'Glossario delle Fasi Lunari', level: 3 },
     {
       type: 'glossary', items: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Alta Precisione', 'Tren d\'ingranaggi', '~1 giorno ogni 100+ anni', '100+ anni', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Leggere il Disco Lunare', html: 'Sulla maggior parte degli orologi con fase lunare, il disco mostra <strong>due lune</strong> opposte tra loro. Ogni luna piena si allinea con l\'apertura centrale in alto. Dopo un ciclo completo (29,5 giorni), la seconda luna prende il suo posto. Ecco perché funziona un ingranaggio a 59 denti: completa una rotazione intera in 59 giorni — esattamente due cicli lunari.' },
+    { type: 'tip', title: 'Leggere il Disco Lunare', html: 'Sulla maggior parte degli orologi con fase lunare, il disco mostra <strong>due lune</strong> opposte tra loro. Ogni luna piena si allinea con l\'apertura centrale in alto. Dopo un ciclo completo (29,5 giorni), la seconda luna prende il suo posto. Ecco perché funziona un ingranaggio a 59 denti: completa una rotazione intera in 59 giorni - esattamente due cicli lunari.' },
     {
       type: 'summary', title: 'Riferimento Rapido', items: [
         'Il ciclo lunare (sinodico) è esattamente di 29,53058867 giorni. Lo strumento usa questo valore per la massima precisione.',

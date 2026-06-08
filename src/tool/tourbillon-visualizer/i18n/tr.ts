@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Tourbillon nedir?',
-    answer: 'Tourbillon, mekanik bir saatin eşapmanını (balans çarkı, palet çatalı ve eşapman çarkı) içeren dönen bir kafestir. Yerçekiminin neden olduğu konumsal hataları ortalamak ve doğruluğu artırmak için sürekli olarak — tipik olarak dakikada bir kez — döner.',
+    answer: 'Tourbillon, mekanik bir saatin eşapmanını (balans çarkı, palet çatalı ve eşapman çarkı) içeren dönen bir kafestir. Yerçekiminin neden olduğu konumsal hataları ortalamak ve doğruluğu artırmak için sürekli olarak - tipik olarak dakikada bir kez - döner.',
   },
   {
     question: 'Klasik ve uçan tourbillon arasındaki fark nedir?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Dönen Eşapmanın Sanatı';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-goruntuleyici',
   title,
-  description: 'Tourbillonun büyüleyici sanatını deneyimleyin — eşapmanı barındıran dönen bir kafes. Balans çarkının salınımını, yayın nefes alışını ve kafesin zarif bir mekanik balede dönüşünü izleyin.',
+  description: 'Tourbillonun büyüleyici sanatını deneyimleyin - eşapmanı barındıran dönen bir kafes. Balans çarkının salınımını, yayın nefes alışını ve kafesin zarif bir mekanik balede dönüşünü izleyin.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Tip',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Animasyonlu Eşapman Sanatı', level: 2 },
     { type: 'paragraph', html: '<strong>Tourbillon</strong>, haute horlogerie\'nin en büyüleyici komplikasyonlarından biridir. Bu etkileşimli görselleştirici, balans çarkı, yay, palet çatalı, eşapman çarkı ve ikonik dönen kafesin ayrıntılı animasyonlu bir sunumuyla dönen eşapmanı hayata geçiriyor. Breguet\'in başyapıtının mekanik şiirini keşfedin.' },
     { type: 'title', text: 'Tourbillon nasıl çalışır', level: 3 },
-    { type: 'paragraph', html: 'Bir tourbillon, tüm eşapmanı — <strong>balans çarkı, yay, palet çatalı ve eşapman çarkı</strong> — dönen bir kafesin içinde barındırır. Kafes tipik olarak dakikada bir dönüş yapar ve eşapmanın yerçekimine göre konumunu sürekli değiştirir. Bu, Abraham-Louis Breguet\'in 1801\'de patentlediğinde devrim niteliğinde olan bir kavram olan konumsal zamanlama hatalarını ortalar. <strong>Balans çarkı</strong> saatin vuruş hızında (tipik olarak 4 Hz / 28.800 vph) salınırken, <strong>eşapman çarkı</strong> her vuruşta bir diş ilerleyerek karakteristik tik hareketini yaratır.' },
+    { type: 'paragraph', html: 'Bir tourbillon, tüm eşapmanı - <strong>balans çarkı, yay, palet çatalı ve eşapman çarkı</strong> - dönen bir kafesin içinde barındırır. Kafes tipik olarak dakikada bir dönüş yapar ve eşapmanın yerçekimine göre konumunu sürekli değiştirir. Bu, Abraham-Louis Breguet\'in 1801\'de patentlediğinde devrim niteliğinde olan bir kavram olan konumsal zamanlama hatalarını ortalar. <strong>Balans çarkı</strong> saatin vuruş hızında (tipik olarak 4 Hz / 28.800 vph) salınırken, <strong>eşapman çarkı</strong> her vuruşta bir diş ilerleyerek karakteristik tik hareketini yaratır.' },
     { type: 'title', text: 'Klasik vs Uçan Tourbillon', level: 3 },
     {
       type: 'table', headers: ['Özellik', 'Klasik Tourbillon', 'Uçan Tourbillon'], rows: [

@@ -34,23 +34,23 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
     tipContent: 'Kurmalı mekanizmalar yalnızca kurma kolunu çevirdiğinizde şarj olur. Otomatik mekanizmalar takılıyken de şarj olur.',
   },
   seo: [
-    { type: 'title', text: 'Saat Güç Rezervi Tahmincisi \u2014 Mekanizmanızda Ne Kadar Güç Kaldı?', level: 2 },
+    { type: 'title', text: 'Saat Güç Rezervi Tahmincisi - Mekanizmanızda Ne Kadar Güç Kaldı?', level: 2 },
     { type: 'paragraph', html: 'Mekanik saatinizde ne kadar güç kaldığını merak ediyor musunuz? İster bu sabah kurma kolunu çevirmiş olun, ister tüm gün takmış olun, bu tahmin aracı <strong>ETA, Sellita, Miyota, Seiko ve Rolex</strong> gibi popüler kalibreler için yaklaşık şarj seviyesini ve kalan süreyi gösterir.' },
     { type: 'title', text: 'Mekanik Bir Saatte Güç Rezervi Nasıl Çalışır', level: 3 },
-    { type: 'paragraph', html: 'Güç rezervi, ana yayda depolanan enerji miktarıdır. Kurma kolunu çevirdiğinizde ana yayı sıkıştırarak potansiyel enerji depolarsınız. Otomatik bir rotor da saati takarken ana yayı kurar. Enerji daha sonra sabit bir hızla \u2014 genellikle saatte %2\u20133 \u2014 saat durana kadar tükenir.' },
+    { type: 'paragraph', html: 'Güç rezervi, ana yayda depolanan enerji miktarıdır. Kurma kolunu çevirdiğinizde ana yayı sıkıştırarak potansiyel enerji depolarsınız. Otomatik bir rotor da saati takarken ana yayı kurar. Enerji daha sonra sabit bir hızla - genellikle saatte %2-3 - saat durana kadar tükenir.' },
     { type: 'title', text: 'Kurma Kolu ile Kurma ve Rotor Şarjı', level: 3 },
-    { type: 'paragraph', html: 'Kurma koluyla manuel kurma, bir saati şarj etmenin en verimli yoludur \u2014 her tam dönüş, genellikle toplam rezervin yaklaşık %2,5\'i kadar tahmin edilebilir bir enerji ekler. Saati takmak daha yavaş şarj eder ve aktivite seviyenize bağlıdır: bir ofis çalışanı saatte %4\u20136, aktif bir kişi ise saatte %8\u201310 şarj edebilir. Bu tahmin aracı muhafazakâr bir ortalama kullanır.' },
+    { type: 'paragraph', html: 'Kurma koluyla manuel kurma, bir saati şarj etmenin en verimli yoludur - her tam dönüş, genellikle toplam rezervin yaklaşık %2,5\'i kadar tahmin edilebilir bir enerji ekler. Saati takmak daha yavaş şarj eder ve aktivite seviyenize bağlıdır: bir ofis çalışanı saatte %4-6, aktif bir kişi ise saatte %8-10 şarj edebilir. Bu tahmin aracı muhafazakâr bir ortalama kullanır.' },
     { type: 'title', text: 'Güç Rezervi Tahmini Neden Önemlidir', level: 3 },
     { type: 'paragraph', html: 'Saatinizin şarj seviyesini bilmek, beklenmedik duruşları önlemeye yardımcı olur. Gece boyunca duran bir saat, yatmadan önce daha fazla kurma gerektirebilir veya yeterince takılmıyor olabilir. Bu aracı kullanarak şarj alışkanlıklarınızı anlayın ve otomatik saatinizi çalışır durumda tutun.' },
   ],
   faq: [
     {
       question: 'Bir kurma kolu dönüşü saati ne kadar şarj eder?',
-      answer: 'Mekanizmaya bağlıdır. Çoğu otomatik kalibre 30\u201340 dönüşte tam şarja ulaşır, bu nedenle her dönüş toplam rezervin yaklaşık %2,5\u20133,3\'ünü ekler. Unitas 6498 gibi kurmalı mekanizmalar da tam şarj için yaklaşık 35 dönüş gerektirir.',
+      answer: 'Mekanizmaya bağlıdır. Çoğu otomatik kalibre 30-40 dönüşte tam şarja ulaşır, bu nedenle her dönüş toplam rezervin yaklaşık %2,5-3,3\'ünü ekler. Unitas 6498 gibi kurmalı mekanizmalar da tam şarj için yaklaşık 35 dönüş gerektirir.',
     },
     {
       question: 'Saati takmak, kurmak kadar şarj eder mi?',
-      answer: 'Takmak daha yavaş ve değişken şarj eder. Masabaşı bir işte rotor aracılığıyla saatte %4\u20136 şarj edebilirsiniz. Aktif hareket sırasında (yürüyüş, spor) saatte %8\u201310\'a ulaşabilir. Elle kurmak daha hızlı ve öngörülebilirdir.',
+      answer: 'Takmak daha yavaş ve değişken şarj eder. Masabaşı bir işte rotor aracılığıyla saatte %4-6 şarj edebilirsiniz. Aktif hareket sırasında (yürüyüş, spor) saatte %8-10\'a ulaşabilir. Elle kurmak daha hızlı ve öngörülebilirdir.',
     },
     {
       question: 'Bir saat saatte ne kadar güç rezervi kaybeder?',
@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Bir kurma kolu dönüşü saati ne kadar şarj eder?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Mekanizmaya bağlıdır. Çoğu otomatik kalibre 30\u201340 dönüşte tam şarja ulaşır, bu nedenle her dönüş toplam rezervin yaklaşık %2,5\u20133,3\'ünü ekler. Unitas 6498 gibi kurmalı mekanizmalar da tam şarj için yaklaşık 35 dönüş gerektirir.',
+            'text': 'Mekanizmaya bağlıdır. Çoğu otomatik kalibre 30-40 dönüşte tam şarja ulaşır, bu nedenle her dönüş toplam rezervin yaklaşık %2,5-3,3\'ünü ekler. Unitas 6498 gibi kurmalı mekanizmalar da tam şarj için yaklaşık 35 dönüş gerektirir.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Saati takmak, kurmak kadar şarj eder mi?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Takmak daha yavaş ve değişken şarj eder. Masabaşı bir işte rotor aracılığıyla saatte %4\u20136 şarj edebilirsiniz. Aktif hareket sırasında saatte %8\u201310\'a ulaşabilir. Elle kurmak daha hızlı ve öngörülebilirdir.',
+            'text': 'Takmak daha yavaş ve değişken şarj eder. Masabaşı bir işte rotor aracılığıyla saatte %4-6 şarj edebilirsiniz. Aktif hareket sırasında saatte %8-10\'a ulaşabilir. Elle kurmak daha hızlı ve öngörülebilirdir.',
           },
         },
         {

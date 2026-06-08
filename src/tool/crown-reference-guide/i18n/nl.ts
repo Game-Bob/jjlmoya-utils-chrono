@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Draai de kroon eerst los',
     windingLabel: 'Winding',
     hackLabel: 'Hack',
-    dangerZoneLabel: 'Vermijd 21:00\u20133:00',
+    dangerZoneLabel: 'Vermijd 21:00-3:00',
     directionCW: 'Rechtsom',
     directionCCW: 'Linksom',
     directionBoth: 'Tweerichtings',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Geen winding- of instelfuncties zijn actief.',
     position1Title: 'Handmatig opwinden',
     position1Desc: 'Draai de kroon rechtsom om de veer op te winden. U voelt weerstand naarmate de veer strakker wordt.',
-    position1Detail: 'Ongeveer 30\u201340 volledige omwentelingen vanuit stilstand. Automatische rotors winden ook bij tijdens het dragen.',
+    position1Detail: 'Ongeveer 30-40 volledige omwentelingen vanuit stilstand. Automatische rotors winden ook bij tijdens het dragen.',
     position2Title: 'Datum snelinstelling',
     position2Desc: 'Draai de kroon rechtsom om de datum vooruit te zetten. De uurwijzer blijft synchroon met de lopende seconden.',
     position2Detail: 'VERMIJD het snelinstellen van de datum tussen 21:00 en 3:00 uur terwijl het datummechanisme is ingeschakeld.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Stand 0 (Ruststand)', definition: 'Kroon ingedrukt of vastgeschroefd. Horloge loopt normaal. Geen functies actief. Keer hier altijd terug na het instellen.' },
         { term: 'Stand 1 (Opwinden)', definition: 'Eerste uittrekstand of losgedraaide toestand. Rechtsom draaien om de veer op te winden. De meeste automaten winden ook via de rotor.' },
-        { term: 'Stand 2 (Datum snelinstelling)', definition: 'Tweede uittrekstand. Rechtsom draaien om de datum vooruit te zetten. Vermijd gebruik tussen 21:00\u20133:00 uur wanneer het datummechanisme actief is.' },
+        { term: 'Stand 2 (Datum snelinstelling)', definition: 'Tweede uittrekstand. Rechtsom draaien om de datum vooruit te zetten. Vermijd gebruik tussen 21:00-3:00 uur wanneer het datummechanisme actief is.' },
         { term: 'Stand 3 (Tijd instellen)', definition: 'Derde uittrekstand. Seconden stoppen met hacken voor nauwkeurige uitlijning. Vrij ronddraaien om de tijd in te stellen. Aanwezig op de meeste moderne automaten.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Standaardkroon', icon: 'mdi:crown', description: 'Trekduwkroon zoals bij de meeste nette horloges en alledaagse automaten. 2\u20134 standen. Waterdichtheid doorgaans 30\u2013100 m.', points: ['Directe toegang, geen losdraaien', 'Beperkte waterdichtheid', 'Gebruikelijk bij ETA, Miyota, Seiko'] },
+        { title: 'Standaardkroon', icon: 'mdi:crown', description: 'Trekduwkroon zoals bij de meeste nette horloges en alledaagse automaten. 2-4 standen. Waterdichtheid doorgaans 30-100 m.', points: ['Directe toegang, geen losdraaien', 'Beperkte waterdichtheid', 'Gebruikelijk bij ETA, Miyota, Seiko'] },
         { title: 'Schroefkroon', icon: 'mdi:lock', description: 'Geschroefde kroon die in de kastbuis wordt gedraaid. Standaard op duikhorloges en gereedschapshorloges. Waterdichtheid 200 m+.', points: ['Superieure waterdichtheid', 'Moet losgedraaid worden voor gebruik', 'Gebruikelijk bij Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Waarom stopt mijn secondewijzer niet wanneer ik de kroon uittrek?',
-      answer: 'Sommige uurwerken hebben geen hackmechanisme. Veelvoorkomende niet-hackende kalibers zijn de Miyota 8215, Unitas 6497/6498 en veel vintage uurwerken. Om de tijd nauwkeurig in te stellen op een niet-hackend uurwerk: draai de kroon 5\u201310 minuten voorbij uw doelminuut en draai dan langzaam terug tot de minuutwijzer exact op de gewenste markering staat.',
+      answer: 'Sommige uurwerken hebben geen hackmechanisme. Veelvoorkomende niet-hackende kalibers zijn de Miyota 8215, Unitas 6497/6498 en veel vintage uurwerken. Om de tijd nauwkeurig in te stellen op een niet-hackend uurwerk: draai de kroon 5-10 minuten voorbij uw doelminuut en draai dan langzaam terug tot de minuutwijzer exact op de gewenste markering staat.',
     },
     {
       question: 'Hoe weet ik hoeveel omwentelingen nodig zijn om mijn horloge volledig op te winden?',
-      answer: 'De meeste automatische uurwerken hebben 30\u201340 volledige kroonomwentelingen nodig vanuit stilstand. Handopwindbare uurwerken variëren: de Unitas 6498 heeft ongeveer 30\u201335 omwentelingen nodig, terwijl de Seiko 6R35 met zijn 70-uursreserve 50\u201360 omwentelingen nodig heeft. Stop wanneer u duidelijke weerstand voelt-doorzetten kan de veer beschadigen.',
+      answer: 'De meeste automatische uurwerken hebben 30-40 volledige kroonomwentelingen nodig vanuit stilstand. Handopwindbare uurwerken variëren: de Unitas 6498 heeft ongeveer 30-35 omwentelingen nodig, terwijl de Seiko 6R35 met zijn 70-uursreserve 50-60 omwentelingen nodig heeft. Stop wanneer u duidelijke weerstand voelt-doorzetten kan de veer beschadigen.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Doorloop elke stand',
-      text: 'Klik op de stand-chips (0\u20133) of gebruik de trek-knop. Lees de beschrijving en let op de waarschuwing voor de gevarenzone bij datum instellen.',
+      text: 'Klik op de stand-chips (0-3) of gebruik de trek-knop. Lees de beschrijving en let op de waarschuwing voor de gevarenzone bij datum instellen.',
     },
     {
       name: 'Pas toe op uw horloge',
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Doorloop elke stand',
-          'text': 'Klik op de stand-chips (0\u20133) of gebruik de trek-knop. Lees de beschrijving en let op de waarschuwing voor de gevarenzone bij datum instellen.',
+          'text': 'Klik op de stand-chips (0-3) of gebruik de trek-knop. Lees de beschrijving en let op de waarschuwing voor de gevarenzone bij datum instellen.',
         },
         {
           '@type': 'HowToStep',

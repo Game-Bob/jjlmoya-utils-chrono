@@ -34,23 +34,23 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
     tipContent: 'Manuella urverk laddas bara när du vrider på kronan. Automatiska urverk laddas även medan de bärs.',
   },
   seo: [
-    { type: 'title', text: 'Uppskatta kraftreserven i din klocka \u2014 hur mycket kraft har ditt urverk kvar?', level: 2 },
+    { type: 'title', text: 'Uppskatta kraftreserven i din klocka - hur mycket kraft har ditt urverk kvar?', level: 2 },
     { type: 'paragraph', html: 'Undrar du hur mycket kraft som finns kvar i din mekaniska klocka? Oavsett om du vred på kronan i morse eller bar den hela dagen, ger denna uppskattning en ungefärlig laddningsnivå och återstående tid för populära kalibrar som <strong>ETA, Sellita, Miyota, Seiko och Rolex</strong>.' },
     { type: 'title', text: 'Så fungerar kraftreserv i en mekanisk klocka', level: 3 },
-    { type: 'paragraph', html: 'Kraftreserven är mängden energi som lagrats i drivfjädern. När du vrider på kronan spänner du drivfjädern och lagrar potentiell energi. En automatisk rotor laddar också drivfjädern medan du bär klockan. Energin förbrukas sedan i en jämn takt \u2014 vanligtvis 2\u20133% per timme \u2014 tills klockan stannar.' },
+    { type: 'paragraph', html: 'Kraftreserven är mängden energi som lagrats i drivfjädern. När du vrider på kronan spänner du drivfjädern och lagrar potentiell energi. En automatisk rotor laddar också drivfjädern medan du bär klockan. Energin förbrukas sedan i en jämn takt - vanligtvis 2-3% per timme - tills klockan stannar.' },
     { type: 'title', text: 'Kronuppdragning vs. rotorladdning', level: 3 },
-    { type: 'paragraph', html: 'Manuell uppdragning via kronan är det mest effektiva sättet att ladda en klocka \u2014 varje helt varv tillför en förutsägbar mängd energi, vanligtvis cirka 2,5% av den totala reserven. Att bära klockan laddar långsammare och beror på din aktivitetsnivå: en kontorsarbetare kan ladda 4\u20136% per timme, medan en aktiv person kan ladda 8\u201310%. Denna uppskattning använder ett konservativt medelvärde.' },
+    { type: 'paragraph', html: 'Manuell uppdragning via kronan är det mest effektiva sättet att ladda en klocka - varje helt varv tillför en förutsägbar mängd energi, vanligtvis cirka 2,5% av den totala reserven. Att bära klockan laddar långsammare och beror på din aktivitetsnivå: en kontorsarbetare kan ladda 4-6% per timme, medan en aktiv person kan ladda 8-10%. Denna uppskattning använder ett konservativt medelvärde.' },
     { type: 'title', text: 'Varför kraftreservsuppskattning är viktig', level: 3 },
     { type: 'paragraph', html: 'Att känna till klockans laddningsnivå hjälper dig att undvika oväntade stopp. En klocka som stannar över natten kan behöva mer uppdragning innan läggdags, eller så får den inte tillräckligt med bäntid. Använd detta verktyg för att förstå dina laddningsvanor och hålla din automatklocka igång.' },
   ],
   faq: [
     {
       question: 'Hur mycket laddar ett kronvarv klockan?',
-      answer: 'Det beror på urverket. De flesta automatiska kalibrar når full laddning på 30\u201340 varv, så varje varv tillför cirka 2,5\u20133,3% av den totala reserven. Handuppdragna urverk som Unitas 6498 behöver också cirka 35 varv för full laddning.',
+      answer: 'Det beror på urverket. De flesta automatiska kalibrar når full laddning på 30-40 varv, så varje varv tillför cirka 2,5-3,3% av den totala reserven. Handuppdragna urverk som Unitas 6498 behöver också cirka 35 varv för full laddning.',
     },
     {
       question: 'Laddar det lika mycket att bära klockan som att dra upp den?',
-      answer: 'Att bära klockan laddar långsammare och mer varierat. Vid skrivbordsarbete kan du ladda 4\u20136% per timme genom rotorn. Vid aktiv rörelse (promenader, sport) kan det nå 8\u201310% per timme. Handuppdragning är snabbare och mer förutsägbar.',
+      answer: 'Att bära klockan laddar långsammare och mer varierat. Vid skrivbordsarbete kan du ladda 4-6% per timme genom rotorn. Vid aktiv rörelse (promenader, sport) kan det nå 8-10% per timme. Handuppdragning är snabbare och mer förutsägbar.',
     },
     {
       question: 'Hur mycket reserv förlorar en klocka per timme?',
@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Hur mycket laddar ett kronvarv klockan?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Det beror på urverket. De flesta automatiska kalibrar når full laddning på 30\u201340 varv, så varje varv tillför cirka 2,5\u20133,3% av den totala reserven. Handuppdragna urverk som Unitas 6498 behöver också cirka 35 varv för full laddning.',
+            'text': 'Det beror på urverket. De flesta automatiska kalibrar når full laddning på 30-40 varv, så varje varv tillför cirka 2,5-3,3% av den totala reserven. Handuppdragna urverk som Unitas 6498 behöver också cirka 35 varv för full laddning.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Laddar det lika mycket att bära klockan som att dra upp den?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Att bära klockan laddar långsammare och mer varierat. Vid skrivbordsarbete kan du ladda 4\u20136% per timme genom rotorn. Vid aktiv rörelse kan det nå 8\u201310% per timme. Handuppdragning är snabbare och mer förutsägbar.',
+            'text': 'Att bära klockan laddar långsammare och mer varierat. Vid skrivbordsarbete kan du ladda 4-6% per timme genom rotorn. Vid aktiv rörelse kan det nå 8-10% per timme. Handuppdragning är snabbare och mer förutsägbar.',
           },
         },
         {

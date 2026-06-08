@@ -31,10 +31,10 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     nameRequired: 'Voer een horlogenaam in',
     watchTooLarge: 'Horloge steekt voorbij de pols',
     l2lExceedsWrist: 'Lug-to-lug overschrijdt polsbreedte',
-    excellentDesc: 'Proportioneel—lug-to-lug blijft ruim binnen uw pols.',
-    goodDesc: 'Goede pasvorm—steekt iets uit maar blijft comfortabel.',
-    borderlineDesc: 'Op het randje—lugs naderen de rand van uw pols.',
-    largeDesc: 'Te groot—lugs steken vermoedelijk over uw pols.',
+    excellentDesc: 'Proportioneel-lug-to-lug blijft ruim binnen uw pols.',
+    goodDesc: 'Goede pasvorm-steekt iets uit maar blijft comfortabel.',
+    borderlineDesc: 'Op het randje-lugs naderen de rand van uw pols.',
+    largeDesc: 'Te groot-lugs steken vermoedelijk over uw pols.',
     fitsWell: 'Past goed',
     slightlyLarge: 'Iets groot',
     tooLarge: 'Te groot',
@@ -43,7 +43,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   },
   seo: [
     { type: 'title', text: 'Watch Size Comparator: visuele pasvorm op uw pols', level: 2 },
-    { type: 'paragraph', html: 'Benieuwd of een <strong>42mm horloge</strong> op uw <strong>17cm pols</strong> past? Of of die 48mm lug-to-lug oversteekt? De Watch Size Comparator geeft u een visueel antwoord. Voer uw kastdiameter, lug-to-lug, dikte en polsmaat in—de tool tekent het horloge op schaal en kleurt de pasvorm van <span style="color:#22c55e">groen (uitstekend)</span> tot <span style="color:#ef4444">rood (te groot)</span>. Werkt in zowel <strong>metrische als imperiale</strong> eenheden.' },
+    { type: 'paragraph', html: 'Benieuwd of een <strong>42mm horloge</strong> op uw <strong>17cm pols</strong> past? Of of die 48mm lug-to-lug oversteekt? De Watch Size Comparator geeft u een visueel antwoord. Voer uw kastdiameter, lug-to-lug, dikte en polsmaat in-de tool tekent het horloge op schaal en kleurt de pasvorm van <span style="color:#22c55e">groen (uitstekend)</span> tot <span style="color:#ef4444">rood (te groot)</span>. Werkt in zowel <strong>metrische als imperiale</strong> eenheden.' },
     { type: 'title', text: 'Horlogemaat woordenlijst', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,12 +79,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'Lug to lug is de echte pasvormbeperking', icon: 'mdi:ruler', html: 'De meeste mensen letten op de <strong>kastdiameter</strong>, maar <strong>lug-to-lug</strong> bepaalt of een horloge op uw pols past. Een horloge met 48mm L2L op een 55mm platte pols (17cm omtrek) neemt 87% van de polsbreedte in. Boven 65% beginnen de lugs de rand van uw pols te naderen. <strong>Controleer altijd eerst de L2L.</strong>' },
 
-    { type: 'tip', title: 'CM of inches? Gebruik wat u kent', html: 'De tool ondersteunt nu zowel metrisch als imperiaal. Meet uw pols in het systeem dat u dagelijks gebruikt. Horlogekastafmetingen zijn <strong>altijd in millimeters</strong> (zelfs in de VS), dus diameters en L2L blijven in mm—alleen de polsmeting schakelt. Dit sluit aan bij hoe de horloge-industrie werkt.' },
+    { type: 'tip', title: 'CM of inches? Gebruik wat u kent', html: 'De tool ondersteunt nu zowel metrisch als imperiaal. Meet uw pols in het systeem dat u dagelijks gebruikt. Horlogekastafmetingen zijn <strong>altijd in millimeters</strong> (zelfs in de VS), dus diameters en L2L blijven in mm-alleen de polsmeting schakelt. Dit sluit aan bij hoe de horloge-industrie werkt.' },
 
     {
       type: 'summary', title: 'Snelle pasvormchecklist voor aankoop', items: [
         'Meet uw polsomtrek en voer deze in de tool in.',
-        'Zoek de lug-to-lug van het horloge op—niet alleen de kastdiameter.',
+        'Zoek de lug-to-lug van het horloge op-niet alleen de kastdiameter.',
         'Het horloge moet 60-75% van uw platte polsbreedte innemen voor een klassieke pasvorm.',
         'Als de lugs over de rand van uw pols steken, voelt het horloge te groot aan, ongeacht de diameter.',
         'Gebruik de tool om meerdere horloges naast elkaar te vergelijken voordat u een aankoopbeslissing neemt.',

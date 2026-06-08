@@ -64,13 +64,13 @@ export const content: ToolLocaleContent<GearTrainExplorerUI> = {
     step2: '歯車またはデータカードにホバーして、動力の流れの中での位置をハイライト表示します。',
     step3: 'アニメーション速度を調整して、各歯車がどのように動力を伝達するかを学習します。',
     tipTitle: 'ヒント',
-    tipContent: '歯車列は、ぜんまいの急速なエネルギー放出を制御された振動に変換します。典型的な香箱は7〜8時間に1回回転するのに対し、脱進機は32 rpm（28,800 VPH時）で回転します — 15,000:1以上の減速比です。',
+    tipContent: '歯車列は、ぜんまいの急速なエネルギー放出を制御された振動に変換します。典型的な香箱は7〜8時間に1回回転するのに対し、脱進機は32 rpm（28,800 VPH時）で回転します - 15,000:1以上の減速比です。',
   },
   seo: [
     { type: 'title', text: 'インタラクティブ歯車列エクスプローラー', level: 2 },
     { type: 'paragraph', html: '<strong>歯車列</strong>は、すべての機械式時計の機械的な背骨です。このインタラクティブツールは、香箱からCenter Wheel、Third Wheel、Fourth Wheel、脱進機を経てアンクルとテンプに至る動力の流れを視覚化します。各歯車が比例した速度で回転する様子を見て、歯車比がどのように計時を決定するかを理解してください。' },
     { type: 'title', text: '時計の歯車列の仕組み', level: 3 },
-    { type: 'paragraph', html: '時計の歯車列は、速度を減らしながら動力を伝達する一連の<strong>歯車</strong>（大きな歯車）と<strong>ピニオン</strong>（小さな歯車）で構成されています。<strong>香箱</strong>はぜんまいを収容しゆっくり回転し、時計回りに1回転する<strong>Center Wheel</strong>（分針用）を駆動します。<strong>Third Wheel</strong>と<strong>Fourth Wheel</strong>（秒針車）はさらに回転速度を上げます。最後に、<strong>脱進機</strong>が制御された ticks で<strong>アンクル</strong>に動力を解放し、アンクルが交互に脱進機をロック・アンロックして<strong>テンプ</strong>に impulso を送ります。テンプは正確な振動数 — 通常4 Hz（毎時28,800振動）— で振動し、時計のレートを調整します。' },
+    { type: 'paragraph', html: '時計の歯車列は、速度を減らしながら動力を伝達する一連の<strong>歯車</strong>（大きな歯車）と<strong>ピニオン</strong>（小さな歯車）で構成されています。<strong>香箱</strong>はぜんまいを収容しゆっくり回転し、時計回りに1回転する<strong>Center Wheel</strong>（分針用）を駆動します。<strong>Third Wheel</strong>と<strong>Fourth Wheel</strong>（秒針車）はさらに回転速度を上げます。最後に、<strong>脱進機</strong>が制御された ticks で<strong>アンクル</strong>に動力を解放し、アンクルが交互に脱進機をロック・アンロックして<strong>テンプ</strong>に impulso を送ります。テンプは正確な振動数 - 通常4 Hz（毎時28,800振動）- で振動し、時計のレートを調整します。' },
     { type: 'title', text: '歯車比と動力伝達', level: 3 },
     {
       type: 'table', headers: ['コンポーネント', '標準歯数', 'rpm (28,800 VPH)', '前からの比率'], rows: [

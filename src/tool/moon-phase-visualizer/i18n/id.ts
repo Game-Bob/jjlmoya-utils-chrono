@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'visualisator-fase-bulan',
-  title: 'Moon Phase Visualizer—Kalender Lunar & Alat Komplikasi Arloji',
+  title: 'Moon Phase Visualizer Kalender Lunar & Alat Komplikasi Arloji',
   description: 'Visualisasikan fase bulan saat ini, iluminasi, usia bulan, serta bulan purnama dan bulan baru mendatang. Sempurna untuk menyetel komplikasi fase bulan arloji Anda.',
   ui: {
     title: 'Visualisator Fase Bulan',
@@ -31,8 +31,8 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'hari',
   },
   seo: [
-    { type: 'title', text: 'Moon Phase Visualizer—Alat Fase Bulan & Panduan Setting Arloji', level: 2 },
-    { type: 'paragraph', html: 'Moon Phase Visualizer menampilkan <strong>fase bulan terkini</strong> dengan rendering realistis. Lihat <strong>persentase iluminasi, usia bulan, hari menuju bulan purnama berikutnya, dan bulan baru berikutnya</strong>. Dirancang bagi penggemar arloji yang perlu menyetel komplikasi fase bulan secara akurat—juga berfungsi sebagai kalender lunar umum untuk tanggal kapan pun, masa lalu maupun masa depan.' },
+    { type: 'title', text: 'Moon Phase Visualizer-Alat Fase Bulan & Panduan Setting Arloji', level: 2 },
+    { type: 'paragraph', html: 'Moon Phase Visualizer menampilkan <strong>fase bulan terkini</strong> dengan rendering realistis. Lihat <strong>persentase iluminasi, usia bulan, hari menuju bulan purnama berikutnya, dan bulan baru berikutnya</strong>. Dirancang bagi penggemar arloji yang perlu menyetel komplikasi fase bulan secara akurat-juga berfungsi sebagai kalender lunar umum untuk tanggal kapan pun, masa lalu maupun masa depan.' },
     { type: 'title', text: 'Glosarium Fase Bulan', level: 3 },
     {
       type: 'glossary', items: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Akurasi Tinggi', 'Rangkaian gigi', '~1 hari per 100+ tahun', '100+ tahun', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Membaca Piringan Bulan', html: 'Pada sebagian besar arloji fase bulan, piringan bulan menampilkan <strong>dua bulan</strong> yang saling berseberangan. Setiap bulan purnama sejajar dengan bukaan tengah atas. Setelah satu siklus penuh (29,5 hari), bulan kedua mengambil tempatnya. Inilah sebabnya roda gigi 59-gigi berfungsi: ia menyelesaikan satu putaran penuh dalam 59 hari—tepatnya dua siklus lunar.' },
+    { type: 'tip', title: 'Membaca Piringan Bulan', html: 'Pada sebagian besar arloji fase bulan, piringan bulan menampilkan <strong>dua bulan</strong> yang saling berseberangan. Setiap bulan purnama sejajar dengan bukaan tengah atas. Setelah satu siklus penuh (29,5 hari), bulan kedua mengambil tempatnya. Inilah sebabnya roda gigi 59-gigi berfungsi: ia menyelesaikan satu putaran penuh dalam 59 hari-tepatnya dua siklus lunar.' },
     {
       type: 'summary', title: 'Referensi Cepat', items: [
         'Siklus lunar (sinodik) tepat 29,53058867 hari. Alat ini menggunakan nilai tersebut untuk akurasi maksimal.',

@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'simulador-de-cores-de-lume',
-  title: 'Simulador de Cores de Lume — Visualizador de Luminescência',
+  title: 'Simulador de Cores de Lume: Visualizador de Luminescência',
   description: 'Visualize diferentes cores de lume em tempo real. Compare C1, C3, BGW9, LumiNova e mais em vários níveis de luminosidade ambiente.',
   ui: {
     title: 'Simulador de Cores de Lume',
@@ -37,8 +37,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'O brilho do lume depende da qualidade do pigmento e da quantidade de luz que absorveu. O BGW9 brilha em azul-branco e é o mais brilhante, enquanto o lume vintage tem um brilho quente e suave.',
   },
   seo: [
-    { type: 'title', text: 'Simulador de Cores de Lume de Relógio — Visualizador de Brilho em Tempo Real', level: 2 },
-    { type: 'paragraph', html: 'O lume é uma das escolhas mais pessoais no colecionismo de relógios. Você prefere o brilho verde clássico do <strong>C1 Super-LumiNova</strong> ou o azul gelado do <strong>BGW9</strong>? Este simulador mostra como cada tipo de lume se comporta em diferentes níveis de luminosidade — da luz do dia ao escuro total — com os valores exatos de <strong>HEX e RGB</strong> para cada tonalidade.' },
+    { type: 'title', text: 'Simulador de Cores de Lume de Relógio - Visualizador de Brilho em Tempo Real', level: 2 },
+    { type: 'paragraph', html: 'O lume é uma das escolhas mais pessoais no colecionismo de relógios. Você prefere o brilho verde clássico do <strong>C1 Super-LumiNova</strong> ou o azul gelado do <strong>BGW9</strong>? Este simulador mostra como cada tipo de lume se comporta em diferentes níveis de luminosidade - da luz do dia ao escuro total - com os valores exatos de <strong>HEX e RGB</strong> para cada tonalidade.' },
     { type: 'title', text: 'Tipos de Super-LumiNova Comparados', level: 3 },
     {
       type: 'table', headers: ['Tipo', 'Cor à Luz do Dia', 'Cor do Brilho', 'Intensidade', 'Melhor Para'], rows: [
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Verde', 'Verde brilhante', 'Verde', 'Alta', 'Relógios estilo militar'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9 — Qual Escolher?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9 - Qual Escolher?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 Verde Clássico', icon: 'mdi:lightbulb-on', description: 'A formulação original do Super-LumiNova. Brilha em verde com intensidade média. Uma escolha clássica e segura que funciona com qualquer estilo de relógio.', points: ['Brilho médio, visibilidade de 4-6h', 'Brilho verde, tom quente', 'Formulação mais acessível', 'Comum em relógios de entrada'], highlight: false },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'Para um visual moderno e luxuoso: BGW9 é o favorito atual entre as marcas de relógios de alto padrão.',
         'Para construções vintage/heritage: use Vintage ou Laranja para um tom de época.',
         'C1 é o versátil: bom brilho, verde clássico, acessível.',
-        'A cor do lume à luz do dia difere significativamente da cor do brilho — use o simulador para comparar ambas.',
+        'A cor do lume à luz do dia difere significativamente da cor do brilho - use o simulador para comparar ambas.',
       ]
     },
   ],

@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Cos\'è un tourbillon?',
-    answer: 'Un tourbillon è una gabbia rotante che contiene lo scappamento (bilanciere, àncora e ruota di scappamento) di un orologio meccanico. Ruota continuamente — tipicamente una volta al minuto — per mediare gli errori posizionali causati dalla gravità, migliorando la precisione.',
+    answer: 'Un tourbillon è una gabbia rotante che contiene lo scappamento (bilanciere, àncora e ruota di scappamento) di un orologio meccanico. Ruota continuamente - tipicamente una volta al minuto - per mediare gli errori posizionali causati dalla gravità, migliorando la precisione.',
   },
   {
     question: 'Qual è la differenza tra un tourbillon classico e uno volante?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Arte dello Scappamento Rotante';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualizzatore',
   title,
-  description: 'Scopri l\'arte affascinante del tourbillon — una gabbia rotante che ospita lo scappamento. Guarda il bilanciere oscillare, la spirale respirare e la gabbia ruotare in un elegante balletto meccanico.',
+  description: 'Scopri l\'arte affascinante del tourbillon - una gabbia rotante che ospita lo scappamento. Guarda il bilanciere oscillare, la spirale respirare e la gabbia ruotare in un elegante balletto meccanico.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Tipo',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Arte Animata dello Scappamento', level: 2 },
     { type: 'paragraph', html: 'Il <strong>tourbillon</strong> è una delle complicazioni più affascinanti dell\'alta orologeria. Questo visualizzatore interattivo dà vita allo scappamento rotante con una rappresentazione animata dettagliata del bilanciere, della spirale, dell\'àncora, della ruota di scappamento e dell\'iconica gabbia rotante. Esplora la poesia meccanica del capolavoro di Breguet.' },
     { type: 'title', text: 'Come funziona un tourbillon', level: 3 },
-    { type: 'paragraph', html: 'Un tourbillon ospita l\'intero scappamento — <strong>bilanciere, spirale, àncora e ruota di scappamento</strong> — all\'interno di una gabbia rotante. La gabbia completa tipicamente una rotazione al minuto, cambiando continuamente la posizione dello scappamento rispetto alla gravità. Questo media gli errori posizionali, un concetto rivoluzionario quando Abraham-Louis Breguet lo brevettò nel 1801. Il <strong>bilanciere</strong> oscilla alla frequenza dell\'orologio (tipicamente 4 Hz / 28.800 VPH), mentre la <strong>ruota di scappamento</strong> avanza di un dente per battito, creando il caratteristico movimento tick.' },
+    { type: 'paragraph', html: 'Un tourbillon ospita l\'intero scappamento - <strong>bilanciere, spirale, àncora e ruota di scappamento</strong> - all\'interno di una gabbia rotante. La gabbia completa tipicamente una rotazione al minuto, cambiando continuamente la posizione dello scappamento rispetto alla gravità. Questo media gli errori posizionali, un concetto rivoluzionario quando Abraham-Louis Breguet lo brevettò nel 1801. Il <strong>bilanciere</strong> oscilla alla frequenza dell\'orologio (tipicamente 4 Hz / 28.800 VPH), mentre la <strong>ruota di scappamento</strong> avanza di un dente per battito, creando il caratteristico movimento tick.' },
     { type: 'title', text: 'Tourbillon Classico vs Volante', level: 3 },
     {
       type: 'table', headers: ['Caratteristica', 'Tourbillon Classico', 'Tourbillon Volante'], rows: [

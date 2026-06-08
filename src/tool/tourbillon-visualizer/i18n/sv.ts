@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Vad är en tourbillon?',
-    answer: 'En tourbillon är en roterande bur som innehåller gången (balanshjulet, ankaret och gånghjulet) i en mekanisk klocka. Den roterar kontinuerligt — vanligtvis en gång per minut — för att medelvärdesutjämna positionsfel orsakade av gravitationen, vilket förbättrar noggrannheten.',
+    answer: 'En tourbillon är en roterande bur som innehåller gången (balanshjulet, ankaret och gånghjulet) i en mekanisk klocka. Den roterar kontinuerligt - vanligtvis en gång per minut - för att medelvärdesutjämna positionsfel orsakade av gravitationen, vilket förbättrar noggrannheten.',
   },
   {
     question: 'Vad är skillnaden mellan en klassisk och en flygande tourbillon?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Konsten av den Roterande Gången';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualiserare',
   title,
-  description: 'Upplev den fascinerande konsten av tourbillonen — en roterande bur som rymmer gången. Se balanshjulet oscillera, hårfjädern andas och buren rotera i en elegant mekanisk balett.',
+  description: 'Upplev den fascinerande konsten av tourbillonen - en roterande bur som rymmer gången. Se balanshjulet oscillera, hårfjädern andas och buren rotera i en elegant mekanisk balett.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Typ',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Animerad Gångkonst', level: 2 },
     { type: 'paragraph', html: '<strong>Tourbillonen</strong> är en av de mest fängslande komplikationerna inom haute horlogerie. Denna interaktiva visualiserare väcker den roterande gången till liv med en detaljerad animerad återgivning av balanshjulet, hårfjädern, ankaret, gånghjulet och den ikoniska roterande buren. Utforska den mekaniska poesin i Breguets mästerverk.' },
     { type: 'title', text: 'Hur en tourbillon fungerar', level: 3 },
-    { type: 'paragraph', html: 'En tourbillon rymmer hela gången — <strong>balanshjul, hårfjäder, ankare och gånghjul</strong> — inuti en roterande bur. Buren fullbordar vanligtvis en rotation per minut och ändrar kontinuerligt gångens position i förhållande till gravitationen. Detta medelvärdesutjämnar positionella tidsfel, ett koncept som var revolutionerande när Abraham-Louis Breguet patenterade det 1801. <strong>Balanshjulet</strong> oscillerar med klockans slagfrekvens (vanligtvis 4 Hz / 28 800 vph), medan <strong>gånghjulet</strong> avancerar en tand per slag och skapar den karakteristiska tickande rörelsen.' },
+    { type: 'paragraph', html: 'En tourbillon rymmer hela gången - <strong>balanshjul, hårfjäder, ankare och gånghjul</strong> - inuti en roterande bur. Buren fullbordar vanligtvis en rotation per minut och ändrar kontinuerligt gångens position i förhållande till gravitationen. Detta medelvärdesutjämnar positionella tidsfel, ett koncept som var revolutionerande när Abraham-Louis Breguet patenterade det 1801. <strong>Balanshjulet</strong> oscillerar med klockans slagfrekvens (vanligtvis 4 Hz / 28 800 vph), medan <strong>gånghjulet</strong> avancerar en tand per slag och skapar den karakteristiska tickande rörelsen.' },
     { type: 'title', text: 'Klassisk vs Flygande Tourbillon', level: 3 },
     {
       type: 'table', headers: ['Egenskap', 'Klassisk Tourbillon', 'Flygande Tourbillon'], rows: [

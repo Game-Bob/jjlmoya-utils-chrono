@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: '请先旋松表冠',
     windingLabel: '上链',
     hackLabel: '停秒',
-    dangerZoneLabel: '避免晚上9点\u2013凌晨3点',
+    dangerZoneLabel: '避免晚上9点-凌晨3点',
     directionCW: '顺时针',
     directionCCW: '逆时针',
     directionBoth: '双向',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: '未启用任何上链或设置功能。',
     position1Title: '手动上链',
     position1Desc: '顺时针转动表冠以给发条上链。随着发条收紧，您会感到阻力。',
-    position1Detail: '从完全静止约30\u201340整圈。自动陀在佩戴时也会上链。',
+    position1Detail: '从完全静止约30-40整圈。自动陀在佩戴时也会上链。',
     position2Title: '日期快调',
     position2Desc: '顺时针转动表冠以推进日期。时针与秒针保持同步。',
     position2Detail: '在晚上9点到凌晨3点之间，日期切换机构啮合时，请勿快调日期。',
@@ -42,7 +42,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
   },
   seo: [
     { type: 'title', text: '手表表冠位置指南-正确上链、设置日期和时间', level: 2 },
-    { type: 'paragraph', html: '表冠是您与手表机芯之间唯一的物理接口。错误操作——反向旋转、在午夜设置日期、或用力过猛——都可能损坏机芯。本指南详细解析了<strong>ETA、Sellita、Miyota、Seiko和Unitas</strong>等机芯的每个表冠位置，让您再也不用猜测。' },
+    { type: 'paragraph', html: '表冠是您与手表机芯之间唯一的物理接口。错误操作-反向旋转、在午夜设置日期、或用力过猛-都可能损坏机芯。本指南详细解析了<strong>ETA、Sellita、Miyota、Seiko和Unitas</strong>等机芯的每个表冠位置，让您再也不用猜测。' },
     { type: 'title', text: '表冠位置一览', level: 3 },
     {
       type: 'glossary', items: [
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: '标准表冠', icon: 'mdi:crown', description: '大多数正装表和日常自动表采用的推拉式表冠。2\u20134个档位。防水性通常为30\u2013100米。', points: ['直接操作，无需旋松', '防水性能有限', '常见于ETA、Miyota、Seiko机芯'] },
+        { title: '标准表冠', icon: 'mdi:crown', description: '大多数正装表和日常自动表采用的推拉式表冠。2-4个档位。防水性通常为30-100米。', points: ['直接操作，无需旋松', '防水性能有限', '常见于ETA、Miyota、Seiko机芯'] },
         { title: '旋入式表冠', icon: 'mdi:lock', description: '带有螺纹，可旋入表壳的表冠。潜水表和工具表的标准配置。防水性200米以上。', points: ['出色的防水性能', '使用前必须旋松', '常见于Rolex、Omega、Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: '为什么拉出表冠后秒针不会停止？',
-      answer: '一些机芯不具备停秒功能。常见的无停秒机芯包括Miyota 8215、Unitas 6497/6498以及许多古董机芯。要在无停秒机芯上准确设置时间：将表冠转至超过目标分钟5\u201310分钟，然后缓慢回调直到分针准确指向所需位置。',
+      answer: '一些机芯不具备停秒功能。常见的无停秒机芯包括Miyota 8215、Unitas 6497/6498以及许多古董机芯。要在无停秒机芯上准确设置时间：将表冠转至超过目标分钟5-10分钟，然后缓慢回调直到分针准确指向所需位置。',
     },
     {
       question: '如何知道上满链需要多少圈？',
-      answer: '大多数自动机芯从完全静止状态需要30\u201340整圈表冠旋转。手动上链机芯则各不相同：Unitas 6498约需30\u201335圈，而具有70小时动储的Seiko 6R35需要50\u201360圈。当感到明显的阻力时停止-继续可能会损坏发条。',
+      answer: '大多数自动机芯从完全静止状态需要30-40整圈表冠旋转。手动上链机芯则各不相同：Unitas 6498约需30-35圈，而具有70小时动储的Seiko 6R35需要50-60圈。当感到明显的阻力时停止-继续可能会损坏发条。',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: '逐个档位拉出体验',
-      text: '点击档位块（0\u20133）或使用"拉出"按钮。阅读说明并注意日期设置的危险期警告。',
+      text: '点击档位块（0-3）或使用"拉出"按钮。阅读说明并注意日期设置的危险期警告。',
     },
     {
       name: '应用到您的腕表',
@@ -171,7 +171,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
           'name': '上满链需要多少圈？',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': '大多数自动机芯需要30\u201340整圈表冠旋转。手动上链机芯则各不相同。当感到明显阻力时停止。',
+            'text': '大多数自动机芯需要30-40整圈表冠旋转。手动上链机芯则各不相同。当感到明显阻力时停止。',
           },
         },
       ],
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': '逐个档位拉出体验',
-          'text': '点击档位块（0\u20133）或使用"拉出"按钮。阅读说明并注意日期设置的危险期警告。',
+          'text': '点击档位块（0-3）或使用"拉出"按钮。阅读说明并注意日期设置的危险期警告。',
         },
         {
           '@type': 'HowToStep',

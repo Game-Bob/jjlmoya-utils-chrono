@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Was ist ein Tourbillon?',
-    answer: 'Ein Tourbillon ist ein rotierender Käfig, der die Hemmung (Unruh, Anker und Hemmungsrad) einer mechanischen Uhr enthält. Er dreht sich kontinuierlich — typischerweise einmal pro Minute — um positionsbedingte Fehler durch die Schwerkraft auszugleichen und die Genauigkeit zu verbessern.',
+    answer: 'Ein Tourbillon ist ein rotierender Käfig, der die Hemmung (Unruh, Anker und Hemmungsrad) einer mechanischen Uhr enthält. Er dreht sich kontinuierlich - typischerweise einmal pro Minute - um positionsbedingte Fehler durch die Schwerkraft auszugleichen und die Genauigkeit zu verbessern.',
   },
   {
     question: 'Was ist der Unterschied zwischen einem klassischen und einem fliegenden Tourbillon?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Kunst der rotierenden Hemmung';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-betrachter',
   title,
-  description: 'Erleben Sie die faszinierende Kunst des Tourbillons — ein rotierender Käfig, der die Hemmung beherbergt. Beobachten Sie die oszillierende Unruh, die atmende Spirale und den sich drehenden Käfig in einem eleganten mechanischen Ballett.',
+  description: 'Erleben Sie die faszinierende Kunst des Tourbillons - ein rotierender Käfig, der die Hemmung beherbergt. Beobachten Sie die oszillierende Unruh, die atmende Spirale und den sich drehenden Käfig in einem eleganten mechanischen Ballett.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Typ',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Animierte Hemmungskunst', level: 2 },
     { type: 'paragraph', html: 'Das <strong>Tourbillon</strong> ist eine der faszinierendsten Komplikationen der Haute Horlogerie. Dieser interaktive Visualizer erweckt die rotierende Hemmung zum Leben mit einer detaillierten animierten Darstellung von Unruh, Spirale, Anker, Hemmungsrad und dem ikonischen rotierenden Käfig. Entdecken Sie die mechanische Poesie von Breguets Meisterwerk.' },
     { type: 'title', text: 'Wie ein Tourbillon funktioniert', level: 3 },
-    { type: 'paragraph', html: 'Ein Tourbillon beherbergt die gesamte Hemmung — <strong>Unruh, Spirale, Anker und Hemmungsrad</strong> — in einem rotierenden Käfig. Der Käfig vollendet typischerweise eine Umdrehung pro Minute und verändert kontinuierlich die Position der Hemmung relativ zur Schwerkraft. Dies mittelt positionsbedingte Gangfehler aus, ein Konzept, das revolutionär war, als Abraham-Louis Breguet es 1801 patentierte. Die <strong>Unruh</strong> oszilliert mit der Schlagzahl der Uhr (typischerweise 4 Hz / 28.800 vph), während das <strong>Hemmungsrad</strong> pro Schlag einen Zahn weiterrückt und die charakteristische Tickbewegung erzeugt.' },
+    { type: 'paragraph', html: 'Ein Tourbillon beherbergt die gesamte Hemmung - <strong>Unruh, Spirale, Anker und Hemmungsrad</strong> - in einem rotierenden Käfig. Der Käfig vollendet typischerweise eine Umdrehung pro Minute und verändert kontinuierlich die Position der Hemmung relativ zur Schwerkraft. Dies mittelt positionsbedingte Gangfehler aus, ein Konzept, das revolutionär war, als Abraham-Louis Breguet es 1801 patentierte. Die <strong>Unruh</strong> oszilliert mit der Schlagzahl der Uhr (typischerweise 4 Hz / 28.800 vph), während das <strong>Hemmungsrad</strong> pro Schlag einen Zahn weiterrückt und die charakteristische Tickbewegung erzeugt.' },
     { type: 'title', text: 'Klassisches vs. Fliegendes Tourbillon', level: 3 },
     {
       type: 'table', headers: ['Merkmal', 'Klassisches Tourbillon', 'Fliegendes Tourbillon'], rows: [

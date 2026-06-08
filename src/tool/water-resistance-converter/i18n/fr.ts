@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Plongée Profonde / Saturation',
     saturationDivingDesc: 'Plongée à saturation professionnelle. Profondeurs extrêmes. Contexte de valve d\'échappement d\'hélium.',
     tipTitle: 'Astuce',
-    tipContent: 'L\'étanchéité se dégrade avec le temps. Les joints doivent être vérifiés chaque année et remplacés tous les 3\u20135 ans.',
+    tipContent: 'L\'étanchéité se dégrade avec le temps. Les joints doivent être vérifiés chaque année et remplacés tous les 3-5 ans.',
   },
   seo: [
     { type: 'title', text: 'Convertisseur d\'Étanchéité de Montres-Décoder les Mètres, ATM, Bar & Pieds', level: 2 },
@@ -40,7 +40,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     { type: 'title', text: 'Pourquoi l\'Étanchéité se Détériore avec le Temps', level: 3 },
     { type: 'paragraph', html: 'Les joints en caoutchouc et les joints toriques qui scellent votre montresèchent, se fissurent et se compriment avec le temps. La chaleur, la lumière UV et les produits chimiques accélèrent ce processus. Une montre qui était autrefois étanche à 100m peut n\'être plus que résistante aux éclaboussures après 5 ans sans entretien. Faites vérifier vos joints chaque année et remplacez-les tous les 3 à 5 ans.' },
     { type: 'title', text: 'ISO 6425-La Norme pour les Montres de Plongée', level: 3 },
-    { type: 'paragraph', html: 'Pour qu\'une montre soit appelée "montre de plongée", elle doit répondre à la norme ISO 6425 : au moins 100m d\'étanchéité, une lunette unidirectionnelle, des marquages luminescents et une couronne vissée. Les montres conformes à cette norme sont testées 25% au-dessus de leur profondeur nominale. Une montre certifiée ISO de 200m est testée à 250m.' },
+    { type: 'paragraph', html: 'Pour qu\'une montre soit appelée "montre de plongée", elle doit répondre à la norme ISO 6425: au moins 100m d\'étanchéité, une lunette unidirectionnelle, des marquages luminescents et une couronne vissée. Les montres conformes à cette norme sont testées 25% au-dessus de leur profondeur nominale. Une montre certifiée ISO de 200m est testée à 250m.' },
   ],
   faq: [
     {

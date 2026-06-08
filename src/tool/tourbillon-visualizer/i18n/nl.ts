@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Wat is een tourbillon?',
-    answer: 'Een tourbillon is een roterende kooi die het echappement (balanswiel, anker en echappementwiel) van een mechanisch horloge bevat. Hij draait continu — meestal één keer per minuut — om positiefouten door de zwaartekracht te middelen en de nauwkeurigheid te verbeteren.',
+    answer: 'Een tourbillon is een roterende kooi die het echappement (balanswiel, anker en echappementwiel) van een mechanisch horloge bevat. Hij draait continu - meestal één keer per minuut - om positiefouten door de zwaartekracht te middelen en de nauwkeurigheid te verbeteren.',
   },
   {
     question: 'Wat is het verschil tussen een klassieke en een vliegende tourbillon?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Kunst van het Roterende Echappement';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-bekijker',
   title,
-  description: 'Beleef de betoverende kunst van de tourbillon — een roterende kooi met het echappement. Zie het balanswiel oscilleren, de haarveer ademen en de kooi draaien in een elegant mechanisch ballet.',
+  description: 'Beleef de betoverende kunst van de tourbillon - een roterende kooi met het echappement. Zie het balanswiel oscilleren, de haarveer ademen en de kooi draaien in een elegant mechanisch ballet.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Type',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Geanimeerde Echappementkunst', level: 2 },
     { type: 'paragraph', html: 'De <strong>tourbillon</strong> is een van de meest boeiende complicaties in de haute horlogerie. Deze interactieve visualizer brengt het roterende echappement tot leven met een gedetailleerde geanimeerde weergave van het balanswiel, de haarveer, het anker, het echappementwiel en de iconische roterende kooi. Verken de mechanische poëzie van Breguets meesterwerk.' },
     { type: 'title', text: 'Hoe een tourbillon werkt', level: 3 },
-    { type: 'paragraph', html: 'Een tourbillon huisvest het volledige echappement — <strong>balanswiel, haarveer, anker en echappementwiel</strong> — in een roterende kooi. De kooi voltooit meestal één rotatie per minuut, waardoor de positie van het echappement ten opzichte van de zwaartekracht continu verandert. Dit middelt positionele tijdfouten uit, een revolutionair concept toen Abraham-Louis Breguet het in 1801 patenteerde. Het <strong>balanswiel</strong> oscilleert op de slagfrequentie van het horloge (typisch 4 Hz / 28.800 vph), terwijl het <strong>echappementwiel</strong> één tand per slag vooruitgaat, wat de karakteristieke tikkende beweging creëert.' },
+    { type: 'paragraph', html: 'Een tourbillon huisvest het volledige echappement - <strong>balanswiel, haarveer, anker en echappementwiel</strong> - in een roterende kooi. De kooi voltooit meestal één rotatie per minuut, waardoor de positie van het echappement ten opzichte van de zwaartekracht continu verandert. Dit middelt positionele tijdfouten uit, een revolutionair concept toen Abraham-Louis Breguet het in 1801 patenteerde. Het <strong>balanswiel</strong> oscilleert op de slagfrequentie van het horloge (typisch 4 Hz / 28.800 vph), terwijl het <strong>echappementwiel</strong> één tand per slag vooruitgaat, wat de karakteristieke tikkende beweging creëert.' },
     { type: 'title', text: 'Klassiek vs Vliegend Tourbillon', level: 3 },
     {
       type: 'table', headers: ['Kenmerk', 'Klassiek Tourbillon', 'Vliegend Tourbillon'], rows: [

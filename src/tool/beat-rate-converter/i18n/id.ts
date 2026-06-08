@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<BeatRateConverterUI> = {
   slug: 'pengonversi-tingkat-denyut',
-  title: 'Pengonversi Tingkat Denyut Arloji \u2014 VPH ke Hz & s/hari',
+  title: 'Pengonversi Tingkat Denyut Arloji: VPH ke Hz & s/hari',
   description: 'Ubah getaran per jam (VPH) ke Hertz, ticks per detik, dan hitung dampak harian dari satu tick yang hilang. Bekerja dengan kaliber ETA, Sellita, Miyota, Seiko, Rolex, Omega, dan Zenith.',
   ui: {
     title: 'Pengonversi Tingkat Denyut',
@@ -23,10 +23,10 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
     tipContent: 'Tingkat denyut yang lebih tinggi (36.000 VPH) memberikan gerakan jarum yang lebih halus dan presisi yang lebih baik, tetapi juga lebih banyak keausan pada escapement.',
   },
   seo: [
-    { type: 'title', text: 'Pengonversi Tingkat Denyut Arloji \u2014 VPH ke Hz & Detik per Hari', level: 2 },
-    { type: 'paragraph', html: 'Setiap arloji mekanis berdetak pada tingkat tertentu \u2014 jumlah getaran yang dibuat roda keseimbangannya per jam. Angka tersebut menentukan seberapa halus gerakan jarum detik dan seberapa presisi arloji tersebut. Pengonversi ini menerjemahkan <strong>VPH ke Hz dan ticks per detik</strong>, dan menunjukkan dampak nyata dari satu tick yang hilang.' },
+    { type: 'title', text: 'Pengonversi Tingkat Denyut Arloji - VPH ke Hz & Detik per Hari', level: 2 },
+    { type: 'paragraph', html: 'Setiap arloji mekanis berdetak pada tingkat tertentu - jumlah getaran yang dibuat roda keseimbangannya per jam. Angka tersebut menentukan seberapa halus gerakan jarum detik dan seberapa presisi arloji tersebut. Pengonversi ini menerjemahkan <strong>VPH ke Hz dan ticks per detik</strong>, dan menunjukkan dampak nyata dari satu tick yang hilang.' },
     { type: 'title', text: 'Apa Itu Tingkat Denyut?', level: 3 },
-    { type: 'paragraph', html: 'Tingkat denyut, diukur dalam getaran per jam (vph), adalah frekuensi osilasi roda keseimbangan arloji. Tingkat yang umum adalah 28.800 VPH \u2014 itu 4 Hz, atau 8 ticks per detik. Tingkat denyut yang lebih tinggi seperti 36.000 VPH (5 Hz) menghasilkan gerakan yang lebih halus dan secara teoretis dapat meningkatkan akurasi dengan mengurangi efek kesalahan posisional.' },
+    { type: 'paragraph', html: 'Tingkat denyut, diukur dalam getaran per jam (vph), adalah frekuensi osilasi roda keseimbangan arloji. Tingkat yang umum adalah 28.800 VPH - itu 4 Hz, atau 8 ticks per detik. Tingkat denyut yang lebih tinggi seperti 36.000 VPH (5 Hz) menghasilkan gerakan yang lebih halus dan secara teoretis dapat meningkatkan akurasi dengan mengurangi efek kesalahan posisional.' },
     { type: 'title', text: 'Mengapa Tick yang Hilang Penting', level: 3 },
     { type: 'paragraph', html: 'Jika escapement arloji gagal memberikan satu tick karena gesekan, magnetisasi, atau keausan, tick yang hilang itu langsung berubah menjadi waktu yang hilang. Pada 28.800 VPH, satu tick yang terlewat per jam bertambah menjadi sekitar <strong>3 detik per hari</strong>. Pada 18.000 VPH, kesalahan yang sama memakan hampir 5 detik per hari. Alat ini membantu Anda memahami matematika di balik regulasi.' },
     { type: 'title', text: 'Tingkat Denyut Umum', level: 3 },
@@ -35,7 +35,7 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
   faq: [
     {
       question: 'Bagaimana cara mengonversi VPH ke Hz?',
-      answer: 'Bagilah VPH dengan 7.200. Arloji yang berdetak pada 28.800 VPH berjalan pada 4 Hz (28.800 \u00f7 7.200 = 4). Pembagian dengan 7.200 memperhitungkan bahwa satu osilasi lengkap mengandung dua getaran, dan ada 3.600 detik dalam satu jam.',
+      answer: 'Bagilah VPH dengan 7.200. Arloji yang berdetak pada 28.800 VPH berjalan pada 4 Hz (28.800 ÷ 7.200 = 4). Pembagian dengan 7.200 memperhitungkan bahwa satu osilasi lengkap mengandung dua getaran, dan ada 3.600 detik dalam satu jam.',
     },
     {
       question: 'Apa arti tingkat denyut yang lebih tinggi bagi akurasi?',
@@ -47,7 +47,7 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
     },
     {
       question: 'Bisakah arloji pulih dari tick yang hilang?',
-      answer: 'Tidak. Setelah tick terlewatkan, waktu tersebut hilang secara permanen. Arloji tidak akan "mengejar ketertinggalan." Inilah mengapa kesehatan escapement \u2014 batu palet yang bersih, pelumasan yang tepat, dan kesalahan detak yang benar \u2014 secara langsung memengaruhi laju harian.',
+      answer: 'Tidak. Setelah tick terlewatkan, waktu tersebut hilang secara permanen. Arloji tidak akan "mengejar ketertinggalan." Inilah mengapa kesehatan escapement - batu palet yang bersih, pelumasan yang tepat, dan kesalahan detak yang benar - secara langsung memengaruhi laju harian.',
     },
   ],
   bibliography,

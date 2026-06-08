@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Quest-ce qu\'un tourbillon?',
-    answer: 'Un tourbillon est une cage rotative qui contient l\'échappement (balancier, ancre et roue d\'échappement) d\'une montre mécanique. Il tourne en continu — généralement une fois par minute — pour moyenner les erreurs de position causées par la gravité, améliorant ainsi la précision.',
+    answer: 'Un tourbillon est une cage rotative qui contient l\'échappement (balancier, ancre et roue d\'échappement) d\'une montre mécanique. Il tourne en continu - généralement une fois par minute - pour moyenner les erreurs de position causées par la gravité, améliorant ainsi la précision.',
   },
   {
     question: 'Quelle est la différence entre un tourbillon classique et un tourbillon volant?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Art de l\'Échappement Rotatif';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'visualiseur-tourbillon',
   title,
-  description: 'Découvrez l\'art fascinant du tourbillon — une cage rotative abritant l\'échappement. Regardez le balancier osciller, le spiral respirer et la cage tourner dans un ballet mécanique élégant.',
+  description: 'Découvrez l\'art fascinant du tourbillon - une cage rotative abritant l\'échappement. Regardez le balancier osciller, le spiral respirer et la cage tourner dans un ballet mécanique élégant.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Type',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Art Animé de l\'Échappement', level: 2 },
     { type: 'paragraph', html: 'Le <strong>tourbillon</strong> est l\'une des complications les plus captivantes de la haute horlogerie. Ce visualiseur interactif donne vie à l\'échappement rotatif avec un rendu animé détaillé du balancier, du spiral, de l\'ancre, de la roue d\'échappement et de l\'iconique cage rotative. Explorez la poésie mécanique du chef-d\'œuvre de Breguet.' },
     { type: 'title', text: 'Comment fonctionne un tourbillon', level: 3 },
-    { type: 'paragraph', html: 'Un tourbillon abrite l\'ensemble de l\'échappement — <strong>balancier, spiral, ancre et roue d\'échappement</strong> — à l\'intérieur d\'une cage rotative. La cage effectue généralement une rotation par minute, changeant continuellement la position de l\'échappement par rapport à la gravité. Cela moyenne les erreurs de timing positionnelles, un concept révolutionnaire quand Abraham-Louis Breguet l\'a breveté en 1801. Le <strong>balancier</strong> oscille à la fréquence de la montre (généralement 4 Hz / 28 800 VPH), tandis que la <strong>roue d\'échappement</strong> avance d\'une dent par battement, créant le mouvement de tic caractéristique.' },
+    { type: 'paragraph', html: 'Un tourbillon abrite l\'ensemble de l\'échappement - <strong>balancier, spiral, ancre et roue d\'échappement</strong> - à l\'intérieur d\'une cage rotative. La cage effectue généralement une rotation par minute, changeant continuellement la position de l\'échappement par rapport à la gravité. Cela moyenne les erreurs de timing positionnelles, un concept révolutionnaire quand Abraham-Louis Breguet l\'a breveté en 1801. Le <strong>balancier</strong> oscille à la fréquence de la montre (généralement 4 Hz / 28 800 VPH), tandis que la <strong>roue d\'échappement</strong> avance d\'une dent par battement, créant le mouvement de tic caractéristique.' },
     { type: 'title', text: 'Tourbillon Classique vs Volant', level: 3 },
     {
       type: 'table', headers: ['Caractéristique', 'Tourbillon Classique', 'Tourbillon Volant'], rows: [

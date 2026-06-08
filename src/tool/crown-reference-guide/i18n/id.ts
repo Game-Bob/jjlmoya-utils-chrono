@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Buka sekrup mahkota terlebih dahulu',
     windingLabel: 'Gulungan',
     hackLabel: 'Henti',
-    dangerZoneLabel: 'Hindari jam 9\u20133',
+    dangerZoneLabel: 'Hindari jam 9-3',
     directionCW: 'Searah jarum jam',
     directionCCW: 'Berlawanan jarum jam',
     directionBoth: 'Dua arah',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Tidak ada fungsi penggulungan atau pengaturan yang aktif.',
     position1Title: 'Gulungan Manual',
     position1Desc: 'Putar mahkota searah jarum jam untuk menggulung pegas utama. Anda akan merasakan hambatan saat pegas mengencang.',
-    position1Detail: 'Sekitar 30\u201340 putaran penuh dari posisi mati. Rotor otomatis juga menggulung saat dikenakan.',
+    position1Detail: 'Sekitar 30-40 putaran penuh dari posisi mati. Rotor otomatis juga menggulung saat dikenakan.',
     position2Title: 'Pengaturan Tanggal Cepat',
     position2Desc: 'Putar mahkota searah jarum jam untuk memajukan tanggal. Jarum jam tetap sinkron dengan detik yang berjalan.',
     position2Detail: 'HINDARI pengaturan tanggal cepat antara jam 9 malam dan 3 pagi saat mekanisme perubahan tanggal sedang aktif.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Posisi 0 (Diam)', definition: 'Mahkota ditekan masuk atau dikencangkan. Jam berjalan normal. Tidak ada fungsi yang aktif. Selalu kembali ke sini setelah pengaturan.' },
         { term: 'Posisi 1 (Gulungan)', definition: 'Tarik pertama atau kondisi terbuka. Putar searah jarum jam untuk menggulung pegas utama. Sebagian besar jam otomatis juga menggulung melalui rotor.' },
-        { term: 'Posisi 2 (Pengaturan Tanggal Cepat)', definition: 'Tarik kedua. Putar searah jarum jam untuk memajukan tanggal. Hindari penggunaan antara jam 9 malam\u20133 pagi saat mekanisme tanggal aktif.' },
+        { term: 'Posisi 2 (Pengaturan Tanggal Cepat)', definition: 'Tarik kedua. Putar searah jarum jam untuk memajukan tanggal. Hindari penggunaan antara jam 9 malam-3 pagi saat mekanisme tanggal aktif.' },
         { term: 'Posisi 3 (Pengaturan Waktu)', definition: 'Tarik ketiga. Jarum detik berhenti untuk penyelarasan yang presisi. Putar bebas untuk mengatur waktu. Ada di sebagian besar jam otomatis modern.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Mahkota Standar', icon: 'mdi:crown', description: 'Mahkota tarik-tekan yang ditemukan di sebagian besar jam tangan dress dan otomatis sehari-hari. 2\u20134 posisi. Ketahanan air biasanya 30\u2013100 m.', points: ['Akses instan, tanpa membuka sekrup', 'Ketahanan air terbatas', 'Umum pada ETA, Miyota, Seiko'] },
+        { title: 'Mahkota Standar', icon: 'mdi:crown', description: 'Mahkota tarik-tekan yang ditemukan di sebagian besar jam tangan dress dan otomatis sehari-hari. 2-4 posisi. Ketahanan air biasanya 30-100 m.', points: ['Akses instan, tanpa membuka sekrup', 'Ketahanan air terbatas', 'Umum pada ETA, Miyota, Seiko'] },
         { title: 'Mahkota Sekrup', icon: 'mdi:lock', description: 'Mahkota berulir yang disekrup ke dalam tabung casing. Standar pada jam selam dan jam alat. Ketahanan air 200 m+.', points: ['Ketahanan air unggul', 'Harus dibuka sekrupnya sebelum digunakan', 'Umum pada Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Mengapa jarum detik saya tidak berhenti saat saya menarik mahkota?',
-      answer: 'Beberapa mesin tidak memiliki mekanisme henti. Kaliber umum tanpa henti termasuk Miyota 8215, Unitas 6497/6498, dan banyak mesin vintage. Untuk mengatur waktu secara akurat pada mesin tanpa henti: putar mahkota 5\u201310 menit melewati menit target Anda, lalu putar perlahan mundur hingga jarum menit tepat pada tanda yang diinginkan.',
+      answer: 'Beberapa mesin tidak memiliki mekanisme henti. Kaliber umum tanpa henti termasuk Miyota 8215, Unitas 6497/6498, dan banyak mesin vintage. Untuk mengatur waktu secara akurat pada mesin tanpa henti: putar mahkota 5-10 menit melewati menit target Anda, lalu putar perlahan mundur hingga jarum menit tepat pada tanda yang diinginkan.',
     },
     {
       question: 'Bagaimana cara mengetahui berapa kali putaran untuk menggulung penuh jam tangan saya?',
-      answer: 'Sebagian besar mesin otomatis memerlukan 30\u201340 putaran penuh mahkota dari posisi mati. Mesin gulung manual bervariasi: Unitas 6498 membutuhkan sekitar 30\u201335 putaran, sedangkan Seiko 6R35 dengan cadangan daya 70 jam membutuhkan 50\u201360 putaran. Berhentilah saat Anda merasakan hambatan yang kuat-maksa melewatinya dapat merusak pegas utama.',
+      answer: 'Sebagian besar mesin otomatis memerlukan 30-40 putaran penuh mahkota dari posisi mati. Mesin gulung manual bervariasi: Unitas 6498 membutuhkan sekitar 30-35 putaran, sedangkan Seiko 6R35 dengan cadangan daya 70 jam membutuhkan 50-60 putaran. Berhentilah saat Anda merasakan hambatan yang kuat-maksa melewatinya dapat merusak pegas utama.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Tarik melalui setiap posisi',
-      text: 'Klik chip posisi (0\u20133) atau gunakan tombol Tarik. Baca deskripsi dan perhatikan peringatan zona bahaya untuk pengaturan tanggal.',
+      text: 'Klik chip posisi (0-3) atau gunakan tombol Tarik. Baca deskripsi dan perhatikan peringatan zona bahaya untuk pengaturan tanggal.',
     },
     {
       name: 'Terapkan ke jam tangan Anda',
@@ -171,7 +171,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
           'name': 'Berapa putaran untuk menggulung penuh jam tangan saya?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Sebagian besar mesin otomatis memerlukan 30\u201340 putaran penuh mahkota. Mesin gulung manual bervariasi. Berhentilah saat Anda merasakan hambatan yang kuat.',
+            'text': 'Sebagian besar mesin otomatis memerlukan 30-40 putaran penuh mahkota. Mesin gulung manual bervariasi. Berhentilah saat Anda merasakan hambatan yang kuat.',
           },
         },
       ],
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Tarik melalui setiap posisi',
-          'text': 'Klik chip posisi (0\u20133) atau gunakan tombol Tarik. Baca deskripsi dan perhatikan peringatan zona bahaya untuk pengaturan tanggal.',
+          'text': 'Klik chip posisi (0-3) atau gunakan tombol Tarik. Baca deskripsi dan perhatikan peringatan zona bahaya untuk pengaturan tanggal.',
         },
         {
           '@type': 'HowToStep',

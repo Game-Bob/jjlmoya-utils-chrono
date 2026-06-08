@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'confronto-taglie-orologi',
-  title: 'Watch Size Comparator — Vestibilità al Polso',
+  title: 'Watch Size Comparator: Vestibilità al Polso',
   description: 'Confronta visivamente le dimensioni delle casse degli orologi. Inserisci diametro, lug-to-lug e circonferenza polso per vedere come ti calzerà un orologio prima di acquistarlo.',
   ui: {
     title: 'Watch Size Comparator',
@@ -31,10 +31,10 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     nameRequired: 'Inserisci un nome per l\'orologio',
     watchTooLarge: 'L\'orologio supera la larghezza del polso',
     l2lExceedsWrist: 'Il lug-to-lug supera la larghezza del polso',
-    excellentDesc: 'Proporzionato — il lug-to-lug resta ben entro il polso.',
-    goodDesc: 'Buona vestibilità — sporgenza leggera ma comunque comoda.',
-    borderlineDesc: 'Al limite — le anse si avvicinano al bordo del polso.',
-    largeDesc: 'Troppo grande — le anse probabilmente sporgono dal polso.',
+    excellentDesc: 'Proporzionato - il lug-to-lug resta ben entro il polso.',
+    goodDesc: 'Buona vestibilità - sporgenza leggera ma comunque comoda.',
+    borderlineDesc: 'Al limite - le anse si avvicinano al bordo del polso.',
+    largeDesc: 'Troppo grande - le anse probabilmente sporgono dal polso.',
     fitsWell: 'Calza bene',
     slightlyLarge: 'Leggermente grande',
     tooLarge: 'Troppo grande',
@@ -42,8 +42,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: 'Inserisci le dimensioni e aggiungi un orologio per vedere come calza al polso.',
   },
   seo: [
-    { type: 'title', text: 'Watch Size Comparator — Vestibilità Visiva al Polso', level: 2 },
-    { type: 'paragraph', html: 'Ti stai chiedendo se un <strong>orologio da 42 mm</strong> calzerà sul tuo <strong>polso da 17 cm</strong>? O se quel lug-to-lug da 48 mm sporge troppo? Watch Size Comparator ti dà una risposta visiva. Inserisci diametro cassa, lug-to-lug, spessore e circonferenza polso — lo strumento disegna l\'orologio in scala e colora la vestibilità dal <span style="color:#22c55e">verde (ottimo)</span> al <span style="color:#ef4444">rosso (troppo grande)</span>. Funziona sia in unità <strong>metriche che imperiali</strong>.' },
+    { type: 'title', text: 'Watch Size Comparator - Vestibilità Visiva al Polso', level: 2 },
+    { type: 'paragraph', html: 'Ti stai chiedendo se un <strong>orologio da 42 mm</strong> calzerà sul tuo <strong>polso da 17 cm</strong>? O se quel lug-to-lug da 48 mm sporge troppo? Watch Size Comparator ti dà una risposta visiva. Inserisci diametro cassa, lug-to-lug, spessore e circonferenza polso - lo strumento disegna l\'orologio in scala e colora la vestibilità dal <span style="color:#22c55e">verde (ottimo)</span> al <span style="color:#ef4444">rosso (troppo grande)</span>. Funziona sia in unità <strong>metriche che imperiali</strong>.' },
     { type: 'title', text: 'Glossario delle Dimensioni degli Orologi', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,7 +79,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'Il Lug to Lug e il Vero Limite di Vestibilita', icon: 'mdi:ruler', html: 'La maggior parte delle persone guarda il <strong>diametro cassa</strong>, ma è il <strong>lug-to-lug</strong> che determina se un orologio calza. Un orologio con L2L da 48 mm su un polso piatto da 55 mm (circonferenza 17 cm) occupa l\'87% della larghezza del polso. Oltre il 65% le anse iniziano ad avvicinarsi al bordo. <strong>Controlla sempre prima il L2L.</strong>' },
 
-    { type: 'tip', title: 'CM o Pollici? Usa Quello che Conosci', html: 'Lo strumento supporta sia il metrico che l\'imperiale. Misura il polso nel sistema che usi tutti i giorni. Le dimensioni della cassa sono <strong>sempre in millimetri</strong> (anche negli USA), quindi diametri e L2L restano in mm — solo la misura del polso cambia. Esattamente come funziona nel settore orologiero.' },
+    { type: 'tip', title: 'CM o Pollici? Usa Quello che Conosci', html: 'Lo strumento supporta sia il metrico che l\'imperiale. Misura il polso nel sistema che usi tutti i giorni. Le dimensioni della cassa sono <strong>sempre in millimetri</strong> (anche negli USA), quindi diametri e L2L restano in mm - solo la misura del polso cambia. Esattamente come funziona nel settore orologiero.' },
 
     {
       type: 'summary', title: 'Lista di Controllo Rapida Prima dell\'Acquisto', items: [

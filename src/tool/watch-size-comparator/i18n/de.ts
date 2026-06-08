@@ -117,7 +117,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       name: 'Hinzufügen und vergleichen',
-      text: 'Klicke auf „Uhr hinzufügen", um sie zu speichern. Füge mehrere Uhren hinzu und klicke zwischen ihnen, um die Passform zu vergleichen.',
+      text: 'Klicke auf "Uhr hinzufügen", um sie zu speichern. Füge mehrere Uhren hinzu und klicke zwischen ihnen, um die Passform zu vergleichen.',
     },
     {
       name: 'Farbe lesen',
@@ -181,7 +181,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Hinzufügen und vergleichen',
-          'text': 'Klicke auf „Uhr hinzufügen", um sie zu speichern. Füge mehrere Uhren hinzu, um sie zu vergleichen.',
+          'text': 'Klicke auf "Uhr hinzufügen", um sie zu speichern. Füge mehrere Uhren hinzu, um sie zu vergleichen.',
         },
       ],
     },

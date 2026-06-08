@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Desenrosque la corona primero',
     windingLabel: 'Cuerda',
     hackLabel: 'Paro de segundero',
-    dangerZoneLabel: 'Evitar 9\u20133 h',
+    dangerZoneLabel: 'Evitar 9-3 h',
     directionCW: 'Horario',
     directionCCW: 'Antihorario',
     directionBoth: 'Bidireccional',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'No hay funciones de cuerda o ajuste activadas.',
     position1Title: 'Cuerda Manual',
     position1Desc: 'Gire la corona en sentido horario para dar cuerda al muelle real. Notará resistencia a medida que el muelle se tensa.',
-    position1Detail: 'Aproximadamente 30\u201340 giros completos desde cero. Los rotores automáticos también dan cuerda mientras se usa.',
+    position1Detail: 'Aproximadamente 30-40 giros completos desde cero. Los rotores automáticos también dan cuerda mientras se usa.',
     position2Title: 'Ajuste Rápido de Fecha',
     position2Desc: 'Gire la corona en sentido horario para avanzar la fecha. La manecilla de la hora se mantiene sincronizada con los segundos.',
     position2Detail: 'EVITE ajustar la fecha rápidamente entre las 9 p. m. y las 3 a. m. mientras el mecanismo de cambio de fecha está activo.',
@@ -42,13 +42,13 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
   },
   seo: [
     { type: 'title', text: 'Guía de Posiciones de la Corona-Cómo Dar Cuerda, Ajustar Fecha y Hora Correctamente', level: 2 },
-    { type: 'paragraph', html: 'La corona es la única interfaz física entre usted y el movimiento de su reloj. Usarla mal —dar cuerda hacia atrás, ajustar la fecha a medianoche o tirar demasiado fuerte— puede dañar el mecanismo. Esta guía desglosa cada posición de la corona para los calibres <strong>ETA, Sellita, Miyota, Seiko y Unitas</strong> para que nunca tenga que adivinar.' },
+    { type: 'paragraph', html: 'La corona es la única interfaz física entre usted y el movimiento de su reloj. Usarla mal -dar cuerda hacia atrás, ajustar la fecha a medianoche o tirar demasiado fuerte- puede dañar el mecanismo. Esta guía desglosa cada posición de la corona para los calibres <strong>ETA, Sellita, Miyota, Seiko y Unitas</strong> para que nunca tenga que adivinar.' },
     { type: 'title', text: 'Posiciones de la Corona de un Vistazo', level: 3 },
     {
       type: 'glossary', items: [
         { term: 'Posición 0 (Reposo)', definition: 'Corona presionada o enroscada. El reloj funciona con normalidad. Ninguna función activada. Vuelva siempre aquí después de ajustar.' },
         { term: 'Posición 1 (Cuerda)', definition: 'Primera extracción o estado desenroscado. Gire en sentido horario para dar cuerda al muelle real. La mayoría de los automáticos también dan cuerda mediante el rotor.' },
-        { term: 'Posición 2 (Ajuste Rápido de Fecha)', definition: 'Segunda extracción. Gire en sentido horario para avanzar la fecha. Evite usar entre las 9 p. m.\u20133 a. m. cuando el mecanismo de fecha está activo.' },
+        { term: 'Posición 2 (Ajuste Rápido de Fecha)', definition: 'Segunda extracción. Gire en sentido horario para avanzar la fecha. Evite usar entre las 9 p. m.-3 a. m. cuando el mecanismo de fecha está activo.' },
         { term: 'Posición 3 (Ajuste de Hora)', definition: 'Tercera extracción. El segundero se detiene para alineación precisa. Gire libremente para ajustar la hora. Presente en la mayoría de los automáticos modernos.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Corona Estándar', icon: 'mdi:crown', description: 'Corona de presión y tracción presente en la mayoría de los relojes de vestir y automáticos de uso diario. 2\u20134 posiciones. Resistencia al agua típicamente de 30\u2013100 m.', points: ['Acceso inmediato, sin desenroscar', 'Resistencia al agua limitada', 'Común en ETA, Miyota, Seiko'] },
+        { title: 'Corona Estándar', icon: 'mdi:crown', description: 'Corona de presión y tracción presente en la mayoría de los relojes de vestir y automáticos de uso diario. 2-4 posiciones. Resistencia al agua típicamente de 30-100 m.', points: ['Acceso inmediato, sin desenroscar', 'Resistencia al agua limitada', 'Común en ETA, Miyota, Seiko'] },
         { title: 'Corona Enroscable', icon: 'mdi:lock', description: 'Corona roscada que se enrosca en el tubo de la caja. Estándar en relojes de buceo y herramientas. Resistencia al agua de 200 m+.', points: ['Resistencia al agua superior', 'Debe desenroscarse antes de usar', 'Común en Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: '¿Por qué mi segundero no se detiene cuando tiro de la corona?',
-      answer: 'Algunos movimientos carecen de mecanismo de paro de segundero. Los calibres comunes sin paro incluyen el Miyota 8215, Unitas 6497/6498 y muchos movimientos antiguos. Para ajustar la hora con precisión en un movimiento sin paro: gire la corona 5\u201310 minutos más allá de su minuto objetivo, luego gire lentamente hacia atrás hasta que la manecilla de los minutos caiga exactamente en la marca deseada.',
+      answer: 'Algunos movimientos carecen de mecanismo de paro de segundero. Los calibres comunes sin paro incluyen el Miyota 8215, Unitas 6497/6498 y muchos movimientos antiguos. Para ajustar la hora con precisión en un movimiento sin paro: gire la corona 5-10 minutos más allá de su minuto objetivo, luego gire lentamente hacia atrás hasta que la manecilla de los minutos caiga exactamente en la marca deseada.',
     },
     {
       question: '¿Cómo sé cuántas vueltas necesita mi reloj para dar cuerda completa?',
-      answer: 'La mayoría de los movimientos automáticos requieren 30\u201340 giros completos de corona desde cero. Los movimientos de cuerda manual varían: el Unitas 6498 necesita aproximadamente 30\u201335 vueltas, mientras que el Seiko 6R35 con su reserva de 70 horas necesita 50\u201360 vueltas. Deténgase cuando sienta una resistencia firme \u2014 forzarla puede dañar el muelle real.',
+      answer: 'La mayoría de los movimientos automáticos requieren 30-40 giros completos de corona desde cero. Los movimientos de cuerda manual varían: el Unitas 6498 necesita aproximadamente 30-35 vueltas, mientras que el Seiko 6R35 con su reserva de 70 horas necesita 50-60 vueltas. Deténgase cuando sienta una resistencia firme - forzarla puede dañar el muelle real.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Recorra cada posición',
-      text: 'Haga clic en los chips de posición (0\u20133) o use el botón Tirar. Lea la descripción y observe la advertencia de zona de peligro para el ajuste de fecha.',
+      text: 'Haga clic en los chips de posición (0-3) o use el botón Tirar. Lea la descripción y observe la advertencia de zona de peligro para el ajuste de fecha.',
     },
     {
       name: 'Aplíquelo a su reloj',
@@ -171,7 +171,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
           'name': '¿Cuántas vueltas para dar cuerda completa a mi reloj?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'La mayoría de los movimientos automáticos requieren 30\u201340 giros completos de corona. Los movimientos de cuerda manual varían. Deténgase cuando sienta resistencia firme.',
+            'text': 'La mayoría de los movimientos automáticos requieren 30-40 giros completos de corona. Los movimientos de cuerda manual varían. Deténgase cuando sienta resistencia firme.',
           },
         },
       ],
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Recorra cada posición',
-          'text': 'Haga clic en los chips de posición (0\u20133) o use el botón Tirar. Lea la descripción y observe la advertencia de zona de peligro para el ajuste de fecha.',
+          'text': 'Haga clic en los chips de posición (0-3) o use el botón Tirar. Lea la descripción y observe la advertencia de zona de peligro para el ajuste de fecha.',
         },
         {
           '@type': 'HowToStep',

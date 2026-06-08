@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Co to jest tourbillon?',
-    answer: 'Tourbillon to obracająca się klatka, która zawiera wychwyt (balans, widełki kotwicowe i koło wychwytowe) mechanicznego zegarka. Obraca się nieprzerwanie — zazwyczaj raz na minutę — aby uśrednić błędy pozycyjne spowodowane grawitacją, poprawiając dokładność.',
+    answer: 'Tourbillon to obracająca się klatka, która zawiera wychwyt (balans, widełki kotwicowe i koło wychwytowe) mechanicznego zegarka. Obraca się nieprzerwanie - zazwyczaj raz na minutę - aby uśrednić błędy pozycyjne spowodowane grawitacją, poprawiając dokładność.',
   },
   {
     question: 'Jaka jest różnica między klasycznym a latającym tourbillonem?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Sztuka Obracającego się Wychwytu';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-wizualizator',
   title,
-  description: 'Doświadcz hipnotyzującej sztuki tourbillona — obracającej się klatki mieszczącej wychwyt. Obserwuj oscylujący balans, oddychającą sprężynę i obracającą się klatkę w eleganckim mechanicznym balecie.',
+  description: 'Doświadcz hipnotyzującej sztuki tourbillona - obracającej się klatki mieszczącej wychwyt. Obserwuj oscylujący balans, oddychającą sprężynę i obracającą się klatkę w eleganckim mechanicznym balecie.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Typ',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Animowana Sztuka Wychwytu', level: 2 },
     { type: 'paragraph', html: '<strong>Tourbillon</strong> to jedna z najbardziej urzekających komplikacji w haute horlogerie. Ten interaktywny wizualizator ożywia obracający się wychwyt ze szczegółową animowaną reprezentacją balansu, sprężyny, widełek kotwicowych, koła wychwytowego i kultowej obracającej się klatki. Odkryj mechaniczną poezję arcydzieła Bregueta.' },
     { type: 'title', text: 'Jak działa tourbillon', level: 3 },
-    { type: 'paragraph', html: 'Tourbillon mieści cały wychwyt — <strong>balans, sprężynę, widełki kotwicowe i koło wychwytowe</strong> — wewnątrz obracającej się klatki. Klatka wykonuje zazwyczaj jeden obrót na minutę, stale zmieniając pozycję wychwytu względem grawitacji. To uśrednia błędy pozycyjne chronometrażu — koncepcja rewolucyjna, gdy Abraham-Louis Breguet opatentował ją w 1801 roku. <strong>Balans</strong> oscyluje z częstotliwością uderzeń zegarka (zazwyczaj 4 Hz / 28 800 vph), podczas gdy <strong>koło wychwytowe</strong> przesuwa się o jeden ząb na uderzenie, tworząc charakterystyczny ruch tykania.' },
+    { type: 'paragraph', html: 'Tourbillon mieści cały wychwyt - <strong>balans, sprężynę, widełki kotwicowe i koło wychwytowe</strong> - wewnątrz obracającej się klatki. Klatka wykonuje zazwyczaj jeden obrót na minutę, stale zmieniając pozycję wychwytu względem grawitacji. To uśrednia błędy pozycyjne chronometrażu - koncepcja rewolucyjna, gdy Abraham-Louis Breguet opatentował ją w 1801 roku. <strong>Balans</strong> oscyluje z częstotliwością uderzeń zegarka (zazwyczaj 4 Hz / 28 800 vph), podczas gdy <strong>koło wychwytowe</strong> przesuwa się o jeden ząb na uderzenie, tworząc charakterystyczny ruch tykania.' },
     { type: 'title', text: 'Klasyczny vs Latający Tourbillon', level: 3 },
     {
       type: 'table', headers: ['Cecha', 'Klasyczny Tourbillon', 'Latający Tourbillon'], rows: [

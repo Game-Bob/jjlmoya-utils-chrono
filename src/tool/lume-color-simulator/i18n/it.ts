@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'simulatore-colore-lume',
-  title: 'Lume Color Simulator — Visualizzatore di Lume per Orologi',
+  title: 'Lume Color Simulator: Visualizzatore di Lume per Orologi',
   description: 'Visualizza diversi colori di lume in tempo reale. Confronta C1, C3, BGW9, LumiNova e altri su vari livelli di luminosità ambientale.',
   ui: {
     title: 'Lume Color Simulator',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'La luminosità del lume dipende dalla qualità del pigmento e da quanta luce ha assorbito. Il BGW9 brilla di un bianco-blu ed è il più luminoso, mentre il lume vintage ha un bagliore caldo e tenue.',
   },
   seo: [
-    { type: 'title', text: 'Simulatore Colori Lume Orologi — Visualizzatore Bagliore in Tempo Reale', level: 2 },
+    { type: 'title', text: 'Simulatore Colori Lume Orologi - Visualizzatore Bagliore in Tempo Reale', level: 2 },
     { type: 'paragraph', html: 'Il lume è una delle scelte più personali nel collezionismo di orologi. Preferisci il classico bagliore verde del <strong>C1 Super-LumiNova</strong> o il bianco ghiaccio del <strong>BGW9</strong>? Questo simulatore ti mostra l\'aspetto di ogni tipo di lume a diversi livelli di luminosità, dalla piena luce del giorno al buio completo, con i valori esatti <strong>HEX e RGB</strong> per ogni tonalità.' },
     { type: 'title', text: 'Confronto tra i Tipi di Super-LumiNova', level: 3 },
     {
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Verde', 'Verde brillante', 'Verde', 'Alta', 'Orologi in stile militare'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9 — Quale Scegliere?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9 - Quale Scegliere?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 Verde Classico', icon: 'mdi:lightbulb-on', description: 'La formulazione originale Super-LumiNova. Illumina in verde con luminosità media. Una scelta classica e sicura che funziona con qualsiasi stile di orologio.', points: ['Luminosità media, visibilità 4-6 h', 'Bagliore verde, tonalità calda', 'Formulazione più economica', 'Comune negli orologi entry-level'], highlight: false },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'Per un look moderno e di lusso: BGW9 è il preferito attuale tra i brand di alta gamma.',
         'Per costruzioni vintage/heritage: usa Vintage o Arancione per un calore d\'epoca.',
         'C1 è il tuttofare: buona luminosità, verde classico, economico.',
-        'Il colore del lume alla luce del giorno è molto diverso dal colore del bagliore — usa il simulatore per confrontarli entrambi.',
+        'Il colore del lume alla luce del giorno è molto diverso dal colore del bagliore - usa il simulatore per confrontarli entrambi.',
       ]
     },
   ],

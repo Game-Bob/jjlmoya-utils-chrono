@@ -29,7 +29,7 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     proportionFair: 'Correct',
     proportionUnbalanced: 'Déséquilibré',
     mmUnit: 'mm',
-    arrow: '\u2192',
+    arrow: '→',
     noteTitle: 'Remarque',
     noteContent: 'Une conicité classique de 4 mm (p. ex., de 20 à 16 mm) convient aux montres habillées. Les montres de plongée et les montres-outils sont souvent plus belles avec une conicité droite ou de 2 mm pour un aspect robuste.',
     step1: 'Entrez le diamètre du boîtier et l\'entrecorne.',
@@ -37,14 +37,14 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     step3: 'Consultez les proportions et la représentation visuelle.',
   },
   seo: [
-    { type: 'title', text: 'Calculateur de conicité de bracelet \u2014 Proportions, largeur de boucle et guide visuel', level: 2 },
+    { type: 'title', text: 'Calculateur de conicité de bracelet - Proportions, largeur de boucle et guide visuel', level: 2 },
     { type: 'paragraph', html: 'Un bracelet bien proportionné peut faire ou défaire une montre. Trop de conicité sur une plongeuse la rend fragile. Pas de conicité sur une montre habillée la rend grossière. Ce calculateur vous aide à trouver le <strong>ratio de conicité</strong> idéal selon le diamètre de votre boîtier et votre entrecorne.' },
     { type: 'title', text: 'Qu\'est-ce que la conicité d\'un bracelet?', level: 3 },
-    { type: 'paragraph', html: 'La conicité d\'un bracelet est la réduction de largeur entre l\'entrecorne et la boucle. Une montre habillée classique peut passer de 20 mm aux cornes à 16 mm à la boucle \u2014 une conicité de 4 mm. Une montre de plongée peut rester à 20 mm droit pour un aspect plus utilitaire.' },
+    { type: 'paragraph', html: 'La conicité d\'un bracelet est la réduction de largeur entre l\'entrecorne et la boucle. Une montre habillée classique peut passer de 20 mm aux cornes à 16 mm à la boucle - une conicité de 4 mm. Une montre de plongée peut rester à 20 mm droit pour un aspect plus utilitaire.' },
     { type: 'title', text: 'Le ratio idéal pour les proportions du bracelet', level: 3 },
     { type: 'paragraph', html: 'Les passionnés de montres s\'accordent généralement à dire qu\'un entrecorne entre 45 % et 55 % du diamètre du boîtier est le plus flatteur. Pour la conicité, une largeur de boucle entre 75 % et 85 % de l\'entrecorne crée une silhouette équilibrée et élégante. Les ratios en dehors de cette plage peuvent donner l\'impression que la montre est trop lourde ou trop fragile.' },
     { type: 'title', text: 'Conicité selon le style de montre', level: 3 },
-    { type: 'paragraph', html: 'Montres habillées : conicité de 4 mm (20 à 16 mm). Montres sportives : conicité de 2 à 3 mm. Montres de plongée : conicité de 0 à 2 mm. Montres militaires ou de terrain : conicité droite pour un look robuste. Montres de pilote : conicité minimale pour correspondre à l\'esthétique d\'instrument.' },
+    { type: 'paragraph', html: 'Montres habillées: conicité de 4 mm (20 à 16 mm). Montres sportives: conicité de 2 à 3 mm. Montres de plongée: conicité de 0 à 2 mm. Montres militaires ou de terrain: conicité droite pour un look robuste. Montres de pilote: conicité minimale pour correspondre à l\'esthétique d\'instrument.' },
   ],
   faq: [
     {

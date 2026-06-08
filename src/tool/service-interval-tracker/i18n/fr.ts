@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
     collectionHealth: 'Santé de la collection',
   },
   seo: [
-    { type: 'title', text: 'Suivi des Intervalles d\'Entretien : Prenez soin de vos montres', level: 2 },
+    { type: 'title', text: 'Suivi des Intervalles d\'Entretien: Prenez soin de vos montres', level: 2 },
     { type: 'paragraph', html: 'Une montre mécanique est un instrument de précision comportant des centaines de pièces mobiles. Les lubrifiants sèchent, les joints s\'usent et la précision dérive avec le temps.' },
     { type: 'title', text: 'Pourquoi planifier les révisions de vos montres', level: 3 },
     {

@@ -34,23 +34,23 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
     tipContent: 'Mechanizmy ręczne ładują się tylko podczas kręcenia koronką. Mechanizmy automatyczne ładują się również podczas noszenia.',
   },
   seo: [
-    { type: 'title', text: 'Szacowanie rezerwy chodu zegarka \u2014 ile energii pozostało w Twoim mechanizmie?', level: 2 },
+    { type: 'title', text: 'Szacowanie rezerwy chodu zegarka - ile energii pozostało w Twoim mechanizmie?', level: 2 },
     { type: 'paragraph', html: 'Zastanawiasz się, ile energii zostało w Twoim zegarku mechanicznym? Niezależnie od tego, czy nakręciłeś koronkę dziś rano, czy nosisz go cały dzień, ten kalkulator poda przybliżony poziom naładowania i pozostały czas dla popularnych kalibrów takich jak <strong>ETA, Sellita, Miyota, Seiko i Rolex</strong>.' },
     { type: 'title', text: 'Jak działa rezerwa chodu w zegarku mechanicznym', level: 3 },
-    { type: 'paragraph', html: 'Rezerwa chodu to ilość energii zgromadzonej w sprężynie napędowej. Kręcąc koronką, napinasz sprężynę, magazynując energię potencjalną. Automatyczny rotor również napina sprężynę, gdy nosisz zegarek. Energia uwalnia się w stałym tempie \u2014 zazwyczaj 2\u20133% na godzinę \u2014 aż do zatrzymania zegarka.' },
+    { type: 'paragraph', html: 'Rezerwa chodu to ilość energii zgromadzonej w sprężynie napędowej. Kręcąc koronką, napinasz sprężynę, magazynując energię potencjalną. Automatyczny rotor również napina sprężynę, gdy nosisz zegarek. Energia uwalnia się w stałym tempie - zazwyczaj 2-3% na godzinę - aż do zatrzymania zegarka.' },
     { type: 'title', text: 'Nakręcanie koronką a ładowanie rotorem', level: 3 },
-    { type: 'paragraph', html: 'Ręczne nakręcanie koronką to najefektywniejszy sposób ładowania zegarka \u2014 każdy pełny obrót dodaje przewidywalną ilość energii, zwykle około 2,5% całkowitej rezerwy. Noszenie zegarka ładuje wolniej i zależy od poziomu aktywności: pracownik biurowy może ładować 4\u20136% na godzinę, a osoba aktywna 8\u201310%. Ten kalkulator używa konserwatywnej średniej.' },
+    { type: 'paragraph', html: 'Ręczne nakręcanie koronką to najefektywniejszy sposób ładowania zegarka - każdy pełny obrót dodaje przewidywalną ilość energii, zwykle około 2,5% całkowitej rezerwy. Noszenie zegarka ładuje wolniej i zależy od poziomu aktywności: pracownik biurowy może ładować 4-6% na godzinę, a osoba aktywna 8-10%. Ten kalkulator używa konserwatywnej średniej.' },
     { type: 'title', text: 'Dlaczego szacowanie rezerwy chodu jest ważne', level: 3 },
     { type: 'paragraph', html: 'Znajomość poziomu naładowania zegarka pomaga uniknąć niespodziewanego zatrzymania. Jeśli zegarek staje w nocy, może wymagać dłuższego nakręcania przed snem lub nie jest noszony wystarczająco długo. Użyj tego narzędzia, aby zrozumieć swoje nawyki ładowania i utrzymać automat w ruchu.' },
   ],
   faq: [
     {
       question: 'Ile ładuje jeden obrót koronki?',
-      answer: 'To zależy od mechanizmu. Większość automatycznych kalibrów osiąga pełny naciąg po 30\u201340 obrotach, więc każdy obrót dodaje około 2,5\u20133,3% całkowitej rezerwy. Mechanizmy ręczne, takie jak Unitas 6498, również potrzebują około 35 obrotów do pełnego naciągu.',
+      answer: 'To zależy od mechanizmu. Większość automatycznych kalibrów osiąga pełny naciąg po 30-40 obrotach, więc każdy obrót dodaje około 2,5-3,3% całkowitej rezerwy. Mechanizmy ręczne, takie jak Unitas 6498, również potrzebują około 35 obrotów do pełnego naciągu.',
     },
     {
       question: 'Czy noszenie zegarka ładuje go tak samo jak nakręcanie?',
-      answer: 'Noszenie ładuje wolniej i bardziej zmiennie. Przy pracy biurowej możesz ładować 4\u20136% na godzinę przez rotor. Podczas aktywnego ruchu (spacer, sport) może to osiągnąć 8\u201310% na godzinę. Ręczne nakręcanie jest szybsze i bardziej przewidywalne.',
+      answer: 'Noszenie ładuje wolniej i bardziej zmiennie. Przy pracy biurowej możesz ładować 4-6% na godzinę przez rotor. Podczas aktywnego ruchu (spacer, sport) może to osiągnąć 8-10% na godzinę. Ręczne nakręcanie jest szybsze i bardziej przewidywalne.',
     },
     {
       question: 'Ile rezerwy traci zegarek na godzinę?',
@@ -65,7 +65,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
   howTo: [
     {
       name: 'Wybierz mechanizm',
-      text: 'Wybierz kaliber swojego zegarka z rozwijanej listy. Jeśli nie ma go na liście, wybierz \u201EWłasny\u201D i podaj jego rezerwę chodu oraz liczbę obrotów do pełna.',
+      text: 'Wybierz kaliber swojego zegarka z rozwijanej listy. Jeśli nie ma go na liście, wybierz "Własny" i podaj jego rezerwę chodu oraz liczbę obrotów do pełna.',
     },
     {
       name: 'Wprowadź dane',
@@ -90,7 +90,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Ile ładuje jeden obrót koronki?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'To zależy od mechanizmu. Większość automatycznych kalibrów osiąga pełny naciąg po 30\u201340 obrotach, więc każdy obrót dodaje około 2,5\u20133,3% całkowitej rezerwy. Mechanizmy ręczne, takie jak Unitas 6498, również potrzebują około 35 obrotów do pełnego naciągu.',
+            'text': 'To zależy od mechanizmu. Większość automatycznych kalibrów osiąga pełny naciąg po 30-40 obrotach, więc każdy obrót dodaje około 2,5-3,3% całkowitej rezerwy. Mechanizmy ręczne, takie jak Unitas 6498, również potrzebują około 35 obrotów do pełnego naciągu.',
           },
         },
         {
@@ -98,7 +98,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
           'name': 'Czy noszenie zegarka ładuje go tak samo jak nakręcanie?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Noszenie ładuje wolniej i bardziej zmiennie. Przy pracy biurowej możesz ładować 4\u20136% na godzinę przez rotor. Podczas aktywnego ruchu może to osiągnąć 8\u201310% na godzinę. Ręczne nakręcanie jest szybsze i bardziej przewidywalne.',
+            'text': 'Noszenie ładuje wolniej i bardziej zmiennie. Przy pracy biurowej możesz ładować 4-6% na godzinę przez rotor. Podczas aktywnego ruchu może to osiągnąć 8-10% na godzinę. Ręczne nakręcanie jest szybsze i bardziej przewidywalne.',
           },
         },
         {
@@ -135,7 +135,7 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Wybierz mechanizm',
-          'text': 'Wybierz kaliber swojego zegarka z rozwijanej listy. Jeśli nie ma go na liście, wybierz \u201EWłasny\u201D i podaj jego rezerwę chodu oraz liczbę obrotów do pełna.',
+          'text': 'Wybierz kaliber swojego zegarka z rozwijanej listy. Jeśli nie ma go na liście, wybierz "Własny" i podaj jego rezerwę chodu oraz liczbę obrotów do pełna.',
         },
         {
           '@type': 'HowToStep',

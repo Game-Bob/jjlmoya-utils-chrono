@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'comparateur-de-taille-de-montre',
-  title: 'Comparateur de Taille de Montre — Ajustement Visuel au Poignet',
+  title: 'Comparateur de Taille de Montre: Ajustement Visuel au Poignet',
   description: 'Comparez visuellement les tailles de boîtiers de montres. Entrez le diamètre, la corne-à-corne et votre tour de poignet pour voir comment une montre vous ira avant de l\'acheter.',
   ui: {
     title: 'Comparateur de Taille de Montre',
@@ -31,10 +31,10 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     nameRequired: 'Saisissez un nom de montre',
     watchTooLarge: 'La montre dépasse le poignet',
     l2lExceedsWrist: 'La corne-à-corne dépasse la largeur du poignet',
-    excellentDesc: 'Proportionnée — la corne-à-corne reste bien dans les limites du poignet.',
-    goodDesc: 'Bon ajustement — dépasse légèrement mais reste confortable.',
-    borderlineDesc: 'Limite — les cornes approchent du bord du poignet.',
-    largeDesc: 'Trop grand — les cornes dépassent probablement du poignet.',
+    excellentDesc: 'Proportionnée - la corne-à-corne reste bien dans les limites du poignet.',
+    goodDesc: 'Bon ajustement - dépasse légèrement mais reste confortable.',
+    borderlineDesc: 'Limite - les cornes approchent du bord du poignet.',
+    largeDesc: 'Trop grand - les cornes dépassent probablement du poignet.',
     fitsWell: 'Bien ajusté',
     slightlyLarge: 'Un peu grand',
     tooLarge: 'Trop grand',
@@ -42,8 +42,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: 'Saisissez les dimensions et ajoutez une montre pour voir comment elle s\'ajuste à votre poignet.',
   },
   seo: [
-    { type: 'title', text: 'Comparateur de Taille de Montre — Ajustement Visuel au Poignet', level: 2 },
-    { type: 'paragraph', html: 'Vous vous demandez si une <strong>montre de 42 mm</strong> ira à votre <strong>poignet de 17 cm</strong>&nbsp;? Ou si cette corne-à-corne de 48 mm dépassera&nbsp;? Le Comparateur de Taille de Montre vous donne une réponse visuelle. Entrez le diamètre du boîtier, la corne-à-corne, l\'épaisseur et votre tour de poignet — l\'outil dessine la montre à l\'échelle et colore l\'ajustement du <span style="color:#22c55e">vert (excellent)</span> au <span style="color:#ef4444">rouge (trop grand)</span>. Fonctionne en <strong>unités métriques et impériales</strong>.' },
+    { type: 'title', text: 'Comparateur de Taille de Montre - Ajustement Visuel au Poignet', level: 2 },
+    { type: 'paragraph', html: 'Vous vous demandez si une <strong>montre de 42 mm</strong> ira à votre <strong>poignet de 17 cm</strong>&nbsp;? Ou si cette corne-à-corne de 48 mm dépassera&nbsp;? Le Comparateur de Taille de Montre vous donne une réponse visuelle. Entrez le diamètre du boîtier, la corne-à-corne, l\'épaisseur et votre tour de poignet - l\'outil dessine la montre à l\'échelle et colore l\'ajustement du <span style="color:#22c55e">vert (excellent)</span> au <span style="color:#ef4444">rouge (trop grand)</span>. Fonctionne en <strong>unités métriques et impériales</strong>.' },
     { type: 'title', text: 'Glossaire des Tailles de Montre', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,12 +79,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'La Corne a Corne est la Veritable Limite', icon: 'mdi:ruler', html: 'La plupart des gens se concentrent sur le <strong>diamètre du boîtier</strong>, mais c\'est la <strong>corne-à-corne</strong> qui détermine si une montre vous va. Une montre avec une CàC de 48 mm sur un poignet plat de 55 mm (17 cm de tour) occupe 87 % de la largeur du poignet. Au-delà de 65 %, les cornes commencent à approcher du bord du poignet. <strong>Vérifiez toujours la CàC en premier.</strong>' },
 
-    { type: 'tip', title: 'cm ou Pouces&nbsp;? Utilisez Ce Que Vous Connaissez', html: 'L\'outil prend désormais en charge les unités métriques et impériales. Mesurez votre poignet dans le système que vous utilisez au quotidien. Les dimensions des boîtiers de montres sont <strong>toujours en millimètres</strong> (même aux États-Unis), donc les diamètres et la CàC restent en mm — seule la mesure du poignet change. Cela correspond au fonctionnement de l\'industrie horlogère.' },
+    { type: 'tip', title: 'cm ou Pouces&nbsp;? Utilisez Ce Que Vous Connaissez', html: 'L\'outil prend désormais en charge les unités métriques et impériales. Mesurez votre poignet dans le système que vous utilisez au quotidien. Les dimensions des boîtiers de montres sont <strong>toujours en millimètres</strong> (même aux États-Unis), donc les diamètres et la CàC restent en mm - seule la mesure du poignet change. Cela correspond au fonctionnement de l\'industrie horlogère.' },
 
     {
       type: 'summary', title: 'Checklist Rapide Avant d\'Acheter', items: [
         'Mesurez votre tour de poignet et saisissez-le dans l\'outil.',
-        'Consultez la corne-à-corne de la montre — pas seulement le diamètre du boîtier.',
+        'Consultez la corne-à-corne de la montre - pas seulement le diamètre du boîtier.',
         'La montre devrait occuper 60-75 % de la largeur plate de votre poignet pour un ajustement classique.',
         'Si les cornes dépassent des bords de votre poignet, la montre semblera trop grande quel que soit le diamètre.',
         'Utilisez l\'outil pour comparer plusieurs montres côte à côte avant de prendre une décision d\'achat.',
@@ -117,7 +117,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       name: 'Ajoutez et comparez',
-      text: 'Cliquez sur «&nbsp;Ajouter une montre&nbsp;» pour l\'enregistrer. Ajoutez plusieurs montres et cliquez entre elles pour comparer l\'ajustement.',
+      text: 'Cliquez sur "&nbsp;Ajouter une montre&nbsp;" pour l\'enregistrer. Ajoutez plusieurs montres et cliquez entre elles pour comparer l\'ajustement.',
     },
     {
       name: 'Lisez la couleur',

@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Skruva först upp kronan',
     windingLabel: 'Uppvridning',
     hackLabel: 'Hack',
-    dangerZoneLabel: 'Undvik 21:00\u20133:00',
+    dangerZoneLabel: 'Undvik 21:00-3:00',
     directionCW: 'Medsols',
     directionCCW: 'Motsols',
     directionBoth: 'Dubbelriktad',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Inga uppvridnings- eller inställningsfunktioner är aktiva.',
     position1Title: 'Manuell uppvridning',
     position1Desc: 'Vrid kronan medsols för att dra upp fjädern. Du känner motstånd när fjädern spänns.',
-    position1Detail: 'Cirka 30\u201340 fulla varv från stillastående. Automatiska rotorer drar också upp klockan när den bärs.',
+    position1Detail: 'Cirka 30-40 fulla varv från stillastående. Automatiska rotorer drar också upp klockan när den bärs.',
     position2Title: 'Snabbinställning av datum',
     position2Desc: 'Vrid kronan medsols för att ställa fram datumet. Timvisaren förblir synkroniserad med de löpande sekunderna.',
     position2Detail: 'UNDVIK att snabbställa datumet mellan 21:00 och 3:00 medan datumväxlingsmekanismen är aktiverad.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Position 0 (Vila)', definition: 'Kronan intryckt eller nedskruvad. Klockan går normalt. Inga funktioner aktiva. Återvänd alltid hit efter inställning.' },
         { term: 'Position 1 (Uppvridning)', definition: 'Första utdraget eller uppskruvat läge. Vrid medsols för att dra upp fjädern. De flesta automatiska verk drar också upp via rotorn.' },
-        { term: 'Position 2 (Snabbinställning av datum)', definition: 'Andra utdraget. Vrid medsols för att ställa fram datumet. Undvik användning mellan 21:00\u20133:00 när datummekanismen är aktiverad.' },
+        { term: 'Position 2 (Snabbinställning av datum)', definition: 'Andra utdraget. Vrid medsols för att ställa fram datumet. Undvik användning mellan 21:00-3:00 när datummekanismen är aktiverad.' },
         { term: 'Position 3 (Tidsinställning)', definition: 'Tredje utdraget. Hackande sekundstopp för exakt justering. Rotera fritt för att ställa in tiden. Finns på de flesta moderna automatiska verk.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Standardkrona', icon: 'mdi:crown', description: 'Tryck-drag-krona som finns på de flesta klänningsklockor och vardagsautomater. 2\u20134 positioner. Vattentäthet vanligtvis 30\u2013100 m.', points: ['Omedelbar åtkomst, ingen uppskruvning', 'Begränsad vattentäthet', 'Vanlig på ETA, Miyota, Seiko'] },
+        { title: 'Standardkrona', icon: 'mdi:crown', description: 'Tryck-drag-krona som finns på de flesta klänningsklockor och vardagsautomater. 2-4 positioner. Vattentäthet vanligtvis 30-100 m.', points: ['Omedelbar åtkomst, ingen uppskruvning', 'Begränsad vattentäthet', 'Vanlig på ETA, Miyota, Seiko'] },
         { title: 'Nedskruvad Krona', icon: 'mdi:lock', description: 'Gängad krona som skruvas in i boettens rör. Standard på dyk- och verktygsklockor. Vattentäthet 200 m+.', points: ['Överlägsen vattentäthet', 'Måste skruvas upp före användning', 'Vanlig på Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Varför stannar inte min sekundvisare när jag drar i kronan?',
-      answer: 'Vissa urverk saknar hackmekanism. Vanliga icke-hackande kalibrar inkluderar Miyota 8215, Unitas 6497/6498 och många vintageurverk. För att ställa in tiden exakt på ett icke-hackande urverk: vrid kronan 5\u201310 minuter förbi din måltid och vrid sedan långsamt tillbaka tills minutvisaren landar exakt på önskat märke.',
+      answer: 'Vissa urverk saknar hackmekanism. Vanliga icke-hackande kalibrar inkluderar Miyota 8215, Unitas 6497/6498 och många vintageurverk. För att ställa in tiden exakt på ett icke-hackande urverk: vrid kronan 5-10 minuter förbi din måltid och vrid sedan långsamt tillbaka tills minutvisaren landar exakt på önskat märke.',
     },
     {
       question: 'Hur vet jag hur många varv som krävs för att dra upp min klocka helt?',
-      answer: 'De flesta automatiska urverk kräver 30\u201340 fulla kronvarv från stillastående. Handuppdragna urverk varierar: Unitas 6498 behöver cirka 30\u201335 varv, medan Seiko 6R35 med sin 70-timmarsreserv behöver 50\u201360 varv. Stanna när du känner fast motstånd-att tvinga förbi det kan skada fjädern.',
+      answer: 'De flesta automatiska urverk kräver 30-40 fulla kronvarv från stillastående. Handuppdragna urverk varierar: Unitas 6498 behöver cirka 30-35 varv, medan Seiko 6R35 med sin 70-timmarsreserv behöver 50-60 varv. Stanna när du känner fast motstånd-att tvinga förbi det kan skada fjädern.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Dra igenom varje position',
-      text: 'Klicka på positionsknapparna (0\u20133) eller använd dra-knappen. Läs beskrivningen och notera riskzonsvarningen för datuminställning.',
+      text: 'Klicka på positionsknapparna (0-3) eller använd dra-knappen. Läs beskrivningen och notera riskzonsvarningen för datuminställning.',
     },
     {
       name: 'Tillämpa på din klocka',
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Dra igenom varje position',
-          'text': 'Klicka på positionsknapparna (0\u20133) eller använd dra-knappen. Läs beskrivningen och notera riskzonsvarningen för datuminställning.',
+          'text': 'Klicka på positionsknapparna (0-3) eller använd dra-knappen. Läs beskrivningen och notera riskzonsvarningen för datuminställning.',
         },
         {
           '@type': 'HowToStep',

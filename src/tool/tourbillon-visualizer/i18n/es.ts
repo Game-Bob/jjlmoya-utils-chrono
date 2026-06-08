@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: '¿Qué es un tourbillon?',
-    answer: 'Un tourbillon es una jaula giratoria que contiene el escape (volante, áncora y rueda de escape) de un reloj mecánico. Gira continuamente — generalmente una vez por minuto — para promediar los errores posicionales causados por la gravedad, mejorando la precisión.',
+    answer: 'Un tourbillon es una jaula giratoria que contiene el escape (volante, áncora y rueda de escape) de un reloj mecánico. Gira continuamente - generalmente una vez por minuto - para promediar los errores posicionales causados por la gravedad, mejorando la precisión.',
   },
   {
     question: '¿Cuál es la diferencia entre un tourbillon clásico y uno volante?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Arte del Escape Rotatorio';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualizador',
   title,
-  description: 'Experimente el fascinante arte del tourbillon — una jaula giratoria que alberga el escape. Observe el volante oscilar, el espiral respirar y la jaula girar en un elegante ballet mecánico.',
+  description: 'Experimente el fascinante arte del tourbillon - una jaula giratoria que alberga el escape. Observe el volante oscilar, el espiral respirar y la jaula girar en un elegante ballet mecánico.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Tipo',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Arte Animado del Escape', level: 2 },
     { type: 'paragraph', html: 'El <strong>tourbillon</strong> es una de las complicaciones más cautivadoras de la alta relojería. Este visualizador interactivo da vida al escape giratorio con una representación animada detallada del volante, espiral, áncora, rueda de escape y la icónica jaula giratoria. Explore la poesía mecánica de la obra maestra de Breguet.' },
     { type: 'title', text: 'Cómo funciona un tourbillon', level: 3 },
-    { type: 'paragraph', html: 'Un tourbillon alberga el escape completo — <strong>volante, espiral, áncora y rueda de escape</strong> — dentro de una jaula giratoria. La jaula completa típicamente una rotación por minuto, cambiando continuamente la posición del escape respecto a la gravedad. Esto promedia los errores de tiempo posicionales, un concepto que fue revolucionario cuando Abraham-Louis Breguet lo patentó en 1801. El <strong>volante</strong> oscila a la frecuencia del reloj (típicamente 4 Hz / 28.800 vph), mientras que la <strong>rueda de escape</strong> avanza un diente por batido, creando el característico movimiento de tic.' },
+    { type: 'paragraph', html: 'Un tourbillon alberga el escape completo - <strong>volante, espiral, áncora y rueda de escape</strong> - dentro de una jaula giratoria. La jaula completa típicamente una rotación por minuto, cambiando continuamente la posición del escape respecto a la gravedad. Esto promedia los errores de tiempo posicionales, un concepto que fue revolucionario cuando Abraham-Louis Breguet lo patentó en 1801. El <strong>volante</strong> oscila a la frecuencia del reloj (típicamente 4 Hz / 28.800 vph), mientras que la <strong>rueda de escape</strong> avanza un diente por batido, creando el característico movimiento de tic.' },
     { type: 'title', text: 'Tourbillon Clásico vs Volante', level: 3 },
     {
       type: 'table', headers: ['Característica', 'Tourbillon Clásico', 'Tourbillon Volante'], rows: [

@@ -29,7 +29,7 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     proportionFair: '普通',
     proportionUnbalanced: '不均衡',
     mmUnit: 'mm',
-    arrow: '\u2192',
+    arrow: '→',
     noteTitle: '注意',
     noteContent: '4 mmのクラシックなテーパー（例：20 mmから16 mm）はドレスウォッチに適しています。ダイバーズやツールウォッチは、頑丈な印象を与えるためストレートまたは2 mmのテーパーの方が見栄えが良くなります。',
     step1: 'ケース径とラグ幅を入力します。',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     step3: 'プロポーションと視覚的な表示を確認します。',
   },
   seo: [
-    { type: 'title', text: '時計ベルトテーパー計算ツール \u2014 プロポーション、バックル幅、ビジュアルガイド', level: 2 },
+    { type: 'title', text: '時計ベルトテーパー計算ツール - プロポーション、バックル幅、ビジュアルガイド', level: 2 },
     { type: 'paragraph', html: 'プロポーションの良いベルトは時計の印象を大きく左右します。ダイバーズウォッチに過度のテーパーをかけると脆弱に見えます。ドレスウォッチにテーパーがないと野暮ったく見えます。この計算ツールは、ケース径とラグ幅に基づいて理想的な<strong>ベルトテーパー比率</strong>を見つけるのに役立ちます。' },
     { type: 'title', text: 'ベルトテーパーとは？', level: 3 },
     { type: 'paragraph', html: 'ベルトテーパーとは、ラグ側からバックル側にかけてのベルト幅の減少のことです。クラシックなドレスウォッチでは、ラグで20 mmからバックルで16 mmへと4 mmテーパーするのが一般的です。ダイバーズウォッチでは、より道具らしい外観にするために20 mmのままストレートにすることもあります。' },

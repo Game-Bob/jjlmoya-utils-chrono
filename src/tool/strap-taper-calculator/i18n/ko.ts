@@ -29,7 +29,7 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     proportionFair: '보통',
     proportionUnbalanced: '불균형',
     mmUnit: 'mm',
-    arrow: '\u2192',
+    arrow: '→',
     noteTitle: '참고',
     noteContent: '4 mm의 클래식 테이퍼(예: 20 mm에서 16 mm)는 드레스 워치에 적합합니다. 다이버 워치와 툴 워치는 견고한 느낌을 위해 스트레이트 또는 2 mm 테이퍼가 더 좋아 보이는 경우가 많습니다.',
     step1: '케이스 직경과 러그 너비를 입력하세요.',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     step3: '비율과 시각적 표현을 확인하세요.',
   },
   seo: [
-    { type: 'title', text: '시계 스트랩 테이퍼 계산기 \u2014 비율, 버클 너비 및 시각적 가이드', level: 2 },
+    { type: 'title', text: '시계 스트랩 테이퍼 계산기 - 비율, 버클 너비 및 시각적 가이드', level: 2 },
     { type: 'paragraph', html: '균형 잡힌 스트랩은 시계의 완성도를 좌우합니다. 다이버 시계에 테이퍼가 너무 많으면 약해 보이고, 드레스 시계에 테이퍼가 없으면 투박해 보입니다. 이 계산기는 케이스 직경과 러그 너비를 기반으로 이상적인 <strong>스트랩 테이퍼 비율</strong>을 찾는 데 도움을 줍니다.' },
     { type: 'title', text: '스트랩 테이퍼란 무엇인가요?', level: 3 },
     { type: 'paragraph', html: '스트랩 테이퍼는 러그 끝에서 버클 끝까지 스트랩 너비가 줄어드는 것을 말합니다. 클래식한 드레스 워치는 러그에서 20 mm에서 버클에서 16 mm로 4 mm 테이퍼질 수 있습니다. 다이버 워치는 도구 같은 외관을 위해 20 mm 스트레이트를 유지할 수 있습니다.' },

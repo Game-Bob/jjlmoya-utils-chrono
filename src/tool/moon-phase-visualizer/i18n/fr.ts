@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'visualiseur-de-phase-lunaire',
-  title: 'Visualiseur de Phase Lunaire — Calendrier Lunaire & Outil pour Montre à Phases',
+  title: 'Visualiseur de Phase Lunaire: Calendrier Lunaire & Outil pour Montre à Phases',
   description: 'Visualisez la phase lunaire actuelle, son illumination, son âge ainsi que les prochaines pleines et nouvelles lunes. Idéal pour régler le quantième lunaire de votre montre.',
   ui: {
     title: 'Visualiseur de Phase Lunaire',
@@ -31,8 +31,8 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'jour',
   },
   seo: [
-    { type: 'title', text: 'Visualiseur de Phase Lunaire — Outil Lunaire & Guide de Réglage', level: 2 },
-    { type: 'paragraph', html: 'Le Visualiseur de Phase Lunaire affiche la <strong>phase lunaire actuelle</strong> avec un rendu réaliste de la lune. Consultez le <strong>pourcentage d\'illumination, l\'âge lunaire, les jours avant la prochaine pleine lune et la prochaine nouvelle lune</strong>. Conçu pour les passionnés de montres qui doivent régler précisément leur quantième lunaire — fonctionne aussi comme calendrier lunaire général pour n\'importe quelle date passée ou future.' },
+    { type: 'title', text: 'Visualiseur de Phase Lunaire - Outil Lunaire & Guide de Réglage', level: 2 },
+    { type: 'paragraph', html: 'Le Visualiseur de Phase Lunaire affiche la <strong>phase lunaire actuelle</strong> avec un rendu réaliste de la lune. Consultez le <strong>pourcentage d\'illumination, l\'âge lunaire, les jours avant la prochaine pleine lune et la prochaine nouvelle lune</strong>. Conçu pour les passionnés de montres qui doivent régler précisément leur quantième lunaire - fonctionne aussi comme calendrier lunaire général pour n\'importe quelle date passée ou future.' },
     { type: 'title', text: 'Glossaire des Phases Lunaires', level: 3 },
     {
       type: 'glossary', items: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Haute précision', 'Train d\'engrenages', '~1 jour tous les 100+ ans', '100+ ans', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Lecture du Disque Lunaire', html: 'Sur la plupart des montres à phases de lune, le disque lunaire représente <strong>deux lunes</strong> opposées. Chaque pleine lune s\'aligne avec l\'ouverture centrale-haut. Après un cycle complet (29,5 jours), la deuxième lune prend le relais. C\'est pourquoi un engrenage à 59 dents fonctionne&nbsp;: il effectue une rotation complète en 59 jours — exactement deux cycles lunaires.' },
+    { type: 'tip', title: 'Lecture du Disque Lunaire', html: 'Sur la plupart des montres à phases de lune, le disque lunaire représente <strong>deux lunes</strong> opposées. Chaque pleine lune s\'aligne avec l\'ouverture centrale-haut. Après un cycle complet (29,5 jours), la deuxième lune prend le relais. C\'est pourquoi un engrenage à 59 dents fonctionne&nbsp;: il effectue une rotation complète en 59 jours - exactement deux cycles lunaires.' },
     {
       type: 'summary', title: 'Référence Rapide', items: [
         'Le cycle lunaire (synodique) est exactement de 29,53058867 jours. L\'outil utilise cette valeur pour une précision maximale.',

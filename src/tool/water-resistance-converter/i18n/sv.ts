@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Djup / Mättnadsdykning',
     saturationDivingDesc: 'Professionell mättnadsdykning. Extrema djup. Heliumventil kontext.',
     tipTitle: 'Tips',
-    tipContent: 'Vattenbeständighet försämras med tiden. Packningar och tätningar bör testas årligen och bytas ut var 3\u20135 år.',
+    tipContent: 'Vattenbeständighet försämras med tiden. Packningar och tätningar bör testas årligen och bytas ut var 3-5 år.',
   },
   seo: [
     { type: 'title', text: 'Klocka Vattenbeständighet Omvandlare-Avkoda Meter, ATM, Bar & Fot', level: 2 },

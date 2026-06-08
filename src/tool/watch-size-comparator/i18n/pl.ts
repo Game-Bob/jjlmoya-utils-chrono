@@ -117,7 +117,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     },
     {
       name: 'Dodaj i porównuj',
-      text: 'Kliknij „Dodaj zegarek”, aby go zapisać. Dodaj kilka zegarków i przełączaj się między nimi, by porównać dopasowanie.',
+      text: 'Kliknij "Dodaj zegarek", aby go zapisać. Dodaj kilka zegarków i przełączaj się między nimi, by porównać dopasowanie.',
     },
     {
       name: 'Odczytaj kolor',
@@ -181,7 +181,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Dodaj i porównuj',
-          'text': 'Kliknij „Dodaj zegarek”, aby go zapisać. Dodaj kilka zegarków, by je porównać.',
+          'text': 'Kliknij "Dodaj zegarek", aby go zapisać. Dodaj kilka zegarków, by je porównać.',
         },
       ],
     },

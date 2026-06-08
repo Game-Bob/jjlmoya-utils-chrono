@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: '什么是陀飞轮？',
-    answer: '陀飞轮是一个旋转的框架，包含机械手表的擒纵机构（摆轮、擒纵叉和擒纵轮）。它持续旋转——通常每分钟一圈——以平均重力造成的位置误差，提高精度。',
+    answer: '陀飞轮是一个旋转的框架，包含机械手表的擒纵机构（摆轮、擒纵叉和擒纵轮）。它持续旋转-通常每分钟一圈-以平均重力造成的位置误差，提高精度。',
   },
   {
     question: '经典陀飞轮和飞行陀飞轮有什么区别？',
@@ -38,7 +38,7 @@ const title = '陀飞轮：旋转擒纵机构的艺术';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualizer',
   title,
-  description: '体验陀飞轮迷人的艺术——容纳擒纵机构的旋转框架。观看摆轮摆动、游丝呼吸、框架在优雅的机械芭蕾中旋转。',
+  description: '体验陀飞轮迷人的艺术-容纳擒纵机构的旋转框架。观看摆轮摆动、游丝呼吸、框架在优雅的机械芭蕾中旋转。',
   ui: {
     title: '陀飞轮可视化器',
     typeLabel: '类型',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: '陀飞轮可视化器：动画擒纵艺术', level: 2 },
     { type: 'paragraph', html: '<strong>陀飞轮</strong>是高级制表中最迷人的复杂功能之一。这个交互式可视化器通过摆轮、游丝、擒纵叉、擒纵轮和标志性旋转框架的详细动画渲染，使旋转的擒纵机构栩栩如生。探索宝玑杰作的机械诗意。' },
     { type: 'title', text: '陀飞轮的工作原理', level: 3 },
-    { type: 'paragraph', html: '陀飞轮将整个擒纵机构 —— <strong>摆轮、游丝、擒纵叉和擒纵轮</strong> —— 容纳在一个旋转框架内。框架通常每分钟完成一次旋转，持续改变擒纵机构相对于重力的位置。这平均了位置性的计时误差，这一概念在阿伯拉罕-路易·宝玑于1801年获得专利时是革命性的。<strong>摆轮</strong>以手表的振频（通常为4 Hz / 28,800 VPH）摆动，而<strong>擒纵轮</strong>每次摆动前进一个齿，产生特有的滴答运动。' },
+    { type: 'paragraph', html: '陀飞轮将整个擒纵机构 - <strong>摆轮、游丝、擒纵叉和擒纵轮</strong> - 容纳在一个旋转框架内。框架通常每分钟完成一次旋转，持续改变擒纵机构相对于重力的位置。这平均了位置性的计时误差，这一概念在阿伯拉罕-路易·宝玑于1801年获得专利时是革命性的。<strong>摆轮</strong>以手表的振频（通常为4 Hz / 28,800 VPH）摆动，而<strong>擒纵轮</strong>每次摆动前进一个齿，产生特有的滴答运动。' },
     { type: 'title', text: '经典 vs 飞行陀飞轮', level: 3 },
     {
       type: 'table', headers: ['特点', '经典陀飞轮', '飞行陀飞轮'], rows: [

@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Diep / Verzadigingsduiken',
     saturationDivingDesc: 'Professioneel verzadigingsduiken. Extreme dieptes. Context van heliumontsnappingsventiel.',
     tipTitle: 'Tip',
-    tipContent: 'Waterbestendigheid neemt in de loop van de tijd af. Pakkingen en afdichtingen moeten jaarlijks worden getest en elke 3\u20135 jaar worden vervangen.',
+    tipContent: 'Waterbestendigheid neemt in de loop van de tijd af. Pakkingen en afdichtingen moeten jaarlijks worden getest en elke 3-5 jaar worden vervangen.',
   },
   seo: [
     { type: 'title', text: 'Horloge Waterbestendigheid Omzetter-Meters, ATM, Bar & Voet ontcijferd', level: 2 },

@@ -31,8 +31,8 @@ describe('Project Titles - Separator Validation', () => {
     const relativePath = path.relative(process.cwd(), filePath);
 
     const titlePatterns = [
-      /const\s+title\s*=\s*['"]([^'"]+)['"]/g,
-      /title\s*:\s*['"]([^'"]+)['"]/g,
+      /const\s+title\s*=\s*[`'"]([^`'"]+)[`'"]/g,
+      /title\s*:\s*[`'"]([^`'"]+)[`'"]/g,
     ];
 
     const findings: string[] = [];

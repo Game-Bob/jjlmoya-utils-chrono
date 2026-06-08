@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'perbandingan-ukuran-arloji',
-  title: 'Watch Size Comparator—Visualisasi Kesesuaian di Pergelangan Tangan',
+  title: 'Watch Size Comparator Visualisasi Kesesuaian di Pergelangan Tangan',
   description: 'Bandingkan ukuran casing arloji secara visual. Masukkan diameter, lug-to-lug, dan ukuran pergelangan untuk melihat kesesuaian sebelum membeli.',
   ui: {
     title: 'Perbandingan Ukuran Arloji',
@@ -31,10 +31,10 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     nameRequired: 'Masukkan nama arloji',
     watchTooLarge: 'Arloji melampaui pergelangan',
     l2lExceedsWrist: 'Lug-to-lug melebihi lebar pergelangan',
-    excellentDesc: 'Proporsional—lug-to-lug masih dalam batas pergelangan.',
-    goodDesc: 'Cocok—sedikit menggantung namun tetap nyaman.',
-    borderlineDesc: 'Pas-pasan—lug mendekati tepi pergelangan.',
-    largeDesc: 'Terlalu besar—lug kemungkinan menggantung.',
+    excellentDesc: 'Proporsional-lug-to-lug masih dalam batas pergelangan.',
+    goodDesc: 'Cocok-sedikit menggantung namun tetap nyaman.',
+    borderlineDesc: 'Pas-pasan-lug mendekati tepi pergelangan.',
+    largeDesc: 'Terlalu besar-lug kemungkinan menggantung.',
     fitsWell: 'Pas',
     slightlyLarge: 'Agak besar',
     tooLarge: 'Terlalu besar',
@@ -42,8 +42,8 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: 'Masukkan dimensi dan tambahkan arloji untuk melihat kesesuaiannya di pergelangan Anda.',
   },
   seo: [
-    { type: 'title', text: 'Watch Size Comparator—Visualisasi Kesesuaian di Pergelangan Tangan', level: 2 },
-    { type: 'paragraph', html: 'Penasaran apakah <strong>arloji 42mm</strong> cocok di <strong>pergelangan 17cm</strong>? Atau apakah lug-to-log 48mm akan menggantung? Watch Size Comparator memberi Anda jawaban visual. Masukkan diameter casing, lug-to-lug, ketebalan, dan ukuran pergelangan—alat ini menggambar arloji sesuai skala dan mewarnai tingkat kesesuaian dari <span style="color:#22c55e">hijau (sangat baik)</span> hingga <span style="color:#ef4444">merah (terlalu besar)</span>. Berfungsi dalam satuan <strong>metrik maupun imperial</strong>.' },
+    { type: 'title', text: 'Watch Size Comparator-Visualisasi Kesesuaian di Pergelangan Tangan', level: 2 },
+    { type: 'paragraph', html: 'Penasaran apakah <strong>arloji 42mm</strong> cocok di <strong>pergelangan 17cm</strong>? Atau apakah lug-to-log 48mm akan menggantung? Watch Size Comparator memberi Anda jawaban visual. Masukkan diameter casing, lug-to-lug, ketebalan, dan ukuran pergelangan-alat ini menggambar arloji sesuai skala dan mewarnai tingkat kesesuaian dari <span style="color:#22c55e">hijau (sangat baik)</span> hingga <span style="color:#ef4444">merah (terlalu besar)</span>. Berfungsi dalam satuan <strong>metrik maupun imperial</strong>.' },
     { type: 'title', text: 'Glosarium Ukuran Arloji', level: 3 },
     {
       type: 'glossary', items: [
@@ -79,12 +79,12 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'Lug to Lug adalah Batas Kesesuaian Sesungguhnya', icon: 'mdi:ruler', html: 'Kebanyakan orang fokus pada <strong>diameter casing</strong>, namun <strong>lug-to-lug</strong> yang menentukan apakah arloji cocok di pergelangan. Arloji dengan L2L 48mm di pergelangan datar 55mm (keliling 17cm) memakan 87% lebar pergelangan. Di atas 65%, lug mulai mendekati tepi pergelangan. <strong>Selalu periksa L2L terlebih dahulu.</strong>' },
 
-    { type: 'tip', title: 'CM atau Inci? Pakai yang Anda Kenali', html: 'Alat ini sekarang mendukung satuan metrik dan imperial. Ukur pergelangan dalam sistem yang Anda pakai sehari-hari. Dimensi casing arloji <strong>selalu dalam milimeter</strong> (bahkan di AS), jadi diameter dan L2L tetap dalam mm—hanya ukuran pergelangan yang bisa diubah. Ini sesuai dengan standar industri arloji.' },
+    { type: 'tip', title: 'CM atau Inci? Pakai yang Anda Kenali', html: 'Alat ini sekarang mendukung satuan metrik dan imperial. Ukur pergelangan dalam sistem yang Anda pakai sehari-hari. Dimensi casing arloji <strong>selalu dalam milimeter</strong> (bahkan di AS), jadi diameter dan L2L tetap dalam mm-hanya ukuran pergelangan yang bisa diubah. Ini sesuai dengan standar industri arloji.' },
 
     {
       type: 'summary', title: 'Daftar Periksa Cepat Sebelum Membeli', items: [
         'Ukur keliling pergelangan dan masukkan ke alat ini.',
-        'Cari tahu lug-to-lug arloji—bukan hanya diameter casing.',
+        'Cari tahu lug-to-lug arloji-bukan hanya diameter casing.',
         'Arloji sebaiknya memenuhi 60-75% lebar pergelangan datar untuk kesesuaian klasik.',
         'Jika lug menggantung di tepi pergelangan, arloji akan terasa terlalu besar, terlepas dari diameternya.',
         'Gunakan alat ini untuk membandingkan beberapa arloji berdampingan sebelum memutuskan pembelian.',

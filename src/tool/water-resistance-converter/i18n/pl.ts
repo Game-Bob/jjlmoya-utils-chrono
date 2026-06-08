@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Nurkowanie Głębokie / Saturacja',
     saturationDivingDesc: 'Profesjonalne nurkowanie saturowane. Ekstremalne głębokości. Kontekst zaworu ucieczki helu.',
     tipTitle: 'Wskazówka',
-    tipContent: 'Wodoszczelność pogarsza się z czasem. Uszczelki powinny być testowane corocznie i wymieniane co 3\u20135 lat.',
+    tipContent: 'Wodoszczelność pogarsza się z czasem. Uszczelki powinny być testowane corocznie i wymieniane co 3-5 lat.',
   },
   seo: [
     { type: 'title', text: 'Konwerter Wodoszczelności Zegarków-Rozszyfrowanie Metrów, ATM, Bar & Stóp', level: 2 },

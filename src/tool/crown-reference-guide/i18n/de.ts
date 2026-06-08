@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Krone zuerst herausdrehen',
     windingLabel: 'Aufzug',
     hackLabel: 'Sekundenstopp',
-    dangerZoneLabel: '9\u20133 Uhr vermeiden',
+    dangerZoneLabel: '9-3 Uhr vermeiden',
     directionCW: 'Im Uhrzeigersinn',
     directionCCW: 'Gegen Uhrzeigersinn',
     directionBoth: 'Beidseitig',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Keine Aufzugs- oder Einstellfunktionen aktiv.',
     position1Title: 'Handaufzug',
     position1Desc: 'Drehen Sie die Krone im Uhrzeigersinn, um die Zugfeder zu spannen. Sie spüren einen zunehmenden Widerstand.',
-    position1Detail: 'Etwa 30\u201340 volle Umdrehungen aus dem Stillstand. Automatikrotoren spannen beim Tragen ebenfalls.',
+    position1Detail: 'Etwa 30-40 volle Umdrehungen aus dem Stillstand. Automatikrotoren spannen beim Tragen ebenfalls.',
     position2Title: 'Datums-Schnellverstellung',
     position2Desc: 'Krone im Uhrzeigersinn drehen, um das Datum vorzustellen. Der Stundenzeiger bleibt synchron mit den laufenden Sekunden.',
     position2Detail: 'Schnellverstellung des Datums zwischen 21 und 3 Uhr vermeiden, während der Datumswechselmechanismus aktiv ist.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Position 0 (Ruhestellung)', definition: 'Krone eingedrückt oder eingeschraubt. Uhr läuft normal. Keine Funktionen aktiv. Nach dem Einstellen immer hierher zurückkehren.' },
         { term: 'Position 1 (Aufzug)', definition: 'Erster Zug oder herausgeschraubter Zustand. Im Uhrzeigersinn drehen, um die Zugfeder zu spannen. Die meisten Automatikuhren spannen auch über den Rotor.' },
-        { term: 'Position 2 (Datums-Schnellverstellung)', definition: 'Zweiter Zug. Im Uhrzeigersinn drehen, um das Datum vorzustellen. Nicht zwischen 21\u20133 Uhr verwenden, wenn der Datumsmechanismus aktiv ist.' },
+        { term: 'Position 2 (Datums-Schnellverstellung)', definition: 'Zweiter Zug. Im Uhrzeigersinn drehen, um das Datum vorzustellen. Nicht zwischen 21-3 Uhr verwenden, wenn der Datumsmechanismus aktiv ist.' },
         { term: 'Position 3 (Zeiteinstellung)', definition: 'Dritter Zug. Sekundenstopp für präzise Ausrichtung. Zum Einstellen der Uhrzeit frei drehen. Bei den meisten modernen Automatikuhren vorhanden.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Standardkrone', icon: 'mdi:crown', description: 'Zug-Druck-Krone, bei den meisten Alltags- und Automatikuhren zu finden. 2\u20134 Positionen. Wasserdichtigkeit typischerweise 30\u2013100 m.', points: ['Sofortzugriff, kein Herausdrehen', 'Begrenzte Wasserdichtigkeit', 'Üblich bei ETA, Miyota, Seiko'] },
+        { title: 'Standardkrone', icon: 'mdi:crown', description: 'Zug-Druck-Krone, bei den meisten Alltags- und Automatikuhren zu finden. 2-4 Positionen. Wasserdichtigkeit typischerweise 30-100 m.', points: ['Sofortzugriff, kein Herausdrehen', 'Begrenzte Wasserdichtigkeit', 'Üblich bei ETA, Miyota, Seiko'] },
         { title: 'Schraubkrone', icon: 'mdi:lock', description: 'Gewindekrone, die in das Gehäuserohr geschraubt wird. Standard bei Taucher- und Werkzeughren. Wasserdichtigkeit 200 m+.', points: ['Hervorragende Wasserdichtigkeit', 'Muss vor Gebrauch herausgeschraubt werden', 'Üblich bei Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Warum stoppt mein Sekundenzeiger nicht, wenn ich die Krone ziehe?',
-      answer: 'Einige Werke haben keinen Sekundenstopp-Mechanismus. Übliche Kaliber ohne Sekundenstopp sind das Miyota 8215, Unitas 6497/6498 und viele antike Werke. Um die Zeit bei einem Werk ohne Sekundenstopp genau einzustellen: drehen Sie die Krone 5\u201310 Minuten über Ihre Zielminute hinaus, dann langsam zurückdrehen, bis der Minutenzeiger genau auf der gewünschten Markierung steht.',
+      answer: 'Einige Werke haben keinen Sekundenstopp-Mechanismus. Übliche Kaliber ohne Sekundenstopp sind das Miyota 8215, Unitas 6497/6498 und viele antike Werke. Um die Zeit bei einem Werk ohne Sekundenstopp genau einzustellen: drehen Sie die Krone 5-10 Minuten über Ihre Zielminute hinaus, dann langsam zurückdrehen, bis der Minutenzeiger genau auf der gewünschten Markierung steht.',
     },
     {
       question: 'Wie viele Umdrehungen braucht meine Uhr zum vollständigen Aufzug?',
-      answer: 'Die meisten Automatikwerke benötigen 30\u201340 volle Kronenumdrehungen aus dem Stillstand. Handaufzugswerke variieren: das Unitas 6498 braucht etwa 30\u201335 Umdrehungen, während das Seiko 6R35 mit seiner 70-Stunden-Gangreserve 50\u201360 Umdrehungen benötigt. Hören Sie auf, wenn Sie einen deutlichen Widerstand spüren \u2014 gewaltsames Weiterdrehen kann die Zugfeder beschädigen.',
+      answer: 'Die meisten Automatikwerke benötigen 30-40 volle Kronenumdrehungen aus dem Stillstand. Handaufzugswerke variieren: das Unitas 6498 braucht etwa 30-35 Umdrehungen, während das Seiko 6R35 mit seiner 70-Stunden-Gangreserve 50-60 Umdrehungen benötigt. Hören Sie auf, wenn Sie einen deutlichen Widerstand spüren - gewaltsames Weiterdrehen kann die Zugfeder beschädigen.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Durch jede Position ziehen',
-      text: 'Klicken Sie auf die Positions-Chips (0\u20133) oder verwenden Sie den Zug-Knopf. Lesen Sie die Beschreibung und beachten Sie die Gefahrenzonen-Warnung für die Datumseinstellung.',
+      text: 'Klicken Sie auf die Positions-Chips (0-3) oder verwenden Sie den Zug-Knopf. Lesen Sie die Beschreibung und beachten Sie die Gefahrenzonen-Warnung für die Datumseinstellung.',
     },
     {
       name: 'An Ihrer Uhr anwenden',
@@ -171,7 +171,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
           'name': 'Wie viele Umdrehungen zum vollständigen Aufzug?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Die meisten Automatikwerke benötigen 30\u201340 volle Kronenumdrehungen. Handaufzugswerke variieren. Beim spürbaren Widerstand aufhören.',
+            'text': 'Die meisten Automatikwerke benötigen 30-40 volle Kronenumdrehungen. Handaufzugswerke variieren. Beim spürbaren Widerstand aufhören.',
           },
         },
       ],
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Durch jede Position ziehen',
-          'text': 'Klicken Sie auf die Positions-Chips (0\u20133) oder verwenden Sie den Zug-Knopf. Lesen Sie die Beschreibung und beachten Sie die Gefahrenzonen-Warnung für die Datumseinstellung.',
+          'text': 'Klicken Sie auf die Positions-Chips (0-3) oder verwenden Sie den Zug-Knopf. Lesen Sie die Beschreibung und beachten Sie die Gefahrenzonen-Warnung für die Datumseinstellung.',
         },
         {
           '@type': 'HowToStep',

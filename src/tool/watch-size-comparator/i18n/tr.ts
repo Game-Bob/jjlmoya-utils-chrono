@@ -79,7 +79,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
 
     { type: 'diagnostic', variant: 'info', title: 'Asil Uyum Siniri Kulp Kulp Mesafesidir', icon: 'mdi:ruler', html: 'Çoğu kişi <strong>kasa çapına</strong> odaklanır, ancak bir saatin bileğinize uyup uymayacağını belirleyen asıl ölçü <strong>kulp-kulp mesafesidir</strong>. 55mm düz bilekte (17cm çevre) 48mm L2L\'ye sahip bir saat, bilek genişliğinin %87\'sini kaplar. %65\'in üzerinde kuplar bileğin kenarına yaklaşmaya başlar. <strong>Önce L2L\'yi kontrol edin.</strong>' },
 
-    { type: 'tip', title: 'CM mi Inç mi? Size Hangisi Daha Yakınsa', html: 'Araç artık hem metrik hem de emperyal birimleri destekliyor. Bileğinizi günlük hayatta hangi sistemi kullanıyorsanız onunla ölçün. Saat kasa ölçüleri <strong>her zaman milimetre</strong> cinsindendir (ABD\'de bile), bu yüzden çaplar ve L2L mm olarak kalır—sadece bilek ölçüsü değişir. Bu, saat sektörünün çalışma şekliyle birebir örtüşür.' },
+    { type: 'tip', title: 'CM mi Inç mi? Size Hangisi Daha Yakınsa', html: 'Araç artık hem metrik hem de emperyal birimleri destekliyor. Bileğinizi günlük hayatta hangi sistemi kullanıyorsanız onunla ölçün. Saat kasa ölçüleri <strong>her zaman milimetre</strong> cinsindendir (ABD\'de bile), bu yüzden çaplar ve L2L mm olarak kalır-sadece bilek ölçüsü değişir. Bu, saat sektörünün çalışma şekliyle birebir örtüşür.' },
 
     {
       type: 'summary', title: 'Satın Almadan Önce Hızlı Uyum Kontrol Listesi', items: [

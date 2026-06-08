@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Önce kurma kolunu sökün',
     windingLabel: 'Kurma',
     hackLabel: 'Saniye Durdurma',
-    dangerZoneLabel: '21.00\u201303.00 arasından kaçının',
+    dangerZoneLabel: '21.00-03.00 arasından kaçının',
     directionCW: 'Saat yönünde',
     directionCCW: 'Saat yönünün tersine',
     directionBoth: 'Çift yönlü',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Hiçbir kurma veya ayar işlevi devrede değildir.',
     position1Title: 'Manuel Kurma',
     position1Desc: 'Kurma kolunu saat yönünde çevirerek ana yayı kurun. Yay gerildikçe direnç hissedersiniz.',
-    position1Detail: 'Tam duruştan yaklaşık 30\u201340 tam tur. Otomatik rotorlar da takılıyken kurma yapar.',
+    position1Detail: 'Tam duruştan yaklaşık 30-40 tam tur. Otomatik rotorlar da takılıyken kurma yapar.',
     position2Title: 'Tarih Hızlı Ayarı',
     position2Desc: 'Kurma kolunu saat yönünde çevirerek tarihi ilerletin. Akrep saniyelerle senkronize kalır.',
     position2Detail: 'Tarih değiştirme mekanizması devredeyken 21.00 ile 03.00 arasında hızlı tarih ayarı YAPMAYIN.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Konum 0 (Dinlenme)', definition: 'Kurma kolu itilmiş veya vidalanmış durumda. Saat normal çalışır. Hiçbir işlev devrede değildir. Ayar yaptıktan sonra her zaman buraya dönün.' },
         { term: 'Konum 1 (Kurma)', definition: 'İlk çekme veya sökülmüş durum. Ana yayı kurmak için saat yönünde çevirin. Çoğu otomatik saat rotorla da kurulur.' },
-        { term: 'Konum 2 (Tarih Hızlı Ayarı)', definition: 'İkinci çekme. Tarihi ilerletmek için saat yönünde çevirin. Tarih mekanizması devredeyken 21.00\u201303.00 arasında kullanmaktan kaçının.' },
+        { term: 'Konum 2 (Tarih Hızlı Ayarı)', definition: 'İkinci çekme. Tarihi ilerletmek için saat yönünde çevirin. Tarih mekanizması devredeyken 21.00-03.00 arasında kullanmaktan kaçının.' },
         { term: 'Konum 3 (Saat Ayarı)', definition: 'Üçüncü çekme. Hassas hizalama için saniye kolu durur (durdurma). Saati ayarlamak için serbestçe döndürün. Çoğu modern otomatik saatte bulunur.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Standart Kurma Kolu', icon: 'mdi:crown', description: 'Çoğu elbise saati ve günlük otomatik saatte bulunan itmeli-çekmeli kurma kolu. 2\u20134 konum. Su geçirmezlik tipik olarak 30\u2013100m.', points: ['Anında erişim, sökme gerektirmez', 'Sınırlı su geçirmezlik', 'ETA, Miyota, Seiko\'da yaygın'] },
+        { title: 'Standart Kurma Kolu', icon: 'mdi:crown', description: 'Çoğu elbise saati ve günlük otomatik saatte bulunan itmeli-çekmeli kurma kolu. 2-4 konum. Su geçirmezlik tipik olarak 30-100m.', points: ['Anında erişim, sökme gerektirmez', 'Sınırlı su geçirmezlik', 'ETA, Miyota, Seiko\'da yaygın'] },
         { title: 'Vidalı Kurma Kolu', icon: 'mdi:lock', description: 'Kasa tüpüne vidalanan dişli kurma kolu. Dalış saatleri ve alet saatlerinde standarttır. Su geçirmezlik 200m+.', points: ['Üstün su geçirmezlik', 'Kullanmadan önce sökülmeli', 'Rolex, Omega, Seiko Prospex\'te yaygın'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Kurma kolunu çektiğimde saniye kolum neden durmuyor?',
-      answer: 'Bazı hareketlerde saniye durdurma (hacking) mekanizması yoktur. Yaygın durdurmasız kalibreler arasında Miyota 8215, Unitas 6497/6498 ve birçok eski hareket bulunur. Durdurmasız bir harekette saati doğru ayarlamak için: hedef dakikanızı 5\u201310 dakika geçip döndürün, ardından akrep tam istediğiniz noktaya gelene kadar yavaşça geri çevirin.',
+      answer: 'Bazı hareketlerde saniye durdurma (hacking) mekanizması yoktur. Yaygın durdurmasız kalibreler arasında Miyota 8215, Unitas 6497/6498 ve birçok eski hareket bulunur. Durdurmasız bir harekette saati doğru ayarlamak için: hedef dakikanızı 5-10 dakika geçip döndürün, ardından akrep tam istediğiniz noktaya gelene kadar yavaşça geri çevirin.',
     },
     {
       question: 'Saatimi tamamen kurmak için kaç tur gerektiğini nasıl anlarım?',
-      answer: 'Çoğu otomatik hareket, tam duruştan 30\u201340 tam kurma kolu dönüşü gerektirir. Elle kurulan hareketler değişir: Unitas 6498 yaklaşık 30\u201335 tur, 70 saat rezervli Seiko 6R35 ise 50\u201360 tur gerektirir. Sert bir direnç hissettiğinizde durun-rlamak ana yaya zarar verebilir.',
+      answer: 'Çoğu otomatik hareket, tam duruştan 30-40 tam kurma kolu dönüşü gerektirir. Elle kurulan hareketler değişir: Unitas 6498 yaklaşık 30-35 tur, 70 saat rezervli Seiko 6R35 ise 50-60 tur gerektirir. Sert bir direnç hissettiğinizde durun-rlamak ana yaya zarar verebilir.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Her konumdan geçin',
-      text: 'Konum çiplerine (0\u20133) veya "Çek" düğmesine tıklayın. Açıklamayı okuyun ve tarih ayarı için tehlike bölgesi uyarısını not edin.',
+      text: 'Konum çiplerine (0-3) veya "Çek" düğmesine tıklayın. Açıklamayı okuyun ve tarih ayarı için tehlike bölgesi uyarısını not edin.',
     },
     {
       name: 'Saatine uygula',
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Her konumdan geçin',
-          'text': 'Konum çiplerine (0\u20133) veya "Çek" düğmesine tıklayın. Açıklamayı okuyun ve tarih ayarı için tehlike bölgesi uyarısını not edin.',
+          'text': 'Konum çiplerine (0-3) veya "Çek" düğmesine tıklayın. Açıklamayı okuyun ve tarih ayarı için tehlike bölgesi uyarısını not edin.',
         },
         {
           '@type': 'HowToStep',

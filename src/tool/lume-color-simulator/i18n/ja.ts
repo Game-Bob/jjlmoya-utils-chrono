@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'lume-color-simulator',
-  title: 'ルミカラーシミュレーター—腕時計ルミ発色ビジュアライザー',
+  title: 'ルミカラーシミュレーター 腕時計ルミ発色ビジュアライザー',
   description: 'ルミカラーをリアルタイムで比較。C1、C3、BGW9、LumiNovaなど、さまざまな夜光塗料の発色を明るさ別にシミュレーションします。',
   ui: {
     title: 'ルミカラーシミュレーター',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'ルミの明るさは、色素の品質と吸収した光の量に依存します。BGW9は青白く発光し最も明るく、ビンテージルミは暖かくほのかな光を放ちます。',
   },
   seo: [
-    { type: 'title', text: '腕時計ルミカラーシミュレーター—リアルタイム発色比較ツール', level: 2 },
+    { type: 'title', text: '腕時計ルミカラーシミュレーター-リアルタイム発色比較ツール', level: 2 },
     { type: 'paragraph', html: 'ルミは腕時計収集家にとって最もこだわりのある要素のひとつです。<strong>C1スーパールミノバ</strong>のクラシックなグリーングローと<strong>BGW9</strong>のアイスブルー、どちらが好みですか？このシミュレーターでは、各ルミタイプが昼光から完全な暗闇まで、明るさのレベルごとにどのように見えるかを、正確な<strong>HEX値とRGB値</strong>とともに表示します。' },
     { type: 'title', text: 'スーパールミノバの種類比較', level: 3 },
     {
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['グリーン', 'ブライトグリーン', 'グリーン', '高', 'ミリタリースタイルの腕時計'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9—どれを選ぶべき？', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9-どれを選ぶべき？', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 クラシックグリーン', icon: 'mdi:lightbulb-on', description: 'オリジナルのスーパールミノバ処方。グリーンに発光し、明るさは中程度。どんな腕時計にも合う安心のクラシックチョイス。', points: ['中程度の明るさ、4〜6時間視認可能', 'グリーングロー、暖かい色調', '最も手頃な処方', 'エントリーレベルの腕時計に普及'], highlight: false },
@@ -65,7 +65,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         { title: 'ビンテージ ラジウム調', icon: 'mdi:fire', description: '1960年代のラジウムルミを再現したウォームベージュ／クリーム色。見た目の再現性を優先し、意図的に暗め。暖かく繊細な輝きで、経年変化も美しい。', points: ['低輝度、2〜4時間視認可能', 'ウォームクリームから淡い琥珀色', '放射性物質を使わずに経年変化を再現', 'ヘリテージ復刻モデルに人気'], highlight: false },
       ]
     },
-    { type: 'diagnostic', variant: 'info', title: '明るさだけが全てではない', icon: 'mdi:palette', html: '最も明るいルミ（C3）が常に最良の選択とは限りません。<strong>BGW9</strong>はわずかな明るさの差と引き換えに、多くのコレクターが好むニュートラルでモダンな見た目を提供します。<strong>ビンテージルミ</strong>は性能よりも時代に合った風合いを優先します。自分にとって何が一番大事か—<strong>最大の輝き、モダンな美しさ、それともヘリテージの風格</strong>—で選びましょう。' },
+    { type: 'diagnostic', variant: 'info', title: '明るさだけが全てではない', icon: 'mdi:palette', html: '最も明るいルミ（C3）が常に最良の選択とは限りません。<strong>BGW9</strong>はわずかな明るさの差と引き換えに、多くのコレクターが好むニュートラルでモダンな見た目を提供します。<strong>ビンテージルミ</strong>は性能よりも時代に合った風合いを優先します。自分にとって何が一番大事か-<strong>最大の輝き、モダンな美しさ、それともヘリテージの風格</strong>-で選びましょう。' },
     { type: 'title', text: 'ルミの発光メカニズム', level: 3 },
     {
       type: 'glossary', items: [
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'モダンで高級感のある見た目なら：BGW9が現在ハイエンドブランドで人気です。',
         'ビンテージ／ヘリテージ風なら：ビンテージかオレンジで時代に合った温かみを。',
         'C1はオールラウンダー：十分な明るさ、クラシックなグリーン、手頃な価格帯。',
-        '昼間の発色と夜間のグローカラーは大きく異なります—シミュレーターで両方を比較してみましょう。',
+        '昼間の発色と夜間のグローカラーは大きく異なります-シミュレーターで両方を比較してみましょう。',
       ]
     },
   ],

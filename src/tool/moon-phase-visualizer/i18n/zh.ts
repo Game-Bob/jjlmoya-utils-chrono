@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'moon-phase-visualizer',
-  title: '月相可视化工具 — nar 日历与手表月相调校工具',
+  title: '月相可视化工具: nar 日历与手表月相调校工具',
   description: '实时查看当前月相、照亮率、月龄以及下次满月和新月。调校手表月相功能的理想工具。',
   ui: {
     title: '月相可视化工具',
@@ -31,8 +31,8 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: '天',
   },
   seo: [
-    { type: 'title', text: '月相可视化工具 — 月相查询与手表调校指南', level: 2 },
-    { type: 'paragraph', html: '月相可视化工具以逼真的月球渲染效果展示 <strong>当前月相</strong>。查看 <strong>照亮率百分比、月龄、距离下次满月的天数以及下次新月</strong>。专为需要精确调校月相功能的手表爱好者设计——同时也适用于查询过去或未来任何日期的通用月历。' },
+    { type: 'title', text: '月相可视化工具 - 月相查询与手表调校指南', level: 2 },
+    { type: 'paragraph', html: '月相可视化工具以逼真的月球渲染效果展示 <strong>当前月相</strong>。查看 <strong>照亮率百分比、月龄、距离下次满月的天数以及下次新月</strong>。专为需要精确调校月相功能的手表爱好者设计-同时也适用于查询过去或未来任何日期的通用月历。' },
     { type: 'title', text: '月相术语表', level: 3 },
     {
       type: 'glossary', items: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['高精度', '齿轮系', '约每 100+ 年偏差 1 天', '100+ 年', '百达翡丽、朗格'],
       ]
     },
-    { type: 'tip', title: '看懂月相盘', html: '大多数月相表的月相盘上有 <strong>两个月亮</strong> 相对排列。每个满月对准中央顶部的窗口。经过一个完整周期（29.5 天）后，第二个月亮接替位置。这就是 59 齿齿轮的运作原理：它每 59 天转完一整圈——正好是两个太阴月周期。' },
+    { type: 'tip', title: '看懂月相盘', html: '大多数月相表的月相盘上有 <strong>两个月亮</strong> 相对排列。每个满月对准中央顶部的窗口。经过一个完整周期（29.5 天）后，第二个月亮接替位置。这就是 59 齿齿轮的运作原理：它每 59 天转完一整圈-正好是两个太阴月周期。' },
     {
       type: 'summary', title: '快速参考', items: [
         '太阴（朔望）周期精确为 29.53058867 天。本工具使用该数值以获得最高精度。',

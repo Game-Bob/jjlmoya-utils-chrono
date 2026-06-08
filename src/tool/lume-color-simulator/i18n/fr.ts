@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'simulateur-de-couleur-de-lume',
-  title: 'Simulateur de Couleur de Lume — Visualiseur de Luminescence',
+  title: 'Simulateur de Couleur de Lume: Visualiseur de Luminescence',
   description: 'Visualisez différentes couleurs de lume en temps réel. Comparez C1, C3, BGW9, LumiNova et bien d\'autres à différents niveaux de luminosité ambiante.',
   ui: {
     title: 'Simulateur de Couleur de Lume',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'La luminosité du lume dépend de la qualité du pigment et de la quantité de lumière absorbée. Le BGW9 brille en bleu-blanc et est le plus lumineux, tandis que le lume vintage a une lueur chaude et tamisée.',
   },
   seo: [
-    { type: 'title', text: 'Simulateur de Couleur de Lume — Visualiseur de Luminescence en Temps Réel', level: 2 },
+    { type: 'title', text: 'Simulateur de Couleur de Lume - Visualiseur de Luminescence en Temps Réel', level: 2 },
     { type: 'paragraph', html: 'Le lume est l\'un des choix les plus personnels dans la collection de montres. Préférez-vous la lueur verte classique du <strong>C1 Super-LumiNova</strong> ou le bleu glacé du <strong>BGW9</strong>&nbsp;? Ce simulateur vous montre l\'apparence de chaque type de lume à différents niveaux de luminosité, du plein jour à l\'obscurité totale, avec les <strong>valeurs HEX et RVB</strong> exactes pour chaque nuance.' },
     { type: 'title', text: 'Comparaison des Types de Super-LumiNova', level: 3 },
     {
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Vert', 'Vert vif', 'Vert', 'Élevée', 'Montres style militaire'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9 — Lequel Choisir&nbsp;?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9 - Lequel Choisir&nbsp;?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 Vert Classique', icon: 'mdi:lightbulb-on', description: 'La formulation originale Super-LumiNova. Brille en vert avec une luminosité moyenne. Un choix classique et sûr qui fonctionne avec tous les styles de montres.', points: ['Luminosité moyenne, visibilité 4-6 h', 'Lueur verte, ton chaud', 'Formulation la plus abordable', 'Courante dans les montres d\'entrée de gamme'], highlight: false },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'Pour un look luxe moderne&nbsp;: le BGW9 est actuellement le favori des grandes marques horlogères.',
         'Pour les montres vintage/héritage&nbsp;: utilisez le Vintage ou l\'Orange pour une chaleur d\'époque.',
         'Le C1 est le polyvalent&nbsp;: bonne luminosité, vert classique, abordable.',
-        'La couleur du lume de jour diffère considérablement de la couleur luminescente — utilisez le simulateur pour comparer les deux.',
+        'La couleur du lume de jour diffère considérablement de la couleur luminescente - utilisez le simulateur pour comparer les deux.',
       ]
     },
   ],

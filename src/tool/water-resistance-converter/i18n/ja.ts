@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: '飽和潜水',
     saturationDivingDesc: 'プロフェッショナルな飽和潜水。極限深度。ヘリウムエスケープバルブ対応。',
     tipTitle: 'ヒント',
-    tipContent: '防水性能は経年劣化します。ガスケットとシールは毎年点検し、3\u20135年ごとに交換してください。',
+    tipContent: '防水性能は経年劣化します。ガスケットとシールは毎年点検し、3-5年ごとに交換してください。',
   },
   seo: [
     { type: 'title', text: '時計の防水変換ツール-メートル、ATM、バー、フィートを解説', level: 2 },

@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'Apa itu tourbillon?',
-    answer: 'Tourbillon adalah sangkar berputar yang berisi escapement (roda keseimbangan, garpu palet, dan roda escapement) dari jam tangan mekanis. Ia berputar terus menerus — biasanya sekali per menit — untuk merata-ratakan kesalahan posisi yang disebabkan oleh gravitasi, meningkatkan akurasi.',
+    answer: 'Tourbillon adalah sangkar berputar yang berisi escapement (roda keseimbangan, garpu palet, dan roda escapement) dari jam tangan mekanis. Ia berputar terus menerus - biasanya sekali per menit - untuk merata-ratakan kesalahan posisi yang disebabkan oleh gravitasi, meningkatkan akurasi.',
   },
   {
     question: 'Apa perbedaan antara tourbillon klasik dan terbang?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Seni Escapement Berputar';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualisator',
   title,
-  description: 'Alami seni tourbillon yang memukau — sebuah sangkar berputar yang menampung escapement. Saksikan roda keseimbangan berosilasi, pegas bernapas, dan sangkar berputar dalam balet mekanis yang elegan.',
+  description: 'Alami seni tourbillon yang memukau - sebuah sangkar berputar yang menampung escapement. Saksikan roda keseimbangan berosilasi, pegas bernapas, dan sangkar berputar dalam balet mekanis yang elegan.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Tipe',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Seni Escapement Animasi', level: 2 },
     { type: 'paragraph', html: '<strong>Tourbillon</strong> adalah salah satu komplikasi paling memikat dalam haute horlogerie. Visualisator interaktif ini menghidupkan escapement berputar dengan rendering animasi detail dari roda keseimbangan, pegas, garpu palet, roda escapement, dan sangkar berputar yang ikonik. Jelajahi puisi mekanis dari mahakarya Breguet.' },
     { type: 'title', text: 'Bagaimana tourbillon bekerja', level: 3 },
-    { type: 'paragraph', html: 'Sebuah tourbillon menampung seluruh escapement — <strong>roda keseimbangan, pegas, garpu palet, dan roda escapement</strong> — di dalam sangkar berputar. Sangkar biasanya menyelesaikan satu rotasi per menit, terus-menerus mengubah posisi escapement relatif terhadap gravitasi. Ini merata-ratakan kesalahan waktu posisional, sebuah konsep yang revolusioner ketika Abraham-Louis Breguet mempatenkannya pada 1801. <strong>Roda keseimbangan</strong> berosilasi pada kecepatan detak jam (biasanya 4 Hz / 28.800 vph), sementara <strong>roda escapement</strong> maju satu gigi per detak, menciptakan gerakan tik yang khas.' },
+    { type: 'paragraph', html: 'Sebuah tourbillon menampung seluruh escapement - <strong>roda keseimbangan, pegas, garpu palet, dan roda escapement</strong> - di dalam sangkar berputar. Sangkar biasanya menyelesaikan satu rotasi per menit, terus-menerus mengubah posisi escapement relatif terhadap gravitasi. Ini merata-ratakan kesalahan waktu posisional, sebuah konsep yang revolusioner ketika Abraham-Louis Breguet mempatenkannya pada 1801. <strong>Roda keseimbangan</strong> berosilasi pada kecepatan detak jam (biasanya 4 Hz / 28.800 vph), sementara <strong>roda escapement</strong> maju satu gigi per detak, menciptakan gerakan tik yang khas.' },
     { type: 'title', text: 'Tourbillon Klasik vs Terbang', level: 3 },
     {
       type: 'table', headers: ['Fitur', 'Tourbillon Klasik', 'Tourbillon Terbang'], rows: [

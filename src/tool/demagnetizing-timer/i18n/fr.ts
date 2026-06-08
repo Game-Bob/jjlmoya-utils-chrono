@@ -38,7 +38,7 @@ export const content: ToolLocaleContent<DemagnetizingTimerUI> = {
     { type: 'title', text: 'Comment fonctionne un démagnétiseur', level: 3 },
     { type: 'paragraph', html: 'Un démagnétiseur est essentiellement une bobine de fil qui produit un champ magnétique alternatif puissant lorsqu\'elle est alimentée. Placer une montre magnétisée dans ce champ provoque le basculement rapide de ses domaines magnétiques internes. Lorsque le champ est supprimé brusquement (en relâchant le bouton), les domaines se stabilisent dans un motif aléatoire, annulant ainsi la magnétisation nette.' },
     { type: 'title', text: 'Signes que votre montre a besoin d\'être démagnétisée', level: 3 },
-    { type: 'paragraph', html: 'Les symptômes courants d\'une montre magnétisée incluent : une avance de plusieurs minutes par jour, un chronométrage irrégulier selon les positions, un tic-tac audiblement plus rapide et, dans les cas extrêmes, l\'arrêt complet de la montre. Si votre montre automatique se met soudainement à accélérer, la magnétisation en est souvent la cause et la démagnétisation est une solution simple.' },
+    { type: 'paragraph', html: 'Les symptômes courants d\'une montre magnétisée incluent: une avance de plusieurs minutes par jour, un chronométrage irrégulier selon les positions, un tic-tac audiblement plus rapide et, dans les cas extrêmes, l\'arrêt complet de la montre. Si votre montre automatique se met soudainement à accélérer, la magnétisation en est souvent la cause et la démagnétisation est une solution simple.' },
   ],
   faq: [
     {

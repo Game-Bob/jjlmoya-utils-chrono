@@ -29,7 +29,7 @@ export const content: ToolLocaleContent<StrapTaperCalculatorUI> = {
     proportionFair: 'Fair',
     proportionUnbalanced: 'Unbalanced',
     mmUnit: 'mm',
-    arrow: '\u2192',
+    arrow: '→',
     noteTitle: 'Note',
     noteContent: 'A classic taper of 4 mm (e.g., 20 to 16 mm) suits dress watches. Divers and tool watches often look better with a straight or 2 mm taper for a robust feel.',
     step1: 'Enter your case diameter and lug width.',

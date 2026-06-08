@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Mergulho Profundo / Saturação',
     saturationDivingDesc: 'Mergulho de saturação profissional. Profundidades extremas. Contexto de válvula de escape de hélio.',
     tipTitle: 'Dica',
-    tipContent: 'A resistência à água degrada-se ao longo do tempo. Juntas e vedações devem ser testadas anualmente e substituídas a cada 3\u20135 anos.',
+    tipContent: 'A resistência à água degrada-se ao longo do tempo. Juntas e vedações devem ser testadas anualmente e substituídas a cada 3-5 anos.',
   },
   seo: [
     { type: 'title', text: 'Conversor de Resistência à Água de Relógios-Decifrando Metros, ATM, Bar & Pés', level: 2 },

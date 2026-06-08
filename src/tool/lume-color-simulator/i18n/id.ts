@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'simulator-warna-lume',
-  title: 'Lume Color Simulator—Visualisator Cahaya Arloji',
+  title: 'Lume Color Simulator Visualisator Cahaya Arloji',
   description: 'Visualisasikan berbagai warna lume secara real-time. Bandingkan C1, C3, BGW9, LumiNova, dan lainnya di berbagai tingkat kecerahan lingkungan.',
   ui: {
     title: 'Simulator Warna Lume',
@@ -37,8 +37,8 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: 'Kecerahan lume tergantung pada kualitas pigmen dan seberapa banyak cahaya yang diserapnya. BGW9 bersinar biru-putih dan yang paling terang, sedangkan lume vintage memiliki cahaya hangat yang redup.',
   },
   seo: [
-    { type: 'title', text: 'Simulator Warna Lume Arloji—Visualisator Cahaya Real-Time', level: 2 },
-    { type: 'paragraph', html: 'Lume adalah salah satu pilihan paling personal dalam koleksi arloji. Apakah Anda lebih suka cahaya hijau klasik dari <strong>C1 Super-LumiNova</strong> atau biru es dari <strong>BGW9</strong>? Simulator ini menunjukkan bagaimana setiap jenis lume tampak di berbagai tingkat kecerahan—dari siang bolong hingga gelap gulita—lengkap dengan <strong>nilai HEX dan RGB</strong> yang akurat untuk setiap corak.' },
+    { type: 'title', text: 'Simulator Warna Lume Arloji-Visualisator Cahaya Real-Time', level: 2 },
+    { type: 'paragraph', html: 'Lume adalah salah satu pilihan paling personal dalam koleksi arloji. Apakah Anda lebih suka cahaya hijau klasik dari <strong>C1 Super-LumiNova</strong> atau biru es dari <strong>BGW9</strong>? Simulator ini menunjukkan bagaimana setiap jenis lume tampak di berbagai tingkat kecerahan-dari siang bolong hingga gelap gulita-lengkap dengan <strong>nilai HEX dan RGB</strong> yang akurat untuk setiap corak.' },
     { type: 'title', text: 'Perbandingan Jenis Super-LumiNova', level: 3 },
     {
       type: 'table', headers: ['Jenis', 'Warna Siang', 'Warna Cahaya', 'Kecerahan', 'Terbaik Untuk'], rows: [
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Hijau', 'Hijau terang', 'Hijau', 'Tinggi', 'Arloji bergaya militer'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9—Mana yang Harus Dipilih?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9-Mana yang Harus Dipilih?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 Hijau Klasik', icon: 'mdi:lightbulb-on', description: 'Formulasi Super-LumiNova asli. Bersinar hijau dengan kecerahan sedang. Pilihan klasik yang aman dan cocok dengan gaya arloji apa pun.', points: ['Kecerahan sedang, visibilitas 4-6 jam', 'Cahaya hijau, nada hangat', 'Formulasi paling terjangkau', 'Umum di arloji kelas pemula'], highlight: false },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'Untuk tampilan mewah modern: BGW9 adalah favorit terkini di antara merek arloji kelas atas.',
         'Untuk bangunan vintage/heritage: gunakan Vintage atau Orange untuk kehangatan period-correct.',
         'C1 adalah serba-bisa: kecerahan bagus, hijau klasik, terjangkau.',
-        'Warna lume di siang hari sangat berbeda dari warna cahayanya—gunakan simulator untuk membandingkan keduanya.',
+        'Warna lume di siang hari sangat berbeda dari warna cahayanya-gunakan simulator untuk membandingkan keduanya.',
       ]
     },
   ],

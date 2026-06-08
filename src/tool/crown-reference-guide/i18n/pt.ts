@@ -15,7 +15,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     unscrewFirst: 'Desenrosque a coroa primeiro',
     windingLabel: 'Corda',
     hackLabel: 'Hack',
-    dangerZoneLabel: 'Evite 21h\u20133h',
+    dangerZoneLabel: 'Evite 21h-3h',
     directionCW: 'Horário',
     directionCCW: 'Anti-horário',
     directionBoth: 'Bidirecional',
@@ -26,7 +26,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     position0Detail: 'Nenhuma função de corda ou ajuste está ativa.',
     position1Title: 'Corda Manual',
     position1Desc: 'Gire a coroa no sentido horário para dar corda na mola principal. Sentirá resistência à medida que a mola aperta.',
-    position1Detail: 'Cerca de 30\u201340 rotações completas a partir de uma paragem total. Os rotores automáticos também dão corda durante o uso.',
+    position1Detail: 'Cerca de 30-40 rotações completas a partir de uma paragem total. Os rotores automáticos também dão corda durante o uso.',
     position2Title: 'Ajuste Rápido da Data',
     position2Desc: 'Gire a coroa no sentido horário para avançar a data. O ponteiro das horas mantém-se sincronizado com os segundos corridos.',
     position2Detail: 'EVITE ajustar a data rapidamente entre as 21h e as 3h enquanto o mecanismo de mudança de data está engatado.',
@@ -48,7 +48,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
       type: 'glossary', items: [
         { term: 'Posição 0 (Repouso)', definition: 'Coroa pressionada ou enroscada. O relógio funciona normalmente. Nenhuma função ativa. Volte sempre aqui após o ajuste.' },
         { term: 'Posição 1 (Corda)', definition: 'Primeiro puxão ou estado desenroscado. Gire no sentido horário para dar corda à mola principal. A maioria dos automáticos também dá corda através do rotor.' },
-        { term: 'Posição 2 (Ajuste Rápido da Data)', definition: 'Segundo puxão. Gire no sentido horário para avançar a data. Evite usar entre as 21h\u20133h quando o mecanismo da data está engatado.' },
+        { term: 'Posição 2 (Ajuste Rápido da Data)', definition: 'Segundo puxão. Gire no sentido horário para avançar a data. Evite usar entre as 21h-3h quando o mecanismo da data está engatado.' },
         { term: 'Posição 3 (Ajuste da Hora)', definition: 'Terceiro puxão. Os segundos param (hacking) para alinhamento preciso. Rode livremente para acertar as horas. Presente na maioria dos automáticos modernos.' },
       ]
     },
@@ -73,7 +73,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
 
     {
       type: 'comparative', columns: 2, items: [
-        { title: 'Coroa Padrão', icon: 'mdi:crown', description: 'Coroa de pressão encontrada na maioria dos relógios de vestir e automáticos do dia a dia. 2\u20134 posições. Resistência à água tipicamente 30\u2013100 m.', points: ['Acesso imediato, sem desenroscar', 'Resistência à água limitada', 'Comum em ETA, Miyota, Seiko'] },
+        { title: 'Coroa Padrão', icon: 'mdi:crown', description: 'Coroa de pressão encontrada na maioria dos relógios de vestir e automáticos do dia a dia. 2-4 posições. Resistência à água tipicamente 30-100 m.', points: ['Acesso imediato, sem desenroscar', 'Resistência à água limitada', 'Comum em ETA, Miyota, Seiko'] },
         { title: 'Coroa de Enroscar', icon: 'mdi:lock', description: 'Coroa roscada que enrosca no tubo da caixa. Padrão em relógios de mergulho e ferramenta. Resistência à água 200 m+.', points: ['Resistência à água superior', 'Deve desenroscar antes de usar', 'Comum em Rolex, Omega, Seiko Prospex'], highlight: true },
       ]
     },
@@ -103,11 +103,11 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       question: 'Porque é que o meu ponteiro dos segundos não para quando puxo a coroa?',
-      answer: 'Alguns movimentos não têm mecanismo de hacking. Calibres comuns sem hacking incluem o Miyota 8215, Unitas 6497/6498 e muitos movimentos vintage. Para ajustar a hora com precisão num movimento sem hacking: rode a coroa 5\u201310 minutos para além do minuto pretendido e depois rode lentamente para trás até o ponteiro dos minutos acertar exatamente na marca desejada.',
+      answer: 'Alguns movimentos não têm mecanismo de hacking. Calibres comuns sem hacking incluem o Miyota 8215, Unitas 6497/6498 e muitos movimentos vintage. Para ajustar a hora com precisão num movimento sem hacking: rode a coroa 5-10 minutos para além do minuto pretendido e depois rode lentamente para trás até o ponteiro dos minutos acertar exatamente na marca desejada.',
     },
     {
       question: 'Como sei quantas voltas são necessárias para dar corda total ao meu relógio?',
-      answer: 'A maioria dos movimentos automáticos requer 30\u201340 rotações completas da coroa a partir de uma paragem total. Movimentos de corda manual variam: o Unitas 6498 precisa de cerca de 30\u201335 voltas, enquanto o Seiko 6R35 com a sua reserva de 70 horas precisa de 50\u201360 voltas. Pare quando sentir resistência firme-rçar além disso pode danificar a mola principal.',
+      answer: 'A maioria dos movimentos automáticos requer 30-40 rotações completas da coroa a partir de uma paragem total. Movimentos de corda manual variam: o Unitas 6498 precisa de cerca de 30-35 voltas, enquanto o Seiko 6R35 com a sua reserva de 70 horas precisa de 50-60 voltas. Pare quando sentir resistência firme-rçar além disso pode danificar a mola principal.',
     },
   ],
   bibliography,
@@ -122,7 +122,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
     },
     {
       name: 'Percorra cada posição',
-      text: 'Clique nos chips de posição (0\u20133) ou use o botão Puxar. Leia a descrição e observe o aviso da zona de perigo para o ajuste da data.',
+      text: 'Clique nos chips de posição (0-3) ou use o botão Puxar. Leia a descrição e observe o aviso da zona de perigo para o ajuste da data.',
     },
     {
       name: 'Aplique no seu relógio',
@@ -202,7 +202,7 @@ export const content: ToolLocaleContent<CrownReferenceGuideUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Percorra cada posição',
-          'text': 'Clique nos chips de posição (0\u20133) ou use o botão Puxar. Leia a descrição e observe o aviso da zona de perigo para o ajuste da data.',
+          'text': 'Clique nos chips de posição (0-3) ou use o botão Puxar. Leia a descrição e observe o aviso da zona de perigo para o ajuste da data.',
         },
         {
           '@type': 'HowToStep',

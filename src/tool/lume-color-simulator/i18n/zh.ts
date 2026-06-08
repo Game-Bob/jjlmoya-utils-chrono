@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
   slug: 'lume-color-simulator',
-  title: '夜光颜色模拟器 — 手表夜光效果在线预览',
+  title: '夜光颜色模拟器: 手表夜光效果在线预览',
   description: '实时预览不同夜光颜色的效果。对比 C1、C3、BGW9、LumiNova 等多种夜光在不同环境亮度下的表现。',
   ui: {
     title: '夜光颜色模拟器',
@@ -37,7 +37,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
     tipContent: '夜光亮度取决于颜料品质和吸收光量的多少。BGW9 发出蓝白色光，亮度最高；而复古夜光呈暖色，亮度较暗。',
   },
   seo: [
-    { type: 'title', text: '手表夜光颜色模拟器 — 实时发光效果预览', level: 2 },
+    { type: 'title', text: '手表夜光颜色模拟器 - 实时发光效果预览', level: 2 },
     { type: 'paragraph', html: '夜光是手表收藏中最个性化的选择之一。你偏爱 <strong>C1 Super-LumiNova</strong> 的经典绿色光芒，还是 <strong>BGW9</strong> 的冰蓝色调？本模拟器展示每种夜光类型在从日光到全黑不同亮度等级下的表现，并提供每种颜色的精确 <strong>HEX 和 RGB 值</strong>。' },
     { type: 'title', text: 'Super-LumiNova 类型对比', level: 3 },
     {
@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Green', '亮绿色', '绿色', '高', '军表风格手表'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9 — 该如何选择？', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9 - 该如何选择？', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 经典绿色', icon: 'mdi:lightbulb-on', description: 'Super-LumiNova 最早期的配方。发出中等亮度的绿色荧光。安全经典，适合任何手表风格。', points: ['中等亮度，可见 4-6 小时', '绿色发光，暖色调', '最经济的配方', '常见于入门级手表'], highlight: false },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         '追求现代豪华质感：BGW9 是目前高端手表品牌中的热门之选。',
         '追求复古/复刻风格：使用 Vintage 或 Orange 以获得时代准确的温暖色调。',
         'C1 是万金油：亮度不错、经典绿色、价格实惠。',
-        '夜光在日光下的颜色与发光颜色差异很大——使用模拟器同时对比两者。',
+        '夜光在日光下的颜色与发光颜色差异很大-使用模拟器同时对比两者。',
       ]
     },
   ],

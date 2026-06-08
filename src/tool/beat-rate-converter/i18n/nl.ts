@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<BeatRateConverterUI> = {
   slug: 'snelheid-ritme-omzetter',
-  title: 'Snelheid van Ritme Omzetter \u2014 VPH naar Hz en s/d',
+  title: 'Snelheid van Ritme Omzetter: VPH naar Hz en s/d',
   description: 'Zet trillingen per uur (VPH) om naar Hertz, ticks per seconde en bereken de dagelijkse impact van een enkele gemiste tik. Werkt met ETA-, Sellita-, Miyota-, Seiko-, Rolex-, Omega- en Zenith-kalibers.',
   ui: {
     title: 'Snelheid van Ritme Omzetter',
@@ -16,17 +16,17 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
     frequency: 'Frequentie',
     ticksPerSec: 'Ticks per seconde',
     lostTickImpact: 'Als het 1 tik per uur verliest',
-    lostTickExplainer: 'E\u00e9n gemiste tik per uur betekent ongeveer 3 seconden verlies per dag bij 28.800 VPH. Lagere slagsnelheden versterken de impact.',
+    lostTickExplainer: 'Eén gemiste tik per uur betekent ongeveer 3 seconden verlies per dag bij 28.800 VPH. Lagere slagsnelheden versterken de impact.',
     step1: 'Selecteer uw uurwerk of voer een aangepaste VPH in.',
     step2: 'Lees de Hz-frequentie, ticks per seconde en de impact van een gemiste tik af.',
     tipTitle: 'Tip',
     tipContent: 'Hogere slagsnelheden (36.000 VPH) zorgen voor een vloeiendere secondewijzer en betere precisie, maar ook voor meer slijtage aan het echappement.',
   },
   seo: [
-    { type: 'title', text: 'Snelheid van Ritme Omzetter \u2014 VPH naar Hz en seconden per dag', level: 2 },
-    { type: 'paragraph', html: 'Elk mechanisch horloge tikt op een specifieke snelheid \u2014 het aantal trillingen dat het balanswiel per uur maakt. Dat getal bepaalt hoe vloeiend de secondewijzer beweegt en hoe nauwkeurig het horloge kan zijn. Deze omzetter vertaalt <strong>VPH naar Hz en ticks per seconde</strong> en toont de werkelijke impact van een enkele gemiste tik.' },
+    { type: 'title', text: 'Snelheid van Ritme Omzetter - VPH naar Hz en seconden per dag', level: 2 },
+    { type: 'paragraph', html: 'Elk mechanisch horloge tikt op een specifieke snelheid - het aantal trillingen dat het balanswiel per uur maakt. Dat getal bepaalt hoe vloeiend de secondewijzer beweegt en hoe nauwkeurig het horloge kan zijn. Deze omzetter vertaalt <strong>VPH naar Hz en ticks per seconde</strong> en toont de werkelijke impact van een enkele gemiste tik.' },
     { type: 'title', text: 'Wat is een slagsnelheid?', level: 3 },
-    { type: 'paragraph', html: 'De slagsnelheid, gemeten in trillingen per uur (vph), is de frequentie waarmee het balanswiel van een horloge oscilleert. Een gangbare snelheid is 28.800 VPH \u2014 dat is 4 Hz, of 8 ticks per seconde. Hogere slagsnelheden zoals 36.000 VPH (5 Hz) zorgen voor een vloeiendere beweging en kunnen theoretisch de nauwkeurigheid verbeteren door het effect van positiefouten te verminderen.' },
+    { type: 'paragraph', html: 'De slagsnelheid, gemeten in trillingen per uur (vph), is de frequentie waarmee het balanswiel van een horloge oscilleert. Een gangbare snelheid is 28.800 VPH - dat is 4 Hz, of 8 ticks per seconde. Hogere slagsnelheden zoals 36.000 VPH (5 Hz) zorgen voor een vloeiendere beweging en kunnen theoretisch de nauwkeurigheid verbeteren door het effect van positiefouten te verminderen.' },
     { type: 'title', text: 'Waarom een gemiste tik ertoe doet', level: 3 },
     { type: 'paragraph', html: 'Als het echappement van een horloge een tik mist door wrijving, magnetisme of slijtage, vertaalt die gemiste tik zich direct in verloren tijd. Bij 28.800 VPH loopt een enkele gemiste tik per uur op tot ongeveer <strong>3 seconden per dag</strong>. Bij 18.000 VPH kost dezelfde fout bijna 5 seconden per dag. Deze tool helpt u de wiskunde achter de regulatie te begrijpen.' },
     { type: 'title', text: 'Veelvoorkomende slagsnelheden', level: 3 },
@@ -35,19 +35,19 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
   faq: [
     {
       question: 'Hoe zet je VPH om naar Hz?',
-      answer: 'Deel de VPH door 7.200. Een horloge dat op 28.800 VPH tikt, loopt op 4 Hz (28.800 \u00f7 7.200 = 4). De deling door 7.200 houdt rekening met het feit dat \u00e9\u00e9n volledige oscillatie twee trillingen bevat en dat er 3.600 seconden in een uur zitten.',
+      answer: 'Deel de VPH door 7.200. Een horloge dat op 28.800 VPH tikt, loopt op 4 Hz (28.800 ÷ 7.200 = 4). De deling door 7.200 houdt rekening met het feit dat één volledige oscillatie twee trillingen bevat en dat er 3.600 seconden in een uur zitten.',
     },
     {
       question: 'Wat betekent een hogere slagsnelheid voor de nauwkeurigheid?',
-      answer: 'Hogere slagsnelheden zorgen over het algemeen voor een grotere theoretische precisie omdat het balanswiel minder wordt be\u00efnvloed door positionele verstoringen. Ze veroorzaken echter ook meer wrijving en slijtage aan de palletstenen en het echappementwiel, wat beter smeren en vaker onderhoud vereist.',
+      answer: 'Hogere slagsnelheden zorgen over het algemeen voor een grotere theoretische precisie omdat het balanswiel minder wordt beïnvloed door positionele verstoringen. Ze veroorzaken echter ook meer wrijving en slijtage aan de palletstenen en het echappementwiel, wat beter smeren en vaker onderhoud vereist.',
     },
     {
-      question: 'Hoe be\u00efnvloedt een gemiste tik de dagelijkse nauwkeurigheid?',
-      answer: '\u00c9\u00e9n gemiste tik per uur vertaalt zich naar 24 verloren ticks per dag. De verloren tijd hangt af van uw slagsnelheid: deel 86.400 door uw VPH. Bij 28.800 VPH is dat 3 seconden per dag. Bij 18.000 VPH is dat 4,8 seconden per dag.',
+      question: 'Hoe beïnvloedt een gemiste tik de dagelijkse nauwkeurigheid?',
+      answer: 'Één gemiste tik per uur vertaalt zich naar 24 verloren ticks per dag. De verloren tijd hangt af van uw slagsnelheid: deel 86.400 door uw VPH. Bij 28.800 VPH is dat 3 seconden per dag. Bij 18.000 VPH is dat 4,8 seconden per dag.',
     },
     {
       question: 'Kan een horloge een gemiste tik herstellen?',
-      answer: 'Nee. Zodra een tik is gemist, is de tijd permanent verloren. Het horloge "haalt" niet in. Daarom heeft de gezondheid van het echappement \u2014 schone palletstenen, goede smering en correcte beat error \u2014 directe invloed op de dagelijkse gang.',
+      answer: 'Nee. Zodra een tik is gemist, is de tijd permanent verloren. Het horloge "haalt" niet in. Daarom heeft de gezondheid van het echappement - schone palletstenen, goede smering en correcte beat error - directe invloed op de dagelijkse gang.',
     },
   ],
   bibliography,
@@ -75,7 +75,7 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
           'name': 'Hoe zet je VPH om naar Hz?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Deel de VPH door 7.200. Een horloge dat op 28.800 VPH tikt, loopt op 4 Hz. De deling door 7.200 houdt rekening met \u00e9\u00e9n oscillatie die twee trillingen bevat en 3.600 seconden per uur.',
+            'text': 'Deel de VPH door 7.200. Een horloge dat op 28.800 VPH tikt, loopt op 4 Hz. De deling door 7.200 houdt rekening met één oscillatie die twee trillingen bevat en 3.600 seconden per uur.',
           },
         },
         {
@@ -83,15 +83,15 @@ export const content: ToolLocaleContent<BeatRateConverterUI> = {
           'name': 'Wat betekent een hogere slagsnelheid voor de nauwkeurigheid?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Hogere slagsnelheden zorgen voor een grotere theoretische precisie omdat het balanswiel minder wordt be\u00efnvloed door positionele verstoringen. Ze veroorzaken echter ook meer wrijving en slijtage.',
+            'text': 'Hogere slagsnelheden zorgen voor een grotere theoretische precisie omdat het balanswiel minder wordt beïnvloed door positionele verstoringen. Ze veroorzaken echter ook meer wrijving en slijtage.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'Hoe be\u00efnvloedt een gemiste tik de dagelijkse nauwkeurigheid?',
+          'name': 'Hoe beïnvloedt een gemiste tik de dagelijkse nauwkeurigheid?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': '\u00c9\u00e9n gemiste tik per uur vertaalt zich naar 24 verloren ticks per dag. Deel 86.400 door uw VPH om de verloren seconden per dag te vinden.',
+            'text': 'Één gemiste tik per uur vertaalt zich naar 24 verloren ticks per dag. Deel 86.400 door uw VPH om de verloren seconden per dag te vinden.',
           },
         },
         {

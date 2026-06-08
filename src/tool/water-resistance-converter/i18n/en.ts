@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Deep / Saturation Diving',
     saturationDivingDesc: 'Professional saturation diving. Extreme depths. Helium escape valve context.',
     tipTitle: 'Tip',
-    tipContent: 'Water resistance degrades over time. Gaskets and seals should be tested yearly and replaced every 3\u20135 years.',
+    tipContent: 'Water resistance degrades over time. Gaskets and seals should be tested yearly and replaced every 3-5 years.',
   },
   seo: [
     { type: 'title', text: 'Watch Water Resistance Converter-Decoding Meters, ATM, Bar & Feet', level: 2 },

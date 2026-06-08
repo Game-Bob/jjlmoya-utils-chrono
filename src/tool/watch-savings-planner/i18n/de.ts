@@ -41,27 +41,27 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     adjustMonthly: 'Monatsrate anpassen',
   },
   seo: [
-    { type: 'title', text: 'Sparzielplaner für Uhren \u2014 Verfolge deinen nächsten Uhrenkauf', level: 2 },
-    { type: 'paragraph', html: 'F\u00fcr eine Uhr zu sparen ist eine Reise. Ob es eine <strong>Vintage Speedmaster</strong>, eine <strong>Submariner</strong> oder eine <strong>Grand Seiko</strong> ist \u2014 ein klarer Sparplan verwandelt den Traum in einen Zeitplan. Dieses Tool hilft dir, deinen Fortschritt zu visualisieren, deine monatlichen Beitr\u00e4ge anzupassen und genau zu sehen, wann du mit deinem heiligen Gral aus dem Laden gehen wirst.' },
-    { type: 'title', text: 'Warum ein Sparplan f\u00fcr Uhrensammler wichtig ist', level: 3 },
-    { type: 'paragraph', html: 'Uhren sammeln ist ein Geduldsspiel. Die Preise begehrter Modelle steigen stetig, und Impulsk\u00e4ufe f\u00fchren oft zu Reue. Ein strukturierter Sparansatz h\u00e4lt dich diszipliniert, verhindert finanzielle Belastung und l\u00e4sst den endg\u00fcltigen Kauf wie eine Belohnung wirken. Au\u00dferdem steigert die t\u00e4gliche Verfolgung deines Fortschritts die Vorfreude und macht das Auspacken noch s\u00fc\u00dfer.' },
-    { type: 'title', text: 'Wie du realistische Sparziele f\u00fcr Uhren setzt', level: 3 },
-    { type: 'paragraph', html: 'Beginne mit dem Gesamtpreis inklusive Steuern und Versand. Teile ihn dann durch den Betrag, den du bequem pro Monat zur\u00fccklegen kannst. Als Faustregel gilt: Widme nicht mehr als <strong>10\u201315 % deines verf\u00fcgbaren Einkommens</strong> dem Uhrensparen. Falls der Zeitraum zu lang erscheint, unterteile ihn in kleinere Meilensteine \u2014 oder erkunde g\u00fcnstigere Alternativen in derselben Stilrichtung.' },
+    { type: 'title', text: 'Sparzielplaner für Uhren - Verfolge deinen nächsten Uhrenkauf', level: 2 },
+    { type: 'paragraph', html: 'Für eine Uhr zu sparen ist eine Reise. Ob es eine <strong>Vintage Speedmaster</strong>, eine <strong>Submariner</strong> oder eine <strong>Grand Seiko</strong> ist - ein klarer Sparplan verwandelt den Traum in einen Zeitplan. Dieses Tool hilft dir, deinen Fortschritt zu visualisieren, deine monatlichen Beiträge anzupassen und genau zu sehen, wann du mit deinem heiligen Gral aus dem Laden gehen wirst.' },
+    { type: 'title', text: 'Warum ein Sparplan für Uhrensammler wichtig ist', level: 3 },
+    { type: 'paragraph', html: 'Uhren sammeln ist ein Geduldsspiel. Die Preise begehrter Modelle steigen stetig, und Impulskäufe führen oft zu Reue. Ein strukturierter Sparansatz hält dich diszipliniert, verhindert finanzielle Belastung und lässt den endgültigen Kauf wie eine Belohnung wirken. Außerdem steigert die tägliche Verfolgung deines Fortschritts die Vorfreude und macht das Auspacken noch süßer.' },
+    { type: 'title', text: 'Wie du realistische Sparziele für Uhren setzt', level: 3 },
+    { type: 'paragraph', html: 'Beginne mit dem Gesamtpreis inklusive Steuern und Versand. Teile ihn dann durch den Betrag, den du bequem pro Monat zurücklegen kannst. Als Faustregel gilt: Widme nicht mehr als <strong>10-15 % deines verfügbaren Einkommens</strong> dem Uhrensparen. Falls der Zeitraum zu lang erscheint, unterteile ihn in kleinere Meilensteine - oder erkunde günstigere Alternativen in derselben Stilrichtung.' },
     { type: 'title', text: 'Die Psychologie der Zielverfolgung', level: 3 },
-    { type: 'paragraph', html: 'Visuelle Fortschrittsanzeigen l\u00f6sen Dopaminaussch\u00fcttung aus \u2014 denselben Nervenbotenstoff, der das Sammeln so befriedigend macht. Jedes Mal, wenn du einen neuen Beitrag erfasst und den Fortschrittsring sich f\u00fcllen siehst, verst\u00e4rkst du die Gewohnheit. Deshalb wirken regelm\u00e4\u00dfige kleine Sparbetr\u00e4ge oft besser als unregelm\u00e4\u00dfige Gro\u00dfeinzahlungen \u2014 das Ritual selbst wird Teil des Sammelerlebnisses.' },
+    { type: 'paragraph', html: 'Visuelle Fortschrittsanzeigen lösen Dopaminausschüttung aus - denselben Nervenbotenstoff, der das Sammeln so befriedigend macht. Jedes Mal, wenn du einen neuen Beitrag erfasst und den Fortschrittsring sich füllen siehst, verstärkst du die Gewohnheit. Deshalb wirken regelmäßige kleine Sparbeträge oft besser als unregelmäßige Großeinzahlungen - das Ritual selbst wird Teil des Sammelerlebnisses.' },
   ],
   faq: [
     {
-      question: 'Wie viel sollte ich pro Monat f\u00fcr eine Uhr sparen?',
-      answer: 'Strebe 10\u201315 % deines verf\u00fcgbaren monatlichen Einkommens an. Der Schl\u00fcssel ist Best\u00e4ndigkeit \u2014 selbst 100 $ pro Monat ergeben 1.200 $ pro Jahr. Passe den Betrag an deinen Zeitplan an: k\u00fcrzere Ziele erfordern h\u00f6here monatliche Beitr\u00e4ge.',
+      question: 'Wie viel sollte ich pro Monat für eine Uhr sparen?',
+      answer: 'Strebe 10-15 % deines verfügbaren monatlichen Einkommens an. Der Schlüssel ist Beständigkeit - selbst 100 $ pro Monat ergeben 1.200 $ pro Jahr. Passe den Betrag an deinen Zeitplan an: kürzere Ziele erfordern höhere monatliche Beiträge.',
     },
     {
-      question: 'Sollte ich f\u00fcr eine Uhr auf einmal sparen oder f\u00fcr mehrere?',
-      answer: 'Eine nach der anderen ist meist effektiver. Konzentration schafft Schwung. Sobald du dein erstes Ziel erreichst, \u00fcbertr\u00e4gst du die Disziplin auf das n\u00e4chste. Dieser Planer unterst\u00fctzt jedoch mehrere Ziele, damit du Zeitpl\u00e4ne vergleichen kannst.',
+      question: 'Sollte ich für eine Uhr auf einmal sparen oder für mehrere?',
+      answer: 'Eine nach der anderen ist meist effektiver. Konzentration schafft Schwung. Sobald du dein erstes Ziel erreichst, überträgst du die Disziplin auf das nächste. Dieser Planer unterstützt jedoch mehrere Ziele, damit du Zeitpläne vergleichen kannst.',
     },
     {
-      question: 'Was ist, wenn der Uhrenpreis steigt, w\u00e4hrend ich spare?',
-      answer: 'Gute Frage. \u00dcberpr\u00fcfe den aktuellen Marktpreis alle paar Monate und aktualisiere dein Ziel. Wenn die Preise schnell steigen, erw\u00e4ge, deinen monatlichen Betrag zu erh\u00f6hen oder den Zeitplan zu verk\u00fcrzen, um den aktuellen Preis zu sichern.',
+      question: 'Was ist, wenn der Uhrenpreis steigt, während ich spare?',
+      answer: 'Gute Frage. Überprüfe den aktuellen Marktpreis alle paar Monate und aktualisiere dein Ziel. Wenn die Preise schnell steigen, erwäge, deinen monatlichen Betrag zu erhöhen oder den Zeitplan zu verkürzen, um den aktuellen Preis zu sichern.',
     },
   ],
   bibliography,
@@ -75,8 +75,8 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
       text: 'Erfasse, wie viel du bereits gespart hast und wie viel du monatlich zur Seite legen kannst.',
     },
     {
-      name: 'Fortschritt \u00fcberwachen',
-      text: 'Beobachte, wie sich der Fortschrittsring f\u00fcllt, w\u00e4hrend du deine Ersparnisse aktualisierst. Passe die monatlichen Betr\u00e4ge jederzeit an.',
+      name: 'Fortschritt überwachen',
+      text: 'Beobachte, wie sich der Fortschrittsring füllt, während du deine Ersparnisse aktualisierst. Passe die monatlichen Beträge jederzeit an.',
     },
     {
       name: 'Feiern',
@@ -90,26 +90,26 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
       'mainEntity': [
         {
           '@type': 'Question',
-          'name': 'Wie viel sollte ich pro Monat f\u00fcr eine Uhr sparen?',
+          'name': 'Wie viel sollte ich pro Monat für eine Uhr sparen?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Strebe 10\u201315 % deines verf\u00fcgbaren monatlichen Einkommens an. Der Schl\u00fcssel ist Best\u00e4ndigkeit \u2014 selbst 100 $ pro Monat ergeben 1.200 $ pro Jahr.',
+            'text': 'Strebe 10-15 % deines verfügbaren monatlichen Einkommens an. Der Schlüssel ist Beständigkeit - selbst 100 $ pro Monat ergeben 1.200 $ pro Jahr.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'Sollte ich f\u00fcr eine Uhr auf einmal sparen oder f\u00fcr mehrere?',
+          'name': 'Sollte ich für eine Uhr auf einmal sparen oder für mehrere?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Eine nach der anderen ist meist effektiver. Konzentration schafft Schwung. Sobald du dein erstes Ziel erreichst, \u00fcbertr\u00e4gst du diese Disziplin auf das n\u00e4chste.',
+            'text': 'Eine nach der anderen ist meist effektiver. Konzentration schafft Schwung. Sobald du dein erstes Ziel erreichst, überträgst du diese Disziplin auf das nächste.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'Was ist, wenn der Uhrenpreis steigt, w\u00e4hrend ich spare?',
+          'name': 'Was ist, wenn der Uhrenpreis steigt, während ich spare?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': '\u00dcberpr\u00fcfe den aktuellen Marktpreis alle paar Monate und aktualisiere dein Ziel. Erw\u00e4ge, deinen monatlichen Betrag zu erh\u00f6hen, wenn die Preise schnell steigen.',
+            'text': 'Überprüfe den aktuellen Marktpreis alle paar Monate und aktualisiere dein Ziel. Erwäge, deinen monatlichen Betrag zu erhöhen, wenn die Preise schnell steigen.',
           },
         },
       ],
@@ -117,7 +117,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     {
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',
-      'name': 'Sparzielplaner f\u00fcr Uhren',
+      'name': 'Sparzielplaner für Uhren',
       'operatingSystem': 'Alle',
       'applicationCategory': 'FinanceApplication',
       'browserRequirements': 'Erfordert HTML5. Erfordert JavaScript.',
@@ -125,7 +125,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     {
       '@context': 'https://schema.org',
       '@type': 'HowTo',
-      'name': 'Wie man f\u00fcr einen Uhrenkauf spart',
+      'name': 'Wie man für einen Uhrenkauf spart',
       'step': [
         {
           '@type': 'HowToStep',
@@ -139,8 +139,8 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
         },
         {
           '@type': 'HowToStep',
-          'name': 'Fortschritt \u00fcberwachen',
-          'text': 'Beobachte, wie sich der Fortschrittsring f\u00fcllt, w\u00e4hrend du deine Ersparnisse aktualisierst.',
+          'name': 'Fortschritt überwachen',
+          'text': 'Beobachte, wie sich der Fortschrittsring füllt, während du deine Ersparnisse aktualisierst.',
         },
         {
           '@type': 'HowToStep',

@@ -41,7 +41,7 @@ export const content: ToolLocaleContent<WristPresenceCalculatorUI> = {
   },
   seo: [
     { type: 'title', text: 'How to Choose the Perfect Watch Size: The Proportional Fit Guide', level: 2 },
-    { type: 'paragraph', html: 'Finding the right watch size is a blend of mathematics, geometry, and personal style. In horology, how a timepiece sits on your arm is called <strong>wrist presence</strong>. A watch should look balanced—neither dominating your arm with unsightly overhang nor disappearing like a tiny speck. To achieve this balance, watch collectors analyze three main metrics: case diameter, lug-to-lug distance, and wrist shape.' },
+    { type: 'paragraph', html: 'Finding the right watch size is a blend of mathematics, geometry, and personal style. In horology, how a timepiece sits on your arm is called <strong>wrist presence</strong>. A watch should look balanced-neither dominating your arm with unsightly overhang nor disappearing like a tiny speck. To achieve this balance, watch collectors analyze three main metrics: case diameter, lug-to-lug distance, and wrist shape.' },
     { type: 'title', text: 'Understanding the Case-to-Wrist Sizing Ratio', level: 3 },
     { type: 'paragraph', html: 'A traditional method to gauge watch proportions is the case-to-wrist ratio. By converting your wrist circumference to millimeters and dividing it by the watch\'s case diameter, you get a ratio. Ratios between <strong>4.5 and 5.0</strong> represent the classic sweet spot. Ratios from <strong>4.0 to 4.5</strong> create a bold, sporty modern look. Ratios above 5.0 offer a vintage dress watch aesthetic, while ratios below 4.0 are considered oversized.' },
     { type: 'title', text: 'Why Lug-to-Lug and Flat Wrist Width Define the Real Fit', level: 3 },

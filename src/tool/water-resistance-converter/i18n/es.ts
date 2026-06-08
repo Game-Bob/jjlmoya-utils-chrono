@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Buceo Profundo / Saturación',
     saturationDivingDesc: 'Buceo de saturación profesional. Profundidades extremas. Contexto de válvula de escape de helio.',
     tipTitle: 'Consejo',
-    tipContent: 'La resistencia al agua se degrada con el tiempo. Las juntas y sellos deben revisarse anualmente y reemplazarse cada 3\u20135 años.',
+    tipContent: 'La resistencia al agua se degrada con el tiempo. Las juntas y sellos deben revisarse anualmente y reemplazarse cada 3-5 años.',
   },
   seo: [
     { type: 'title', text: 'Convertidor de Resistencia al Agua de Relojes-Metros, ATM, Bar y Pies descifrados', level: 2 },

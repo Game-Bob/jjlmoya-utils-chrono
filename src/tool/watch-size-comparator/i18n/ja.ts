@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
   slug: 'watch-size-comparator',
-  title: '腕時計サイズ比較ツール—手首に合うサイズを視覚的に確認',
+  title: '腕時計サイズ比較ツール 手首に合うサイズを視覚的に確認',
   description: '腕時計のケースサイズを視覚的に比較。直径、ラグ間距離、手首サイズを入力して、購入前にフィット感を確認できます。',
   ui: {
     title: '腕時計サイズ比較ツール',
@@ -31,10 +31,10 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     nameRequired: '腕時計名を入力してください',
     watchTooLarge: '腕時計が手首からはみ出しています',
     l2lExceedsWrist: 'ラグ間距離が手首幅を超えています',
-    excellentDesc: 'バランス良好—ラグ間距離が手首にしっかり収まります。',
-    goodDesc: '良好—ややはみ出しますが、着用感は快適です。',
-    borderlineDesc: 'ギリギリ—ラグが手首の端に近づいています。',
-    largeDesc: '大きすぎる—ラグが手首からはみ出しそうです。',
+    excellentDesc: 'バランス良好-ラグ間距離が手首にしっかり収まります。',
+    goodDesc: '良好-ややはみ出しますが、着用感は快適です。',
+    borderlineDesc: 'ギリギリ-ラグが手首の端に近づいています。',
+    largeDesc: '大きすぎる-ラグが手首からはみ出しそうです。',
     fitsWell: 'フィット良好',
     slightlyLarge: 'やや大きい',
     tooLarge: '大きすぎる',
@@ -42,7 +42,7 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
     estimateNote: '各サイズを入力して腕時計を追加すると、手首へのフィット感がわかります。',
   },
   seo: [
-    { type: 'title', text: '腕時計サイズ比較ツール—手首に合うサイズを視覚的に確認', level: 2 },
+    { type: 'title', text: '腕時計サイズ比較ツール-手首に合うサイズを視覚的に確認', level: 2 },
     { type: 'paragraph', html: '<strong>42mmの腕時計</strong>が<strong>17cmの手首</strong>に合うか気になったことはありませんか？48mmのラグ間距離でははみ出してしまうでしょうか？腕時計サイズ比較ツールなら、視覚的に答えがわかります。ケース直径、ラグ間距離、厚み、手首サイズを入力するだけで、ツールが実寸で描画し、フィット感を<span style="color:#22c55e">緑（最適）</span>から<span style="color:#ef4444">赤（大きすぎる）</span>まで色分け。メートル法とヤード・ポンド法の両方に対応しています。' },
     { type: 'title', text: '腕時計サイズ用語集', level: 3 },
     {

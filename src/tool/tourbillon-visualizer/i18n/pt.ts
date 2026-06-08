@@ -6,7 +6,7 @@ import { buildSchemas } from '../helpers';
 const faq = [
   {
     question: 'O que é um tourbillon?',
-    answer: 'Um tourbillon é uma gaiola giratória que contém o escapamento (volante, âncora e roda de escape) de um relógio mecânico. Ele gira continuamente — normalmente uma vez por minuto — para equalizar os erros posicionais causados pela gravidade, melhorando a precisão.',
+    answer: 'Um tourbillon é uma gaiola giratória que contém o escapamento (volante, âncora e roda de escape) de um relógio mecânico. Ele gira continuamente - normalmente uma vez por minuto - para equalizar os erros posicionais causados pela gravidade, melhorando a precisão.',
   },
   {
     question: 'Qual a diferença entre um tourbillon clássico e um voador?',
@@ -38,7 +38,7 @@ const title = 'Tourbillon: Arte do Escapamento Rotatório';
 export const content: ToolLocaleContent<TourbillonUI> = {
   slug: 'tourbillon-visualizador-lus',
   title,
-  description: 'Experimente a arte fascinante do tourbillon — uma gaiola giratória que abriga o escapamento. Veja o volante oscilar, a mola espiral respirar e a gaiola girar num elegante balé mecânico.',
+  description: 'Experimente a arte fascinante do tourbillon - uma gaiola giratória que abriga o escapamento. Veja o volante oscilar, a mola espiral respirar e a gaiola girar num elegante balé mecânico.',
   ui: {
     title: 'Tourbillon Visualizer',
     typeLabel: 'Tipo',
@@ -68,7 +68,7 @@ export const content: ToolLocaleContent<TourbillonUI> = {
     { type: 'title', text: 'Tourbillon Visualizer: Arte Animada do Escape', level: 2 },
     { type: 'paragraph', html: 'O <strong>tourbillon</strong> é uma das complicações mais cativantes da alta relojoaria. Este visualizador interativo dá vida ao escapamento giratório com uma representação animada detalhada do volante, mola espiral, âncora, roda de escape e a icónica gaiola giratória. Explore a poesia mecânica da obra-prima de Breguet.' },
     { type: 'title', text: 'Como funciona um tourbillon', level: 3 },
-    { type: 'paragraph', html: 'Um tourbillon abriga todo o escapamento — <strong>volante, mola espiral, âncora e roda de escape</strong> — dentro de uma gaiola giratória. A gaiola completa tipicamente uma rotação por minuto, mudando continuamente a posição do escapamento em relação à gravidade. Isso equaliza os erros posicionais, um conceito revolucionário quando Abraham-Louis Breguet o patenteou em 1801. O <strong>volante</strong> oscila à frequência do relógio (tipicamente 4 Hz / 28.800 vph), enquanto a <strong>roda de escape</strong> avança um dente por batida, criando o característico movimento de tique.' },
+    { type: 'paragraph', html: 'Um tourbillon abriga todo o escapamento - <strong>volante, mola espiral, âncora e roda de escape</strong> - dentro de uma gaiola giratória. A gaiola completa tipicamente uma rotação por minuto, mudando continuamente a posição do escapamento em relação à gravidade. Isso equaliza os erros posicionais, um conceito revolucionário quando Abraham-Louis Breguet o patenteou em 1801. O <strong>volante</strong> oscila à frequência do relógio (tipicamente 4 Hz / 28.800 vph), enquanto a <strong>roda de escape</strong> avança um dente por batida, criando o característico movimento de tique.' },
     { type: 'title', text: 'Tourbillon Clássico vs Voador', level: 3 },
     {
       type: 'table', headers: ['Característica', 'Tourbillon Clássico', 'Tourbillon Voador'], rows: [

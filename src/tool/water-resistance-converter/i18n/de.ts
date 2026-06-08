@@ -30,7 +30,7 @@ export const content: ToolLocaleContent<WaterResistanceConverterUI> = {
     saturationDiving: 'Tiefen / Sättigungstauchen',
     saturationDivingDesc: 'Professionelles Sättigungstauchen. Extreme Tiefen. Heliumauslassventil Kontext.',
     tipTitle: 'Tipp',
-    tipContent: 'Wasserdichtigkeit lässt mit der Zeit nach. Dichtungen sollten jährlich geprüft und alle 3\u20135 Jahre ersetzt werden.',
+    tipContent: 'Wasserdichtigkeit lässt mit der Zeit nach. Dichtungen sollten jährlich geprüft und alle 3-5 Jahre ersetzt werden.',
   },
   seo: [
     { type: 'title', text: 'Uhren Wasserdichtigkeit Umrechner-Meter, ATM, Bar & Feet verstehen', level: 2 },

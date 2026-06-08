@@ -52,7 +52,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         ['Groen', 'Heldergroen', 'Groen', 'Hoog', 'Militaire-stijl horloges'],
       ]
     },
-    { type: 'title', text: 'C1 vs C3 vs BGW9—welke moet u kiezen?', level: 3 },
+    { type: 'title', text: 'C1 vs C3 vs BGW9-welke moet u kiezen?', level: 3 },
     {
       type: 'comparative', columns: 2, items: [
         { title: 'C1 Klassiek Groen', icon: 'mdi:lightbulb-on', description: 'De originele Super-LumiNova-formulering. Gloeit groen met gemiddelde helderheid. Een veilige, klassieke keuze die bij elke horlogestijl past.', points: ['Medium helderheid, 4-6u zichtbaar', 'Groene gloed, warme tint', 'Meest betaalbare formulering', 'Gebruikelijk in instapmodellen'], highlight: false },
@@ -81,7 +81,7 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
         'Voor een moderne luxe look: BGW9 is momenteel favoriet bij high-end horlogemerken.',
         'Voor vintage/heritage builds: gebruik Vintage of Oranje voor periodegetrouwe warmte.',
         'C1 is de alleskunner: goede helderheid, klassiek groen, betaalbaar.',
-        'De lumekleur bij daglicht verschilt aanzienlijk van de gloeikleur—gebruik de simulator om beide te vergelijken.',
+        'De lumekleur bij daglicht verschilt aanzienlijk van de gloeikleur-gebruik de simulator om beide te vergelijken.',
       ]
     },
   ],

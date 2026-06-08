@@ -41,19 +41,19 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     adjustMonthly: 'Dostosuj miesieczna',
   },
   seo: [
-    { type: 'title', text: 'Planer Oszczedzania na Zegarek \u2014 Sledz Naszepny Zakup Zegarka', level: 2 },
+    { type: 'title', text: 'Planer Oszczedzania na Zegarek - Sledz Naszepny Zakup Zegarka', level: 2 },
     { type: 'paragraph', html: 'Oszczedzanie na zegarek to podroz. Niezaleznie od tego, czy jest to <strong>vintage Speedmaster</strong>, <strong>Submariner</strong> czy <strong>Grand Seiko</strong>, jasny plan oszczednosciowy zmienia marzenie w harmonogram. To narzedzie pomoze Ci wizualizowac postepy, dostosowywac miesieczne wplaty i dokladnie sprawdzic, kiedy wyjdziesz z butiku ze swoim swietym graalem.' },
     { type: 'title', text: 'Dlaczego plan oszczedzania jest wazny dla kolekcjonerow zegarkow', level: 3 },
     { type: 'paragraph', html: 'Kolekcjonowanie zegarkow to gra cierpliwosci. Ceny poszukiwanych modeli stale rosna, a impulsywne zakupy czesto prowadza do zalowania. Ustrukturyzowane podejscie do oszczedzania utrzymuje dyscypline, zapobiega naprezeniu finansowemu i sprawia, ze koncowy zakup wydaje sie zasluzony. Co wiecej, sledzenie postepow dzien po dniu buduje oczekiwanie i sprawia, ze rozpakowanie jest jeszcze slodsze.' },
     { type: 'title', text: 'Jak wyznaczac realistyczne cele oszczednosciowe na zegarek', level: 3 },
-    { type: 'paragraph', html: 'Zaczynaj od ceny calkowitej lacznie z podatkami i wysylka. Nastepnie podziel ja przez kwote, ktora mozesz wygodnie odlozyc kazdego miesiaca. Dobra zasada jest przeznaczanie nie wiecej niz <strong>10\u201315% dochodow rozporzadzalnych</strong> na oszczedzanie na zegarek. Jesli harmonogram wydaje sie zbyt dlugi, rozwaz podzielenie go na mniejsze kamienie milowe \u2014 lub poszukaj bardziej przystepnych alternatyw w tej samej rodzinie stylow.' },
+    { type: 'paragraph', html: 'Zaczynaj od ceny calkowitej lacznie z podatkami i wysylka. Nastepnie podziel ja przez kwote, ktora mozesz wygodnie odlozyc kazdego miesiaca. Dobra zasada jest przeznaczanie nie wiecej niz <strong>10-15% dochodow rozporzadzalnych</strong> na oszczedzanie na zegarek. Jesli harmonogram wydaje sie zbyt dlugi, rozwaz podzielenie go na mniejsze kamienie milowe - lub poszukaj bardziej przystepnych alternatyw w tej samej rodzinie stylow.' },
     { type: 'title', text: 'Psychologia sledzenia celow', level: 3 },
-    { type: 'paragraph', html: 'Wizualne sledzenie postepow wyzwala uwalnianie dopaminy, tego samego neuroprzekaznika, ktory sprawia, ze kolekcjonowanie jest tak satysfakcjonujace. Za kazdym razem, gdy rejestrujesz nowa wplate i widzisz wypelniajacy sie pierscien postepu, wzmacniasz nawyk. Dlatego male, regularne oszczednosci czesto dzialaja lepiej niz sporadyczne duze wplaty \u2014 sam rytual staje sie czescia doswiadczenia kolekcjonowania.' },
+    { type: 'paragraph', html: 'Wizualne sledzenie postepow wyzwala uwalnianie dopaminy, tego samego neuroprzekaznika, ktory sprawia, ze kolekcjonowanie jest tak satysfakcjonujace. Za kazdym razem, gdy rejestrujesz nowa wplate i widzisz wypelniajacy sie pierscien postepu, wzmacniasz nawyk. Dlatego male, regularne oszczednosci czesto dzialaja lepiej niz sporadyczne duze wplaty - sam rytual staje sie czescia doswiadczenia kolekcjonowania.' },
   ],
   faq: [
     {
       question: 'Ile powinienem oszczedzac kazdego miesiaca na zegarek?',
-      answer: 'Celuj w 10\u201315% swoich miesiecznych dochodow rozporzadzalnych. Kluczem jest konsekwencja \u2014 nawet 100 $ miesiecznie daje 1.200 $ rocznie. Dostosuj kwote do swojego harmonogramu: krotsze cele wymagaja wiekszych miesiecznych wplat.',
+      answer: 'Celuj w 10-15% swoich miesiecznych dochodow rozporzadzalnych. Kluczem jest konsekwencja - nawet 100 $ miesiecznie daje 1.200 $ rocznie. Dostosuj kwote do swojego harmonogramu: krotsze cele wymagaja wiekszych miesiecznych wplat.',
     },
     {
       question: 'Czy powinienem oszczedzac na jeden zegarek naraz czy na kilka?',
@@ -93,7 +93,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
           'name': 'Ile powinienem oszczedzac kazdego miesiaca na zegarek?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Celuj w 10\u201315% swoich miesiecznych dochodow rozporzadzalnych. Kluczem jest konsekwencja \u2014 nawet 100 $ miesiecznie daje 1.200 $ rocznie.',
+            'text': 'Celuj w 10-15% swoich miesiecznych dochodow rozporzadzalnych. Kluczem jest konsekwencja - nawet 100 $ miesiecznie daje 1.200 $ rocznie.',
           },
         },
         {

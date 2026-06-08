@@ -4,7 +4,7 @@ import { bibliography } from '../bibliography';
 
 export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
   slug: 'visualizador-de-fases-da-lua',
-  title: 'Visualizador de Fases da Lua — Calendário Lunar e Ajuste de Relógio',
+  title: 'Visualizador de Fases da Lua: Calendário Lunar e Ajuste de Relógio',
   description: 'Visualize a fase lunar atual, iluminação, idade da lua e as próximas luas cheia e nova. Perfeito para acertar o mostrador de fases da lua do seu relógio.',
   ui: {
     title: 'Visualizador de Fases da Lua',
@@ -31,8 +31,8 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     day: 'dia',
   },
   seo: [
-    { type: 'title', text: 'Visualizador de Fases da Lua — Ferramenta Lunar e Guia de Ajuste de Relógio', level: 2 },
-    { type: 'paragraph', html: 'O Visualizador de Fases da Lua mostra a <strong>fase lunar atual</strong> com uma representação realista da lua. Veja a <strong>porcentagem de iluminação, idade da lua, dias até a próxima lua cheia e a próxima lua nova</strong>. Projetado para entusiastas de relógios que precisam acertar o mostrador de fases da lua com precisão — também funciona como calendário lunar para qualquer data passada ou futura.' },
+    { type: 'title', text: 'Visualizador de Fases da Lua - Ferramenta Lunar e Guia de Ajuste de Relógio', level: 2 },
+    { type: 'paragraph', html: 'O Visualizador de Fases da Lua mostra a <strong>fase lunar atual</strong> com uma representação realista da lua. Veja a <strong>porcentagem de iluminação, idade da lua, dias até a próxima lua cheia e a próxima lua nova</strong>. Projetado para entusiastas de relógios que precisam acertar o mostrador de fases da lua com precisão - também funciona como calendário lunar para qualquer data passada ou futura.' },
     { type: 'title', text: 'Glossário de Fases da Lua', level: 3 },
     {
       type: 'glossary', items: [
@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
         ['Alta Precisão', 'Trem de engrenagens', '~1 dia a cada 100+ anos', '100+ anos', 'Patek Philippe, A. Lange & Söhne'],
       ]
     },
-    { type: 'tip', title: 'Lendo o Disco Lunar', html: 'Na maioria dos relógios com fases da lua, o disco mostra <strong>duas luas</strong> opostas uma à outra. Cada lua cheia se alinha com a abertura central no topo. Após um ciclo completo (29,5 dias), a segunda lua toma seu lugar. É por isso que uma engrenagem de 59 dentes funciona: ela completa uma rotação inteira em 59 dias — exatamente dois ciclos lunares.' },
+    { type: 'tip', title: 'Lendo o Disco Lunar', html: 'Na maioria dos relógios com fases da lua, o disco mostra <strong>duas luas</strong> opostas uma à outra. Cada lua cheia se alinha com a abertura central no topo. Após um ciclo completo (29,5 dias), a segunda lua toma seu lugar. É por isso que uma engrenagem de 59 dentes funciona: ela completa uma rotação inteira em 59 dias - exatamente dois ciclos lunares.' },
     {
       type: 'summary', title: 'Referência Rápida', items: [
         'O ciclo lunar (sinódico) tem exatamente 29,53058867 dias. A ferramenta usa esse valor para máxima precisão.',

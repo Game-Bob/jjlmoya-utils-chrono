@@ -34,23 +34,23 @@ export const content: ToolLocaleContent<PowerReserveEstimatorUI> = {
     tipContent: 'Handopwinduurwerken laden alleen wanneer u de kroon draait. Automatische uurwerken laden ook terwijl u ze draagt.',
   },
   seo: [
-    { type: 'title', text: 'Gangreserve Schatter \u2014 Hoeveel reserve heeft uw uurwerk nog?', level: 2 },
+    { type: 'title', text: 'Gangreserve Schatter - Hoeveel reserve heeft uw uurwerk nog?', level: 2 },
     { type: 'paragraph', html: 'Benieuwd hoeveel energie uw mechanische horloge nog heeft? Of u nu vanochtend de kroon hebt opgewonden of het horloge de hele dag hebt gedragen, deze schatter vertelt u het geschatte laadniveau en de resterende uren voor populaire kalibers zoals <strong>ETA, Sellita, Miyota, Seiko en Rolex</strong>.' },
     { type: 'title', text: 'Hoe gangreserve werkt in een mechanisch horloge', level: 3 },
-    { type: 'paragraph', html: 'De gangreserve is de hoeveelheid energie die is opgeslagen in de drijfveer. Wanneer u de kroon opwindt, spant u de drijfveer en slaat u potenti\u00eble energie op. Een automatische rotor spant de drijfveer ook terwijl u het horloge draagt. De energie ontlaadt vervolgens in een constant tempo \u2014 meestal 2\u20133% per uur \u2014 totdat het horloge stopt.' },
+    { type: 'paragraph', html: 'De gangreserve is de hoeveelheid energie die is opgeslagen in de drijfveer. Wanneer u de kroon opwindt, spant u de drijfveer en slaat u potentiële energie op. Een automatische rotor spant de drijfveer ook terwijl u het horloge draagt. De energie ontlaadt vervolgens in een constant tempo - meestal 2-3% per uur - totdat het horloge stopt.' },
     { type: 'title', text: 'Kroonopwinden vs. Rotorladen', level: 3 },
-    { type: 'paragraph', html: 'Handmatig opwinden via de kroon is de meest effici\u00ebnte manier om een horloge te laden \u2014 elke volledige draai voegt een voorspelbare hoeveelheid energie toe, doorgaans ongeveer 2,5% van de totale reserve. Het dragen van het horloge laadt langzamer en hangt af van uw activiteitenniveau: een kantoormedewerker kan 4\u20136% per uur laden, terwijl iemand die actief is 8\u201310% kan laden. Deze schatter gebruikt een conservatief gemiddelde.' },
+    { type: 'paragraph', html: 'Handmatig opwinden via de kroon is de meest efficiënte manier om een horloge te laden - elke volledige draai voegt een voorspelbare hoeveelheid energie toe, doorgaans ongeveer 2,5% van de totale reserve. Het dragen van het horloge laadt langzamer en hangt af van uw activiteitenniveau: een kantoormedewerker kan 4-6% per uur laden, terwijl iemand die actief is 8-10% kan laden. Deze schatter gebruikt een conservatief gemiddelde.' },
     { type: 'title', text: 'Waarom gangreserve schatten belangrijk is', level: 3 },
-    { type: 'paragraph', html: 'Het kennen van het laadniveau van uw horloge helpt onverwachte stilstanden te voorkomen. Een horloge dat \u2019s nachts stopt, heeft mogelijk meer winding nodig voor het slapengaan of krijgt niet genoeg draagtijd. Gebruik deze tool om uw oplaadgewoonten te begrijpen en uw automatische horloge draaiende te houden.' },
+    { type: 'paragraph', html: 'Het kennen van het laadniveau van uw horloge helpt onverwachte stilstanden te voorkomen. Een horloge dat \'s nachts stopt, heeft mogelijk meer winding nodig voor het slapengaan of krijgt niet genoeg draagtijd. Gebruik deze tool om uw oplaadgewoonten te begrijpen en uw automatische horloge draaiende te houden.' },
   ],
   faq: [
     {
-      question: 'Hoeveel laadt \u00e9\u00e9n kroondraai het horloge?',
-      answer: 'Dat hangt af van het uurwerk. De meeste automatische kalibers bereiken een volle winding in 30\u201340 draaien, dus elke draai voegt ongeveer 2,5\u20133,3% van de totale reserve toe. Handopwinduurwerken zoals de Unitas 6498 hebben ook ongeveer 35 draaien nodig voor een volle winding.',
+      question: 'Hoeveel laadt één kroondraai het horloge?',
+      answer: 'Dat hangt af van het uurwerk. De meeste automatische kalibers bereiken een volle winding in 30-40 draaien, dus elke draai voegt ongeveer 2,5-3,3% van de totale reserve toe. Handopwinduurwerken zoals de Unitas 6498 hebben ook ongeveer 35 draaien nodig voor een volle winding.',
     },
     {
       question: 'Laadt het dragen van het horloge evenveel als opwinden?',
-      answer: 'Dragen laadt langzamer en wisselender. Op kantoor laadt u ongeveer 4\u20136% per uur via de rotor. Bij actieve beweging (wandelen, sport) kan het 8\u201310% per uur bereiken. Handmatig opwinden is sneller en voorspelbaarder.',
+      answer: 'Dragen laadt langzamer en wisselender. Op kantoor laadt u ongeveer 4-6% per uur via de rotor. Bij actieve beweging (wandelen, sport) kan het 8-10% per uur bereiken. Handmatig opwinden is sneller en voorspelbaarder.',
     },
     {
       question: 'Hoeveel reserve verliest een horloge per uur?',
