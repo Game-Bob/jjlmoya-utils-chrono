@@ -82,3 +82,4 @@ heightIn.addEventListener('input', calc);
 turnsIn.addEventListener('input', calc);
 load();
 setUnit(cur);
+calc();
