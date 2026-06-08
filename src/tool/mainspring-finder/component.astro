@@ -5,7 +5,6 @@ const { ui } = Astro.props;
 
 <div class="msf" data-ui={JSON.stringify(ui)}>
   <div class="msf-top">
-    <h2 class="msf-h">{ui.title || "Mainspring Finder"}</h2>
     <div class="msf-u">
       <button class="msf-u-btn msf-u-on" data-unit="mm" type="button">{ui.mm || "mm"}</button>
       <button class="msf-u-btn" data-unit="in" type="button">{ui.inch || "in"}</button>
