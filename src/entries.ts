@@ -40,6 +40,8 @@ export { tourbillonVisualizer } from './tool/tourbillon-visualizer/entry';
 export type { TourbillonUI, TourbillonLocaleContent } from './tool/tourbillon-visualizer/entry';
 export { gmtWorldTimer } from './tool/gmt-world-timer/entry';
 export type { GMTWorldTimerUI, GMTWorldTimerLocaleContent } from './tool/gmt-world-timer/entry';
+export { quartzBatteryHealth } from './tool/quartz-battery-health/entry';
+export type { QuartzBatteryHealthUI, QuartzBatteryHealthLocaleContent } from './tool/quartz-battery-health/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -63,6 +65,7 @@ import { gearTrainExplorer } from './tool/gear-train-explorer/entry';
 import { perpetualCalendar } from './tool/perpetual-calendar/entry';
 import { tourbillonVisualizer } from './tool/tourbillon-visualizer/entry';
 import { gmtWorldTimer } from './tool/gmt-world-timer/entry';
+import { quartzBatteryHealth } from './tool/quartz-battery-health/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer, perpetualCalendar, tourbillonVisualizer, gmtWorldTimer];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer, perpetualCalendar, tourbillonVisualizer, gmtWorldTimer, quartzBatteryHealth];
 

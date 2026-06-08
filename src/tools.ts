@@ -21,6 +21,7 @@ import { GEAR_TRAIN_EXPLORER_TOOL } from './tool/gear-train-explorer';
 import { PERPETUAL_CALENDAR_TOOL } from './tool/perpetual-calendar';
 import { TOURBILLON_VISUALIZER_TOOL } from './tool/tourbillon-visualizer';
 import { GMT_WORLD_TIMER_TOOL } from './tool/gmt-world-timer';
+import { QUARTZ_BATTERY_HEALTH_TOOL } from './tool/quartz-battery-health';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -44,6 +45,7 @@ export const ALL_TOOLS: ToolDefinition[] = [
   PERPETUAL_CALENDAR_TOOL,
   TOURBILLON_VISUALIZER_TOOL,
   GMT_WORLD_TIMER_TOOL,
+  QUARTZ_BATTERY_HEALTH_TOOL,
 ];
 
 

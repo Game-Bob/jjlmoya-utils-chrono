@@ -15,6 +15,7 @@ export { moonPhaseVisualizer, MOON_PHASE_VISUALIZER_TOOL } from './tool/moon-pha
 export { tachymeterCalculator, TACHYMETER_CALCULATOR_TOOL } from './tool/tachymeter-calculator';
 export { serviceIntervalTracker, SERVICE_INTERVAL_TRACKER_TOOL } from './tool/service-interval-tracker';
 export { strapLengthCalculator, STRAP_LENGTH_CALCULATOR_TOOL } from './tool/strap-length-calculator';
+export { quartzBatteryHealth, QUARTZ_BATTERY_HEALTH_TOOL } from './tool/quartz-battery-health';
 
 export type {
   KnownLocale,

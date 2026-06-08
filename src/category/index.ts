@@ -19,6 +19,7 @@ import { gearTrainExplorer } from '../tool/gear-train-explorer/entry';
 import { perpetualCalendar } from '../tool/perpetual-calendar/entry';
 import { tourbillonVisualizer } from '../tool/tourbillon-visualizer/entry';
 import { gmtWorldTimer } from '../tool/gmt-world-timer/entry';
+import { quartzBatteryHealth } from '../tool/quartz-battery-health/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -43,6 +44,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     perpetualCalendar,
     tourbillonVisualizer,
     gmtWorldTimer,
+    quartzBatteryHealth,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

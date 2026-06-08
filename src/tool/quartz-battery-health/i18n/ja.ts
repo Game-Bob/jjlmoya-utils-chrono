@@ -1,0 +1,327 @@
+import type { ToolLocaleContent } from '../../../types';
+import type { QuartzBatteryHealthUI } from '../entry';
+import { bibliography } from '../bibliography';
+
+export const content: ToolLocaleContent<QuartzBatteryHealthUI> = {
+  slug: 'quartz-battery-health',
+  title: 'クォーツ電池残量チェッカー',
+  description: 'セルの容量（mAh）とキャリバーの消費電力（µA）を入力して、クォーツムーブメントの理論上の電池寿命を計算します。オプションで設置日を設定すると、交換時期の目安を表示します。',
+  ui: {
+    title: 'クォーツ電池残量チェッカー',
+    batteryLabel: '電池セル',
+    selectBattery: '電池を選択',
+    customBattery: 'カスタム',
+    capacityLabel: '容量',
+    capacityUnit: 'mAh',
+    consumptionLabel: '消費電力',
+    consumptionUnit: 'µA',
+    installDateLabel: '設置日',
+    installDateHint: '任意',
+    monthLabel: '月',
+    yearLabel: '年',
+    calculate: '計算',
+    resultLabel: '推定寿命',
+    theoreticalLife: '理論寿命',
+    yearsLabel: '年',
+    monthsLabel: 'ヶ月',
+    daysLabel: '日',
+    changeDateLabel: '交換目安日',
+    noDateHint: '設置日を入力すると交換目安日を表示します',
+    healthLabel: '状態',
+    healthGood: '良好',
+    healthModerate: '注意',
+    healthCritical: '危険',
+    step1: '一般的な電池を選ぶか、カスタムを選択して容量を入力します。',
+    step2: 'キャリバーの消費電力をマイクロアンペア（µA）で入力します。',
+    step3: '必要に応じて設置日を追加し、計算ボタンを押します。',
+    tipTitle: 'ヒント',
+    tipContent: '必ず公式のキャリバーデータシートに記載された消費電力値を使用してください。実際の寿命は温度や負荷の変動により、理論値より10～20%短くなることがあります。',
+  },
+  seo: [
+    { type: 'title', text: 'クォーツ電池残量チェッカー - 腕時計の電池はあとどれくらい持つ？', level: 2 },
+    {
+      type: 'stats',
+      items: [
+        { value: '1.0～2.5 µA', label: '標準3針の消費電流' },
+        { value: '18～55 mAh', label: '一般的なセル容量' },
+        { value: '2.5～4.5年', label: '標準的な電池寿命' },
+      ],
+      columns: 3,
+    },
+    { type: 'paragraph', html: 'クォーツ時計の針が止まるのはいつか知りたいですか？<strong>クォーツ電池残量チェッカー</strong>は、セル容量（mAh）とムーブメントの平均消費電力（µA）を比較することで、あらゆるクォーツムーブメントの電池の残り寿命を推定します。スイスのETA、日本のMiyota、Seiko、Ronda、中国のDGムーブメントを問わず、このツールは年、月、日単位で理論上の寿命を計算し、設置月と年を入力すれば正確な交換日まで予測できます。' },
+    { type: 'title', text: 'クォーツ電池寿命の計算方法 - 推定の背後にある計算式', level: 3 },
+    { type: 'paragraph', html: '電池寿命はシンプルな電気の公式に従います：<strong>寿命（時間）＝（セル容量mAh × 1000）÷ 消費電流µA</strong>。その結果を24で割ると日数、365.25で割ると年数が得られます。例えば、標準的な<strong>SR920SW（371）セル（40 mAh）</strong>が<strong>1.5 µA</strong>を消費するムーブメントを駆動する場合、理論上は約<strong>3年</strong>持続します。消費電力を1.0 µAに減らせば同じセルで4.5年以上に延びます。2.5 µAに増やすと電池寿命は2年未満に低下します。メンテナンス間隔を計画する際には、マイクロアンペアのわずかな差が重要です。' },
+    { type: 'title', text: '最も一般的なクォーツ時計用電池の種類とその容量', level: 3 },
+    {
+      type: 'table',
+      headers: ['セル型番', '一般コード', '容量', '主な用途'],
+      rows: [
+        ['SR621SW', '364', '18 mAh', '薄型ドレスウォッチ'],
+        ['SR626SW', '377', '27 mAh', '中型クォーツモデル'],
+        ['SR920SW', '371', '40 mAh', 'クロノグラフ・多機能'],
+        ['SR936SW', '394', '55 mAh', '大型アナログデジタルハイブリッド'],
+        ['CR2025', '-', '165 mAh', '高消費LEDモジュール'],
+      ],
+    },
+    { type: 'tip', title: '純正仕様に合わせる', html: '誤ったセルタイプを選択すると、電池寿命が<strong>40%</strong>も短くなることがあります。交換前に必ず元の電池の型番を確認してください。数値コードはサイズを示しています。例えば<strong>SR936SW</strong>は直径9.5mm、厚さ3.6mmです。' },
+    { type: 'title', text: '公式キャリバー消費電力値を使用すべき理由', level: 3 },
+    { type: 'paragraph', html: 'ムーブメントメーカーである<strong>ETA、Ronda、Miyota、Seiko、ISA</strong>は、製造するすべてのキャリバーの公式技術データシートを公開しています。これらのデータシートには、管理された温度（通常22°C）と標準的な針トルク負荷における<strong>平均消費電流</strong>が記載されています。実際の消費電力が2.5 µAであるのに1.0 µAと推測すると、電池寿命を100%以上過大評価する可能性があります。必ずメーカーサイトから公式PDFをダウンロードするか、専門データベースでキャリバー型番を確認して実際の消費電力を入手してください。' },
+    {
+      type: 'diagnostic',
+      variant: 'warning',
+      title: '電池の液漏れはムーブメントを破壊する可能性があります',
+      html: '消耗した酸化銀電池は<strong>水酸化カリウム</strong>を漏洩し、接点バネ、回路基板のパターン、さらにはステッピングモーターコイルを腐食させる可能性があります。ツールの推定残り寿命が<strong>6ヶ月未満</strong>の場合は、次の定期点検時に電池交換を予定してください。特に<strong>1970年代～1980年代のビンテージクォーツ時計</strong>に注意してください。元の電池は数十年間にわたるケース内での経年劣化により、液漏れのリスクがはるかに高くなっています。',
+    },
+    { type: 'title', text: '理論値と実際の電池寿命の差を生む要因', level: 3 },
+    {
+      type: 'list',
+      items: [
+        '<strong>温度の極端な変化</strong> - 日光の当たるダッシュボードに置かれた時計は、消費電流が30%増加することがあります',
+        '<strong>寿命検出回路</strong> - 2秒おきの秒針動作インジケーターは作動中に余分な電力を消費します',
+        '<strong>クロノグラフやアラームの使用</strong> - 瞬間的な電流スパイクが時間とともに蓄積されます',
+        '<strong>機械的摩擦</strong> - 経年劣化や汚れによる歯車列の抵抗増加がステッピングモーターに必要なトルクを増大させます',
+        '<strong>磁界</strong> - 磁気への曝露はモーターのトルク要求を高め、セルをより速く消耗させます',
+      ],
+    },
+    { type: 'paragraph', html: '実際には、理論計算よりも<strong>10～20%短い寿命</strong>になると予想してください。高精度温度補償型クォーツムーブメントでは消費電力の変動は少ないですが、標準的なクォーツはこれらの環境要因に顕著に影響を受けます。' },
+    { type: 'title', text: 'クォーツ時計に正しい交換用電池を見つける方法', level: 3 },
+    {
+      type: 'glossary',
+      items: [
+        { term: 'SR（酸化銀）', definition: 'SR（例：SR920SW）と刻印されたセルは、寿命を通じて安定した1.55Vの出力を提供し、クォーツ発振器の精度を維持します。品質の高いクォーツ時計の標準です。' },
+        { term: 'LR（アルカリ）', definition: 'LR（例：LR41）と刻印されたセルは電圧が徐々に低下し、時計が遅れたり早期に停止する原因となります。SRセルの代替として推奨されません。' },
+        { term: 'CR（リチウム）', definition: 'CR（例：CR2025）と刻印されたセルは3.0Vを供給し、LEDバックライト、大型LCD、または複数のコンプリケーションを備えた高消費モジュールで使用されます。' },
+        { term: '数値コード', definition: '4桁の数字は物理的なサイズを示します：最初の2桁は直径（mm）、最後の2桁は厚さ（0.1mm単位）です。SR936SW = Ø9.5mm × 3.6mm。' },
+      ],
+    },
+    { type: 'title', text: '標準クォーツ vs ソーラー vs キネティック - 技術による計算式の違い', level: 3 },
+    {
+      type: 'comparative',
+      items: [
+        {
+          title: '標準クォーツ',
+          description: '交換可能な酸化銀またはリチウム一次電池を使用します。電池寿命は容量と消費電力のみに依存します。この計算機はこのタイプ向けに設計されています。',
+          highlight: true,
+          points: [
+            '交換可能な一次電池',
+            '寿命 ＝ 容量 ÷ 消費電力',
+            '予測可能な交換スケジュール',
+            '手頃な電池交換コスト',
+          ],
+        },
+        {
+          title: 'ソーラー＆キネティック',
+          description: 'ソーラー式時計は光電池を使用してリチウムイオン蓄電池を充電します。キネティック式時計はローター駆動のマイクロ発電機を使用してコンデンサーを充電します。',
+          points: [
+            '充電可能な蓄電方式',
+            '寿命は充電サイクルに依存',
+            '時間経過によるコンデンサーの劣化',
+            'この計算機では使用できません',
+          ],
+        },
+      ],
+      columns: 2,
+    },
+    { type: 'paragraph', html: 'メーカーが謳う<strong>「10年電池寿命」</strong>は、通常、非常に低消費電力のムーブメント（約0.5～0.8 µA）と大容量セル（165 mAhのCR2025以上）を組み合わせた場合に基づいています。標準的なアナログクォーツ時計で、小型の酸化銀セル（<strong>SR626SW、27 mAh</strong>）と一般的な1.5 µAのムーブメントの場合、実際の寿命は<strong>2.5～3年</strong>程度です。マーケティング表示を信用するのではなく、必ずこの計算機で確認してください。' },
+    {
+      type: 'tip',
+      title: '事後対応ではなく事前対応で交換する',
+      html: '秒針が<strong>2秒または4秒間隔</strong>で跳ねるようになったら、ムーブメントが低電圧により省電力モードに入ったことを示しています。電池の残り寿命は約<strong>2～4週間</strong>です。液漏れによる損傷を防ぐため、すぐに交換してください。',
+    },
+    {
+      type: 'summary',
+      title: 'クォーツ時計の電池残量管理における重要ポイント',
+      items: [
+        'メーカーデータシートの公式キャリバー消費電力値を使用すること - 推測値は寿命を100%以上過大評価する可能性があります',
+        '元のセルタイプと完全に一致させること：SR、LR、CRの化学式は互換性がありません',
+        'ツールが残り寿命6ヶ月未満と表示したら、液漏れを防ぐために電池を交換すること',
+        '実際の電池寿命は温度、摩擦、使用状況により、理論値よりも通常10～20%短くなります',
+        'この計算機は交換可能な一次電池を使用する標準クォーツムーブメント向けであり、ソーラー式やキネティック式時計には対応していません',
+      ],
+    },
+  ],
+  faq: [
+    {
+      question: '理論上の電池寿命推定の精度はどのくらいですか？',
+      answer: '計算は容量を消費電力で割るという電気的な理想値に基づいています。実際の使用条件では、温度変化、寿命検出回路、経年劣化した潤滑剤による機械的抵抗、クロノグラフやアラーム機能の追加負荷により、10～20%短くなることが予想されます。この推定値は信頼できる上限値であり、正確な予測ではありません。',
+    },
+    {
+      question: 'クォーツキャリバーの正確な消費電力値はどこで確認できますか？',
+      answer: 'ETA、Ronda、Miyota、Seiko、ISAなどのムーブメントメーカーの公式技術データシートには、平均消費電流がマイクロアンペア（µA）で記載されています。キャリバー型番に続けて「データシート」または「技術仕様」で検索してください。Ranfft、17jewels、Watch-Wikiなどの専門データベースも、時計コミュニティから提供された消費電力値を公開しています。',
+    },
+    {
+      question: '「µA」とは何ですか？なぜ重要ですか？',
+      answer: 'µAはマイクロアンペア、すなわち100万分の1アンペアを表します。ムーブメントが電池から消費する電流を測定します。標準的なアナログクォーツ3針ムーブメントは1.0～2.5 µAを消費します。クロノグラフや多機能モジュールは3.0～6.0 µAを消費することがあります。電流が高いほど、同じセル容量での電池寿命は短くなります。',
+    },
+    {
+      question: 'このツールはソーラー式やキネティック式時計にも使えますか？',
+      answer: 'いいえ。ソーラー式時計（Eco-Drive、ソーラー、光発電）は光電池を使用して充電式バッテリーを充電します。キネティック式やAuto-Quartz式時計はローターとマイクロ発電機を使用してコンデンサーを充電します。どちらの技術も一次使い捨てセルに依存しないため、容量対消費電力のモデルは適用できません。この計算機は、交換可能な酸化銀、アルカリ、またはリチウムセルを使用する標準クォーツムーブメントにのみ使用してください。',
+    },
+    {
+      question: '電池が完全に切れる前に交換すべきですか？',
+      answer: 'はい。酸化銀電池やアルカリ電池は完全に放電すると水酸化カリウムを漏洩し、接点バネ、PCBパターン、ステッピングモーターコイルを損傷する可能性があります。完全放電前の交換を強く推奨します。ツールが残り推定寿命6ヶ月未満を表示した場合は、できるだけ早く電池交換を計画してください。',
+    },
+    {
+      question: '元の電池より容量が大きい、または小さい電池を使用するとどうなりますか？',
+      answer: '高容量セル（例：SR920SW 40 mAhの代わりにSR936SW 55 mAh）を使用すると電池寿命は延びますが、物理的に収まらない可能性があります。セルは元の直径と厚さに完全に一致している必要があり、適切な接点バネの圧力を維持するために重要です。低容量セルを使用すると電池寿命が短くなり、セルが小さすぎると断続的な接触不良を引き起こす可能性があります。必ず同じ型番、または同じサイズファミリーの文書化された同等品と交換してください。',
+    },
+    {
+      question: '時計の電池が酸化銀かアルカリかはどうやって見分けますか？',
+      answer: '酸化銀セルはSR（例：SR920SW）と刻印されており、寿命を通じて安定した1.55Vの出力を提供し、クォーツ発振器の精度を維持します。アルカリセルはLR（例：LR41）と刻印されており、電圧が徐々に低下し、時計が遅れたり早期に停止する原因となります。ほとんどの高品質時計ブランドは酸化銀を指定しています。時計が元からSRを使用していた場合は、LRではなく必ずSRと交換してください。',
+    },
+    {
+      question: '秒針が2秒おきに跳ねるのは電池切れの兆候ですか？',
+      answer: 'はい。クォーツムーブメントが電池電圧の低下を検出すると、省電力モードに入り、秒針が2秒または4秒間隔で跳ねるようになります。これが寿命末期を示すインジケーターです。この動作が見られたら、電池の残り寿命は約2～4週間です。液漏れを防ぐため、すぐに交換してください。',
+    },
+  ],
+  bibliography,
+  howTo: [
+    {
+      name: '電池セルを選択またはカスタマイズする',
+      text: 'ドロップダウンリストから一般的な酸化銀セルを選択します。SR621SW、SR626SW、SR920SW、SR936SWなどが公式容量とともにプリセットされています。該当するセルがない場合はカスタムを選択し、電池ラベルまたはメーカーデータシートに記載された正確な容量（mAh）を入力します。',
+    },
+    {
+      name: 'ムーブメントの消費電力を入力する',
+      text: '公式技術文書からキャリバーの平均消費電流を確認します。値をマイクロアンペア（µA）で消費電力フィールドに入力します。ほとんどの3針ムーブメントは1.0～2.5 µAを使用します。クロノグラフや多機能モジュールは最大6.0 µAになることがあります。',
+    },
+    {
+      name: '設置月と年を追加する（任意）',
+      text: '電池を最後に設置した日付を覚えている、または記録している場合は、月を選択して年を入力します。ツールはこの日付を使用して推定交換日を計算し、残りの電池残量をパーセンテージで表示します。',
+    },
+    {
+      name: '理論上の寿命を確認する',
+      text: '結果カードには、推定される総電池寿命が年、月、残り日数で表示されます。これは外部要因による電池容量の低下がない理想的な条件下での最大寿命です。',
+    },
+    {
+      name: '健全性ステータスと交換日を確認する',
+      text: '設置日が入力されている場合、ゲージは残りの電池寿命に比例して表示されます。緑色の「良好」は残り50%以上を示します。黄色の「注意」は20～50%の間です。赤色の「危険」は20%未満です。正確な推奨交換日はゲージの下に表示されます。',
+    },
+    {
+      name: '入力を調整して再計算する',
+      text: '電池モデル、消費電力値、設置日のいずれかを変更すると、結果が自動的に更新されます。これを使用して異なる電池タイプを比較したり、コレクション内の複数の時計の交換スケジュールを計画したりできます。',
+    },
+  ],
+  schemas: [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      'mainEntity': [
+        {
+          '@type': 'Question',
+          'name': '理論上の電池寿命推定の精度はどのくらいですか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': '計算は容量を消費電力で割るという電気的な理想値に基づいています。実際の使用条件では、温度変化、寿命検出回路、経年劣化した潤滑剤による機械的抵抗、クロノグラフやアラーム機能の追加負荷により、10～20%短くなることが予想されます。この推定値は信頼できる上限値であり、正確な予測ではありません。',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': 'クォーツキャリバーの正確な消費電力値はどこで確認できますか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'ETA、Ronda、Miyota、Seiko、ISAなどのムーブメントメーカーの公式技術データシートには、平均消費電流がマイクロアンペア（µA）で記載されています。キャリバー型番に続けてデータシートまたは技術仕様で検索してください。Ranfftや17jewelsなどの専門データベースも、コミュニティから提供された消費電力値を公開しています。',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': 'µAとは何ですか？なぜ重要ですか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'µAはマイクロアンペア、すなわち100万分の1アンペアを表します。ムーブメントが電池から消費する電流を測定します。標準的なアナログクォーツ3針ムーブメントは1.0～2.5 µAを消費します。クロノグラフや多機能モジュールは3.0～6.0 µAを消費することがあります。電流が高いほど、同じセル容量での電池寿命は短くなります。',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': 'このツールはソーラー式やキネティック式時計にも使えますか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'いいえ。ソーラー式時計は光電池を使用して充電式バッテリーを充電します。キネティック式時計はローターとマイクロ発電機を使用してコンデンサーを充電します。どちらの技術も一次使い捨てセルに依存しないため、容量対消費電力のモデルは適用できません。この計算機は、交換可能な酸化銀、アルカリ、またはリチウムセルを使用する標準クォーツムーブメントにのみ使用してください。',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': '電池が完全に切れる前に交換すべきですか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'はい。酸化銀電池やアルカリ電池は完全に放電すると水酸化カリウムを漏洩し、接点バネ、PCBパターン、ステッピングモーターコイルを損傷する可能性があります。完全放電前の交換を強く推奨します。ツールが残り推定寿命6ヶ月未満を表示した場合は、できるだけ早く電池交換を計画してください。',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': '時計の電池が酸化銀かアルカリかはどうやって見分けますか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': '酸化銀セルはSR（例：SR920SW）と刻印されており、寿命を通じて安定した1.55Vの出力を提供します。アルカリセルはLR（例：LR41）と刻印されており、電圧が徐々に低下します。ほとんどの高品質時計ブランドは酸化銀を指定しています。SRは必ずSRと交換し、LRは使用しないでください。',
+          },
+        },
+        {
+          '@type': 'Question',
+          'name': '秒針が2秒おきに跳ねるのは電池切れの兆候ですか？',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'はい。クォーツムーブメントが電池電圧の低下を検出すると、省電力モードに入り、秒針が2秒または4秒間隔で跳ねるようになります。これが寿命末期を示すインジケーターです。この動作が見られたら、電池の残り寿命は約2～4週間です。液漏れを防ぐため、すぐに交換してください。',
+          },
+        },
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      'name': 'Quartz Battery Health Checker',
+      'operatingSystem': 'All',
+      'applicationCategory': 'UtilitiesApplication',
+      'applicationSubCategory': 'Watch Battery Life Calculator',
+      'description': 'Calculate the theoretical battery life of any quartz watch movement by entering cell capacity (mAh) and caliber power consumption (µA). Estimates replacement date when installation month and year are provided.',
+      'softwareVersion': '1.0',
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'TechArticle',
+      'name': 'Quartz watch battery life calculation - capacity vs consumption explained',
+      'proficiencyLevel': 'Beginner',
+      'abstract': 'Learn how to estimate the battery life of a quartz watch movement using the cell capacity in mAh and the movement power consumption in µA. Understand the formula, the effect of temperature and load, and when to schedule a replacement.',
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      'name': 'How to estimate quartz watch battery life',
+      'description': 'A step-by-step guide to using the Quartz Battery Health Checker to determine the remaining life of any quartz watch battery and plan its replacement date.',
+      'step': [
+        {
+          '@type': 'HowToStep',
+          'name': 'Select or customise the battery cell',
+          'text': 'Choose a common silver-oxide cell from the dropdown list - SR621SW, SR626SW, SR920SW, SR936SW and others are preloaded with their official capacities. If your cell is not listed, select Custom and type its exact capacity in mAh.',
+        },
+        {
+          '@type': 'HowToStep',
+          'name': 'Enter the movement power consumption',
+          'text': 'Locate the average current consumption for your caliber from the official technical documentation. Type the value in microamperes (µA) into the consumption field.',
+        },
+        {
+          '@type': 'HowToStep',
+          'name': 'Add the installation month and year',
+          'text': 'If you know when the battery was installed, select the month and enter the year. The tool calculates the estimated replacement date and shows the remaining battery health as a percentage.',
+        },
+        {
+          '@type': 'HowToStep',
+          'name': 'Read the theoretical lifespan',
+          'text': 'The result card shows the total estimated battery life in years, months, and remaining days. This is the maximum life under ideal conditions.',
+        },
+        {
+          '@type': 'HowToStep',
+          'name': 'Check health status and replacement date',
+          'text': 'When an installation date is provided, the gauge shows remaining life. Green means more than 50 % remains. Yellow means 20 to 50 %. Red means less than 20 %. The recommended replacement date is shown below.',
+        },
+      ],
+      'totalTime': 'PT1M',
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      'name': 'Quartz Battery Health Checker',
+      'description': 'An online tool for estimating quartz watch battery life based on cell capacity and movement power consumption.',
+      'category': 'Watch Battery Calculator',
+      'audience': { '@type': 'Audience', 'audienceType': 'Watch enthusiasts and repair technicians' },
+    },
+  ],
+};
