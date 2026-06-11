@@ -1,0 +1,138 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<link href="./altitude-watch-accuracy-estimator.css" rel="stylesheet" />
+
+<div class="alti-layout">
+  <div class="alti-column" id="alti-column">
+    <svg class="alti-mountain-svg" viewBox="0 0 140 420" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="mountain-bg" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#4338ca"/>
+          <stop offset="20%" stop-color="#6366f1"/>
+          <stop offset="40%" stop-color="#22c55e"/>
+          <stop offset="60%" stop-color="#65a30d"/>
+          <stop offset="80%" stop-color="#854d0e"/>
+          <stop offset="100%" stop-color="#1e3a5f"/>
+        </linearGradient>
+        <linearGradient id="mountain-fill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+          <stop offset="50%" stop-color="rgba(255,255,255,0.04)"/>
+          <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+        </linearGradient>
+        <clipPath id="mountain-clip">
+          <path d="M0 420 L20 340 L35 310 L50 270 L60 230 L70 180 L75 140 L80 100 L85 60 L90 20 L95 0 L100 20 L105 60 L110 100 L115 140 L120 180 L130 230 L140 270 L140 420 Z"/>
+        </clipPath>
+      </defs>
+      <rect x="0" y="0" width="140" height="420" fill="url(#mountain-bg)" opacity="0.15"/>
+      <path d="M0 420 L20 340 L35 310 L50 270 L60 230 L70 180 L75 140 L80 100 L85 60 L90 20 L95 0 L100 20 L105 60 L110 100 L115 140 L120 180 L130 230 L140 270 L140 420 Z" fill="url(#mountain-fill)" stroke="var(--accent)" stroke-width="1.5" opacity="0.3"/>
+      <g opacity="0.15">
+        <line x1="0" y1="420" x2="140" y2="420" stroke="var(--text-base)" stroke-width="0.5"/>
+        <line x1="0" y1="315" x2="140" y2="315" stroke="var(--text-base)" stroke-width="0.5"/>
+        <line x1="0" y1="210" x2="140" y2="210" stroke="var(--text-base)" stroke-width="0.5"/>
+        <line x1="0" y1="105" x2="140" y2="105" stroke="var(--text-base)" stroke-width="0.5"/>
+        <line x1="0" y1="0" x2="140" y2="0" stroke="var(--text-base)" stroke-width="0.5"/>
+      </g>
+      <g class="alti-elevation-labels" id="alti-elevation-labels" font-size="7" fill="var(--text-base)" opacity="0.35" font-weight="600">
+        <text x="4" y="423">0</text>
+        <text x="4" y="318">2000</text>
+        <text x="4" y="213">4000</text>
+        <text x="4" y="108">6000</text>
+        <text x="4" y="13">8000</text>
+      </g>
+    </svg>
+    <div class="alti-particles" id="alti-particles"></div>
+    <div class="alti-thumb" id="alti-thumb"></div>
+    <div class="alti-current-label" id="alti-current-label">0 m</div>
+  </div>
+
+  <div class="alti-main">
+    <div class="alti-top-row">
+      <div class="alti-balance-panel">
+        <span class="alti-balance-title">{labels.oscillationLabel || 'Balance Wheel'}</span>
+        <div class="alti-balance-svg-wrap">
+          <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+            <g id="balance-wheel-rotor" style="transform-origin:70px 70px">
+              <circle class="balance-rim" cx="70" cy="70" r="65"/>
+              <circle class="balance-outer" cx="70" cy="70" r="60"/>
+              <circle class="balance-rim" cx="70" cy="70" r="20"/>
+              <line class="balance-spoke" x1="70" y1="70" x2="70" y2="10"/>
+              <line class="balance-spoke" x1="70" y1="70" x2="127" y2="48"/>
+              <line class="balance-spoke" x1="70" y1="70" x2="113" y2="125"/>
+              <line class="balance-spoke" x1="70" y1="70" x2="27" y2="125"/>
+              <line class="balance-spoke" x1="70" y1="70" x2="13" y2="48"/>
+              <circle class="balance-hub" cx="70" cy="70" r="8"/>
+              <circle class="balance-staff" cx="70" cy="70" r="3"/>
+              <circle class="balance-staff" cx="70" cy="70" r="14" fill="none" stroke="var(--accent)" stroke-width="0.5" opacity="0.15"/>
+            </g>
+            <path class="balance-hairspring" d="M70 70 C70 60, 80 55, 85 65 C90 75, 75 80, 70 75 C65 70, 72 62, 78 65 C84 68, 78 73, 74 72" stroke="var(--accent)" fill="none" opacity="0.2"/>
+          </svg>
+        </div>
+        <div class="alti-rate-badge neutral" id="alti-rate-badge">
+          <span id="alti-rate-value">4.0</span>
+          <span class="unit">{labels.oscillationsPerSec || 'osc/s'}</span>
+        </div>
+      </div>
+
+      <div class="alti-deviation-panel">
+        <span class="alti-deviation-title">{labels.deviationLabel || 'Rate Deviation'}</span>
+        <div class="alti-deviation-gauge">
+          <div class="alti-deviation-value" id="alti-deviation-value">0.0</div>
+          <span class="alti-deviation-unit">{labels.secondsPerDay || 's/d'}</span>
+          <div class="alti-deviation-bar">
+            <div class="alti-deviation-fill" id="alti-deviation-fill" style="width:0%"></div>
+          </div>
+          <div class="alti-deviation-desc negligible" id="alti-deviation-desc">{labels.negligible || 'Negligible'}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alti-atm-row">
+      <div class="alti-atm-card">
+        <span class="alti-atm-label">{labels.pressureLabel || 'Pressure'}</span>
+        <span class="alti-atm-value" id="atm-pressure">1013.3</span>
+        <span class="alti-atm-unit">{labels.pressureUnit || 'hPa'}</span>
+      </div>
+      <div class="alti-atm-card">
+        <span class="alti-atm-label">{labels.densityLabel || 'Air Density'}</span>
+        <span class="alti-atm-value" id="atm-density">1.225</span>
+        <span class="alti-atm-unit">{labels.densityUnit || 'kg/m³'}</span>
+      </div>
+      <div class="alti-atm-card">
+        <span class="alti-atm-label">{labels.temperatureLabel || 'Temperature'}</span>
+        <span class="alti-atm-value" id="atm-temp">15.0</span>
+        <span class="alti-atm-unit">{labels.temperatureUnit || '°C'}</span>
+      </div>
+    </div>
+
+    <div class="alti-chart-section">
+      <div class="alti-chart-title">{labels.deviationChart || 'Deviation vs Altitude'}</div>
+      <svg class="alti-chart-svg" viewBox="0 0 800 80" preserveAspectRatio="none" id="deviation-chart">
+        <defs>
+          <linearGradient id="chart-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0.02"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="800" height="80" fill="transparent"/>
+      </svg>
+      <div class="alti-chart-labels">
+        <span>0</span>
+        <span>2000</span>
+        <span>4000</span>
+        <span>6000</span>
+        <span>8000 m</span>
+      </div>
+    </div>
+
+    <div class="alti-info-bar">
+      <svg class="alti-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      <span class="alti-info-text"><strong>{labels.howItWorks || 'How It Works'}:</strong> {labels.howItWorksDesc || 'Lower air density at high altitude reduces drag on the balance wheel, increasing amplitude and causing the watch to run faster.'}</span>
+    </div>
+  </div>
+</div>

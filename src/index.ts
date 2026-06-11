@@ -17,6 +17,7 @@ export { serviceIntervalTracker, SERVICE_INTERVAL_TRACKER_TOOL } from './tool/se
 export { strapLengthCalculator, STRAP_LENGTH_CALCULATOR_TOOL } from './tool/strap-length-calculator';
 export { quartzBatteryHealth, QUARTZ_BATTERY_HEALTH_TOOL } from './tool/quartz-battery-health';
 export { mainspringFinder, MAINSPRING_FINDER_TOOL } from './tool/mainspring-finder';
+export { altitudeWatchAccuracyEstimator, ALTITUDE_WATCH_ACCURACY_ESTIMATOR_TOOL } from './tool/altitude-watch-accuracy-estimator';
 
 export type {
   KnownLocale,

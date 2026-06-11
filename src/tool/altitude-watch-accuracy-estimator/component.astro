@@ -1,0 +1,15 @@
+---
+import AltitudeScene from './components/AltitudeScene.astro';
+
+interface Props {
+  ui: Record<string, string>;
+}
+
+const { ui } = Astro.props;
+---
+
+<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
+  <AltitudeScene labels={ui} />
+</div>
+
+<script src="./client.ts"></script>

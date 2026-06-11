@@ -44,6 +44,8 @@ export { quartzBatteryHealth } from './tool/quartz-battery-health/entry';
 export type { QuartzBatteryHealthUI, QuartzBatteryHealthLocaleContent } from './tool/quartz-battery-health/entry';
 export { mainspringFinder } from './tool/mainspring-finder/entry';
 export type { MainspringFinderUI, MainspringFinderLocaleContent } from './tool/mainspring-finder/entry';
+export { altitudeWatchAccuracyEstimator } from './tool/altitude-watch-accuracy-estimator/entry';
+export type { AltitudeWatchAccuracyEstimatorUI, AltitudeWatchAccuracyEstimatorLocaleContent } from './tool/altitude-watch-accuracy-estimator/entry';
 export { chronoCategory } from './category';
 
 import { watchAccuracyTracker } from './tool/watch-accuracy-tracker/entry';
@@ -69,6 +71,7 @@ import { tourbillonVisualizer } from './tool/tourbillon-visualizer/entry';
 import { gmtWorldTimer } from './tool/gmt-world-timer/entry';
 import { quartzBatteryHealth } from './tool/quartz-battery-health/entry';
 import { mainspringFinder } from './tool/mainspring-finder/entry';
+import { altitudeWatchAccuracyEstimator } from './tool/altitude-watch-accuracy-estimator/entry';
 
-export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer, perpetualCalendar, tourbillonVisualizer, gmtWorldTimer, quartzBatteryHealth, mainspringFinder];
+export const ALL_ENTRIES = [watchAccuracyTracker, wristPresenceCalculator, demagnetizingTimer, watchSavingsPlanner, crownReferenceGuide, powerReserveEstimator, beatRateConverter, waterResistanceConverter, strapTaperCalculator, watchSizeComparator, lumeColorSimulator, moonPhaseVisualizer, tachymeterCalculator, serviceIntervalTracker, strapLengthCalculator, telemeterCalculator, siderealTimeTracker, gearTrainExplorer, perpetualCalendar, tourbillonVisualizer, gmtWorldTimer, quartzBatteryHealth, mainspringFinder, altitudeWatchAccuracyEstimator];
 

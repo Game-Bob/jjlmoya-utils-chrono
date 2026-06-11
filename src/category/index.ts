@@ -21,6 +21,7 @@ import { tourbillonVisualizer } from '../tool/tourbillon-visualizer/entry';
 import { gmtWorldTimer } from '../tool/gmt-world-timer/entry';
 import { quartzBatteryHealth } from '../tool/quartz-battery-health/entry';
 import { mainspringFinder } from '../tool/mainspring-finder/entry';
+import { altitudeWatchAccuracyEstimator } from '../tool/altitude-watch-accuracy-estimator/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -47,6 +48,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     gmtWorldTimer,
     quartzBatteryHealth,
     mainspringFinder,
+    altitudeWatchAccuracyEstimator,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),
