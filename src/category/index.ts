@@ -22,6 +22,7 @@ import { gmtWorldTimer } from '../tool/gmt-world-timer/entry';
 import { quartzBatteryHealth } from '../tool/quartz-battery-health/entry';
 import { mainspringFinder } from '../tool/mainspring-finder/entry';
 import { altitudeWatchAccuracyEstimator } from '../tool/altitude-watch-accuracy-estimator/entry';
+import { watchCrystalMaterialComparison } from '../tool/watch-crystal-material-comparison/entry';
 
 export const chronoCategory: ChronoCategoryEntry = {
   icon: 'mdi:clock-outline',
@@ -49,6 +50,7 @@ export const chronoCategory: ChronoCategoryEntry = {
     quartzBatteryHealth,
     mainspringFinder,
     altitudeWatchAccuracyEstimator,
+    watchCrystalMaterialComparison,
   ],
   i18n: {
     de: () => import('./i18n/de').then((m) => m.content),

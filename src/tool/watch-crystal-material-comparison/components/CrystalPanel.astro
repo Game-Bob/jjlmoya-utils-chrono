@@ -1,0 +1,20 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<link href="./watch-crystal-material-comparison.css" rel="stylesheet" />
+
+<div class="crystal-layout">
+  <div class="crystal-list" id="crystal-list"></div>
+  <div class="crystal-card-wrap" id="crystal-card-wrap"></div>
+</div>
+<div class="crystal-drag-hint" id="crystal-drag-hint">
+  <span>{labels.dragHint || 'Drag'} </span>
+  <span class="drag-arrow">&rarr;</span>
+  <span> {labels.dragSub || 'crystals to compare'}</span>
+</div>
+<div id="crystal-fight"></div>

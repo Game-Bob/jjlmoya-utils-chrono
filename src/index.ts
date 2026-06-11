@@ -18,6 +18,7 @@ export { strapLengthCalculator, STRAP_LENGTH_CALCULATOR_TOOL } from './tool/stra
 export { quartzBatteryHealth, QUARTZ_BATTERY_HEALTH_TOOL } from './tool/quartz-battery-health';
 export { mainspringFinder, MAINSPRING_FINDER_TOOL } from './tool/mainspring-finder';
 export { altitudeWatchAccuracyEstimator, ALTITUDE_WATCH_ACCURACY_ESTIMATOR_TOOL } from './tool/altitude-watch-accuracy-estimator';
+export { watchCrystalMaterialComparison, WATCH_CRYSTAL_MATERIAL_COMPARISON_TOOL } from './tool/watch-crystal-material-comparison';
 
 export type {
   KnownLocale,

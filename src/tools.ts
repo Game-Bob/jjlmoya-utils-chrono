@@ -24,6 +24,7 @@ import { GMT_WORLD_TIMER_TOOL } from './tool/gmt-world-timer';
 import { QUARTZ_BATTERY_HEALTH_TOOL } from './tool/quartz-battery-health';
 import { MAINSPRING_FINDER_TOOL } from './tool/mainspring-finder';
 import { ALTITUDE_WATCH_ACCURACY_ESTIMATOR_TOOL } from './tool/altitude-watch-accuracy-estimator';
+import { WATCH_CRYSTAL_MATERIAL_COMPARISON_TOOL } from './tool/watch-crystal-material-comparison';
 
 export const ALL_TOOLS: ToolDefinition[] = [
   WATCH_ACCURACY_TRACKER_TOOL,
@@ -50,6 +51,7 @@ export const ALL_TOOLS: ToolDefinition[] = [
   QUARTZ_BATTERY_HEALTH_TOOL,
   MAINSPRING_FINDER_TOOL,
   ALTITUDE_WATCH_ACCURACY_ESTIMATOR_TOOL,
+  WATCH_CRYSTAL_MATERIAL_COMPARISON_TOOL,
 ];
 
 
