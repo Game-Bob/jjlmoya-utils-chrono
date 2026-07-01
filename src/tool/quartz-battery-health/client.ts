@@ -16,25 +16,26 @@ const batteries: BatteryData[] = [
   { id: 'cr2025', name: 'CR2025', capacity: 165 },
 ];
 
-const mainEl = document.querySelector('.tool-main-card') as HTMLElement;
+const mainEl = document.querySelector('.quartz-battery-card') as HTMLElement;
 const ui = mainEl ? JSON.parse(mainEl.dataset.ui || '{}') : {};
 
-const batterySelect = document.getElementById('battery-select') as HTMLSelectElement;
-const customFields = document.getElementById('custom-fields') as HTMLElement;
-const customCapacity = document.getElementById('custom-capacity') as HTMLInputElement;
-const consumptionInput = document.getElementById('consumption-input') as HTMLInputElement;
-const installMonth = document.getElementById('install-month') as HTMLSelectElement;
-const installYear = document.getElementById('install-year') as HTMLInputElement;
-const calcBtn = document.getElementById('calc-btn') as HTMLButtonElement;
-const resultCard = document.getElementById('result-card') as HTMLElement;
-const lifeYears = document.getElementById('life-years') as HTMLElement;
-const lifeMonths = document.getElementById('life-months') as HTMLElement;
-const lifeDays = document.getElementById('life-days') as HTMLElement;
-const gaugeFill = document.getElementById('gauge-fill') as HTMLElement;
-const healthBadge = document.getElementById('health-badge') as HTMLElement;
-const changeDateRow = document.getElementById('change-date-row') as HTMLElement;
-const changeDateValue = document.getElementById('change-date-value') as HTMLElement;
-const changeDateHint = document.getElementById('change-date-hint') as HTMLElement;
+const root = mainEl || document;
+const batterySelect = root.querySelector('#battery-select') as HTMLSelectElement;
+const customFields = root.querySelector('#custom-fields') as HTMLElement;
+const customCapacity = root.querySelector('#custom-capacity') as HTMLInputElement;
+const consumptionInput = root.querySelector('#consumption-input') as HTMLInputElement;
+const installMonth = root.querySelector('#install-month') as HTMLSelectElement;
+const installYear = root.querySelector('#install-year') as HTMLInputElement;
+const calcBtn = root.querySelector('#calc-btn') as HTMLButtonElement;
+const resultCard = root.querySelector('#result-card') as HTMLElement;
+const lifeYears = root.querySelector('#life-years') as HTMLElement;
+const lifeMonths = root.querySelector('#life-months') as HTMLElement;
+const lifeDays = root.querySelector('#life-days') as HTMLElement;
+const gaugeFill = root.querySelector('#gauge-fill') as HTMLElement;
+const healthBadge = root.querySelector('#health-badge') as HTMLElement;
+const changeDateRow = root.querySelector('#change-date-row') as HTMLElement;
+const changeDateValue = root.querySelector('#change-date-value') as HTMLElement;
+const changeDateHint = root.querySelector('#change-date-hint') as HTMLElement;
 
 const STORAGE_KEY = 'quartz-battery-health-state';
 
@@ -179,9 +180,9 @@ calcBtn.addEventListener('click', commit);
   el.addEventListener('input', commit);
 });
 
-document.querySelectorAll('.stepper-btn').forEach((btn) => {
+root.querySelectorAll('.stepper-btn').forEach((btn) => {
   btn.addEventListener('click', () => {
-    const target = document.getElementById(btn.getAttribute('data-target') || '') as HTMLInputElement;
+    const target = root.querySelector('#' + (btn.getAttribute('data-target') || '')) as HTMLInputElement;
     const dir = parseFloat(btn.getAttribute('data-dir') || '1');
     if (target) {
       calcValue(target, dir);
@@ -195,4 +196,3 @@ toggleCustom();
 commit();
 
 export {};
-

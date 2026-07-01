@@ -25,18 +25,19 @@ const activityFactors: Record<string, number> = {
 };
 
 const movementSelect = document.getElementById('movement-select') as HTMLSelectElement;
+const root = movementSelect.closest('.power-reserve-card') || document;
 const turnsInput = document.getElementById('turns-input') as HTMLInputElement;
 const hoursInput = document.getElementById('hours-input') as HTMLInputElement;
-const activityChips = document.querySelectorAll('[data-activity]') as NodeListOf<HTMLButtonElement>;
-const customFields = document.getElementById('custom-fields') as HTMLElement;
-const customReserve = document.getElementById('custom-reserve') as HTMLInputElement;
-const customTurns = document.getElementById('custom-turns') as HTMLInputElement;
-const calcBtn = document.getElementById('calc-btn') as HTMLButtonElement;
-const resultCard = document.getElementById('result-card') as HTMLElement;
-const gaugeFill = document.getElementById('gauge-fill') as HTMLElement;
-const chargeValue = document.getElementById('charge-value') as HTMLElement;
-const reserveValue = document.getElementById('reserve-value') as HTMLElement;
-const stopValue = document.getElementById('stop-value') as HTMLElement;
+const activityChips = root.querySelectorAll('[data-activity]') as NodeListOf<HTMLButtonElement>;
+const customFields = root.querySelector('#custom-fields') as HTMLElement;
+const customReserve = root.querySelector('#custom-reserve') as HTMLInputElement;
+const customTurns = root.querySelector('#custom-turns') as HTMLInputElement;
+const calcBtn = root.querySelector('#calc-btn') as HTMLButtonElement;
+const resultCard = root.querySelector('#result-card') as HTMLElement;
+const gaugeFill = root.querySelector('#gauge-fill') as HTMLElement;
+const chargeValue = root.querySelector('#charge-value') as HTMLElement;
+const reserveValue = root.querySelector('#reserve-value') as HTMLElement;
+const stopValue = root.querySelector('#stop-value') as HTMLElement;
 
 let currentActivity = 'medium';
 
@@ -115,9 +116,9 @@ activityChips.forEach((chip) => {
   });
 });
 
-document.querySelectorAll('.stepper-btn').forEach((btn) => {
+root.querySelectorAll('.stepper-btn').forEach((btn) => {
   btn.addEventListener('click', () => {
-    const target = document.getElementById(btn.getAttribute('data-target') || '') as HTMLInputElement;
+    const target = root.querySelector('#' + (btn.getAttribute('data-target') || '')) as HTMLInputElement;
     const dir = parseInt(btn.getAttribute('data-dir') || '1', 10);
     if (target) {
       calcValue(target, dir);

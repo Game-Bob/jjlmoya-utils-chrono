@@ -8,7 +8,7 @@ import {
 import { drawFitVisualizer } from './helpers/canvas';
 import { getRatioText, getCoverageText, getVerdictHtml, formatWristValue, formatRecValue } from './helpers/results';
 
-const mainEl = document.querySelector('.tool-main-card') as HTMLElement;
+const mainEl = document.querySelector('.wrist-presence-card') as HTMLElement;
 const ui = mainEl ? JSON.parse(mainEl.dataset.ui || '{}') : {};
 
 const wristCircSlider = document.getElementById('wrist-circumference') as HTMLInputElement;

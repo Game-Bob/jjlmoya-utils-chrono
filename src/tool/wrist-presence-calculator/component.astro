@@ -10,9 +10,9 @@ interface Props {
 const { ui } = Astro.props;
 ---
 
-<div class="tool-main-card" data-ui={JSON.stringify(ui)}>
-  <div class="wrist-calculator-layout">
-    <div class="calc-panel">
+<div class="wrist-presence-card" data-ui={JSON.stringify(ui)}>
+  <div class="wrist-presence-layout">
+    <div class="wrist-presence-calc-panel">
       <CalculatorInputs labels={ui} />
       <Visualizer labels={ui} />
     </div>

@@ -1,5 +1,6 @@
 const canvas = document.getElementById('gear-canvas') as HTMLCanvasElement;
 const ctx = canvas.getContext('2d')!;
+const root = canvas.closest('.gear-train-card') || document;
 
 import { MOVEMENTS } from './movements';
 import type { MovementDef } from './movements';
@@ -34,17 +35,17 @@ function resizeCanvas() {
 
 function updateStats() {
   const g = currentMov.gears;
-  const setText = (id: string, v: string) => { const el = document.getElementById('rpm-' + id); if (el) el.textContent = v; };
+  const setText = (id: string, v: string) => { const el = root.querySelector('#rpm-' + id); if (el) el.textContent = v; };
   setText('barrel', (g[0].rpm * 60).toFixed(2) + '/h');
   setText('center', (g[1].rpm * 60).toFixed(1) + '/h');
   setText('third', (g[2].rpm * 60).toFixed(1) + '/h');
   setText('fourth', g[3].rpm.toFixed(1) + ' rpm');
   setText('escape', g[4].rpm.toFixed(0) + ' rpm');
-  const bphEl = document.getElementById('bph-pallet');
+  const bphEl = root.querySelector('#bph-pallet');
   if (bphEl) bphEl.textContent = currentMov.pallet.bph.toString();
-  const hzEl = document.getElementById('hz-balance');
+  const hzEl = root.querySelector('#hz-balance');
   if (hzEl) hzEl.textContent = currentMov.balance.hz.toString();
-  const vphEl = document.getElementById('vph-balance');
+  const vphEl = root.querySelector('#vph-balance');
   if (vphEl) vphEl.textContent = currentMov.balance.vph.toString();
 }
 
@@ -53,7 +54,7 @@ function render() {
   setHovered(hoveredGear);
   drawScene(currentMov, { angles, palletPhase, balancePhase, highlight: highlightedGear, hover: hoveredGear });
   const step = highlightedGear !== null ? highlightedGear : -1;
-  document.querySelectorAll('.flow-bar .step').forEach((el, idx) => {
+  root.querySelectorAll('.flow-bar .step').forEach((el, idx) => {
     el.classList.toggle('active', idx <= step);
   });
 }
@@ -83,7 +84,7 @@ function switchMovement(id: string) {
   balancePhase = 0;
   highlightedGear = null;
   updateStats();
-  document.querySelectorAll('[data-mov]').forEach((b) => {
+  root.querySelectorAll('[data-mov]').forEach((b) => {
     b.classList.toggle('active', (b as HTMLElement).dataset.mov === id);
   });
 }
@@ -91,7 +92,7 @@ function switchMovement(id: string) {
 function setSpeed(mult: number) {
   speedMult = mult;
   paused = mult === 0;
-  document.querySelectorAll('[data-spd]').forEach((b) => {
+  root.querySelectorAll('[data-spd]').forEach((b) => {
     const spd = parseFloat((b as HTMLElement).dataset.spd || '1');
     b.classList.toggle('active', spd === mult);
   });
@@ -118,20 +119,20 @@ function onCanvasMove(e: MouseEvent) {
 function highlightGear(idx: number | null) {
   hoveredGear = idx;
   highlightedGear = idx;
-  document.querySelectorAll('.data-card').forEach((c) => c.classList.remove('highlighted'));
+  root.querySelectorAll('.data-card').forEach((c) => c.classList.remove('highlighted'));
   if (idx !== null && idx < 7) {
-    document.querySelectorAll('.data-card')[idx]?.classList.add('highlighted');
+    root.querySelectorAll('.data-card')[idx]?.classList.add('highlighted');
   }
 }
 
 function initControls() {
-  document.querySelectorAll('[data-mov]').forEach((b) => {
+  root.querySelectorAll('[data-mov]').forEach((b) => {
     b.addEventListener('click', () => switchMovement((b as HTMLElement).dataset.mov || '2824'));
   });
-  document.querySelectorAll('[data-spd]').forEach((b) => {
+  root.querySelectorAll('[data-spd]').forEach((b) => {
     b.addEventListener('click', () => setSpeed(parseFloat((b as HTMLElement).dataset.spd || '1')));
   });
-  document.querySelectorAll('.data-card').forEach((card, idx) => {
+  root.querySelectorAll('.data-card').forEach((card, idx) => {
     card.addEventListener('mouseenter', () => highlightGear(idx));
     card.addEventListener('mouseleave', () => highlightGear(null));
   });
