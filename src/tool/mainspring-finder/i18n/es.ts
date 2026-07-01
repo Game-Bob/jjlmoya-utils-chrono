@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<MainspringFinderUI> = {
   slug: 'buscador-muelle-real',
   title: 'Buscador de Muelle Real',
-  description: 'Calcule las dimensiones del muelle real a partir de las medidas del barrilete para movimientos de reloj antiguos.',
+  description: 'Calcule las dimensiones del muelle real a partir de las medidas del barrilete para movimientos de reloj antiguos con precisión, diámetro y árbol correctos.',
   ui: {
     title: 'Buscador de Muelle Real',
     barrelLabel: 'DI del Barrilete',
@@ -90,23 +90,23 @@ export const content: ToolLocaleContent<MainspringFinderUI> = {
   ],
   faq: [
     {
-      question: 'Que precision tienen las dimensiones calculadas del muelle real?',
+      question: '¿Que precision tienen las dimensiones calculadas del muelle real?',
       answer: 'Los calculos se basan en formulas estandar de relojeria que asumen una geometria ideal del barrilete. Las dimensiones reales pueden variar hasta un 5-10 % debido a las tolerancias de fabricacion, las configuraciones del extremo del muelle (anclaje, ojal o extremo en T) y la aleacion especifica utilizada. Utilice siempre los valores calculados como un punto de referencia solido, pero compare con las hojas de datos del fabricante o los catalogos de proveedores comerciales antes de hacer su pedido.',
     },
     {
-      question: 'Que sucede si no encuentro el tamano comercial exacto?',
+      question: '¿Que sucede si no encuentro el tamano comercial exacto?',
       answer: 'Cuando el tamano exacto no esta disponible, priorice coincidir exactamente con la altura del muelle, luego el grosor dentro de 0.005 mm. La longitud se puede ajustar seleccionando un muelle diferente de la misma familia de altura y grosor. Un muelle ligeramente mas largo funcionara si el barrilete tiene suficiente espacio, pero un muelle mas corto reducira la reserva de marcha.',
     },
     {
-      question: 'Como mido las dimensiones del barrilete sin quitar el muelle real?',
+      question: '¿Como mido las dimensiones del barrilete sin quitar el muelle real?',
       answer: 'Si el barrilete aun contiene el muelle viejo, puede medir el diametro exterior del barrilete desde fuera (luego reste el grosor de la pared, tipicamente 0.2-0.4 mm) y la altura total (luego reste el grosor de la tapa). Para obtener los resultados mas precisos, retire el muelle viejo y limpie el barrilete antes de medir.',
     },
     {
-      question: 'Cual es la diferencia entre un extremo de muelle de anclaje y uno de ojal?',
+      question: '¿Cual es la diferencia entre un extremo de muelle de anclaje y uno de ojal?',
       answer: 'Un extremo de anclaje (tambien llamado extremo en T) tiene una pequena lengueta en forma de T que se engancha en la pared del barrilete. La mayoria de los calibres suizos y japoneses modernos usan este tipo. Un extremo de ojal tiene un pequeno agujero que se ajusta sobre una clavija en el arbol. Esta herramienta calcula solo las dimensiones de la cinta; debe verificar que el tipo de extremo coincida con su barrilete antes de hacer su pedido.',
     },
     {
-      question: 'Puedo usar esta herramienta para movimientos automaticos o cronografos?',
+      question: '¿Puedo usar esta herramienta para movimientos automaticos o cronografos?',
       answer: 'Si, pero tenga en cuenta que los movimientos automaticos a menudo tienen un numero mayor de vueltas (8-10) y pueden requerir un muelle ligeramente mas delgado para acomodar el modulo de cuerda adicional. Los movimientos de cronografo tipicamente necesitan muelles mas gruesos para accionar el mecanismo del cronografo. Ajuste el valor de Vueltas en consecuencia y verifique contra las especificaciones del fabricante.',
     },
   ],

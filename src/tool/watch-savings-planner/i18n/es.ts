@@ -80,7 +80,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
     },
     {
       name: 'Celebra',
-      text: '¡Cuando el anillo llegue al 100 %, habrás alcanzado tu meta. Es hora de comprar ese reloj!',
+      text: '¡Cuando el anillo llegue al 100 %, habrás alcanzado tu meta. ¡Es hora de comprar ese reloj!',
     },
   ],
   schemas: [
@@ -145,7 +145,7 @@ export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
         {
           '@type': 'HowToStep',
           'name': 'Celebra',
-          'text': '¡Cuando el anillo llegue al 100 %, habrás alcanzado tu meta. Es hora de comprar ese reloj!',
+          'text': '¡Cuando el anillo llegue al 100 %, habrás alcanzado tu meta. ¡Es hora de comprar ese reloj!',
         },
       ],
     },

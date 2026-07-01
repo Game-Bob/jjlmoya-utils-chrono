@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   slug: 'calculadora-taquimetrica-ptbr',
   title: 'Calculadora Taquimetrica: Velocidade a partir do tempo decorrido',
-  description: 'Calcule a velocidade a partir do tempo decorrido usando a formula do taquimetro. Funciona com qualquer cronografo que tenha uma escala taquimetrica no bisel.',
+  description: 'Calcule a velocidade a partir do tempo decorrido usando a fórmula do taquímetro. Funciona com qualquer cronógrafo que tenha uma escala taquimétrica no bisel.',
   ui: {
     title: 'Calculadora Taquimetrica',
     timeLabel: 'Tempo Decorrido (segundos)',

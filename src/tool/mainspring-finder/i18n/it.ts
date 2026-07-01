@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<MainspringFinderUI> = {
   slug: 'trova-molla-reale',
   title: 'Trova Molla Reale',
-  description: 'Calcola le dimensioni della molla reale a partire dalle misure del bariletto per movimenti di orologi vintage.',
+  description: 'Calcola le dimensioni della molla reale a partire dalle misure del bariletto per movimenti di orologi vintage; è utile per più verifiche di compatibilità.',
   ui: {
     title: 'Trova Molla Reale',
     barrelLabel: 'Diametro interno bariletto',

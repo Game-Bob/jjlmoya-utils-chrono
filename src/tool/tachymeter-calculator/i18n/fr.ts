@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   slug: 'calculateur-tachymetre',
   title: 'Calculateur Tachymetre: Vitesse depuis le temps ecoule',
-  description: 'Calculez la vitesse a partir du temps ecoule en utilisant la formule du tachymetre. Fonctionne avec tout chronographe possedant une echelle tachymetrique sur la lunette.',
+  description: 'Calculez la vitesse à partir du temps écoulé en utilisant la formule du tachymètre. Fonctionne avec tout chronographe possédant une échelle tachymétrique sur la lunette.',
   ui: {
     title: 'Calculateur Tachymetre',
     timeLabel: 'Temps Ecoule (secondes)',

@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   slug: 'calculadora-taquimetrica',
   title: 'Calculadora Taquimetrica: Velocidad desde tiempo transcurrido',
-  description: 'Calcula la velocidad a partir del tiempo transcurrido usando la formula del taquimetro. Funciona con cualquier cronografo que tenga una escala taquimetrica en el bisel.',
+  description: 'Calcula la velocidad a partir del tiempo transcurrido usando la fórmula del taquímetro. Funciona con cualquier cronógrafo que tenga una escala taquimétrica en el bisel.',
   ui: {
     title: 'Calculadora Taquimetrica',
     timeLabel: 'Tiempo Transcurrido (segundos)',
@@ -56,23 +56,23 @@ export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   ],
   faq: [
     {
-      question: 'Como se usa un bisel taquimetrico en mi reloj?',
+      question: '¿Como se usa un bisel taquimetrico en mi reloj?',
       answer: 'Pon en marcha el cronografo en un punto de referencia (p. ej., un hito de carretera). Detenlo despues de exactamente 1 km (o 1 milla). La manecilla de segundos apunta a la velocidad en la escala del bisel. Por ejemplo, si tardaste 36 segundos en recorrer 1 km, la manecilla apunta a 100, lo que significa 100 km/h.',
     },
     {
-      question: 'Que pasa si mi tiempo transcurrido es mas rapido de lo que el bisel puede leer?',
+      question: '¿Que pasa si mi tiempo transcurrido es mas rapido de lo que el bisel puede leer?',
       answer: 'Algunos taquimetros solo llegan hasta 400 o 500. Si recorres 1 km en menos de 9 segundos, usa una distancia base mayor. Recorre 2 km y divide la lectura del bisel entre 2, o recorre 3 km y divide entre 3.',
     },
     {
-      question: 'Que pasa si mi tiempo transcurrido es mas lento de lo que el bisel puede leer?',
+      question: '¿Que pasa si mi tiempo transcurrido es mas lento de lo que el bisel puede leer?',
       answer: 'Usa una distancia base mas corta. Por ejemplo, si tardas 90 segundos en recorrer 1 km, recorre 0.5 km en su lugar. Lee el bisel y multiplica por 2. La escala taquimetrica estandar cubre tiempos de aproximadamente 7 a 60 segundos.',
     },
     {
-      question: 'Puedo usar un taquimetro para algo mas que la velocidad?',
+      question: '¿Puedo usar un taquimetro para algo mas que la velocidad?',
       answer: 'Si. El taquimetro mide cualquier tasa por hora. Por ejemplo, mide cuanto tiempo se tarda en completar una tarea y la escala muestra cuantas puedes hacer por hora. En fabricacion, una tarea de 30 segundos significa 120 unidades por hora.',
     },
     {
-      question: 'Todos los taquimetros usan la misma escala?',
+      question: '¿Todos los taquimetros usan la misma escala?',
       answer: 'La mayoria usa la escala logaritmica estandar basada en la formula 3.600 ÷ segundos. Sin embargo, algunos relojes antiguos o marcas pueden tener variaciones. La escala fisica tambien puede estar limitada por el minutero y las marcas del bisel.',
     },
   ],

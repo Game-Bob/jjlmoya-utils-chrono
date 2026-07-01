@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   slug: 'calcolatore-tachimetro',
   title: 'Calcolatore Tachimetro: Velocita dal tempo trascorso',
-  description: 'Calcola la velocita dal tempo trascorso usando la formula del tachimetro. Funziona con qualsiasi cronografo dotato di scala tachimetrica sulla lunetta.',
+  description: 'Calcola la velocità dal tempo trascorso usando la formula del tachimetro. Funziona con qualsiasi cronografo dotato di scala tachimetrica sulla lunetta; è utile anche per più misure.',
   ui: {
     title: 'Calcolatore Tachimetro',
     timeLabel: 'Tempo Trascorso (secondi)',

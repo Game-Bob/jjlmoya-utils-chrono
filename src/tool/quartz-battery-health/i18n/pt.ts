@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<QuartzBatteryHealthUI> = {
   slug: 'verificador-saude-bateria-quartzo',
   title: 'Verificador de Saude da Bateria de Quartzo',
-  description: 'Calcule a vida teorica da bateria de um movimento de quartzo inserindo a capacidade da pilha (mAh) e o consumo do calibre (microamperes). Opcionalmente defina a data de instalacao para estimar a data de substituicao.',
+  description: 'Calcule a vida teórica da bateria de um movimento de quartzo inserindo a capacidade da pilha (mAh) e o consumo do calibre (microamperes). Opcionalmente defina a data de instalação para estimar a data de substituição.',
   ui: {
     title: 'Verificador de Saude da Bateria de Quartzo',
     batteryLabel: 'Pilha',

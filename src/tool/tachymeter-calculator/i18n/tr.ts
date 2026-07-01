@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   slug: 'takimetre-hesaplayici',
   title: 'Takimetre Hesaplayici: Gecen Sureden Hiz Hesaplama',
-  description: 'Takimetre formulunu kullanarak gecen sureden hiz hesaplayin. Takimetre bezel olcegine sahip herhangi bir kronograf saatle calisir.',
+  description: 'Takimetre formülünü kullanarak geçen süreden hız hesaplayın. Takimetre bezel ölçeğine sahip herhangi bir kronograf saatle çalışır.',
   ui: {
     title: 'Takimetre Hesaplayici',
     timeLabel: 'Gecen Sure (saniye)',

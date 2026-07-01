@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<WatchSavingsPlannerUI> = {
   slug: 'plan-oszczedzania-na-zegarek',
   title: 'Planer Oszczedzania na Zegarek',
-  description: 'Ustawiaj i sledz cele oszczednosciowe na zakup nastepnego zegarka. Wizualizuj postepy, obliczaj harmonogramy i pozostan zmotywowany.',
+  description: 'Ustawiaj i śledź cele oszczędnościowe na zakup następnego zegarka. Wizualizuj postępy, obliczaj harmonogramy i pozostań zmotywowany.',
   ui: {
     title: 'Ustawienia Celu Oszczednosciowego',
     addGoalTitle: 'Nowy Cel Oszczednosciowy',

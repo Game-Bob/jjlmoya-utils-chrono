@@ -66,7 +66,7 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     distanceResult: 'Distancia Medida',
     elapsedTime: 'Tiempo Transcurrido',
     historyTitle: 'Historial de Mediciones',
-    noHistory: '¡No hay mediciones aún. Inicia un cálculo arriba!',
+    noHistory: '¡No hay mediciones aún. ¡Inicia un cálculo arriba!',
     sec: 's',
     km: 'km',
     m: 'm',

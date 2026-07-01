@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<QuartzBatteryHealthUI> = {
   slug: 'controleur-sante-pile-quartz',
   title: 'Controleur de Sante de Pile Quartz',
-  description: 'Calculez la duree de vie theorique d\'une pile de mouvement quartz en entrant la capacite de la cellule (mAh) et la consommation du calibre (µA). Ajoutez optionnellement la date d\'installation pour estimer la date de remplacement.',
+  description: 'Calculez la durée de vie théorique d\'une pile de mouvement quartz en entrant la capacité de la cellule (mAh) et la consommation du calibre (µA). Ajoutez optionnellement la date d\'installation pour estimer la date de remplacement.',
   ui: {
     title: 'Controleur de Sante de Pile Quartz',
     batteryLabel: 'Pile',

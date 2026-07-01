@@ -5,7 +5,7 @@ import { bibliography } from '../bibliography';
 export const content: ToolLocaleContent<TachymeterCalculatorUI> = {
   slug: 'kalkulator-tachymetru',
   title: 'Kalkulator Tachymetru: Predkosc z czasu pomiaru',
-  description: 'Oblicz predkosc z czasu pomiaru za pomoca wzoru tachymetrycznego. Dziala z kazdym chronografem wyposazonym w skale tachymetryczna na bezelu.',
+  description: 'Oblicz prędkość z czasu pomiaru za pomocą wzoru tachymetrycznego. Działa z każdym chronografem wyposażonym w skalę tachymetryczną na bezelu.',
   ui: {
     title: 'Kalkulator Tachymetru',
     timeLabel: 'Czas pomiaru (sekundy)',
