@@ -1,5 +1,5 @@
 ---
-import GearPanel from './components/GearPanel.astro';
+import './gear-train-explorer.css';
 
 interface Props {
   ui: Record<string, string>;
@@ -8,10 +8,74 @@ interface Props {
 const { ui } = Astro.props;
 ---
 
-<link href="./gear-train-explorer.css" rel="stylesheet" />
+<div class="gte-tool" data-gte-root data-ui={JSON.stringify(ui)}>
+  <div class="gte-toolbar">
+    <div class="gte-control">
+      <span class="gte-label">{ui.movementLabel || 'Movement'}</span>
+      <div class="gte-buttons" role="group" aria-label={ui.movementLabel || 'Movement'}>
+        <button type="button" class="gte-button is-active" data-gte-movement="2824">{ui.mov2824 || 'ETA 2824'}</button>
+        <button type="button" class="gte-button" data-gte-movement="elprimero">{ui.movElPrimero || 'El Primero'}</button>
+        <button type="button" class="gte-button" data-gte-movement="vintage">{ui.movVintage || 'Vintage 18k'}</button>
+      </div>
+    </div>
+    <div class="gte-control">
+      <span class="gte-label">{ui.speedLabel || 'Speed'}</span>
+      <div class="gte-buttons" role="group" aria-label={ui.speedLabel || 'Speed'}>
+        <button type="button" class="gte-button" data-gte-speed="0.5">{ui.speedSlow || 'Slow'}</button>
+        <button type="button" class="gte-button is-active" data-gte-speed="1">{ui.speedNormal || 'Normal'}</button>
+        <button type="button" class="gte-button" data-gte-speed="2">2x</button>
+        <button type="button" class="gte-button" data-gte-speed="0">{ui.speedPaused || 'Paused'}</button>
+      </div>
+    </div>
+  </div>
 
-<div class="gear-train-card" data-ui={JSON.stringify(ui)}>
-  <GearPanel labels={ui} />
+  <div class="gte-stage">
+    <canvas class="gte-canvas" width="900" height="520" data-gte-canvas></canvas>
+  </div>
+
+  <div class="gte-stats" data-gte-stats>
+    <button type="button" class="gte-card" data-gte-part="0">
+      <span>{ui.barrelLabel || 'Barrel'}</span>
+      <strong data-gte-value="barrel">0</strong>
+    </button>
+    <button type="button" class="gte-card" data-gte-part="1">
+      <span>{ui.centerWheelLabel || 'Center wheel'}</span>
+      <strong data-gte-value="center">0</strong>
+    </button>
+    <button type="button" class="gte-card" data-gte-part="2">
+      <span>{ui.thirdWheelLabel || 'Third wheel'}</span>
+      <strong data-gte-value="third">0</strong>
+    </button>
+    <button type="button" class="gte-card" data-gte-part="3">
+      <span>{ui.fourthWheelLabel || 'Fourth wheel'}</span>
+      <strong data-gte-value="fourth">0</strong>
+    </button>
+    <button type="button" class="gte-card" data-gte-part="4">
+      <span>{ui.escapeWheelLabel || 'Escape wheel'}</span>
+      <strong data-gte-value="escape">0</strong>
+    </button>
+    <button type="button" class="gte-card" data-gte-part="5">
+      <span>{ui.palletForkLabel || 'Pallet fork'}</span>
+      <strong data-gte-value="pallet">0</strong>
+    </button>
+    <button type="button" class="gte-card" data-gte-part="6">
+      <span>{ui.balanceWheelLabel || 'Balance wheel'}</span>
+      <strong data-gte-value="balance">0</strong>
+    </button>
+  </div>
+
+  <div class="gte-flow">
+    <span class="gte-label">{ui.powerFlowLabel || 'Power flow'}</span>
+    <div class="gte-flow-track">
+      <span data-gte-flow="0">{ui.barrelLabel || 'Barrel'}</span>
+      <span data-gte-flow="1">{ui.centerWheelLabel || 'Center'}</span>
+      <span data-gte-flow="2">{ui.thirdWheelLabel || 'Third'}</span>
+      <span data-gte-flow="3">{ui.fourthWheelLabel || 'Fourth'}</span>
+      <span data-gte-flow="4">{ui.escapeWheelLabel || 'Escape'}</span>
+      <span data-gte-flow="5">{ui.palletForkLabel || 'Pallet'}</span>
+      <span data-gte-flow="6">{ui.balanceWheelLabel || 'Balance'}</span>
+    </div>
+  </div>
 </div>
 
 <script src="./client.ts"></script>

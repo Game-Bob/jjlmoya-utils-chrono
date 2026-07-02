@@ -1,7 +1,5 @@
 ---
-import CalculatorInputs from './components/CalculatorInputs.astro';
-import Visualizer from './components/Visualizer.astro';
-import FitResult from './components/FitResult.astro';
+import './wrist-presence-calculator.css';
 
 interface Props {
   ui: Record<string, string>;
@@ -10,13 +8,93 @@ interface Props {
 const { ui } = Astro.props;
 ---
 
-<div class="wrist-presence-card" data-ui={JSON.stringify(ui)}>
-  <div class="wrist-presence-layout">
-    <div class="wrist-presence-calc-panel">
-      <CalculatorInputs labels={ui} />
-      <Visualizer labels={ui} />
-    </div>
-    <FitResult labels={ui} />
+<div class="wpc-tool" data-wpc-root data-ui={JSON.stringify(ui)}>
+  <div class="wpc-grid">
+    <section class="wpc-panel wpc-controls" aria-labelledby="wpc-title">
+      <div class="wpc-panel-head">
+        <h2 id="wpc-title" class="wpc-title">{ui.title || 'Wrist Presence Calculator'}</h2>
+        <div class="wpc-units" role="group" aria-label="Units">
+          <button type="button" class="wpc-unit is-active" data-wpc-unit="cm">{ui.unitCm || 'cm'}</button>
+          <button type="button" class="wpc-unit" data-wpc-unit="in">{ui.unitInches || 'in'}</button>
+        </div>
+      </div>
+
+      <div class="wpc-field">
+        <label class="wpc-label" for="wpc-wrist-circumference">
+          <span>{ui.wristCircumferenceLabel || 'Wrist circumference'}</span>
+          <output class="wpc-value" data-wpc-output="wristCircumference">17.0 cm</output>
+        </label>
+        <input id="wpc-wrist-circumference" class="wpc-range" type="range" min="12" max="24" step="0.1" value="17" data-wpc-input="wristCircumference" />
+      </div>
+
+      <div class="wpc-field">
+        <label class="wpc-label" for="wpc-case-diameter">
+          <span>{ui.caseDiameterLabel || 'Case diameter'}</span>
+          <output class="wpc-value" data-wpc-output="caseDiameter">40 mm</output>
+        </label>
+        <input id="wpc-case-diameter" class="wpc-range" type="range" min="28" max="55" step="0.5" value="40" data-wpc-input="caseDiameter" />
+      </div>
+
+      <div class="wpc-field">
+        <label class="wpc-label" for="wpc-lug-to-lug">
+          <span>{ui.lugToLugLabel || 'Lug to lug'}</span>
+          <output class="wpc-value" data-wpc-output="lugToLug">47 mm</output>
+        </label>
+        <input id="wpc-lug-to-lug" class="wpc-range" type="range" min="32" max="65" step="0.5" value="47" data-wpc-input="lugToLug" />
+      </div>
+
+      <div class="wpc-field">
+        <label class="wpc-check">
+          <input type="checkbox" checked data-wpc-input="autoWidth" />
+          <span>{ui.autoEstimateWidthLabel || 'Auto estimate wrist width'}</span>
+        </label>
+      </div>
+
+      <div class="wpc-field" data-wpc-custom-width hidden>
+        <label class="wpc-label" for="wpc-wrist-width">
+          <span>{ui.wristWidthLabel || 'Flat wrist width'}</span>
+          <output class="wpc-value" data-wpc-output="wristWidth">51 mm</output>
+        </label>
+        <input id="wpc-wrist-width" class="wpc-range" type="range" min="35" max="85" step="0.5" value="51" data-wpc-input="wristWidth" />
+      </div>
+    </section>
+
+    <section class="wpc-panel wpc-visual" aria-labelledby="wpc-visual-title">
+      <h3 id="wpc-visual-title" class="wpc-section-title">{ui.visualizerTitle || 'Wrist visualizer'}</h3>
+      <div class="wpc-stage" aria-hidden="true">
+        <svg class="wpc-svg" viewBox="0 0 420 260" role="img">
+          <ellipse class="wpc-svg-wrist" cx="210" cy="132" rx="150" ry="58"></ellipse>
+          <line class="wpc-svg-lug" x1="122" y1="132" x2="298" y2="132"></line>
+          <circle class="wpc-svg-case" cx="210" cy="132" r="58"></circle>
+          <circle class="wpc-svg-dial" cx="210" cy="132" r="45"></circle>
+          <line class="wpc-svg-hand" x1="210" y1="132" x2="210" y2="98"></line>
+          <line class="wpc-svg-hand" x1="210" y1="132" x2="238" y2="132"></line>
+          <text class="wpc-svg-text" x="210" y="228" text-anchor="middle" data-wpc-svg-label>40 mm / 47 mm</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="wpc-panel wpc-results" aria-labelledby="wpc-results-title">
+      <h3 id="wpc-results-title" class="wpc-section-title">{ui.fitAnalysisTitle || 'Fit analysis'}</h3>
+      <div class="wpc-metrics">
+        <div class="wpc-metric">
+          <span class="wpc-metric-label">{ui.caseWristRatioLabel || 'Case to wrist ratio'}</span>
+          <strong class="wpc-metric-value" data-wpc-output="ratio">4.25</strong>
+          <span class="wpc-badge" data-wpc-output="ratioVerdict">Bold</span>
+        </div>
+        <div class="wpc-metric">
+          <span class="wpc-metric-label">{ui.wristCoverageLabel || 'Wrist coverage'}</span>
+          <strong class="wpc-metric-value" data-wpc-output="coverage">92%</strong>
+          <span class="wpc-badge" data-wpc-output="coverageVerdict">Bold</span>
+        </div>
+      </div>
+      <p class="wpc-verdict" data-wpc-output="verdict"></p>
+      <div class="wpc-recs" aria-label={ui.idealSizesTitle || 'Ideal sizes'}>
+        <div><span>{ui.minClassicLabel || 'Classic'}</span><strong data-wpc-output="classic">34 mm</strong></div>
+        <div><span>{ui.sweetSpotLabel || 'Sweet spot'}</span><strong data-wpc-output="sweet">38 mm</strong></div>
+        <div><span>{ui.maxBoldLabel || 'Bold max'}</span><strong data-wpc-output="bold">42 mm</strong></div>
+      </div>
+    </section>
   </div>
 </div>
 
