@@ -9,7 +9,7 @@ const { labels } = Astro.props;
 <div class="converter-panel">
   <div class="panel-section">
     <div class="section-label">{labels.vphLabel || "Movement"}</div>
-    <select class="movement-select" id="movement-select">
+    <select class="movement-select" id="movement-select" aria-label={labels.vphLabel || "Movement"}>
       <option value="28800" data-vph="28800">ETA 2824-2 / SW200-,800 vph</option
       >
       <option value="28800" data-vph="28800"
@@ -46,6 +46,7 @@ const { labels } = Astro.props;
         min="3600"
         max="360000"
         value="28800"
+        aria-label={labels.customVph || "Vibrations per hour"}
       />
       <button type="button" class="stepper-btn" data-step="1200">+1200</button>
     </div>

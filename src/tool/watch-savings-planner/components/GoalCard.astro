@@ -52,7 +52,7 @@ const { labels } = Astro.props;
     </div>
     <div class="goal-monthly-adjust">
       <span class="adjust-label">{labels.adjustMonthly || "Adjust monthly"}</span>
-      <input type="range" class="goal-slider" min="10" max="5000" step="10" />
+      <input type="range" class="goal-slider" min="10" max="5000" step="10" aria-label={labels.adjustMonthly || "Adjust monthly"} />
     </div>
   </div>
 </template>

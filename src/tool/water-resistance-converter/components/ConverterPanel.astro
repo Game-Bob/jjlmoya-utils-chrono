@@ -10,8 +10,8 @@ const { labels } = Astro.props;
   <div class="panel-section">
     <div class="section-label">{labels.depthLabel || "Water Resistance"}</div>
     <div class="input-unit-group">
-      <input type="number" class="depth-input" id="depth-input" min="0" max="10000" value="30" placeholder="30" />
-      <select class="unit-select" id="unit-select">
+      <input type="number" class="depth-input" id="depth-input" min="0" max="10000" value="30" placeholder="30" aria-label={labels.depthLabel || "Water Resistance"} />
+      <select class="unit-select" id="unit-select" aria-label={labels.depthLabel || "Water Resistance Unit"}>
         <option value="m">{labels.unitMeters || "Meters (m)"}</option>
         <option value="ft">{labels.unitFeet || "Feet (ft)"}</option>
         <option value="atm">{labels.unitATM || "Atmospheres (ATM)"}</option>

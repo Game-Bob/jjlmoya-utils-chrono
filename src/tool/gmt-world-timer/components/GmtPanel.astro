@@ -11,6 +11,7 @@ const { labels } = Astro.props;
       id="gmt-search"
       placeholder={labels.searchPlaceholder || 'Search city or time zone...'}
       autocomplete="off"
+      aria-label={labels.searchPlaceholder || 'Search city or time zone'}
     />
     <div class="gmt-dropdown" id="gmt-dropdown"></div>
   </div>

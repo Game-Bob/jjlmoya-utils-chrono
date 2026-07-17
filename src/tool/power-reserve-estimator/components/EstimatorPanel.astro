@@ -9,7 +9,7 @@ const { labels } = Astro.props;
 <div class="estimator-panel">
   <div class="panel-section">
     <div class="section-label">{labels.movementLabel || "Movement"}</div>
-    <select class="movement-select" id="movement-select">
+    <select class="movement-select" id="movement-select" aria-label={labels.movementLabel || "Movement"}>
       <option value="eta-2824">ETA 2824-2 / SW200-38h</option>
       <option value="eta-2892">ETA 2892-A2 / SW300-42h</option>
       <option value="valjoux-7750">Valjoux 7750 / SW500-48h</option>

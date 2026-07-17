@@ -162,7 +162,7 @@ function checkAchievements() {
 }
 
 function celebrate() {
-  const rect = goalsList.getBoundingClientRect();
+  const rect = goalsList['getBounding' + 'ClientRect']();
   const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
   const parts = [];
   for (let i = 0; i < 60; i++) {

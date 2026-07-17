@@ -10,7 +10,7 @@ const { labels } = Astro.props;
   <div class="panel-section">
     <div class="section-label">{labels.selectDate || "Select Date"}</div>
     <div class="date-row">
-      <input type="date" id="moon-date-input" />
+      <input type="date" id="moon-date-input" aria-label={labels.selectDate || "Select Date"} />
       <button type="button" class="btn-today" id="btn-today">{labels.today || "Today"}</button>
     </div>
   </div>

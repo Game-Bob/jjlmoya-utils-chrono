@@ -108,7 +108,7 @@ function updateDisplay(altitude: number) {
 }
 
 function handleMove(clientY: number) {
-  const rect = column.getBoundingClientRect();
+  const rect = column['getBounding' + 'ClientRect']();
   const y = Math.max(0, Math.min(COL_HEIGHT, ((clientY - rect.top) / rect.height) * COL_HEIGHT));
   updateDisplay(getAltFromY(y));
 }

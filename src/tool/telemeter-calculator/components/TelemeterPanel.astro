@@ -165,7 +165,7 @@ const { labels } = Astro.props;
             <span class="tel-label-value" id="temp-display">20°C</span>
           </div>
           <div class="tel-slider-wrapper">
-            <input type="range" class="tel-slider" id="temp-slider" min="-20" max="50" value="20" step="1" />
+            <input type="range" class="tel-slider" id="temp-slider" min="-20" max="50" value="20" step="1" aria-label={labels.temperature || "Temperature"} />
           </div>
         </div>
 

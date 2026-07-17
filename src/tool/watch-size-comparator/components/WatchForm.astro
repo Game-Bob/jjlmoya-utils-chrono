@@ -14,6 +14,7 @@ const { labels } = Astro.props;
         type="text"
         id="watch-name-input"
         placeholder={labels.watchNamePlaceholder || "e.g. Rolex Submariner"}
+        aria-label={labels.watchNamePlaceholder || "Watch name"}
       />
       <button type="button" class="btn-add" id="add-watch-btn"
         >{labels.addWatch || "Add Watch"}</button

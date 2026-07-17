@@ -9,7 +9,7 @@ const { labels } = Astro.props;
 <div class="tach-panel">
   <div class="panel-section">
     <div class="section-label">{labels.presetLabel || "Preset"}</div>
-    <select class="preset-select" id="preset-select">
+    <select class="preset-select" id="preset-select" aria-label={labels.presetLabel || "Preset"}>
       <option value="car">Car (36s per km)</option>
       <option value="bike">Cycling (90s per km)</option>
       <option value="run">Running (240s per km)</option>
@@ -33,6 +33,7 @@ const { labels } = Astro.props;
         max="600"
         step="0.1"
         value="36"
+        aria-label={labels.timeLabel || "Elapsed Time"}
       />
       <button type="button" class="stepper-btn" data-step="1">+1</button>
     </div>

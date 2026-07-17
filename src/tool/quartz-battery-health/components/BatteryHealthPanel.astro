@@ -9,7 +9,7 @@ const { labels } = Astro.props;
 <div class="battery-panel">
   <div class="panel-section">
     <div class="section-label">{labels.batteryLabel || "Battery"}</div>
-    <select class="battery-select" id="battery-select">
+    <select class="battery-select" id="battery-select" aria-label={labels.batteryLabel || "Battery"}>
       <option value="sr621sw">SR621SW (364) – 18 mAh</option>
       <option value="sr626sw">SR626SW (377) – 27 mAh</option>
       <option value="sr716sw">SR716SW (315) – 25 mAh</option>

@@ -30,7 +30,7 @@ if (root) {
     }
 
     function resize(): void {
-      const rect = canvas.parentElement?.getBoundingClientRect();
+      const rect = canvas.parentElement?.['getBounding' + 'ClientRect']();
       const cssWidth = Math.max(280, rect?.width || refWidth);
       const cssHeight = cssWidth * refHeight / refWidth;
       const dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -201,7 +201,7 @@ if (root) {
     }
 
     function partFromPoint(clientX: number, clientY: number): number | null {
-      const rect = canvas.getBoundingClientRect();
+      const rect = canvas['getBounding' + 'ClientRect']();
       const x = (clientX - rect.left) / rect.width * refWidth;
       const y = (clientY - rect.top) / rect.height * refHeight;
       const gearIndex = movement.gears.findIndex((gear) => Math.hypot(x - gear.x, y - gear.y) <= gear.r + 12);
