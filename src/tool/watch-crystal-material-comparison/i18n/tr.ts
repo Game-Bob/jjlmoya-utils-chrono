@@ -4,36 +4,15 @@ import { bibliography } from '../bibliography';
 import { buildSchemas } from '../helpers';
 
 const faq = [
-  {
-    "question": "¿Qué cristal de reloj es el más resistente a los arañazos?",
-    "answer": "El cristal de zafiro es el más resistente con una dureza de 9 en la escala de Mohs. El cristal mineral (5) es moderadamente resistente y la hesalita (2-3) se raya fácilmente pero se pule en minutos con Polywatch."
-  },
-  {
-    "question": "¿Se puede reparar un cristal de hesalita rayado?",
-    "answer": "Sí, la hesalita (acrílico) se pule fácilmente con productos como Polywatch. Los cristales minerales y de zafiro no se pueden pulir y deben reemplazarse si se rayan."
-  },
-  {
-    "question": "¿El cristal de zafiro es irrompible?",
-    "answer": "No, el zafiro no es irrompible. Es muy duro pero frágil ante impactos fuertes. La hesalita es el material más resistente a los impactos ya que se deforma en lugar de astillarse."
-  },
-  {
-    "question": "¿Qué cristal es mejor para un reloj de buceo?",
-    "answer": "El zafiro es el estándar en relojes de buceo por su resistencia a arañazos y presión submarina."
-  }
+  { "question": "Hangi saat camı çizilmelere karşı daha dayanıklıdır?", "answer": "Mohs sertliği 9 olan safir cam en dayanıklıdır. Mineral cam yaklaşık 5, hesalit ise 2-3 sertliğindedir ve kolay çizilir ancak parlatılabilir." },
+  { "question": "Çizilmiş hesalit cam onarılabilir mi?", "answer": "Evet. Hesalit akrilik Polywatch gibi ürünlerle parlatılabilir. Mineral ve safir camlar çizildiğinde genellikle değiştirilir." },
+  { "question": "Safir cam kırılmaz mı?", "answer": "Hayır. Safir çok serttir ancak güçlü darbelerde çatlayabilir. Hesalit darbe sırasında şekil değiştirdiği için daha dayanıklıdır." },
+  { "question": "Dalış saati için hangi cam daha iyidir?", "answer": "Safir, çizilmelere ve su altındaki basınca dayanıklı olduğu için dalış saatlerinde standarttır." }
 ];
 const howTo = [
-  {
-    "name": "Seleccionar un tipo de cristal",
-    "text": "Haz clic en cualquier cristal de la lista de la izquierda para ver su tarjeta de estadísticas."
-  },
-  {
-    "name": "Comparar dos cristales",
-    "text": "Arrastra un cristal sobre otro para compararlos cara a cara."
-  },
-  {
-    "name": "Cerrar la comparación",
-    "text": "Haz clic en cerrar comparación para volver a la vista individual."
-  }
+  { "name": "Bir cam türü seçin", "text": "İstatistik kartını açmak için soldaki listeden bir cama tıklayın." },
+  { "name": "İki camı karşılaştırın", "text": "Yan yana karşılaştırmak için bir camı diğerinin üzerine sürükleyin." },
+  { "name": "Karşılaştırmayı kapatın", "text": "Tekli görünüme dönmek için karşılaştırmayı kapat düğmesine tıklayın." }
 ];
 const title = 'Comparativa de cristales de reloj: Hesalita vs Cristal mineral vs Zafiro';
 

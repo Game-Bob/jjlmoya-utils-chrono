@@ -151,46 +151,19 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     "html": "El sonido viaja más rápido en aire caliente. Ajustar la temperatura corrige la medición."
   }
 ],
-  faq: [
-  {
-    "question": "¿Para qué sirve una escala de telémetro en un reloj?",
-    "answer": "Sirve para calcular la distancia entre el usuario y un evento que es visible y audible a la vez, como un rayo y el trueno."
-  },
-  {
-    "question": "¿Cómo calcular la distancia de un rayo con un telémetro?",
-    "answer": "Inicia el cronógrafo al ver el destello del rayo. Deténlo al escuchar el trueno. Lee el número que indica la aguja en la escala."
-  },
-  {
-    "question": "¿Cuál es la diferencia entre taquímetro y telémetro?",
-    "answer": "El taquímetro mide la velocidad en una distancia conocida. El telémetro mide la distancia según el tiempo transcurrido y la velocidad del sonido."
-  },
-  {
-    "question": "¿Qué precisión tiene una escala de telémetro?",
-    "answer": "Está calibrada para la velocidad del sonido a 20°C (343 m/s). Los cambios de temperatura producen ligeras variaciones."
-  },
-  {
-    "question": "¿Se puede usar un telémetro bajo el agua?",
-    "answer": "No, ya que el sonido viaja más de cuatro veces más rápido en el agua que en el aire."
-  }
+faq: [
+  { "question": "Saatteki telemetre ölçeği ne işe yarar?", "answer": "Şimşek ve gök gürültüsü gibi aynı anda görülen ve duyulan bir olayın uzaklığını hesaplamak için kullanılır." },
+  { "question": "Telemetre ile yıldırım uzaklığı nasıl hesaplanır?", "answer": "Şimşeği gördüğünüzde kronografı başlatın, gök gürültüsünü duyduğunuzda durdurun ve saniye kolunun gösterdiği sayıyı okuyun." },
+  { "question": "Takimetre ile telemetre arasındaki fark nedir?", "answer": "Takimetre bilinen bir mesafedeki hızı ölçer. Telemetre ise zamana ve ses hızına göre uzaklığı ölçer." },
+  { "question": "Telemetre ölçeği ne kadar doğrudur?", "answer": "Genellikle 20°C'de yaklaşık 343 m/s ses hızına göre ayarlanır. Sıcaklık değişimleri küçük hatalara yol açar." },
+  { "question": "Telemetre su altında kullanılabilir mi?", "answer": "Hayır. Ses suda havaya göre dört kattan daha hızlı ilerler." }
 ],
   bibliography,
-  howTo: [
-  {
-    "name": "Configurar unidades y temperatura",
-    "text": "Selecciona el sistema de unidades y ajusta la temperatura ambiente."
-  },
-  {
-    "name": "Iniciar el crono al ver el destello",
-    "text": "Haz clic en disparar destello o presiona el pulsador a las 2 en punto al ver el rayo."
-  },
-  {
-    "name": "Detener el crono al oír el trueno",
-    "text": "Haz clic en disparar sonido o presiona de nuevo el pulsador al oír el trueno."
-  },
-  {
-    "name": "Leer la distancia",
-    "text": "Lee la distancia calculada en la pantalla de resultados o en el bisel."
-  }
+howTo: [
+  { "name": "Birimleri ve sıcaklığı ayarlayın", "text": "Metrik veya İngiliz birimlerini seçin ve ortam sıcaklığını girin." },
+  { "name": "Şimşekte kronografı başlatın", "text": "Şimşeği gördüğünüzde Şimşeği Tetikle düğmesine veya saat iki konumundaki butona basın." },
+  { "name": "Gök gürültüsünde durdurun", "text": "Gök gürültüsünü duyduğunuzda Sesi Tetikle düğmesine veya aynı butona tekrar basın." },
+  { "name": "Uzaklığı okuyun", "text": "Hesaplanan uzaklığı sonuç ekranından veya telemetre bezeli üzerindeki koldan okuyun." }
 ],
   schemas: [],
 };

@@ -151,46 +151,19 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     "html": "El sonido viaja más rápido en aire caliente. Ajustar la temperatura corrige la medición."
   }
 ],
-  faq: [
-  {
-    "question": "¿Para qué sirve una escala de telémetro en un reloj?",
-    "answer": "Sirve para calcular la distancia entre el usuario y un evento que es visible y audible a la vez, como un rayo y el trueno."
-  },
-  {
-    "question": "¿Cómo calcular la distancia de un rayo con un telémetro?",
-    "answer": "Inicia el cronógrafo al ver el destello del rayo. Deténlo al escuchar el trueno. Lee el número que indica la aguja en la escala."
-  },
-  {
-    "question": "¿Cuál es la diferencia entre taquímetro y telémetro?",
-    "answer": "El taquímetro mide la velocidad en una distancia conocida. El telémetro mide la distancia según el tiempo transcurrido y la velocidad del sonido."
-  },
-  {
-    "question": "¿Qué precisión tiene una escala de telémetro?",
-    "answer": "Está calibrada para la velocidad del sonido a 20°C (343 m/s). Los cambios de temperatura producen ligeras variaciones."
-  },
-  {
-    "question": "¿Se puede usar un telémetro bajo el agua?",
-    "answer": "No, ya que el sonido viaja más de cuatro veces más rápido en el agua que en el aire."
-  }
+faq: [
+  { "question": "Untuk apa skala telemeter pada jam tangan?", "answer": "Skala ini menghitung jarak antara pemakai dan peristiwa yang terlihat sekaligus terdengar, seperti kilat dan guntur." },
+  { "question": "Bagaimana menghitung jarak kilat dengan telemeter?", "answer": "Mulai kronograf saat melihat kilat, hentikan saat mendengar guntur, lalu baca angka pada skala yang ditunjuk jarum detik." },
+  { "question": "Apa perbedaan takimeter dan telemeter?", "answer": "Takimeter mengukur kecepatan pada jarak tertentu. Telemeter mengukur jarak berdasarkan waktu dan kecepatan suara." },
+  { "question": "Seberapa akurat skala telemeter?", "answer": "Skala biasanya dikalibrasi pada 20°C atau 343 m/s. Perubahan suhu dapat menimbulkan sedikit perbedaan." },
+  { "question": "Bisakah telemeter digunakan di dalam air?", "answer": "Tidak. Suara bergerak lebih dari empat kali lebih cepat di dalam air daripada di udara." }
 ],
   bibliography,
-  howTo: [
-  {
-    "name": "Configurar unidades y temperatura",
-    "text": "Selecciona el sistema de unidades y ajusta la temperatura ambiente."
-  },
-  {
-    "name": "Iniciar el crono al ver el destello",
-    "text": "Haz clic en disparar destello o presiona el pulsador a las 2 en punto al ver el rayo."
-  },
-  {
-    "name": "Detener el crono al oír el trueno",
-    "text": "Haz clic en disparar sonido o presiona de nuevo el pulsador al oír el trueno."
-  },
-  {
-    "name": "Leer la distancia",
-    "text": "Lee la distancia calculada en la pantalla de resultados o en el bisel."
-  }
+howTo: [
+  { "name": "Atur satuan dan suhu", "text": "Pilih satuan metrik atau imperial lalu masukkan suhu udara sekitar." },
+  { "name": "Mulai kronograf saat kilat terlihat", "text": "Klik Picu Kilat atau tekan tombol kronograf pada posisi jam dua saat melihat kilat." },
+  { "name": "Hentikan saat mendengar guntur", "text": "Klik Picu Suara atau tekan tombol yang sama tepat saat mendengar guntur." },
+  { "name": "Baca jaraknya", "text": "Baca jarak pada tampilan hasil atau langsung dari posisi jarum pada bezel telemeter." }
 ],
   schemas: [],
 };

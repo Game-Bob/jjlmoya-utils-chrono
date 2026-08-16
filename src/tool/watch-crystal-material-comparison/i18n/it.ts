@@ -4,36 +4,15 @@ import { bibliography } from '../bibliography';
 import { buildSchemas } from '../helpers';
 
 const faq = [
-  {
-    "question": "¿Qué cristal de reloj es el más resistente a los arañazos?",
-    "answer": "El cristal de zafiro es el más resistente con una dureza de 9 en la escala de Mohs. El cristal mineral (5) es moderadamente resistente y la hesalita (2-3) se raya fácilmente pero se pule en minutos con Polywatch."
-  },
-  {
-    "question": "¿Se puede reparar un cristal de hesalita rayado?",
-    "answer": "Sí, la hesalita (acrílico) se pule fácilmente con productos como Polywatch. Los cristales minerales y de zafiro no se pueden pulir y deben reemplazarse si se rayan."
-  },
-  {
-    "question": "¿El cristal de zafiro es irrompible?",
-    "answer": "No, el zafiro no es irrompible. Es muy duro pero frágil ante impactos fuertes. La hesalita es el material más resistente a los impactos ya que se deforma en lugar de astillarse."
-  },
-  {
-    "question": "¿Qué cristal es mejor para un reloj de buceo?",
-    "answer": "El zafiro es el estándar en relojes de buceo por su resistencia a arañazos y presión submarina."
-  }
+  { "question": "Quale vetro per orologio resiste meglio ai graffi?", "answer": "Il vetro zaffiro è il più resistente, con durezza Mohs 9. Il minerale arriva a circa 5, mentre l'esalite è a 2-3 ma può essere lucidata." },
+  { "question": "Si può riparare un vetro in esalite graffiato?", "answer": "Sì. L'acrilico esalite si lucida con prodotti come Polywatch. I vetri minerali e zaffiro di solito vanno sostituiti." },
+  { "question": "Il vetro zaffiro è infrangibile?", "answer": "No. È molto duro ma può incrinarsi con un forte urto. L'esalite assorbe meglio gli impatti perché si deforma." },
+  { "question": "Quale vetro è migliore per un orologio subacqueo?", "answer": "Lo zaffiro è lo standard per la resistenza ai graffi e alla pressione sott'acqua." }
 ];
 const howTo = [
-  {
-    "name": "Seleccionar un tipo de cristal",
-    "text": "Haz clic en cualquier cristal de la lista de la izquierda para ver su tarjeta de estadísticas."
-  },
-  {
-    "name": "Comparar dos cristales",
-    "text": "Arrastra un cristal sobre otro para compararlos cara a cara."
-  },
-  {
-    "name": "Cerrar la comparación",
-    "text": "Haz clic en cerrar comparación para volver a la vista individual."
-  }
+  { "name": "Seleziona un tipo di vetro", "text": "Fai clic su un vetro nell'elenco a sinistra per aprire la scheda delle statistiche." },
+  { "name": "Confronta due vetri", "text": "Trascina un vetro sull'altro per confrontarli fianco a fianco." },
+  { "name": "Chiudi il confronto", "text": "Fai clic su chiudi confronto per tornare alla vista singola." }
 ];
 const title = 'Comparativa de cristales de reloj: Hesalita vs Cristal mineral vs Zafiro';
 

@@ -151,46 +151,19 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     "html": "El sonido viaja más rápido en aire caliente. Ajustar la temperatura corrige la medición."
   }
 ],
-  faq: [
-  {
-    "question": "¿Para qué sirve una escala de telémetro en un reloj?",
-    "answer": "Sirve para calcular la distancia entre el usuario y un evento que es visible y audible a la vez, como un rayo y el trueno."
-  },
-  {
-    "question": "¿Cómo calcular la distancia de un rayo con un telémetro?",
-    "answer": "Inicia el cronógrafo al ver el destello del rayo. Deténlo al escuchar el trueno. Lee el número que indica la aguja en la escala."
-  },
-  {
-    "question": "¿Cuál es la diferencia entre taquímetro y telémetro?",
-    "answer": "El taquímetro mide la velocidad en una distancia conocida. El telémetro mide la distancia según el tiempo transcurrido y la velocidad del sonido."
-  },
-  {
-    "question": "¿Qué precisión tiene una escala de telémetro?",
-    "answer": "Está calibrada para la velocidad del sonido a 20°C (343 m/s). Los cambios de temperatura producen ligeras variaciones."
-  },
-  {
-    "question": "¿Se puede usar un telémetro bajo el agua?",
-    "answer": "No, ya que el sonido viaja más de cuatro veces más rápido en el agua que en el aire."
-  }
+faq: [
+  { "question": "Do czego służy skala telemetru w zegarku?", "answer": "Służy do obliczania odległości od zdarzenia, które jednocześnie widać i słychać, na przykład błyskawicy i grzmotu." },
+  { "question": "Jak obliczyć odległość błyskawicy za pomocą telemetru?", "answer": "Uruchom chronograf po zobaczeniu błysku, zatrzymaj go po usłyszeniu grzmotu i odczytaj liczbę wskazywaną przez sekundnik." },
+  { "question": "Czym różni się tachymetr od telemetru?", "answer": "Tachymetr mierzy prędkość na znanym dystansie. Telemeter mierzy odległość na podstawie czasu i prędkości dźwięku." },
+  { "question": "Jak dokładna jest skala telemetru?", "answer": "Zwykle jest skalibrowana dla temperatury 20°C i prędkości dźwięku około 343 m/s. Temperatura powoduje niewielkie odchylenia." },
+  { "question": "Czy telemetru można używać pod wodą?", "answer": "Nie. Dźwięk porusza się w wodzie ponad cztery razy szybciej niż w powietrzu." }
 ],
   bibliography,
-  howTo: [
-  {
-    "name": "Configurar unidades y temperatura",
-    "text": "Selecciona el sistema de unidades y ajusta la temperatura ambiente."
-  },
-  {
-    "name": "Iniciar el crono al ver el destello",
-    "text": "Haz clic en disparar destello o presiona el pulsador a las 2 en punto al ver el rayo."
-  },
-  {
-    "name": "Detener el crono al oír el trueno",
-    "text": "Haz clic en disparar sonido o presiona de nuevo el pulsador al oír el trueno."
-  },
-  {
-    "name": "Leer la distancia",
-    "text": "Lee la distancia calculada en la pantalla de resultados o en el bisel."
-  }
+howTo: [
+  { "name": "Ustaw jednostki i temperaturę", "text": "Wybierz jednostki metryczne lub imperialne i ustaw temperaturę powietrza." },
+  { "name": "Uruchom chrono po błysku", "text": "Kliknij Uruchom błysk albo naciśnij przycisk na godzinie drugiej, gdy zobaczysz błyskawicę." },
+  { "name": "Zatrzymaj chrono po grzmocie", "text": "Kliknij Uruchom dźwięk albo ponownie naciśnij przycisk, gdy usłyszysz grzmot." },
+  { "name": "Odczytaj odległość", "text": "Odczytaj odległość na ekranie wyników lub z położenia wskazówki na lunecie telemetru." }
 ],
   schemas: [],
 };

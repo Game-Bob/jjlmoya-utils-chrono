@@ -151,46 +151,19 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     "html": "El sonido viaja más rápido en aire caliente. Ajustar la temperatura corrige la medición."
   }
 ],
-  faq: [
-  {
-    "question": "¿Para qué sirve una escala de telémetro en un reloj?",
-    "answer": "Sirve para calcular la distancia entre el usuario y un evento que es visible y audible a la vez, como un rayo y el trueno."
-  },
-  {
-    "question": "¿Cómo calcular la distancia de un rayo con un telémetro?",
-    "answer": "Inicia el cronógrafo al ver el destello del rayo. Deténlo al escuchar el trueno. Lee el número que indica la aguja en la escala."
-  },
-  {
-    "question": "¿Cuál es la diferencia entre taquímetro y telémetro?",
-    "answer": "El taquímetro mide la velocidad en una distancia conocida. El telémetro mide la distancia según el tiempo transcurrido y la velocidad del sonido."
-  },
-  {
-    "question": "¿Qué precisión tiene una escala de telémetro?",
-    "answer": "Está calibrada para la velocidad del sonido a 20°C (343 m/s). Los cambios de temperatura producen ligeras variaciones."
-  },
-  {
-    "question": "¿Se puede usar un telémetro bajo el agua?",
-    "answer": "No, ya que el sonido viaja más de cuatro veces más rápido en el agua que en el aire."
-  }
+faq: [
+  { "question": "Waarvoor dient een telemeterschaal op een horloge?", "answer": "De schaal berekent de afstand tot een gebeurtenis die tegelijk zichtbaar en hoorbaar is, zoals bliksem en donder." },
+  { "question": "Hoe bereken je bliksemafstand met een telemeter?", "answer": "Start de chronograaf bij de bliksem, stop hem bij de donder en lees het getal af waar de secondewijzer naar wijst." },
+  { "question": "Wat is het verschil tussen een tachymeter en een telemeter?", "answer": "Een tachymeter meet snelheid over een bekende afstand. Een telemeter meet afstand op basis van tijd en geluidssnelheid." },
+  { "question": "Hoe nauwkeurig is een telemeterschaal?", "answer": "De schaal is meestal gekalibreerd op 20°C, ongeveer 343 m/s. Temperatuurverschillen veroorzaken kleine afwijkingen." },
+  { "question": "Kun je een telemeter onder water gebruiken?", "answer": "Nee. Geluid beweegt in water meer dan vier keer sneller dan in lucht." }
 ],
   bibliography,
-  howTo: [
-  {
-    "name": "Configurar unidades y temperatura",
-    "text": "Selecciona el sistema de unidades y ajusta la temperatura ambiente."
-  },
-  {
-    "name": "Iniciar el crono al ver el destello",
-    "text": "Haz clic en disparar destello o presiona el pulsador a las 2 en punto al ver el rayo."
-  },
-  {
-    "name": "Detener el crono al oír el trueno",
-    "text": "Haz clic en disparar sonido o presiona de nuevo el pulsador al oír el trueno."
-  },
-  {
-    "name": "Leer la distancia",
-    "text": "Lee la distancia calculada en la pantalla de resultados o en el bisel."
-  }
+howTo: [
+  { "name": "Stel eenheden en temperatuur in", "text": "Kies metrische of imperiale eenheden en voer de omgevingstemperatuur in." },
+  { "name": "Start de chrono bij de bliksem", "text": "Klik op Bliksem starten of druk op de knop op twee uur wanneer je de bliksem ziet." },
+  { "name": "Stop bij de donder", "text": "Klik op Geluid starten of druk opnieuw op de knop zodra je de donder hoort." },
+  { "name": "Lees de afstand af", "text": "Lees de berekende afstand in het resultaat of rechtstreeks op de telemeterbezel." }
 ],
   schemas: [],
 };

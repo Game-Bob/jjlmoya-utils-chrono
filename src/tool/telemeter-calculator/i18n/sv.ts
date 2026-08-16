@@ -151,46 +151,19 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     "html": "El sonido viaja más rápido en aire caliente. Ajustar la temperatura corrige la medición."
   }
 ],
-  faq: [
-  {
-    "question": "¿Para qué sirve una escala de telémetro en un reloj?",
-    "answer": "Sirve para calcular la distancia entre el usuario y un evento que es visible y audible a la vez, como un rayo y el trueno."
-  },
-  {
-    "question": "¿Cómo calcular la distancia de un rayo con un telémetro?",
-    "answer": "Inicia el cronógrafo al ver el destello del rayo. Deténlo al escuchar el trueno. Lee el número que indica la aguja en la escala."
-  },
-  {
-    "question": "¿Cuál es la diferencia entre taquímetro y telémetro?",
-    "answer": "El taquímetro mide la velocidad en una distancia conocida. El telémetro mide la distancia según el tiempo transcurrido y la velocidad del sonido."
-  },
-  {
-    "question": "¿Qué precisión tiene una escala de telémetro?",
-    "answer": "Está calibrada para la velocidad del sonido a 20°C (343 m/s). Los cambios de temperatura producen ligeras variaciones."
-  },
-  {
-    "question": "¿Se puede usar un telémetro bajo el agua?",
-    "answer": "No, ya que el sonido viaja más de cuatro veces más rápido en el agua que en el aire."
-  }
+faq: [
+  { "question": "Vad används en telemeterskala på en klocka till?", "answer": "Den används för att beräkna avståndet till en händelse som både syns och hörs, till exempel blixt och åska." },
+  { "question": "Hur beräknar man avståndet till blixten med en telemeter?", "answer": "Starta kronografen när du ser blixten, stoppa den när du hör åskan och läs av siffran som sekundvisaren pekar på." },
+  { "question": "Vad är skillnaden mellan tachymeter och telemeter?", "answer": "En tachymeter mäter hastighet över ett känt avstånd. En telemeter mäter avstånd utifrån tid och ljudets hastighet." },
+  { "question": "Hur exakt är en telemeterskala?", "answer": "Den är vanligtvis kalibrerad för 20°C och cirka 343 m/s. Temperaturförändringar ger små avvikelser." },
+  { "question": "Kan man använda en telemeter under vatten?", "answer": "Nej. Ljud färdas mer än fyra gånger snabbare i vatten än i luft." }
 ],
   bibliography,
-  howTo: [
-  {
-    "name": "Configurar unidades y temperatura",
-    "text": "Selecciona el sistema de unidades y ajusta la temperatura ambiente."
-  },
-  {
-    "name": "Iniciar el crono al ver el destello",
-    "text": "Haz clic en disparar destello o presiona el pulsador a las 2 en punto al ver el rayo."
-  },
-  {
-    "name": "Detener el crono al oír el trueno",
-    "text": "Haz clic en disparar sonido o presiona de nuevo el pulsador al oír el trueno."
-  },
-  {
-    "name": "Leer la distancia",
-    "text": "Lee la distancia calculada en la pantalla de resultados o en el bisel."
-  }
+howTo: [
+  { "name": "Ställ in enheter och temperatur", "text": "Välj metriska eller brittiska enheter och ange lufttemperaturen." },
+  { "name": "Starta kronografen vid blixten", "text": "Klicka på Utlös blixt eller tryck på knappen vid klockan två när du ser blixten." },
+  { "name": "Stoppa vid åskan", "text": "Klicka på Utlös ljud eller tryck på knappen igen när du hör åskan." },
+  { "name": "Läs av avståndet", "text": "Läs det beräknade avståndet på resultatskärmen eller på telemeterns vridring." }
 ],
   schemas: [],
 };
