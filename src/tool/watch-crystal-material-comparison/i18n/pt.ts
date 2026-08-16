@@ -4,16 +4,38 @@ import { bibliography } from '../bibliography';
 import { buildSchemas } from '../helpers';
 
 const faq = [
-  { question: 'Qual cristal de relógio é mais resistente a arranhões?', answer: 'O cristal de safira é o mais resistente com dureza 9 na escala de Mohs - apenas o diamante é mais duro. O mineral (5) é moderado, enquanto o hesalite (2-3) arranha facilmente mas pode ser polido.' },
-  { question: 'Um cristal hesalite arranhado pode ser reparado?', answer: 'Sim, arranhões no hesalite podem ser polidos com Polywatch em minutos. Cristais minerais e de safira não podem ser polidos e devem ser substituídos.' },
-  { question: 'Qual cristal é melhor para relógio de mergulho?', answer: 'A safira é o padrão para relógios de mergulho por sua resistência a arranhões e durabilidade. O hesalite não é recomendado para mergulho.' },
+  {
+    "question": "¿Qué cristal de reloj es el más resistente a los arañazos?",
+    "answer": "El cristal de zafiro es el más resistente con una dureza de 9 en la escala de Mohs. El cristal mineral (5) es moderadamente resistente y la hesalita (2-3) se raya fácilmente pero se pule en minutos con Polywatch."
+  },
+  {
+    "question": "¿Se puede reparar un cristal de hesalita rayado?",
+    "answer": "Sí, la hesalita (acrílico) se pule fácilmente con productos como Polywatch. Los cristales minerales y de zafiro no se pueden pulir y deben reemplazarse si se rayan."
+  },
+  {
+    "question": "¿El cristal de zafiro es irrompible?",
+    "answer": "No, el zafiro no es irrompible. Es muy duro pero frágil ante impactos fuertes. La hesalita es el material más resistente a los impactos ya que se deforma en lugar de astillarse."
+  },
+  {
+    "question": "¿Qué cristal es mejor para un reloj de buceo?",
+    "answer": "El zafiro es el estándar en relojes de buceo por su resistencia a arañazos y presión submarina."
+  }
 ];
 const howTo = [
-  { name: 'Selecionar um cristal', text: 'Clique num cristal à esquerda para ver sua ficha de estatísticas à direita.' },
-  { name: 'Comparar dois cristais', text: 'Arraste um cristal da lista e solte sobre outro para compará-los lado a lado.' },
-  { name: 'Fechar comparação', text: 'Clique em "Close Comparison" para voltar à vista individual.' },
+  {
+    "name": "Seleccionar un tipo de cristal",
+    "text": "Haz clic en cualquier cristal de la lista de la izquierda para ver su tarjeta de estadísticas."
+  },
+  {
+    "name": "Comparar dos cristales",
+    "text": "Arrastra un cristal sobre otro para compararlos cara a cara."
+  },
+  {
+    "name": "Cerrar la comparación",
+    "text": "Haz clic en cerrar comparación para volver a la vista individual."
+  }
 ];
-const title = 'Comparação de Cristais de Relógio: Hesalite vs Mineral vs Safira';
+const title = 'Comparativa de cristales de reloj: Hesalita vs Cristal mineral vs Zafiro';
 
 export const content: ToolLocaleContent<WatchCrystalMaterialComparisonUI> = {
   slug: 'comparacao-cristais-relogio-hesalite-mineral-safira',
@@ -28,8 +50,108 @@ export const content: ToolLocaleContent<WatchCrystalMaterialComparisonUI> = {
     dragHint: 'Arrastar', dragSub: 'para comparar',
   },
   seo: [
-    { type: 'title', text: 'Comparação de Cristais de Relógio: Hesalite vs Mineral vs Safira', level: 2 },
-    { type: 'paragraph', html: 'Compare <strong>hesalite, mineral e safira</strong> com cartas de estatísticas interativas. Dureza, clareza, resistência ao impacto e a arranhões.' },
-  ],
+  {
+    "type": "title",
+    "text": "Hesalita vs Cristal Mineral vs Zafiro: Guía comparativa de cristales de reloj",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "html": "Elegir el <strong>cristal de reloj</strong> adecuado es una decisión clave al comprar o restaurar un reloj. Esta guía compara <strong>hesalita (acrílico), cristal mineral y zafiro</strong> en dureza, claridad, resistencia a impactos, resistencia a arañazos, durabilidad y precio."
+  },
+  {
+    "type": "title",
+    "text": "Cristal de Hesalita (Acrílico / Plexiglás)",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "La hesalita es el cristal tradicional usado desde los años 30. Es blando (2-3 Mohs) y se raya con facilidad, pero se pule rápidamente. Ofrece la mejor resistencia a impactos. Ejemplo icónico: Omega Speedmaster Professional."
+  },
+  {
+    "type": "title",
+    "text": "Cristal Mineral (Endurecido)",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "El cristal mineral está compuesto de dióxido de silicio tratado térmicamente. Con 5 en la escala Mohs es más duro que la hesalita. Muy común en relojes de gama media como Seiko, Citizen y Orient."
+  },
+  {
+    "type": "title",
+    "text": "Cristal de Zafiro (Corindón Sintético)",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "El zafiro sintético se fabrica a partir de óxido de aluminio fundido. Con dureza 9 en la escala Mohs es prácticamente inrayable y ofrece la mayor claridad óptica. Es el estándar en relojería de lujo."
+  },
+  {
+    "type": "title",
+    "text": "Tabla comparativa de cristales",
+    "level": 3
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Propiedad",
+      "Hesalita",
+      "Cristal Mineral",
+      "Cristal de Zafiro"
+    ],
+    "rows": [
+      [
+        "Dureza Mohs",
+        "2-3/10",
+        "5/10",
+        "9/10"
+      ],
+      [
+        "Claridad",
+        "4/10",
+        "7/10",
+        "10/10"
+      ],
+      [
+        "Resistencia a impactos",
+        "5/10 (La mejor)",
+        "3/10",
+        "2/10"
+      ],
+      [
+        "Resistencia a arañazos",
+        "1/10",
+        "5/10",
+        "10/10"
+      ],
+      [
+        "Reparable",
+        "Sí (pulido)",
+        "No (reemplazo)",
+        "No (reemplazo)"
+      ],
+      [
+        "Abombamiento posible",
+        "Sí, extremo",
+        "Limitado",
+        "Limitado"
+      ],
+      [
+        "Rango de precio",
+        "5 - 30 €",
+        "10 - 50 €",
+        "30 - 200+ €"
+      ]
+    ]
+  },
+  {
+    "type": "diagnostic",
+    "variant": "info",
+    "title": "Guía rápida de elección",
+    "icon": "mdi:diamond-stone",
+    "badge": "REFERENCIA",
+    "html": "Para un <strong>reloj de uso diario</strong> elige zafiro por su resistencia a arañazos. Para <strong>restauraciones vintage</strong> la hesalita ofrece estética auténtica. El <strong>cristal mineral</strong> es la opción económica equilibrada."
+  }
+],
   faq, bibliography, howTo, schemas: buildSchemas(title, faq, howTo),
 };

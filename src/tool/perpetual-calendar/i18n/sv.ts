@@ -66,7 +66,9 @@ export const content: ToolLocaleContent<PerpetualCalendarUI> = {
     { type: 'paragraph', html: '<strong>Evighetskalendern</strong> är en av de mest prestigefyllda komplikationerna inom haute horlogerie. Denna interaktiva simulator visualiserar hur en mekanisk evighetskalender håller reda på datum, dag, månad, skottår och månfas - utan manuell korrigering i decennier. Utforska 48-månaders växelprogrammet, se hur februariövergångar fungerar och förstå den gregorianska kalenderlogiken inbyggd i dessa mästerverk av mikromekanik.' },
     { type: 'title', text: 'Hur en evighetskalender fungerar', level: 3 },
     { type: 'paragraph', html: 'En mekanisk evighetskalender använder ett <strong>programhjul</strong> med skåror av olika djup som representerar månader av olika längd. En känselarm faller i varje skåra; en djupare skåra signalerar en kort månad (28-29 dagar) och utlöser mekanismen att hoppa till 1:a i nästa månad efter rätt antal dagar. Ett <strong>48-månaders hjul</strong> hanterar den 4-åriga skottårscykeln, med en extra skåra för 29 februari. Programmet vet att sekelår (t.ex. 2100) hoppar över skottåret om de inte är delbara med 400.' },
-    { type: 'title', text: 'Jämförelse: Evighetskalender vs Årskalender', level: 3 },
+        { type: 'title', text: 'Referens för kalenderlogik', level: 3 },
+    {"type":"table","headers":["Månad","Dagar","Skåpdjup","Skottårsåtgärd"],"rows":[["Januari","31","Djup","Normal"],["Februari","28 / 29","Grundast","Extra dag vart 4:e år"],["Mars","31","Djup","Normal"],["April","30","Medel","Normal"],["Maj","31","Djup","Normal"],["Juni","30","Medel","Normal"],["Juli","31","Djup","Normal"],["Augusti","31","Djup","Normal"],["September","30","Medel","Normal"],["Oktober","31","Djup","Normal"],["November","30","Medel","Normal"],["December","31","Djup","Normal"]]},
+{ type: 'title', text: 'Jämförelse: Evighetskalender vs Årskalender', level: 3 },
     {
       type: 'table', headers: ['Egenskap', 'Årskalender', 'Evighetskalender'], rows: [
         ['Kräver justering', 'En gång per år (1 Mar)', 'En gång per sekel (2100)'],

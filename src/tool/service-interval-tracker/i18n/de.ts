@@ -37,34 +37,96 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
     collectionHealth: 'Gesundheit der Sammlung',
   },
   seo: [
-    { type: 'title', text: 'Uhren-Serviceintervall-Tracker: Wissen, wann ein Service ansteht', level: 2 },
-    { type: 'paragraph', html: 'Eine mechanische Uhr ist ein Präzisionsinstrument mit Hunderten von beweglichen Teilen. Schmiermittel trocknen aus, Dichtungen verschleißen und die Ganggenauigkeit lässt mit der Zeit nach. Für Sammler ist es wichtig, die Wartungsdaten im Blick zu behalten.' },
-    { type: 'title', text: 'Warum Serviceintervalle wichtig sind', level: 3 },
-    {
-      type: 'glossary', items: [
-        { term: 'Automatik (3-5 Jahre)', definition: 'Federhaus, Klinkenräder und Rotorlager sind ständiger Reibung ausgesetzt. Altes Öl verharzt und beschleunigt den Verschleiß.' },
-        { term: 'Handaufzug (3-5 Jahre)', definition: 'Ähnliches Intervall wie bei Automatikuhren. Aufzugswelle und Kupplungsmechanismus werden durch tägliches Aufziehen beansprucht.' },
-        { term: 'Quarz (5-10 Jahre)', definition: 'Weniger bewegliche Teile, aber die Batterie kann auslaufen und Dichtungen müssen erneuert werden, um die Wasserdichtigkeit zu erhalten.' },
-        { term: 'Kinetisch (5 Jahre)', definition: 'Kombiniert automatischen Aufzug mit Quarz-Zeitmessung. Der Akku oder Kondensator hat eine begrenzte Lebensdauer.' },
-      ]
-    },
-    { type: 'diagnostic', variant: 'info', title: 'Anzeichen für einen notwendigen Service', icon: 'mdi:information', badge: 'WICHTIG', html: 'Wenn die Uhr mehr als 15-20 Sekunden pro Tag vor- oder nachgeht, sich die Krone schwergängig anfühlt oder Kondenswasser unter dem Glas sichtbar ist, warten Sie nicht das Intervall ab. Lassen Sie die Uhr sofort warten.' },
-  ],
+  {
+    "type": "title",
+    "text": "Wartungsintervall Tracker für mechanische Uhren",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "html": "Eine mechanische Uhr ist ein Mikromechanik-Wunderwerk. Die richtigen <strong>Wartungsintervalle</strong> schützen Ihre Investition vor teurem Verschleiß."
+  },
+  {
+    "type": "title",
+    "text": "Empfohlene Wartungsintervalle nach Werkstyp",
+    "level": 3
+  },
+  {
+    "type": "glossary",
+    "items": [
+      {
+        "term": "Automatik (3-5 Jahre)",
+        "definition": "Rotorlager und Aufzugsräder bewegen sich ständig und benötigen frische Schmierstoffe."
+      },
+      {
+        "term": "Handaufzug (4-5 Jahre)",
+        "definition": "Weniger bewegliche Teile als Automatik, aber Kronenrad und Sperrrad verschleißen beim täglichen Aufziehen."
+      },
+      {
+        "term": "Quarz (5-10 Jahre)",
+        "definition": "Elektronische Bauteile verschleißen kaum, aber Dichtungen und Batteriewechsel sind regelmäßig nötig."
+      },
+      {
+        "term": "Kinetisch / Solar (5-8 Jahre)",
+        "definition": "Akkumulator oder Kondensator haben eine begrenzte Lebensdauer."
+      }
+    ]
+  },
+  {
+    "type": "diagnostic",
+    "variant": "info",
+    "title": "Anzeichen für einen Wartungsbedarf",
+    "icon": "mdi:information",
+    "badge": "ACHTUNG",
+    "html": "Wenn die Uhr mehr als 15-20 Sekunden pro Tag vor- oder nachgeht, sich die Krone beim Aufziehen rau anfühlt oder Sie Kondenswasser sehen, warten Sie nicht."
+  },
+  {
+    "type": "title",
+    "text": "Verfolgen Sie Ihre Sammlung",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "Fügen Sie jede Uhr Ihrer Sammlung mit Werkstyp und letztem Servicedatum hinzu. Der Tracker berechnet die nächste empfohlene Wartung automatisch."
+  }
+],
   faq: [
-    {
-      question: 'Wie oft sollte eine Automatikuhr gewartet werden?',
-      answer: 'Die meisten Hersteller empfehlen ein Serviceintervall von 3 bis 5 Jahren. In der Praxis laufen viele Uhren 5-7 Jahre einwandfrei. Bei starker Gangabweichung oder verringerter Gangreserve sollte der Service früher erfolgen.',
-    },
-    {
-      question: 'Benötigen Quarzuhren eine regelmäßige Wartung?',
-      answer: 'Ja, wenn auch seltener. Die Batterie sollte alle 2-3 Jahre gewechselt werden, um Auslaufen zu verhindern. Ein kompletter Service inklusive Dichtungswechsel wird alle 5-10 Jahre empfohlen.',
-    },
-  ],
+  {
+    "question": "Wie oft sollte eine automatische Uhr gewartet werden?",
+    "answer": "Die meisten Hersteller empfehlen eine Wartung alle 3 bis 5 Jahre. In der Praxis laufen viele Uhren 5-7 Jahre einwandfrei. Bei Gangabweichungen oder verringerter Gangreserve sollten Sie sie früher warten lassen."
+  },
+  {
+    "question": "Benötigen Quarzuhren eine regelmäßige Wartung?",
+    "answer": "Ja, wenn auch seltener. Die Batterie sollte alle 2-3 Jahre gewechselt werden, um Auslaufen zu verhindern. Eine vollständige Wartung inklusive Dichtungswechsel wird alle 5-10 Jahre empfohlen."
+  },
+  {
+    "question": "Was passiert, wenn ich meine Uhr nie warten lasse?",
+    "answer": "Die Schmierstoffe trocknen aus, was zu erhöhter Reibung und Verschleiß an Zapfen, Lagersteinen und Hemmung führt. Das kann teure Folgeschäden wie gebrochene Unruhwellen verursachen."
+  },
+  {
+    "question": "Kann ich eine Handaufzugsuhr überdrehen?",
+    "answer": "Moderne Handaufzugsuhren besitzen eine Rutschkupplung oder einen spürbaren festen Anschlag bei Vollaufzug. Wenden Sie keine Gewalt an, wenn sich die Krone steif anfühlt."
+  },
+  {
+    "question": "Ändert sich das Intervall bei täglichem vs. gelegentlichem Tragen?",
+    "answer": "Ja. Eine täglich getragene Uhr hat mehr Verschleiß am Automatikaufzug und sollte eher nach 3 Jahren gewartet werden. Gelegentlich getragene Uhren können oft bis zu 5 Jahre laufen."
+  }
+],
   bibliography,
   howTo: [
-    { name: 'Uhr hinzufügen', text: 'Geben Sie Name, Werkstyp und das letzte Servicedatum ein. Der Tracker berechnet den nächsten Service automatisch.' },
-    { name: 'Dashboard prüfen', text: 'Jede Uhr zeigt einen Fortschrittsbalken und einen farbcodierten Status: grün (in Ordnung), gelb (anstehend), rot (überfällig).' },
-  ],
+  {
+    "name": "Uhr hinzufügen",
+    "text": "Geben Sie Uhrennamen, Werkstyp und letztes Servicedatum ein. Der Tracker berechnet das nächste Wartungsdatum automatisch."
+  },
+  {
+    "name": "Dashboard prüfen",
+    "text": "Jede Uhr zeigt einen Fortschrittsbalken und einen Farbcode: grün (gesund), gelb (bald fällig) oder rot (überfällig)."
+  },
+  {
+    "name": "Nach Wartung aktualisieren",
+    "text": "Wenn eine Uhr gewartet wurde, entfernen Sie den alten Eintrag und fügen Sie ihn mit dem neuen Datum erneut hinzu."
+  }
+],
   schemas: [
     {
       '@context': 'https://schema.org',

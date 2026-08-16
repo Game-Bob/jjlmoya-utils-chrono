@@ -66,7 +66,9 @@ export const content: ToolLocaleContent<PerpetualCalendarUI> = {
     { type: 'paragraph', html: '<strong>Ebedi takvim</strong>, haute horlogerie\'nin en prestijli komplikasyonlarından biridir. Bu etkileşimli simülatör, mekanik bir ebedi takvimin tarih, gün, ay, artık yıl ve ay evresini nasıl takip ettiğini görselleştirir - onlarca yıl boyunca manuel düzeltme gerektirmez. 48 aylık dişli programını keşfedin, Şubat geçişlerinin nasıl çalıştığını görün ve bu mikromekanik başyapıtlarına yerleştirilmiş Gregoryen takvim mantığını anlayın.' },
     { type: 'title', text: 'Ebedi takvim nasıl çalışır', level: 3 },
     { type: 'paragraph', html: 'Mekanik bir ebedi takvim, farklı uzunluktaki ayları temsil eden farklı derinliklerde çentiklere sahip bir <strong>program çarkı</strong> kullanır. Bir algılama kolu her çentiğe düşer; daha derin bir çentik kısa bir ayı (28-29 gün) işaret eder ve doğru gün sayısından sonra mekanizmayı bir sonraki ayın 1\'ine atlaması için tetikler. Bir <strong>48 aylık dişli</strong>, 29 Şubat için ek bir çentik ile 4 yıllık artık yıl döngüsünü yönetir. Program, yüzyıl yıllarının (ör. 2100) 400\'e bölünmedikçe artık yılı atladığını bilir.' },
-    { type: 'title', text: 'Karşılaştırma: Ebedi vs Yıllık Takvim', level: 3 },
+        { type: 'title', text: 'Takvim Mantığı Referansı', level: 3 },
+    {"type":"table","headers":["Ay","Gün Sayısı","Çentik Derinliği","Artık Yıl Eylemi"],"rows":[["Ocak","31","Derin","Normal"],["Şubat","28 / 29","En Sığ","Her 4 yılda bir ekstra gün"],["Mart","31","Derin","Normal"],["Nisan","30","Orta","Normal"],["Mayıs","31","Derin","Normal"],["Haziran","30","Orta","Normal"],["Temmuz","31","Derin","Normal"],["Ağustos","31","Derin","Normal"],["Eylül","30","Orta","Normal"],["Ekim","31","Derin","Normal"],["Kasım","30","Orta","Normal"],["Aralık","31","Derin","Normal"]]},
+{ type: 'title', text: 'Karşılaştırma: Ebedi vs Yıllık Takvim', level: 3 },
     {
       type: 'table', headers: ['Özellik', 'Yıllık Takvim', 'Ebedi Takvim'], rows: [
         ['Düzeltme gerektirir', 'Yılda bir kez (1 Mart)', 'Yüzyılda bir kez (2100)'],

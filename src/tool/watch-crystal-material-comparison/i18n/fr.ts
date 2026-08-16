@@ -4,16 +4,38 @@ import { bibliography } from '../bibliography';
 import { buildSchemas } from '../helpers';
 
 const faq = [
-  { question: 'Quel verre de montre est le plus résistant aux rayures?', answer: 'Le verre saphir est le plus résistant avec une dureté de 9 sur l\'échelle de Mohs - seul le diamant est plus dur. Le verre minéral (5) est modéré, tandis que l\'hesalite (2-3) se raye facilement mais peut être poli.' },
-  { question: 'Peut-on réparer un verre hesalite rayé?', answer: 'Oui, les rayures sur l\'hesalite peuvent être polies avec Polywatch en quelques minutes. Les verres minéraux et saphir ne peuvent pas être polis et doivent être remplacés.' },
-  { question: 'Quel verre est le meilleur pour une montre de plongée?', answer: 'Le saphir est la référence pour les montres de plongée pour sa résistance aux rayures et sa durabilité. L\'hesalite n\'est pas recommandé pour la plongée.' },
+  {
+    "question": "Quel verre de montre est le plus résistant aux rayures?",
+    "answer": "Le verre saphir est le plus résistant avec une dureté de 9 sur l'échelle de Mohs. Le verre minéral (5) est moyennement résistant et l'hésalite (2-3) se raye facilement mais se polit en quelques minutes."
+  },
+  {
+    "question": "Peut-on réparer un verre hésalite rayé?",
+    "answer": "Oui, l'hésalite (acrylique) se polit facilement avec Polywatch. Les verres minéraux et saphir ne se polissent pas et doivent être remplacés."
+  },
+  {
+    "question": "Le verre saphir est-il incassable?",
+    "answer": "Non, le saphir n'est pas incassable. Il est très dur mais cassant sous les chocs violents. L'hésalite résiste mieux aux impacts car elle se déforme sans s'éclater."
+  },
+  {
+    "question": "Quel verre est idéal pour une montre de plongée?",
+    "answer": "Le verre saphir est la référence pour la plongée grâce à sa résistance supérieure aux rayures et à la pression."
+  }
 ];
 const howTo = [
-  { name: 'Sélectionner un verre', text: 'Cliquez sur un verre à gauche pour voir sa fiche de statistiques à droite.' },
-  { name: 'Comparer deux verres', text: 'Faites glisser un verre depuis la liste et déposez-le sur un autre pour les comparer côte à côte.' },
-  { name: 'Fermer la comparaison', text: 'Cliquez sur "Close Comparison" pour revenir à la vue unique.' },
+  {
+    "name": "Sélectionner un verre",
+    "text": "Cliquez sur n'importe quel verre pour voir sa fiche technique."
+  },
+  {
+    "name": "Comparer deux verres",
+    "text": "Glissez un verre sur un autre pour les comparer côte à côte."
+  },
+  {
+    "name": "Fermer le comparateur",
+    "text": "Cliquez sur fermer pour revenir à la vue individuelle."
+  }
 ];
-const title = 'Comparaison de Verres de Montre: Hesalite vs Minéral vs Saphir';
+const title = 'Comparatif verres de montre Hesalite vs Verre Mineral vs Saphir';
 
 export const content: ToolLocaleContent<WatchCrystalMaterialComparisonUI> = {
   slug: 'comparaison-verres-montre-hesalite-mineral-saphir',
@@ -28,8 +50,102 @@ export const content: ToolLocaleContent<WatchCrystalMaterialComparisonUI> = {
     dragHint: 'Glisser', dragSub: 'pour comparer',
   },
   seo: [
-    { type: 'title', text: 'Comparaison de Verres de Montre: Hesalite vs Minéral vs Saphir', level: 2 },
-    { type: 'paragraph', html: 'Comparez <strong>hesalite, minéral et saphir</strong> avec des fiches de statistiques interactives. Dureté, clarté, résistance aux chocs et aux rayures.' },
-  ],
+  {
+    "type": "title",
+    "text": "Hésalite vs Verre Minéral vs Saphir: Guide comparatif complet",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "html": "Le choix du <strong>verre de montre</strong> est essentiel. Ce guide compare <strong>l'hésalite, le verre minéral et le saphir</strong> en dureté, clarté, résistance aux chocs et prix."
+  },
+  {
+    "type": "title",
+    "text": "Verre Hésalite (Acrylique / Plexiglas)",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "L'hésalite est le verre traditionnel depuis les années 1930. Souple (2-3 Mohs), il se raye facilement mais se polit rapidement. Exemple emblématique: Omega Speedmaster Professional."
+  },
+  {
+    "type": "title",
+    "text": "Verre Minéral (Trempé)",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "Le verre minéral est en dioxyde de silicium traité thermiquement. Avec une dureté Mohs de 5, il équipe de nombreuses montres Seiko, Citizen et Orient."
+  },
+  {
+    "type": "title",
+    "text": "Verre Saphir (Corindon Synthétique)",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "Fabriqué en corindon synthétique, le verre saphir atteint une dureté de 9 sur l'échelle de Mohs. Pratiquement inrayable, c'est le standard des montres de luxe."
+  },
+  {
+    "type": "title",
+    "text": "Tableau comparatif des verres de montre",
+    "level": 3
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Propriété",
+      "Hésalite",
+      "Verre Minéral",
+      "Verre Saphir"
+    ],
+    "rows": [
+      [
+        "Dureté Mohs",
+        "2-3/10",
+        "5/10",
+        "9/10"
+      ],
+      [
+        "Clarté",
+        "4/10",
+        "7/10",
+        "10/10"
+      ],
+      [
+        "Résistance aux chocs",
+        "5/10 (Meilleure)",
+        "3/10",
+        "2/10"
+      ],
+      [
+        "Résistance rayures",
+        "1/10",
+        "5/10",
+        "10/10"
+      ],
+      [
+        "Réparable",
+        "Oui (polissage)",
+        "Non (remplacement)",
+        "Non (remplacement)"
+      ],
+      [
+        "Prix",
+        "5 - 30 €",
+        "10 - 50 €",
+        "30 - 200+ €"
+      ]
+    ]
+  },
+  {
+    "type": "diagnostic",
+    "variant": "info",
+    "title": "Recommandation d'achat",
+    "icon": "mdi:diamond-stone",
+    "badge": "CONSEIL",
+    "html": "Pour un <strong>usage quotidien</strong> privilégiez le saphir. Pour une <strong>montre vintage</strong> l'hésalite offre un charme inégalé."
+  }
+],
   faq, bibliography, howTo, schemas: buildSchemas(title, faq, howTo),
 };

@@ -66,6 +66,23 @@ export const content: ToolLocaleContent<PerpetualCalendarUI> = {
     { type: 'paragraph', html: 'Der <strong>ewige Kalender</strong> ist eine der prestigeträchtigsten Komplikationen der Haute Horlogerie. Dieser interaktive Simulator visualisiert, wie ein mechanischer ewiger Kalender Datum, Wochentag, Monat, Schaltjahr und Mondphase verfolgt - jahrzehntelang ohne manuelle Korrektur. Erkunden Sie das 48-Monats-Getriebeprogramm, sehen Sie wie Februar-Übergänge funktionieren und verstehen Sie die in diesen Meisterwerken der Mikromechanik integrierte gregorianische Kalenderlogik.' },
     { type: 'title', text: 'Wie ein ewiger Kalender funktioniert', level: 3 },
     { type: 'paragraph', html: 'Ein mechanischer ewiger Kalender verwendet ein <strong>Programmräderwerk</strong> mit Kerben unterschiedlicher Tiefe, die die verschiedenen Monatslängen repräsentieren. Ein Abtasthebel fällt in jede Kerbe; eine tiefere Kerbe signalisiert einen kurzen Monat (28-29 Tage) und löst den Mechanismus aus, nach der korrekten Anzahl von Tagen auf den 1. des nächsten Monats vorzuspringen. Ein <strong>48-Monats-Getriebe</strong> bewältigt den 4-Jahres-Schaltjahrzyklus mit einer zusätzlichen Kerbe für den 29. Februar. Das Programm weiß, dass Jahrhundertjahre (z.B. 2100) das Schaltjahr auslassen, es sei denn, sie sind durch 400 teilbar.' },
+    { type: 'title', text: 'Kalenderlogik-Referenz', level: 3 },
+    {
+      type: 'table', headers: ['Monat', 'Tage', 'Kerbentiefe', 'Schaltjahr-Aktion'], rows: [
+        ['Januar', '31', 'Tief', 'Normal'],
+        ['Februar', '28 / 29', 'Flachste', 'Zusatz-Tag alle 4 Jahre'],
+        ['März', '31', 'Tief', 'Normal'],
+        ['April', '30', 'Mittel', 'Normal'],
+        ['Mai', '31', 'Tief', 'Normal'],
+        ['Juni', '30', 'Mittel', 'Normal'],
+        ['Juli', '31', 'Tief', 'Normal'],
+        ['August', '31', 'Tief', 'Normal'],
+        ['September', '30', 'Mittel', 'Normal'],
+        ['Oktober', '31', 'Tief', 'Normal'],
+        ['November', '30', 'Mittel', 'Normal'],
+        ['Dezember', '31', 'Tief', 'Normal'],
+      ]
+    },
     { type: 'title', text: 'Vergleich: Ewiger vs. Jahreskalender', level: 3 },
     {
       type: 'table', headers: ['Merkmal', 'Jahreskalender', 'Ewiger Kalender'], rows: [
