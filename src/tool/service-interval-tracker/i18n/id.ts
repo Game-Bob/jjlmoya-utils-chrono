@@ -1,6 +1,46 @@
 import type { ToolLocaleContent } from '../../../types';
 import type { ServiceIntervalTrackerUI } from '../entry';
 import { bibliography } from '../bibliography';
+import { buildServiceSeo } from '../../localeSeo';
+
+const title = 'Pelacak Interval Servis Jam Tangan';
+const description = 'Lacak dan kelola interval servis koleksi jam tangan Anda. Ketahui kapan waktu perawatan setiap jam tangan dengan mudah.';
+const faq = [
+  {
+    "question": "Seberapa sering jam otomatis perlu diservis?",
+    "answer": "Sebagian besar produsen menyarankan servis setiap 3 hingga 5 tahun. Dalam praktiknya, banyak jam tetap berfungsi baik selama 5 hingga 7 tahun."
+  },
+  {
+    "question": "Apakah jam kuarsa memerlukan perawatan berkala?",
+    "answer": "Ya, baterai sebaiknya diganti setiap 2-3 tahun untuk mencegah kebocoran. Pemeriksaan gasket lengkap disarankan setiap 5-10 tahun."
+  },
+  {
+    "question": "Apa yang terjadi jika jam tidak pernah diservis?",
+    "answer": "Pelumas mengering sehingga gesekan dan keausan pada poros serta permata meningkat. Akibatnya, kerusakan dapat menjadi mahal."
+  },
+  {
+    "question": "Bolehkah saya memaksa pemutaran jam mekanis manual?",
+    "answer": "Jam manual modern memiliki batas yang jelas saat pegas sudah penuh. Jangan memaksa mahkota ketika terasa menahan."
+  },
+  {
+    "question": "Apakah interval berubah sesuai pemakaian harian atau sesekali?",
+    "answer": "Ya, jam yang dipakai setiap hari lebih cepat aus dan perlu diperiksa setiap 3 tahun, sedangkan pemakaian sesekali dapat bertahan 5 tahun."
+  }
+];
+const howTo = [
+  {
+    "name": "Tambah jam",
+    "text": "Masukkan nama, jenis mesin, dan tanggal servis terakhir."
+  },
+  {
+    "name": "Periksa panel",
+    "text": "Setiap jam menampilkan bilah kemajuan dan kode warna."
+  },
+  {
+    "name": "Perbarui setelah servis",
+    "text": "Setelah jam diservis, perbarui tanggalnya untuk memulai kembali siklus."
+  }
+];
 
 export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   slug: 'pelacak-interval-servis',
@@ -36,97 +76,10 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
     years: 'thn',
     collectionHealth: 'Kesehatan koleksi',
   },
-  seo: [
-  {
-    "type": "title",
-    "text": "Rastreador de intervalos de mantenimiento para relojes",
-    "level": 2
-  },
-  {
-    "type": "paragraph",
-    "html": "Un reloj mecánico requiere un <strong>mantenimiento periódico</strong> para preservar sus finos componentes y evitar averías."
-  },
-  {
-    "type": "title",
-    "text": "Intervalos recomendados según el tipo de movimiento",
-    "level": 3
-  },
-  {
-    "type": "glossary",
-    "items": [
-      {
-        "term": "Automático (3-5 años)",
-        "definition": "El rotor y el tren de carga automática sufren desgaste constante."
-      },
-      {
-        "term": "Cuerda manual (4-5 años)",
-        "definition": "Carece de rotor pero las ruedas de corona se desgastan con el remontaje diario."
-      },
-      {
-        "term": "Cuarzo (5-10 años)",
-        "definition": "Mínimo desgaste mecánico pero exige cambio de batería y juntas."
-      },
-      {
-        "term": "Cinético / Solar (5-8 años)",
-        "definition": "El acumulador tiene una vida útil limitada."
-      }
-    ]
-  },
-  {
-    "type": "diagnostic",
-    "variant": "info",
-    "title": "Señales de que tu reloj necesita revisión",
-    "icon": "mdi:information",
-    "badge": "AVISO",
-    "html": "Si tu reloj adelanta o atrasa más de 15-20 segundos al día, o notas humedad en la esfera, llévalo al servicio técnico."
-  },
-  {
-    "type": "title",
-    "text": "Rastrea tu colección",
-    "level": 3
-  },
-  {
-    "type": "paragraph",
-    "html": "Añade cada reloj de tu colección con su tipo de movimiento y fecha de última revisión. El rastreador calcula la próxima fecha."
-  }
-],
-  faq: [
-  {
-    "question": "¿Con qué frecuencia se debe revisar un reloj automático?",
-    "answer": "La mayoría de los fabricantes recomiendan una revisión cada 3 a 5 años. En la práctica muchos funcionan de 5 a 7 años sin problemas."
-  },
-  {
-    "question": "¿Los relojes de cuarzo necesitan mantenimiento periódico?",
-    "answer": "Sí, la batería debe cambiarse cada 2-3 años para evitar fugas de ácido. Una revisión completa de juntas se recomienda cada 5-10 años."
-  },
-  {
-    "question": "¿Qué ocurre si nunca le hago mantenimiento a mi reloj?",
-    "answer": "Los lubricantes se secan, aumentando la fricción y el desgaste de pivotes y rubíes. Esto causa averías costosas."
-  },
-  {
-    "question": "¿Puedo forzar la cuerda de un reloj manual?",
-    "answer": "Los relojes manuales modernos tienen un tope firme al llegar al tope de cuerda. No fuerces la corona cuando sientas resistencia."
-  },
-  {
-    "question": "¿Cambia el intervalo según el uso diario o puntual?",
-    "answer": "Sí, un reloj de uso diario sufre más desgaste y requiere revisión cada 3 años, mientras que uno de uso ocasional aguantará 5 años."
-  }
-],
+  seo: buildServiceSeo({ title, description, faq, howTo }),
+  faq,
   bibliography,
-  howTo: [
-  {
-    "name": "Añadir reloj",
-    "text": "Introduce el nombre, tipo de movimiento y fecha del último servicio."
-  },
-  {
-    "name": "Consultar el panel",
-    "text": "Cada reloj muestra una barra de progreso y código de colores."
-  },
-  {
-    "name": "Actualizar tras el servicio",
-    "text": "Cuando lo lleves al relojero, actualiza la fecha para reiniciar el ciclo."
-  }
-],
+  howTo,
   schemas: [
     {
       '@context': 'https://schema.org',
