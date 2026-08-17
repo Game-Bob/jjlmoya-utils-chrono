@@ -131,26 +131,26 @@ export const content: ToolLocaleContent<WatchSizeComparatorUI> = {
       'mainEntity': [
         {
           '@type': 'Question',
-          'name': 'How do I measure my wrist for a watch?',
+          'name': '시계에 맞는 손목 둘레는 어떻게 측정하나요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Use a flexible tape measure around the wrist bone. Average is 17-19cm for men, 14-16cm for women.',
+            'text': '유연한 줄자로 손목뼈 주변을 측정하세요. 평균 손목 둘레는 남성 17-19cm, 여성 14-16cm입니다.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'What is lug-to-lug and why does it matter?',
+          'name': '러그 투 러그란 무엇이며 왜 중요한가요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Lug-to-lug is the distance between top and bottom lugs. It determines if the watch overhangs your wrist.',
+            'text': '러그 투 러그는 위쪽 러그와 아래쪽 러그 사이의 거리입니다. 시계가 손목 밖으로 튀어나오는지를 결정합니다.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'What size watch fits a 17cm wrist?',
+          'name': '손목 둘레 17cm에는 어떤 크기의 시계가 맞나요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'A 17cm wrist fits 36-42mm diameter with 44-50mm lug-to-lug. Sweet spot is 38-40mm with 46-48mm L2L.',
+            'text': '손목 둘레 17cm에는 직경 36-42mm, 러그 투 러그 44-50mm인 시계가 잘 맞습니다. 가장 균형 잡힌 크기는 직경 38-40mm, L2L 46-48mm입니다.',
           },
         },
       ],

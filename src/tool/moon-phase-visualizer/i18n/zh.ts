@@ -152,22 +152,22 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       '@context': 'https://schema.org',
       '@type': 'HowTo',
-      'name': 'How to visualize moon phases',
+       'name': '如何查看月相',
       'step': [
         {
           '@type': 'HowToStep',
-          'name': 'Select a date',
-          'text': 'Use the date picker to choose any date and see the moon phase.',
+           'name': '选择日期',
+           'text': '使用日期选择器选择任意日期，查看对应的月相。',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Read the phase data',
-          'text': 'The cards show phase name, illumination, moon age, and cycle progress.',
+           'name': '查看月相数据',
+           'text': '卡片显示月相名称、照明比例、月龄和周期进度。',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Set your watch',
-          'text': 'Use the displayed phase to set your moon phase watch complication.',
+           'name': '设置手表',
+           'text': '根据显示的月相设置手表的月相功能。',
         },
       ],
     },

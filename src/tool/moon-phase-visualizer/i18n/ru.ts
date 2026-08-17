@@ -152,22 +152,22 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       '@context': 'https://schema.org',
       '@type': 'HowTo',
-      'name': 'How to visualize moon phases',
+       'name': 'Как просматривать фазы Луны',
       'step': [
         {
           '@type': 'HowToStep',
-          'name': 'Select a date',
-          'text': 'Use the date picker to choose any date and see the moon phase.',
+           'name': 'Выберите дату',
+           'text': 'Выберите любую дату с помощью календаря и просмотрите фазу Луны.',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Read the phase data',
-          'text': 'The cards show phase name, illumination, moon age, and cycle progress.',
+           'name': 'Изучите данные фазы',
+           'text': 'На карточках показаны название фазы, освещённость, возраст Луны и ход цикла.',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Set your watch',
-          'text': 'Use the displayed phase to set your moon phase watch complication.',
+           'name': 'Настройте часы',
+           'text': 'Используйте отображаемую фазу для настройки лунного индикатора на часах.',
         },
       ],
     },

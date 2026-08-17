@@ -117,26 +117,26 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
       'mainEntity': [
         {
           '@type': 'Question',
-          'name': 'How do I set a moon phase on my watch?',
+           'name': '시계의 문페이즈를 어떻게 맞추나요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Find today\'s moon phase using this tool. Advance the crown until the moon disc shows the matching phase. Avoid setting between 9 PM and 3 AM.',
+             'text': '이 도구로 오늘의 달 위상을 확인하세요. 달 디스크가 같은 위상을 표시할 때까지 용두를 돌리세요. 오후 9시부터 오전 3시 사이에는 조정하지 마세요.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'How accurate are mechanical moon phase watches?',
+           'name': '기계식 문페이즈 시계의 정확도는 어느 정도인가요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'Most use a 59-tooth gear that is accurate to about one day every 2 years. High-end watches achieve accuracy within one day every 100+ years.',
+             'text': '대부분 59개 톱니 기어를 사용해 약 2년에 하루 정도 오차가 납니다. 고급 시계는 100년 이상에 하루 이내의 정확도를 달성합니다.',
           },
         },
         {
           '@type': 'Question',
-          'name': 'What is the difference between a synodic and sidereal month?',
+           'name': '삭망월과 항성월의 차이는 무엇인가요?',
           'acceptedAnswer': {
             '@type': 'Answer',
-            'text': 'The sidereal month (27.3 days) is the moon\'s orbit relative to the stars. The synodic month (29.53 days) is the time between identical phases and is what moon phase watches track.',
+             'text': '항성월(27.3일)은 별을 기준으로 한 달의 공전 주기입니다. 삭망월(29.53일)은 같은 위상이 반복되는 기간으로, 문페이즈 시계가 표시하는 주기입니다.',
           },
         },
       ],
@@ -144,30 +144,30 @@ export const content: ToolLocaleContent<MoonPhaseVisualizerUI> = {
     {
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',
-      'name': 'Moon Phase Visualizer',
+       'name': '문페이즈 시각화 도구',
       'operatingSystem': 'All',
       'applicationCategory': 'UtilitiesApplication',
-      'browserRequirements': 'Requires HTML5. Requires JavaScript.',
+       'browserRequirements': 'HTML5와 JavaScript가 필요합니다.',
     },
     {
       '@context': 'https://schema.org',
       '@type': 'HowTo',
-      'name': 'How to visualize moon phases',
+       'name': '문페이즈를 시각화하는 방법',
       'step': [
         {
           '@type': 'HowToStep',
-          'name': 'Select a date',
-          'text': 'Use the date picker to choose any date and see the moon phase.',
+           'name': '날짜 선택',
+           'text': '날짜 선택기로 원하는 날짜를 골라 달의 위상을 확인합니다.',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Read the phase data',
-          'text': 'The cards show phase name, illumination, moon age, and cycle progress.',
+           'name': '위상 데이터 확인',
+           'text': '카드에서 위상 이름, 조명 비율, 월령 및 주기 진행률을 확인합니다.',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Set your watch',
-          'text': 'Use the displayed phase to set your moon phase watch complication.',
+           'name': '시계 설정',
+           'text': '표시된 위상을 사용해 시계의 문페이즈 표시를 설정합니다.',
         },
       ],
     },

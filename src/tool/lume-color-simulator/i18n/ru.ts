@@ -155,18 +155,18 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
       'step': [
         {
           '@type': 'HowToStep',
-          'name': 'Select a lume type',
-          'text': 'Choose from C1, C3, BGW9, LumiNova, or other presets.',
+          'name': 'Выберите тип люминофора',
+          'text': 'Выберите C1, C3, BGW9, LumiNova или другой готовый вариант.',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Adjust brightness',
-          'text': 'Slide brightness from day to night to see the lume behavior.',
+          'name': 'Настройте яркость',
+          'text': 'Перемещайте яркость от дневного к ночному режиму, чтобы увидеть поведение люминофора.',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Read the specs',
-          'text': 'The info card shows HEX and RGB values of the current color.',
+          'name': 'Прочитайте характеристики',
+          'text': 'Информационная карточка показывает значения HEX и RGB текущего цвета.',
         },
       ],
     },

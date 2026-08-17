@@ -155,18 +155,18 @@ export const content: ToolLocaleContent<LumeColorSimulatorUI> = {
       'step': [
         {
           '@type': 'HowToStep',
-          'name': 'Select a lume type',
-          'text': 'Choose from C1, C3, BGW9, LumiNova, or other presets.',
+          'name': '选择夜光类型',
+          'text': '从C1、C3、BGW9、LumiNova或其他预设中选择。',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Adjust brightness',
-          'text': 'Slide brightness from day to night to see the lume behavior.',
+          'name': '调整亮度',
+          'text': '将亮度从白天滑到夜间，查看夜光表现。',
         },
         {
           '@type': 'HowToStep',
-          'name': 'Read the specs',
-          'text': 'The info card shows HEX and RGB values of the current color.',
+          'name': '查看规格',
+          'text': '信息卡显示当前颜色的HEX和RGB值。',
         },
       ],
     },
