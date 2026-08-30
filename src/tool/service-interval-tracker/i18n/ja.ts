@@ -88,6 +88,14 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   {
     "type": "paragraph",
     "html": "手持ちの時計を登録して、次のオーバーホール時期を自動計算・管理できます。"
+  },
+  {
+    "type": "paragraph",
+    "html": "電池交換、パッキンの確認、機械式ムーブメントの洗浄や注油など、実施した内容と日付を記録しておくと、時計ごとの状態を比較しやすくなります。"
+  },
+  {
+    "type": "paragraph",
+    "html": "精度の変化や異音、結露などの症状も一緒に記録して、必要なときは専門の時計店に相談してください。"
   }
 ],
   faq: [

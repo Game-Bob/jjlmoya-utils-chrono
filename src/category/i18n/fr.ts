@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horlogerie';
 const title = "Outils d'Horlogerie et Guides de Référence";
-const description = "Des utilitaires d'horlogerie de qualité professionnelle pour les passionnés de montres-ivez la précision, démagnétisez les mouvements, calculez le temps de port au poignet et explorez les références de positions de couronne pour les calibres populaires.";
+const description = "Outils d'horlogerie pour passionnés: vérifiez la précision, démagnétisez les mouvements, calculez le temps de port et consultez les positions de couronne des calibres courants.";
 
 export const content: CategoryLocaleContent = {
   slug,

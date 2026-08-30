@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horologia';
 const title = 'Narzędzia Horologiczne & Przewodniki Referencyjne';
-const description = 'Profesjonalne narzędzia horologiczne dla entuzjastów zegarków-edź dokładność, rozmagnesowuj mechanizmy, obliczaj obecność na nadgarstku i poznawaj pozycje koronki popularnych kalibrów.';
+const description = 'Narzędzia zegarmistrzowskie dla pasjonatów: sprawdzaj dokładność, rozmagnesowuj mechanizmy, obliczaj czas noszenia i poznawaj pozycje koronki popularnych kalibrów.';
 
 export const content: CategoryLocaleContent = {
   slug,

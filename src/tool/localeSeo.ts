@@ -66,8 +66,14 @@ export function buildServiceSeo(source: Source): SEOSection[] {
       badge: 'INFO',
       html: faq(source, 2).answer,
     },
+    { type: 'title', text: faq(source, 1).question, level: 3 },
+    { type: 'paragraph', html: faq(source, 1).answer },
+    { type: 'title', text: faq(source, 3).question, level: 3 },
+    { type: 'paragraph', html: faq(source, 3).answer },
     { type: 'title', text: step(source, 0).name, level: 3 },
     { type: 'paragraph', html: step(source, 0).text },
+    { type: 'title', text: step(source, 1).name, level: 3 },
+    { type: 'paragraph', html: step(source, 1).text },
   ];
 }
 
@@ -87,6 +93,16 @@ export function buildTelemeterSeo(source: Source): SEOSection[] {
     { type: 'title', text: faq(source, 3).question, level: 3 },
     telemeterTable(source.title),
     infoDiagnostic(faq(source, 4).question, faq(source, 4).answer),
+    { type: 'title', text: faq(source, 0).question, level: 3 },
+    { type: 'paragraph', html: faq(source, 0).answer },
+    { type: 'title', text: faq(source, 3).question, level: 3 },
+    { type: 'paragraph', html: faq(source, 3).answer },
+    { type: 'title', text: faq(source, 4).question, level: 3 },
+    { type: 'paragraph', html: faq(source, 4).answer },
+    { type: 'title', text: step(source, 3).name, level: 3 },
+    { type: 'paragraph', html: step(source, 3).text },
+    { type: 'title', text: step(source, 4).name, level: 3 },
+    { type: 'paragraph', html: step(source, 4).text },
   ];
 }
 
@@ -103,5 +119,9 @@ export function buildWatchCrystalSeo(source: Source): SEOSection[] {
     { type: 'title', text: faq(source, 3).question, level: 3 },
     watchTable(source.title),
     infoDiagnostic(step(source, 0).name, step(source, 0).text),
+    { type: 'title', text: step(source, 1).name, level: 3 },
+    { type: 'paragraph', html: step(source, 1).text },
+    { type: 'title', text: step(source, 2).name, level: 3 },
+    { type: 'paragraph', html: step(source, 2).text },
   ];
 }

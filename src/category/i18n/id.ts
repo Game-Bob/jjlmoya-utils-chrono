@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horologi';
 const title = 'Alat Horologi & Panduan Referensi';
-const description = 'Utilitas horologi kelas profesional untuk penggemar jam tangan-cak akurasi, demagnetisasi gerakan, hitung kehadiran di pergelangan tangan, dan jelajahi referensi posisi mahkota untuk kaliber populer.';
+const description = 'Alat horologi untuk penggemar jam tangan: periksa akurasi, demagnetisasi mesin, hitung waktu pemakaian, dan lihat posisi crown pada kaliber populer.';
 
 export const content: CategoryLocaleContent = {
   slug,

@@ -88,7 +88,11 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   {
     "type": "paragraph",
     "html": "Fügen Sie jede Uhr Ihrer Sammlung mit Werkstyp und letztem Servicedatum hinzu. Der Tracker berechnet die nächste empfohlene Wartung automatisch."
-  }
+  },
+  {
+    "type": "paragraph",
+    "html": "Dokumentieren Sie jede Wartung mit Datum, Werkstyp und beobachteten Symptomen. Der Verlauf hilft beim Vergleich zwischen Uhren und macht sichtbar, ob ein Intervall angepasst werden sollte. Bei Feuchtigkeit, starkem Vorgehen oder ungewöhnlichen Geräuschen sollte eine qualifizierte Werkstatt die Uhr prüfen.",
+  },
 ],
   faq: [
   {

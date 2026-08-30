@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'orologeria';
 const title = 'Strumenti di Orologeria e Guide di Riferimento';
-const description = 'Utilità di orologeria di livello professionale per appassionati di orologi-nitora la precisione, smagnetizza i movimenti, calcola il tempo al polso ed esplora le posizioni della corona per calibri popolari.';
+const description = 'Strumenti di orologeria per appassionati: controlla la precisione, smagnetizza i movimenti, calcola il tempo al polso e consulta le posizioni della corona dei calibri più diffusi.';
 
 export const content: CategoryLocaleContent = {
   slug,

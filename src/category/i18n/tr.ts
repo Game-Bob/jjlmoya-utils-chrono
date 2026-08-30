@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horoloji';
 const title = 'Horoloji Araçları & Referans Kılavuzları';
-const description = 'Saat tutkunları için profesyonel düzeyde horoloji araçları-ssasiyet takibi, mekanizma demanyetizasyonu, bilekte geçen süre hesaplama ve popüler kalibreler için kurma kolu pozisyon referansları.';
+const description = 'Saat tutkunları için horoloji araçları: hassasiyeti kontrol edin, mekanizmaları demanyetize edin, kullanım süresini hesaplayın ve popüler kalibrelerin kurma kolu konumlarına bakın.';
 
 export const content: CategoryLocaleContent = {
   slug,

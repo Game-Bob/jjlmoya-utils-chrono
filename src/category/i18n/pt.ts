@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'relojoaria';
 const title = 'Ferramentas de Relojoaria & Guias de Referência';
-const description = 'Utilitários de relojoaria de nível profissional para entusiastas de relógios-nitore a precisão, desmagnetize movimentos, calcule o uso no pulso e explore referências de posições de coroa para calibres populares.';
+const description = 'Ferramentas de relojoaria para entusiastas: verifique a precisão, desmagnetize movimentos, calcule o tempo no pulso e consulte posições da coroa de calibres populares.';
 
 export const content: CategoryLocaleContent = {
   slug,

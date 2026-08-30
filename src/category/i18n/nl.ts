@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horologie';
 const title = 'Horologie Gereedschappen & Referentiegidsen';
-const description = 'Professionele horologie-hulpmiddelen voor horlogeliefhebbers-lg nauwkeurigheid, demagnetiseer uurwerken, bereken draagtijd en verken kroonpositie-referenties voor populaire kalibers.';
+const description = 'Horologiehulpmiddelen voor horlogeliefhebbers: controleer de nauwkeurigheid, demagnetiseer uurwerken, bereken draagtijd en bekijk kroonposities van populaire kalibers.';
 
 export const content: CategoryLocaleContent = {
   slug,

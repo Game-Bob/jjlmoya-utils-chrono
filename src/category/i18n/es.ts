@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horologia';
 const title = 'Herramientas de Relojería y Guías de Referencia';
-const description = 'Utilidades de relojería de grado profesional para entusiastas del reloj: mide la precisión, desmagnetiza movimientos, calcula el uso en muñeca y explora referencias de posiciones de corona para calibres populares.';
+const description = 'Herramientas de relojería para entusiastas: comprueba la precisión, desmagnetiza movimientos, calcula el tiempo de uso y consulta posiciones de corona de calibres populares.';
 
 export const content: CategoryLocaleContent = {
   slug,

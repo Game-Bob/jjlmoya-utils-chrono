@@ -88,6 +88,14 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   {
     "type": "paragraph",
     "html": "录入您收藏的每块手表，自动计算并管理下一次保养日期。"
+  },
+  {
+    "type": "paragraph",
+    "html": "记录换电池、检查防水圈以及机械机芯清洗和加油的日期，可以比较每块手表的状态，并及时发现走时变化或其他异常。"
+  },
+  {
+    "type": "paragraph",
+    "html": "如果出现走时明显变化、异响或表镜起雾，应尽快咨询专业维修店，并在维修后更新保养日期和相关记录，避免继续佩戴造成更大损伤，请及时处理。"
   }
 ],
   faq: [

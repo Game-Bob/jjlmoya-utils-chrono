@@ -88,6 +88,19 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   {
     "type": "paragraph",
     "html": "Ajoutez chaque montre de votre collection pour calculer automatiquement sa prochaine révision."
+  },
+  {
+    "type": "title",
+    "text": "Entretenir les montres mécaniques et à quartz",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "Les montres à quartz demandent un remplacement de pile et un contrôle des joints, tandis que les mouvements mécaniques nécessitent nettoyage, lubrification et réglage. Notez chaque intervention, sa date et les symptômes observés pour suivre l'évolution de la montre."
+  },
+  {
+    "type": "paragraph",
+    "html": "Après chaque révision, mettez à jour la fiche dans le tableau de bord. La date calculée reste indicative: l'usage, la précision constatée et les recommandations du fabricant doivent guider la décision finale."
   }
 ],
   faq: [

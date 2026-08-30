@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horology';
 const title = 'Horology Tools & Reference Guides';
-const description = 'Professional-grade horology utilities for watch enthusiasts-ack accuracy, demagnetize movements, calculate wrist presence, and explore crown position references for popular calibers.';
+const description = 'Horology tools for watch enthusiasts: check accuracy, demagnetize movements, calculate wear time and look up crown positions for popular calibers.';
 
 export const content: CategoryLocaleContent = {
   slug,

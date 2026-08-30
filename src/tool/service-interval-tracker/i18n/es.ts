@@ -88,6 +88,19 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   {
     "type": "paragraph",
     "html": "Añade cada reloj de tu colección con su tipo de movimiento y fecha de última revisión. El rastreador calcula la próxima fecha."
+  },
+  {
+    "type": "title",
+    "text": "Mantenimiento de relojes de cuarzo y mecánicos",
+    "level": 3
+  },
+  {
+    "type": "paragraph",
+    "html": "Los relojes de cuarzo necesitan cambio de batería y revisión de juntas, mientras que los mecánicos requieren limpieza, lubricación y ajuste. Guarda cada servicio con su fecha y síntomas para detectar cambios antes de que se conviertan en una avería."
+  },
+  {
+    "type": "paragraph",
+    "html": "Consulta el panel después de cada revisión y actualiza el registro. La fecha calculada es una orientación: el uso, la precisión y la recomendación del fabricante deben guiar la decisión final."
   }
 ],
   faq: [

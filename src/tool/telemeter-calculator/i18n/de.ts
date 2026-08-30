@@ -149,7 +149,11 @@ export const content: ToolLocaleContent<TelemeterCalculatorUI> = {
     "icon": "mdi:information",
     "badge": "PRÄZISION",
     "html": "Schall reist in warmer Luft schneller als in kalter Luft. Die Einstellung der Temperatur korrigiert diesen Wert."
-  }
+  },
+  {
+    "type": "paragraph",
+    "html": "Für eine bessere Schätzung starten und stoppen Sie den Chronographen möglichst genau und lesen Sie die Skala erst nach dem hörbaren Ereignis ab. Wind, Gelände, Temperatur und Reaktionszeit beeinflussen das Ergebnis. Die Anzeige ist eine praktische Näherung und kein Ersatz für eine präzise Vermessung.",
+  },
 ],
   faq: [
   {

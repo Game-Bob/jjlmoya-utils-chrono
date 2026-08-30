@@ -2,7 +2,7 @@ import type { CategoryLocaleContent } from '../../types';
 
 const slug = 'horologie';
 const title = 'Uhrmacherwerkzeuge & Referenzführer';
-const description = 'Professionelle uhrmacherische Hilfsmittel für Uhrenliebhaber-rfolgen Sie die Ganggenauigkeit, entmagnetisieren Sie Uhrwerke, berechnen Sie die Tragedauer am Handgelenk und erkunden Sie Kronenpositions-Referenzen für gängige Kaliber.';
+const description = 'Werkzeuge für Uhrenliebhaber: Ganggenauigkeit prüfen, Uhrwerke entmagnetisieren, Tragezeit berechnen und Kronenpositionen gängiger Kaliber nachschlagen.';
 
 export const content: CategoryLocaleContent = {
   slug,

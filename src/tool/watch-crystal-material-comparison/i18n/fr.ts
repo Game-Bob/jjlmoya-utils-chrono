@@ -145,7 +145,11 @@ export const content: ToolLocaleContent<WatchCrystalMaterialComparisonUI> = {
     "icon": "mdi:diamond-stone",
     "badge": "CONSEIL",
     "html": "Pour un <strong>usage quotidien</strong> privilégiez le saphir. Pour une <strong>montre vintage</strong> l'hésalite offre un charme inégalé."
-  }
+  },
+  {
+    "type": "paragraph",
+    "html": "Pour choisir un verre, tenez compte du style de la montre, de son usage quotidien, de la facilité de polissage et du coût de remplacement. Vérifiez aussi les indications du fabricant et protégez le boîtier contre les chocs. Le tableau sert de repère général: la finition réelle varie selon le modèle.",
+  },
 ],
   faq, bibliography, howTo, schemas: buildSchemas(title, faq, howTo),
 };

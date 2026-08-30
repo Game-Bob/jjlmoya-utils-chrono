@@ -88,6 +88,10 @@ export const content: ToolLocaleContent<ServiceIntervalTrackerUI> = {
   {
     "type": "paragraph",
     "html": "소장 중인 시계를 등록하여 다음 점검일을 자동으로 계산하고 관리하세요."
+  },
+  {
+    "type": "paragraph",
+    "html": "배터리 교체, 방수 가스켓 점검, 기계식 무브먼트 세척과 윤활 등 수행한 작업과 날짜를 기록하면 시계별 상태를 비교하고 이상 징후를 조기에 확인할 수 있습니다."
   }
 ],
   faq: [
