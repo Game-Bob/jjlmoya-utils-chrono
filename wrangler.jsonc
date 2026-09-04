@@ -7,323 +7,163 @@
     "preview_urls": true,
     "routes": [
         {
-            "pattern": "www.jjlmoya.es/utilidades/categorias/horologia",
+            "pattern": "www.jjlmoya.es/utilidades/categorias/horologia*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/categorias/horologia/*",
+            "pattern": "www.jjlmoya.es/utilidades/estimador-altitud-precision*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/estimador-altitud-precision",
+            "pattern": "www.jjlmoya.es/utilidades/convertidor-ritmo-pulsacion*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/estimador-altitud-precision/*",
+            "pattern": "www.jjlmoya.es/utilidades/guia-corona-referencia*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/convertidor-ritmo-pulsacion",
+            "pattern": "www.jjlmoya.es/utilidades/temporizador-desmagnetizacion*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/convertidor-ritmo-pulsacion/*",
+            "pattern": "www.jjlmoya.es/utilidades/explorador-tren-engranajes*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/guia-corona-referencia",
+            "pattern": "www.jjlmoya.es/utilidades/reloj-mundial-gmt*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/guia-corona-referencia/*",
+            "pattern": "www.jjlmoya.es/utilidades/simulador-de-color-de-lume*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/temporizador-desmagnetizacion",
+            "pattern": "www.jjlmoya.es/utilidades/buscador-muelle-real*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/temporizador-desmagnetizacion/*",
+            "pattern": "www.jjlmoya.es/utilidades/visualizador-de-fase-lunar*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/explorador-tren-engranajes",
+            "pattern": "www.jjlmoya.es/utilidades/calendario-perpetuo*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/explorador-tren-engranajes/*",
+            "pattern": "www.jjlmoya.es/utilidades/estimador-reserva-de-marcha*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/reloj-mundial-gmt",
+            "pattern": "www.jjlmoya.es/utilidades/comprobador-salud-bateria-cuarzo*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/reloj-mundial-gmt/*",
+            "pattern": "www.jjlmoya.es/utilidades/rastreador-intervalo-servicio*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/simulador-de-color-de-lume",
+            "pattern": "www.jjlmoya.es/utilidades/rastreador-tiempo-sideral*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/simulador-de-color-de-lume/*",
+            "pattern": "www.jjlmoya.es/utilidades/calculadora-longitud-correa*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/buscador-muelle-real",
+            "pattern": "www.jjlmoya.es/utilidades/calculadora-estrechamiento-correa*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/buscador-muelle-real/*",
+            "pattern": "www.jjlmoya.es/utilidades/calculadora-taquimetrica*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/visualizador-de-fase-lunar",
+            "pattern": "www.jjlmoya.es/utilidades/calculadora-telemetrica*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/visualizador-de-fase-lunar/*",
+            "pattern": "www.jjlmoya.es/utilidades/tourbillon-visualizador*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/calendario-perpetuo",
+            "pattern": "www.jjlmoya.es/utilidades/calculadora-precision-marcha-reloj*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/calendario-perpetuo/*",
+            "pattern": "www.jjlmoya.es/utilidades/comparativa-cristales-reloj-hesalita-mineral-zafiro*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/estimador-reserva-de-marcha",
+            "pattern": "www.jjlmoya.es/utilidades/planificador-ahorro-reloj*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/estimador-reserva-de-marcha/*",
+            "pattern": "www.jjlmoya.es/utilidades/comparador-de-tamano-de-reloj*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/comprobador-salud-bateria-cuarzo",
+            "pattern": "www.jjlmoya.es/utilidades/convertidor-resistencia-agua*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/comprobador-salud-bateria-cuarzo/*",
+            "pattern": "www.jjlmoya.es/utilidades/calculadora-presencia-muneca*",
             "zone_name": "jjlmoya.es"
         },
         {
-            "pattern": "www.jjlmoya.es/utilidades/rastreador-intervalo-servicio",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/rastreador-intervalo-servicio/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/rastreador-tiempo-sideral",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/rastreador-tiempo-sideral/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-longitud-correa",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-longitud-correa/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-estrechamiento-correa",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-estrechamiento-correa/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-taquimetrica",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-taquimetrica/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-telemetrica",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-telemetrica/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/tourbillon-visualizador",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/tourbillon-visualizador/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-precision-marcha-reloj",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-precision-marcha-reloj/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/comparativa-cristales-reloj-hesalita-mineral-zafiro",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/comparativa-cristales-reloj-hesalita-mineral-zafiro/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/planificador-ahorro-reloj",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/planificador-ahorro-reloj/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/comparador-de-tamano-de-reloj",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/comparador-de-tamano-de-reloj/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/convertidor-resistencia-agua",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/convertidor-resistencia-agua/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-presencia-muneca",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.jjlmoya.es/utilidades/calculadora-presencia-muneca/*",
-            "zone_name": "jjlmoya.es"
-        },
-        {
-            "pattern": "www.gamebob.dev/en/utilities/categories/horology",
+            "pattern": "www.gamebob.dev/en/utilities/categories/horology*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/en/utilities/categories/horology/*",
+            "pattern": "www.gamebob.dev/fr/utilitaires/categories/horlogerie*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/fr/utilitaires/categories/horlogerie",
+            "pattern": "www.gamebob.dev/de/werkzeuge/kategorien/horologie*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/fr/utilitaires/categories/horlogerie/*",
+            "pattern": "www.gamebob.dev/it/utilita/categorie/orologeria*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/de/werkzeuge/kategorien/horologie",
+            "pattern": "www.gamebob.dev/pt/utilidades/categorias/relojoaria*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/de/werkzeuge/kategorien/horologie/*",
+            "pattern": "www.gamebob.dev/nl/hulpmiddelen/categorieen/horologie*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/it/utilita/categorie/orologeria",
+            "pattern": "www.gamebob.dev/sv/verktyg/kategorier/horologi*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/it/utilita/categorie/orologeria/*",
+            "pattern": "www.gamebob.dev/pl/narzedzia/kategorie/horologia*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/pt/utilidades/categorias/relojoaria",
+            "pattern": "www.gamebob.dev/id/utilitas/kategori/horologi*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/pt/utilidades/categorias/relojoaria/*",
+            "pattern": "www.gamebob.dev/tr/araclar/kategoriler/horoloji*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/nl/hulpmiddelen/categorieen/horologie",
+            "pattern": "www.gamebob.dev/ru/instrumenty/kategorii/horologiya*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/nl/hulpmiddelen/categorieen/horologie/*",
+            "pattern": "www.gamebob.dev/ja/utilities/categories/horology*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/sv/verktyg/kategorier/horologi",
+            "pattern": "www.gamebob.dev/ko/utilities/categories/horology*",
             "zone_name": "gamebob.dev"
         },
         {
-            "pattern": "www.gamebob.dev/sv/verktyg/kategorier/horologi/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/pl/narzedzia/kategorie/horologia",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/pl/narzedzia/kategorie/horologia/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/id/utilitas/kategori/horologi",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/id/utilitas/kategori/horologi/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/tr/araclar/kategoriler/horoloji",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/tr/araclar/kategoriler/horoloji/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/ru/instrumenty/kategorii/horologiya",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/ru/instrumenty/kategorii/horologiya/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/ja/utilities/categories/horology",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/ja/utilities/categories/horology/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/ko/utilities/categories/horology",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/ko/utilities/categories/horology/*",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/zh/utilities/categories/horology",
-            "zone_name": "gamebob.dev"
-        },
-        {
-            "pattern": "www.gamebob.dev/zh/utilities/categories/horology/*",
+            "pattern": "www.gamebob.dev/zh/utilities/categories/horology*",
             "zone_name": "gamebob.dev"
         },
         {
