@@ -13,7 +13,7 @@ export const content: CategoryLocaleContent = {
     { type: "title", text: "A workbench for understanding time", level: 2 },
     {
       type: "paragraph",
-      html: `Horology begins when a dial stops being an image and becomes a system you can read. This collection gathers instruments for observing rate, interpreting the rhythm of a movement, understanding the gesture of the crown, and making better-informed decisions. It is not a replacement for a watchmaker’s bench; it turns specific everyday questions into small explorations, with clear results and an interface that leaves room for curiosity.`,
+      html: `Horology begins when a dial stops being an image and becomes a system you can read. This collection gathers instruments for observing rate, interpreting the rhythm of a movement, understanding the gesture of the crown, and making better-informed decisions. It is not a replacement for a watchmaker's bench; it turns specific everyday questions into small explorations, with clear results and an interface that leaves room for curiosity.`,
     },
     { type: "title", text: "Precision you can see", level: 2 },
     {

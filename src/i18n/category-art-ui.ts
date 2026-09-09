@@ -57,15 +57,15 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     fieldGuide: "CARNET DE TERRAIN / 01",
     measuredNote: "Mesuré localement · conçu pour les mains curieuses",
     instrumentAria:
-      "Instrument abstrait de précision affichant l’heure locale en mouvement",
+      "Instrument abstrait de précision affichant l'heure locale en mouvement",
     precisionLabel: "PRÉCISION / 01",
     localTimeLabel: "HEURE LOCALE / SYSTÈME",
-    artCaptionLead: "L’ART DE",
+    artCaptionLead: "L'ART DE",
     artCaptionMain: "MESURER LE TEMPS",
     indexLabel: "INDEX / {count} INSTRUMENTS",
     indexTitle: "Une archive vivante du temps.",
     indexIntro:
-      "Chaque outil est un petit instrument : il répond à une question précise, puis s’efface pour vous laisser réfléchir.",
+      "Chaque outil est un petit instrument: il répond à une question précise, puis s'efface pour vous laisser réfléchir.",
     toolTypes: {
       primary: "SIGNAL PRINCIPAL",
       calibration: "CALIBRATION",
@@ -94,10 +94,10 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     fieldGuide: "TACCUINO DI CAMPO / 01",
     measuredNote: "Misurato localmente · creato per mani curiose",
     instrumentAria:
-      "Strumento astratto di precisione con l’ora locale in movimento",
+      "Strumento astratto di precisione con l'ora locale in movimento",
     precisionLabel: "PRECISIONE / 01",
     localTimeLabel: "ORA LOCALE / SISTEMA",
-    artCaptionLead: "L’ARTE DI",
+    artCaptionLead: "L'ARTE DI",
     artCaptionMain: "MISURARE IL TEMPO",
     indexLabel: "INDICE / {count} STRUMENTI",
     indexTitle: "Un archivio vivente del tempo.",
@@ -235,7 +235,7 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexLabel: "ИНДЕКС / {count} ИНСТРУМЕНТОВ",
     indexTitle: "Живой архив времени.",
     indexIntro:
-      "Каждый инструмент — небольшое устройство: он отвечает на один точный вопрос, а затем отступает, чтобы вы могли думать дальше.",
+      "Каждый инструмент, небольшое устройство: он отвечает на один точный вопрос, а затем отступает, чтобы вы могли думать дальше.",
     toolTypes: {
       primary: "ГЛАВНЫЙ СИГНАЛ",
       calibration: "КАЛИБРОВКА",
