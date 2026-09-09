@@ -25,6 +25,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `A coroa, a mola real, o vidro, o lume e o trem de engrenagens contam histórias diferentes do mesmo objeto. Consulte posições da coroa, siga um trem de rodas, compare materiais e explore complicações como fase lunar, calendário perpétuo e turbilhão. Tudo funciona no navegador e os dados de utilização ficam no seu dispositivo: uma biblioteca prática para colecionar, reparar, regular e olhar para os relógios com mais atenção.`,
     },
+    { type: "title", text: "O tempo como matéria", level: 2 },
+    {
+      type: "paragraph",
+      html: `Um relógio não mostra apenas uma hora. Guarda tensão, temperatura, ritmo e uma história de uso. Por isso, esta página foi pensada como um observatório. Entre por um número, siga uma roda, compare uma proporção ou fique algum tempo com um movimento. Cada ferramenta transforma uma operação invisível numa cena que o olhar e a mão conseguem compreender.`,
+    },
+    { type: "title", text: "Uma biblioteca para voltar", level: 2 },
+    {
+      type: "paragraph",
+      html: `Percorra a coleção sem pressa e volte quando a pergunta mudar. Os guias preparam uma compra, as calculadoras testam uma intuição e os visualizadores revelam o que normalmente fica escondido dentro da caixa. Juntos, formam um atlas aberto da relojoaria: exato quando é preciso, sensível quando o objeto pede para ser contemplado.`,
+    },
     {
       type: "stats",
       items: [

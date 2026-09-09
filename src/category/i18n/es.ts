@@ -29,13 +29,23 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `La corona, el muelle real, el cristal, el lume y el tren de engranajes cuentan historias distintas del mismo objeto. Aquí puedes consultar posiciones de corona, explorar una transmisión de ruedas, comparar materiales y visualizar complicaciones como la fase lunar, el calendario perpetuo o el tourbillon. Todo funciona en el navegador y los datos de uso permanecen en tu dispositivo: una biblioteca práctica para coleccionar, reparar, ajustar y mirar los relojes con más atención.`,
     },
+    { type: "title", text: "El tiempo como materia", level: 2 },
+    {
+      type: "paragraph",
+      html: `Un reloj no solo muestra una hora: conserva una tensión, una temperatura, un ritmo y una historia de uso. Por eso esta página está pensada como un observatorio. Puedes entrar por una cifra, seguir una rueda, comparar una proporción o quedarte mirando un movimiento. Cada herramienta convierte una operación invisible en una escena que se entiende con los ojos y con las manos.`,
+    },
+    { type: "title", text: "Una biblioteca para volver", level: 2 },
+    {
+      type: "paragraph",
+      html: `Explora la colección sin prisa y vuelve cuando cambie la pregunta. Las guías sirven para preparar una compra, las calculadoras ayudan a comprobar una intuición y los visualizadores hacen visible lo que normalmente permanece oculto dentro de la caja. El resultado es un atlas abierto de relojería: preciso cuando hace falta, sensible cuando el objeto pide ser contemplado.`,
+    },
     {
       type: "stats",
       items: [
         { label: "Instrumentos", value: "25", icon: "mdi:tools" },
         { label: "Calibres", value: "8+", icon: "mdi:engine" },
         { label: "Idiomas", value: "15", icon: "mdi:translate" },
-        { label: "Privacidad", value: "Local", icon: "mdi:shield-check" },
+        { label: "Privacidad", value: "En local", icon: "mdi:shield-check" },
       ],
     },
   ],

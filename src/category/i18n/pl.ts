@@ -25,6 +25,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `Koronka, sprężyna napędowa, szkło, luminescencja i przekładnia opowiadają różne historie tego samego przedmiotu. Poznaj pozycje koronki, prześledź przekładnię kół, porównaj materiały i zobacz komplikacje takie jak faza księżyca, kalendarz wieczny czy tourbillon. Wszystko działa w przeglądarce, a dane użytkowania pozostają na urządzeniu: praktyczna biblioteka do kolekcjonowania, naprawiania, regulowania i uważnego oglądania zegarków.`,
     },
+    { type: "title", text: "Czas jako materiał", level: 2 },
+    {
+      type: "paragraph",
+      html: `Zegarek nie pokazuje tylko godziny. Przechowuje napięcie, temperaturę, rytm i historię użytkowania. Dlatego ta strona jest pomyślana jak obserwatorium. Zacznij od liczby, podążaj za kołem, porównaj proporcję albo zatrzymaj się przy ruchu. Każde narzędzie zamienia niewidoczną operację w scenę zrozumiałą dla oka i dłoni.`,
+    },
+    { type: "title", text: "Biblioteka, do której chce się wracać", level: 2 },
+    {
+      type: "paragraph",
+      html: `Przechodź przez kolekcję bez pośpiechu i wracaj, gdy zmieni się pytanie. Przewodniki pomagają przygotować zakup, kalkulatory sprawdzają intuicję, a wizualizacje odsłaniają to, co zwykle pozostaje ukryte w kopercie. Razem tworzą otwarty atlas zegarmistrzostwa: precyzyjny, gdy trzeba, i wrażliwy, gdy przedmiot prosi o uwagę.`,
+    },
     {
       type: "stats",
       items: [

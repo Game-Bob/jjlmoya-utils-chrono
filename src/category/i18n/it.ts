@@ -25,6 +25,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `Corona, molla reale, vetro, lume e treno degli ingranaggi raccontano storie diverse dello stesso oggetto. Consulta le posizioni della corona, segui una trasmissione di ruote, confronta i materiali ed esplora complicazioni come fase lunare, calendario perpetuo e tourbillon. Tutto funziona nel browser e i dati d'uso restano sul tuo dispositivo: una biblioteca pratica per collezionare, riparare, regolare e osservare gli orologi con maggiore attenzione.`,
     },
+    { type: "title", text: "Il tempo come materia", level: 2 },
+    {
+      type: "paragraph",
+      html: `Un orologio non mostra soltanto un'ora. Conserva tensione, temperatura, ritmo e una storia d'uso. Per questo questa pagina è pensata come un osservatorio. Puoi entrare da una cifra, seguire una ruota, confrontare una proporzione o fermarti a guardare un movimento. Ogni strumento trasforma un'operazione invisibile in una scena che occhio e mano possono capire.`,
+    },
+    { type: "title", text: "Una biblioteca in cui tornare", level: 2 },
+    {
+      type: "paragraph",
+      html: `Esplora la raccolta senza fretta e torna quando cambia la domanda. Le guide preparano un acquisto, i calcolatori mettono alla prova un'intuizione e i visualizzatori rendono visibile ciò che di solito resta nascosto nella cassa. Insieme formano un atlante aperto dell'orologeria: preciso quando serve, sensibile quando l'oggetto chiede di essere osservato.`,
+    },
     {
       type: "stats",
       items: [

@@ -25,6 +25,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `La couronne, le ressort moteur, le verre, le lume et le train d'engrenages racontent chacun une histoire différente du même objet. Consultez les positions de couronne, suivez un train de rouages, comparez les matériaux et explorez des complications comme la phase de lune, le calendrier perpétuel ou le tourbillon. Tout fonctionne dans le navigateur et les données d'usage restent sur votre appareil: une bibliothèque pratique pour collectionner, réparer, régler et regarder les montres avec plus d'attention.`,
     },
+    { type: "title", text: "Le temps comme matière", level: 2 },
+    {
+      type: "paragraph",
+      html: `Une montre n'affiche pas seulement une heure. Elle conserve une tension, une température, un rythme et une histoire d'usage. Cette page est donc pensée comme un observatoire. Entrez par un chiffre, suivez une roue, comparez une proportion ou restez un moment avec un mouvement. Chaque outil transforme une opération invisible en une scène que l'oeil et la main peuvent comprendre.`,
+    },
+    { type: "title", text: "Une bibliothèque où revenir", level: 2 },
+    {
+      type: "paragraph",
+      html: `Parcourez la collection sans hâte et revenez lorsque la question change. Les guides préparent un achat, les calculateurs éprouvent une intuition et les visualisations révèlent ce qui reste habituellement caché dans le boîtier. Ensemble, ils forment un atlas ouvert de l'horlogerie: précis quand il le faut, sensible quand l'objet demande à être regardé.`,
+    },
     {
       type: "stats",
       items: [

@@ -29,6 +29,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `Krone, Zugfeder, Glas, Leuchtmasse und Räderwerk erzählen jeweils eine andere Geschichte desselben Gegenstands. Erkunden Sie Kronenpositionen, verfolgen Sie ein Räderwerk, vergleichen Sie Materialien und betrachten Sie Komplikationen wie Mondphase, ewigen Kalender oder Tourbillon. Alles läuft im Browser, Nutzungsdaten bleiben auf Ihrem Gerät: eine praktische Bibliothek zum Sammeln, Reparieren, Regulieren und aufmerksamen Betrachten von Uhren.`,
     },
+    { type: "title", text: "Zeit als Material", level: 2 },
+    {
+      type: "paragraph",
+      html: `Eine Uhr zeigt nicht nur eine Stunde. Sie bewahrt Spannung, Temperatur, Rhythmus und eine Geschichte der Nutzung. Deshalb ist diese Seite als Observatorium gedacht. Beginnen Sie mit einer Zahl, verfolgen Sie ein Rad, vergleichen Sie ein Verhältnis oder bleiben Sie eine Weile bei einer Bewegung. Jedes Werkzeug macht einen unsichtbaren Vorgang als Szene für Auge und Hand erfahrbar.`,
+    },
+    { type: "title", text: "Eine Bibliothek zum Wiederkehren", level: 2 },
+    {
+      type: "paragraph",
+      html: `Durchqueren Sie die Sammlung ohne Eile und kehren Sie zurück, wenn sich die Frage verändert. Die Führer bereiten einen Kauf vor, die Rechner prüfen eine Ahnung und die Visualisierungen zeigen, was sonst im Gehäuse verborgen bleibt. Zusammen entsteht ein offener Atlas der Uhrmacherei: präzise, wenn es nötig ist, und aufmerksam, wenn das Objekt betrachtet werden will.`,
+    },
     {
       type: "stats",
       items: [

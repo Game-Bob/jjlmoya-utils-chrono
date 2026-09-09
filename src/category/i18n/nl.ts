@@ -29,6 +29,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `De kroon, de drijfveer, het glas, het lume en de tandwieltrein vertellen elk een ander verhaal over hetzelfde object. Bekijk kroonposities, volg een tandwieltrein, vergelijk materialen en verken complicaties zoals maanfasen, een eeuwigdurende kalender en een tourbillon. Alles draait in de browser en gebruiksgegevens blijven op je apparaat: een praktische bibliotheek om horloges te verzamelen, te herstellen, af te regelen en aandachtiger te bekijken.`,
     },
+    { type: "title", text: "Tijd als materiaal", level: 2 },
+    {
+      type: "paragraph",
+      html: `Een horloge toont niet alleen een uur. Het bewaart spanning, temperatuur, ritme en een geschiedenis van gebruik. Daarom is deze pagina opgevat als een observatorium. Begin bij een getal, volg een wiel, vergelijk een verhouding of blijf even bij een beweging. Elke tool maakt een onzichtbare handeling zichtbaar voor oog en hand.`,
+    },
+    { type: "title", text: "Een bibliotheek om naar terug te keren", level: 2 },
+    {
+      type: "paragraph",
+      html: `Dwaal zonder haast door de collectie en kom terug wanneer de vraag verandert. De gidsen helpen bij een aankoop, de rekenmachines testen een vermoeden en de visualisaties tonen wat gewoonlijk in de kast verborgen blijft. Samen vormen ze een open atlas van de horologie: exact wanneer het moet, gevoelig wanneer het object aandacht vraagt.`,
+    },
     {
       type: "stats",
       items: [

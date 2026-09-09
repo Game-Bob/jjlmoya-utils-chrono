@@ -2,7 +2,6 @@
 import "../styles/chrono-category.css";
 import ProductionPage from "./ProductionPage.astro";
 import { Icon } from "astro-icon/components";
-import { SEORenderer } from "@jjlmoya/utils-shared";
 import ProductionBreadcrumb from "../components/ProductionBreadcrumb.astro";
 import type { KnownLocale, CategoryLocaleContent } from "../types";
 import { getCategoryPath } from "../mfe/routes";
@@ -30,6 +29,11 @@ const getToolType = (index: number, labels: typeof ui.toolTypes): string => {
     <div class="category-production-inner">
       <ProductionBreadcrumb locale={locale} currentTitle={category.title} />
       <header class="chrono-hero">
+        <div class="chrono-hero-ghost" aria-hidden="true">{category.title}</div>
+        <div class="chrono-hero-registration" aria-hidden="true">
+          <span>CH / 01</span>
+          <span>{ui.fieldGuide}</span>
+        </div>
         <div class="chrono-hero-copy">
           <p class="chrono-kicker"><span>CHRONO</span><span>{ui.fieldGuide}</span></p>
           <h1>{category.title}</h1>
@@ -59,6 +63,12 @@ const getToolType = (index: number, labels: typeof ui.toolTypes): string => {
           <div class="chrono-instrument-caption"><span>{ui.artCaptionLead}</span><strong>{ui.artCaptionMain}</strong></div>
         </div>
       </header>
+      <section class="chrono-manifesto" aria-label={ui.seoEyebrow}>
+        <span class="chrono-manifesto-mark" aria-hidden="true">02</span>
+        <p class="chrono-manifesto-label">{ui.seoEyebrow}</p>
+        <p class="chrono-manifesto-copy">{ui.seoLead}</p>
+        <span class="chrono-manifesto-line" aria-hidden="true"></span>
+      </section>
       <section class="chrono-index" id="chrono-tools" aria-labelledby="chrono-index-title">
         <div class="chrono-index-heading">
           <div>
@@ -83,7 +93,55 @@ const getToolType = (index: number, labels: typeof ui.toolTypes): string => {
           ))}
         </div>
       </section>
-      <section class="category-seo-production"><SEORenderer content={{ locale, sections: category.seo }} /></section>
+      <section class="category-seo-production" id="chrono-seo" aria-label={ui.seoEyebrow}>
+        <div class="chrono-seo-heading">
+          <div>
+            <p class="chrono-section-kicker">{ui.seoEyebrow}</p>
+            <p class="chrono-seo-display">{ui.artCaptionMain}</p>
+          </div>
+          <p class="chrono-seo-lead">{ui.seoLead}</p>
+        </div>
+        <div class="chrono-seo-layout">
+          <aside class="chrono-seo-rail" aria-hidden="true">
+            <span>03</span>
+            <span>{ui.fieldGuide}</span>
+            <span>{ui.localTimeLabel}</span>
+          </aside>
+          <article class="chrono-seo-article">
+            {category.seo.map((section) => {
+              if (section.type === "title") {
+                return <h2>{section.text}</h2>;
+              }
+              if (section.type === "paragraph") {
+                return <p set:html={section.html}></p>;
+              }
+              if (section.type === "stats") {
+                return (
+                  <div class={`seo-stats-grid cols-${section.columns ?? 3}`}>
+                    {section.items.map((stat) => (
+                      <div class="stat-card">
+                        <div class="stat-header">
+                          {stat.icon && <Icon name={stat.icon} class="stat-icon" />}
+                        </div>
+                        <div class="stat-main">
+                          <span class="stat-value">{stat.value}</span>
+                          <span class="stat-label">{stat.label}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </article>
+        </div>
+        <div class="chrono-seo-colophon" aria-hidden="true">
+          <span>{ui.artCaptionLead}</span>
+          <span>{ui.artCaptionMain}</span>
+          <span>CH / 2026</span>
+        </div>
+      </section>
     </div>
   </div>
 </ProductionPage>

@@ -25,6 +25,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `The crown, mainspring, crystal, lume, and gear train each tell a different story about the same object. Explore crown positions, follow a wheel train, compare materials, and visualise complications such as moon phase, perpetual calendar, and tourbillon. Everything runs in the browser and usage data stays on your device: a practical library for collecting, repairing, adjusting, and looking at watches with more attention.`,
     },
+    { type: "title", text: "Time as material", level: 2 },
+    {
+      type: "paragraph",
+      html: `A watch does not only display an hour. It holds tension, temperature, rhythm, and a history of use. That is why this page is shaped as an observatory. Enter through a figure, follow a wheel, compare a proportion, or stay with a movement for a while. Each tool turns an invisible operation into a scene understood by the eye and the hand.`,
+    },
+    { type: "title", text: "A library worth returning to", level: 2 },
+    {
+      type: "paragraph",
+      html: `Move through the collection without rushing and come back when the question changes. The guides prepare a purchase, the calculators test an intuition, and the visualisers reveal what usually stays hidden inside the case. Together they form an open atlas of horology: exact when it needs to be, sensitive when the object asks to be seen.`,
+    },
     {
       type: "stats",
       items: [

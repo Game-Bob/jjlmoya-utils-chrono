@@ -11,6 +11,8 @@ export interface CategoryArtUi {
   indexLabel: string;
   indexTitle: string;
   indexIntro: string;
+  seoEyebrow: string;
+  seoLead: string;
   toolTypes: { primary: string; calibration: string; reference: string };
 }
 
@@ -28,6 +30,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Un archivo vivo del tiempo.",
     indexIntro:
       "Cada herramienta es un instrumento pequeño: responde una pregunta precisa y después desaparece para dejarte pensar.",
+    seoEyebrow: "MANIFIESTO / TIEMPO VISIBLE",
+    seoLead:
+      "Una colección para mirar el tiempo por dentro: medirlo, compararlo, imaginarlo y devolverle el asombro.",
     toolTypes: {
       primary: "SEÑAL PRINCIPAL",
       calibration: "CALIBRACIÓN",
@@ -47,6 +52,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "A living archive of time.",
     indexIntro:
       "Every tool is a small instrument: it answers one precise question, then disappears so you can think.",
+    seoEyebrow: "MANIFESTO / VISIBLE TIME",
+    seoLead:
+      "A collection for looking inside time: measuring it, comparing it, imagining it, and giving wonder back to it.",
     toolTypes: {
       primary: "PRIMARY SIGNAL",
       calibration: "CALIBRATION",
@@ -66,6 +74,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Une archive vivante du temps.",
     indexIntro:
       "Chaque outil est un petit instrument: il répond à une question précise, puis s'efface pour vous laisser réfléchir.",
+    seoEyebrow: "MANIFESTE / TEMPS VISIBLE",
+    seoLead:
+      "Une collection pour regarder le temps de l'intérieur: le mesurer, le comparer, l'imaginer et lui rendre sa part d'émerveillement.",
     toolTypes: {
       primary: "SIGNAL PRINCIPAL",
       calibration: "CALIBRATION",
@@ -84,6 +95,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Ein lebendiges Archiv der Zeit.",
     indexIntro:
       "Jedes Werkzeug ist ein kleines Instrument: Es beantwortet eine präzise Frage und tritt dann zurück, damit Sie weiterdenken können.",
+    seoEyebrow: "MANIFEST / SICHTBARE ZEIT",
+    seoLead:
+      "Eine Sammlung, um in die Zeit hineinzusehen: sie zu messen, zu vergleichen, zu imaginieren und ihr Staunen zurückzugeben.",
     toolTypes: {
       primary: "HAUPTSIGNAL",
       calibration: "KALIBRIERUNG",
@@ -103,6 +117,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Un archivio vivente del tempo.",
     indexIntro:
       "Ogni strumento è un piccolo dispositivo: risponde a una domanda precisa e poi si fa da parte, lasciandoti pensare.",
+    seoEyebrow: "MANIFESTO / TEMPO VISIBILE",
+    seoLead:
+      "Una raccolta per guardare dentro il tempo: misurarlo, confrontarlo, immaginarlo e restituirgli meraviglia.",
     toolTypes: {
       primary: "SEGNALE PRINCIPALE",
       calibration: "CALIBRAZIONE",
@@ -122,6 +139,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Um arquivo vivo do tempo.",
     indexIntro:
       "Cada ferramenta é um pequeno instrumento: responde a uma pergunta precisa e depois sai de cena para você continuar pensando.",
+    seoEyebrow: "MANIFESTO / TEMPO VISÍVEL",
+    seoLead:
+      "Uma coleção para olhar o tempo por dentro: medi-lo, compará-lo, imaginá-lo e devolver-lhe o espanto.",
     toolTypes: {
       primary: "SINAL PRINCIPAL",
       calibration: "CALIBRAÇÃO",
@@ -141,6 +161,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Een levend archief van tijd.",
     indexIntro:
       "Elke tool is een klein instrument: hij beantwoordt één precieze vraag en verdwijnt daarna, zodat jij kunt blijven denken.",
+    seoEyebrow: "MANIFEST / ZICHTBARE TIJD",
+    seoLead:
+      "Een collectie om in de tijd te kijken: haar meten, vergelijken, verbeelden en haar verwondering teruggeven.",
     toolTypes: {
       primary: "HOOFDSIGNAAL",
       calibration: "KALIBRATIE",
@@ -160,6 +183,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Ett levande arkiv över tid.",
     indexIntro:
       "Varje verktyg är ett litet instrument: det besvarar en exakt fråga och kliver sedan åt sidan så att du kan tänka vidare.",
+    seoEyebrow: "MANIFEST / SYNLIG TID",
+    seoLead:
+      "En samling för att se in i tiden: mäta den, jämföra den, föreställa sig den och ge tillbaka dess förundran.",
     toolTypes: {
       primary: "HUVUDSIGNAL",
       calibration: "KALIBRERING",
@@ -179,6 +205,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Żywe archiwum czasu.",
     indexIntro:
       "Każde narzędzie jest małym instrumentem: odpowiada na jedno precyzyjne pytanie, a potem znika, żebyś mógł myśleć dalej.",
+    seoEyebrow: "MANIFEST / WIDZIALNY CZAS",
+    seoLead:
+      "Kolekcja do zaglądania w czas: mierzenia go, porównywania, wyobrażania sobie i przywracania mu zachwytu.",
     toolTypes: {
       primary: "SYGNAŁ GŁÓWNY",
       calibration: "KALIBRACJA",
@@ -198,6 +227,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Arsip waktu yang hidup.",
     indexIntro:
       "Setiap alat adalah instrumen kecil: menjawab satu pertanyaan yang tepat, lalu menyingkir agar Anda dapat terus berpikir.",
+    seoEyebrow: "MANIFESTO / WAKTU YANG TERLIHAT",
+    seoLead:
+      "Koleksi untuk melihat ke dalam waktu: mengukurnya, membandingkannya, membayangkannya, dan mengembalikan rasa takjub.",
     toolTypes: {
       primary: "SINYAL UTAMA",
       calibration: "KALIBRASI",
@@ -217,6 +249,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "Zamanın yaşayan arşivi.",
     indexIntro:
       "Her araç küçük bir enstrümandır: tek bir kesin soruyu yanıtlar, sonra düşünmeye devam edebilmeniz için geri çekilir.",
+    seoEyebrow: "MANİFESTO / GÖRÜNÜR ZAMAN",
+    seoLead:
+      "Zamana içeriden bakmak için bir koleksiyon: onu ölçmek, karşılaştırmak, hayal etmek ve hayranlığını geri vermek.",
     toolTypes: {
       primary: "ANA SİNYAL",
       calibration: "KALİBRASYON",
@@ -235,7 +270,10 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexLabel: "ИНДЕКС / {count} ИНСТРУМЕНТОВ",
     indexTitle: "Живой архив времени.",
     indexIntro:
-      "Каждый инструмент, небольшое устройство: он отвечает на один точный вопрос, а затем отступает, чтобы вы могли думать дальше.",
+      "Каждый инструмент представляет собой небольшое устройство: он отвечает на один точный вопрос, а затем отступает, чтобы вы могли думать дальше.",
+    seoEyebrow: "МАНИФЕСТ / ВИДИМОЕ ВРЕМЯ",
+    seoLead:
+      "Коллекция, которая позволяет заглянуть внутрь времени: измерять его, сравнивать, представлять и возвращать ему чувство чуда.",
     toolTypes: {
       primary: "ГЛАВНЫЙ СИГНАЛ",
       calibration: "КАЛИБРОВКА",
@@ -254,6 +292,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "時間の生きたアーカイブ。",
     indexIntro:
       "すべてのツールは小さな計器です。ひとつの問いに正確に答えたら、考える余白を残して静かに退きます。",
+    seoEyebrow: "マニフェスト / 見える時間",
+    seoLead:
+      "時間の内側を見つめるためのコレクション。測り、比べ、想像し、驚きを取り戻します。",
     toolTypes: {
       primary: "メインシグナル",
       calibration: "キャリブレーション",
@@ -272,6 +313,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "살아 있는 시간의 아카이브.",
     indexIntro:
       "모든 도구는 작은 계기입니다. 하나의 정확한 질문에 답한 뒤, 계속 생각할 수 있도록 조용히 물러납니다.",
+    seoEyebrow: "매니페스토 / 보이는 시간",
+    seoLead:
+      "시간의 안쪽을 바라보는 컬렉션입니다. 측정하고, 비교하고, 상상하며, 경이로움을 되돌려 줍니다.",
     toolTypes: { primary: "주요 신호", calibration: "보정", reference: "참고" },
   },
   zh: {
@@ -286,6 +330,9 @@ export const CATEGORY_ART_UI: Record<KnownLocale, CategoryArtUi> = {
     indexTitle: "时间的活档案。",
     indexIntro:
       "每件工具都是一台小型仪器：回答一个精确的问题，然后退到一旁，让你继续思考。",
+    seoEyebrow: "宣言 / 可见的时间",
+    seoLead:
+      "一组凝视时间内部的工具：测量它、比较它、想象它，再把惊奇还给它。",
     toolTypes: { primary: "主信号", calibration: "校准", reference: "参考" },
   },
 };

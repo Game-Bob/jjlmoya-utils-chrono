@@ -25,13 +25,23 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `Kronan, drivfjädern, glaset, lysmassan och kugghjulståget berättar olika historier om samma föremål. Utforska kronpositioner, följ ett kugghjulståg, jämför material och se komplikationer som månfas, evighetskalender och tourbillon. Allt körs i webbläsaren och användningsdata stannar på din enhet: ett praktiskt bibliotek för att samla, reparera, reglera och se på klockor med större uppmärksamhet.`,
     },
+    { type: "title", text: "Tid som material", level: 2 },
+    {
+      type: "paragraph",
+      html: `En klocka visar inte bara en timme. Den bär på spänning, temperatur, rytm och en historia av användning. Därför är sidan formad som ett observatorium. Börja med en siffra, följ ett hjul, jämför en proportion eller stanna en stund vid en rörelse. Varje verktyg gör en osynlig operation synlig för öga och hand.`,
+    },
+    { type: "title", text: "Ett bibliotek att återvända till", level: 2 },
+    {
+      type: "paragraph",
+      html: `Rör dig genom samlingen utan brådska och återvänd när frågan förändras. Guiderna förbereder ett köp, räknarna prövar en intuition och visualiseringarna visar det som annars göms i boetten. Tillsammans bildar de en öppen atlas över urmakeri: exakt när det behövs, känslig när objektet vill betraktas.`,
+    },
     {
       type: "stats",
       items: [
         { label: "Instrument", value: "25", icon: "mdi:tools" },
         { label: "Kalibrar", value: "8+", icon: "mdi:engine" },
         { label: "Språk", value: "15", icon: "mdi:translate" },
-        { label: "Dataintegritet", value: "Local", icon: "mdi:shield-check" },
+        { label: "Dataintegritet", value: "Lokalt", icon: "mdi:shield-check" },
       ],
     },
   ],

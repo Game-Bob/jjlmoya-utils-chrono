@@ -25,13 +25,23 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `表冠、发条、表镜、夜光和齿轮传动，分别讲述同一件物品的不同故事。查看表冠位置，跟随齿轮传动，比较材料，并探索月相、万年历与陀飞轮等复杂功能。所有工具都在浏览器中运行，使用数据留在你的设备上：这是一个用于收藏、维修、调校，并更专注地观看腕表的实用资料库。`,
     },
+    { type: "title", text: "作为材料的时间", level: 2 },
+    {
+      type: "paragraph",
+      html: `手表显示的不只是时间。它保存着张力、温度、节奏和使用的历史。因此，这个页面被设计成一座观测站。你可以从一个数字进入，追随一枚齿轮，比较一种比例，或停下来观看一段运动。每件工具都把不可见的操作变成眼睛和双手能够理解的场景。`,
+    },
+    { type: "title", text: "一座值得反复返回的图书馆", level: 2 },
+    {
+      type: "paragraph",
+      html: `不必匆忙浏览这组收藏，问题改变时再回来。指南帮助你准备购买，计算器检验直觉，可视化工具则揭示通常藏在表壳内部的内容。它们共同组成一幅开放的钟表学地图：需要时足够精确，面对物件时保留观看的敏感。`,
+    },
     {
       type: "stats",
       items: [
         { label: "仪器", value: "25", icon: "mdi:tools" },
         { label: "机芯", value: "8+", icon: "mdi:engine" },
         { label: "语言", value: "15", icon: "mdi:translate" },
-        { label: "数据隐私", value: "Local", icon: "mdi:shield-check" },
+        { label: "数据隐私", value: "本地", icon: "mdi:shield-check" },
       ],
     },
   ],

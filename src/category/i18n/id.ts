@@ -25,6 +25,16 @@ export const content: CategoryLocaleContent = {
       type: "paragraph",
       html: `Crown, mainspring, kristal, lume, dan rangkaian roda gigi masing-masing menceritakan kisah berbeda tentang objek yang sama. Jelajahi posisi crown, ikuti rangkaian roda gigi, bandingkan material, dan lihat komplikasi seperti fase bulan, kalender perpetual, serta tourbillon. Semuanya berjalan di browser dan data penggunaan tetap berada di perangkat Anda: perpustakaan praktis untuk mengoleksi, memperbaiki, menyetel, dan mengamati jam dengan lebih saksama.`,
     },
+    { type: "title", text: "Waktu sebagai material", level: 2 },
+    {
+      type: "paragraph",
+      html: `Sebuah jam tidak hanya menampilkan waktu. Ia menyimpan tegangan, suhu, ritme, dan sejarah pemakaian. Karena itu halaman ini dirancang sebagai observatorium. Mulailah dari sebuah angka, ikuti roda, bandingkan proporsi, atau berhenti sejenak untuk melihat gerakan. Setiap alat mengubah proses yang tak terlihat menjadi adegan yang dapat dipahami mata dan tangan.`,
+    },
+    { type: "title", text: "Perpustakaan untuk dikunjungi kembali", level: 2 },
+    {
+      type: "paragraph",
+      html: `Jelajahi koleksi tanpa tergesa dan kembali ketika pertanyaan berubah. Panduan membantu menyiapkan pembelian, kalkulator menguji intuisi, dan visualisasi memperlihatkan hal yang biasanya tersembunyi di dalam casing. Bersama-sama, semuanya menjadi atlas horologi yang terbuka: tepat saat diperlukan, peka saat benda itu meminta untuk diperhatikan.`,
+    },
     {
       type: "stats",
       items: [
