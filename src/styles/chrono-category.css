@@ -1231,8 +1231,46 @@
   .category-tool-card.is-featured,
   .category-tool-card:nth-child(2),
   .category-tool-card:nth-child(n + 3) {
-    grid-column: auto;
-    min-height: 20rem;
+    grid-column: 1 / -1;
+    min-height: 0;
+    padding: 1.15rem;
+  }
+
+  .category-tools-grid > .category-tool-card:nth-child(n) {
+    grid-column: 1 / -1;
+  }
+
+  /* Keep utility cards readable on narrow screens. The desktop composition
+     relies on tall editorial panels, but that height leaves too little room
+     for the actual content on phones. */
+  .category-tool-card h3,
+  .category-tool-card.is-featured h3 {
+    max-width: 18ch;
+    margin-top: 2.4rem;
+    font-size: clamp(1.65rem, 8vw, 2.35rem);
+    line-height: 0.98;
+  }
+
+  .category-tool-card.is-featured h3 {
+    max-width: 14ch;
+  }
+
+  .category-tool-card p {
+    max-width: none;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .category-tool-cta {
+    margin-top: 1.1rem;
+    padding-top: 0.7rem;
+  }
+
+  .category-tool-card.is-featured::after {
+    right: -10rem;
+    bottom: -13rem;
+    width: 22rem;
+    height: 22rem;
   }
 
   .category-seo-production {
@@ -1275,10 +1313,6 @@
     max-width: 100%;
     margin-right: 0;
     margin-left: 0;
-  }
-
-  .category-tool-card.is-featured h3 {
-    font-size: clamp(2.8rem, 16vw, 4.8rem);
   }
 
   .category-seo-production .seo-stats-grid {
